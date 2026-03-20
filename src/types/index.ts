@@ -97,6 +97,28 @@ export interface AnalystData {
 
 export type AnalystDataMap = Record<string, AnalystData>;
 
+// ─── Korean Consensus Data (from crawler) ───
+export interface KoreanConsensusItem {
+  code: string;
+  ticker: string;
+  currentPrice: number | null;
+  targetPrice: number | null;
+  analystCount: number | null;
+  per: number | null;
+  pbr: number | null;
+  eps: number | null;
+  bps: number | null;
+  dividendYield: number | null;
+  estimatedRevenue: number | null;
+  estimatedOperatingIncome: number | null;
+}
+
+export interface KoreanConsensusData {
+  fetchedAt: string;
+  stockCount: number;
+  stocks: Record<string, KoreanConsensusItem>;
+}
+
 // ─── UI State ───
 export type SortField = '종목명' | '현재가' | '가중평균단가' | '평가금액(원)' | '매수금액(원)' | '손익(원)' | '수익률' | 'targetPrice' | 'upside' | 'peRatio' | 'pbrRatio';
 export type SortOrder = 'asc' | 'desc';

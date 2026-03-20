@@ -1,6 +1,7 @@
 import { useState, useMemo, useCallback } from 'react';
-import type { PortfolioData, AnalystDataMap, SortState, SortField, FilterState, MergedItem } from '@/types';
+import type { PortfolioData, KoreanConsensusData, AnalystDataMap, SortState, SortField, FilterState, MergedItem } from '@/types';
 import portfolioData from '@/data/portfolio.json';
+import koreanConsensusRaw from '@/data/korean-consensus.json';
 import Header from '@/components/Header';
 import SummaryCards from '@/components/SummaryCards';
 import FilterPanel from '@/components/FilterPanel';
@@ -8,9 +9,11 @@ import StockTable from '@/components/StockTable';
 import DetailPanel from '@/components/DetailPanel';
 import DebugPanel from '@/components/DebugPanel';
 import { getApiKey, setApiKey, fetchAllAnalystData, clearCache, getCachedData, isKoreanStock, isETFOrIndex } from '@/lib/api';
-import { mergePortfolioItems, getUpsidePercent } from '@/lib/utils';
+import { mergePortfolioItems, getUpsidePercent, koreanConsensusToAnalystData } from '@/lib/utils';
 
 const data = portfolioData as PortfolioData;
+const koreanConsensus = koreanConsensusRaw as KoreanConsensusData;
+const krAnalystData = koreanConsensusToAnalystData(koreanConsensus);
 
 export default function App() {
   const [apiKey, setApiKeyState] = useState(getApiKey);
@@ -78,9 +81,15 @@ export default function App() {
     });
   }, [mergedItems, filters]);
 
+  // Merge Korean consensus + FMP data (FMP takes priority)
+  const combinedData = useMemo<AnalystDataMap>(() => {
+    return { ...krAnalystData, ...analystData };
+  }, [analystData]);
+
   // Sort
   const sortedItems = useMemo(() => {
     const arr = [...filteredItems];
+    const cd = combinedData;
     arr.sort((a, b) => {
       let aVal = 0, bVal = 0;
       switch (sortState.field) {
@@ -93,29 +102,29 @@ export default function App() {
         case '손익(원)': aVal = a['손익(원)']; bVal = b['손익(원)']; break;
         case '수익률': aVal = a.수익률; bVal = b.수익률; break;
         case 'targetPrice':
-          aVal = analystData[a.티커]?.priceTarget?.targetConsensus || 0;
-          bVal = analystData[b.티커]?.priceTarget?.targetConsensus || 0;
+          aVal = cd[a.티커]?.priceTarget?.targetConsensus || 0;
+          bVal = cd[b.티커]?.priceTarget?.targetConsensus || 0;
           break;
         case 'upside': {
-          const at = analystData[a.티커]?.priceTarget?.targetConsensus || 0;
-          const bt = analystData[b.티커]?.priceTarget?.targetConsensus || 0;
+          const at = cd[a.티커]?.priceTarget?.targetConsensus || 0;
+          const bt = cd[b.티커]?.priceTarget?.targetConsensus || 0;
           aVal = at ? getUpsidePercent(a.현재가, at) : -999;
           bVal = bt ? getUpsidePercent(b.현재가, bt) : -999;
           break;
         }
         case 'peRatio':
-          aVal = analystData[a.티커]?.keyMetrics?.peRatioTTM || analystData[a.티커]?.quote?.pe || 9999;
-          bVal = analystData[b.티커]?.keyMetrics?.peRatioTTM || analystData[b.티커]?.quote?.pe || 9999;
+          aVal = cd[a.티커]?.keyMetrics?.peRatioTTM || cd[a.티커]?.quote?.pe || 9999;
+          bVal = cd[b.티커]?.keyMetrics?.peRatioTTM || cd[b.티커]?.quote?.pe || 9999;
           break;
         case 'pbrRatio':
-          aVal = analystData[a.티커]?.keyMetrics?.priceToBookRatioTTM || 9999;
-          bVal = analystData[b.티커]?.keyMetrics?.priceToBookRatioTTM || 9999;
+          aVal = cd[a.티커]?.keyMetrics?.priceToBookRatioTTM || 9999;
+          bVal = cd[b.티커]?.keyMetrics?.priceToBookRatioTTM || 9999;
           break;
       }
       return sortState.order === 'asc' ? aVal - bVal : bVal - aVal;
     });
     return arr;
-  }, [filteredItems, sortState, analystData]);
+  }, [filteredItems, sortState, combinedData]);
 
   const handleSort = (field: SortField) => {
     setSortState(prev => ({ field, order: prev.field === field && prev.order === 'desc' ? 'asc' : 'desc' }));
@@ -123,16 +132,16 @@ export default function App() {
 
   const selectedItem = selectedTicker ? mergedItems.find(i => i.티커 === selectedTicker) : null;
   const lastFetched = useMemo(() => Object.values(analystData)[0]?.fetchedAt || null, [analystData]);
-  const loadedCount = Object.keys(analystData).length;
+  const totalLoadedCount = Object.keys(combinedData).length;
 
   return (
     <div className="min-h-screen bg-[#0a0e17]">
       <Header apiKey={apiKey} onApiKeyChange={handleApiKeyChange} onFetchAll={handleFetchAll}
         onClearCache={handleClearCache} isFetching={isFetching} progress={progress}
-        lastFetched={lastFetched} fetchError={fetchError} loadedCount={loadedCount} metadata={data.metadata} />
+        lastFetched={lastFetched} fetchError={fetchError} loadedCount={totalLoadedCount} metadata={data.metadata} />
 
       <main className="max-w-[1600px] mx-auto px-6 py-6 space-y-6">
-        <SummaryCards items={filteredItems} analystData={analystData} />
+        <SummaryCards items={filteredItems} analystData={combinedData} />
 
         <div className="flex gap-6">
           <aside className="w-56 shrink-0 hidden lg:block">
@@ -142,14 +151,14 @@ export default function App() {
           </aside>
 
           <div className={selectedItem ? 'flex-1 min-w-0' : 'flex-1'}>
-            <StockTable items={sortedItems} analystData={analystData} sortState={sortState}
+            <StockTable items={sortedItems} analystData={combinedData} sortState={sortState}
               onSort={handleSort} selectedTicker={selectedTicker} onSelect={setSelectedTicker} />
           </div>
 
           {selectedItem && (
             <aside className="w-[420px] shrink-0 hidden xl:block">
               <div className="sticky top-24">
-                <DetailPanel item={selectedItem} analystData={analystData[selectedItem.티커] || null}
+                <DetailPanel item={selectedItem} analystData={combinedData[selectedItem.티커] || null}
                   onClose={() => setSelectedTicker(null)} />
               </div>
             </aside>

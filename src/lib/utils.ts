@@ -1,4 +1,52 @@
-import type { PortfolioItem, MergedItem } from '@/types';
+import type { PortfolioItem, MergedItem, KoreanConsensusData, AnalystDataMap, AnalystData } from '@/types';
+
+// ─── Convert Korean consensus to AnalystData format ───
+
+export function koreanConsensusToAnalystData(krData: KoreanConsensusData): AnalystDataMap {
+  const result: AnalystDataMap = {};
+
+  for (const [ticker, item] of Object.entries(krData.stocks)) {
+    const ad: AnalystData = {
+      quote: item.currentPrice ? {
+        symbol: item.code,
+        price: item.currentPrice,
+        pe: item.per || 0,
+        marketCap: 0,
+        eps: item.eps || 0,
+        priceAvg50: 0, priceAvg200: 0,
+        sharesOutstanding: 0,
+        yearHigh: 0, yearLow: 0,
+      } : null,
+      rating: null,
+      keyMetrics: (item.per || item.pbr) ? {
+        peRatioTTM: item.per || 0,
+        pegRatioTTM: 0,
+        priceToBookRatioTTM: item.pbr || 0,
+        priceToSalesRatioTTM: 0,
+        enterpriseValueOverEBITDATTM: 0,
+        dividendYieldTTM: item.dividendYield ? item.dividendYield / 100 : 0,
+        marketCapTTM: 0,
+        debtToEquityTTM: 0,
+        roeTTM: 0,
+        currentRatioTTM: 0,
+      } : null,
+      incomeStatements: [],
+      estimates: [],
+      priceTarget: item.targetPrice ? {
+        symbol: item.code,
+        targetHigh: item.targetPrice * 1.15,   // Rough estimate since we only have consensus
+        targetLow: item.targetPrice * 0.85,
+        targetConsensus: item.targetPrice,
+        targetMedian: item.targetPrice,
+      } : null,
+      fetchedAt: krData.fetchedAt,
+    };
+
+    result[ticker] = ad;
+  }
+
+  return result;
+}
 
 // ─── Merge duplicate tickers ───
 

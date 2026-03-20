@@ -1,0 +1,72 @@
+name: Crawl Korean Stock Consensus
+
+on:
+  schedule:
+    # Run daily at KST 07:00 (UTC 22:00 previous day)
+    - cron: "0 22 * * *"
+  workflow_dispatch: # Manual trigger
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Run Korean stock crawler
+        run: python scripts/crawl_korean.py
+
+      - name: Check for changes
+        id: check
+        run: |
+          git diff --quiet src/data/korean-consensus.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push
+        if: steps.check.outputs.changed == 'true'
+        run: |
+          git config user.name "consensus-bot"
+          git config user.email "consensus-bot@users.noreply.github.com"
+          git add src/data/korean-consensus.json
+          git commit -m "data: update Korean consensus $(date +%Y-%m-%d)"
+          git push
+
+  # Re-deploy after data update
+  build-and-deploy:
+    needs: crawl
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main  # Get latest with updated data
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - run: npm ci
+      - run: npm run build
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
+
+      - id: deployment
+        uses: actions/deploy-pages@v4
