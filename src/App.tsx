@@ -6,6 +6,7 @@ import SummaryCards from '@/components/SummaryCards';
 import FilterPanel from '@/components/FilterPanel';
 import StockTable from '@/components/StockTable';
 import DetailPanel from '@/components/DetailPanel';
+import DebugPanel from '@/components/DebugPanel';
 import { getApiKey, setApiKey, fetchAllAnalystData, clearCache, getCachedData, isKoreanStock, isETFOrIndex } from '@/lib/api';
 import { getUpsidePercent } from '@/lib/utils';
 
@@ -215,6 +216,7 @@ export default function App() {
           )}
         </div>
       </main>
+      <DebugPanel />
     </div>
   );
 }
