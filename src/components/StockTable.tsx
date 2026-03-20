@@ -26,7 +26,7 @@ function UpsideCell({ value }: { value: number }) {
   const Icon = pct > 0 ? TrendingUp : pct < 0 ? TrendingDown : Minus;
 
   return (
-    <span className={`flex items-center gap-1 font-mono text-xs ${color}`}>
+    <span className={`flex items-center justify-end gap-1 font-mono text-xs ${color}`}>
       <Icon className="w-3 h-3" />
       {pct >= 0 ? '+' : ''}{pct.toFixed(1)}%
     </span>
@@ -38,7 +38,9 @@ export default function StockTable({
 }: StockTableProps) {
   const columns: { key: SortField; label: string; align?: 'right' | 'center' }[] = [
     { key: '종목명', label: '종목' },
+    { key: '현재가', label: '현재가', align: 'right' },
     { key: '평가금액(원)', label: '평가금액', align: 'right' },
+    { key: '손익(원)', label: '수익금', align: 'right' },
     { key: '수익률', label: '수익률', align: 'right' },
     { key: 'targetPrice', label: '목표주가', align: 'right' },
     { key: 'upside', label: '상승여력', align: 'right' },
@@ -57,7 +59,7 @@ export default function StockTable({
                   key={col.key}
                   onClick={() => onSort(col.key)}
                   className={cn(
-                    'px-4 py-3 text-[11px] font-semibold text-slate-500 uppercase tracking-wider cursor-pointer hover:text-slate-300 transition-colors select-none whitespace-nowrap',
+                    'px-3 py-3 text-[11px] font-semibold text-slate-500 uppercase tracking-wider cursor-pointer hover:text-slate-300 transition-colors select-none whitespace-nowrap',
                     col.align === 'right' && 'text-right',
                     col.align === 'center' && 'text-center',
                   )}
@@ -73,15 +75,17 @@ export default function StockTable({
           <tbody>
             {items.map((item, idx) => {
               const ad = analystData[item.티커];
-              const isKR = isKoreanStock(item.티커);
               const isETF = isETFOrIndex(item.티커, item.섹터);
               const pt = ad?.priceTarget;
               const km = ad?.keyMetrics;
+              const quote = ad?.quote;
               const rating = ad?.rating;
 
               const targetPrice = pt?.targetConsensus || 0;
-              const upside = targetPrice && item.현재가 ? getUpsidePercent(item.현재가, targetPrice) : 0;
+              const currentPrice = item.현재가;
+              const upside = targetPrice && currentPrice ? getUpsidePercent(currentPrice, targetPrice) : 0;
               const ratingInfo = rating ? getRatingLabel(rating.ratingRecommendation) : null;
+              const pe = km?.peRatioTTM || (quote?.pe) || 0;
 
               const isSelected = selectedTicker === item.티커;
 
@@ -95,8 +99,8 @@ export default function StockTable({
                   )}
                 >
                   {/* 종목 */}
-                  <td className="px-4 py-3">
-                    <div className="flex items-center gap-2.5">
+                  <td className="px-3 py-3">
+                    <div className="flex items-center gap-2">
                       <div>
                         <div className="text-sm font-medium text-slate-200 leading-tight">
                           {item.종목명}
@@ -105,20 +109,42 @@ export default function StockTable({
                           <span className="ticker-badge text-slate-500">{item.티커}</span>
                           <span className="text-[10px] text-slate-600">·</span>
                           <span className="text-[10px] text-slate-600">{item.섹터}</span>
-                          {isKR && <span className="text-[9px] px-1 py-0.5 rounded bg-blue-500/10 text-blue-400/60 font-medium">KR</span>}
-                          {isETF && <span className="text-[9px] px-1 py-0.5 rounded bg-slate-500/10 text-slate-500 font-medium">ETF</span>}
                         </div>
                       </div>
                     </div>
                   </td>
 
+                  {/* 현재가 */}
+                  <td className="px-3 py-3 text-right">
+                    <span className="font-mono text-xs text-slate-300">
+                      {item.통화 === 'KRW'
+                        ? currentPrice.toLocaleString('ko-KR')
+                        : item.통화 === 'HKD'
+                          ? `HK$${currentPrice.toFixed(2)}`
+                          : `$${currentPrice.toFixed(2)}`}
+                    </span>
+                    <div className="text-[10px] text-slate-600 font-mono mt-0.5">
+                      {item.통화}
+                    </div>
+                  </td>
+
                   {/* 평가금액 */}
-                  <td className="px-4 py-3 text-right">
+                  <td className="px-3 py-3 text-right">
                     <span className="font-mono text-xs text-slate-300">{formatKRW(item['평가금액(원)'])}</span>
                   </td>
 
+                  {/* 수익금 */}
+                  <td className="px-3 py-3 text-right">
+                    <span className={cn(
+                      'font-mono text-xs',
+                      item['손익(원)'] > 0 ? 'text-emerald-400' : item['손익(원)'] < 0 ? 'text-red-400' : 'text-slate-400'
+                    )}>
+                      {item['손익(원)'] >= 0 ? '+' : ''}{formatKRW(item['손익(원)'])}
+                    </span>
+                  </td>
+
                   {/* 수익률 */}
-                  <td className="px-4 py-3 text-right">
+                  <td className="px-3 py-3 text-right">
                     <span className={cn(
                       'font-mono text-xs',
                       item.수익률 >= 0 ? 'text-emerald-400' : 'text-red-400'
@@ -128,7 +154,7 @@ export default function StockTable({
                   </td>
 
                   {/* 목표주가 */}
-                  <td className="px-4 py-3 text-right">
+                  <td className="px-3 py-3 text-right">
                     {targetPrice && !isETF ? (
                       <span className="font-mono text-xs text-slate-300">
                         {item.통화 === 'KRW' ? formatKRW(targetPrice) : `$${targetPrice.toFixed(2)}`}
@@ -139,19 +165,19 @@ export default function StockTable({
                   </td>
 
                   {/* 상승여력 */}
-                  <td className="px-4 py-3 text-right">
+                  <td className="px-3 py-3 text-right">
                     {!isETF && targetPrice ? <UpsideCell value={upside} /> : <span className="text-slate-600 text-xs">—</span>}
                   </td>
 
                   {/* PER */}
-                  <td className="px-4 py-3 text-right">
+                  <td className="px-3 py-3 text-right">
                     <span className="font-mono text-xs text-slate-400">
-                      {km?.peRatioTTM && !isETF ? formatRatio(km.peRatioTTM) : '—'}
+                      {pe && !isETF ? formatRatio(pe) : '—'}
                     </span>
                   </td>
 
                   {/* 등급 */}
-                  <td className="px-4 py-3 text-center">
+                  <td className="px-3 py-3 text-center">
                     {ratingInfo && !isETF ? (
                       <span className={`inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-semibold border ${ratingInfo.color}`}>
                         {ratingInfo.label}

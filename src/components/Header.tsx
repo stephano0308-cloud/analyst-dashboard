@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Key, RefreshCw, Trash2, Database, ExternalLink } from 'lucide-react';
+import { Key, RefreshCw, Trash2, Database, ExternalLink, AlertTriangle } from 'lucide-react';
 
 interface HeaderProps {
   apiKey: string;
@@ -9,12 +9,14 @@ interface HeaderProps {
   isFetching: boolean;
   progress: { done: number; total: number; current: string } | null;
   lastFetched: string | null;
+  fetchError: string | null;
+  loadedCount: number;
   metadata: { date: string; exchange_rate: { USD: number; HKD: number }; total_items: number };
 }
 
 export default function Header({
   apiKey, onApiKeyChange, onFetchAll, onClearCache,
-  isFetching, progress, lastFetched, metadata
+  isFetching, progress, lastFetched, fetchError, loadedCount, metadata
 }: HeaderProps) {
   const [showKeyInput, setShowKeyInput] = useState(false);
   const [tempKey, setTempKey] = useState(apiKey);
@@ -27,7 +29,7 @@ export default function Header({
   return (
     <header className="border-b border-slate-800 bg-[#0d1117] sticky top-0 z-50">
       <div className="max-w-[1600px] mx-auto px-6 py-4">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between flex-wrap gap-3">
           {/* Left */}
           <div>
             <h1 className="text-xl font-semibold text-slate-100 tracking-tight flex items-center gap-2">
@@ -40,11 +42,21 @@ export default function Header({
           </div>
 
           {/* Right */}
-          <div className="flex items-center gap-3">
-            {lastFetched && (
-              <span className="text-xs text-slate-500">
-                마지막 조회: {new Date(lastFetched).toLocaleString('ko-KR')}
-              </span>
+          <div className="flex items-center gap-2 flex-wrap">
+            {/* Status info */}
+            <div className="text-xs text-slate-500 hidden sm:block">
+              {lastFetched && (
+                <span>마지막 조회: {new Date(lastFetched).toLocaleString('ko-KR')} · </span>
+              )}
+              {loadedCount > 0 && <span>{loadedCount}종목 로드됨</span>}
+            </div>
+
+            {/* Error message */}
+            {fetchError && (
+              <div className="flex items-center gap-1 px-2 py-1 rounded bg-red-500/10 border border-red-500/20">
+                <AlertTriangle className="w-3 h-3 text-red-400" />
+                <span className="text-[11px] text-red-400">{fetchError}</span>
+              </div>
             )}
 
             {/* API Key Button */}
@@ -63,14 +75,13 @@ export default function Header({
 
               {showKeyInput && (
                 <div className="absolute right-0 top-10 w-80 bg-slate-800 border border-slate-700 rounded-lg p-4 shadow-2xl z-50">
-                  <p className="text-xs text-slate-400 mb-2">
-                    Financial Modeling Prep API Key
-                  </p>
+                  <p className="text-xs text-slate-400 mb-2">Financial Modeling Prep API Key</p>
                   <div className="flex gap-2">
                     <input
                       type="password"
                       value={tempKey}
                       onChange={e => setTempKey(e.target.value)}
+                      onKeyDown={e => e.key === 'Enter' && handleSaveKey()}
                       placeholder="API Key 입력..."
                       className="flex-1 bg-slate-900 border border-slate-600 rounded px-3 py-1.5 text-xs text-slate-200 focus:outline-none focus:border-blue-500"
                     />
@@ -90,6 +101,10 @@ export default function Header({
                     <ExternalLink className="w-3 h-3" />
                     무료 API Key 발급 (250 calls/day)
                   </a>
+                  <div className="mt-2 p-2 bg-slate-900/50 rounded text-[10px] text-slate-500 leading-relaxed">
+                    <p><strong className="text-slate-400">무료 플랜:</strong> 시세, PER, 밸류에이션, 등급, 재무제표</p>
+                    <p><strong className="text-amber-400/70">Starter+ 플랜:</strong> 목표주가, EPS 전망치, 애널리스트 추정</p>
+                  </div>
                 </div>
               )}
             </div>

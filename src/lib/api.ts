@@ -1,10 +1,9 @@
-import type { AnalystEstimate, PriceTargetConsensus, KeyMetrics, StockRating, AnalystData, AnalystDataMap } from '@/types';
+import type { AnalystData, AnalystDataMap, FMPQuote, FMPRating, FMPKeyMetrics, FMPIncomeStatement, FMPEstimate, FMPPriceTarget } from '@/types';
 
 const FMP_BASE = 'https://financialmodelingprep.com/api';
-const CACHE_KEY = 'analyst_data_cache';
+const CACHE_KEY = 'analyst_data_cache_v2';
 const CACHE_TTL = 12 * 60 * 60 * 1000; // 12 hours
 
-// Korean stock ticker mapping (KRX code -> name for display)
 const KOREAN_TICKERS = new Set([
   'SK하이닉스', 'KODEX200', 'KODEX증권', '삼성전자우', 'TIME코스닥',
   'TIGER증권', '한화에어로', 'KODEX반도체', '삼성전자', '삼성전기',
@@ -39,7 +38,6 @@ function getCachedData(): AnalystDataMap {
     const raw = localStorage.getItem(CACHE_KEY);
     if (!raw) return {};
     const parsed = JSON.parse(raw);
-    // Check if cache is still valid
     const firstEntry = Object.values(parsed)[0] as AnalystData | undefined;
     if (firstEntry?.fetchedAt) {
       const age = Date.now() - new Date(firstEntry.fetchedAt).getTime();
@@ -55,52 +53,97 @@ function getCachedData(): AnalystDataMap {
 }
 
 function setCachedData(data: AnalystDataMap): void {
-  localStorage.setItem(CACHE_KEY, JSON.stringify(data));
+  try {
+    localStorage.setItem(CACHE_KEY, JSON.stringify(data));
+  } catch {
+    console.warn('[FMP] localStorage full, cache not saved');
+  }
 }
 
 export function clearCache(): void {
   localStorage.removeItem(CACHE_KEY);
 }
 
-// ─── API Fetch Helpers ───
+// ─── Fetch Helper ───
 
-async function fetchJSON<T>(url: string): Promise<T | null> {
+async function fetchJSON<T>(url: string, label: string): Promise<T | null> {
   try {
     const res = await fetch(url);
-    if (!res.ok) return null;
+    if (!res.ok) {
+      if (res.status === 403) {
+        console.warn(`[FMP] ${label}: 403 — 유료 플랜 필요`);
+      } else {
+        console.warn(`[FMP] ${label}: HTTP ${res.status}`);
+      }
+      return null;
+    }
     const data = await res.json();
-    // FMP returns error messages as objects
-    if (data && typeof data === 'object' && 'Error Message' in data) return null;
+    if (data && typeof data === 'object' && !Array.isArray(data) && 'Error Message' in data) {
+      console.warn(`[FMP] ${label}: ${(data as any)['Error Message']}`);
+      return null;
+    }
+    if (Array.isArray(data) && data.length === 0) {
+      return null;
+    }
     return data as T;
-  } catch {
+  } catch (err) {
+    console.error(`[FMP] ${label}: fetch error`, err);
     return null;
   }
 }
 
-async function fetchEstimates(symbol: string, apiKey: string): Promise<AnalystEstimate[]> {
-  const data = await fetchJSON<AnalystEstimate[]>(
-    `${FMP_BASE}/v3/analyst-estimates/${symbol}?limit=3&apikey=${apiKey}`
+// ─── Individual Endpoints ───
+
+// ★ Free tier — works
+async function fetchQuote(symbol: string, apiKey: string): Promise<FMPQuote | null> {
+  const data = await fetchJSON<FMPQuote[]>(
+    `${FMP_BASE}/v3/quote/${symbol}?apikey=${apiKey}`,
+    `quote/${symbol}`
+  );
+  return data?.[0] || null;
+}
+
+// ★ Free tier — works
+async function fetchRating(symbol: string, apiKey: string): Promise<FMPRating | null> {
+  const data = await fetchJSON<FMPRating[]>(
+    `${FMP_BASE}/v3/rating/${symbol}?apikey=${apiKey}`,
+    `rating/${symbol}`
+  );
+  return data?.[0] || null;
+}
+
+// ★ Free tier — works
+async function fetchKeyMetrics(symbol: string, apiKey: string): Promise<FMPKeyMetrics | null> {
+  const data = await fetchJSON<FMPKeyMetrics[]>(
+    `${FMP_BASE}/v3/key-metrics-ttm/${symbol}?apikey=${apiKey}`,
+    `key-metrics/${symbol}`
+  );
+  return data?.[0] || null;
+}
+
+// ★ Free tier — works (actual financial data)
+async function fetchIncomeStatements(symbol: string, apiKey: string): Promise<FMPIncomeStatement[]> {
+  const data = await fetchJSON<FMPIncomeStatement[]>(
+    `${FMP_BASE}/v3/income-statement/${symbol}?limit=4&apikey=${apiKey}`,
+    `income/${symbol}`
   );
   return data || [];
 }
 
-async function fetchPriceTarget(symbol: string, apiKey: string): Promise<PriceTargetConsensus | null> {
-  const data = await fetchJSON<PriceTargetConsensus[]>(
-    `${FMP_BASE}/v4/price-target-consensus?symbol=${symbol}&apikey=${apiKey}`
+// ☆ Starter+ plan — graceful fallback
+async function fetchEstimates(symbol: string, apiKey: string): Promise<FMPEstimate[]> {
+  const data = await fetchJSON<FMPEstimate[]>(
+    `${FMP_BASE}/v3/analyst-estimates/${symbol}?limit=3&apikey=${apiKey}`,
+    `estimates/${symbol}`
   );
-  return data?.[0] || null;
+  return data || [];
 }
 
-async function fetchKeyMetrics(symbol: string, apiKey: string): Promise<KeyMetrics | null> {
-  const data = await fetchJSON<KeyMetrics[]>(
-    `${FMP_BASE}/v3/key-metrics-ttm/${symbol}?apikey=${apiKey}`
-  );
-  return data?.[0] || null;
-}
-
-async function fetchRating(symbol: string, apiKey: string): Promise<StockRating | null> {
-  const data = await fetchJSON<StockRating[]>(
-    `${FMP_BASE}/v3/rating/${symbol}?apikey=${apiKey}`
+// ☆ Starter+ plan — graceful fallback
+async function fetchPriceTarget(symbol: string, apiKey: string): Promise<FMPPriceTarget | null> {
+  const data = await fetchJSON<FMPPriceTarget[]>(
+    `${FMP_BASE}/v4/price-target-consensus?symbol=${symbol}&apikey=${apiKey}`,
+    `price-target/${symbol}`
   );
   return data?.[0] || null;
 }
@@ -111,18 +154,22 @@ export async function fetchAnalystData(
   symbol: string,
   apiKey: string
 ): Promise<AnalystData> {
-  const [estimates, priceTarget, keyMetrics, rating] = await Promise.all([
+  const [quote, rating, keyMetrics, incomeStatements, estimates, priceTarget] = await Promise.all([
+    fetchQuote(symbol, apiKey),
+    fetchRating(symbol, apiKey),
+    fetchKeyMetrics(symbol, apiKey),
+    fetchIncomeStatements(symbol, apiKey),
     fetchEstimates(symbol, apiKey),
     fetchPriceTarget(symbol, apiKey),
-    fetchKeyMetrics(symbol, apiKey),
-    fetchRating(symbol, apiKey),
   ]);
 
   return {
+    quote,
+    rating,
+    keyMetrics,
+    incomeStatements,
     estimates,
     priceTarget,
-    keyMetrics,
-    rating,
     fetchedAt: new Date().toISOString(),
   };
 }
@@ -136,19 +183,52 @@ export async function fetchAllAnalystData(
   const result: AnalystDataMap = { ...cached };
   const toFetch = tickers.filter(t => !cached[t]);
 
+  if (toFetch.length === 0) {
+    console.log('[FMP] All data cached — nothing to fetch');
+    return result;
+  }
+
+  console.log(`[FMP] Fetching ${toFetch.length} tickers:`, toFetch);
+
+  // Test API key first
+  try {
+    const testRes = await fetch(`${FMP_BASE}/v3/quote/AAPL?apikey=${apiKey}`);
+    if (!testRes.ok) {
+      throw new Error(`HTTP ${testRes.status}`);
+    }
+    const testData = await testRes.json();
+    if (!Array.isArray(testData) || testData.length === 0) {
+      throw new Error('Invalid response');
+    }
+    console.log('[FMP] API key validated ✓');
+  } catch (err) {
+    console.error('[FMP] API key test failed:', err);
+    throw new Error('API Key가 유효하지 않습니다. 확인 후 다시 시도해주세요.');
+  }
+
   for (let i = 0; i < toFetch.length; i++) {
     const ticker = toFetch[i];
     onProgress?.(i + 1, toFetch.length, ticker);
 
     try {
       result[ticker] = await fetchAnalystData(ticker, apiKey);
-    } catch {
-      // Skip failed fetches
+      const ad = result[ticker];
+      const available = [
+        ad.quote && 'quote',
+        ad.rating && 'rating',
+        ad.keyMetrics && 'metrics',
+        ad.incomeStatements.length > 0 && 'income',
+        ad.estimates.length > 0 && 'estimates',
+        ad.priceTarget && 'priceTarget',
+      ].filter(Boolean);
+      console.log(`[FMP] ✓ ${ticker}: ${available.join(', ')}`);
+    } catch (err) {
+      console.error(`[FMP] ✗ ${ticker} failed:`, err);
     }
 
-    // Rate limiting: wait 250ms between calls (FMP free tier)
+    // Rate limit: 300ms between tickers
     if (i < toFetch.length - 1) {
-      await new Promise(r => setTimeout(r, 250));
+      await new Promise(r => setTimeout(r, 300));
     }
   }
 

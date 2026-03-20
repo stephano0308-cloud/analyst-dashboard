@@ -14,7 +14,7 @@ export default function SummaryCards({ items, analystData }: SummaryCardsProps) 
   const totalPL = items.reduce((s, i) => s + i['손익(원)'], 0);
   const returnRate = totalInvested > 0 ? totalPL / totalInvested : 0;
 
-  // Calculate upside stats from analyst data
+  // Upside stats
   const stocksWithTarget = items.filter(i => {
     if (isETFOrIndex(i.티커, i.섹터)) return false;
     const ad = analystData[i.티커];
@@ -28,14 +28,14 @@ export default function SummaryCards({ items, analystData }: SummaryCardsProps) 
       }, 0) / stocksWithTarget.length
     : 0;
 
-  const stocksWithRating = items.filter(i => {
-    const ad = analystData[i.티커];
-    return ad?.rating?.ratingScore != null;
-  });
-
+  // Rating stats
+  const stocksWithRating = items.filter(i => analystData[i.티커]?.rating?.ratingScore != null);
   const avgRating = stocksWithRating.length > 0
     ? stocksWithRating.reduce((sum, i) => sum + (analystData[i.티커]?.rating?.ratingScore || 0), 0) / stocksWithRating.length
     : 0;
+
+  // Data loaded count
+  const loadedCount = Object.keys(analystData).length;
 
   const cards = [
     {
@@ -48,7 +48,7 @@ export default function SummaryCards({ items, analystData }: SummaryCardsProps) 
     },
     {
       label: '총 손익',
-      value: formatKRW(totalPL),
+      value: `${totalPL >= 0 ? '+' : ''}${formatKRW(totalPL)}`,
       sub: formatPercent(returnRate),
       icon: totalPL >= 0 ? TrendingUp : TrendingDown,
       color: totalPL >= 0 ? 'text-emerald-400' : 'text-red-400',
@@ -56,18 +56,18 @@ export default function SummaryCards({ items, analystData }: SummaryCardsProps) 
     },
     {
       label: '평균 상승여력',
-      value: avgUpside ? `${(avgUpside * 100).toFixed(1)}%` : '—',
-      sub: `${stocksWithTarget.length}종목 기준`,
+      value: stocksWithTarget.length > 0 ? `${(avgUpside * 100).toFixed(1)}%` : '—',
+      sub: stocksWithTarget.length > 0 ? `${stocksWithTarget.length}종목 기준` : '목표주가 데이터 없음',
       icon: Target,
       color: avgUpside > 0 ? 'text-emerald-400' : avgUpside < 0 ? 'text-red-400' : 'text-slate-400',
       bgColor: avgUpside > 0 ? 'bg-emerald-500/10' : 'bg-slate-500/10',
     },
     {
       label: '평균 FMP 등급',
-      value: avgRating ? `${avgRating.toFixed(1)}/5` : '—',
-      sub: `${stocksWithRating.length}종목 기준`,
+      value: stocksWithRating.length > 0 ? `${avgRating.toFixed(1)}/5` : '—',
+      sub: stocksWithRating.length > 0 ? `${stocksWithRating.length}종목 기준` : loadedCount > 0 ? '등급 데이터 로드됨' : '데이터 조회 필요',
       icon: BarChart3,
-      color: avgRating >= 3.5 ? 'text-emerald-400' : avgRating >= 2.5 ? 'text-blue-400' : 'text-amber-400',
+      color: avgRating >= 3.5 ? 'text-emerald-400' : avgRating >= 2.5 ? 'text-blue-400' : avgRating > 0 ? 'text-amber-400' : 'text-slate-400',
       bgColor: avgRating >= 3.5 ? 'bg-emerald-500/10' : 'bg-blue-500/10',
     },
   ];
@@ -75,10 +75,7 @@ export default function SummaryCards({ items, analystData }: SummaryCardsProps) 
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
       {cards.map(card => (
-        <div
-          key={card.label}
-          className="bg-[#111827] border border-slate-800 rounded-lg p-4 flex items-start gap-3"
-        >
+        <div key={card.label} className="bg-[#111827] border border-slate-800 rounded-lg p-4 flex items-start gap-3">
           <div className={cn('p-2 rounded-lg', card.bgColor)}>
             <card.icon className={cn('w-4 h-4', card.color)} />
           </div>

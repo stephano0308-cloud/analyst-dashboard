@@ -28,48 +28,22 @@ export interface PortfolioData {
   items: PortfolioItem[];
 }
 
-// ─── Analyst Data (FMP API) ───
+// ─── FMP API Response Types ───
 
-export interface AnalystEstimate {
+export interface FMPQuote {
   symbol: string;
-  date: string;
-  estimatedRevenueAvg: number;
-  estimatedRevenueHigh: number;
-  estimatedRevenueLow: number;
-  estimatedEbitdaAvg: number;
-  estimatedEbitdaHigh: number;
-  estimatedEbitdaLow: number;
-  estimatedEpsAvg: number;
-  estimatedEpsHigh: number;
-  estimatedEpsLow: number;
-  estimatedNetIncomeAvg: number;
-  numberAnalystsEstimatedRevenue: number;
-  numberAnalystEstimatedEps: number;
+  price: number;
+  pe: number;
+  marketCap: number;
+  eps: number;
+  priceAvg50: number;
+  priceAvg200: number;
+  sharesOutstanding: number;
+  yearHigh: number;
+  yearLow: number;
 }
 
-export interface PriceTargetConsensus {
-  symbol: string;
-  targetHigh: number;
-  targetLow: number;
-  targetConsensus: number;
-  targetMedian: number;
-}
-
-export interface KeyMetrics {
-  symbol: string;
-  peRatioTTM: number;
-  pegRatioTTM: number;
-  priceToBookRatioTTM: number;
-  priceToSalesRatioTTM: number;
-  enterpriseValueOverEBITDATTM: number;
-  dividendYieldTTM: number;
-  marketCapTTM: number;
-  debtToEquityTTM: number;
-  roeTTM: number;
-  currentRatioTTM: number;
-}
-
-export interface StockRating {
+export interface FMPRating {
   symbol: string;
   date: string;
   rating: string;
@@ -89,11 +63,66 @@ export interface StockRating {
   ratingDetailsPBRecommendation: string;
 }
 
+export interface FMPKeyMetrics {
+  peRatioTTM: number;
+  pegRatioTTM: number;
+  priceToBookRatioTTM: number;
+  priceToSalesRatioTTM: number;
+  enterpriseValueOverEBITDATTM: number;
+  dividendYieldTTM: number;
+  marketCapTTM: number;
+  debtToEquityTTM: number;
+  roeTTM: number;
+  currentRatioTTM: number;
+}
+
+export interface FMPIncomeStatement {
+  date: string;
+  calendarYear: string;
+  period: string;
+  revenue: number;
+  operatingIncome: number;
+  ebitda: number;
+  eps: number;
+  epsdiluted: number;
+  netIncome: number;
+  grossProfit: number;
+}
+
+export interface FMPEstimate {
+  symbol: string;
+  date: string;
+  estimatedRevenueAvg: number;
+  estimatedRevenueHigh: number;
+  estimatedRevenueLow: number;
+  estimatedEbitdaAvg: number;
+  estimatedEbitdaHigh: number;
+  estimatedEbitdaLow: number;
+  estimatedEpsAvg: number;
+  estimatedEpsHigh: number;
+  estimatedEpsLow: number;
+  estimatedNetIncomeAvg: number;
+  numberAnalystsEstimatedRevenue: number;
+  numberAnalystEstimatedEps: number;
+}
+
+export interface FMPPriceTarget {
+  symbol: string;
+  targetHigh: number;
+  targetLow: number;
+  targetConsensus: number;
+  targetMedian: number;
+}
+
+// ─── Assembled analyst data per ticker ───
+
 export interface AnalystData {
-  estimates: AnalystEstimate[];
-  priceTarget: PriceTargetConsensus | null;
-  keyMetrics: KeyMetrics | null;
-  rating: StockRating | null;
+  quote: FMPQuote | null;
+  rating: FMPRating | null;
+  keyMetrics: FMPKeyMetrics | null;
+  incomeStatements: FMPIncomeStatement[];
+  estimates: FMPEstimate[];
+  priceTarget: FMPPriceTarget | null;
   fetchedAt: string;
 }
 

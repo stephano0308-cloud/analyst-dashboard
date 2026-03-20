@@ -1,4 +1,4 @@
-import { useState, useMemo, useCallback, useEffect } from 'react';
+import { useState, useMemo, useCallback } from 'react';
 import type { PortfolioData, AnalystDataMap, SortState, SortField, FilterState } from '@/types';
 import portfolioData from '@/data/portfolio.json';
 import Header from '@/components/Header';
@@ -15,6 +15,7 @@ export default function App() {
   const [apiKey, setApiKeyState] = useState(getApiKey);
   const [analystData, setAnalystData] = useState<AnalystDataMap>(getCachedData);
   const [isFetching, setIsFetching] = useState(false);
+  const [fetchError, setFetchError] = useState<string | null>(null);
   const [progress, setProgress] = useState<{ done: number; total: number; current: string } | null>(null);
   const [selectedTicker, setSelectedTicker] = useState<string | null>(null);
 
@@ -45,11 +46,13 @@ export default function App() {
   const handleApiKeyChange = (key: string) => {
     setApiKey(key);
     setApiKeyState(key);
+    setFetchError(null);
   };
 
   const handleFetchAll = useCallback(async () => {
     if (!apiKey || isFetching) return;
     setIsFetching(true);
+    setFetchError(null);
     setProgress(null);
 
     try {
@@ -59,6 +62,8 @@ export default function App() {
         (done, total, current) => setProgress({ done, total, current }),
       );
       setAnalystData(result);
+    } catch (err: any) {
+      setFetchError(err?.message || '데이터 조회 중 오류가 발생했습니다.');
     } finally {
       setIsFetching(false);
       setProgress(null);
@@ -68,6 +73,7 @@ export default function App() {
   const handleClearCache = () => {
     clearCache();
     setAnalystData({});
+    setFetchError(null);
   };
 
   // Filter logic
@@ -109,8 +115,10 @@ export default function App() {
           break;
         }
         case 'peRatio': {
-          aVal = analystData[a.티커]?.keyMetrics?.peRatioTTM || 0;
-          bVal = analystData[b.티커]?.keyMetrics?.peRatioTTM || 0;
+          const aPe = analystData[a.티커]?.keyMetrics?.peRatioTTM || analystData[a.티커]?.quote?.pe || 0;
+          const bPe = analystData[b.티커]?.keyMetrics?.peRatioTTM || analystData[b.티커]?.quote?.pe || 0;
+          aVal = aPe || 9999;
+          bVal = bPe || 9999;
           break;
         }
         case 'ratingScore': {
@@ -146,11 +154,12 @@ export default function App() {
     ? data.items.find(i => i.티커 === selectedTicker)
     : null;
 
-  // Last fetched timestamp
   const lastFetched = useMemo(() => {
     const first = Object.values(analystData)[0];
     return first?.fetchedAt || null;
   }, [analystData]);
+
+  const loadedCount = Object.keys(analystData).length;
 
   return (
     <div className="min-h-screen bg-[#0a0e17]">
@@ -162,6 +171,8 @@ export default function App() {
         isFetching={isFetching}
         progress={progress}
         lastFetched={lastFetched}
+        fetchError={fetchError}
+        loadedCount={loadedCount}
         metadata={data.metadata}
       />
 
