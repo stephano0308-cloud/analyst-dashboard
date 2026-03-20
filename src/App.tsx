@@ -1,22 +1,24 @@
 import { useState, useMemo, useCallback } from 'react';
-import type { PortfolioData, KoreanConsensusData, AnalystDataMap, SortState, SortField, FilterState, MergedItem } from '@/types';
+import type { PortfolioData, KoreanConsensusData, ForeignAnalystData, AnalystDataMap, SortState, SortField, FilterState, MergedItem } from '@/types';
 import portfolioData from '@/data/portfolio.json';
 import koreanConsensusRaw from '@/data/korean-consensus.json';
+import foreignAnalystRaw from '@/data/foreign-analyst.json';
 import Header from '@/components/Header';
 import SummaryCards from '@/components/SummaryCards';
 import FilterPanel from '@/components/FilterPanel';
 import StockTable from '@/components/StockTable';
 import DetailPanel from '@/components/DetailPanel';
 import DebugPanel from '@/components/DebugPanel';
-import { getApiKey, setApiKey, fetchAllAnalystData, clearCache, getCachedData, isKoreanStock, isETFOrIndex } from '@/lib/api';
-import { mergePortfolioItems, getUpsidePercent, koreanConsensusToAnalystData } from '@/lib/utils';
+import { getApiKey, fetchAllAnalystData, clearCache, getCachedData, isKoreanStock, isETFOrIndex } from '@/lib/api';
+import { mergePortfolioItems, getUpsidePercent, koreanConsensusToAnalystData, foreignAnalystToAnalystData } from '@/lib/utils';
 
 const data = portfolioData as PortfolioData;
 const koreanConsensus = koreanConsensusRaw as KoreanConsensusData;
+const foreignAnalyst = foreignAnalystRaw as ForeignAnalystData;
 const krAnalystData = koreanConsensusToAnalystData(koreanConsensus);
+const foreignData = foreignAnalystToAnalystData(foreignAnalyst);
 
 export default function App() {
-  const [apiKey, setApiKeyState] = useState(getApiKey);
   const [analystData, setAnalystData] = useState<AnalystDataMap>(getCachedData);
   const [isFetching, setIsFetching] = useState(false);
   const [fetchError, setFetchError] = useState<string | null>(null);
@@ -36,19 +38,14 @@ export default function App() {
       .map(i => i.티커);
   }, [mergedItems]);
 
-  const handleApiKeyChange = (key: string) => {
-    setApiKey(key);
-    setApiKeyState(key);
-    setFetchError(null);
-  };
-
   const handleFetchAll = useCallback(async () => {
-    if (!apiKey || isFetching) return;
+    const key = getApiKey();
+    if (!key || isFetching) return;
     setIsFetching(true);
     setFetchError(null);
     setProgress(null);
     try {
-      const result = await fetchAllAnalystData(apiTickers, apiKey,
+      const result = await fetchAllAnalystData(apiTickers, key,
         (done, total, current) => setProgress({ done, total, current }));
       setAnalystData(result);
     } catch (err: any) {
@@ -57,7 +54,7 @@ export default function App() {
       setIsFetching(false);
       setProgress(null);
     }
-  }, [apiKey, apiTickers, isFetching]);
+  }, [apiTickers, isFetching]);
 
   const handleClearCache = () => { clearCache(); setAnalystData({}); setFetchError(null); };
 
@@ -81,9 +78,9 @@ export default function App() {
     });
   }, [mergedItems, filters]);
 
-  // Merge Korean consensus + FMP data (FMP takes priority)
+  // Merge all sources: crawled KR + crawled Foreign + FMP browser (FMP overrides if available)
   const combinedData = useMemo<AnalystDataMap>(() => {
-    return { ...krAnalystData, ...analystData };
+    return { ...krAnalystData, ...foreignData, ...analystData };
   }, [analystData]);
 
   // Sort
@@ -131,14 +128,13 @@ export default function App() {
   };
 
   const selectedItem = selectedTicker ? mergedItems.find(i => i.티커 === selectedTicker) : null;
-  const lastFetched = useMemo(() => Object.values(analystData)[0]?.fetchedAt || null, [analystData]);
   const totalLoadedCount = Object.keys(combinedData).length;
 
   return (
     <div className="min-h-screen bg-[#0a0e17]">
-      <Header apiKey={apiKey} onApiKeyChange={handleApiKeyChange} onFetchAll={handleFetchAll}
+      <Header onFetchAll={handleFetchAll}
         onClearCache={handleClearCache} isFetching={isFetching} progress={progress}
-        lastFetched={lastFetched} fetchError={fetchError} loadedCount={totalLoadedCount} metadata={data.metadata} />
+        fetchError={fetchError} loadedCount={totalLoadedCount} metadata={data.metadata} />
 
       <main className="max-w-[1600px] mx-auto px-6 py-6 space-y-6">
         <SummaryCards items={filteredItems} analystData={combinedData} />

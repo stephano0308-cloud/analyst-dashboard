@@ -119,6 +119,42 @@ export interface KoreanConsensusData {
   stocks: Record<string, KoreanConsensusItem>;
 }
 
+// ─── Foreign Analyst Data (from Yahoo Finance crawler) ───
+export interface ForeignAnalystItem {
+  name: string;
+  yfinanceTicker: string;
+  currentPrice: number | null;
+  targetPrice: number | null;
+  targetHigh: number | null;
+  targetLow: number | null;
+  targetMedian: number | null;
+  analystCount: number | null;
+  recommendation: string | null;
+  per: number | null;
+  forwardPer: number | null;
+  pbr: number | null;
+  psr: number | null;
+  evEbitda: number | null;
+  eps: number | null;
+  forwardEps: number | null;
+  dividendYield: number | null;
+  marketCap: number | null;
+  roe: number | null;
+  debtToEquity: number | null;
+  revenue: number | null;
+  operatingIncome: number | null;
+  netIncome: number | null;
+  yearHigh: number | null;
+  yearLow: number | null;
+}
+
+export interface ForeignAnalystData {
+  fetchedAt: string;
+  source: string;
+  stockCount: number;
+  stocks: Record<string, ForeignAnalystItem>;
+}
+
 // ─── UI State ───
 export type SortField = '종목명' | '현재가' | '가중평균단가' | '평가금액(원)' | '매수금액(원)' | '손익(원)' | '수익률' | 'targetPrice' | 'upside' | 'peRatio' | 'pbrRatio';
 export type SortOrder = 'asc' | 'desc';

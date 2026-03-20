@@ -2,8 +2,9 @@ import type { AnalystData, AnalystDataMap, FMPQuote, FMPRating, FMPKeyMetrics, F
 import { addLog } from '@/components/DebugPanel';
 
 const FMP_BASE = 'https://financialmodelingprep.com/stable';
+const FMP_API_KEY = '0MqrFlVPBeukWtObFyGLdzQbvlwOab7n';
 const CACHE_KEY = 'analyst_data_cache_v4';
-const CACHE_TTL = 24 * 60 * 60 * 1000; // 24 hours (match rate limit reset)
+const CACHE_TTL = 24 * 60 * 60 * 1000;
 
 const KOREAN_TICKERS = new Set([
   'SK하이닉스', 'KODEX200', 'KODEX증권', '삼성전자우', 'TIME코스닥',
@@ -25,11 +26,11 @@ export function isETFOrIndex(ticker: string, sector: string): boolean {
 }
 
 export function getApiKey(): string {
-  return localStorage.getItem('fmp_api_key') || '';
+  return FMP_API_KEY;
 }
 
-export function setApiKey(key: string): void {
-  localStorage.setItem('fmp_api_key', key);
+export function setApiKey(_key: string): void {
+  // No-op: API key is hardcoded
 }
 
 // ─── Cache ───

@@ -1,4 +1,4 @@
-import type { PortfolioItem, MergedItem, KoreanConsensusData, AnalystDataMap, AnalystData } from '@/types';
+import type { PortfolioItem, MergedItem, KoreanConsensusData, ForeignAnalystData, AnalystDataMap, AnalystData } from '@/types';
 
 // ─── Convert Korean consensus to AnalystData format ───
 
@@ -40,6 +40,55 @@ export function koreanConsensusToAnalystData(krData: KoreanConsensusData): Analy
         targetMedian: item.targetPrice,
       } : null,
       fetchedAt: krData.fetchedAt,
+    };
+
+    result[ticker] = ad;
+  }
+
+  return result;
+}
+
+// ─── Convert Foreign (Yahoo Finance) data to AnalystData format ───
+
+export function foreignAnalystToAnalystData(fData: ForeignAnalystData): AnalystDataMap {
+  const result: AnalystDataMap = {};
+
+  for (const [ticker, item] of Object.entries(fData.stocks)) {
+    const ad: AnalystData = {
+      quote: item.currentPrice ? {
+        symbol: ticker,
+        price: item.currentPrice,
+        pe: item.per || 0,
+        marketCap: item.marketCap || 0,
+        eps: item.eps || 0,
+        priceAvg50: 0, priceAvg200: 0,
+        sharesOutstanding: 0,
+        yearHigh: item.yearHigh || 0,
+        yearLow: item.yearLow || 0,
+      } : null,
+      rating: null,
+      keyMetrics: (item.per || item.pbr) ? {
+        peRatioTTM: item.per || 0,
+        pegRatioTTM: 0,
+        priceToBookRatioTTM: item.pbr || 0,
+        priceToSalesRatioTTM: item.psr || 0,
+        enterpriseValueOverEBITDATTM: item.evEbitda || 0,
+        dividendYieldTTM: item.dividendYield || 0,
+        marketCapTTM: item.marketCap || 0,
+        debtToEquityTTM: item.debtToEquity || 0,
+        roeTTM: item.roe || 0,
+        currentRatioTTM: 0,
+      } : null,
+      incomeStatements: [],
+      estimates: [],
+      priceTarget: item.targetPrice ? {
+        symbol: ticker,
+        targetHigh: item.targetHigh || item.targetPrice * 1.15,
+        targetLow: item.targetLow || item.targetPrice * 0.85,
+        targetConsensus: item.targetPrice,
+        targetMedian: item.targetMedian || item.targetPrice,
+      } : null,
+      fetchedAt: fData.fetchedAt,
     };
 
     result[ticker] = ad;
