@@ -116,14 +116,24 @@ export interface KoreanConsensusItem {
   ticker: string;
   currentPrice: number | null;
   targetPrice: number | null;
-  analystCount: number | null;
+  analystCount?: number | null;
   per: number | null;
   pbr: number | null;
-  eps: number | null;
-  bps: number | null;
+  eps?: number | null;
+  bps?: number | null;
   dividendYield: number | null;
-  estimatedRevenue: number | null;
-  estimatedOperatingIncome: number | null;
+  estimatedRevenue?: number | null;
+  estimatedOperatingIncome?: number | null;
+  estimatedOI?: number | null;
+  revenueGrowth?: number | null;
+  oiGrowth?: number | null;
+  dailyChangePct?: number | null;
+  rsi14?: number | null;
+  macd?: number | null;
+  macdSignal?: number | null;
+  macdHist?: number | null;
+  technicalSignal?: string | null;
+  [key: string]: unknown;  // allow extra fields from crawler
 }
 
 export interface KoreanConsensusData {
@@ -159,6 +169,21 @@ export interface ForeignAnalystItem {
   netIncome: number | null;
   yearHigh: number | null;
   yearLow: number | null;
+  dailyChange?: number | null;
+  dailyChangePct?: number | null;
+  prevClose?: number | null;
+  rsi14?: number | null;
+  macd?: number | null;
+  macdSignal?: number | null;
+  macdHist?: number | null;
+  technicalSignal?: string | null;
+  revenueGrowth?: number | null;
+  oiGrowth?: number | null;
+  revenueEstimateCurrent?: number | null;
+  revenueEstimateNext?: number | null;
+  epsEstimateCurrent?: number | null;
+  epsEstimateNext?: number | null;
+  [key: string]: unknown;
 }
 
 export interface ForeignAnalystData {
