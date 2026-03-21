@@ -2,8 +2,7 @@ name: Crawl Analyst Data
 
 on:
   schedule:
-    # Daily at KST 07:00 (UTC 22:00 previous day)
-    - cron: "0 22 * * *"
+    - cron: "0 22 * * *"  # KST 07:00
   workflow_dispatch:
 
 permissions:
@@ -14,7 +13,7 @@ permissions:
 jobs:
   crawl:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     steps:
       - uses: actions/checkout@v4
@@ -26,11 +25,16 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
 
-      - name: Crawl Korean stocks (FnGuide + Naver)
+      - name: Crawl Korean stocks
         run: python scripts/crawl_korean.py
 
-      - name: Crawl Foreign stocks (Yahoo Finance)
+      - name: Crawl Foreign stocks
         run: python scripts/crawl_foreign.py
+
+      - name: AI Portfolio Analysis
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/analyze_portfolio.py
 
       - name: Check for changes
         id: check
@@ -42,8 +46,8 @@ jobs:
         run: |
           git config user.name "analyst-bot"
           git config user.email "analyst-bot@users.noreply.github.com"
-          git add src/data/korean-consensus.json src/data/foreign-analyst.json
-          git commit -m "data: update analyst data $(date +%Y-%m-%d)"
+          git add src/data/
+          git commit -m "data: update analyst data + AI analysis $(date +%Y-%m-%d)"
           git push
 
   deploy:
@@ -60,7 +64,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
           cache: "npm"
 
       - run: npm ci
