@@ -1,334 +1,170 @@
 #!/usr/bin/env python3
-"""
-Korean Stock Consensus Data Crawler
-Fetches analyst consensus data (target price, estimated PER/PBR, operating income)
-from FnGuide CompanyGuide and Naver Finance.
-
-Runs via GitHub Actions daily → outputs to src/data/korean-consensus.json
-"""
-
-import json
-import time
-import re
-import sys
+"""Korean Stock Crawler: FnGuide + Naver + yfinance technicals"""
+import json, time, math, sys
 from datetime import datetime
 from pathlib import Path
-
 import requests
 from bs4 import BeautifulSoup
+try:
+    import yfinance as yf
+    import numpy as np
+except ImportError:
+    import subprocess
+    subprocess.check_call([sys.executable, "-m", "pip", "install", "yfinance", "numpy", "-q"])
+    import yfinance as yf
+    import numpy as np
 
-# ─── Korean Stock Code Mapping ───
-# ticker (used in portfolio.json) → KRX 6-digit code
 STOCK_MAP = {
-    "SK하이닉스": "000660",
-    "삼성전자": "005930",
-    "삼성전자우": "005935",
-    "삼성전기": "009150",
-    "한화에어로": "012450",
-    "현대차": "005380",
-    "현대로템": "064350",
-    "에스티팜": "237690",
-    "HD현대중공업": "329180",
-    "HD건설기계": "267270",
-    "HD한국조선": "009540",
-    "HD현대일렉": "267260",
-    "HD마린엔진": "071970",
-    "한국금융우": "071055",
-    "세진중공업": "075580",
-    "삼성중공업": "010140",
-    "미래에셋": "006800",
-    "테크윙": "089030",
-    "두산에너빌": "034020",
-    "한국카본": "017960",
-    "삼양식품": "003230",
-    "산일전기": "062040",
+    "SK하이닉스": ("000660","000660.KS"), "삼성전자": ("005930","005930.KS"),
+    "삼성전자우": ("005935","005935.KS"), "삼성전기": ("009150","009150.KS"),
+    "한화에어로": ("012450","012450.KS"), "현대차": ("005380","005380.KS"),
+    "현대로템": ("064350","064350.KS"), "에스티팜": ("237690","237690.KS"),
+    "HD현대중공업": ("329180","329180.KS"), "HD건설기계": ("267270","267270.KS"),
+    "HD한국조선": ("009540","009540.KS"), "HD현대일렉": ("267260","267260.KS"),
+    "HD마린엔진": ("071970","071970.KS"), "한국금융우": ("071055","071055.KS"),
+    "세진중공업": ("075580","075580.KS"), "삼성중공업": ("010140","010140.KS"),
+    "미래에셋": ("006800","006800.KS"), "테크윙": ("089030","089030.KQ"),
+    "두산에너빌": ("034020","034020.KS"), "한국카본": ("017960","017960.KS"),
+    "삼양식품": ("003230","003230.KS"), "산일전기": ("062040","062040.KQ"),
 }
+HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36", "Accept-Language": "ko-KR,ko;q=0.9"}
 
-HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-    "Accept-Language": "ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7",
-}
+def safe(v, d=None):
+    if v is None: return d
+    if isinstance(v, float) and (math.isnan(v) or math.isinf(v)): return d
+    return v
 
+def pnum(t):
+    if not t: return None
+    t = t.strip().replace(",","").replace(" ","")
+    if t in ("","-","N/A","nan"): return None
+    try: return float(t)
+    except: return None
 
-def parse_number(text: str) -> float | None:
-    """Parse Korean formatted number string to float."""
-    if not text:
-        return None
-    text = text.strip().replace(",", "").replace(" ", "")
-    if text in ("", "-", "N/A", "nan"):
-        return None
+def calc_rsi(p, n=14):
+    if len(p) < n+1: return None
+    d = np.diff(p); g = np.where(d>0,d,0); l = np.where(d<0,-d,0)
+    ag, al = np.mean(g[-n:]), np.mean(l[-n:])
+    if al == 0: return 100.0
+    return round(100-(100/(1+ag/al)),1)
+
+def calc_macd(p):
+    if len(p)<35: return None,None,None
+    p = np.array(p, dtype=float)
+    def ema(d,n):
+        a=2/(n+1); e=np.zeros_like(d); e[0]=d[0]
+        for i in range(1,len(d)): e[i]=a*d[i]+(1-a)*e[i-1]
+        return e
+    ml=ema(p,12)-ema(p,26); sl=ema(ml,9); h=ml-sl
+    return round(float(ml[-1]),2), round(float(sl[-1]),2), round(float(h[-1]),2)
+
+def get_signal(rsi, mh):
+    s=[]
+    if rsi is not None:
+        if rsi>=70: s.append("과매수")
+        elif rsi<=30: s.append("과매도")
+    if mh is not None: s.append("MACD+" if mh>0 else "MACD-")
+    return " / ".join(s) if s else "중립"
+
+def fetch_fnguide(code):
+    r = {"targetPrice":None,"estimatedPER":None,"estimatedPBR":None,"estimatedRevenue":None,"estimatedOI":None,"revenueGrowth":None,"oiGrowth":None}
     try:
-        return float(text)
-    except ValueError:
-        return None
-
-
-def fetch_fnguide_consensus(code: str) -> dict:
-    """Fetch consensus data from FnGuide CompanyGuide."""
-    result = {
-        "targetPrice": None,
-        "analystCount": None,
-        "estimatedPER": None,
-        "estimatedPBR": None,
-        "estimatedEPS": None,
-        "estimatedBPS": None,
-        "estimatedRevenue": None,
-        "estimatedOperatingIncome": None,
-    }
-
-    try:
-        # Main page — has current PER, PBR, consensus summary
         url = f"https://comp.fnguide.com/SVO2/asp/SVD_Main.asp?pGB=1&gicode=A{code}"
-        res = requests.get(url, headers=HEADERS, timeout=15)
-        res.encoding = "utf-8"
-
-        if res.status_code != 200:
-            print(f"  [WARN] FnGuide main page HTTP {res.status_code}")
-            return result
-
-        soup = BeautifulSoup(res.text, "html.parser")
-
-        # ── Extract target price from consensus section ──
-        # Look for 목표주가 in the consensus area
-        consensus_table = soup.select_one("#svdMainGrid2")
-        if consensus_table:
-            rows = consensus_table.select("tr")
-            for row in rows:
-                header = row.select_one("th")
-                value = row.select_one("td")
-                if header and value:
-                    h_text = header.get_text(strip=True)
-                    v_text = value.get_text(strip=True)
-                    if "목표주가" in h_text:
-                        result["targetPrice"] = parse_number(v_text)
-                    elif "애널리스트" in h_text or "리포트" in h_text:
-                        result["analystCount"] = parse_number(v_text)
-
-        # ── Extract estimated PER/PBR from snapshot section ──
-        # svdMainGrid1 usually has the financial snapshot
-        snap_table = soup.select_one("#svdMainGrid1")
-        if snap_table:
-            rows = snap_table.select("tr")
-            for row in rows:
-                cells = row.select("td")
-                header = row.select_one("th")
-                if not header or len(cells) == 0:
-                    continue
-                h = header.get_text(strip=True)
-                # The last column is often the estimated (E) value
-                last_val = cells[-1].get_text(strip=True) if cells else ""
-                if "PER" in h and "12M" not in h:
-                    result["estimatedPER"] = parse_number(last_val)
-                elif "PBR" in h:
-                    result["estimatedPBR"] = parse_number(last_val)
-                elif "EPS" in h and "BPS" not in h:
-                    result["estimatedEPS"] = parse_number(last_val)
-                elif "BPS" in h:
-                    result["estimatedBPS"] = parse_number(last_val)
-
-        # ── Consensus page for more detailed data ──
-        url2 = f"https://comp.fnguide.com/SVO2/asp/SVD_Consensus.asp?pGB=1&gicode=A{code}"
-        res2 = requests.get(url2, headers=HEADERS, timeout=15)
-        res2.encoding = "utf-8"
-
-        if res2.status_code == 200:
-            soup2 = BeautifulSoup(res2.text, "html.parser")
-
-            # Look for consensus estimate tables
-            tables = soup2.select("table")
-            for table in tables:
-                rows = table.select("tr")
-                for row in rows:
-                    header = row.select_one("th")
-                    cells = row.select("td")
-                    if not header or len(cells) == 0:
-                        continue
-                    h = header.get_text(strip=True)
-                    # Get the nearest forward estimate (usually column index 1 or 2)
-                    forward_val = cells[0].get_text(strip=True) if cells else ""
-
-                    if "매출액" in h and result["estimatedRevenue"] is None:
-                        val = parse_number(forward_val)
-                        if val and val > 100:  # Revenue should be large
-                            result["estimatedRevenue"] = val
-                    elif "영업이익" in h and "증가" not in h and result["estimatedOperatingIncome"] is None:
-                        val = parse_number(forward_val)
-                        if val:
-                            result["estimatedOperatingIncome"] = val
-                    elif "목표주가" in h and result["targetPrice"] is None:
-                        val = parse_number(forward_val)
-                        if val:
-                            result["targetPrice"] = val
-
+        res = requests.get(url, headers=HEADERS, timeout=15); res.encoding="utf-8"
+        if res.status_code!=200: return r
+        soup = BeautifulSoup(res.text,"html.parser")
+        snap = soup.select_one("#svdMainGrid1")
+        if snap:
+            for row in snap.select("tr"):
+                th=row.select_one("th"); tds=row.select("td")
+                if not th or not tds: continue
+                h=th.get_text(strip=True); last=tds[-1].get_text(strip=True)
+                if "PER" in h and "12M" not in h: r["estimatedPER"]=pnum(last)
+                elif "PBR" in h: r["estimatedPBR"]=pnum(last)
+        cons = soup.select_one("#svdMainGrid2")
+        if cons:
+            for row in cons.select("tr"):
+                th=row.select_one("th"); td=row.select_one("td")
+                if th and td and "목표주가" in th.get_text(strip=True):
+                    r["targetPrice"]=pnum(td.get_text(strip=True))
     except Exception as e:
-        print(f"  [ERROR] FnGuide: {e}")
+        print(f"  [FnGuide ERR] {e}")
+    return r
 
-    return result
-
-
-def fetch_naver_finance(code: str) -> dict:
-    """Fetch basic stock info from Naver Finance."""
-    result = {
-        "currentPrice": None,
-        "per": None,
-        "pbr": None,
-        "dividendYield": None,
-        "marketCap": None,
-        "eps": None,
-        "bps": None,
-    }
-
+def fetch_naver(code):
+    r = {"currentPrice":None,"per":None,"pbr":None,"dividendYield":None}
     try:
         url = f"https://finance.naver.com/item/main.naver?code={code}"
-        res = requests.get(url, headers=HEADERS, timeout=10)
-        res.encoding = "euc-kr"
-
-        if res.status_code != 200:
-            print(f"  [WARN] Naver HTTP {res.status_code}")
-            return result
-
-        soup = BeautifulSoup(res.text, "html.parser")
-
-        # Current price
-        price_el = soup.select_one(".no_today .blind")
-        if price_el:
-            result["currentPrice"] = parse_number(price_el.get_text())
-
-        # Table with PER, PBR, etc.
-        table = soup.select_one("#aside_as498562")
-        if not table:
-            # Alternative selector
-            tables = soup.select("table.per_table, table.rwidth")
-            table = tables[0] if tables else None
-
-        # Try parsing from the corporate info section
-        aside = soup.select("em#_per, em#_pbr, em#_dvr")
-        for em in aside:
-            eid = em.get("id", "")
-            val = parse_number(em.get_text())
-            if "_per" in eid:
-                result["per"] = val
-            elif "_pbr" in eid:
-                result["pbr"] = val
-            elif "_dvr" in eid:
-                result["dividendYield"] = val
-
-        # Try from per_table
-        per_table = soup.select_one("table.per_table")
-        if per_table:
-            for tr in per_table.select("tr"):
-                th = tr.select_one("th")
-                em = tr.select_one("em")
-                if th and em:
-                    label = th.get_text(strip=True)
-                    val = parse_number(em.get_text())
-                    if "PER" in label:
-                        result["per"] = val
-                    elif "PBR" in label:
-                        result["pbr"] = val
-                    elif "배당수익률" in label:
-                        result["dividendYield"] = val
-
-        # EPS / BPS from corporate summary
-        corp_table = soup.select_one("#tab_con1")
-        if corp_table:
-            for tr in corp_table.select("tr"):
-                th = tr.select_one("th")
-                tds = tr.select("td")
-                if th and tds:
-                    label = th.get_text(strip=True)
-                    # Get most recent annual value
-                    last_val = tds[-1].get_text(strip=True) if tds else ""
-                    if "EPS" in label:
-                        result["eps"] = parse_number(last_val)
-                    elif "BPS" in label:
-                        result["bps"] = parse_number(last_val)
-
+        res = requests.get(url, headers=HEADERS, timeout=10); res.encoding="euc-kr"
+        if res.status_code!=200: return r
+        soup = BeautifulSoup(res.text,"html.parser")
+        pe = soup.select_one(".no_today .blind")
+        if pe: r["currentPrice"]=pnum(pe.get_text())
+        for em in soup.select("em#_per, em#_pbr, em#_dvr"):
+            eid=em.get("id",""); v=pnum(em.get_text())
+            if "_per" in eid: r["per"]=v
+            elif "_pbr" in eid: r["pbr"]=v
+            elif "_dvr" in eid: r["dividendYield"]=v
     except Exception as e:
-        print(f"  [ERROR] Naver: {e}")
+        print(f"  [Naver ERR] {e}")
+    return r
 
-    return result
-
+def fetch_technicals(yf_ticker):
+    r = {"dailyChangePct":None,"rsi14":None,"macd":None,"macdSignal":None,"macdHist":None,"technicalSignal":None}
+    try:
+        stock = yf.Ticker(yf_ticker)
+        hist = stock.history(period="3mo")
+        if hist is not None and len(hist)>30:
+            closes = hist["Close"].values
+            if len(closes)>=2:
+                r["dailyChangePct"] = round((closes[-1]-closes[-2])/closes[-2]*100, 2)
+            r["rsi14"] = calc_rsi(closes)
+            m,s,h = calc_macd(closes)
+            r["macd"]=m; r["macdSignal"]=s; r["macdHist"]=h
+            r["technicalSignal"] = get_signal(r["rsi14"], h)
+    except Exception as e:
+        print(f"  [Tech ERR] {e}")
+    return r
 
 def main():
-    output_path = Path(__file__).parent.parent / "src" / "data" / "korean-consensus.json"
+    output = Path(__file__).parent.parent / "src" / "data" / "korean-consensus.json"
+    results = {}; total = len(STOCK_MAP)
+    print(f"=== Korean Stock Crawler ===\n{total} stocks · {datetime.now():%Y-%m-%d %H:%M}\n")
 
-    results = {}
-    total = len(STOCK_MAP)
+    for idx, (ticker, (code, yf_t)) in enumerate(STOCK_MAP.items(), 1):
+        print(f"[{idx}/{total}] {ticker}", end=" → ")
+        fn = fetch_fnguide(code); time.sleep(0.8)
+        nv = fetch_naver(code); time.sleep(0.5)
+        tech = fetch_technicals(yf_t); time.sleep(0.5)
 
-    print(f"=== Korean Stock Consensus Crawler ===")
-    print(f"Crawling {total} stocks...")
-    print(f"Date: {datetime.now().strftime('%Y-%m-%d %H:%M')}")
-    print()
-
-    for idx, (ticker, code) in enumerate(STOCK_MAP.items(), 1):
-        print(f"[{idx}/{total}] {ticker} ({code})")
-
-        # Fetch from both sources
-        fnguide = fetch_fnguide_consensus(code)
-        time.sleep(1)  # Be nice to servers
-
-        naver = fetch_naver_finance(code)
-        time.sleep(0.5)
-
-        # Merge data (FnGuide consensus takes priority for estimates)
         merged = {
-            "code": code,
-            "ticker": ticker,
-            "currentPrice": naver["currentPrice"],
-            "targetPrice": fnguide["targetPrice"],
-            "analystCount": fnguide["analystCount"],
-            # Use FnGuide estimated values if available, fall back to Naver
-            "per": fnguide["estimatedPER"] or naver["per"],
-            "pbr": fnguide["estimatedPBR"] or naver["pbr"],
-            "eps": fnguide["estimatedEPS"] or naver["eps"],
-            "bps": fnguide["estimatedBPS"] or naver["bps"],
-            "dividendYield": naver["dividendYield"],
-            "estimatedRevenue": fnguide["estimatedRevenue"],
-            "estimatedOperatingIncome": fnguide["estimatedOperatingIncome"],
-            # Source tracking
-            "sources": {
-                "fnguide": {k: v for k, v in fnguide.items() if v is not None},
-                "naver": {k: v for k, v in naver.items() if v is not None},
-            },
+            "code": code, "ticker": ticker,
+            "currentPrice": nv["currentPrice"],
+            "targetPrice": fn["targetPrice"],
+            "per": fn["estimatedPER"] or nv["per"],
+            "pbr": fn["estimatedPBR"] or nv["pbr"],
+            "dividendYield": nv["dividendYield"],
+            "estimatedRevenue": fn.get("estimatedRevenue"),
+            "estimatedOI": fn.get("estimatedOI"),
+            "revenueGrowth": fn.get("revenueGrowth"),
+            "oiGrowth": fn.get("oiGrowth"),
+            **tech,
         }
-
         results[ticker] = merged
 
-        # Log
         parts = []
-        if merged["targetPrice"]:
-            parts.append(f"목표가:{int(merged['targetPrice']):,}")
-        if merged["per"]:
-            parts.append(f"PER:{merged['per']:.1f}")
-        if merged["pbr"]:
-            parts.append(f"PBR:{merged['pbr']:.2f}")
-        if merged["estimatedOperatingIncome"]:
-            parts.append(f"영업이익(E):{merged['estimatedOperatingIncome']:,.0f}")
+        if merged.get("dailyChangePct") is not None: parts.append(f"{'+'if merged['dailyChangePct']>=0 else''}{merged['dailyChangePct']}%")
+        if merged["targetPrice"]: parts.append(f"TP:{int(merged['targetPrice']):,}")
+        if merged["rsi14"]: parts.append(f"RSI:{merged['rsi14']}")
+        if merged.get("technicalSignal"): parts.append(merged["technicalSignal"])
+        print(", ".join(parts) if parts else "data collected")
 
-        status = ", ".join(parts) if parts else "데이터 없음"
-        print(f"  → {status}")
-
-    # Write output
-    output = {
-        "fetchedAt": datetime.now().isoformat(),
-        "stockCount": len(results),
-        "stocks": results,
-    }
-
-    output_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(output, f, ensure_ascii=False, indent=2)
-
-    print(f"\n✓ Saved to {output_path}")
-    print(f"✓ {len(results)} stocks processed")
-
-    # Count how many have useful data
-    with_target = sum(1 for v in results.values() if v["targetPrice"])
-    with_per = sum(1 for v in results.values() if v["per"])
-    print(f"  - 목표주가 있음: {with_target}/{len(results)}")
-    print(f"  - PER 있음: {with_per}/{len(results)}")
-
+    out = {"fetchedAt": datetime.now().isoformat(), "stockCount": len(results), "stocks": results}
+    output.parent.mkdir(parents=True, exist_ok=True)
+    with open(output, "w", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, indent=2)
+    ok = sum(1 for v in results.values() if v.get("currentPrice") or v.get("rsi14"))
+    print(f"\n✓ {ok}/{total} stocks → {output.name}")
 
 if __name__ == "__main__":
     main()

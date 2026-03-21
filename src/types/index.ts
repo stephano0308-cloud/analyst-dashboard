@@ -93,6 +93,19 @@ export interface AnalystData {
   estimates: FMPEstimate[];
   priceTarget: FMPPriceTarget | null;
   fetchedAt: string;
+  // ── Extra fields from crawlers ──
+  dailyChangePct?: number | null;
+  rsi14?: number | null;
+  macdHist?: number | null;
+  technicalSignal?: string | null;
+  revenueGrowth?: number | null;
+  oiGrowth?: number | null;
+  recommendation?: string | null;
+  forwardPer?: number | null;
+  revenueEstimateCurrent?: number | null;
+  revenueEstimateNext?: number | null;
+  epsEstimateCurrent?: number | null;
+  epsEstimateNext?: number | null;
 }
 
 export type AnalystDataMap = Record<string, AnalystData>;

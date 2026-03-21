@@ -1,8 +1,9 @@
-import { RefreshCw, Trash2, Database, AlertTriangle } from 'lucide-react';
+import { RefreshCw, Trash2, Database, AlertTriangle, Settings } from 'lucide-react';
 
 interface HeaderProps {
   onFetchAll: () => void;
   onClearCache: () => void;
+  onManagePortfolio: () => void;
   isFetching: boolean;
   progress: { done: number; total: number; current: string } | null;
   fetchError: string | null;
@@ -11,7 +12,7 @@ interface HeaderProps {
 }
 
 export default function Header({
-  onFetchAll, onClearCache,
+  onFetchAll, onClearCache, onManagePortfolio,
   isFetching, progress, fetchError, loadedCount, metadata
 }: HeaderProps) {
   return (
@@ -52,6 +53,14 @@ export default function Header({
               {isFetching && progress
                 ? `${progress.current} (${progress.done}/${progress.total})`
                 : 'FMP 실시간 보충 조회'}
+            </button>
+
+            <button
+              onClick={onManagePortfolio}
+              className="flex items-center gap-1.5 px-3 py-1.5 rounded-md text-xs font-medium text-slate-300 border border-slate-700 hover:bg-slate-800 transition-colors"
+            >
+              <Settings className="w-3.5 h-3.5" />
+              종목 관리
             </button>
 
             <button

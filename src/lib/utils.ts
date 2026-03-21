@@ -4,47 +4,23 @@ import type { PortfolioItem, MergedItem, KoreanConsensusData, ForeignAnalystData
 
 export function koreanConsensusToAnalystData(krData: KoreanConsensusData): AnalystDataMap {
   const result: AnalystDataMap = {};
-
   for (const [ticker, item] of Object.entries(krData.stocks)) {
-    const ad: AnalystData = {
-      quote: item.currentPrice ? {
-        symbol: item.code,
-        price: item.currentPrice,
-        pe: item.per || 0,
-        marketCap: 0,
-        eps: item.eps || 0,
-        priceAvg50: 0, priceAvg200: 0,
-        sharesOutstanding: 0,
-        yearHigh: 0, yearLow: 0,
-      } : null,
+    const i = item as any;
+    result[ticker] = {
+      quote: i.currentPrice ? { symbol: i.code, price: i.currentPrice, pe: i.per||0, marketCap: 0, eps: 0, priceAvg50:0, priceAvg200:0, sharesOutstanding:0, yearHigh:0, yearLow:0 } : null,
       rating: null,
-      keyMetrics: (item.per || item.pbr) ? {
-        peRatioTTM: item.per || 0,
-        pegRatioTTM: 0,
-        priceToBookRatioTTM: item.pbr || 0,
-        priceToSalesRatioTTM: 0,
-        enterpriseValueOverEBITDATTM: 0,
-        dividendYieldTTM: item.dividendYield ? item.dividendYield / 100 : 0,
-        marketCapTTM: 0,
-        debtToEquityTTM: 0,
-        roeTTM: 0,
-        currentRatioTTM: 0,
-      } : null,
-      incomeStatements: [],
-      estimates: [],
-      priceTarget: item.targetPrice ? {
-        symbol: item.code,
-        targetHigh: item.targetPrice * 1.15,   // Rough estimate since we only have consensus
-        targetLow: item.targetPrice * 0.85,
-        targetConsensus: item.targetPrice,
-        targetMedian: item.targetPrice,
-      } : null,
+      keyMetrics: (i.per || i.pbr) ? { peRatioTTM: i.per||0, pegRatioTTM:0, priceToBookRatioTTM: i.pbr||0, priceToSalesRatioTTM:0, enterpriseValueOverEBITDATTM:0, dividendYieldTTM: i.dividendYield ? i.dividendYield/100 : 0, marketCapTTM:0, debtToEquityTTM:0, roeTTM:0, currentRatioTTM:0 } : null,
+      incomeStatements: [], estimates: [],
+      priceTarget: i.targetPrice ? { symbol: i.code, targetHigh: i.targetPrice*1.15, targetLow: i.targetPrice*0.85, targetConsensus: i.targetPrice, targetMedian: i.targetPrice } : null,
       fetchedAt: krData.fetchedAt,
+      dailyChangePct: i.dailyChangePct ?? null,
+      rsi14: i.rsi14 ?? null,
+      macdHist: i.macdHist ?? null,
+      technicalSignal: i.technicalSignal ?? null,
+      revenueGrowth: i.revenueGrowth ?? null,
+      oiGrowth: i.oiGrowth ?? null,
     };
-
-    result[ticker] = ad;
   }
-
   return result;
 }
 
@@ -52,48 +28,29 @@ export function koreanConsensusToAnalystData(krData: KoreanConsensusData): Analy
 
 export function foreignAnalystToAnalystData(fData: ForeignAnalystData): AnalystDataMap {
   const result: AnalystDataMap = {};
-
   for (const [ticker, item] of Object.entries(fData.stocks)) {
-    const ad: AnalystData = {
-      quote: item.currentPrice ? {
-        symbol: ticker,
-        price: item.currentPrice,
-        pe: item.per || 0,
-        marketCap: item.marketCap || 0,
-        eps: item.eps || 0,
-        priceAvg50: 0, priceAvg200: 0,
-        sharesOutstanding: 0,
-        yearHigh: item.yearHigh || 0,
-        yearLow: item.yearLow || 0,
-      } : null,
+    const i = item as any;
+    result[ticker] = {
+      quote: i.currentPrice ? { symbol: ticker, price: i.currentPrice, pe: i.per||0, marketCap: i.marketCap||0, eps: i.eps||0, priceAvg50:0, priceAvg200:0, sharesOutstanding:0, yearHigh: i.yearHigh||0, yearLow: i.yearLow||0 } : null,
       rating: null,
-      keyMetrics: (item.per || item.pbr) ? {
-        peRatioTTM: item.per || 0,
-        pegRatioTTM: 0,
-        priceToBookRatioTTM: item.pbr || 0,
-        priceToSalesRatioTTM: item.psr || 0,
-        enterpriseValueOverEBITDATTM: item.evEbitda || 0,
-        dividendYieldTTM: item.dividendYield || 0,
-        marketCapTTM: item.marketCap || 0,
-        debtToEquityTTM: item.debtToEquity || 0,
-        roeTTM: item.roe || 0,
-        currentRatioTTM: 0,
-      } : null,
-      incomeStatements: [],
-      estimates: [],
-      priceTarget: item.targetPrice ? {
-        symbol: ticker,
-        targetHigh: item.targetHigh || item.targetPrice * 1.15,
-        targetLow: item.targetLow || item.targetPrice * 0.85,
-        targetConsensus: item.targetPrice,
-        targetMedian: item.targetMedian || item.targetPrice,
-      } : null,
+      keyMetrics: (i.per || i.pbr) ? { peRatioTTM: i.per||0, pegRatioTTM:0, priceToBookRatioTTM: i.pbr||0, priceToSalesRatioTTM: i.psr||0, enterpriseValueOverEBITDATTM: i.evEbitda||0, dividendYieldTTM: i.dividendYield||0, marketCapTTM: i.marketCap||0, debtToEquityTTM: i.debtToEquity||0, roeTTM: i.roe||0, currentRatioTTM:0 } : null,
+      incomeStatements: [], estimates: [],
+      priceTarget: i.targetPrice ? { symbol: ticker, targetHigh: i.targetHigh || i.targetPrice*1.15, targetLow: i.targetLow || i.targetPrice*0.85, targetConsensus: i.targetPrice, targetMedian: i.targetMedian || i.targetPrice } : null,
       fetchedAt: fData.fetchedAt,
+      dailyChangePct: i.dailyChangePct ?? null,
+      rsi14: i.rsi14 ?? null,
+      macdHist: i.macdHist ?? null,
+      technicalSignal: i.technicalSignal ?? null,
+      revenueGrowth: i.revenueGrowth ?? null,
+      oiGrowth: i.oiGrowth ?? null,
+      recommendation: i.recommendation ?? null,
+      forwardPer: i.forwardPer ?? null,
+      revenueEstimateCurrent: i.revenueEstimateCurrent ?? null,
+      revenueEstimateNext: i.revenueEstimateNext ?? null,
+      epsEstimateCurrent: i.epsEstimateCurrent ?? null,
+      epsEstimateNext: i.epsEstimateNext ?? null,
     };
-
-    result[ticker] = ad;
   }
-
   return result;
 }
 
