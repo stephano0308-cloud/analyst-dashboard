@@ -8,7 +8,7 @@ interface Props {
   analystData: AnalystDataMap;
 }
 
-const aiData = aiAnalysisRaw as { fetchedAt: string; analysis: string; status: string };
+const aiData = aiAnalysisRaw as any as { fetchedAt: string; analysis: string; status: string };
 
 export default function AIAnalysis({ items, analystData }: Props) {
   const totalValue = items.reduce((s, i) => s + i['평가금액(원)'], 0);

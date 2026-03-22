@@ -1,5 +1,5 @@
 import { useState, useMemo, useCallback } from 'react';
-import type { PortfolioData, KoreanConsensusData, ForeignAnalystData, AnalystDataMap, SortState, SortField, FilterState } from '@/types';
+import type { PortfolioData, AnalystDataMap, SortState, SortField, FilterState } from '@/types';
 import portfolioData from '@/data/portfolio.json';
 import koreanConsensusRaw from '@/data/korean-consensus.json';
 import foreignAnalystRaw from '@/data/foreign-analyst.json';
@@ -16,9 +16,9 @@ import { getApiKey, fetchAllAnalystData, clearCache, getCachedData, isKoreanStoc
 import { mergePortfolioItems, getUpsidePercent, koreanConsensusToAnalystData, foreignAnalystToAnalystData, cn } from '@/lib/utils';
 import { BarChart3, TrendingUp, Brain } from 'lucide-react';
 
-const baseData = portfolioData as PortfolioData;
-const krAnalystData = koreanConsensusToAnalystData(koreanConsensusRaw as KoreanConsensusData);
-const foreignData = foreignAnalystToAnalystData(foreignAnalystRaw as ForeignAnalystData);
+const baseData = portfolioData as any as PortfolioData;
+const krAnalystData = koreanConsensusToAnalystData(koreanConsensusRaw as any);
+const foreignData = foreignAnalystToAnalystData(foreignAnalystRaw as any);
 
 type Tab = 'portfolio' | 'sector' | 'ai';
 
