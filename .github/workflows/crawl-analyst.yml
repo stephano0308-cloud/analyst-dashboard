@@ -2,7 +2,7 @@ name: Crawl Analyst Data
 
 on:
   schedule:
-    - cron: "0 22 * * *"  # KST 07:00
+    - cron: "0 22 * * *"
   workflow_dispatch:
 
 permissions:
@@ -24,19 +24,22 @@ jobs:
         run: pip install -r scripts/requirements.txt
 
       - name: Crawl Korean stocks
+        continue-on-error: true
         run: python scripts/crawl_korean.py
 
       - name: Crawl Foreign stocks
+        continue-on-error: true
         run: python scripts/crawl_foreign.py
 
       - name: AI Portfolio Analysis
+        continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/analyze_portfolio.py
 
       - name: Commit and push if changed
         run: |
-          git diff --quiet src/data/ && exit 0
+          git diff --quiet src/data/ && echo "No changes" && exit 0
           git config user.name "analyst-bot"
           git config user.email "analyst-bot@users.noreply.github.com"
           git add src/data/

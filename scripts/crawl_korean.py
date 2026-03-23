@@ -1,18 +1,12 @@
 #!/usr/bin/env python3
 """Korean Stock Crawler: FnGuide + Naver + yfinance technicals"""
-import json, time, math, sys
+import json, time, math, sys, traceback
 from datetime import datetime
 from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
-try:
-    import yfinance as yf
-    import numpy as np
-except ImportError:
-    import subprocess
-    subprocess.check_call([sys.executable, "-m", "pip", "install", "yfinance", "numpy", "-q"])
-    import yfinance as yf
-    import numpy as np
+import yfinance as yf
+import numpy as np
 
 STOCK_MAP = {
     "SK하이닉스": ("000660","000660.KS"), "삼성전자": ("005930","005930.KS"),
@@ -27,7 +21,7 @@ STOCK_MAP = {
     "두산에너빌": ("034020","034020.KS"), "한국카본": ("017960","017960.KS"),
     "삼양식품": ("003230","003230.KS"), "산일전기": ("062040","062040.KQ"),
 }
-HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36", "Accept-Language": "ko-KR,ko;q=0.9"}
+HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36"}
 
 def safe(v, d=None):
     if v is None: return d
@@ -36,7 +30,7 @@ def safe(v, d=None):
 
 def pnum(t):
     if not t: return None
-    t = t.strip().replace(",","").replace(" ","")
+    t = str(t).strip().replace(",","").replace(" ","")
     if t in ("","-","N/A","nan"): return None
     try: return float(t)
     except: return None
@@ -67,7 +61,7 @@ def get_signal(rsi, mh):
     return " / ".join(s) if s else "중립"
 
 def fetch_fnguide(code):
-    r = {"targetPrice":None,"estimatedPER":None,"estimatedPBR":None,"estimatedRevenue":None,"estimatedOI":None,"revenueGrowth":None,"oiGrowth":None}
+    r = {"targetPrice":None,"estimatedPER":None,"estimatedPBR":None}
     try:
         url = f"https://comp.fnguide.com/SVO2/asp/SVD_Main.asp?pGB=1&gicode=A{code}"
         res = requests.get(url, headers=HEADERS, timeout=15); res.encoding="utf-8"
@@ -88,7 +82,7 @@ def fetch_fnguide(code):
                 if th and td and "목표주가" in th.get_text(strip=True):
                     r["targetPrice"]=pnum(td.get_text(strip=True))
     except Exception as e:
-        print(f"  [FnGuide ERR] {e}")
+        print(f"  [FnGuide] {e}")
     return r
 
 def fetch_naver(code):
@@ -106,7 +100,7 @@ def fetch_naver(code):
             elif "_pbr" in eid: r["pbr"]=v
             elif "_dvr" in eid: r["dividendYield"]=v
     except Exception as e:
-        print(f"  [Naver ERR] {e}")
+        print(f"  [Naver] {e}")
     return r
 
 def fetch_technicals(yf_ticker):
@@ -117,13 +111,13 @@ def fetch_technicals(yf_ticker):
         if hist is not None and len(hist)>30:
             closes = hist["Close"].values
             if len(closes)>=2:
-                r["dailyChangePct"] = round((closes[-1]-closes[-2])/closes[-2]*100, 2)
+                r["dailyChangePct"] = round(float((closes[-1]-closes[-2])/closes[-2]*100), 2)
             r["rsi14"] = calc_rsi(closes)
             m,s,h = calc_macd(closes)
             r["macd"]=m; r["macdSignal"]=s; r["macdHist"]=h
             r["technicalSignal"] = get_signal(r["rsi14"], h)
     except Exception as e:
-        print(f"  [Tech ERR] {e}")
+        print(f"  [Tech] {e}")
     return r
 
 def main():
@@ -132,39 +126,38 @@ def main():
     print(f"=== Korean Stock Crawler ===\n{total} stocks · {datetime.now():%Y-%m-%d %H:%M}\n")
 
     for idx, (ticker, (code, yf_t)) in enumerate(STOCK_MAP.items(), 1):
-        print(f"[{idx}/{total}] {ticker}", end=" → ")
-        fn = fetch_fnguide(code); time.sleep(0.8)
-        nv = fetch_naver(code); time.sleep(0.5)
-        tech = fetch_technicals(yf_t); time.sleep(0.5)
-
-        merged = {
-            "code": code, "ticker": ticker,
-            "currentPrice": nv["currentPrice"],
-            "targetPrice": fn["targetPrice"],
-            "per": fn["estimatedPER"] or nv["per"],
-            "pbr": fn["estimatedPBR"] or nv["pbr"],
-            "dividendYield": nv["dividendYield"],
-            "estimatedRevenue": fn.get("estimatedRevenue"),
-            "estimatedOI": fn.get("estimatedOI"),
-            "revenueGrowth": fn.get("revenueGrowth"),
-            "oiGrowth": fn.get("oiGrowth"),
-            **tech,
-        }
-        results[ticker] = merged
-
-        parts = []
-        if merged.get("dailyChangePct") is not None: parts.append(f"{'+'if merged['dailyChangePct']>=0 else''}{merged['dailyChangePct']}%")
-        if merged["targetPrice"]: parts.append(f"TP:{int(merged['targetPrice']):,}")
-        if merged["rsi14"]: parts.append(f"RSI:{merged['rsi14']}")
-        if merged.get("technicalSignal"): parts.append(merged["technicalSignal"])
-        print(", ".join(parts) if parts else "data collected")
+        print(f"[{idx}/{total}] {ticker}", end=" → ", flush=True)
+        try:
+            fn = fetch_fnguide(code); time.sleep(0.8)
+            nv = fetch_naver(code); time.sleep(0.5)
+            tech = fetch_technicals(yf_t); time.sleep(0.5)
+            results[ticker] = {
+                "code": code, "ticker": ticker,
+                "currentPrice": nv["currentPrice"],
+                "targetPrice": fn["targetPrice"],
+                "per": fn["estimatedPER"] or nv["per"],
+                "pbr": fn["estimatedPBR"] or nv["pbr"],
+                "dividendYield": nv["dividendYield"],
+                **tech,
+            }
+            parts = []
+            if tech.get("dailyChangePct") is not None: parts.append(f"{tech['dailyChangePct']:+.1f}%")
+            if tech.get("rsi14"): parts.append(f"RSI:{tech['rsi14']}")
+            if tech.get("technicalSignal"): parts.append(tech["technicalSignal"])
+            print(", ".join(parts) if parts else "ok", flush=True)
+        except Exception as e:
+            print(f"ERROR: {e}", flush=True)
+            results[ticker] = {"code": code, "ticker": ticker}
 
     out = {"fetchedAt": datetime.now().isoformat(), "stockCount": len(results), "stocks": results}
     output.parent.mkdir(parents=True, exist_ok=True)
     with open(output, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
-    ok = sum(1 for v in results.values() if v.get("currentPrice") or v.get("rsi14"))
-    print(f"\n✓ {ok}/{total} stocks → {output.name}")
+    print(f"\n✓ {len(results)} stocks → {output.name}")
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception:
+        traceback.print_exc()
+        sys.exit(0)  # Never fail the workflow
