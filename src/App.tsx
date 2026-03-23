@@ -12,15 +12,19 @@ import DebugPanel from '@/components/DebugPanel';
 import PortfolioManager, { applyOverrides } from '@/components/PortfolioManager';
 import SectorAnalysis from '@/components/SectorAnalysis';
 import AIAnalysis from '@/components/AIAnalysis';
+import TelegramTab from '@/components/TelegramTab';
 import { getApiKey, fetchAllAnalystData, clearCache, getCachedData, isKoreanStock, isETFOrIndex } from '@/lib/api';
 import { mergePortfolioItems, getUpsidePercent, koreanConsensusToAnalystData, foreignAnalystToAnalystData, cn } from '@/lib/utils';
-import { BarChart3, TrendingUp, Brain } from 'lucide-react';
+import { BarChart3, TrendingUp, Brain, MessageSquare } from 'lucide-react';
 
 const baseData = portfolioData as any as PortfolioData;
 const krAnalystData = koreanConsensusToAnalystData(koreanConsensusRaw as any);
 const foreignData = foreignAnalystToAnalystData(foreignAnalystRaw as any);
 
-type Tab = 'portfolio' | 'sector' | 'ai';
+import telegramRaw from '@/data/telegram-analysis.json';
+const telegramStocks = (telegramRaw as any)?.stocks || {};
+
+type Tab = 'portfolio' | 'sector' | 'ai' | 'telegram';
 
 export default function App() {
   const [analystData, setAnalystData] = useState<AnalystDataMap>(getCachedData);
@@ -102,6 +106,7 @@ export default function App() {
     { id: 'portfolio', label: '포트폴리오 현황', icon: BarChart3 },
     { id: 'sector', label: '섹터 분석', icon: TrendingUp },
     { id: 'ai', label: 'AI 리밸런싱', icon: Brain },
+    { id: 'telegram', label: '텔레그램', icon: MessageSquare },
   ];
 
   return (
@@ -152,6 +157,7 @@ export default function App() {
               <aside className="w-[420px] shrink-0 hidden xl:block">
                 <div className="sticky top-24">
                   <DetailPanel item={selectedItem} analystData={combinedData[selectedItem.티커] || null}
+                    telegramData={telegramStocks[selectedItem.티커] || null}
                     onClose={() => setSelectedTicker(null)} />
                 </div>
               </aside>
@@ -165,6 +171,10 @@ export default function App() {
 
         {activeTab === 'ai' && (
           <AIAnalysis items={filteredItems} analystData={combinedData} />
+        )}
+
+        {activeTab === 'telegram' && (
+          <TelegramTab items={filteredItems} onSelectTicker={(t) => { setSelectedTicker(t); setActiveTab('portfolio'); }} />
         )}
       </main>
       <DebugPanel />

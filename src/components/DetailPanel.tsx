@@ -1,11 +1,20 @@
-import { X, Target, BarChart3, TrendingUp, DollarSign, ExternalLink, Wallet } from 'lucide-react';
+import { X, Target, BarChart3, TrendingUp, DollarSign, ExternalLink, Wallet, MessageSquare } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from 'recharts';
 import type { MergedItem, AnalystData } from '@/types';
 import { formatKRW, formatPrice, formatRatio, formatLargeNumber, formatPercent, getUpsidePercent, cn } from '@/lib/utils';
 
+interface TelegramStockData {
+  summary?: string;
+  messageCount?: number;
+  channels?: string[];
+  messages?: { channel: string; text: string; date: string }[];
+  latestDate?: string;
+}
+
 interface DetailPanelProps {
   item: MergedItem;
   analystData: AnalystData | null;
+  telegramData?: TelegramStockData | null;
   onClose: () => void;
 }
 
@@ -19,7 +28,7 @@ function MetricCard({ label, value, sub, color }: { label: string; value: string
   );
 }
 
-export default function DetailPanel({ item, analystData, onClose }: DetailPanelProps) {
+export default function DetailPanel({ item, analystData, telegramData, onClose }: DetailPanelProps) {
   const quote = analystData?.quote;
   const pt = analystData?.priceTarget;
   const km = analystData?.keyMetrics;
@@ -224,6 +233,44 @@ export default function DetailPanel({ item, analystData, onClose }: DetailPanelP
               </a>
             </div>
           </>
+        )}
+
+        {/* ── Telegram Messages ── */}
+        {telegramData && telegramData.messageCount && telegramData.messageCount > 0 && (
+          <section className="border-t border-slate-800 pt-4">
+            <h3 className="flex items-center gap-1.5 text-xs font-semibold text-slate-400 uppercase tracking-wider mb-3">
+              <MessageSquare className="w-3.5 h-3.5 text-blue-400" /> 텔레그램 동향
+              <span className="text-[10px] font-normal text-slate-600 ml-auto">{telegramData.messageCount}개 메시지</span>
+            </h3>
+            {telegramData.summary && (
+              <div className="bg-blue-500/5 border border-blue-500/10 rounded-lg p-3 mb-3">
+                <p className="text-xs text-slate-300 leading-relaxed">{telegramData.summary}</p>
+              </div>
+            )}
+            {telegramData.messages && telegramData.messages.length > 0 && (
+              <div className="space-y-2">
+                {telegramData.messages.slice(0, 3).map((msg, i) => (
+                  <div key={i} className="bg-slate-800/30 rounded p-2">
+                    <div className="flex items-center gap-1.5 mb-1">
+                      <span className="text-[9px] px-1 py-0.5 rounded bg-slate-700 text-slate-400">@{msg.channel}</span>
+                      <span className="text-[9px] text-slate-600">{msg.date}</span>
+                    </div>
+                    <p className="text-[10px] text-slate-500 line-clamp-3">{msg.text}</p>
+                  </div>
+                ))}
+              </div>
+            )}
+            {telegramData.channels && (
+              <div className="flex flex-wrap gap-1 mt-2">
+                {telegramData.channels.map(ch => (
+                  <a key={ch} href={`https://t.me/${ch}`} target="_blank" rel="noopener"
+                    className="text-[9px] px-1.5 py-0.5 rounded bg-slate-800 text-slate-500 hover:text-blue-400">
+                    @{ch}
+                  </a>
+                ))}
+              </div>
+            )}
+          </section>
         )}
       </div>
     </div>
