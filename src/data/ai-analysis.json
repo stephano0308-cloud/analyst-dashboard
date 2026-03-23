@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-03-23T04:17:04.207288",
+  "fetchedAt": "2026-03-23T04:32:19.010506",
   "analysis": "Analysis failed: t.get(s[\"티커\"],{}).get(\"rsi14\",50)>=70]\n                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: '>=' not supported between instances of 'NoneType' and 'int'\n",
   "status": "error"
 }
