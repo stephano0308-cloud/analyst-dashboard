@@ -7,8 +7,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 jobs:
   crawl:
@@ -36,43 +34,11 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/analyze_portfolio.py
 
-      - name: Check for changes
-        id: check
+      - name: Commit and push if changed
         run: |
-          git diff --quiet src/data/ && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
-
-      - name: Commit and push
-        if: steps.check.outputs.changed == 'true'
-        run: |
+          git diff --quiet src/data/ && exit 0
           git config user.name "analyst-bot"
           git config user.email "analyst-bot@users.noreply.github.com"
           git add src/data/
-          git commit -m "data: update analyst data + AI analysis $(date +%Y-%m-%d)"
+          git commit -m "data: update analyst data $(date +%Y-%m-%d)"
           git push
-
-  deploy:
-    needs: crawl
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          ref: main
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: "22"
-          cache: "npm"
-
-      - run: npm ci
-      - run: npm run build
-
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./dist
-
-      - id: deployment
-        uses: actions/deploy-pages@v4
