@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-03-23T04:32:18.442085",
+  "fetchedAt": "2026-03-23T04:39:37.757353",
   "source": "Yahoo Finance",
   "stockCount": 29,
   "stocks": {
@@ -970,10 +970,10 @@
       "prevClose": 37.08,
       "dailyChange": -0.55,
       "dailyChangePct": -1.48,
-      "targetPrice": 46.936325,
-      "targetHigh": 63.62398,
-      "targetLow": 39.86446,
-      "targetMedian": 44.65667,
+      "targetPrice": 46.943653,
+      "targetHigh": 63.633915,
+      "targetLow": 39.87068,
+      "targetMedian": 44.66364,
       "analystCount": 12,
       "recommendation": "buy",
       "per": 10.348442,
