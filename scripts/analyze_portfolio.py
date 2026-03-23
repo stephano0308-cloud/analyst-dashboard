@@ -83,8 +83,8 @@ def main():
         if rg and isinstance(rg, (int, float)): p.append(f"매출성장:{rg*100:.1f}%")
         lines.append(" | ".join(p))
 
-    ob = [s["종목명"] for s in sorted_s if analyst.get(s["티커"],{}).get("rsi14",50)>=70]
-    os_ = [s["종목명"] for s in sorted_s if analyst.get(s["티커"],{}).get("rsi14",50)<=30]
+    ob = [s["종목명"] for s in sorted_s if (analyst.get(s["티커"],{}).get("rsi14") or 0) >= 70]
+    os_ = [s["종목명"] for s in sorted_s if 0 < (analyst.get(s["티커"],{}).get("rsi14") or 99) <= 30]
 
     prompt = f"""당신은 포트폴리오 분석 전문가입니다. 아래 포트폴리오를 종합 분석하고 리밸런싱 의견을 한국어로 제시해주세요.
 
