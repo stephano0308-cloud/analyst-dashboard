@@ -1,298 +1,255 @@
 {
-  "fetchedAt": "2026-03-27T22:22:08.973496",
+  "fetchedAt": "2026-03-28T22:18:13.843344",
   "status": "ok",
   "stocks": {
-    "TIGER지주": {
-      "ticker": "TIGER지주",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "easobi"
-      ],
-      "latestDate": "2026-03-27T22:00:18+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "2026년 3월 27일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시는 오늘 또한 상당한 후퇴를 기록하며 전날의 하락세를 이어갔고, 주간 전체적으로도 주요 지수들이 모두 하락 마감했습니다. S&P 500 지수는 1.7% 하락한 6370.84, Nasdaq Composite 지수는 2.2% 하락한 20948.37, 그리고 Dow Jones 산업평균 지수는 1.7% 하락한 45165.53을 기록했습니다. 이러한 광범위한 하락 압력은 이란과의 지정학적 불확실성이 고조되면서 유가가 급등한 것에 주로 기인하며 장 내내 폭이 넓어졌습니다.\n\n미국",
-          "date": "2026-03-27T22:00"
-        }
-      ]
-    },
-    "TSLA": {
-      "ticker": "TSLA",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "easobi",
-        "d_ticker"
-      ],
-      "latestDate": "2026-03-27T22:00:18+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "2026년 3월 27일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시는 오늘 또한 상당한 후퇴를 기록하며 전날의 하락세를 이어갔고, 주간 전체적으로도 주요 지수들이 모두 하락 마감했습니다. S&P 500 지수는 1.7% 하락한 6370.84, Nasdaq Composite 지수는 2.2% 하락한 20948.37, 그리고 Dow Jones 산업평균 지수는 1.7% 하락한 45165.53을 기록했습니다. 이러한 광범위한 하락 압력은 이란과의 지정학적 불확실성이 고조되면서 유가가 급등한 것에 주로 기인하며 장 내내 폭이 넓어졌습니다.\n\n미국",
-          "date": "2026-03-27T22:00"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**머스크의 보링 컴퍼니, 휴스턴 지하터널 무산**\n\n([Bloomberg](https://www.bloomberg.com/news/articles/2026-03-26/musk-s-boring-co-sought-to-build-underground-tunnel-in-houston)) 일론 머스크의 굴착 기업 보링 컴퍼니가 텍사스주 휴스턴 도심에 교통 체증 해소를 위한 지하 터널 네트워크 구축을 제안하며 약 18개월간 논의를 진행했다. 보링 컴퍼니는 테슬라 차량을 이용해 7개의 역을 연결하는 승객 운송 시스템을 계획했다. 추가로 도시",
-          "date": "2026-03-27T05:00"
-        }
-      ]
-    },
-    "META": {
-      "ticker": "META",
+    "TIME코스닥": {
+      "ticker": "TIME코스닥",
       "summary": "분석 실패: Connection error.",
       "messageCount": 4,
       "channels": [
         "aetherjapanresearch",
-        "easobi",
-        "d_ticker"
+        "Jstockclass"
       ],
-      "latestDate": "2026-03-27T22:00:18+00:00",
+      "latestDate": "2026-03-28T14:59:22+00:00",
       "messages": [
         {
-          "channel": "easobi",
-          "text": "2026년 3월 27일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시는 오늘 또한 상당한 후퇴를 기록하며 전날의 하락세를 이어갔고, 주간 전체적으로도 주요 지수들이 모두 하락 마감했습니다. S&P 500 지수는 1.7% 하락한 6370.84, Nasdaq Composite 지수는 2.2% 하락한 20948.37, 그리고 Dow Jones 산업평균 지수는 1.7% 하락한 45165.53을 기록했습니다. 이러한 광범위한 하락 압력은 이란과의 지정학적 불확실성이 고조되면서 유가가 급등한 것에 주로 기인하며 장 내내 폭이 넓어졌습니다.\n\n미국",
-          "date": "2026-03-27T22:00"
+          "channel": "Jstockclass",
+          "text": "**Q1 2026 실적 시즌을 통해 확인될 미국 증시 방향성 (GS)\n**\n1. **밸류에이션 및 시장 환경\n**\n 1) **밸류에이션 디레이팅 속에서도 이익 기대는 유지되는 구조**\n\n • S&P500은 고점 대비 약 -9% 하락하며 가격 조정이 이미 진행되었지만, 동시에 2026년 EPS 추정치는 오히려 +3% 상향되며 가격과 이익의 괴리가 확대되는 모습\n\n • 이는 이번 하락이 ‘이익 훼손’이 아니라 금리 상승, 유가 급등, 지정학 리스크 등 외생 변수에 따른 멀티플 축소 성격임을 의미하며, P/E는 21배 → 19배로 빠르게",
+          "date": "2026-03-28T12:46"
+        },
+        {
+          "channel": "Jstockclass",
+          "text": "**주간 Risk indicator 동향**\n\n1. Bofa Bull & Bear indicator\n- 8.4 → 7.4 (하락)\n\n2. CNN Fear & Greed index\n- 15 → 10 (하락)\n\n3. AAII Bull & Bear index \n- 30.4% → 32.1% (Bull 상승)\n- 52.0% → 49.8% (Bear 하락)\n\n4. GS US Equity Sentiment\n- -0.3 → -0.9 (하락)\n\n5. Naaim exposure\n- 60.2 → 68.5 (상승)\n\n4. VIX\n- 27 → 31 (상승",
+          "date": "2026-03-28T12:25"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "9. 핵심 시사점 요약\n이 모델의 핵심 구조는 데이터센터 전력 공급(Supply) → 하이퍼스케일러 설비투자 및 클라우드 매출(Demand) → 토큰 생산량 및 AI 서비스 매출로 이어지는 AI 산업 가치사슬 전체를 정량적으로 추적하는 것입니다.\n\n첫째, 전력 인프라 측면에서 글로벌 AI 데이터센터 용량은 2024년 4.3GW에서 2030년 59.4GW로 약 14배 확대되며, 5년간 약 55GW의 신규 용량이 필요합니다. 건설 비용 역시 GW당 38억 달러에서 55억 달러로 상승합니다.\n\n둘째, 설비투자는 미국 빅4 기준 2024년",
-          "date": "2026-03-27T11:52"
+          "text": "Trump plans to continue the operation for a **__\"short time\"__** longer",
+          "date": "2026-03-28T14:59"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "4. AI 토큰 생산량 모델 (Token Production)\n\nCiti는 주요 AI 모델별 월간/분기별 토큰 생산량을 조 단위(tn)로 추정하고 있습니다. 전체 토큰 생산량은 2024년 1분기 200tn에서 2025년 1분기 3,757tn으로 급증했으며, 2025년 2분기 약 9,361tn, 2025년 3분기 약 21,554tn, 2025년 4분기 약 40,245tn으로 가파르게 증가하고 있습니다. 2025년 연간 합산은 약 74,918tn, 2026년 연간 합산은 약 682,055tn으로 전망됩니다.\n\n모델별로 보면, ChatG",
-          "date": "2026-03-27T11:52"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**메타, 엔터지 가스발전소 7기 건설비 전액 부담한다 ****$META**\n\n([Press](https://www.entergy.com/news/entergy-louisiana-announces-a-new-agreement-with-meta-that-will-deliver-an-additional-2b-in-customer-savings)) 메타는 자사의 북동부 루이지애나 데이터센터에 필요한 전력을 공급받기 위해 발전 기업인 엔터지(ETR)와 2024년 10월 $650M 계약을 맺은데 이어, 향후 엔터지의 천연가스 복합화력 발전소",
-          "date": "2026-03-27T14:01"
-        }
-      ]
-    },
-    "AMZN": {
-      "ticker": "AMZN",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "easobi",
-        "d_ticker"
-      ],
-      "latestDate": "2026-03-27T22:00:18+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "2026년 3월 27일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시는 오늘 또한 상당한 후퇴를 기록하며 전날의 하락세를 이어갔고, 주간 전체적으로도 주요 지수들이 모두 하락 마감했습니다. S&P 500 지수는 1.7% 하락한 6370.84, Nasdaq Composite 지수는 2.2% 하락한 20948.37, 그리고 Dow Jones 산업평균 지수는 1.7% 하락한 45165.53을 기록했습니다. 이러한 광범위한 하락 압력은 이란과의 지정학적 불확실성이 고조되면서 유가가 급등한 것에 주로 기인하며 장 내내 폭이 넓어졌습니다.\n\n미국",
-          "date": "2026-03-27T22:00"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**아메리칸 에어라인, 기내 스타링크 & 아마존 위성망 도입 ****$AAL**\n\n아메리칸 항공이 기내 서비스 경쟁력 강화를 위해 스페이스X의 스타링크 및 아마존 LEO와 와이파이 업그레이드 및 콘텐츠 공급을 위한 협상을 진행 중이다. 이는 이미 기내 엔터테인먼트에 대규모 투자를 지속해 온 경쟁사 델타 항공과 유나이티드 항공에 대응하여 프리미엄 고객을 확보하려는 전략으로 풀이된다.",
-          "date": "2026-03-26T22:33"
+          "text": "🚨 [CRITICAL] 호르무즈 해협 알림\n\n📍 위치: 이란/예멘 연관 활동 — 남부 이스라엘 향발사 지점 관련\n시간: 2026-03-28 14:57 KST\n제목: Houthis in Yemen fired a missile at southern Israel for the first time since U.S. and Israel launched war on Iran.\n\n📝 요약: 후티(Houthi) 세력이 예멘에서 남부 이스라엘을 향해 미사일을 발사했으며, 이스라엘이 요격했다고 보도되었습니다. 이는 미국·이스라엘-이란 전쟁 국면에서",
+          "date": "2026-03-28T09:18"
         }
       ]
     },
     "BE": {
       "ticker": "BE",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 9,
+      "messageCount": 11,
       "channels": [
         "DOC_POOL",
-        "sunstudy1004",
-        "d_ticker",
         "aetherjapanresearch",
+        "d_ticker",
+        "sunstudy1004",
+        "Jstockclass",
         "easobi"
       ],
-      "latestDate": "2026-03-27T14:31:12+00:00",
+      "latestDate": "2026-03-28T15:52:08+00:00",
       "messages": [
         {
+          "channel": "Jstockclass",
+          "text": "**Q1 2026 실적 시즌을 통해 확인될 미국 증시 방향성 (GS)\n**\n1. **밸류에이션 및 시장 환경\n**\n 1) **밸류에이션 디레이팅 속에서도 이익 기대는 유지되는 구조**\n\n • S&P500은 고점 대비 약 -9% 하락하며 가격 조정이 이미 진행되었지만, 동시에 2026년 EPS 추정치는 오히려 +3% 상향되며 가격과 이익의 괴리가 확대되는 모습\n\n • 이는 이번 하락이 ‘이익 훼손’이 아니라 금리 상승, 유가 급등, 지정학 리스크 등 외생 변수에 따른 멀티플 축소 성격임을 의미하며, P/E는 21배 → 19배로 빠르게",
+          "date": "2026-03-28T12:46"
+        },
+        {
+          "channel": "Jstockclass",
+          "text": "**주간 Risk indicator 동향**\n\n1. Bofa Bull & Bear indicator\n- 8.4 → 7.4 (하락)\n\n2. CNN Fear & Greed index\n- 15 → 10 (하락)\n\n3. AAII Bull & Bear index \n- 30.4% → 32.1% (Bull 상승)\n- 52.0% → 49.8% (Bear 하락)\n\n4. GS US Equity Sentiment\n- -0.3 → -0.9 (하락)\n\n5. Naaim exposure\n- 60.2 → 68.5 (상승)\n\n4. VIX\n- 27 → 31 (상승",
+          "date": "2026-03-28T12:25"
+        },
+        {
           "channel": "easobi",
-          "text": "Morgan Stanley\nTechnology - European Semiconductors: Stepping Out of the Shadows - Europe's Optical Inflection\nNokia, Soitec, STM, Besi, Aixtron\n🚀 유럽 반도체의 광학 변곡점과 새로운 기회\n• AI 데이터센터 성장이 연결성(Connectivity) 병목 현상을 유발하며 광학 기술이 스택의 중심부로 이동함\n• 컴퓨팅 수요보다 연결성 수요가 더 빠르게 증가하며 다년간의 성장 사이클 진입이 예상됨\n• 유럽 기업들은 소재, 패",
-          "date": "2026-03-26T22:51"
+          "text": "https://youtu.be/GBpwB3iVXv0?si=4jmIDkSDTbKkzuO0",
+          "date": "2026-03-28T01:28"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "🚨 [CRITICAL] 호르무즈 인접 지역 알림\n\n📍 위치: 이란 → 이스라엘 (디모나·베에르셰바 방향)\n시간: 2026-03-27 20:07 KST\n제목: ISRAELI HOME FRONT: EARLY WARNING ISSUED FOLLOWING DETECTION OF IRANIAN MISSILE ATTACK TOWARD DIMONA AND BEERSHEBA IN SOUTHERN ISRAEL\n\n📝 요약: 현지 시각 2026-03-27 11:07 UTC(=KST 20:07)경, 이란발 미사일이 이스라엘 남부 디모나·베에르셰바 방향으",
-          "date": "2026-03-27T11:29"
+          "text": "<터보퀀트> 원문을 다시 봤습니다 \n\n터보퀀트는 모든 벤치마크에서 완벽한 작업 결과물을 제공하는 동시에 키-값 메모리 크기를 최소 6배까지 줄였다.\n\nTurboQuant achieves perfect downstream results across all benchmarks while reducing the key value memory size by a factor of at least 6x.\n\n일단 최소 6배 줄인다는 언급 자체는 구글 리서치 블로그에 나와있습니다. 문제는 해석의 차이인데요. \n\n위 그래프를 보면, 터보퀀트(5번째",
+          "date": "2026-03-28T15:52"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "https://youtu.be/C_vdlKPhEOs?si=y4iyth2LKJnVDeei\n\n아하 이게 이란이 자기들이 공격한 배 인증한거 이번에 공개한거였군요",
-          "date": "2026-03-27T11:28"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**메타, 엔터지 가스발전소 7기 건설비 전액 부담한다 ****$META**\n\n([Press](https://www.entergy.com/news/entergy-louisiana-announces-a-new-agreement-with-meta-that-will-deliver-an-additional-2b-in-customer-savings)) 메타는 자사의 북동부 루이지애나 데이터센터에 필요한 전력을 공급받기 위해 발전 기업인 엔터지(ETR)와 2024년 10월 $650M 계약을 맺은데 이어, 향후 엔터지의 천연가스 복합화력 발전소",
-          "date": "2026-03-27T14:01"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**머스크의 보링 컴퍼니, 휴스턴 지하터널 무산**\n\n([Bloomberg](https://www.bloomberg.com/news/articles/2026-03-26/musk-s-boring-co-sought-to-build-underground-tunnel-in-houston)) 일론 머스크의 굴착 기업 보링 컴퍼니가 텍사스주 휴스턴 도심에 교통 체증 해소를 위한 지하 터널 네트워크 구축을 제안하며 약 18개월간 논의를 진행했다. 보링 컴퍼니는 테슬라 차량을 이용해 7개의 역을 연결하는 승객 운송 시스템을 계획했다. 추가로 도시",
-          "date": "2026-03-27T05:00"
-        }
-      ]
-    },
-    "HD마린엔진": {
-      "ticker": "HD마린엔진",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "easobi"
-      ],
-      "latestDate": "2026-03-26T22:32:23+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "CLSA\nKorea shipbuilding - Investor concerns\nHD Hyundai Heavy Industries, Hanwha Ocean, HD KSOE, Samsung Heavy Industries\n───── ✦ ─────\n🚢 카타르 LNG 및 캐나다 잠수함 관련 우려 분석\n• 최근 중동 분쟁으로 인한 카타르 LNG 선박 인도 지연 및 취소 우려는 과도한 것으로 판단함\n• 카타르의 구매자 신뢰도와 향후 슬롯 확보 문제를 고려할 때 계약 취소 가능성은 낮음\n• 생산 중단에 따른 단기 수급 불균형은 선박 리스나 우회 ",
-          "date": "2026-03-26T22:32"
-        }
-      ]
-    },
-    "HD한국조선": {
-      "ticker": "HD한국조선",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "easobi"
-      ],
-      "latestDate": "2026-03-26T22:32:23+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "CLSA\nKorea shipbuilding - Investor concerns\nHD Hyundai Heavy Industries, Hanwha Ocean, HD KSOE, Samsung Heavy Industries\n───── ✦ ─────\n🚢 카타르 LNG 및 캐나다 잠수함 관련 우려 분석\n• 최근 중동 분쟁으로 인한 카타르 LNG 선박 인도 지연 및 취소 우려는 과도한 것으로 판단함\n• 카타르의 구매자 신뢰도와 향후 슬롯 확보 문제를 고려할 때 계약 취소 가능성은 낮음\n• 생산 중단에 따른 단기 수급 불균형은 선박 리스나 우회 ",
-          "date": "2026-03-26T22:32"
-        }
-      ]
-    },
-    "삼성중공업": {
-      "ticker": "삼성중공업",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "easobi"
-      ],
-      "latestDate": "2026-03-26T22:32:23+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "CLSA\nKorea shipbuilding - Investor concerns\nHD Hyundai Heavy Industries, Hanwha Ocean, HD KSOE, Samsung Heavy Industries\n───── ✦ ─────\n🚢 카타르 LNG 및 캐나다 잠수함 관련 우려 분석\n• 최근 중동 분쟁으로 인한 카타르 LNG 선박 인도 지연 및 취소 우려는 과도한 것으로 판단함\n• 카타르의 구매자 신뢰도와 향후 슬롯 확보 문제를 고려할 때 계약 취소 가능성은 낮음\n• 생산 중단에 따른 단기 수급 불균형은 선박 리스나 우회 ",
-          "date": "2026-03-26T22:32"
-        }
-      ]
-    },
-    "CLS": {
-      "ticker": "CLS",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "easobi"
-      ],
-      "latestDate": "2026-03-26T22:32:23+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "CLSA\nKorea shipbuilding - Investor concerns\nHD Hyundai Heavy Industries, Hanwha Ocean, HD KSOE, Samsung Heavy Industries\n───── ✦ ─────\n🚢 카타르 LNG 및 캐나다 잠수함 관련 우려 분석\n• 최근 중동 분쟁으로 인한 카타르 LNG 선박 인도 지연 및 취소 우려는 과도한 것으로 판단함\n• 카타르의 구매자 신뢰도와 향후 슬롯 확보 문제를 고려할 때 계약 취소 가능성은 낮음\n• 생산 중단에 따른 단기 수급 불균형은 선박 리스나 우회 ",
-          "date": "2026-03-26T22:32"
-        }
-      ]
-    },
-    "HD현대중공업": {
-      "ticker": "HD현대중공업",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "easobi"
-      ],
-      "latestDate": "2026-03-26T22:32:23+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "CLSA\nKorea shipbuilding - Investor concerns\nHD Hyundai Heavy Industries, Hanwha Ocean, HD KSOE, Samsung Heavy Industries\n───── ✦ ─────\n🚢 카타르 LNG 및 캐나다 잠수함 관련 우려 분석\n• 최근 중동 분쟁으로 인한 카타르 LNG 선박 인도 지연 및 취소 우려는 과도한 것으로 판단함\n• 카타르의 구매자 신뢰도와 향후 슬롯 확보 문제를 고려할 때 계약 취소 가능성은 낮음\n• 생산 중단에 따른 단기 수급 불균형은 선박 리스나 우회 ",
-          "date": "2026-03-26T22:32"
-        }
-      ]
-    },
-    "삼성전기": {
-      "ticker": "삼성전기",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "easobi"
-      ],
-      "latestDate": "2026-03-26T22:23:05+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "삼성전기 (Morgan Stanley)\nFC-BGA: From GPU Cycle to System-Level Al Upcycle\n───── ✦ ─────\n🚀 FC-BGA 시장의 패러다임 변화\n• FC-BGA 수요가 GPU 중심 성장에서 시스템 전체로 확장되는 '시스템 레벨 AI 업사이클'에 진입함\n• 기존에는 GPU가 성장을 견인했다면, 이제는 CPU와 네트워킹 칩이 추가적인 수요를 창출하고 있음\n• AI 하드웨어가 랙(Rack) 단위 아키텍처로 발전하며 GPU, CPU, DPU, NIC 등이 함께 배치되는 구조로 변화함\n• 이에 ",
-          "date": "2026-03-26T22:23"
-        }
-      ]
-    },
-    "TEM": {
-      "ticker": "TEM",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "easobi"
-      ],
-      "latestDate": "2026-03-26T22:23:05+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "삼성전기 (Morgan Stanley)\nFC-BGA: From GPU Cycle to System-Level Al Upcycle\n───── ✦ ─────\n🚀 FC-BGA 시장의 패러다임 변화\n• FC-BGA 수요가 GPU 중심 성장에서 시스템 전체로 확장되는 '시스템 레벨 AI 업사이클'에 진입함\n• 기존에는 GPU가 성장을 견인했다면, 이제는 CPU와 네트워킹 칩이 추가적인 수요를 창출하고 있음\n• AI 하드웨어가 랙(Rack) 단위 아키텍처로 발전하며 GPU, CPU, DPU, NIC 등이 함께 배치되는 구조로 변화함\n• 이에 ",
-          "date": "2026-03-26T22:23"
-        }
-      ]
-    },
-    "삼성전자": {
-      "ticker": "삼성전자",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "easobi",
-        "sunstudy1004"
-      ],
-      "latestDate": "2026-03-27T12:33:35+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "삼성전기 (Morgan Stanley)\nFC-BGA: From GPU Cycle to System-Level Al Upcycle\n───── ✦ ─────\n🚀 FC-BGA 시장의 패러다임 변화\n• FC-BGA 수요가 GPU 중심 성장에서 시스템 전체로 확장되는 '시스템 레벨 AI 업사이클'에 진입함\n• 기존에는 GPU가 성장을 견인했다면, 이제는 CPU와 네트워킹 칩이 추가적인 수요를 창출하고 있음\n• AI 하드웨어가 랙(Rack) 단위 아키텍처로 발전하며 GPU, CPU, DPU, NIC 등이 함께 배치되는 구조로 변화함\n• 이에 ",
-          "date": "2026-03-26T22:23"
-        },
-        {
-          "channel": "sunstudy1004",
-          "text": "**샌디스크 경영진 \"터보퀀트? 낸드 수요 더 키울 것\"**\n\n**“AI 비용 낮추면 사용 더 늘어”…스토리지 수요 확대 전망\n모건스탠리 “수요 감소 징후 없어”…과도한 우려 선 긋기**\n\n\n구글의 인공지능(AI) 압축 기술 ‘터보퀀트(TurboQuant)’가 메모리 수요 논쟁을 불러온 가운데, **샌디스크 경영진이 “오히려 낸드 수요를 확대시킬 것”**이라는 평가를 내놓은 것으로 전해졌다.\n\n27일 금융투자업계에 따르면, **샌디스크 경영진은 최근 씨티그룹과 진행한 IR 행사에서 터보퀀트가 AI 확산을 가속화해 스토리지 수요 증가",
-          "date": "2026-03-27T12:33"
+          "text": "TSMC의 3nm 칩 캐파시티가 너무 타이트해져 \"장기적이고 충성도 높은\" 고객만 우선순위 부여\n\nGPU 및 CPU 제조사부터 하이퍼스케일러 및 기타 소비자 세그먼트에 이르기까지, 현재 거의 모든 기업이 TSMC에 주문을 넣으려 하고 있지만, 칩 거인의 캐파시티는 단순히 충분하지 않다. 디지타임즈 보도에 따르면, TSMC의 3nm 공급은 심각하게 제약되어 있어 기업들이 공격적인 변화 없이는 제품 계획을 진행하기 어려운 상황이다. 모든 고객 카테고리 중에서, 장기적이고 \"충성도 높은\" 고객만이 제품을 받는 것으로 알려졌다.\n애플과 엔",
+          "date": "2026-03-28T13:51"
         }
       ]
     },
     "APP": {
       "ticker": "APP",
       "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-03-28T16:12:34+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "📈 주요 뉴스 브리핑\n\n1. **Israeli drone strike on the town of Zrarieh al-Sharqiya south of Lebanon**\n• 요약: 이스라엘 드론이 레바논 남부 Zrarieh al-Sharqiya 지역을 타격했다. 중동 지역의 군사 긴장이 다시 높아지며 분쟁 확산 우려가 커지고 있다.\n• 시장 영향: 유가와 방산주에 우호적이며, 위험회피 심리를 자극할 수 있다.\n• 출처: FirstSquawk Local\n• 링크: [https://t.me/firstsquaw/118020](https://",
+          "date": "2026-03-28T16:12"
+        }
+      ]
+    },
+    "GOOGL": {
+      "ticker": "GOOGL",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 7,
+      "channels": [
+        "aetherjapanresearch",
+        "d_ticker",
+        "sunstudy1004",
+        "DOC_POOL"
+      ],
+      "latestDate": "2026-03-28T18:02:58+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Citi) 터보퀀트의 영향 평가: 제번스 역설\n\n씨티의 견해\n터보퀀트 도입 이후 단기적인 시장 혼란에도 불구하고, 당사는 터보퀀트와 같은 KV 캐시 압축 기술의 지속적인 발전이 AI 도입을 가속화하여 궁극적으로 메모리 수요에 긍정적인 촉매제 역할을 할 것으로 판단합니다. 제번스 역설이 보여주듯, 컴퓨팅 효율성 향상은 역사적으로 더 강한 메모리 수요를 촉발해 왔습니다. 나아가 KV 캐시를 압축 해제하는 데 추가적인 컴퓨팅 파워가 필요하므로, 이는 HBM 및 서버 DDR5 등 고성능 메모리 솔루션에 대한 메모리 수요를 견인해야 합니다.",
+          "date": "2026-03-28T16:03"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "<터보퀀트> 원문을 다시 봤습니다 \n\n터보퀀트는 모든 벤치마크에서 완벽한 작업 결과물을 제공하는 동시에 키-값 메모리 크기를 최소 6배까지 줄였다.\n\nTurboQuant achieves perfect downstream results across all benchmarks while reducing the key value memory size by a factor of at least 6x.\n\n일단 최소 6배 줄인다는 언급 자체는 구글 리서치 블로그에 나와있습니다. 문제는 해석의 차이인데요. \n\n위 그래프를 보면, 터보퀀트(5번째",
+          "date": "2026-03-28T15:52"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Citi) TSMC; AI 메가사이클 가속화\n\n씨티의 견해\n당사는 TSMC에 대한 실적 전망을 추가 상향 조정하고 2028년 추정치를 신규 도입합니다. 강력한 AI 수요는 GPU/ASIC에만 국한되지 않고 서버 CPU, 네트워킹 칩, CPO 등 더 넓은 생태계로 확장되고 있습니다. 공급 환경의 타이트함 또한 웨이퍼 가격의 지속적인 인상을 뒷받침하고 있으며, 이는 높은 캐펙스에 따른 감가상각 증가 및 인플레이션 환경에도 불구하고 TSMC의 가격 결정력과 마진 회복력을 강화하고 있습니다. 당사는 노드 이전 및 다이 사이즈 확대에 힘입어",
+          "date": "2026-03-28T11:36"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "<터보퀀트> 원문을 다시 봤습니다 \n\n터보퀀트는 모든 벤치마크에서 완벽한 작업 결과물을 제공하는 동시에 키-값 메모리 크기를 최소 6배까지 줄였다.\n\nTurboQuant achieves perfect downstream results across all benchmarks while reducing the key value memory size by a factor of at least 6x.\n\n일단 최소 6배 줄인다는 언급 자체는 구글 리서치 블로그에 나와있습니다. 문제는 해석의 차이인데요. \n\n위 그래프를 보면, 터보퀀트(5번째",
+          "date": "2026-03-28T15:42"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**구글, 앤스로픽 데이터센터 건설에 수십억 달러 지원 ****$GOOGL**\n\n([FT](https://www.ft.com/content/af949b0b-3e24-4eaa-9a52-0a841ac1ff22?syn-25a6b1a6=1)) 구글이 데이터센터 개발사 '넥서스 데이터센터'에 건설 자금을 대출하는 방식으로 지원한다. 넥서스는 텍사스 주 2,800에이커 부지에 0.5GW 용량의 AI 인프라를 구축하려고 한다. 앤스로픽은 3월 초 넥서스와 계약을 맺고 해당 데이터센터를 임차하기로 결정했다. 구글은 초기 건설 단계에 $5B 이상 ",
+          "date": "2026-03-28T14:55"
+        }
+      ]
+    },
+    "GOOG": {
+      "ticker": "GOOG",
+      "summary": "분석 실패: Connection error.",
       "messageCount": 3,
       "channels": [
         "aetherjapanresearch",
         "d_ticker"
       ],
-      "latestDate": "2026-03-27T13:02:48+00:00",
+      "latestDate": "2026-03-28T15:52:08+00:00",
       "messages": [
         {
           "channel": "aetherjapanresearch",
-          "text": "골드만삭스) 하드웨어: 오픈소스 자율 AI 에이전트가 PC 수요에 미치는 영향\n\nOpenClaw과 같은 오픈소스 자율 AI 에이전트의 인기 상승이 PC 하드웨어 수요에 대한 잠재적 영향에 관한 투자자들의 관심을 높이고 있습니다. 당사는 이러한 수요가 2026년 PC 단위 출하량을 실질적으로 움직일 만큼 강하지는 않다고 보지만(메모리 공급 제약 환경 속에서 업계 단위 출하량이 두 자릿수 % 감소할 것으로 여전히 예상), OpenClaw와 같은 신흥 AI 활용 사례는 더 높은 평균판매가격(ASP)을 지닌 AI 지원 기기 방향으로의 업계",
-          "date": "2026-03-27T13:02"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "4. AI 토큰 생산량 모델 (Token Production)\n\nCiti는 주요 AI 모델별 월간/분기별 토큰 생산량을 조 단위(tn)로 추정하고 있습니다. 전체 토큰 생산량은 2024년 1분기 200tn에서 2025년 1분기 3,757tn으로 급증했으며, 2025년 2분기 약 9,361tn, 2025년 3분기 약 21,554tn, 2025년 4분기 약 40,245tn으로 가파르게 증가하고 있습니다. 2025년 연간 합산은 약 74,918tn, 2026년 연간 합산은 약 682,055tn으로 전망됩니다.\n\n모델별로 보면, ChatG",
-          "date": "2026-03-27T11:52"
+          "text": "<터보퀀트> 원문을 다시 봤습니다 \n\n터보퀀트는 모든 벤치마크에서 완벽한 작업 결과물을 제공하는 동시에 키-값 메모리 크기를 최소 6배까지 줄였다.\n\nTurboQuant achieves perfect downstream results across all benchmarks while reducing the key value memory size by a factor of at least 6x.\n\n일단 최소 6배 줄인다는 언급 자체는 구글 리서치 블로그에 나와있습니다. 문제는 해석의 차이인데요. \n\n위 그래프를 보면, 터보퀀트(5번째",
+          "date": "2026-03-28T15:52"
         },
         {
           "channel": "d_ticker",
-          "text": "**어플라이드, UPS와 대만에 초대형 반도체 물류시설 가동 ****$AMAT**\n\n([Digitimes](https://www.digitimes.com/news/a20260326PD227/ups-taiwan-logistics-applied-materials-demand.html)) 세계적인 물류 기업 UPS가 대만 반도체 산업의 수요에 대응하기 위해 약 $100M를 투자한 타오위안 국제 물류센터(TILC)를 공식 가동했다. 타오위안 공항에서 5km 거리에 위치한 TILC는 81,000㎡ 이상의 면적을 가진 UPS 아시아 태평양 지",
-          "date": "2026-03-27T07:30"
+          "text": "<터보퀀트> 원문을 다시 봤습니다 \n\n터보퀀트는 모든 벤치마크에서 완벽한 작업 결과물을 제공하는 동시에 키-값 메모리 크기를 최소 6배까지 줄였다.\n\nTurboQuant achieves perfect downstream results across all benchmarks while reducing the key value memory size by a factor of at least 6x.\n\n일단 최소 6배 줄인다는 언급 자체는 구글 리서치 블로그에 나와있습니다. 문제는 해석의 차이인데요. \n\n위 그래프를 보면, 터보퀀트(5번째",
+          "date": "2026-03-28T15:42"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**구글, 앤스로픽 데이터센터 건설에 수십억 달러 지원 ****$GOOGL**\n\n([FT](https://www.ft.com/content/af949b0b-3e24-4eaa-9a52-0a841ac1ff22?syn-25a6b1a6=1)) 구글이 데이터센터 개발사 '넥서스 데이터센터'에 건설 자금을 대출하는 방식으로 지원한다. 넥서스는 텍사스 주 2,800에이커 부지에 0.5GW 용량의 AI 인프라를 구축하려고 한다. 앤스로픽은 3월 초 넥서스와 계약을 맺고 해당 데이터센터를 임차하기로 결정했다. 구글은 초기 건설 단계에 $5B 이상 ",
+          "date": "2026-03-28T14:55"
+        }
+      ]
+    },
+    "TSM": {
+      "ticker": "TSM",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 5,
+      "channels": [
+        "aetherjapanresearch",
+        "sunstudy1004"
+      ],
+      "latestDate": "2026-03-28T15:28:18+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Semi Analysis) 루빈 출하량 대폭 하향 조정\n\n**엔비디아 루빈 램프에 대한 HBM4 상황이 예상보다 악화되고 있으며, 따라서 올해 루빈 출하량에 대한 하방 리스크가 훨씬 커지고 있습니다.** 당사는 정확한 규모를 수치화하려 하고 있으나, 이는 2026년 루빈 GPU 출하량에 대한 당사의 최근 발표 전망치인 170만 개 대비 매우 실질적인 하향 조정이 될 수 있습니다. 부족분을 메우기 위해 엔비디아는 블랙웰을 더 많이 투입하려 할 것으로 예상되며, 이는 블랙웰 추가 생산에 활용할 수 있는 공급망 캐파시티에 달려 있습니다.",
+          "date": "2026-03-28T14:56"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "TSMC의 3nm 칩 캐파시티가 너무 타이트해져 \"장기적이고 충성도 높은\" 고객만 우선순위 부여\n\nGPU 및 CPU 제조사부터 하이퍼스케일러 및 기타 소비자 세그먼트에 이르기까지, 현재 거의 모든 기업이 TSMC에 주문을 넣으려 하고 있지만, 칩 거인의 캐파시티는 단순히 충분하지 않다. 디지타임즈 보도에 따르면, TSMC의 3nm 공급은 심각하게 제약되어 있어 기업들이 공격적인 변화 없이는 제품 계획을 진행하기 어려운 상황이다. 모든 고객 카테고리 중에서, 장기적이고 \"충성도 높은\" 고객만이 제품을 받는 것으로 알려졌다.\n애플과 엔",
+          "date": "2026-03-28T13:51"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "삼성의 SF2 공정에 여전히 문제가 있을 수도\n\n중국쪽에서 삼성 엑시노스2600(SF2)과 퀄컴 스냅드래곤 8Elite Gen5(TSMC N3P) 공정을 비교 테스트했습니다.\n냉각을 해주면서 최대 전력을 테스트한 결과, 긱벤치6기준으로 TSMC의 N3P를 사용한 8Gen5, 8엘리트 Gen5는 최대 21~22W의 전력을 사용한 반면, 엑시노스2600은 최대 30W의 전력을 사용하면서 멀티코어 성능은 비슷, 싱글코어 성능은 10% 뒤쳐졌습니다.\n\n압축해제 테스트에서도 8EGen5, 8Gen5는 모두 약 5W의 전력소모를 보여준 반면,",
+          "date": "2026-03-28T13:41"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Citi) TSMC; AI 메가사이클 가속화\n\n씨티의 견해\n당사는 TSMC에 대한 실적 전망을 추가 상향 조정하고 2028년 추정치를 신규 도입합니다. 강력한 AI 수요는 GPU/ASIC에만 국한되지 않고 서버 CPU, 네트워킹 칩, CPO 등 더 넓은 생태계로 확장되고 있습니다. 공급 환경의 타이트함 또한 웨이퍼 가격의 지속적인 인상을 뒷받침하고 있으며, 이는 높은 캐펙스에 따른 감가상각 증가 및 인플레이션 환경에도 불구하고 TSMC의 가격 결정력과 마진 회복력을 강화하고 있습니다. 당사는 노드 이전 및 다이 사이즈 확대에 힘입어",
+          "date": "2026-03-28T11:36"
+        },
+        {
+          "channel": "sunstudy1004",
+          "text": "Semi Analysis) 루빈 출하량 대폭 하향 조정\n\n**엔비디아 루빈 램프에 대한 HBM4 상황이 예상보다 악화되고 있으며, 따라서 올해 루빈 출하량에 대한 하방 리스크가 훨씬 커지고 있습니다.** 당사는 정확한 규모를 수치화하려 하고 있으나, 이는 2026년 루빈 GPU 출하량에 대한 당사의 최근 발표 전망치인 170만 개 대비 매우 실질적인 하향 조정이 될 수 있습니다. 부족분을 메우기 위해 엔비디아는 블랙웰을 더 많이 투입하려 할 것으로 예상되며, 이는 블랙웰 추가 생산에 활용할 수 있는 공급망 캐파시티에 달려 있습니다.",
+          "date": "2026-03-28T15:28"
+        }
+      ]
+    },
+    "SK하이닉스": {
+      "ticker": "SK하이닉스",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 2,
+      "channels": [
+        "aetherjapanresearch",
+        "sunstudy1004"
+      ],
+      "latestDate": "2026-03-28T15:28:18+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Semi Analysis) 루빈 출하량 대폭 하향 조정\n\n**엔비디아 루빈 램프에 대한 HBM4 상황이 예상보다 악화되고 있으며, 따라서 올해 루빈 출하량에 대한 하방 리스크가 훨씬 커지고 있습니다.** 당사는 정확한 규모를 수치화하려 하고 있으나, 이는 2026년 루빈 GPU 출하량에 대한 당사의 최근 발표 전망치인 170만 개 대비 매우 실질적인 하향 조정이 될 수 있습니다. 부족분을 메우기 위해 엔비디아는 블랙웰을 더 많이 투입하려 할 것으로 예상되며, 이는 블랙웰 추가 생산에 활용할 수 있는 공급망 캐파시티에 달려 있습니다.",
+          "date": "2026-03-28T14:56"
+        },
+        {
+          "channel": "sunstudy1004",
+          "text": "Semi Analysis) 루빈 출하량 대폭 하향 조정\n\n**엔비디아 루빈 램프에 대한 HBM4 상황이 예상보다 악화되고 있으며, 따라서 올해 루빈 출하량에 대한 하방 리스크가 훨씬 커지고 있습니다.** 당사는 정확한 규모를 수치화하려 하고 있으나, 이는 2026년 루빈 GPU 출하량에 대한 당사의 최근 발표 전망치인 170만 개 대비 매우 실질적인 하향 조정이 될 수 있습니다. 부족분을 메우기 위해 엔비디아는 블랙웰을 더 많이 투입하려 할 것으로 예상되며, 이는 블랙웰 추가 생산에 활용할 수 있는 공급망 캐파시티에 달려 있습니다.",
+          "date": "2026-03-28T15:28"
+        }
+      ]
+    },
+    "NVDA": {
+      "ticker": "NVDA",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 6,
+      "channels": [
+        "aetherjapanresearch",
+        "sunstudy1004"
+      ],
+      "latestDate": "2026-03-28T15:28:18+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Semi Analysis) 루빈 출하량 대폭 하향 조정\n\n**엔비디아 루빈 램프에 대한 HBM4 상황이 예상보다 악화되고 있으며, 따라서 올해 루빈 출하량에 대한 하방 리스크가 훨씬 커지고 있습니다.** 당사는 정확한 규모를 수치화하려 하고 있으나, 이는 2026년 루빈 GPU 출하량에 대한 당사의 최근 발표 전망치인 170만 개 대비 매우 실질적인 하향 조정이 될 수 있습니다. 부족분을 메우기 위해 엔비디아는 블랙웰을 더 많이 투입하려 할 것으로 예상되며, 이는 블랙웰 추가 생산에 활용할 수 있는 공급망 캐파시티에 달려 있습니다.",
+          "date": "2026-03-28T14:56"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "TSMC의 3nm 칩 캐파시티가 너무 타이트해져 \"장기적이고 충성도 높은\" 고객만 우선순위 부여\n\nGPU 및 CPU 제조사부터 하이퍼스케일러 및 기타 소비자 세그먼트에 이르기까지, 현재 거의 모든 기업이 TSMC에 주문을 넣으려 하고 있지만, 칩 거인의 캐파시티는 단순히 충분하지 않다. 디지타임즈 보도에 따르면, TSMC의 3nm 공급은 심각하게 제약되어 있어 기업들이 공격적인 변화 없이는 제품 계획을 진행하기 어려운 상황이다. 모든 고객 카테고리 중에서, 장기적이고 \"충성도 높은\" 고객만이 제품을 받는 것으로 알려졌다.\n애플과 엔",
+          "date": "2026-03-28T13:51"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Wolfe리서치) NVIDIA; 팟 베이 도어를 열어라, 젠슨\n\n1. GTC에서 NVDA가 발표한 내용 중 상대적으로 덜 주목받은 부분 중 하나는 루빈 울트라 \"팟(Pod)\" 발표로, 이는 본질적으로 에이전틱 AI 데이터센터를 위한 레퍼런스 디자인 역할을 합니다. 일부 고객은 NVDA로부터 완성된 팟을 통째로 구매할 수도 있고, 많은 고객은 CPU, 네트워킹 또는 스토리지를 자체적으로 커스터마이징할 것으로 예상합니다. 그러나 중요한 점은, 이 팟 아키텍처가 NVDA가 에이전틱 AI에 최적이라고 판단하는 구조를 보여준다는 것입니다. ",
+          "date": "2026-03-28T12:11"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Citi) TSMC; AI 메가사이클 가속화\n\n씨티의 견해\n당사는 TSMC에 대한 실적 전망을 추가 상향 조정하고 2028년 추정치를 신규 도입합니다. 강력한 AI 수요는 GPU/ASIC에만 국한되지 않고 서버 CPU, 네트워킹 칩, CPO 등 더 넓은 생태계로 확장되고 있습니다. 공급 환경의 타이트함 또한 웨이퍼 가격의 지속적인 인상을 뒷받침하고 있으며, 이는 높은 캐펙스에 따른 감가상각 증가 및 인플레이션 환경에도 불구하고 TSMC의 가격 결정력과 마진 회복력을 강화하고 있습니다. 당사는 노드 이전 및 다이 사이즈 확대에 힘입어",
+          "date": "2026-03-28T11:36"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "이번 달 **엔비디아(NVDA) B200 대여 가격이 35% 이상 급등하며 시간당 6달러를 돌파, 사상 최고치**를 기록\n\n엔비디아(NVDA)** H100 대여 가격이 18개월 만에 최고치인 시간당 $2.59를 기록**",
+          "date": "2026-03-28T00:30"
         }
       ]
     },
@@ -301,308 +258,89 @@
       "summary": "분석 실패: Connection error.",
       "messageCount": 2,
       "channels": [
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-03-27T13:02:48+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "골드만삭스) 하드웨어: 오픈소스 자율 AI 에이전트가 PC 수요에 미치는 영향\n\nOpenClaw과 같은 오픈소스 자율 AI 에이전트의 인기 상승이 PC 하드웨어 수요에 대한 잠재적 영향에 관한 투자자들의 관심을 높이고 있습니다. 당사는 이러한 수요가 2026년 PC 단위 출하량을 실질적으로 움직일 만큼 강하지는 않다고 보지만(메모리 공급 제약 환경 속에서 업계 단위 출하량이 두 자릿수 % 감소할 것으로 여전히 예상), OpenClaw와 같은 신흥 AI 활용 사례는 더 높은 평균판매가격(ASP)을 지닌 AI 지원 기기 방향으로의 업계",
-          "date": "2026-03-27T13:02"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "9. 핵심 시사점 요약\n이 모델의 핵심 구조는 데이터센터 전력 공급(Supply) → 하이퍼스케일러 설비투자 및 클라우드 매출(Demand) → 토큰 생산량 및 AI 서비스 매출로 이어지는 AI 산업 가치사슬 전체를 정량적으로 추적하는 것입니다.\n\n첫째, 전력 인프라 측면에서 글로벌 AI 데이터센터 용량은 2024년 4.3GW에서 2030년 59.4GW로 약 14배 확대되며, 5년간 약 55GW의 신규 용량이 필요합니다. 건설 비용 역시 GW당 38억 달러에서 55억 달러로 상승합니다.\n\n둘째, 설비투자는 미국 빅4 기준 2024년",
-          "date": "2026-03-27T11:52"
-        }
-      ]
-    },
-    "NVDA": {
-      "ticker": "NVDA",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
         "aetherjapanresearch",
-        "d_ticker"
-      ],
-      "latestDate": "2026-03-27T13:02:48+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "골드만삭스) 하드웨어: 오픈소스 자율 AI 에이전트가 PC 수요에 미치는 영향\n\nOpenClaw과 같은 오픈소스 자율 AI 에이전트의 인기 상승이 PC 하드웨어 수요에 대한 잠재적 영향에 관한 투자자들의 관심을 높이고 있습니다. 당사는 이러한 수요가 2026년 PC 단위 출하량을 실질적으로 움직일 만큼 강하지는 않다고 보지만(메모리 공급 제약 환경 속에서 업계 단위 출하량이 두 자릿수 % 감소할 것으로 여전히 예상), OpenClaw와 같은 신흥 AI 활용 사례는 더 높은 평균판매가격(ASP)을 지닌 AI 지원 기기 방향으로의 업계",
-          "date": "2026-03-27T13:02"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**엔비디아 \"양자 컴퓨팅은 GPU 대체하지 않고 보완할 것\"**\n\n([Digitimes](https://www.digitimes.com/news/a20260326PD212/nvidia-quantum-computing-technology-taiwan-academia-sinica.html)) 엔비디아의 양자 컴퓨팅 부문 담당자인 린지 로든백은 대만에서 열린 'AI 엑스포'에서 양자 컴퓨팅이 GPU를 대체하기보다는 서로 보완하는 관계가 될 것이라고 강조했다. 양자 처리 장치(QPU)가 GPU를 밀어내는 일은 없을 것이며, 두 기술은 상",
-          "date": "2026-03-27T02:57"
-        }
-      ]
-    },
-    "GOOG": {
-      "ticker": "GOOG",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-03-27T11:52:21+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "9. 핵심 시사점 요약\n이 모델의 핵심 구조는 데이터센터 전력 공급(Supply) → 하이퍼스케일러 설비투자 및 클라우드 매출(Demand) → 토큰 생산량 및 AI 서비스 매출로 이어지는 AI 산업 가치사슬 전체를 정량적으로 추적하는 것입니다.\n\n첫째, 전력 인프라 측면에서 글로벌 AI 데이터센터 용량은 2024년 4.3GW에서 2030년 59.4GW로 약 14배 확대되며, 5년간 약 55GW의 신규 용량이 필요합니다. 건설 비용 역시 GW당 38억 달러에서 55억 달러로 상승합니다.\n\n둘째, 설비투자는 미국 빅4 기준 2024년",
-          "date": "2026-03-27T11:52"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "4. AI 토큰 생산량 모델 (Token Production)\n\nCiti는 주요 AI 모델별 월간/분기별 토큰 생산량을 조 단위(tn)로 추정하고 있습니다. 전체 토큰 생산량은 2024년 1분기 200tn에서 2025년 1분기 3,757tn으로 급증했으며, 2025년 2분기 약 9,361tn, 2025년 3분기 약 21,554tn, 2025년 4분기 약 40,245tn으로 가파르게 증가하고 있습니다. 2025년 연간 합산은 약 74,918tn, 2026년 연간 합산은 약 682,055tn으로 전망됩니다.\n\n모델별로 보면, ChatG",
-          "date": "2026-03-27T11:52"
-        }
-      ]
-    },
-    "GOOGL": {
-      "ticker": "GOOGL",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 6,
-      "channels": [
-        "aetherjapanresearch",
-        "d_ticker",
-        "DOC_POOL",
         "sunstudy1004"
       ],
-      "latestDate": "2026-03-27T18:07:55+00:00",
+      "latestDate": "2026-03-28T15:27:41+00:00",
       "messages": [
         {
           "channel": "aetherjapanresearch",
-          "text": "9. 핵심 시사점 요약\n이 모델의 핵심 구조는 데이터센터 전력 공급(Supply) → 하이퍼스케일러 설비투자 및 클라우드 매출(Demand) → 토큰 생산량 및 AI 서비스 매출로 이어지는 AI 산업 가치사슬 전체를 정량적으로 추적하는 것입니다.\n\n첫째, 전력 인프라 측면에서 글로벌 AI 데이터센터 용량은 2024년 4.3GW에서 2030년 59.4GW로 약 14배 확대되며, 5년간 약 55GW의 신규 용량이 필요합니다. 건설 비용 역시 GW당 38억 달러에서 55억 달러로 상승합니다.\n\n둘째, 설비투자는 미국 빅4 기준 2024년",
-          "date": "2026-03-27T11:52"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "4. AI 토큰 생산량 모델 (Token Production)\n\nCiti는 주요 AI 모델별 월간/분기별 토큰 생산량을 조 단위(tn)로 추정하고 있습니다. 전체 토큰 생산량은 2024년 1분기 200tn에서 2025년 1분기 3,757tn으로 급증했으며, 2025년 2분기 약 9,361tn, 2025년 3분기 약 21,554tn, 2025년 4분기 약 40,245tn으로 가파르게 증가하고 있습니다. 2025년 연간 합산은 약 74,918tn, 2026년 연간 합산은 약 682,055tn으로 전망됩니다.\n\n모델별로 보면, ChatG",
-          "date": "2026-03-27T11:52"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**베어로보틱스, 프리IPO…\"나스닥 상장 시동\"**\n\n([딜사이트](https://dealsite.co.kr/articles/159195)) \"현재 베어로보틱스는 상장 전 투자 유치(프리IPO) 라운드에 돌입했습니다. 이번 펀딩으로 조달한 자금은 로봇 연구개발(R&D) 투자에 사용할 계획입니다.\" 하정우 베어로보틱스 대표는 지난 17일(현지 시간) 미국 실리콘밸리 본사에서 딜사이트와 만나 이같이 말했다. 회사는 나스닥 증시 입성을 목표로 하고 있다. 프리IPO가 마무리되면 상장 작업에 속도를 낼 예정이다. 구체적인 시점은 검토 중",
-          "date": "2026-03-27T02:52"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "**[기업명/산업명/카테고리]**\n퀀틴전시 플랜 / 반도체 / 증권 리포트\n\n제목: 터보 퀀트는 단기 심리적 악재일 뿐\n작성일: 2026.03.27\n작성자: 정해창 / Strategist Jr., 이경민 / Strategist (Daishin Research)\n\n핵심 요약 3개:\n1. 구글의 '터보 퀀트' 관련 우려으로 반도체 관련주들이 하락하였으나, 이는 기술의 진보로 인한 효율성 증대가 장기적으로는 오히려 전체 수요 확대로 이어질 수 있다는 '제본스의 역설'로 해석 가능하며, 단기적인 심리적 악재에 그칠 것으로 전망됩니다.\n2.",
-          "date": "2026-03-27T18:07"
+          "text": "TSMC의 3nm 칩 캐파시티가 너무 타이트해져 \"장기적이고 충성도 높은\" 고객만 우선순위 부여\n\nGPU 및 CPU 제조사부터 하이퍼스케일러 및 기타 소비자 세그먼트에 이르기까지, 현재 거의 모든 기업이 TSMC에 주문을 넣으려 하고 있지만, 칩 거인의 캐파시티는 단순히 충분하지 않다. 디지타임즈 보도에 따르면, TSMC의 3nm 공급은 심각하게 제약되어 있어 기업들이 공격적인 변화 없이는 제품 계획을 진행하기 어려운 상황이다. 모든 고객 카테고리 중에서, 장기적이고 \"충성도 높은\" 고객만이 제품을 받는 것으로 알려졌다.\n애플과 엔",
+          "date": "2026-03-28T13:51"
         },
         {
           "channel": "sunstudy1004",
-          "text": "**샌디스크 경영진 \"터보퀀트? 낸드 수요 더 키울 것\"**\n\n**“AI 비용 낮추면 사용 더 늘어”…스토리지 수요 확대 전망\n모건스탠리 “수요 감소 징후 없어”…과도한 우려 선 긋기**\n\n\n구글의 인공지능(AI) 압축 기술 ‘터보퀀트(TurboQuant)’가 메모리 수요 논쟁을 불러온 가운데, **샌디스크 경영진이 “오히려 낸드 수요를 확대시킬 것”**이라는 평가를 내놓은 것으로 전해졌다.\n\n27일 금융투자업계에 따르면, **샌디스크 경영진은 최근 씨티그룹과 진행한 IR 행사에서 터보퀀트가 AI 확산을 가속화해 스토리지 수요 증가",
-          "date": "2026-03-27T12:33"
+          "text": "[SK증권 반도체 한동희]\n\n**2026.03.27 주요 뉴스**\n\n**삼성전자, 차세대 엑시노스 2800 공정 '2나노(SF2P+)' 선회 및 양산 실리 추구**\n1.4나노 직행에 따른 수율 및 원가 리스크를 피하기 위해 검증된 2나노 GAA 공정의 고도화 버전을 선택. 독자 GPU '뱅가드' 프로젝트의 완성도를 높여 파운드리 흑자 전환과 공급 안정성 확보에 주력\nhttps://buly.kr/15Qdm4O\n\n**반도체 수급난, 메모리 넘어 CPU로 확산: Intel·AMD 전방위 가격 인상 및 공급 차질**\nPC 및 서버용 CPU",
+          "date": "2026-03-28T15:27"
         }
       ]
     },
-    "MSFT": {
-      "ticker": "MSFT",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 7,
-      "channels": [
-        "aetherjapanresearch",
-        "d_ticker",
-        "sunstudy1004"
-      ],
-      "latestDate": "2026-03-27T14:24:38+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "4. AI 토큰 생산량 모델 (Token Production)\n\nCiti는 주요 AI 모델별 월간/분기별 토큰 생산량을 조 단위(tn)로 추정하고 있습니다. 전체 토큰 생산량은 2024년 1분기 200tn에서 2025년 1분기 3,757tn으로 급증했으며, 2025년 2분기 약 9,361tn, 2025년 3분기 약 21,554tn, 2025년 4분기 약 40,245tn으로 가파르게 증가하고 있습니다. 2025년 연간 합산은 약 74,918tn, 2026년 연간 합산은 약 682,055tn으로 전망됩니다.\n\n모델별로 보면, ChatG",
-          "date": "2026-03-27T11:52"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "슈퍼 마이크로 칩 밀수 혐의자, 일본에서 사업체 운영",
-          "date": "2026-03-27T09:22"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**마이크로소프트, 오라클 데이터센터 부지 임대 확정 ****$MSFT**\n\n([Press](https://www.crusoe.ai/resources/newsroom/crusoe-announces-new-900-mw-ai-factory-campus-in-abilene-texas-to-support-microsoft-ai-infrastructure)) 데이터센터 개발사인 크루소가 소유한 텍사스주 애빌린 데이터센터 부지를 마이크로소프트가 임대한다. 이 부지는 당초 오라클과 오픈AI가 데이터센터를 건립할 계획이었으나 양사의 협상이 결렬되",
-          "date": "2026-03-27T14:24"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**마이크론, 대만 퉁뤄 사이트 가동… 2028년 HBM 양산 목표**\n\n([Digitimes](https://www.digitimes.com/news/a20260326PD247/micron-dram-hbm-psmc-taiwan-2028.html)) 마이크론 테크놀로지는 2026년 3월 26일 대만 파워칩(PSMC)으로부터 인수한 대만 먀오리현 퉁뤄 P5 사이트를 개소했다. 이곳의 약 30만 평방피트 클린룸에 장비 설치를 위한 개보수 작업을 시작했다. FY26(~26.08) 말까지 비슷한 규모의 두 번째 공장 건설에 착수하여 총 5",
-          "date": "2026-03-27T07:37"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**마이크론, 재팬디스플레이 공장 인수 검토 ****$MU**\n\n마이크론이 재팬디스플레이(JDI)의 LCD 패널 생산 공장을 인수하기 위해 협상 중이다. 수백억 엔 규모로 인수를 추진하고 있다. 마이크론은 일본 지바현 모바라시에 위치한 이 시설을 반도체 후공정 라인으로 활용할 계획이다. 이는 마이크론의 일본 히로시마 공장에서 진행하는 반도체 전공정 라인을 보조하는 용도로 쓰일 예정이다. JDI는 지바현 공장을 2023년 11월 가동을 중단했고 2025년 말부터 자본잠식 상태에 빠져 국내 공장을 폐쇄하는 등 구조조정을 실시하고 있다.",
-          "date": "2026-03-26T22:44"
-        }
-      ]
-    },
-    "FRMI": {
-      "ticker": "FRMI",
+    "CLS": {
+      "ticker": "CLS",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
         "d_ticker"
       ],
-      "latestDate": "2026-03-27T14:28:34+00:00",
+      "latestDate": "2026-03-28T15:28:59+00:00",
       "messages": [
         {
           "channel": "d_ticker",
-          "text": "**페르미, 가스터빈 확보 위해 $165M 조달 ****$FRMI**\n\n페르미가 텍사스에 거대 에너지 캠퍼스를 구축하는 '프로젝트 마타도르'에 가스터빈을 투입한다 .이를 위해 CSG 인베스트먼트로부터 $165M의 선순위 담보 대출을 받았다. 페르미는 이 자금으로 지멘스에너지(ENR)의 SGT-800-57 가스터빈 6기(총 342MW 용량)의 잔여 중도금을 납입하는데 사용한다. 이번 조달은 지난 2월 MUFG로부터 $700M를 확보한데 이은 장비 구매를 위한 두 번째  파이낸싱이다.",
-          "date": "2026-03-27T14:28"
+          "text": "**로켓랩, 유럽우주국 첫 위성 발사 성공 ****$RKLB**\n\n([Press](https://rocketlabcorp.com/updates/rocket-lab-successfully-launches-85th-mission-and-first-dedicated-launch-for-european-space-agency/)) 소형위성 발사 서비스 전문 로켓랩이 유럽우주국(ESA)의 첫 번째 위성을 궤도에 성공적으로 안착시켰다. 로켓랩은 자사의 발사체 '일렉트론'을 활용해 사상 85번째 임무이자 올해 6번째 미션을 성공했다. ESA는 ",
+          "date": "2026-03-28T15:28"
         }
       ]
     },
-    "ORCL": {
-      "ticker": "ORCL",
+    "LLY": {
+      "ticker": "LLY",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
         "d_ticker"
       ],
-      "latestDate": "2026-03-27T14:24:38+00:00",
+      "latestDate": "2026-03-28T15:28:59+00:00",
       "messages": [
         {
           "channel": "d_ticker",
-          "text": "**마이크로소프트, 오라클 데이터센터 부지 임대 확정 ****$MSFT**\n\n([Press](https://www.crusoe.ai/resources/newsroom/crusoe-announces-new-900-mw-ai-factory-campus-in-abilene-texas-to-support-microsoft-ai-infrastructure)) 데이터센터 개발사인 크루소가 소유한 텍사스주 애빌린 데이터센터 부지를 마이크로소프트가 임대한다. 이 부지는 당초 오라클과 오픈AI가 데이터센터를 건립할 계획이었으나 양사의 협상이 결렬되",
-          "date": "2026-03-27T14:24"
+          "text": "**로켓랩, 유럽우주국 첫 위성 발사 성공 ****$RKLB**\n\n([Press](https://rocketlabcorp.com/updates/rocket-lab-successfully-launches-85th-mission-and-first-dedicated-launch-for-european-space-agency/)) 소형위성 발사 서비스 전문 로켓랩이 유럽우주국(ESA)의 첫 번째 위성을 궤도에 성공적으로 안착시켰다. 로켓랩은 자사의 발사체 '일렉트론'을 활용해 사상 85번째 임무이자 올해 6번째 미션을 성공했다. ESA는 ",
+          "date": "2026-03-28T15:28"
         }
       ]
     },
-    "CEG": {
-      "ticker": "CEG",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "d_ticker"
-      ],
-      "latestDate": "2026-03-27T13:41:04+00:00",
-      "messages": [
-        {
-          "channel": "d_ticker",
-          "text": "**[단독] 쓰리마일 원전 4년 지연 ****$CEG**\n\n([Reuters](https://www.reuters.com/business/energy/ceraweek-constellation-exec-says-grid-operator-told-company-three-mile-island-2026-03-26/)) 미국 전력망 운영사 PJM는 펜실베니아주 쓰리마일 원자력 발전소를 2031년까지 전력망에 연결시키지 못할 것이라고 말했다. 컨스텔레이션 에너지가 소유한 이 원전은 당초 가동 계획이 2027년이었다. PJM은 목요일 휴스턴에",
-          "date": "2026-03-27T13:41"
-        }
-      ]
-    },
-    "TIME코스닥": {
-      "ticker": "TIME코스닥",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 4,
-      "channels": [
-        "d_ticker"
-      ],
-      "latestDate": "2026-03-27T07:37:30+00:00",
-      "messages": [
-        {
-          "channel": "d_ticker",
-          "text": "**마이크론, 대만 퉁뤄 사이트 가동… 2028년 HBM 양산 목표**\n\n([Digitimes](https://www.digitimes.com/news/a20260326PD247/micron-dram-hbm-psmc-taiwan-2028.html)) 마이크론 테크놀로지는 2026년 3월 26일 대만 파워칩(PSMC)으로부터 인수한 대만 먀오리현 퉁뤄 P5 사이트를 개소했다. 이곳의 약 30만 평방피트 클린룸에 장비 설치를 위한 개보수 작업을 시작했다. FY26(~26.08) 말까지 비슷한 규모의 두 번째 공장 건설에 착수하여 총 5",
-          "date": "2026-03-27T07:37"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**어플라이드, UPS와 대만에 초대형 반도체 물류시설 가동 ****$AMAT**\n\n([Digitimes](https://www.digitimes.com/news/a20260326PD227/ups-taiwan-logistics-applied-materials-demand.html)) 세계적인 물류 기업 UPS가 대만 반도체 산업의 수요에 대응하기 위해 약 $100M를 투자한 타오위안 국제 물류센터(TILC)를 공식 가동했다. 타오위안 공항에서 5km 거리에 위치한 TILC는 81,000㎡ 이상의 면적을 가진 UPS 아시아 태평양 지",
-          "date": "2026-03-27T07:30"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**AMD, 전력 병목 경고**\n\n([Digitimes](https://www.digitimes.com/news/a20260326VL208/amd-demand-2026-semicon-china-growth.html)) AMD 부사장 마리오 모랄레스는 세미콘 차이나 2026에서 반도체 시장이 $1.7T 규모까지 팽창하고 있으나, 향후 성장의 최대 제약 요인은 반도체 기술이 아닌 전력 공급이 될 것이라고 경고했다. 2030년까지 AI 컴퓨팅 수요를 충족하려면 현재 글로벌 전력 용량의 두 배 이상인 약 700GW가 필요하며, 1GW당 약",
-          "date": "2026-03-27T07:22"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**엔비디아 \"양자 컴퓨팅은 GPU 대체하지 않고 보완할 것\"**\n\n([Digitimes](https://www.digitimes.com/news/a20260326PD212/nvidia-quantum-computing-technology-taiwan-academia-sinica.html)) 엔비디아의 양자 컴퓨팅 부문 담당자인 린지 로든백은 대만에서 열린 'AI 엑스포'에서 양자 컴퓨팅이 GPU를 대체하기보다는 서로 보완하는 관계가 될 것이라고 강조했다. 양자 처리 장치(QPU)가 GPU를 밀어내는 일은 없을 것이며, 두 기술은 상",
-          "date": "2026-03-27T02:57"
-        }
-      ]
-    },
-    "현대차": {
-      "ticker": "현대차",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "d_ticker"
-      ],
-      "latestDate": "2026-03-27T02:51:21+00:00",
-      "messages": [
-        {
-          "channel": "d_ticker",
-          "text": "**[단독] 현대차 AVP본부, 첫 임원인사 단행**\n\n([매일경제](https://www.mk.co.kr/news/business/12000079)) 안형기 전무와 차량아키텍처&인티그레이션센터장과 자율주행개발센터장을 맡아온 유지한 전무가 각각 부사장으로 승진했다. 안형기 부사장은 1976년생으로 한국과학기술원(KAIST) 전기전자공학 학·석·박사를 취득한 연구개발 인물이다. 현대차 인포테인먼트설계실장, 커넥티비티실장, 전자개발실장 등을 거치며 차량 전자 및 커넥티비티 분야를 이끌어 왔다. 유지한 부사장은 1974년생으로 서울대 조",
-          "date": "2026-03-27T02:51"
-        }
-      ]
-    },
-    "현대로템": {
-      "ticker": "현대로템",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "DOC_POOL"
-      ],
-      "latestDate": "2026-03-27T22:03:20+00:00",
-      "messages": [
-        {
-          "channel": "DOC_POOL",
-          "text": "**[로봇/산업]**\n제목: 안녕! 데일리에요 - 로봇 주요 뉴스\n작성일: 2024.03.26\n작성자: 양승윤 (이베스트투자증권)\n\n핵심 요약 3개:\n1. 국내 산업용 로봇 시장의 덤핑 관세 건의 및 큐렉소의 미국 FDA 승인 획득 소식이 핵심입니다.\n2. 큐렉소는 북미 인공관절 수술 시장에서 약 19조원 규모의 기회를 잡을 것으로 전망됩니다.\n3. 미국 로봇 업계의 정책 추진 지연 우려와 중국 로봇 핸드 기업의 대규모 투자 유치는 주목해야 할 리스크 요인입니다.\n\n---\n\n**[방산/기계]**\n제목: 안녕! 데일리에요 - 방산 주",
-          "date": "2026-03-27T22:03"
-        }
-      ]
-    },
-    "미래에셋": {
-      "ticker": "미래에셋",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "DOC_POOL"
-      ],
-      "latestDate": "2026-03-27T14:19:21+00:00",
-      "messages": [
-        {
-          "channel": "DOC_POOL",
-          "text": "**1. 미래에셋증권 RIA 계좌 개설 및 현황**\n*   '국내시장 복귀계좌(RIA)' 누적 입고금액이 약 760억 원을 기록하며 순항 중이다.\n*   RIA는 해외주식 투자 경험이 있는 고객에게 절세와 국내 재투자라는 두 가지 관점에서 새로운 선택지를 제공하는 제도로, 투자의 바른 길을 함께 하고자 하는 미래에셋증권의 노력을 보여준다.\n\n**2. RIA 계좌의 목적 및 혜택**\n*   RIA는 환율 안정과 국내 자본시장 활성화를 목적으로 출시되었으며, 해외주식 매도 후 원화 또는 국내 주식 등에 재투자하고 1년 이상 유지 시 해",
-          "date": "2026-03-27T14:19"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "미래에셋증권, RIA 입고금액 약 760억원 돌파\nhttps://www.sedaily.com/article/20025188\n프리미엄 컨버전스 미디어, 시그널(Signal)\n투자의 바른 길을 함께 합니다! https://signal.sedaily.com",
-          "date": "2026-03-27T14:19"
-        }
-      ]
-    },
-    "SK하이닉스": {
-      "ticker": "SK하이닉스",
+    "META": {
+      "ticker": "META",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
         "sunstudy1004"
       ],
-      "latestDate": "2026-03-27T12:33:35+00:00",
+      "latestDate": "2026-03-28T15:27:41+00:00",
       "messages": [
         {
           "channel": "sunstudy1004",
-          "text": "**샌디스크 경영진 \"터보퀀트? 낸드 수요 더 키울 것\"**\n\n**“AI 비용 낮추면 사용 더 늘어”…스토리지 수요 확대 전망\n모건스탠리 “수요 감소 징후 없어”…과도한 우려 선 긋기**\n\n\n구글의 인공지능(AI) 압축 기술 ‘터보퀀트(TurboQuant)’가 메모리 수요 논쟁을 불러온 가운데, **샌디스크 경영진이 “오히려 낸드 수요를 확대시킬 것”**이라는 평가를 내놓은 것으로 전해졌다.\n\n27일 금융투자업계에 따르면, **샌디스크 경영진은 최근 씨티그룹과 진행한 IR 행사에서 터보퀀트가 AI 확산을 가속화해 스토리지 수요 증가",
-          "date": "2026-03-27T12:33"
+          "text": "[SK증권 반도체 한동희]\n\n**2026.03.27 주요 뉴스**\n\n**삼성전자, 차세대 엑시노스 2800 공정 '2나노(SF2P+)' 선회 및 양산 실리 추구**\n1.4나노 직행에 따른 수율 및 원가 리스크를 피하기 위해 검증된 2나노 GAA 공정의 고도화 버전을 선택. 독자 GPU '뱅가드' 프로젝트의 완성도를 높여 파운드리 흑자 전환과 공급 안정성 확보에 주력\nhttps://buly.kr/15Qdm4O\n\n**반도체 수급난, 메모리 넘어 CPU로 확산: Intel·AMD 전방위 가격 인상 및 공급 차질**\nPC 및 서버용 CPU",
+          "date": "2026-03-28T15:27"
         }
       ]
     },
-    "AVGO": {
-      "ticker": "AVGO",
+    "삼성전자": {
+      "ticker": "삼성전자",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
         "sunstudy1004"
       ],
-      "latestDate": "2026-03-27T11:03:12+00:00",
+      "latestDate": "2026-03-28T15:27:41+00:00",
       "messages": [
         {
           "channel": "sunstudy1004",
-          "text": "🔥 **파두 주주총회** **후기**\n\n깊었던 부진의 터널 통과. 에이전트 AI향 수요 폭발과 7~10조 컨트롤러 시장 독과점 수혜 본격화 기대\n\n**1️⃣ 턴어라운드 및 시장 상황\n**\n과거 부진 원인: 코로나 이후 빅테크 구조조정 및 Gen4 도입 스킵(Gen3 ➡️ Gen5 직행)으로 23년 매출 일시 급감.\n\n현재 국면: 작년 말부터 **에이전트 AI 부상으로 Compute eSSD 수요 폭발. 현재 심각한 SSD 공급 부족 사태 발생.**\n\n경쟁 환경의 변화: 써드파티 컨트롤러 시장은 파두 vs 마벨 과점 체제로 재편. 마",
-          "date": "2026-03-27T11:03"
+          "text": "[SK증권 반도체 한동희]\n\n**2026.03.27 주요 뉴스**\n\n**삼성전자, 차세대 엑시노스 2800 공정 '2나노(SF2P+)' 선회 및 양산 실리 추구**\n1.4나노 직행에 따른 수율 및 원가 리스크를 피하기 위해 검증된 2나노 GAA 공정의 고도화 버전을 선택. 독자 GPU '뱅가드' 프로젝트의 완성도를 높여 파운드리 흑자 전환과 공급 안정성 확보에 주력\nhttps://buly.kr/15Qdm4O\n\n**반도체 수급난, 메모리 넘어 CPU로 확산: Intel·AMD 전방위 가격 인상 및 공급 차질**\nPC 및 서버용 CPU",
+          "date": "2026-03-28T15:27"
         }
       ]
     }
   },
-  "totalMessages": 120,
+  "totalMessages": 51,
   "channels": [
     "Jstockclass",
     "report_figure_by_offset",
