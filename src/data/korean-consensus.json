@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-03-28T22:16:53.672935",
+  "fetchedAt": "2026-03-29T22:18:55.026096",
   "stockCount": 22,
   "stocks": {
     "SK하이닉스": {
@@ -102,9 +102,9 @@
       "dividendYield": 0.33,
       "dailyChangePct": -2.95,
       "rsi14": 30.9,
-      "macd": -8433.63,
-      "macdSignal": -6990.72,
-      "macdHist": -1442.9,
+      "macd": -8406.16,
+      "macdSignal": -6967.95,
+      "macdHist": -1438.2,
       "technicalSignal": "MACD-"
     },
     "에스티팜": {
@@ -117,9 +117,9 @@
       "dividendYield": 0.31,
       "dailyChangePct": 2.91,
       "rsi14": 47.7,
-      "macd": 1989.36,
-      "macdSignal": 2178.72,
-      "macdHist": -189.36,
+      "macd": 1983.12,
+      "macdSignal": 2171.88,
+      "macdHist": -188.76,
       "technicalSignal": "MACD-"
     },
     "HD현대중공업": {
@@ -222,9 +222,9 @@
       "dividendYield": 1.32,
       "dailyChangePct": -2.95,
       "rsi14": 57.3,
-      "macd": -255.31,
-      "macdSignal": -322.53,
-      "macdHist": 67.21,
+      "macd": -251.95,
+      "macdSignal": -318.28,
+      "macdHist": 66.33,
       "technicalSignal": "MACD+"
     },
     "삼성중공업": {
