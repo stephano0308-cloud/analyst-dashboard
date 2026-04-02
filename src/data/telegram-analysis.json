@@ -1,616 +1,313 @@
 {
-  "fetchedAt": "2026-04-01T22:26:55.078556",
+  "fetchedAt": "2026-04-02T22:28:10.815455",
   "status": "ok",
   "stocks": {
-    "LLY": {
-      "ticker": "LLY",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
-      "channels": [
-        "Jstockclass",
-        "d_ticker",
-        "easobi"
-      ],
-      "latestDate": "2026-04-01T21:49:47+00:00",
-      "messages": [
-        {
-          "channel": "Jstockclass",
-          "text": "**일라이 릴리(LLY): Orforglipron (Foundayo) 조기 승인 및 경구용 비만 치료제 시장 본격 진입 (GS)\n**\n**1. FDA 승인 및 제품 출시 세부 사항\n**\n• **조기 승인 획득**: 당초 예상된 2026년 4월 10일보다 이른 4월 1일에 FDA 최종 승인 완료  \n\n• **제형 전략 변경**: 임상 3상에서 사용된 캡슐 대신 제조 효율성이 높고 원료 사용량이 적은 Tablet 형태로 출시  \n\n• **용량 동등성 확보**: 바이오동등성 연구를 통해 임상 3상의 36mg 캡슐과 동일한 효과를 내는 1",
-          "date": "2026-04-01T21:35"
-        },
-        {
-          "channel": "easobi",
-          "text": "2026년 4월 1일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시 3대 지수 요약 및 시황 본문\n미국 증시는 이란 분쟁 종식 가능성에 대한 낙관론이 지속되며 상승 마감했습니다. S&P 500 지수는 0.72% 상승한 6577.41을 기록했고, 나스닥 종합 지수는 1.16% 상승한 21840.96을, 다우존스 산업평균 지수는 0.48% 상승한 46564.63을 기록했습니다. 장중에는 휴전 협상 진행 상황에 대한 상충되는 보도로 인해 상승폭을 일부 반납했으나, 이후 안정적인 회복세를 보이며 강세를 유지했습니다. 특히 메가캡 및 기술주들이",
-          "date": "2026-04-01T21:49"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**일라이릴리, 경구용 비만약 '파운다요' 최종 승인 획득 ****$LLY**\n\n([Official](https://investor.lilly.com/news-releases/news-release-details/fda-approves-lillys-foundayotm-orforglipron-only-glp-1-pill)) LLY는 경구용 GLP-1 수용체 작용제인 파운다요(성분명 : 오르포글리프론)가 미국 FDA의 승인을 받았다고 발표했다. 파운다요는 음식물 섭취나 물 제한 없이 하루 중 언제든 복용 가능한 유일한 알약 형태의 비만",
-          "date": "2026-04-01T21:36"
-        }
-      ]
-    },
-    "NVO": {
-      "ticker": "NVO",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "Jstockclass"
-      ],
-      "latestDate": "2026-04-01T21:35:11+00:00",
-      "messages": [
-        {
-          "channel": "Jstockclass",
-          "text": "**일라이 릴리(LLY): Orforglipron (Foundayo) 조기 승인 및 경구용 비만 치료제 시장 본격 진입 (GS)\n**\n**1. FDA 승인 및 제품 출시 세부 사항\n**\n• **조기 승인 획득**: 당초 예상된 2026년 4월 10일보다 이른 4월 1일에 FDA 최종 승인 완료  \n\n• **제형 전략 변경**: 임상 3상에서 사용된 캡슐 대신 제조 효율성이 높고 원료 사용량이 적은 Tablet 형태로 출시  \n\n• **용량 동등성 확보**: 바이오동등성 연구를 통해 임상 3상의 36mg 캡슐과 동일한 효과를 내는 1",
-          "date": "2026-04-01T21:35"
-        }
-      ]
-    },
-    "MSFT": {
-      "ticker": "MSFT",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 5,
-      "channels": [
-        "beluga_investment",
-        "sunstudy1004",
-        "d_ticker",
-        "easobi"
-      ],
-      "latestDate": "2026-04-01T21:49:47+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "마이크론(Micron) 경영진이 Cantor와의 NDR에서 흥미로운 관점을 제시했습니다. \n\n**핵심 인사이트는 과거처럼 비트당 가격(price-per-bit)에 시장이 집중하는 것이 아니라 이제는 대역폭당 가격(price-per-bandwidth)에 초점이 맞춰지고 있다는 점**입니다. \n\n즉 2026년에는 비트당 가격이 상승할 수 있지만 대역폭당 가격은 오히려 하락할 것이라는 의미이며, 이는 매우 흥미로운 시각입니다. \n\n과거 메모리 산업은 얼마나 많은 메모리 비트가 판매되었는지, 비트당 가격이 상승했는지 하락했는지, 그리고 공",
-          "date": "2026-04-01T21:45"
-        },
-        {
-          "channel": "easobi",
-          "text": "2026년 4월 1일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시 3대 지수 요약 및 시황 본문\n미국 증시는 이란 분쟁 종식 가능성에 대한 낙관론이 지속되며 상승 마감했습니다. S&P 500 지수는 0.72% 상승한 6577.41을 기록했고, 나스닥 종합 지수는 1.16% 상승한 21840.96을, 다우존스 산업평균 지수는 0.48% 상승한 46564.63을 기록했습니다. 장중에는 휴전 협상 진행 상황에 대한 상충되는 보도로 인해 상승폭을 일부 반납했으나, 이후 안정적인 회복세를 보이며 강세를 유지했습니다. 특히 메가캡 및 기술주들이",
-          "date": "2026-04-01T21:49"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**아마존, 바레인 데이터센터 화재 발생...이란의 보복**\n\n([Reuters](https://www.reuters.com/world/middle-east/amazons-cloud-business-bahrain-damaged-iran-strike-ft-reports-2026-04-01/)) 이란의 공격으로 바레인에 위치한 아마존의 클라우드 컴퓨팅 운영 시설이 손상됐다. 바레인 내무부는 앞서 기업 시설에서 발생한 화재를 진압 중이라고 밝혔으며, 당국은 이를 이란의 공격으로 규정했다. 이번 사건은 이란 혁명수비대가 자국에 대한 공격의",
-          "date": "2026-04-01T21:25"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**마이크로소프트, 셰브론과 텍사스 $7B 가스발전소 설립 ****$MSFT**\n\n([Bloomberg](https://www.bloomberg.com/news/articles/2026-03-31/microsoft-in-talks-with-chevron-engine-no-1-over-7-billion-texas-power-plant)) 마이크로소프트가 셰브론 및 투자펀드 엔진 넘버원(Engine No. 1)과 손잡고 서부 텍사스에 대형 천연가스 발전소를 건설하는 독점 협상을 진행 중이다. $7B가 투입될 예정이며 초기 발전 용량은 ",
-          "date": "2026-03-31T22:37"
-        },
-        {
-          "channel": "sunstudy1004",
-          "text": "[메리츠증권 반도체/디스플레이 김선우]\n\n[DRAMeXchange 3월 서버 DRAM 고정가 발표]\n\n- 3월 서버 DRAM 고정가 협상은 상승 기조를 지속. 특히 SK하이닉스는 월간 가격을 업데이트하며 시장 가격 상단을 견인. 메모리 3사의 재고는 바닥 수준이고, 구매자들은 충분한 물량을 확보하지 못하면서 수급 불균형은 더욱 심화. 이에, 가격 결정력은 여전히 공급사들에게 확고히 놓여있는 상황. 1Q26말 전반적인 DRAM 구매자들의 재고 수준은 지속적으로 감소하고 있음을 재차 확인 \n\n- 3월 말, 삼성전자는 고객사들의 조기 조",
-          "date": "2026-04-01T01:54"
-        }
-      ]
-    },
-    "BE": {
-      "ticker": "BE",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 9,
-      "channels": [
-        "beluga_investment",
-        "aetherjapanresearch",
-        "d_ticker",
-        "sunstudy1004"
-      ],
-      "latestDate": "2026-04-01T21:32:05+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "Elon Musk의 SpaceX는 미국 IPO를 비공개로 신청했으며, 이 사안에 정통한 두 명의 소식통이 수요일 로이터에 밝혔습니다. 이는 사상 최대 규모의 상장으로 이어질 가능성을 열어두고 있습니다.\n\nSpaceX는 어떤 기업보다 더 많은 로켓을 우주에 발사하고 있으며, 인류의 달 복귀 및 화성 식민지화 시도에 투자할 기회를 제공하겠다고 약속하고 있습니다. 또한 이 회사는 우주에 AI 데이터센터를 구축하는 것을 목표로 하면서, 전 세계 인터넷 접근성을 크게 확장하는 위성 통신 시스템을 운영하고 있으며, 이는 전쟁에서도 점점 더 많",
-          "date": "2026-04-01T20:23"
-        },
-        {
-          "channel": "beluga_investment",
-          "text": "**260401_ Memory Market Update: Widening gap between memory sentiment and fundamentals; remain bullish on the elongated memory cycle; 27E visibility should rejuvenate sentiment - JPMorgan**\n\n(1) 메모리 주식은 2월 고점 대비 -27% 하락 vs. SOX -16%. 이는 1) 비즈니스 모델 지속 가능성, 2) S/W 스택 기술 발전, 3) 매크로 불확실성에 대한 우려가 반영된 결과 ",
-          "date": "2026-03-31T23:28"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "오펜하이머) Alphabet Inc. — 검색은 가장 견고한 광고 사업으로 남아 있으며, GCP 상방 여력도 지속될 전망, 목표가 $360\n\n요약\n유가·가스 가격 상승에 따른 소비자 지출 둔화 시나리오에서, GOOG는 광고 섹터 내 가장 방어적인 종목이 될 것으로 판단됩니다. GCP는 2026년 시장 컨센서스인 +45%를 크게 상회하는 성장도 가능할 것으로 보입니다. GCP 설비투자(capex) 분석에 따르면 2026년 및 2027년 전년 대비 성장률이 60% 이상으로, 컨센서스인 +45%/+35%를 상회하며, 이는 검색 부문이 2",
-          "date": "2026-04-01T07:23"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**스페이스X, SEC에 상장 신청서 제출**\n\n([Reuters](https://www.reuters.com/business/aerospace-defense/spacex-registers-take-rocket-maker-public-blockbuster-ipo-bloomberg-news-reports-2026-04-01/)) 사안에 정통한 두 소식통에 따르면 스페이스X가 IPO를 비공개로 신청했다고 한다. 이에 스페이스X는 4월 21일 애널리스트 데이를 개최하는 것으로 확인됐다. 4월 23일에는 테네시주 멤피스에 위치한 xAI의 ",
-          "date": "2026-04-01T21:32"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**인텔, 아일랜드 반도체 팹 다시 사들인다 ****$INTC**\n\n([Bloomberg](https://www.bloomberg.com/news/articles/2026-04-01/intel-intc-to-pay-14-billion-to-buy-back-apollo-apo-stake-in-ireland-plant)) 인텔이 2024년 재무 건전성 악화로 사모펀드 아폴로에 매각했던 아일랜드 반도체 공장(Fab 34)의 지분 49%를 $14.2B에 다시 사들이기로 결정했다. 이는 아폴로가 매입했을 당시 지불했던 $11.2B보다 27%",
-          "date": "2026-04-01T13:12"
-        }
-      ]
-    },
-    "GOOG": {
-      "ticker": "GOOG",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
-      "channels": [
-        "beluga_investment",
-        "aetherjapanresearch",
-        "d_ticker"
-      ],
-      "latestDate": "2026-04-01T07:23:43+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**260401_Asia Semis: Addressing Key Investor Questions on the GPU & ASIC Foodchain - JPMorgan **\n\n(1) Rubin Ultra가 4-Die에서 2-Die 구조로 변경될 가능성이 인터포저에 미치는 영향? \n■ 현재 4-Die → 2x2 구조로 바뀔 가능성에 대한 이야기가 있음. 이러한 변경이 실제 이뤄지더라도, 컴퓨트 성능이나 HBM 집적도[1TB 용량 유지] 등에는 영향이 없을 것\n■ 다만, 해당 변경이 현실화될 경우 더 큰 ABF Substrate가 필요",
-          "date": "2026-04-01T01:44"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "오펜하이머) Alphabet Inc. — 검색은 가장 견고한 광고 사업으로 남아 있으며, GCP 상방 여력도 지속될 전망, 목표가 $360\n\n요약\n유가·가스 가격 상승에 따른 소비자 지출 둔화 시나리오에서, GOOG는 광고 섹터 내 가장 방어적인 종목이 될 것으로 판단됩니다. GCP는 2026년 시장 컨센서스인 +45%를 크게 상회하는 성장도 가능할 것으로 보입니다. GCP 설비투자(capex) 분석에 따르면 2026년 및 2027년 전년 대비 성장률이 60% 이상으로, 컨센서스인 +45%/+35%를 상회하며, 이는 검색 부문이 2",
-          "date": "2026-04-01T07:23"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**구글, 차세대 웨어러블 밴드 출시 계획 ****$GOOGL**\n\n([Bloomberg](https://www.bloomberg.com/news/articles/2026-04-01/google-readies-revamped-screenless-fitbit-to-rival-growing-whoop-craze)) 구글이 스크린을 없앤 새로운 형태의 웨어러블 기기인 '핏빗 피트니스 밴드'를 준비하고 있다.  경쟁 제품인 웁(Whoop)의 밴드와 매우 흡사한 디자인으로 알려졌다. 시계 기능이나 앱 알림에 집중하는 스마트워치와 달리, 핏빗",
-          "date": "2026-04-01T02:17"
-        }
-      ]
-    },
-    "GOOGL": {
-      "ticker": "GOOGL",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 6,
-      "channels": [
-        "beluga_investment",
-        "aetherjapanresearch",
-        "d_ticker",
-        "easobi"
-      ],
-      "latestDate": "2026-04-01T21:49:47+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**260401_Asia Semis: Addressing Key Investor Questions on the GPU & ASIC Foodchain - JPMorgan **\n\n(1) Rubin Ultra가 4-Die에서 2-Die 구조로 변경될 가능성이 인터포저에 미치는 영향? \n■ 현재 4-Die → 2x2 구조로 바뀔 가능성에 대한 이야기가 있음. 이러한 변경이 실제 이뤄지더라도, 컴퓨트 성능이나 HBM 집적도[1TB 용량 유지] 등에는 영향이 없을 것\n■ 다만, 해당 변경이 현실화될 경우 더 큰 ABF Substrate가 필요",
-          "date": "2026-04-01T01:44"
-        },
-        {
-          "channel": "easobi",
-          "text": "2026년 4월 1일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시 3대 지수 요약 및 시황 본문\n미국 증시는 이란 분쟁 종식 가능성에 대한 낙관론이 지속되며 상승 마감했습니다. S&P 500 지수는 0.72% 상승한 6577.41을 기록했고, 나스닥 종합 지수는 1.16% 상승한 21840.96을, 다우존스 산업평균 지수는 0.48% 상승한 46564.63을 기록했습니다. 장중에는 휴전 협상 진행 상황에 대한 상충되는 보도로 인해 상승폭을 일부 반납했으나, 이후 안정적인 회복세를 보이며 강세를 유지했습니다. 특히 메가캡 및 기술주들이",
-          "date": "2026-04-01T21:49"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "오펜하이머) Alphabet Inc. — 검색은 가장 견고한 광고 사업으로 남아 있으며, GCP 상방 여력도 지속될 전망, 목표가 $360\n\n요약\n유가·가스 가격 상승에 따른 소비자 지출 둔화 시나리오에서, GOOG는 광고 섹터 내 가장 방어적인 종목이 될 것으로 판단됩니다. GCP는 2026년 시장 컨센서스인 +45%를 크게 상회하는 성장도 가능할 것으로 보입니다. GCP 설비투자(capex) 분석에 따르면 2026년 및 2027년 전년 대비 성장률이 60% 이상으로, 컨센서스인 +45%/+35%를 상회하며, 이는 검색 부문이 2",
-          "date": "2026-04-01T07:23"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건 메모리마켓 업데이트; 메모리 센티먼트와 펀더멘털 간의 괴리 확대; 장기화되는 메모리 사이클에 대한 강세 견해 유지; 2027년 가시성이 센티먼트를 회복시킬 것\n\n1. 메모리 주식은 2026년 2월 고점 대비 27% 하락하며 SOX 지수(-16%)를 큰 폭으로 하회하였고, 3월 한 달에만 23%가 하락하였습니다. 이는 9월 이후 6개월 연속 상승세를 기록한 이후의 급격한 반전입니다. 하락의 주요 원인으로는 CSP 대비 메모리 가격 상승 모멘텀 과열에 따른 CSP 하드웨어 캐펙스 지출 지속 가능성 우려, 2026년 2분기 이후",
-          "date": "2026-03-31T23:46"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**아마존, 바레인 데이터센터 화재 발생...이란의 보복**\n\n([Reuters](https://www.reuters.com/world/middle-east/amazons-cloud-business-bahrain-damaged-iran-strike-ft-reports-2026-04-01/)) 이란의 공격으로 바레인에 위치한 아마존의 클라우드 컴퓨팅 운영 시설이 손상됐다. 바레인 내무부는 앞서 기업 시설에서 발생한 화재를 진압 중이라고 밝혔으며, 당국은 이를 이란의 공격으로 규정했다. 이번 사건은 이란 혁명수비대가 자국에 대한 공격의",
-          "date": "2026-04-01T21:25"
-        }
-      ]
-    },
-    "NVDA": {
-      "ticker": "NVDA",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
-      "channels": [
-        "beluga_investment",
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-04-01T10:45:51+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**260401_Asia Semis: Addressing Key Investor Questions on the GPU & ASIC Foodchain - JPMorgan **\n\n(1) Rubin Ultra가 4-Die에서 2-Die 구조로 변경될 가능성이 인터포저에 미치는 영향? \n■ 현재 4-Die → 2x2 구조로 바뀔 가능성에 대한 이야기가 있음. 이러한 변경이 실제 이뤄지더라도, 컴퓨트 성능이나 HBM 집적도[1TB 용량 유지] 등에는 영향이 없을 것\n■ 다만, 해당 변경이 현실화될 경우 더 큰 ABF Substrate가 필요",
-          "date": "2026-04-01T01:44"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건) 아시아 투자자 업데이트; GPU 및 ASIC에 관한 주요 질문\n\n첫째, NVIDIA의 루빈 울트라(Rubin Ultra) 다이 구성 변경 가능성에 관한 것입니다. 인터포저 위에 4개 다이를 단일 패키지에 올리는 방식에서, 2개 다이 패키지 2개를 기판 레벨에서 결합하는 2×2 방식으로의 전환이 검토되고 있습니다. 연산 성능이나 HBM 밀도에는 실질적인 영향이 없을 것으로 보이며, 기존 4다이 단일 패키지 방식은 TSMC CoWoS-L의 한계에 근접한 극도의 복잡성을 수반하기 때문에 2×2 방식이 보다 현실적인 대안으로 부",
-          "date": "2026-04-01T10:45"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "SK하이닉스, 최상위급 HBM4 납품 여부 \"연말 결정\"\n\nK하이닉스가 최상위 제품인 11.7Gbps급 고대역폭메모리(HBM)4의 재설계 작업에 착수했다. 해당 제품의 공급 여부는 연말께 결정될 예정이다. SK하이닉스는 앞서 엔비디아에 납품했던 여러 버전의 샘플에 대한 최적화 작업을 병행하며 퀄테스트(품질 인증)에 대응할 계획이다.\n\n\n\n업계에 따르면 SK하이닉스는 최상위 성능 구현이 가능한 HBM4를 재설계하고 있다. 기존 샘플로는 11.7Gbps급 속도 구현이 쉽지 않다는 판단에 따라, 성능을 보완한 신규 샘플을 추가 제출하려는",
-          "date": "2026-04-01T01:25"
-        }
-      ]
-    },
-    "TSM": {
-      "ticker": "TSM",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 5,
-      "channels": [
-        "beluga_investment",
-        "aetherjapanresearch",
-        "d_ticker"
-      ],
-      "latestDate": "2026-04-01T10:45:51+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**260401_Asia Semis: Addressing Key Investor Questions on the GPU & ASIC Foodchain - JPMorgan **\n\n(1) Rubin Ultra가 4-Die에서 2-Die 구조로 변경될 가능성이 인터포저에 미치는 영향? \n■ 현재 4-Die → 2x2 구조로 바뀔 가능성에 대한 이야기가 있음. 이러한 변경이 실제 이뤄지더라도, 컴퓨트 성능이나 HBM 집적도[1TB 용량 유지] 등에는 영향이 없을 것\n■ 다만, 해당 변경이 현실화될 경우 더 큰 ABF Substrate가 필요",
-          "date": "2026-04-01T01:44"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건) 아시아 투자자 업데이트; GPU 및 ASIC에 관한 주요 질문\n\n첫째, NVIDIA의 루빈 울트라(Rubin Ultra) 다이 구성 변경 가능성에 관한 것입니다. 인터포저 위에 4개 다이를 단일 패키지에 올리는 방식에서, 2개 다이 패키지 2개를 기판 레벨에서 결합하는 2×2 방식으로의 전환이 검토되고 있습니다. 연산 성능이나 HBM 밀도에는 실질적인 영향이 없을 것으로 보이며, 기존 4다이 단일 패키지 방식은 TSMC CoWoS-L의 한계에 근접한 극도의 복잡성을 수반하기 때문에 2×2 방식이 보다 현실적인 대안으로 부",
-          "date": "2026-04-01T10:45"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "대만 TSMC 일본 JASM 제2 웨이퍼 공장, 3nm 공정으로 업그레이드 승인… 2028년 양산 예정\n\n중화민국(대만) 경제부 투자심의회는 오늘 TSMC의 일본 지주 자회사인 JASM이 구마모토현에 건설 중인 제2 웨이퍼 공장(Fab23 P2)의 공정 기술을 당초 예정된 6nm에서 3nm로 업그레이드하는 안건을 승인하였습니다.\n해당 공장의 월 생산 능력은 12인치 웨이퍼 15,000장이며, 2028년부터 장비 설치·설정 및 웨이퍼 양산을 시작할 예정입니다.\n\n동일 공고에는 TSMC가 TSMC GLOBAL LTD.에 300억 달러를",
-          "date": "2026-04-01T08:18"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "SK하이닉스, 최상위급 HBM4 납품 여부 \"연말 결정\"\n\nK하이닉스가 최상위 제품인 11.7Gbps급 고대역폭메모리(HBM)4의 재설계 작업에 착수했다. 해당 제품의 공급 여부는 연말께 결정될 예정이다. SK하이닉스는 앞서 엔비디아에 납품했던 여러 버전의 샘플에 대한 최적화 작업을 병행하며 퀄테스트(품질 인증)에 대응할 계획이다.\n\n\n\n업계에 따르면 SK하이닉스는 최상위 성능 구현이 가능한 HBM4를 재설계하고 있다. 기존 샘플로는 11.7Gbps급 속도 구현이 쉽지 않다는 판단에 따라, 성능을 보완한 신규 샘플을 추가 제출하려는",
-          "date": "2026-04-01T01:25"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**TSMC, 2026년 하반기 CPO 패키징 양산 돌입 ****$TSM**\n\n([Digitimes](https://www.digitimes.com/news/a20260401PD212/tsmc-siph-packaging-cpo-production.html)) TSMC가 광신호 기반의 실리콘 포토닉스(SiPh) 패키징 공법인 COUPE를 2026년 하반기 양산할 계획이다. COPUE는 3차원 하이브리드 본딩 장비로 전기회로(EIC)를 광학회로(PIC) 다이 위에 쌓는 기술이다. TSMC는 광섬유 배열 기술을 지닌 FOCI(3363)와",
-          "date": "2026-04-01T05:25"
-        }
-      ]
-    },
-    "AMZN": {
-      "ticker": "AMZN",
+    "ADI": {
+      "ticker": "ADI",
       "summary": "분석 실패: Connection error.",
       "messageCount": 2,
       "channels": [
-        "beluga_investment",
-        "d_ticker"
+        "Jstockclass",
+        "easobi"
       ],
-      "latestDate": "2026-04-01T21:25:57+00:00",
+      "latestDate": "2026-04-02T15:00:57+00:00",
       "messages": [
         {
-          "channel": "beluga_investment",
-          "text": "**260401_Asia Semis: Addressing Key Investor Questions on the GPU & ASIC Foodchain - JPMorgan **\n\n(1) Rubin Ultra가 4-Die에서 2-Die 구조로 변경될 가능성이 인터포저에 미치는 영향? \n■ 현재 4-Die → 2x2 구조로 바뀔 가능성에 대한 이야기가 있음. 이러한 변경이 실제 이뤄지더라도, 컴퓨트 성능이나 HBM 집적도[1TB 용량 유지] 등에는 영향이 없을 것\n■ 다만, 해당 변경이 현실화될 경우 더 큰 ABF Substrate가 필요",
-          "date": "2026-04-01T01:44"
+          "channel": "Jstockclass",
+          "text": "**[ 이란과 오만, 호르무즈 해협 안전 항해를 위한 의정서 제정 추진 ]**\n\n• 2026년 4월 2일, 타스님 뉴스(Tasnim News Agency)에 따르면, 이란 외교부 부장관 카젬 가리바바디(Kazem Gharibabadi)가 스푸트니크(Sputnik)와의 인터뷰에서 호르무즈 해협의 안전 항해 관련 중요한 입장을 밝힘\n\n**현재 호르무즈 해협 상황**\n- 과거 호르무즈 해협은 정상적으로 개방되어 있었으며, 해상 교통이 원활하게 이루어짐\n- 그러나 최근 발생한 무장 공격과 미국-이스라엘의 침략 행위로 인해 안전한 통행이 방",
+          "date": "2026-04-02T15:00"
         },
         {
-          "channel": "d_ticker",
-          "text": "**아마존, 바레인 데이터센터 화재 발생...이란의 보복**\n\n([Reuters](https://www.reuters.com/world/middle-east/amazons-cloud-business-bahrain-damaged-iran-strike-ft-reports-2026-04-01/)) 이란의 공격으로 바레인에 위치한 아마존의 클라우드 컴퓨팅 운영 시설이 손상됐다. 바레인 내무부는 앞서 기업 시설에서 발생한 화재를 진압 중이라고 밝혔으며, 당국은 이를 이란의 공격으로 규정했다. 이번 사건은 이란 혁명수비대가 자국에 대한 공격의",
-          "date": "2026-04-01T21:25"
+          "channel": "easobi",
+          "text": "TSMC (J.P. Morgan)\n1Q26 preview: Stronger GMs; Al demand upside to drive further capex upside; raise PT to NT$2,400\n───── ✦ ─────\n🚀 핵심 투자 포인트 및 전망\n• TSMC에 대해 비중확대(Overweight) 의견을 유지하며 목표주가를 2,400대만달러로 상향함.\n• 최근 2~3개월간 에이전틱 AI 워크로드 급증으로 AI 컴퓨팅 수요가 더욱 강력해졌음.\n• N3(3nm) 및 N2(2nm) 공정의 공급 부족이 2027년까지 지속될 ",
+          "date": "2026-04-01T22:43"
         }
       ]
     },
     "삼성전자": {
       "ticker": "삼성전자",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 11,
+      "messageCount": 9,
       "channels": [
-        "DOC_POOL",
+        "sunstudy1004",
         "aetherjapanresearch",
         "easobi",
-        "sunstudy1004",
         "beluga_investment",
         "d_ticker"
       ],
-      "latestDate": "2026-04-01T22:17:42+00:00",
+      "latestDate": "2026-04-02T22:25:03+00:00",
       "messages": [
         {
           "channel": "beluga_investment",
-          "text": "**260401_ Memory Market Update: Widening gap between memory sentiment and fundamentals; remain bullish on the elongated memory cycle; 27E visibility should rejuvenate sentiment - JPMorgan**\n\n(1) 메모리 주식은 2월 고점 대비 -27% 하락 vs. SOX -16%. 이는 1) 비즈니스 모델 지속 가능성, 2) S/W 스택 기술 발전, 3) 매크로 불확실성에 대한 우려가 반영된 결과 ",
-          "date": "2026-03-31T23:28"
+          "text": "**260403_Samsung Electronics: 1Q26E Preview: Robust Earnings Supported by AI Inference Demand - CITI **\n\n(1) 우리는 삼성전자 1Q26 예상 영업이익으로 51.0조원을 기록할 것으로 전망 vs. Bloomberg 40.7조\n*FnGuide 36.89조 \n\n(2) 이는 AI 추론 수요의 견조함에 힘입은 범용 메모리 가격 강세 지속에 기인\n\n(3) 특히 DS 부문 영업이익은 48.1조를 전망하며 이는 QoQ +193% 증가하는 수치 \n\n(4) 모바일의 ",
+          "date": "2026-04-02T22:25"
+        },
+        {
+          "channel": "beluga_investment",
+          "text": "오늘 **티커 ‘DRAM’이 마침내 거래를 시작합니다.**\n\n이 ETF는 포트폴리오의 약 **4분의 3을 메모리 반도체 빅3인 삼성전자, SK하이닉스, 마이크론에 집중**하고 있어, 사실상 **메모리 반도체 산업에 직접 투자하는 수단**이라고 볼 수 있습니다.\n\n특히 해외 개인투자자들 가운데 **삼성전자와 SK하이닉스를 직접 매수하는 데 규제적·제도적 제약**을 겪어온 투자자들에게는, **$DRAM이 매우 매력적인 대안**이 될 수 있습니다.\n\n물론 **EWY 역시 삼성전자와 SK하이닉스에 대한 익스포저가 상당히 크지만**, 현대자",
+          "date": "2026-04-02T10:58"
         },
         {
           "channel": "easobi",
-          "text": "삼성전기 (Morgan Stanley)\nThe Next Dual AI Opportunity – ABF/MLCC\n───── ✦ ─────\n🚀 AI 기반의 새로운 패러다임 전환과 기회\n• AI가 단순 도구에서 협업 파트너로 진화하며 전례 없는 컴퓨팅 수요를 창출함\n• AI 인프라는 2026년 이후 MLCC 및 첨단 기판 콘텐츠 성장의 핵심 동력이 될 전망임\n• 차세대 GPU 및 ASIC 등 AI 서버 아키텍처 업그레이드로 인해 MLCC 탑재량이 급증함\n• 초고용량 및 고온 내성 MLCC와 고층·대면적 ABF 기판 수요가 강력하게 발생함",
-          "date": "2026-04-01T22:12"
+          "text": "J.P.Morgan\nMarch 2026: From Overbought to Oversold\n삼성전자, SK하이닉스, 두산에너빌리티\n───── ✦ ─────\n📉 국내 시장 총평: 과매수에서 과매도로의 전환\n• 3월 KOSPI는 전월 6,000선 돌파 이후 19.1% 급락하며 5,052포인트로 마감함\n• MSCI 코리아 지수는 달러 기준 24.6% 하락하며 아시아에서 가장 부진한 성적을 기록함\n• 연초 두 달간 약 50% 급등하며 발생한 과매수 상태가 조정의 주요 원인으로 분석됨\n• 중동발 공급망 차질 및 유가 충격 우려로 소비자 심리",
+          "date": "2026-04-01T23:03"
+        },
+        {
+          "channel": "easobi",
+          "text": "Morgan Stanley\nStorm Subsiding? Checking the Waters\n대상 기업: 삼성전자, 한화에어로스페이스, HD현대일렉트릭, 아모레퍼시픽, 기아, 신한지주, 삼성E&A, 카카오, 삼성바이오로직스, 신세계, 두산에너빌리티, LS일렉트릭, LIG넥스원, 삼성전기, LG이노텍, 원익IPS, 삼양식품\n───── ✦ ─────\n🌊 중동 리스크 완화와 KOSPI 반등 분석\n• 최근 중동 긴장 완화 조짐으로 KOSPI가 8.44% 급등하며 강한 회복력을 증명함\n• 호르무즈 해협 재개방 수준이 향후 리스크 온(Risk",
+          "date": "2026-04-01T22:58"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "JP모건 메모리마켓 업데이트; 메모리 센티먼트와 펀더멘털 간의 괴리 확대; 장기화되는 메모리 사이클에 대한 강세 견해 유지; 2027년 가시성이 센티먼트를 회복시킬 것\n\n1. 메모리 주식은 2026년 2월 고점 대비 27% 하락하며 SOX 지수(-16%)를 큰 폭으로 하회하였고, 3월 한 달에만 23%가 하락하였습니다. 이는 9월 이후 6개월 연속 상승세를 기록한 이후의 급격한 반전입니다. 하락의 주요 원인으로는 CSP 대비 메모리 가격 상승 모멘텀 과열에 따른 CSP 하드웨어 캐펙스 지출 지속 가능성 우려, 2026년 2분기 이후",
-          "date": "2026-03-31T23:46"
+          "text": "Citi) 삼성전자 1분기 26년 실적 프리뷰: AI 추론 수요에 힘입은 견조한 실적, 영익 310조원 목표가 30만원으로 상향\n\n씨티의 견해\n저희는 삼성전자(SEC)가 1분기 26년 영업이익으로 시장 최고치인 51.0조 원을 기록할 것으로 전망합니다(블룸버그 컨센서스 추정치 40.7조 원 대비). 이는 견조한 AI 추론 수요에 따른 범용 메모리의 지속적인 가격 강세에 기인합니다. 저희는 삼성전자의 1분기 26년 사업부문별 영업이익을 다음과 같이 전망합니다: 반도체 48.1조 원, 모바일 2.0조 원, 디스플레이 0.4조 원, CE",
+          "date": "2026-04-02T13:45"
+        }
+      ]
+    },
+    "BE": {
+      "ticker": "BE",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 14,
+      "channels": [
+        "d_ticker",
+        "sunstudy1004",
+        "aetherjapanresearch",
+        "beluga_investment"
+      ],
+      "latestDate": "2026-04-02T22:25:03+00:00",
+      "messages": [
+        {
+          "channel": "beluga_investment",
+          "text": "**260403_Samsung Electronics: 1Q26E Preview: Robust Earnings Supported by AI Inference Demand - CITI **\n\n(1) 우리는 삼성전자 1Q26 예상 영업이익으로 51.0조원을 기록할 것으로 전망 vs. Bloomberg 40.7조\n*FnGuide 36.89조 \n\n(2) 이는 AI 추론 수요의 견조함에 힘입은 범용 메모리 가격 강세 지속에 기인\n\n(3) 특히 DS 부문 영업이익은 48.1조를 전망하며 이는 QoQ +193% 증가하는 수치 \n\n(4) 모바일의 ",
+          "date": "2026-04-02T22:25"
+        },
+        {
+          "channel": "beluga_investment",
+          "text": "**마이크로소프트, 애널리스트 의견 반영 후 ‘대담한’ 코파일럿 목표 달성**\n\n마이크로소프트는 월가의 피드백에 대응해, 소프트웨어 번들의 일부로 코파일럿을 무료 제공하는 방식보다 **코파일럿 자체를 판매하는 데 초점을 맞추는 방향으로 AI 판매 전략을 전환****했습니다.**\n\n회사 경영진은 3월에 종료된 분기 동안 코파일럿 판매에 대해 **“상당히 크고 대담한 목표들”을 설정했고, 사실상 이를 달성했다**고, 마이크로소프트 상업 사업 부문 최고경영자(CEO) 저드슨 앨토프가 목요일 내부 회의에서 말했다고, 해당 발언에 정통한 관",
+          "date": "2026-04-02T21:52"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "**美, 대중국 반도체장비 수출통제 강화 법안 발의**\n\n([Bloomberg](https://www.bloomberg.com/news/articles/2026-04-02/us-lawmakers-propose-crackdown-on-sales-of-chip-tools-to-china)) 미국 초당파 의원들이 중국의 기술적 야심을 억제하기 위해 네덜란드와 일본 등 동맹국의 반도체 장비 기업까지 겨냥한 강력한 수출 통제 법안인 'MATCH(Multilateral Alignment of Technology Controls on Hardw",
+          "date": "2026-04-02T22:08"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "이란 언론은 전략 외교 위원회 위원장 카말 카라지가 자택에 대한 공격으로 중상을 입었다고 보도했다. (알 자지라)\nhttps://x.com/AJENews/status/2039425816665153740?s=20\n이란의 전 외무장관 카말 카라지가 미국과 이스라엘의 자택 공습으로 인해 중상을 입었으며, 이 공습으로 아내도 사망했다.\n카라지는 이란 관리들과 JD 밴스 간의 만남 가능성을 주선하기 위해 파키스탄과의 협상을 감독해왔다. \nhttps://x.com/KobeissiLetter/status/2039671223802532197?s=",
+          "date": "2026-04-02T12:43"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "블룸버그) 레버리지 SK하이닉스 ETF, 테슬라·마이크로소프트 제치고 글로벌 자금 유입 1위\n\nSK하이닉스를 기초자산으로 하는 레버리지 펀드가 올해 동종 상품 중 가장 많은 자금을 끌어모으며, 급격한 주가 하락 이후에도 이 한국 AI 반도체 기업의 전망에 대한 지속적인 베팅을 부각시키고 있다.\n\n홍콩 상장 상품인 CSOP SK하이닉스 데일리 2x 레버리지 ETF는 SK하이닉스 주식의 일일 수익률 2배를 추종하는 단일 종목 상장지수펀드로, 2026년 들어 약 160억 달러에 달하는 신규 자금을 유치하며 테슬라와 마이크로소프트 등 미국",
+          "date": "2026-04-02T12:08"
+        }
+      ]
+    },
+    "MSFT": {
+      "ticker": "MSFT",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 6,
+      "channels": [
+        "d_ticker",
+        "aetherjapanresearch",
+        "beluga_investment"
+      ],
+      "latestDate": "2026-04-02T21:54:06+00:00",
+      "messages": [
+        {
+          "channel": "beluga_investment",
+          "text": "**마이크로소프트, 애널리스트 의견 반영 후 ‘대담한’ 코파일럿 목표 달성**\n\n마이크로소프트는 월가의 피드백에 대응해, 소프트웨어 번들의 일부로 코파일럿을 무료 제공하는 방식보다 **코파일럿 자체를 판매하는 데 초점을 맞추는 방향으로 AI 판매 전략을 전환****했습니다.**\n\n회사 경영진은 3월에 종료된 분기 동안 코파일럿 판매에 대해 **“상당히 크고 대담한 목표들”을 설정했고, 사실상 이를 달성했다**고, 마이크로소프트 상업 사업 부문 최고경영자(CEO) 저드슨 앨토프가 목요일 내부 회의에서 말했다고, 해당 발언에 정통한 관",
+          "date": "2026-04-02T21:52"
+        },
+        {
+          "channel": "beluga_investment",
+          "text": "오늘 **티커 ‘DRAM’이 마침내 거래를 시작합니다.**\n\n이 ETF는 포트폴리오의 약 **4분의 3을 메모리 반도체 빅3인 삼성전자, SK하이닉스, 마이크론에 집중**하고 있어, 사실상 **메모리 반도체 산업에 직접 투자하는 수단**이라고 볼 수 있습니다.\n\n특히 해외 개인투자자들 가운데 **삼성전자와 SK하이닉스를 직접 매수하는 데 규제적·제도적 제약**을 겪어온 투자자들에게는, **$DRAM이 매우 매력적인 대안**이 될 수 있습니다.\n\n물론 **EWY 역시 삼성전자와 SK하이닉스에 대한 익스포저가 상당히 크지만**, 현대자",
+          "date": "2026-04-02T10:58"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "블룸버그) 레버리지 SK하이닉스 ETF, 테슬라·마이크로소프트 제치고 글로벌 자금 유입 1위\n\nSK하이닉스를 기초자산으로 하는 레버리지 펀드가 올해 동종 상품 중 가장 많은 자금을 끌어모으며, 급격한 주가 하락 이후에도 이 한국 AI 반도체 기업의 전망에 대한 지속적인 베팅을 부각시키고 있다.\n\n홍콩 상장 상품인 CSOP SK하이닉스 데일리 2x 레버리지 ETF는 SK하이닉스 주식의 일일 수익률 2배를 추종하는 단일 종목 상장지수펀드로, 2026년 들어 약 160억 달러에 달하는 신규 자금을 유치하며 테슬라와 마이크로소프트 등 미국",
+          "date": "2026-04-02T12:08"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "미즈호) 마이크론, 샌디스크: TurboQuant 메모리 조정 시 매수\n\n당사는 메모리에 대한 피크 우려가 과도하다고 판단하며, MU/SNDK 모두에 대해 아웃퍼폼을 재확인하며 매수 의견을 유지합니다. TurboQuant는 2025년에 처음 소개되었으며, 최근 AI 추론 성능 향상에 관한 추가 결과가 발표되었습니다. 당사는 모든 성능 개선이 실제로 채택 플라이휠을 가속한다고 봅니다(제번스 역설). 예를 들어: 1) 가상 머신(VM)은 서버 수요를 줄일 것으로 예상되었으나 오히려 반대 결과가 나타났고, 2) 2025년 딥시크 출시는 ",
+          "date": "2026-04-01T22:30"
         },
         {
           "channel": "d_ticker",
-          "text": "**삼성전자, 英에 '고효율 히트펌프' 대량 공급**\n\n([연합뉴스](https://www.yna.co.kr/view/AKR20260401031800003)) 삼성전자는 영국 콘월 지역 대규모 주거단지 개발 프로젝트 '웨스트 카클레이즈 가든 빌리지'에 히트펌프 기반 공조 설루션을 공급한다고 1일 밝혔다. 이 프로젝트는 과거 광산 부지를 재개발해 2035년까지 약 1천500세대 규모의 주거단지를 조성하는 사업으로, 영국 에너지 성능 인증(EPC) 최고 등급 달성을 목표로 한다. 삼성전자는 해당 단지에 히트펌프 기반 가정용 냉난방·급탕",
-          "date": "2026-04-01T03:30"
-        },
+          "text": "**마이크로소프트, 2027년까지 자체 최첨단 AI 모델 개발 목표 ****$MSFT**\n\n([Bloomberg](https://www.bloomberg.com/news/articles/2026-04-02/microsoft-aims-to-create-large-cutting-edge-ai-models-by-2027)) 마이크로소프트 AI 부문 CEO인 무스타파 술레이만은 텍스트, 이미지, 오디오를 생성하거나 이에 반응할 수 있는 모든 영역에서 세계 최고 수준의 모델을 확보하는 것이 목표라고 밝혔다. 이를 위해 마이크로소프트는 엔비디",
+          "date": "2026-04-02T21:54"
+        }
+      ]
+    },
+    "EWY": {
+      "ticker": "EWY",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "beluga_investment"
+      ],
+      "latestDate": "2026-04-02T10:58:07+00:00",
+      "messages": [
         {
-          "channel": "d_ticker",
-          "text": "**삼성전자, 고용량 폴더블 가격 4~6% 인상**\n\n([연합뉴스](https://www.koreancenter.or.kr/news/articleView.html?idxno=1332820)) 1일 업계에 따르면 삼성전자는 이날 지난해 7월 출시한 폴더블 스마트폰 '갤럭시 Z 플립7' 512GB 출고가를 5.8%, '갤럭시 Z 폴드7' 512GB 모델의 출고가를 3.7% 인상했다. 지난해 5월 출시한 '갤럭시 S25 엣지' 512GB 모델도 6.7% 인상했다. 이번 가격 인상은 국제 정세 변화에 따른 환율 상승과 메모리 반도체 등 핵",
-          "date": "2026-04-01T02:22"
+          "channel": "beluga_investment",
+          "text": "오늘 **티커 ‘DRAM’이 마침내 거래를 시작합니다.**\n\n이 ETF는 포트폴리오의 약 **4분의 3을 메모리 반도체 빅3인 삼성전자, SK하이닉스, 마이크론에 집중**하고 있어, 사실상 **메모리 반도체 산업에 직접 투자하는 수단**이라고 볼 수 있습니다.\n\n특히 해외 개인투자자들 가운데 **삼성전자와 SK하이닉스를 직접 매수하는 데 규제적·제도적 제약**을 겪어온 투자자들에게는, **$DRAM이 매우 매력적인 대안**이 될 수 있습니다.\n\n물론 **EWY 역시 삼성전자와 SK하이닉스에 대한 익스포저가 상당히 크지만**, 현대자",
+          "date": "2026-04-02T10:58"
         }
       ]
     },
     "SK하이닉스": {
       "ticker": "SK하이닉스",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 8,
+      "messageCount": 5,
       "channels": [
-        "DOC_POOL",
         "aetherjapanresearch",
-        "sunstudy1004",
-        "beluga_investment",
-        "d_ticker"
+        "easobi",
+        "beluga_investment"
       ],
-      "latestDate": "2026-04-01T22:17:42+00:00",
+      "latestDate": "2026-04-02T12:08:52+00:00",
       "messages": [
         {
           "channel": "beluga_investment",
-          "text": "**260401_ Memory Market Update: Widening gap between memory sentiment and fundamentals; remain bullish on the elongated memory cycle; 27E visibility should rejuvenate sentiment - JPMorgan**\n\n(1) 메모리 주식은 2월 고점 대비 -27% 하락 vs. SOX -16%. 이는 1) 비즈니스 모델 지속 가능성, 2) S/W 스택 기술 발전, 3) 매크로 불확실성에 대한 우려가 반영된 결과 ",
-          "date": "2026-03-31T23:28"
+          "text": "오늘 **티커 ‘DRAM’이 마침내 거래를 시작합니다.**\n\n이 ETF는 포트폴리오의 약 **4분의 3을 메모리 반도체 빅3인 삼성전자, SK하이닉스, 마이크론에 집중**하고 있어, 사실상 **메모리 반도체 산업에 직접 투자하는 수단**이라고 볼 수 있습니다.\n\n특히 해외 개인투자자들 가운데 **삼성전자와 SK하이닉스를 직접 매수하는 데 규제적·제도적 제약**을 겪어온 투자자들에게는, **$DRAM이 매우 매력적인 대안**이 될 수 있습니다.\n\n물론 **EWY 역시 삼성전자와 SK하이닉스에 대한 익스포저가 상당히 크지만**, 현대자",
+          "date": "2026-04-02T10:58"
+        },
+        {
+          "channel": "beluga_investment",
+          "text": "[SK증권 반도체 한동희]\n\n**SK하이닉스, ADR 조달 자금 전액 자사주 매입·소각 검토**\n\n**▶️ ADR 발행 + 자사주 매입·소각 연계 방안 논의**\n\n- ADR 신주 발행(2.4% 규모)으로 조달하는 약 15조 원을 자사주 매입에 전량 투입 후 소각하는 방안 내부 검토 중\n- 신주 발행으로 늘어나는 유통주식 총량을 ADR 발행 前 수준으로 맞추는 것이 목적\n- 기존 주주 지분 희석 최소화를 위한 구조적 대안\n\n**▶️ 추진 배경 및 구조적 제약**\n\n- 자사주 소각 의무화로 기보유 자사주 활용 ADR 발행 불가 → 신주",
+          "date": "2026-04-02T01:10"
+        },
+        {
+          "channel": "easobi",
+          "text": "J.P.Morgan\nMarch 2026: From Overbought to Oversold\n삼성전자, SK하이닉스, 두산에너빌리티\n───── ✦ ─────\n📉 국내 시장 총평: 과매수에서 과매도로의 전환\n• 3월 KOSPI는 전월 6,000선 돌파 이후 19.1% 급락하며 5,052포인트로 마감함\n• MSCI 코리아 지수는 달러 기준 24.6% 하락하며 아시아에서 가장 부진한 성적을 기록함\n• 연초 두 달간 약 50% 급등하며 발생한 과매수 상태가 조정의 주요 원인으로 분석됨\n• 중동발 공급망 차질 및 유가 충격 우려로 소비자 심리",
+          "date": "2026-04-01T23:03"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "SK하이닉스, 최상위급 HBM4 납품 여부 \"연말 결정\"\n\nK하이닉스가 최상위 제품인 11.7Gbps급 고대역폭메모리(HBM)4의 재설계 작업에 착수했다. 해당 제품의 공급 여부는 연말께 결정될 예정이다. SK하이닉스는 앞서 엔비디아에 납품했던 여러 버전의 샘플에 대한 최적화 작업을 병행하며 퀄테스트(품질 인증)에 대응할 계획이다.\n\n\n\n업계에 따르면 SK하이닉스는 최상위 성능 구현이 가능한 HBM4를 재설계하고 있다. 기존 샘플로는 11.7Gbps급 속도 구현이 쉽지 않다는 판단에 따라, 성능을 보완한 신규 샘플을 추가 제출하려는",
-          "date": "2026-04-01T01:25"
+          "text": "**✅ [단독] ‘삼전·하닉 2배 ETF’만 국내 증시 허용…이르면 다음 달 나온다**\n\nhttps://www.sedaily.com/article/20027702?\n**\n📌 ‘삼성전자·SK하이닉스 2배 ETF’ 허용 핵심 정리**\n금융당국, **단일 종목 레버리지 ETF 국내 최초 허용**\n\n대상은 사실상 **삼성전자·SK하이닉스 2종목**만 가능\n\n(시총 비중 10% 이상 등 요건 충족 종목 제한)\n\n**📌 상품 구조**\n레버리지: 상승률 2배\n\n인버스: 하락률 2배\n\n커버드콜: 옵션 매도 결합형 상품\n\n→ 단순 레버리지 외 상품",
+          "date": "2026-04-02T12:08"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "JP모건 메모리마켓 업데이트; 메모리 센티먼트와 펀더멘털 간의 괴리 확대; 장기화되는 메모리 사이클에 대한 강세 견해 유지; 2027년 가시성이 센티먼트를 회복시킬 것\n\n1. 메모리 주식은 2026년 2월 고점 대비 27% 하락하며 SOX 지수(-16%)를 큰 폭으로 하회하였고, 3월 한 달에만 23%가 하락하였습니다. 이는 9월 이후 6개월 연속 상승세를 기록한 이후의 급격한 반전입니다. 하락의 주요 원인으로는 CSP 대비 메모리 가격 상승 모멘텀 과열에 따른 CSP 하드웨어 캐펙스 지출 지속 가능성 우려, 2026년 2분기 이후",
-          "date": "2026-03-31T23:46"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**美ADR 찍는 하이닉스 … 늘어난 주식 소각 유력**\n\n([매일경제](https://www.mk.co.kr/news/society/12005337)) 1일 투자은행(IB) 업계에 따르면 SK하이닉스는 2.4% 규모 신주 ADR을 발행해 조달하는 자금 약 15조원으로 자사주를 매입한 뒤 소각하는 방침을 내부적으로 논의 중인 것으로 전해졌다. 신주 발행으로 늘어나는 유통주식 총량을 ADR 발행 전 수준으로 맞추겠다는 취지다. 기존 주주 지분 희석을 최소화하기 위한 묘수로 보인다. 문제는 기존 주주 지분 희석이다. 공정거래법상 SK하",
-          "date": "2026-04-01T09:32"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "[미래에셋증권/금융투자/시장 분석]\n제목: 마켓 클로징 - 종전 기대감에 급등\n작성일: 2026.04.01\n작성자: 김석환 (미래에셋증권)\n\n[시장 전반]\n· 코스피 5,478.70(+8.44%), 코스닥 1,116.18(+6.06%)로 미국-이란 종전 협상 기대감에 매수세가 유입되었습니다.\n· 달러/원 환율은 전일 대비 17원 넘게 하락하며 1500원 선을 하회했습니다.\n\n[섹터별 강세]\n· 반도체: 역대 최대 수출 실적과 피스 랠리에 힘입어 TIGER 반도체TOP10(+10.83%), 삼성전자(+13.40%), SK하이닉스(+1",
-          "date": "2026-04-01T22:17"
+          "text": "블룸버그) 레버리지 SK하이닉스 ETF, 테슬라·마이크로소프트 제치고 글로벌 자금 유입 1위\n\nSK하이닉스를 기초자산으로 하는 레버리지 펀드가 올해 동종 상품 중 가장 많은 자금을 끌어모으며, 급격한 주가 하락 이후에도 이 한국 AI 반도체 기업의 전망에 대한 지속적인 베팅을 부각시키고 있다.\n\n홍콩 상장 상품인 CSOP SK하이닉스 데일리 2x 레버리지 ETF는 SK하이닉스 주식의 일일 수익률 2배를 추종하는 단일 종목 상장지수펀드로, 2026년 들어 약 160억 달러에 달하는 신규 자금을 유치하며 테슬라와 마이크로소프트 등 미국",
+          "date": "2026-04-02T12:08"
         }
       ]
     },
-    "TIME코스닥": {
-      "ticker": "TIME코스닥",
+    "TSM": {
+      "ticker": "TSM",
       "summary": "분석 실패: Connection error.",
       "messageCount": 4,
       "channels": [
-        "beluga_investment",
         "d_ticker",
-        "easobi"
+        "aetherjapanresearch",
+        "easobi",
+        "beluga_investment"
       ],
-      "latestDate": "2026-04-01T21:49:23+00:00",
+      "latestDate": "2026-04-02T11:25:11+00:00",
       "messages": [
         {
           "channel": "beluga_investment",
-          "text": "**260401_ Memory Market Update: Widening gap between memory sentiment and fundamentals; remain bullish on the elongated memory cycle; 27E visibility should rejuvenate sentiment - JPMorgan**\n\n(1) 메모리 주식은 2월 고점 대비 -27% 하락 vs. SOX -16%. 이는 1) 비즈니스 모델 지속 가능성, 2) S/W 스택 기술 발전, 3) 매크로 불확실성에 대한 우려가 반영된 결과 ",
-          "date": "2026-03-31T23:28"
+          "text": "SemiAnalysis는 현재 GPU 렌탈 시장이 다시 심각한 공급 부족 국면에 들어섰다고 봅니다. Claude 4.6 Opus, Claude Code, 오픈 모델 확산, AI 기업들의 대규모 자금 조달이 동시에 GPU 수요를 밀어 올렸고, 그 결과 하이퍼스케일러와 네오클라우드 전반에서 GPU 확보 경쟁이 격화됐습니다. 이 영향은 GPU를 넘어 DRAM, NAND, 광케이블, 데이터센터 코로케이션 등 공급망 전반의 가격 상승으로 이어지고 있습니다. 특히 **H100 1년 렌탈 가격은 2025년 10월 GPU당 시간당 1.70달러에서",
+          "date": "2026-04-02T04:38"
         },
         {
           "channel": "easobi",
-          "text": "Our estimates of the value of naval orders over the next 10 year cycle",
-          "date": "2026-03-31T23:05"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**빗썸, 상장 일정 2028년 이후로 연기**\n\n([The Block](https://www.theblock.co/post/396088/bithumb-crypto-exchange-stretches-ipo-timeline-2028)) 가상자산 거래소 빗썸이 당초 2025년 하반기로 예정했던 IPO 일정을 2028년 이후로 대폭 연기했다. 화요일 열린 연례 주주총회에서 정상균 CFO는 현재 회사가 회계 정책 강화, 내부 통제 및 철저한 내부 검증에 집중하는 준비 단계에 있다고 밝혔다. 빗썸은 삼정KPMG와 2027년 말까지 IPO 자",
-          "date": "2026-04-01T21:49"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**TSMC, 2026년 하반기 CPO 패키징 양산 돌입 ****$TSM**\n\n([Digitimes](https://www.digitimes.com/news/a20260401PD212/tsmc-siph-packaging-cpo-production.html)) TSMC가 광신호 기반의 실리콘 포토닉스(SiPh) 패키징 공법인 COUPE를 2026년 하반기 양산할 계획이다. COPUE는 3차원 하이브리드 본딩 장비로 전기회로(EIC)를 광학회로(PIC) 다이 위에 쌓는 기술이다. TSMC는 광섬유 배열 기술을 지닌 FOCI(3363)와",
-          "date": "2026-04-01T05:25"
-        }
-      ]
-    },
-    "AAPL": {
-      "ticker": "AAPL",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
-      "channels": [
-        "aetherjapanresearch",
-        "d_ticker",
-        "easobi"
-      ],
-      "latestDate": "2026-04-01T22:12:43+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "삼성전기 (Morgan Stanley)\nThe Next Dual AI Opportunity – ABF/MLCC\n───── ✦ ─────\n🚀 AI 기반의 새로운 패러다임 전환과 기회\n• AI가 단순 도구에서 협업 파트너로 진화하며 전례 없는 컴퓨팅 수요를 창출함\n• AI 인프라는 2026년 이후 MLCC 및 첨단 기판 콘텐츠 성장의 핵심 동력이 될 전망임\n• 차세대 GPU 및 ASIC 등 AI 서버 아키텍처 업그레이드로 인해 MLCC 탑재량이 급증함\n• 초고용량 및 고온 내성 MLCC와 고층·대면적 ABF 기판 수요가 강력하게 발생함",
-          "date": "2026-04-01T22:12"
+          "text": "TSMC (J.P. Morgan)\n1Q26 preview: Stronger GMs; Al demand upside to drive further capex upside; raise PT to NT$2,400\n───── ✦ ─────\n🚀 핵심 투자 포인트 및 전망\n• TSMC에 대해 비중확대(Overweight) 의견을 유지하며 목표주가를 2,400대만달러로 상향함.\n• 최근 2~3개월간 에이전틱 AI 워크로드 급증으로 AI 컴퓨팅 수요가 더욱 강력해졌음.\n• N3(3nm) 및 N2(2nm) 공정의 공급 부족이 2027년까지 지속될 ",
+          "date": "2026-04-01T22:43"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "AI 서버 수요, 2Q26 메모리 계약 가격 상승 견인… CSP, 장기 계약으로 공급 확보\n\n* 일반 DRAM 계약 가격, 2Q26에 전분기 대비 58~63% 상승 예상; NAND 플래시 계약 가격은 전분기 대비 70~75% 상승\n* DRAM 공급업체들, 서버 관련 애플리케이션 방향으로 생산 능력 재배분 지속. 일부 최종 시장 수요의 하방 리스크에도 불구하고 전반적인 공급은 타이트한 상태를 유지하며 가격 상승세 지속\n* NAND 생산 능력은 엔터프라이즈 SSD 쪽으로 점점 더 많이 배분되는 반면, 소비자용 애플리케이션은 비용 압박 ",
-          "date": "2026-04-01T08:25"
+          "text": "JP모건) TSMC 1Q26 프리뷰: 더 강한 GM; AI 수요 상승이 추가적인 캐팩스 상승 견인; 목표주가 NT$2,400으로 상향\n\nJ.P. 모건은 2026년 4월 2일자로 TSMC에 대한 투자의견 비중확대(Overweight)를 유지하면서 목표주가를 NT$2,250에서 NT$2,400(12개월 선행 주가수익비율 20배 적용)으로 상향했습니다.\n\n보고서의 핵심 논거는 AI 컴퓨팅 수요의 예상을 뛰어넘는 강세입니다. 클로드 코드(Claude Code), 오픈클로(OpenClaw) 등 에이전틱 AI 도구들의 출시 이후 지난 2~3개",
+          "date": "2026-04-02T01:58"
         },
         {
           "channel": "d_ticker",
-          "text": "**아마존, 바레인 데이터센터 화재 발생...이란의 보복**\n\n([Reuters](https://www.reuters.com/world/middle-east/amazons-cloud-business-bahrain-damaged-iran-strike-ft-reports-2026-04-01/)) 이란의 공격으로 바레인에 위치한 아마존의 클라우드 컴퓨팅 운영 시설이 손상됐다. 바레인 내무부는 앞서 기업 시설에서 발생한 화재를 진압 중이라고 밝혔으며, 당국은 이를 이란의 공격으로 규정했다. 이번 사건은 이란 혁명수비대가 자국에 대한 공격의",
-          "date": "2026-04-01T21:25"
+          "text": "**대만, TSMC 일본 제2공장 3나노 승인 ****$TSM**\n\n대만 경제부가 TSMC의 일본 구마모토 제2공장에 최첨단 3nm 제조 공정을 도입하는 계획을 최종 승인했다. 당초 구마모토 제2공장은 6~12나노급 칩을 생산할 계획이었으나, 이번 승인으로 최첨단 3나노 공정이 도입된다. 12인치 웨이퍼 기준 월 15,000장의 생산 능력을 갖출 예정이다. 장비 설치를 거쳐 2028년부터 본격적인 가동에 들어간다. 2024년 말 가동을 시작한 제1공장이 12~28나노급 차량용·산업용 칩에 집중한다면, 제2공장은 AI와 고성능 컴퓨팅",
+          "date": "2026-04-02T11:25"
         }
       ]
     },
-    "삼성전기": {
-      "ticker": "삼성전기",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
-      "channels": [
-        "sunstudy1004",
-        "DOC_POOL",
-        "easobi"
-      ],
-      "latestDate": "2026-04-01T22:17:01+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "삼성전기 (Morgan Stanley)\nThe Next Dual AI Opportunity – ABF/MLCC\n───── ✦ ─────\n🚀 AI 기반의 새로운 패러다임 전환과 기회\n• AI가 단순 도구에서 협업 파트너로 진화하며 전례 없는 컴퓨팅 수요를 창출함\n• AI 인프라는 2026년 이후 MLCC 및 첨단 기판 콘텐츠 성장의 핵심 동력이 될 전망임\n• 차세대 GPU 및 ASIC 등 AI 서버 아키텍처 업그레이드로 인해 MLCC 탑재량이 급증함\n• 초고용량 및 고온 내성 MLCC와 고층·대면적 ABF 기판 수요가 강력하게 발생함",
-          "date": "2026-04-01T22:12"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "퀸틴전시 플랜 / 증권 / 리포트 요약\n제목: WGBI 편입과 수출 호조, 종전 시 더 부각될 한국 체력\n작성일: 2026.04.01\n작성자: FICC 리서치부 정해창 / Strategist Jr., 이경민 / Strategist\n투자의견: 제시됨\n목표주가: 제시됨\n\n[중동 전쟁 종결 기대감]\n· 이란 전쟁 종결 기대감 확산으로 트럼프 대통령의 완화적 발언이 이어졌으며, 이는 동아시아 증시의 일제 반등을 이끌었습니다. KOSPI는 8.4% 상승했으며, 브렌트유 가격 하락도 긍정적 요인으로 작용했습니다.\n· 중동 군사력 증강 불가피 ",
-          "date": "2026-04-01T22:17"
-        },
-        {
-          "channel": "sunstudy1004",
-          "text": "**안녕하세요. 현대차증권 전기전자/디스플레이 담당 김종배 연구원입니다.**\n\n**일본, 대만 주요 기업 탐방을 다녀와서 관련 In-Depth 보고서를 작성하였습니다.**\n\n**결론부터 말씀드리면, 전방 수요 상황은 매우 강력하고 IT기업들은 AI exposure을 높이기 위해 최대한의 노력을 하고 있습니다. 수요 상황이 Smartphone, PC는 이미 Double-Digit 역성장이 예상됨에 따라 IT 세트 부품은 최대한 AI향으로 전환하는 것이 중요한 시점입니다. 다만, 기술격차로 이것이 생각보다 쉽지 않다는 것을 글로벌 기업",
-          "date": "2026-04-01T01:06"
-        }
-      ]
-    },
-    "META": {
-      "ticker": "META",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
-      "channels": [
-        "aetherjapanresearch",
-        "easobi"
-      ],
-      "latestDate": "2026-04-01T21:49:47+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "2026년 4월 1일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시 3대 지수 요약 및 시황 본문\n미국 증시는 이란 분쟁 종식 가능성에 대한 낙관론이 지속되며 상승 마감했습니다. S&P 500 지수는 0.72% 상승한 6577.41을 기록했고, 나스닥 종합 지수는 1.16% 상승한 21840.96을, 다우존스 산업평균 지수는 0.48% 상승한 46564.63을 기록했습니다. 장중에는 휴전 협상 진행 상황에 대한 상충되는 보도로 인해 상승폭을 일부 반납했으나, 이후 안정적인 회복세를 보이며 강세를 유지했습니다. 특히 메가캡 및 기술주들이",
-          "date": "2026-04-01T21:49"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "Citi) 코어위브; 급증하는 수요와 타이트한 공급 속 투자등급 파이낸싱 달성. 목표가 $126\n\n씨티의 견해\nCoreWeave가 새로운 85억 달러 규모의 투자등급 파이낸싱을 발표한 후 당사는 경영진과 면담하였습니다. 이번 시설은 CRWV 사상 최대 규모로, 가장 유력하게는 META MSA를 위한 인프라 확장을 지원하게 될 것입니다. 약 5.9%의 금리는 회사가 자산담보(ABS) 방식의 파이낸싱 프레임워크에 근접해 가면서 기존 DDTL 대비 큰 폭으로 개선된 것이며, 수익성 추정치에 상향 여지를 제공할 수 있습니다. 이번 주 초에",
-          "date": "2026-04-01T14:29"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "오펜하이머) Alphabet Inc. — 검색은 가장 견고한 광고 사업으로 남아 있으며, GCP 상방 여력도 지속될 전망, 목표가 $360\n\n요약\n유가·가스 가격 상승에 따른 소비자 지출 둔화 시나리오에서, GOOG는 광고 섹터 내 가장 방어적인 종목이 될 것으로 판단됩니다. GCP는 2026년 시장 컨센서스인 +45%를 크게 상회하는 성장도 가능할 것으로 보입니다. GCP 설비투자(capex) 분석에 따르면 2026년 및 2027년 전년 대비 성장률이 60% 이상으로, 컨센서스인 +45%/+35%를 상회하며, 이는 검색 부문이 2",
-          "date": "2026-04-01T07:23"
-        }
-      ]
-    },
-    "HD현대중공업": {
-      "ticker": "HD현대중공업",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
-      "channels": [
-        "DOC_POOL",
-        "easobi"
-      ],
-      "latestDate": "2026-04-01T22:16:14+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "HD현대중공업 (CLSA)\nHD Hyundai Heavy - HC O-PF (Buy the dip)\n───── ✦ ─────\n📉 최근 주가 하락 배경 및 매수 기회\n• HD한국조선해양의 교환사채(EB) 발행 공시 이후 주가가 약 4% 하락함\n• 이번 지분 매각은 약 5.35% 규모로 발행가액은 현 주가 대비 20% 프리미엄인 540,000원임\n• 이는 단순 자금 조달이 아닌 해외 야드 확장을 위한 전략적 자본 확충으로 판단됨\n• 인도의 조선소 설립(1조 원)과 베트남, 필리핀 생산 능력 확대 및 미국 법인 설립(2조 원)에 활용될 ",
-          "date": "2026-04-01T05:12"
-        },
-        {
-          "channel": "easobi",
-          "text": "한화오션, HD현대중공업, 삼성중공업, HD한국조선해양 (CLSA)\nLandmark US naval order win\n───── ✦ ─────\n🚢 한국 조선사 최초의 미국 해군 함정 사업 진출\n• 미국 차세대 물류함(NGLS) 개념설계 계약 체결로 한국 조선소의 미국 해군 조달 체계 진입 성공함\n• 한화그룹(Vard 파트너십)과 삼성중공업(NASSCO 파트너십)이 이번 계약을 통해 초기 노출 기회 확보함\n• 계약 금액 자체는 850만 달러로 소액이나 향후 수십억 달러 규모의 건조 수주를 위한 구조적 교두보 마련함\n• 설계 제출은 2",
-          "date": "2026-03-31T23:04"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "HD한국조선해양 / 조선/방산\n제목: HD한국조선해양, 교환사채 발행으로 미래 성장 동력 확보\n작성일: 2024.03.31\n작성자: 양승윤 (유진투자증권)\n\n[미래 성장 투자]\n· HD한국조선해양이 20억 달러 규모의 교환사채 발행을 공시했습니다. 이는 HD현대중공업 주식 561만주(발행주식의 5.35%)를 교환 대상으로 하며, 발행 주식의 지분율은 69.2%에서 63.86%로 하락하게 됩니다.\n· 조달된 자금은 해외법인 운영자금, 친환경 선박 기자재, 차세대 에너지원 사업 투자 등 미래 성장 동력 확보에 활용될 예정입니다.\n\n[재",
-          "date": "2026-04-01T22:16"
-        }
-      ]
-    },
-    "HD한국조선": {
-      "ticker": "HD한국조선",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
-      "channels": [
-        "DOC_POOL",
-        "easobi"
-      ],
-      "latestDate": "2026-04-01T22:16:14+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "HD현대중공업 (CLSA)\nHD Hyundai Heavy - HC O-PF (Buy the dip)\n───── ✦ ─────\n📉 최근 주가 하락 배경 및 매수 기회\n• HD한국조선해양의 교환사채(EB) 발행 공시 이후 주가가 약 4% 하락함\n• 이번 지분 매각은 약 5.35% 규모로 발행가액은 현 주가 대비 20% 프리미엄인 540,000원임\n• 이는 단순 자금 조달이 아닌 해외 야드 확장을 위한 전략적 자본 확충으로 판단됨\n• 인도의 조선소 설립(1조 원)과 베트남, 필리핀 생산 능력 확대 및 미국 법인 설립(2조 원)에 활용될 ",
-          "date": "2026-04-01T05:12"
-        },
-        {
-          "channel": "easobi",
-          "text": "한화오션, HD현대중공업, 삼성중공업, HD한국조선해양 (CLSA)\nLandmark US naval order win\n───── ✦ ─────\n🚢 한국 조선사 최초의 미국 해군 함정 사업 진출\n• 미국 차세대 물류함(NGLS) 개념설계 계약 체결로 한국 조선소의 미국 해군 조달 체계 진입 성공함\n• 한화그룹(Vard 파트너십)과 삼성중공업(NASSCO 파트너십)이 이번 계약을 통해 초기 노출 기회 확보함\n• 계약 금액 자체는 850만 달러로 소액이나 향후 수십억 달러 규모의 건조 수주를 위한 구조적 교두보 마련함\n• 설계 제출은 2",
-          "date": "2026-03-31T23:04"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "HD한국조선해양 / 조선/방산\n제목: HD한국조선해양, 교환사채 발행으로 미래 성장 동력 확보\n작성일: 2024.03.31\n작성자: 양승윤 (유진투자증권)\n\n[미래 성장 투자]\n· HD한국조선해양이 20억 달러 규모의 교환사채 발행을 공시했습니다. 이는 HD현대중공업 주식 561만주(발행주식의 5.35%)를 교환 대상으로 하며, 발행 주식의 지분율은 69.2%에서 63.86%로 하락하게 됩니다.\n· 조달된 자금은 해외법인 운영자금, 친환경 선박 기자재, 차세대 에너지원 사업 투자 등 미래 성장 동력 확보에 활용될 예정입니다.\n\n[재",
-          "date": "2026-04-01T22:16"
-        }
-      ]
-    },
-    "HD마린엔진": {
-      "ticker": "HD마린엔진",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
-      "channels": [
-        "DOC_POOL",
-        "easobi"
-      ],
-      "latestDate": "2026-04-01T22:16:14+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "HD현대중공업 (CLSA)\nHD Hyundai Heavy - HC O-PF (Buy the dip)\n───── ✦ ─────\n📉 최근 주가 하락 배경 및 매수 기회\n• HD한국조선해양의 교환사채(EB) 발행 공시 이후 주가가 약 4% 하락함\n• 이번 지분 매각은 약 5.35% 규모로 발행가액은 현 주가 대비 20% 프리미엄인 540,000원임\n• 이는 단순 자금 조달이 아닌 해외 야드 확장을 위한 전략적 자본 확충으로 판단됨\n• 인도의 조선소 설립(1조 원)과 베트남, 필리핀 생산 능력 확대 및 미국 법인 설립(2조 원)에 활용될 ",
-          "date": "2026-04-01T05:12"
-        },
-        {
-          "channel": "easobi",
-          "text": "한화오션, HD현대중공업, 삼성중공업, HD한국조선해양 (CLSA)\nLandmark US naval order win\n───── ✦ ─────\n🚢 한국 조선사 최초의 미국 해군 함정 사업 진출\n• 미국 차세대 물류함(NGLS) 개념설계 계약 체결로 한국 조선소의 미국 해군 조달 체계 진입 성공함\n• 한화그룹(Vard 파트너십)과 삼성중공업(NASSCO 파트너십)이 이번 계약을 통해 초기 노출 기회 확보함\n• 계약 금액 자체는 850만 달러로 소액이나 향후 수십억 달러 규모의 건조 수주를 위한 구조적 교두보 마련함\n• 설계 제출은 2",
-          "date": "2026-03-31T23:04"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "HD한국조선해양 / 조선/방산\n제목: HD한국조선해양, 교환사채 발행으로 미래 성장 동력 확보\n작성일: 2024.03.31\n작성자: 양승윤 (유진투자증권)\n\n[미래 성장 투자]\n· HD한국조선해양이 20억 달러 규모의 교환사채 발행을 공시했습니다. 이는 HD현대중공업 주식 561만주(발행주식의 5.35%)를 교환 대상으로 하며, 발행 주식의 지분율은 69.2%에서 63.86%로 하락하게 됩니다.\n· 조달된 자금은 해외법인 운영자금, 친환경 선박 기자재, 차세대 에너지원 사업 투자 등 미래 성장 동력 확보에 활용될 예정입니다.\n\n[재",
-          "date": "2026-04-01T22:16"
-        }
-      ]
-    },
-    "삼성중공업": {
-      "ticker": "삼성중공업",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "easobi"
-      ],
-      "latestDate": "2026-04-01T05:12:56+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "HD현대중공업 (CLSA)\nHD Hyundai Heavy - HC O-PF (Buy the dip)\n───── ✦ ─────\n📉 최근 주가 하락 배경 및 매수 기회\n• HD한국조선해양의 교환사채(EB) 발행 공시 이후 주가가 약 4% 하락함\n• 이번 지분 매각은 약 5.35% 규모로 발행가액은 현 주가 대비 20% 프리미엄인 540,000원임\n• 이는 단순 자금 조달이 아닌 해외 야드 확장을 위한 전략적 자본 확충으로 판단됨\n• 인도의 조선소 설립(1조 원)과 베트남, 필리핀 생산 능력 확대 및 미국 법인 설립(2조 원)에 활용될 ",
-          "date": "2026-04-01T05:12"
-        },
-        {
-          "channel": "easobi",
-          "text": "한화오션, HD현대중공업, 삼성중공업, HD한국조선해양 (CLSA)\nLandmark US naval order win\n───── ✦ ─────\n🚢 한국 조선사 최초의 미국 해군 함정 사업 진출\n• 미국 차세대 물류함(NGLS) 개념설계 계약 체결로 한국 조선소의 미국 해군 조달 체계 진입 성공함\n• 한화그룹(Vard 파트너십)과 삼성중공업(NASSCO 파트너십)이 이번 계약을 통해 초기 노출 기회 확보함\n• 계약 금액 자체는 850만 달러로 소액이나 향후 수십억 달러 규모의 건조 수주를 위한 구조적 교두보 마련함\n• 설계 제출은 2",
-          "date": "2026-03-31T23:04"
-        }
-      ]
-    },
-    "CLS": {
-      "ticker": "CLS",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "easobi"
-      ],
-      "latestDate": "2026-04-01T05:12:56+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "HD현대중공업 (CLSA)\nHD Hyundai Heavy - HC O-PF (Buy the dip)\n───── ✦ ─────\n📉 최근 주가 하락 배경 및 매수 기회\n• HD한국조선해양의 교환사채(EB) 발행 공시 이후 주가가 약 4% 하락함\n• 이번 지분 매각은 약 5.35% 규모로 발행가액은 현 주가 대비 20% 프리미엄인 540,000원임\n• 이는 단순 자금 조달이 아닌 해외 야드 확장을 위한 전략적 자본 확충으로 판단됨\n• 인도의 조선소 설립(1조 원)과 베트남, 필리핀 생산 능력 확대 및 미국 법인 설립(2조 원)에 활용될 ",
-          "date": "2026-04-01T05:12"
-        },
-        {
-          "channel": "easobi",
-          "text": "한화오션, HD현대중공업, 삼성중공업, HD한국조선해양 (CLSA)\nLandmark US naval order win\n───── ✦ ─────\n🚢 한국 조선사 최초의 미국 해군 함정 사업 진출\n• 미국 차세대 물류함(NGLS) 개념설계 계약 체결로 한국 조선소의 미국 해군 조달 체계 진입 성공함\n• 한화그룹(Vard 파트너십)과 삼성중공업(NASSCO 파트너십)이 이번 계약을 통해 초기 노출 기회 확보함\n• 계약 금액 자체는 850만 달러로 소액이나 향후 수십억 달러 규모의 건조 수주를 위한 구조적 교두보 마련함\n• 설계 제출은 2",
-          "date": "2026-03-31T23:04"
-        }
-      ]
-    },
-    "AVGO": {
-      "ticker": "AVGO",
+    "TIGER지주": {
+      "ticker": "TIGER지주",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
-        "aetherjapanresearch"
+        "easobi"
       ],
-      "latestDate": "2026-04-01T10:45:51+00:00",
+      "latestDate": "2026-04-02T22:19:30+00:00",
       "messages": [
         {
+          "channel": "easobi",
+          "text": "J.P.Morgan\nMLCC Industry: Growing likelihood of tight supply/demand; Murata Manufacturing and Taiyo Yuden up to Overweight\n📈 MLCC 산업 전망 및 투자 의견 변경\n• MLCC 산업 내 AI 서버 수요 가속화와 자동차 전장화 확대로 인해 가치 팽창이 가속화될 전망임.\n• 소비자 가전 수요 추정치를 기존 +6%에서 +2%로 하향 조정함에도 불구하고, AI 서버 수요가 이를 상쇄할 것으로 보임.\n• 산업 가동률이 90% 임계치에 근접함에 ",
+          "date": "2026-04-02T22:19"
+        }
+      ]
+    },
+    "NVDA": {
+      "ticker": "NVDA",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 6,
+      "channels": [
+        "d_ticker",
+        "DOC_POOL",
+        "aetherjapanresearch",
+        "easobi"
+      ],
+      "latestDate": "2026-04-02T22:19:30+00:00",
+      "messages": [
+        {
+          "channel": "easobi",
+          "text": "J.P.Morgan\nMLCC Industry: Growing likelihood of tight supply/demand; Murata Manufacturing and Taiyo Yuden up to Overweight\n📈 MLCC 산업 전망 및 투자 의견 변경\n• MLCC 산업 내 AI 서버 수요 가속화와 자동차 전장화 확대로 인해 가치 팽창이 가속화될 전망임.\n• 소비자 가전 수요 추정치를 기존 +6%에서 +2%로 하향 조정함에도 불구하고, AI 서버 수요가 이를 상쇄할 것으로 보임.\n• 산업 가동률이 90% 임계치에 근접함에 ",
+          "date": "2026-04-02T22:19"
+        },
+        {
           "channel": "aetherjapanresearch",
-          "text": "JP모건) 아시아 투자자 업데이트; GPU 및 ASIC에 관한 주요 질문\n\n첫째, NVIDIA의 루빈 울트라(Rubin Ultra) 다이 구성 변경 가능성에 관한 것입니다. 인터포저 위에 4개 다이를 단일 패키지에 올리는 방식에서, 2개 다이 패키지 2개를 기판 레벨에서 결합하는 2×2 방식으로의 전환이 검토되고 있습니다. 연산 성능이나 HBM 밀도에는 실질적인 영향이 없을 것으로 보이며, 기존 4다이 단일 패키지 방식은 TSMC CoWoS-L의 한계에 근접한 극도의 복잡성을 수반하기 때문에 2×2 방식이 보다 현실적인 대안으로 부",
-          "date": "2026-04-01T10:45"
+          "text": "JP모건) TSMC 1Q26 프리뷰: 더 강한 GM; AI 수요 상승이 추가적인 캐팩스 상승 견인; 목표주가 NT$2,400으로 상향\n\nJ.P. 모건은 2026년 4월 2일자로 TSMC에 대한 투자의견 비중확대(Overweight)를 유지하면서 목표주가를 NT$2,250에서 NT$2,400(12개월 선행 주가수익비율 20배 적용)으로 상향했습니다.\n\n보고서의 핵심 논거는 AI 컴퓨팅 수요의 예상을 뛰어넘는 강세입니다. 클로드 코드(Claude Code), 오픈클로(OpenClaw) 등 에이전틱 AI 도구들의 출시 이후 지난 2~3개",
+          "date": "2026-04-02T01:58"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "미즈호) 마이크론, 샌디스크: TurboQuant 메모리 조정 시 매수\n\n당사는 메모리에 대한 피크 우려가 과도하다고 판단하며, MU/SNDK 모두에 대해 아웃퍼폼을 재확인하며 매수 의견을 유지합니다. TurboQuant는 2025년에 처음 소개되었으며, 최근 AI 추론 성능 향상에 관한 추가 결과가 발표되었습니다. 당사는 모든 성능 개선이 실제로 채택 플라이휠을 가속한다고 봅니다(제번스 역설). 예를 들어: 1) 가상 머신(VM)은 서버 수요를 줄일 것으로 예상되었으나 오히려 반대 결과가 나타났고, 2) 2025년 딥시크 출시는 ",
+          "date": "2026-04-01T22:30"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**마이크로소프트, 2027년까지 자체 최첨단 AI 모델 개발 목표 ****$MSFT**\n\n([Bloomberg](https://www.bloomberg.com/news/articles/2026-04-02/microsoft-aims-to-create-large-cutting-edge-ai-models-by-2027)) 마이크로소프트 AI 부문 CEO인 무스타파 술레이만은 텍스트, 이미지, 오디오를 생성하거나 이에 반응할 수 있는 모든 영역에서 세계 최고 수준의 모델을 확보하는 것이 목표라고 밝혔다. 이를 위해 마이크로소프트는 엔비디",
+          "date": "2026-04-02T21:54"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**일본 유리소재 기업들 '유리기판' 투자 확대**\n\n([Nikkei Asia](https://asia.nikkei.com/business/materials/japan-glassmakers-asahi-kasei-agc-retool-to-ride-surging-ai-chip-demand?utm_source=telegram&utm_medium=referral&utm_campaign=IC_telegram_channel&utm_content=telegram_channel_posts)) 유리소재 제조사 아사히 카세이(3407)는 저열팽창 유",
+          "date": "2026-04-01T22:29"
+        }
+      ]
+    },
+    "TSLA": {
+      "ticker": "TSLA",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 3,
+      "channels": [
+        "aetherjapanresearch",
+        "easobi"
+      ],
+      "latestDate": "2026-04-02T22:02:34+00:00",
+      "messages": [
+        {
+          "channel": "easobi",
+          "text": "2026년 4월 2일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시 3대 지수는 혼조세로 마감했습니다. 다우존스 산업평균지수는 46503.56으로 61.07포인트(0.13%) 하락했으며, 나스닥 종합지수는 21879.19로 38.23포인트(0.18%) 상승했습니다. S&P 500 지수는 6584.78로 7.37포인트(0.11%) 상승 마감했습니다. 시장은 미-이란 휴전 기대감 약화와 유가 급등으로 장 초반 하락했으나, 호르무즈 해협 통행 관련 이란-오만 협상 보고서가 나오면서 낙폭을 회복했습니다. 지정학적 변동성 이후 시장은 대체로 소",
+          "date": "2026-04-02T22:02"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "테슬라, 1분기 인도량 전망치 미달\n\n테슬라는 408,386대를 생산했음에도 불구하고, 1분기 인도량이 358,023대로 368,903대였던 시장 예상치를 밑돌았다.\n\n모델 3/Y가 생산량 394,611대, 인도량 341,893대로 생산을 주도한 반면, 다른 모델들은 생산량 13,775대, 인도량 16,130대를 기록했다.",
+          "date": "2026-04-02T13:03"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "블룸버그) 레버리지 SK하이닉스 ETF, 테슬라·마이크로소프트 제치고 글로벌 자금 유입 1위\n\nSK하이닉스를 기초자산으로 하는 레버리지 펀드가 올해 동종 상품 중 가장 많은 자금을 끌어모으며, 급격한 주가 하락 이후에도 이 한국 AI 반도체 기업의 전망에 대한 지속적인 베팅을 부각시키고 있다.\n\n홍콩 상장 상품인 CSOP SK하이닉스 데일리 2x 레버리지 ETF는 SK하이닉스 주식의 일일 수익률 2배를 추종하는 단일 종목 상장지수펀드로, 2026년 들어 약 160억 달러에 달하는 신규 자금을 유치하며 테슬라와 마이크로소프트 등 미국",
+          "date": "2026-04-02T12:08"
         }
       ]
     },
@@ -619,184 +316,334 @@
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
-        "aetherjapanresearch"
+        "easobi"
       ],
-      "latestDate": "2026-04-01T07:35:49+00:00",
+      "latestDate": "2026-04-01T23:03:29+00:00",
       "messages": [
         {
-          "channel": "aetherjapanresearch",
-          "text": "NY포스트)미국 샌디에고에서 군인들이 스트립클럽 댄서에게 파병 계획 유출\n\n샌디에이고의 군인들이 지역 스트리퍼에게 파병 계획을 털어놓았고, 그녀는 이를 인스타그램에 게시했다. 미국의 한 인플루언서이자 댄서가 자신의 클럽을 방문한 젊은 군인들이 이란 파병 일정을 무심코 발설했다고 밝히자, 한 군 관계자가 군인들의 작전 보안(OPSEC) 위반 위험성을 강력히 경고했다.\n\nhttps://nypost.com/video/trumps-next-iran-plan-soldiers-spill-deployment-plans-to-stripper/",
-          "date": "2026-04-01T07:35"
+          "channel": "easobi",
+          "text": "J.P.Morgan\nMarch 2026: From Overbought to Oversold\n삼성전자, SK하이닉스, 두산에너빌리티\n───── ✦ ─────\n📉 국내 시장 총평: 과매수에서 과매도로의 전환\n• 3월 KOSPI는 전월 6,000선 돌파 이후 19.1% 급락하며 5,052포인트로 마감함\n• MSCI 코리아 지수는 달러 기준 24.6% 하락하며 아시아에서 가장 부진한 성적을 기록함\n• 연초 두 달간 약 50% 급등하며 발생한 과매수 상태가 조정의 주요 원인으로 분석됨\n• 중동발 공급망 차질 및 유가 충격 우려로 소비자 심리",
+          "date": "2026-04-01T23:03"
         }
       ]
     },
-    "APP": {
-      "ticker": "APP",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "d_ticker"
-      ],
-      "latestDate": "2026-04-01T21:36:14+00:00",
-      "messages": [
-        {
-          "channel": "d_ticker",
-          "text": "**일라이릴리, 경구용 비만약 '파운다요' 최종 승인 획득 ****$LLY**\n\n([Official](https://investor.lilly.com/news-releases/news-release-details/fda-approves-lillys-foundayotm-orforglipron-only-glp-1-pill)) LLY는 경구용 GLP-1 수용체 작용제인 파운다요(성분명 : 오르포글리프론)가 미국 FDA의 승인을 받았다고 발표했다. 파운다요는 음식물 섭취나 물 제한 없이 하루 중 언제든 복용 가능한 유일한 알약 형태의 비만",
-          "date": "2026-04-01T21:36"
-        }
-      ]
-    },
-    "LMT": {
-      "ticker": "LMT",
+    "두산에너빌": {
+      "ticker": "두산에너빌",
       "summary": "분석 실패: Connection error.",
       "messageCount": 2,
       "channels": [
-        "d_ticker"
+        "easobi"
       ],
-      "latestDate": "2026-04-01T13:09:14+00:00",
+      "latestDate": "2026-04-01T23:03:29+00:00",
       "messages": [
         {
-          "channel": "d_ticker",
-          "text": "**보잉 · 록히드마틴, 패트리어트 미사일 부품 케파 3배 확대한다**\n\n수요일 미 국방부는 보잉(BA) 및 록히드마틴(LMT)과 함께 패트리어트 미사일의 최신형인 PAC-3 MSE에 들어가는 핵심 부품인 '시커(Seeker, 탐색기)'의 생산 능력을 3배로 늘리기로 하는 7년 단위의 프레임워크 계약을 체결했다. 시커는 미사일의 머리 부분에 장착되어 목표물을 끝까지 추적해 정밀 타격을 가능하게 하는 눈 역할을 하는 핵심 고부가가치 부품이다. PAC-3 MSE는 기존 PAC-3보다 사거리와 고도를 높인 최신 개량형으로 탄도미사일 요격",
-          "date": "2026-04-01T13:09"
+          "channel": "easobi",
+          "text": "J.P.Morgan\nMarch 2026: From Overbought to Oversold\n삼성전자, SK하이닉스, 두산에너빌리티\n───── ✦ ─────\n📉 국내 시장 총평: 과매수에서 과매도로의 전환\n• 3월 KOSPI는 전월 6,000선 돌파 이후 19.1% 급락하며 5,052포인트로 마감함\n• MSCI 코리아 지수는 달러 기준 24.6% 하락하며 아시아에서 가장 부진한 성적을 기록함\n• 연초 두 달간 약 50% 급등하며 발생한 과매수 상태가 조정의 주요 원인으로 분석됨\n• 중동발 공급망 차질 및 유가 충격 우려로 소비자 심리",
+          "date": "2026-04-01T23:03"
         },
         {
-          "channel": "d_ticker",
-          "text": "**NASA, 50년 만의 유인 달 탐사 '아르테미스 II' 카운트다운**\n\n([Reuters](https://www.reuters.com/science/nasa-counts-down-first-crewed-lunar-mission-half-century-2026-04-01/)) NASA가 수요일 저녁(현지시간) 4명의 우주비행사를 태우고 달 궤도를 도는 10일간의 '아르테미스 II' 미션 발사를 앞두고 최종 점검을 마쳤다. 1972년 아폴로 계획 종료 이후 반세기 만에 인류가 지구 궤도를 벗어나 달로 향하는 미션이다. 우주비행사들",
-          "date": "2026-04-01T13:05"
+          "channel": "easobi",
+          "text": "Morgan Stanley\nStorm Subsiding? Checking the Waters\n대상 기업: 삼성전자, 한화에어로스페이스, HD현대일렉트릭, 아모레퍼시픽, 기아, 신한지주, 삼성E&A, 카카오, 삼성바이오로직스, 신세계, 두산에너빌리티, LS일렉트릭, LIG넥스원, 삼성전기, LG이노텍, 원익IPS, 삼양식품\n───── ✦ ─────\n🌊 중동 리스크 완화와 KOSPI 반등 분석\n• 최근 중동 긴장 완화 조짐으로 KOSPI가 8.44% 급등하며 강한 회복력을 증명함\n• 호르무즈 해협 재개방 수준이 향후 리스크 온(Risk",
+          "date": "2026-04-01T22:58"
         }
       ]
     },
     "SMR": {
       "ticker": "SMR",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
+      "messageCount": 2,
       "channels": [
-        "d_ticker"
+        "easobi"
       ],
-      "latestDate": "2026-04-01T05:08:07+00:00",
+      "latestDate": "2026-04-01T23:03:29+00:00",
       "messages": [
         {
-          "channel": "d_ticker",
-          "text": "**독일 경제부 장관, 원전 재가동 촉구**\n\n([FT](https://www.ft.com/content/96676f06-9cd5-434e-8314-e880ae7f6b93?syn-25a6b1a6=1)) 카테리나 라이헤 독일 경제부 장관이 의회의 기존의 원전 반대 입장을 재검토해야 한다고 주장했다. 이란 전쟁 시작 후 유럽 가스 가격이 60% 이상 급등하면서 독일 경제에 제2의 에너지 충격이 닥쳤다. 독일 전기료가 원전 강국인 프랑스의 4배에 달한다. 라이헤 장관은 \"현재 가스 외에 공급을 보장할 기저 부하 수단이 남지 않았으며, 정",
-          "date": "2026-04-01T05:08"
+          "channel": "easobi",
+          "text": "J.P.Morgan\nMarch 2026: From Overbought to Oversold\n삼성전자, SK하이닉스, 두산에너빌리티\n───── ✦ ─────\n📉 국내 시장 총평: 과매수에서 과매도로의 전환\n• 3월 KOSPI는 전월 6,000선 돌파 이후 19.1% 급락하며 5,052포인트로 마감함\n• MSCI 코리아 지수는 달러 기준 24.6% 하락하며 아시아에서 가장 부진한 성적을 기록함\n• 연초 두 달간 약 50% 급등하며 발생한 과매수 상태가 조정의 주요 원인으로 분석됨\n• 중동발 공급망 차질 및 유가 충격 우려로 소비자 심리",
+          "date": "2026-04-01T23:03"
+        },
+        {
+          "channel": "easobi",
+          "text": "Morgan Stanley\nStorm Subsiding? Checking the Waters\n대상 기업: 삼성전자, 한화에어로스페이스, HD현대일렉트릭, 아모레퍼시픽, 기아, 신한지주, 삼성E&A, 카카오, 삼성바이오로직스, 신세계, 두산에너빌리티, LS일렉트릭, LIG넥스원, 삼성전기, LG이노텍, 원익IPS, 삼양식품\n───── ✦ ─────\n🌊 중동 리스크 완화와 KOSPI 반등 분석\n• 최근 중동 긴장 완화 조짐으로 KOSPI가 8.44% 급등하며 강한 회복력을 증명함\n• 호르무즈 해협 재개방 수준이 향후 리스크 온(Risk",
+          "date": "2026-04-01T22:58"
         }
       ]
     },
-    "ADI": {
-      "ticker": "ADI",
+    "한화에어로": {
+      "ticker": "한화에어로",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
-        "d_ticker"
+        "easobi"
       ],
-      "latestDate": "2026-04-01T02:17:25+00:00",
+      "latestDate": "2026-04-01T22:58:50+00:00",
       "messages": [
         {
-          "channel": "d_ticker",
-          "text": "**구글, 차세대 웨어러블 밴드 출시 계획 ****$GOOGL**\n\n([Bloomberg](https://www.bloomberg.com/news/articles/2026-04-01/google-readies-revamped-screenless-fitbit-to-rival-growing-whoop-craze)) 구글이 스크린을 없앤 새로운 형태의 웨어러블 기기인 '핏빗 피트니스 밴드'를 준비하고 있다.  경쟁 제품인 웁(Whoop)의 밴드와 매우 흡사한 디자인으로 알려졌다. 시계 기능이나 앱 알림에 집중하는 스마트워치와 달리, 핏빗",
-          "date": "2026-04-01T02:17"
+          "channel": "easobi",
+          "text": "Morgan Stanley\nStorm Subsiding? Checking the Waters\n대상 기업: 삼성전자, 한화에어로스페이스, HD현대일렉트릭, 아모레퍼시픽, 기아, 신한지주, 삼성E&A, 카카오, 삼성바이오로직스, 신세계, 두산에너빌리티, LS일렉트릭, LIG넥스원, 삼성전기, LG이노텍, 원익IPS, 삼양식품\n───── ✦ ─────\n🌊 중동 리스크 완화와 KOSPI 반등 분석\n• 최근 중동 긴장 완화 조짐으로 KOSPI가 8.44% 급등하며 강한 회복력을 증명함\n• 호르무즈 해협 재개방 수준이 향후 리스크 온(Risk",
+          "date": "2026-04-01T22:58"
         }
       ]
     },
-    "GEV": {
-      "ticker": "GEV",
+    "삼성전기": {
+      "ticker": "삼성전기",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
-        "d_ticker"
+        "easobi"
       ],
-      "latestDate": "2026-03-31T22:37:26+00:00",
+      "latestDate": "2026-04-01T22:58:50+00:00",
       "messages": [
         {
-          "channel": "d_ticker",
-          "text": "**마이크로소프트, 셰브론과 텍사스 $7B 가스발전소 설립 ****$MSFT**\n\n([Bloomberg](https://www.bloomberg.com/news/articles/2026-03-31/microsoft-in-talks-with-chevron-engine-no-1-over-7-billion-texas-power-plant)) 마이크로소프트가 셰브론 및 투자펀드 엔진 넘버원(Engine No. 1)과 손잡고 서부 텍사스에 대형 천연가스 발전소를 건설하는 독점 협상을 진행 중이다. $7B가 투입될 예정이며 초기 발전 용량은 ",
-          "date": "2026-03-31T22:37"
+          "channel": "easobi",
+          "text": "Morgan Stanley\nStorm Subsiding? Checking the Waters\n대상 기업: 삼성전자, 한화에어로스페이스, HD현대일렉트릭, 아모레퍼시픽, 기아, 신한지주, 삼성E&A, 카카오, 삼성바이오로직스, 신세계, 두산에너빌리티, LS일렉트릭, LIG넥스원, 삼성전기, LG이노텍, 원익IPS, 삼양식품\n───── ✦ ─────\n🌊 중동 리스크 완화와 KOSPI 반등 분석\n• 최근 중동 긴장 완화 조짐으로 KOSPI가 8.44% 급등하며 강한 회복력을 증명함\n• 호르무즈 해협 재개방 수준이 향후 리스크 온(Risk",
+          "date": "2026-04-01T22:58"
         }
       ]
     },
-    "TIGER지주": {
-      "ticker": "TIGER지주",
+    "HD현대일렉": {
+      "ticker": "HD현대일렉",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "easobi"
+      ],
+      "latestDate": "2026-04-01T22:58:50+00:00",
+      "messages": [
+        {
+          "channel": "easobi",
+          "text": "Morgan Stanley\nStorm Subsiding? Checking the Waters\n대상 기업: 삼성전자, 한화에어로스페이스, HD현대일렉트릭, 아모레퍼시픽, 기아, 신한지주, 삼성E&A, 카카오, 삼성바이오로직스, 신세계, 두산에너빌리티, LS일렉트릭, LIG넥스원, 삼성전기, LG이노텍, 원익IPS, 삼양식품\n───── ✦ ─────\n🌊 중동 리스크 완화와 KOSPI 반등 분석\n• 최근 중동 긴장 완화 조짐으로 KOSPI가 8.44% 급등하며 강한 회복력을 증명함\n• 호르무즈 해협 재개방 수준이 향후 리스크 온(Risk",
+          "date": "2026-04-01T22:58"
+        }
+      ]
+    },
+    "삼양식품": {
+      "ticker": "삼양식품",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "easobi"
+      ],
+      "latestDate": "2026-04-01T22:58:50+00:00",
+      "messages": [
+        {
+          "channel": "easobi",
+          "text": "Morgan Stanley\nStorm Subsiding? Checking the Waters\n대상 기업: 삼성전자, 한화에어로스페이스, HD현대일렉트릭, 아모레퍼시픽, 기아, 신한지주, 삼성E&A, 카카오, 삼성바이오로직스, 신세계, 두산에너빌리티, LS일렉트릭, LIG넥스원, 삼성전기, LG이노텍, 원익IPS, 삼양식품\n───── ✦ ─────\n🌊 중동 리스크 완화와 KOSPI 반등 분석\n• 최근 중동 긴장 완화 조짐으로 KOSPI가 8.44% 급등하며 강한 회복력을 증명함\n• 호르무즈 해협 재개방 수준이 향후 리스크 온(Risk",
+          "date": "2026-04-01T22:58"
+        }
+      ]
+    },
+    "HD마린엔진": {
+      "ticker": "HD마린엔진",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "easobi"
+      ],
+      "latestDate": "2026-04-01T22:58:50+00:00",
+      "messages": [
+        {
+          "channel": "easobi",
+          "text": "Morgan Stanley\nStorm Subsiding? Checking the Waters\n대상 기업: 삼성전자, 한화에어로스페이스, HD현대일렉트릭, 아모레퍼시픽, 기아, 신한지주, 삼성E&A, 카카오, 삼성바이오로직스, 신세계, 두산에너빌리티, LS일렉트릭, LIG넥스원, 삼성전기, LG이노텍, 원익IPS, 삼양식품\n───── ✦ ─────\n🌊 중동 리스크 완화와 KOSPI 반등 분석\n• 최근 중동 긴장 완화 조짐으로 KOSPI가 8.44% 급등하며 강한 회복력을 증명함\n• 호르무즈 해협 재개방 수준이 향후 리스크 온(Risk",
+          "date": "2026-04-01T22:58"
+        }
+      ]
+    },
+    "AAPL": {
+      "ticker": "AAPL",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 5,
+      "channels": [
+        "d_ticker",
+        "aetherjapanresearch",
+        "easobi"
+      ],
+      "latestDate": "2026-04-02T12:07:18+00:00",
+      "messages": [
+        {
+          "channel": "easobi",
+          "text": "TSMC (J.P. Morgan)\n1Q26 preview: Stronger GMs; Al demand upside to drive further capex upside; raise PT to NT$2,400\n───── ✦ ─────\n🚀 핵심 투자 포인트 및 전망\n• TSMC에 대해 비중확대(Overweight) 의견을 유지하며 목표주가를 2,400대만달러로 상향함.\n• 최근 2~3개월간 에이전틱 AI 워크로드 급증으로 AI 컴퓨팅 수요가 더욱 강력해졌음.\n• N3(3nm) 및 N2(2nm) 공정의 공급 부족이 2027년까지 지속될 ",
+          "date": "2026-04-01T22:43"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "BofA) 애플; F2Q26 (전체 분기) 앱스토어 매출 전년 대비 +7.0% 성장; 서비스 매출 전년 대비 +14% 성장 모델링\n\n1. F2Q26 (전체 분기) 앱스토어 매출 전년 대비 +7.0% 증가\nF2Q26 (전체 분기) 앱스토어 매출은 $89억으로 증가했습니다(전년 대비 +7.0%, SensorTower의 개발자 매출 데이터 기준). 이는 지난달 언급했던 F2Q26 (64일 기준) 전년 대비 +6.8% 성장 및 F2Q26 (35일 기준) 전년 대비 +6.3% 성장에서 한 단계 더 올라선 수치입니다. 같은 기간 총 다운로드 ",
+          "date": "2026-04-02T12:00"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) TSMC 1Q26 프리뷰: 더 강한 GM; AI 수요 상승이 추가적인 캐팩스 상승 견인; 목표주가 NT$2,400으로 상향\n\nJ.P. 모건은 2026년 4월 2일자로 TSMC에 대한 투자의견 비중확대(Overweight)를 유지하면서 목표주가를 NT$2,250에서 NT$2,400(12개월 선행 주가수익비율 20배 적용)으로 상향했습니다.\n\n보고서의 핵심 논거는 AI 컴퓨팅 수요의 예상을 뛰어넘는 강세입니다. 클로드 코드(Claude Code), 오픈클로(OpenClaw) 등 에이전틱 AI 도구들의 출시 이후 지난 2~3개",
+          "date": "2026-04-02T01:58"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**글로벌스타, 장전 16% 급등 ****$GSAT**\n\nFT의 단독 기사를 보면 아마존이 아직 합의안을 두고 글로벌스타랑 협상 중이라면서 인수액을 밝히지 않았습니다. 그러나 지금 시장의 반응으로 보면 $10B 이상이 유력합니다. 현 시가총액은 $8.8B입니다.\n\n양사 협상의 가장 큰 걸림돌은 애플이 글로벌스타 지분을 20% 보유하고 있다는 점입니다. 애플은 아이폰에 위성 기반 문자 메시지 서비스를 넣기 위해 글로벌스타의 저궤도 위성망을 사용하며, 그 과정에서 2024년 글로벌스타에 $1.5B를 투자했습니다.\n\n글로벌스타는 지난 1",
+          "date": "2026-04-02T12:07"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**아마존, 저궤도 위성 통신사 글로벌스타 인수 추진 ****$GSAT**\n\n([FT](https://www.ft.com/content/abace066-fe93-4ff0-8378-d3c3eb49519c)) 아마존은 자사의 위성 인터넷 회사인 아마존 LEO의 역량을 강화하기 위해 글로벌스타(GSAT) 인수를 추진한다. 글로벌스타는 저궤도(LEO) 위성군을 활용해 전 세계에 위성 인터넷망과 지구관측 데이터 서비스를 제공하는 기업이다. 아마존은 이번 인수로 스타링크와 본격적인 경쟁에 돌입할 예정이다. 현재 글로벌스타는 현재 애플과 독점적",
+          "date": "2026-04-01T22:59"
+        }
+      ]
+    },
+    "META": {
+      "ticker": "META",
       "summary": "분석 실패: Connection error.",
       "messageCount": 2,
       "channels": [
-        "DOC_POOL"
+        "d_ticker",
+        "aetherjapanresearch"
       ],
-      "latestDate": "2026-04-01T22:17:42+00:00",
+      "latestDate": "2026-04-02T13:38:43+00:00",
       "messages": [
         {
-          "channel": "DOC_POOL",
-          "text": "[미래에셋증권/금융투자/시장 분석]\n제목: 마켓 클로징 - 종전 기대감에 급등\n작성일: 2026.04.01\n작성자: 김석환 (미래에셋증권)\n\n[시장 전반]\n· 코스피 5,478.70(+8.44%), 코스닥 1,116.18(+6.06%)로 미국-이란 종전 협상 기대감에 매수세가 유입되었습니다.\n· 달러/원 환율은 전일 대비 17원 넘게 하락하며 1500원 선을 하회했습니다.\n\n[섹터별 강세]\n· 반도체: 역대 최대 수출 실적과 피스 랠리에 힘입어 TIGER 반도체TOP10(+10.83%), 삼성전자(+13.40%), SK하이닉스(+1",
-          "date": "2026-04-01T22:17"
+          "channel": "aetherjapanresearch",
+          "text": "Citi 리서치) 서유럽 항공우주·방산 섹터 리포트 요약\n \"Defense – What's Priced In? Babcock·Leonardo·TKMS 매수 상향\"\n 2026년 3월 31일\n\n시티 리서치는 최근 주가 하락을 반영하여 Babcock(BAB.L), Leonardo(LDOF.MI), TKMS(TKMS.DE) 세 종목의 투자의견을 기존 중립에서 매수로 상향 조정하였습니다. 목표주가는 각각 기존과 동일한 1,554펜스, 69유로, 100유로를 유지하였습니다. 이와 함께, Rheinmetall에 대해서는 신규 커버리지를 개시하면",
+          "date": "2026-04-02T13:38"
         },
         {
-          "channel": "DOC_POOL",
-          "text": "[미래에셋증권/금융투자/시장 분석]\n제목: 마켓 클로징 - 종전 기대감에 급등\n작성일: 2026.04.01\n작성자: 김석환 (미래에셋증권)\n\n[시장 전반]\n· 코스피 5,478.70(+8.44%), 코스닥 1,116.18(+6.06%)로 미국-이란 종전 협상 기대감에 매수세가 유입되었습니다.\n· 달러/원 환율은 전일 대비 17원 넘게 하락하며 1500원 선을 하회했습니다.\n\n[섹터별 강세]\n· 반도체: 역대 최대 수출 실적과 피스 랠리에 힘입어 TIGER 반도체TOP10(+10.83%), 삼성전자(+13.40%), SK하이닉스(+1",
-          "date": "2026-04-01T22:17"
+          "channel": "d_ticker",
+          "text": "**구글, 신재생 대신 천연가스 발전에 집중 ****$GOOGL**\n\n([Axios](https://www.axios.com/2026/04/02/google-natural-gas-ai-power-energy)) 구글은 크루소 에너지와 파트너십을 맺고 텍사스 북부에 $30B 규모의 대규모 데이터센터 캠퍼스를 건설 중이다. 풍력 발전소(265MW)와 대규모 배터리저장시설(1GW 추정)이 포함되나, 핵심 전력원은 1GW급 대형 천연가스 발전소가 될 것으로 분석됐다. 구글이 지난 6월에 발표한 최신 환경 보고서에 따르면, 2024년 데이터",
+          "date": "2026-04-02T11:14"
+        }
+      ]
+    },
+    "TIME코스닥": {
+      "ticker": "TIME코스닥",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-04-02T12:34:15+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "⚡️⚡️⚡️⚡️⚡️⚡️\n미국 신규 실업수당 청구건수\n실제치(Actual): 202K\n예상치(Estimate): 212K → 예상 하회\n이전치(Previous): 210K → 전월 대비 감소\n미국 지속 실업수당 청구건수\n실제치(Actual): 1,841K\n예상치(Estimate): 1,833K → 예상 상회\n이전치(Previous): 1,819K → 전월 대비 증가\n요약:\n신규 실업수당 청구는 예상보다 낮아 고용시장의 견조함을 시사하는 반면, 지속 청구건수는 증가하며 일부 완만한 둔화 신호가 혼재된 모습.",
+          "date": "2026-04-02T12:34"
+        }
+      ]
+    },
+    "GOOGL": {
+      "ticker": "GOOGL",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 6,
+      "channels": [
+        "d_ticker",
+        "sunstudy1004",
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-04-02T21:58:46+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "블룸버그) 레버리지 SK하이닉스 ETF, 테슬라·마이크로소프트 제치고 글로벌 자금 유입 1위\n\nSK하이닉스를 기초자산으로 하는 레버리지 펀드가 올해 동종 상품 중 가장 많은 자금을 끌어모으며, 급격한 주가 하락 이후에도 이 한국 AI 반도체 기업의 전망에 대한 지속적인 베팅을 부각시키고 있다.\n\n홍콩 상장 상품인 CSOP SK하이닉스 데일리 2x 레버리지 ETF는 SK하이닉스 주식의 일일 수익률 2배를 추종하는 단일 종목 상장지수펀드로, 2026년 들어 약 160억 달러에 달하는 신규 자금을 유치하며 테슬라와 마이크로소프트 등 미국",
+          "date": "2026-04-02T12:08"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "BofA) 애플; F2Q26 (전체 분기) 앱스토어 매출 전년 대비 +7.0% 성장; 서비스 매출 전년 대비 +14% 성장 모델링\n\n1. F2Q26 (전체 분기) 앱스토어 매출 전년 대비 +7.0% 증가\nF2Q26 (전체 분기) 앱스토어 매출은 $89억으로 증가했습니다(전년 대비 +7.0%, SensorTower의 개발자 매출 데이터 기준). 이는 지난달 언급했던 F2Q26 (64일 기준) 전년 대비 +6.8% 성장 및 F2Q26 (35일 기준) 전년 대비 +6.3% 성장에서 한 단계 더 올라선 수치입니다. 같은 기간 총 다운로드 ",
+          "date": "2026-04-02T12:00"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) TSMC 1Q26 프리뷰: 더 강한 GM; AI 수요 상승이 추가적인 캐팩스 상승 견인; 목표주가 NT$2,400으로 상향\n\nJ.P. 모건은 2026년 4월 2일자로 TSMC에 대한 투자의견 비중확대(Overweight)를 유지하면서 목표주가를 NT$2,250에서 NT$2,400(12개월 선행 주가수익비율 20배 적용)으로 상향했습니다.\n\n보고서의 핵심 논거는 AI 컴퓨팅 수요의 예상을 뛰어넘는 강세입니다. 클로드 코드(Claude Code), 오픈클로(OpenClaw) 등 에이전틱 AI 도구들의 출시 이후 지난 2~3개",
+          "date": "2026-04-02T01:58"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**구글 딥마인드, '젬마 4' 공개**\n\n([Official](https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/)) 구글이  차세대 오픈 모델인 젬마 4를 공개했다. 모델 라인업은 모바일 및 IoT 전용 E2B, E4B와 고성능 모델인 26B MoE, 31B Dense의 4가지 크기로 구성됐다. 이 모델들은 비디오와 이미지를 기본적으로 처리하며, E2B와 E4B 모델의 경우 음성 인식 및 이해를 위한 오디오 입력 기능도 내장했다. 엣지 모델은 12",
+          "date": "2026-04-02T21:58"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**구글, 신재생 대신 천연가스 발전에 집중 ****$GOOGL**\n\n([Axios](https://www.axios.com/2026/04/02/google-natural-gas-ai-power-energy)) 구글은 크루소 에너지와 파트너십을 맺고 텍사스 북부에 $30B 규모의 대규모 데이터센터 캠퍼스를 건설 중이다. 풍력 발전소(265MW)와 대규모 배터리저장시설(1GW 추정)이 포함되나, 핵심 전력원은 1GW급 대형 천연가스 발전소가 될 것으로 분석됐다. 구글이 지난 6월에 발표한 최신 환경 보고서에 따르면, 2024년 데이터",
+          "date": "2026-04-02T11:14"
+        }
+      ]
+    },
+    "AMZN": {
+      "ticker": "AMZN",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 3,
+      "channels": [
+        "d_ticker"
+      ],
+      "latestDate": "2026-04-02T22:09:33+00:00",
+      "messages": [
+        {
+          "channel": "d_ticker",
+          "text": "**아마존, 3.5% 유류 할증료 부과 ****$AMZN**\n\n([Bloomberg](https://www.bloomberg.com/news/articles/2026-04-02/amazon-imposes-3-5-fuel-surcharge-for-many-online-merchants)) 아마존이 자사 배송 서비스를 이용하는 판매자들에게 3.5%의 '연료 및 물류' 할증료를 부과하기 시작한다. 유가 급등으로 인해 비용 압박을 받는 물류 업계의 가격 인상 흐름에 동참한 것이다. 미국과 캐나다에서 아마존 풀필먼트 서비스를 이용하는 독립 ",
+          "date": "2026-04-02T22:09"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**글로벌스타, 장전 16% 급등 ****$GSAT**\n\nFT의 단독 기사를 보면 아마존이 아직 합의안을 두고 글로벌스타랑 협상 중이라면서 인수액을 밝히지 않았습니다. 그러나 지금 시장의 반응으로 보면 $10B 이상이 유력합니다. 현 시가총액은 $8.8B입니다.\n\n양사 협상의 가장 큰 걸림돌은 애플이 글로벌스타 지분을 20% 보유하고 있다는 점입니다. 애플은 아이폰에 위성 기반 문자 메시지 서비스를 넣기 위해 글로벌스타의 저궤도 위성망을 사용하며, 그 과정에서 2024년 글로벌스타에 $1.5B를 투자했습니다.\n\n글로벌스타는 지난 1",
+          "date": "2026-04-02T12:07"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**아마존, 저궤도 위성 통신사 글로벌스타 인수 추진 ****$GSAT**\n\n([FT](https://www.ft.com/content/abace066-fe93-4ff0-8378-d3c3eb49519c)) 아마존은 자사의 위성 인터넷 회사인 아마존 LEO의 역량을 강화하기 위해 글로벌스타(GSAT) 인수를 추진한다. 글로벌스타는 저궤도(LEO) 위성군을 활용해 전 세계에 위성 인터넷망과 지구관측 데이터 서비스를 제공하는 기업이다. 아마존은 이번 인수로 스타링크와 본격적인 경쟁에 돌입할 예정이다. 현재 글로벌스타는 현재 애플과 독점적",
+          "date": "2026-04-01T22:59"
+        }
+      ]
+    },
+    "GOOG": {
+      "ticker": "GOOG",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 2,
+      "channels": [
+        "d_ticker"
+      ],
+      "latestDate": "2026-04-02T21:58:46+00:00",
+      "messages": [
+        {
+          "channel": "d_ticker",
+          "text": "**구글 딥마인드, '젬마 4' 공개**\n\n([Official](https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/)) 구글이  차세대 오픈 모델인 젬마 4를 공개했다. 모델 라인업은 모바일 및 IoT 전용 E2B, E4B와 고성능 모델인 26B MoE, 31B Dense의 4가지 크기로 구성됐다. 이 모델들은 비디오와 이미지를 기본적으로 처리하며, E2B와 E4B 모델의 경우 음성 인식 및 이해를 위한 오디오 입력 기능도 내장했다. 엣지 모델은 12",
+          "date": "2026-04-02T21:58"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**구글, 신재생 대신 천연가스 발전에 집중 ****$GOOGL**\n\n([Axios](https://www.axios.com/2026/04/02/google-natural-gas-ai-power-energy)) 구글은 크루소 에너지와 파트너십을 맺고 텍사스 북부에 $30B 규모의 대규모 데이터센터 캠퍼스를 건설 중이다. 풍력 발전소(265MW)와 대규모 배터리저장시설(1GW 추정)이 포함되나, 핵심 전력원은 1GW급 대형 천연가스 발전소가 될 것으로 분석됐다. 구글이 지난 6월에 발표한 최신 환경 보고서에 따르면, 2024년 데이터",
+          "date": "2026-04-02T11:14"
         }
       ]
     },
     "미래에셋": {
       "ticker": "미래에셋",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
+      "messageCount": 1,
       "channels": [
-        "DOC_POOL"
+        "d_ticker"
       ],
-      "latestDate": "2026-04-01T22:17:42+00:00",
+      "latestDate": "2026-04-02T10:56:42+00:00",
       "messages": [
         {
-          "channel": "DOC_POOL",
-          "text": "[미래에셋증권/금융투자/시장 분석]\n제목: 마켓 클로징 - 종전 기대감에 급등\n작성일: 2026.04.01\n작성자: 김석환 (미래에셋증권)\n\n[시장 전반]\n· 코스피 5,478.70(+8.44%), 코스닥 1,116.18(+6.06%)로 미국-이란 종전 협상 기대감에 매수세가 유입되었습니다.\n· 달러/원 환율은 전일 대비 17원 넘게 하락하며 1500원 선을 하회했습니다.\n\n[섹터별 강세]\n· 반도체: 역대 최대 수출 실적과 피스 랠리에 힘입어 TIGER 반도체TOP10(+10.83%), 삼성전자(+13.40%), SK하이닉스(+1",
-          "date": "2026-04-01T22:17"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "[미래에셋증권/금융투자/시장 분석]\n제목: 마켓 클로징 - 종전 기대감에 급등\n작성일: 2026.04.01\n작성자: 김석환 (미래에셋증권)\n\n[시장 전반]\n· 코스피 5,478.70(+8.44%), 코스닥 1,116.18(+6.06%)로 미국-이란 종전 협상 기대감에 매수세가 유입되었습니다.\n· 달러/원 환율은 전일 대비 17원 넘게 하락하며 1500원 선을 하회했습니다.\n\n[섹터별 강세]\n· 반도체: 역대 최대 수출 실적과 피스 랠리에 힘입어 TIGER 반도체TOP10(+10.83%), 삼성전자(+13.40%), SK하이닉스(+1",
-          "date": "2026-04-01T22:17"
+          "channel": "d_ticker",
+          "text": "**[단독] 한국투자증권, 코인원 지분 인수 검토**\n\n([헤럴드경제](https://n.news.naver.com/mnews/article/016/0002623868?rc=N&ntype=RANKING&sid=001)) 한국투자증권이 디지털자산거래소 코인원 지분 인수를 검토하고 있는 것으로 파악됐다. 경쟁사 미래에셋그룹의 코빗 인수에 대응하는 격으로 코인원 인수 시장에 뛰어들면서 유력한 인수 후보자로 부상하고 있다. 2일 디지털자산업계에 따르면 한국투자증권은 코인원 지분 인수를 위해 금융당국과 정치권 설득 작업을 진행하고 있다. 미",
+          "date": "2026-04-02T10:56"
         }
       ]
     },
-    "현대차": {
-      "ticker": "현대차",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "DOC_POOL",
-        "sunstudy1004"
-      ],
-      "latestDate": "2026-04-01T22:16:03+00:00",
-      "messages": [
-        {
-          "channel": "DOC_POOL",
-          "text": "[현대차/자동차/판매]\n제목: 3월 판매: 재확인 되는 기아 모멘텀\n작성일: 2026.04.01\n작성자: 유지웅 자동차/이차전지 |\n\n[글로벌 판매 호조]\n· 현대차와 기아의 3월 글로벌 도매판매는 각각 YoY -2.4%, +2.7% 기록, 1Q26 기준으로는 각각 97.5만대, 77.9만대를 기록하며 연간 판매 목표 달성을 위한 긍정적인 흐름을 보이고 있습니다.\n· 특히, 내수시장 EV 판매가 반등하며 현대차와 기아 각각 YoY +38%, +148%의 높은 증가율을 기록했으며, 기아가 현대와의 격차를 벌리며 글로벌 EV 판매량에서",
-          "date": "2026-04-01T22:16"
-        },
-        {
-          "channel": "sunstudy1004",
-          "text": "**안녕하세요. 현대차증권 전기전자/디스플레이 담당 김종배 연구원입니다.**\n\n**일본, 대만 주요 기업 탐방을 다녀와서 관련 In-Depth 보고서를 작성하였습니다.**\n\n**결론부터 말씀드리면, 전방 수요 상황은 매우 강력하고 IT기업들은 AI exposure을 높이기 위해 최대한의 노력을 하고 있습니다. 수요 상황이 Smartphone, PC는 이미 Double-Digit 역성장이 예상됨에 따라 IT 세트 부품은 최대한 AI향으로 전환하는 것이 중요한 시점입니다. 다만, 기술격차로 이것이 생각보다 쉽지 않다는 것을 글로벌 기업",
-          "date": "2026-04-01T01:06"
-        }
-      ]
-    },
-    "3690": {
-      "ticker": "3690",
+    "LLY": {
+      "ticker": "LLY",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
-        "sunstudy1004"
+        "DOC_POOL"
       ],
-      "latestDate": "2026-04-01T13:07:58+00:00",
+      "latestDate": "2026-04-02T21:52:03+00:00",
       "messages": [
         {
-          "channel": "sunstudy1004",
-          "text": "https://m.blog.naver.com/untildie44/224236904263",
-          "date": "2026-04-01T13:07"
+          "channel": "DOC_POOL",
+          "text": "**[알지노믹스의 RNA 편집 기술 임상 결과 발표와 기대]**\n* 알지노믹스가 AACR 2026 학술대회에서 간암 치료제 후보물질 'RZ-001'의 임상 1b·2a상 중간 결과를 발표하며, 회사의 핵심 기술인 'RNA 치환효소 기반 편집 플랫폼'의 인체 내 유효성을 입증할 첫 시험대에 오른다.\n* 이번 발표는 희소한 인체 대상 RNA 편집 임상 데이터라는 점에서 중요하며, 플랫폼 기술의 상용화 가능성을 판단하는 핵심 지표로 작용할 것으로 예상된다.\n* 김민정 DS투자증권 연구원은 'RZ-001'의 유효성이 확인될 경우, 플랫폼 전",
+          "date": "2026-04-02T21:52"
         }
       ]
     }
   },
-  "totalMessages": 112,
+  "totalMessages": 98,
   "channels": [
     "Jstockclass",
     "report_figure_by_offset",
