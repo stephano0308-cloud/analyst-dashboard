@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-03T22:22:09.292117",
+  "fetchedAt": "2026-04-04T22:17:58.511884",
   "source": "Yahoo Finance",
   "stockCount": 29,
   "stocks": {
@@ -142,7 +142,7 @@
       "oiGrowth": 1.949,
       "netIncome": 4884000000.0,
       "yearHigh": 948.38,
-      "yearLow": 252.25,
+      "yearLow": 253.076,
       "rsi14": 63.1,
       "macd": 18.57,
       "macdSignal": 19.06,
@@ -882,7 +882,7 @@
       "oiGrowth": 0.307,
       "netIncome": -116953000.0,
       "yearHigh": 17.79,
-      "yearLow": 1.52,
+      "yearLow": 1.55,
       "rsi14": 39.4,
       "macd": -0.14,
       "macdSignal": -0.05,
@@ -919,7 +919,7 @@
       "oiGrowth": 0.7301,
       "netIncome": 832500000.0,
       "yearHigh": 363.4,
-      "yearLow": 58.05,
+      "yearLow": 61.07,
       "rsi14": 58.6,
       "macd": 1.04,
       "macdSignal": -0.96,
