@@ -1,432 +1,98 @@
 {
-  "fetchedAt": "2026-04-06T22:25:59.163829",
+  "fetchedAt": "2026-04-07T22:28:37.492119",
   "status": "ok",
   "stocks": {
-    "SMR": {
-      "ticker": "SMR",
+    "삼성전자": {
+      "ticker": "삼성전자",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
+      "messageCount": 16,
       "channels": [
-        "Jstockclass"
-      ],
-      "latestDate": "2026-04-06T13:57:55+00:00",
-      "messages": [
-        {
-          "channel": "Jstockclass",
-          "text": "**HDD 시장 수요 및 가격 강화 (MS)\n**\n**1. 시장 수급 및 가격 전망 상세**\n\n• **공급 부족 장기화**: 하이퍼스케일러의 강력한 수요로 인해 2028년까지 HDD 공급 부족현상이 지속될 전망이며, 수급 균형은 2029년에나 도달할 것으로 예상\n\n• **공격적인 가격 협상**: 2027/28년 인도분에 대한 가격 협상이 TB당 20달러수준에서 진행 중이며, 이는 기존 추정치보다 30% 이상 높은 수준\n\n• **AI 기반 데이터 폭증**: GPU 렌더링 및 토큰 성장 가속화로 인해 에이전틱, 멀티모달 등 AI 워크로",
-          "date": "2026-04-06T13:57"
-        },
-        {
-          "channel": "Jstockclass",
-          "text": "**한국 원전 EPC 주요 기업 투자 포인트 (JPM)\n**\n**1. 원전 산업 현황 및 공통 모멘텀\n**\n• **1분기 실적 및 수주 동향**: 1분기 원전 관련 수주는 전반적으로 저조했으나, 주요 기업들의 실적은 시장 예상치에 부합할 것으로 전망\n\n• **한미 원전 협력 기대감**: 한국 정부의 미국 내 원전 투자에 관한 세부 발표가 향후 강력한 주가 촉매제가 될 것으로 보이며, 지연되고 있는 양국 간 협상은 결국 긍정적으로 타결될 가능성이 높음\n\n• **APR1400의 경쟁력**: 미국 민간 발전 시장의 리스크 감당 능력 한계",
-          "date": "2026-04-06T09:00"
-        }
-      ]
-    },
-    "두산에너빌": {
-      "ticker": "두산에너빌",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "Jstockclass"
-      ],
-      "latestDate": "2026-04-06T09:00:36+00:00",
-      "messages": [
-        {
-          "channel": "Jstockclass",
-          "text": "**한국 원전 EPC 주요 기업 투자 포인트 (JPM)\n**\n**1. 원전 산업 현황 및 공통 모멘텀\n**\n• **1분기 실적 및 수주 동향**: 1분기 원전 관련 수주는 전반적으로 저조했으나, 주요 기업들의 실적은 시장 예상치에 부합할 것으로 전망\n\n• **한미 원전 협력 기대감**: 한국 정부의 미국 내 원전 투자에 관한 세부 발표가 향후 강력한 주가 촉매제가 될 것으로 보이며, 지연되고 있는 양국 간 협상은 결국 긍정적으로 타결될 가능성이 높음\n\n• **APR1400의 경쟁력**: 미국 민간 발전 시장의 리스크 감당 능력 한계",
-          "date": "2026-04-06T09:00"
-        }
-      ]
-    },
-    "GOOGL": {
-      "ticker": "GOOGL",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 6,
-      "channels": [
-        "d_ticker",
-        "beluga_investment",
         "aetherjapanresearch",
-        "DOC_POOL"
-      ],
-      "latestDate": "2026-04-06T22:11:44+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "브로드컴, 구글, 앤트로픽, **2031년까지 장기 TPU 및 네트워킹 공급 계약**으로 협력 확대… 앤트로픽은 **2027년부터 3.5GW 규모의 TPU AI 용량**에 접근 예정 - SEC 공시\n**\n****https://x.com/firstsquawk/status/2041265788112539996?s=46**\n\n브로드컴: 구글과 앤트로픽이 협력을 확대하는 가운데, **배치를 위한 운영·재무 파트너들과 협의 중**… 앤트로픽은 **2027년부터 3.5GW 규모의 TPU AI 용량**에 접근 예정 - SEC 공시\n\n**https",
-          "date": "2026-04-06T22:11"
-        },
-        {
-          "channel": "beluga_investment",
-          "text": "**260406_AI Agent 구축, 계속해서 파괴적 혁신의 길로 나아가는 중 - Bloomberg Intelligence**\n\n(1) Claude Code, Cursor, Codex와 같은 AI Agent들이 Agent 기반 어플리케이션에서 초기 승자로 떠오르고 있음\n\n(2) 기업의 워크 플로우에서의 확산도 가속화되고 있으며, 이는 3월 OpenClaw 다운로드가 급증한 점에서 뚜렷히 드러남\n\n(3) Bloomberg의 Agent 구축 활동 지수는 전월 대비 +51% 상승했으며, 이는 개발 활동이 더욱 강화되고 있으며 기업용 S",
-          "date": "2026-04-06T07:59"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "**브로드컴, 구글 TPU 장기계약 체결...앤스로픽에 공급 ****$AVGO**\n\n([SEC 8-K](https://www.sec.gov/Archives/edgar/data/1730168/000119312526144028/d87999d8k.htm)) 브로드컴이 구글의 차세대 TPU를 개발하고 공급하는 '장기계약(LTA)'을 체결했다고 SEC 공시를 통해 밝혔다. 브로드컴은 구글의 차세대 AI 랙에 들어가는 네트워킹 부품 및 기타 컴포넌트를 2031년까지 공급하는 '공급보증계약(SAA)'도 맺었다. 해당 TPU 랙은 앤스로픽이 20",
-          "date": "2026-04-06T22:06"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "구글 TPU에 공급하는 커스텀 HBM은 SK하이닉스가 담당하고 있습니다. \n\n(26.02.13) 이날 회동에서 SK하이닉스는 구글 차세대 AI 모델 및 TPU 아키텍처 로드맵에 맞춘 Custom HBM 공동 설계, 향후 HBM 기반 TPU에 대한 협력 등 중장기 AI 칩 로드맵 전반으로 협력 범위를 확대하자는 제안을 전달했다.\n\nhttps://news.skhynix.co.kr/global-bigtech-ai-partnership-google/",
-          "date": "2026-04-06T22:09"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**브로드컴, 구글 TPU 장기계약 체결...앤스로픽에 공급 ****$AVGO**\n\n([SEC 8-K](https://www.sec.gov/Archives/edgar/data/1730168/000119312526144028/d87999d8k.htm)) 브로드컴이 구글의 차세대 TPU를 개발하고 공급하는 '장기계약(LTA)'을 체결했다고 SEC 공시를 통해 밝혔다. 브로드컴은 구글의 차세대 AI 랙에 들어가는 네트워킹 부품 및 기타 컴포넌트를 2031년까지 공급하는 '공급보증계약(SAA)'도 맺었다. 해당 TPU 랙은 앤스로픽이 20",
-          "date": "2026-04-06T22:04"
-        }
-      ]
-    },
-    "AVGO": {
-      "ticker": "AVGO",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 4,
-      "channels": [
+        "beluga_investment",
         "d_ticker",
-        "beluga_investment",
-        "aetherjapanresearch"
+        "Jstockclass"
       ],
-      "latestDate": "2026-04-06T22:11:44+00:00",
+      "latestDate": "2026-04-07T22:25:18+00:00",
       "messages": [
         {
-          "channel": "beluga_investment",
-          "text": "브로드컴, 구글, 앤트로픽, **2031년까지 장기 TPU 및 네트워킹 공급 계약**으로 협력 확대… 앤트로픽은 **2027년부터 3.5GW 규모의 TPU AI 용량**에 접근 예정 - SEC 공시\n**\n****https://x.com/firstsquawk/status/2041265788112539996?s=46**\n\n브로드컴: 구글과 앤트로픽이 협력을 확대하는 가운데, **배치를 위한 운영·재무 파트너들과 협의 중**… 앤트로픽은 **2027년부터 3.5GW 규모의 TPU AI 용량**에 접근 예정 - SEC 공시\n\n**https",
-          "date": "2026-04-06T22:11"
+          "channel": "Jstockclass",
+          "text": "**삼성전자 TP 285,000원으로 상향 (GS)**\n\n**1. 메모리 반도체 시장 전망\n**\n• **강력한 이익 창출력 지속**: 메모리 가격의 지속적인 강세와 높은 수준 유지에 힘입어 강력한 이익 동력이 지속될 전망\n\n• **유리한 계약 구조**: 고객사와의 장기 공급 계약 체결을 통해 이전 사이클 대비 더욱 유리한 조건으로 수익성 확보 기대  \n\n• **가격 추정치 상향**: 2026년부터 2028년까지의 범용 DRAM 및 NAND 가격 전망치를 대폭 상향 조정\n\n• **수익성 극대화**: 2026년 DRAM 영업이익률 81",
+          "date": "2026-04-07T22:25"
         },
         {
-          "channel": "aetherjapanresearch",
-          "text": "**브로드컴, 구글 TPU 장기계약 체결...앤스로픽에 공급 ****$AVGO**\n\n([SEC 8-K](https://www.sec.gov/Archives/edgar/data/1730168/000119312526144028/d87999d8k.htm)) 브로드컴이 구글의 차세대 TPU를 개발하고 공급하는 '장기계약(LTA)'을 체결했다고 SEC 공시를 통해 밝혔다. 브로드컴은 구글의 차세대 AI 랙에 들어가는 네트워킹 부품 및 기타 컴포넌트를 2031년까지 공급하는 '공급보증계약(SAA)'도 맺었다. 해당 TPU 랙은 앤스로픽이 20",
-          "date": "2026-04-06T22:06"
+          "channel": "Jstockclass",
+          "text": "**삼성전자: 향후 메모리 업사이클 지속 및 2027년 이익 가시성 전망 (JPM)\n**\n**1. 메모리 시장 및 가격 전망\n**\n• **단기 가격 추가 상승**: 1분기 어닝 서프라이즈 이후에도 2분기에 DRAM과 NAND 가격이 30% 이상 추가 상승할 것으로 예상\n\n• **공급 부족 심화**: 현재 조달 수요의 약 65%만 공급이 충족되는 낮은 자급률 상태가 지속되고 있음\n\n• **장기 업사이클 확신**: AI 및 토큰 수요 증가와 공급 제약이 맞물려 2028년 상반기까지 타이트한 수급 균형이 유지될 것으로 전망\n\n• **수익",
+          "date": "2026-04-07T22:25"
         },
         {
-          "channel": "aetherjapanresearch",
-          "text": "Citi) 미국 반도체 1Q26 실적 프리뷰 – 혼조세 수요; AMD 및 ADI에 상승 CW 추가\n\n씨티의 견해\n당사는 반도체 실적 시즌이 혼조세를 보일 것으로 예상하며, AI/범용 서버 수요를 바탕으로 데이터센터 반도체를 가장 선호하고, 그 다음으로는 낮은 재고 수준 및 억눌린 마진을 감안해 아날로그 반도체를 선호하며, 스마트폰 반도체에 대해서는 부품 BOM 비용 상승이 저가형 단말기 판매 성장에 부정적인 영향을 미치고 있어 신중한 입장을 유지한다. 당사의 최우선 매수 종목은 AVGO, NVDA, TXN, MPWR이다. 에이전틱 ",
-          "date": "2026-04-06T15:37"
+          "channel": "Jstockclass",
+          "text": "**테크 산업의 가치 투자 기회 (GS)\n**\n**1. 글로벌 시장 환경의 변화\n**\n• 2025년 초부터 이란 전쟁 시작 전까지 미국 증시는 타 지역 대비 부진하며 과거의 독주 체제 종료\n\n• 미국 달러 약세로 인해 글로벌 분산 투자의 수익 기회와 매력도 상승\n\n• 시장의 성과가 특정 국가나 섹터에 집중되지 않고 가치주 중심으로 넓게 확산되는 'Broadening out' 현상 발생\n\n**2. 테크 섹터의 역사적 저평가 구간 진입\n**\n• 테크 섹터는 1970년대 초반 이후 약 50년 만에 가장 저조한 상대적 수익률 기록중\n\n• ",
+          "date": "2026-04-07T11:27"
         },
         {
-          "channel": "d_ticker",
-          "text": "**브로드컴, 구글 TPU 장기계약 체결...앤스로픽에 공급 ****$AVGO**\n\n([SEC 8-K](https://www.sec.gov/Archives/edgar/data/1730168/000119312526144028/d87999d8k.htm)) 브로드컴이 구글의 차세대 TPU를 개발하고 공급하는 '장기계약(LTA)'을 체결했다고 SEC 공시를 통해 밝혔다. 브로드컴은 구글의 차세대 AI 랙에 들어가는 네트워킹 부품 및 기타 컴포넌트를 2031년까지 공급하는 '공급보증계약(SAA)'도 맺었다. 해당 TPU 랙은 앤스로픽이 20",
-          "date": "2026-04-06T22:04"
-        }
-      ]
-    },
-    "TIME코스닥": {
-      "ticker": "TIME코스닥",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "beluga_investment"
-      ],
-      "latestDate": "2026-04-06T07:59:41+00:00",
-      "messages": [
+          "channel": "Jstockclass",
+          "text": "**삼성전자 1Q 실적발표 (MS)**\n\n**1. 실적 하이라이트\n\n**• **매출액:** 133조 원 (전년 대비 68% 증가, 전 분기 대비 42% 증가)\n\n• **영업이익:** **57조 원** (시장 컨센서스인 43조 원을 대폭 상회)\n\n• **특이사항:** 메모리 가격 강세에 따른 '슈퍼 사이클' 급 실적 달성\n\n**2. 부문별 세부 분석**\n**\n**• **메모리 반도체:** 영업이익 약 **53조 원** 추정. 범용 DRAM과 NAND의 강력한 가격 상승이 실적 견인\n\n• **파운드리/LSI:** 적자 폭이 1조 원 미",
+          "date": "2026-04-07T01:00"
+        },
         {
           "channel": "beluga_investment",
-          "text": "**260406_AI Agent 구축, 계속해서 파괴적 혁신의 길로 나아가는 중 - Bloomberg Intelligence**\n\n(1) Claude Code, Cursor, Codex와 같은 AI Agent들이 Agent 기반 어플리케이션에서 초기 승자로 떠오르고 있음\n\n(2) 기업의 워크 플로우에서의 확산도 가속화되고 있으며, 이는 3월 OpenClaw 다운로드가 급증한 점에서 뚜렷히 드러남\n\n(3) Bloomberg의 Agent 구축 활동 지수는 전월 대비 +51% 상승했으며, 이는 개발 활동이 더욱 강화되고 있으며 기업용 S",
-          "date": "2026-04-06T07:59"
-        }
-      ]
-    },
-    "META": {
-      "ticker": "META",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "beluga_investment"
-      ],
-      "latestDate": "2026-04-06T07:59:41+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**260406_AI Agent 구축, 계속해서 파괴적 혁신의 길로 나아가는 중 - Bloomberg Intelligence**\n\n(1) Claude Code, Cursor, Codex와 같은 AI Agent들이 Agent 기반 어플리케이션에서 초기 승자로 떠오르고 있음\n\n(2) 기업의 워크 플로우에서의 확산도 가속화되고 있으며, 이는 3월 OpenClaw 다운로드가 급증한 점에서 뚜렷히 드러남\n\n(3) Bloomberg의 Agent 구축 활동 지수는 전월 대비 +51% 상승했으며, 이는 개발 활동이 더욱 강화되고 있으며 기업용 S",
-          "date": "2026-04-06T07:59"
-        }
-      ]
-    },
-    "MSFT": {
-      "ticker": "MSFT",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
-      "channels": [
-        "d_ticker",
-        "beluga_investment",
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-04-06T07:59:41+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**260406_AI Agent 구축, 계속해서 파괴적 혁신의 길로 나아가는 중 - Bloomberg Intelligence**\n\n(1) Claude Code, Cursor, Codex와 같은 AI Agent들이 Agent 기반 어플리케이션에서 초기 승자로 떠오르고 있음\n\n(2) 기업의 워크 플로우에서의 확산도 가속화되고 있으며, 이는 3월 OpenClaw 다운로드가 급증한 점에서 뚜렷히 드러남\n\n(3) Bloomberg의 Agent 구축 활동 지수는 전월 대비 +51% 상승했으며, 이는 개발 활동이 더욱 강화되고 있으며 기업용 S",
-          "date": "2026-04-06T07:59"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "BofA) 메모리 사이클/밸류에이션 상세\n\n글로벌 메모리 반도체 산업 및 개별 기업 밸류에이션에 대한 당사의 새로운 견해를 제시합니다.\n\n메모리 반도체 산업 트렌드\n**당사는 이번 \"슈퍼사이클\"이 2027~28년까지 지속될 것으로 결론짓습니다. **핵심 촉매제는 타이트한 반도체 공급 대비 AI 칩 수요의 가파른 상승입니다. 물론 설비투자(capex)는 강하게 증가하고 있지만, 실제 메모리 반도체 생산량은 2027~28년에도 크게 늘기 어렵습니다. 세 가지 이유가 있습니다. 첫째, HBM은 기존 DRAM 대비 3~4배 더 큰 용량을 ",
-          "date": "2026-04-06T01:00"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**LS일렉, 美 빅테크 데이터센터에 1천억원대 초고압 변압기 공급**\n\n([연합인포맥스](https://news.einfomax.co.kr/news/articleView.html?idxno=4407822)) LS일렉트릭은 자회사 LS파워솔루션이 미국 에너지 인프라 기업과 약 7천26만 달러 규모, 한화로 약 1천억원대의 초고압 변압기 공급 계약을 체결했다고 6일 밝혔다. LS파워솔루션은 미국 중부 지역 빅테크 데이터센터의 전력 공급용 마이크로그리드에 345kV급 초고압 변압기를 납품한다. 공급 기간은 2027년 4분기부터 2028",
-          "date": "2026-04-06T00:21"
-        }
-      ]
-    },
-    "BE": {
-      "ticker": "BE",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 5,
-      "channels": [
-        "d_ticker",
-        "beluga_investment",
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-04-06T21:35:34+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**260406_AI Agent 구축, 계속해서 파괴적 혁신의 길로 나아가는 중 - Bloomberg Intelligence**\n\n(1) Claude Code, Cursor, Codex와 같은 AI Agent들이 Agent 기반 어플리케이션에서 초기 승자로 떠오르고 있음\n\n(2) 기업의 워크 플로우에서의 확산도 가속화되고 있으며, 이는 3월 OpenClaw 다운로드가 급증한 점에서 뚜렷히 드러남\n\n(3) Bloomberg의 Agent 구축 활동 지수는 전월 대비 +51% 상승했으며, 이는 개발 활동이 더욱 강화되고 있으며 기업용 S",
-          "date": "2026-04-06T07:59"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건) 테슬라; 1Q26 인도량이 최근 컨센서스 대비 -7% 하회(과거 컨센서스 대비 -74% 하회)한 가운데 미판매 차량의 기록적 급증이 FCF 악화를 가중시킴에 따라 비중축소 의견 재확인. 목표가 $145\n\n*요약\nJP모건은 테슬라(TSLA)의 1Q26 인도량이 35만 8천 대에 그치며 최근 블룸버그 컨센서스(37만 2천 대) 대비 -4%, 당사 전망치(38만 5천 대) 대비 -7% 하회한 것을 확인한 후 추정치를 하향 조정하고 비중축소(Underweight) 의견을 재확인하였습니다. 특히 이번 인도량은 2022년 6월 9일",
-          "date": "2026-04-06T12:10"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "삼천당제약 긴급 기자회견 드가자~\n\nhttps://www.youtube.com/live/J71U4JwIVv0?si=Jc5gRz8mNc-ar9HJ",
-          "date": "2026-04-06T06:00"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**블랙록, 나스닥 100 ETF에 도전장 ****$BLK**\n\n([Bloomberg](https://www.bloomberg.com/news/articles/2026-04-06/blackrock-plans-challenger-to-invesco-s-374-billion-crown-jewel)) 세계 최대 자산운용사 블랙록이 나스닥 100 지수를 추종하는 '아이셰어즈 나스닥 100 ETF(IQQ)' 출시를 위해 SEC에 상장 신청서를 제출하며 시장 진출을 공식화했다. 1999년 출시된 'QQQ'를 필두로 약 27년간 미국 내 나스닥",
-          "date": "2026-04-06T21:35"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**매디슨에어, 기업가치 $13.2B에 IPO 진행**\n\n([Bloomberg](https://www.bloomberg.com/news/articles/2026-04-06/industrial-firm-madison-air-seeks-to-raise-2-23-billion-in-ipo)) 산업용 환기·여과 시스템 전문 기업 매디슨 에어가 뉴욕증권거래소(NYSE) 상장을 위해 최대 $2.23B를 조달하는 기업공개(IPO)를 진행한다. 이는 1999년 UPS 상장 이후 산업 섹터에서 가장 큰 규모다. 이번 IPO에서 주당 $25~$27 ",
-          "date": "2026-04-06T21:29"
-        }
-      ]
-    },
-    "APP": {
-      "ticker": "APP",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "beluga_investment"
-      ],
-      "latestDate": "2026-04-06T07:59:41+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**260406_AI Agent 구축, 계속해서 파괴적 혁신의 길로 나아가는 중 - Bloomberg Intelligence**\n\n(1) Claude Code, Cursor, Codex와 같은 AI Agent들이 Agent 기반 어플리케이션에서 초기 승자로 떠오르고 있음\n\n(2) 기업의 워크 플로우에서의 확산도 가속화되고 있으며, 이는 3월 OpenClaw 다운로드가 급증한 점에서 뚜렷히 드러남\n\n(3) Bloomberg의 Agent 구축 활동 지수는 전월 대비 +51% 상승했으며, 이는 개발 활동이 더욱 강화되고 있으며 기업용 S",
-          "date": "2026-04-06T07:59"
-        }
-      ]
-    },
-    "AMZN": {
-      "ticker": "AMZN",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "beluga_investment"
-      ],
-      "latestDate": "2026-04-06T07:59:41+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**260406_AI Agent 구축, 계속해서 파괴적 혁신의 길로 나아가는 중 - Bloomberg Intelligence**\n\n(1) Claude Code, Cursor, Codex와 같은 AI Agent들이 Agent 기반 어플리케이션에서 초기 승자로 떠오르고 있음\n\n(2) 기업의 워크 플로우에서의 확산도 가속화되고 있으며, 이는 3월 OpenClaw 다운로드가 급증한 점에서 뚜렷히 드러남\n\n(3) Bloomberg의 Agent 구축 활동 지수는 전월 대비 +51% 상승했으며, 이는 개발 활동이 더욱 강화되고 있으며 기업용 S",
-          "date": "2026-04-06T07:59"
-        }
-      ]
-    },
-    "AAPL": {
-      "ticker": "AAPL",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "beluga_investment",
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-04-06T15:37:37+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**260406_AI Agent 구축, 계속해서 파괴적 혁신의 길로 나아가는 중 - Bloomberg Intelligence**\n\n(1) Claude Code, Cursor, Codex와 같은 AI Agent들이 Agent 기반 어플리케이션에서 초기 승자로 떠오르고 있음\n\n(2) 기업의 워크 플로우에서의 확산도 가속화되고 있으며, 이는 3월 OpenClaw 다운로드가 급증한 점에서 뚜렷히 드러남\n\n(3) Bloomberg의 Agent 구축 활동 지수는 전월 대비 +51% 상승했으며, 이는 개발 활동이 더욱 강화되고 있으며 기업용 S",
-          "date": "2026-04-06T07:59"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "Citi) 미국 반도체 1Q26 실적 프리뷰 – 혼조세 수요; AMD 및 ADI에 상승 CW 추가\n\n씨티의 견해\n당사는 반도체 실적 시즌이 혼조세를 보일 것으로 예상하며, AI/범용 서버 수요를 바탕으로 데이터센터 반도체를 가장 선호하고, 그 다음으로는 낮은 재고 수준 및 억눌린 마진을 감안해 아날로그 반도체를 선호하며, 스마트폰 반도체에 대해서는 부품 BOM 비용 상승이 저가형 단말기 판매 성장에 부정적인 영향을 미치고 있어 신중한 입장을 유지한다. 당사의 최우선 매수 종목은 AVGO, NVDA, TXN, MPWR이다. 에이전틱 ",
-          "date": "2026-04-06T15:37"
+          "text": "2026.04.07 07:39:25\n기업명: 삼성전자(시가총액: 1,143조 821억) A005930\n보고서명: 연결재무제표기준영업(잠정)실적(공정공시)\n\n매출액 : 1,330,000억(예상치 : 1,183,049억+/ 12%)\n영업익 : 572,000억(예상치 : 384,977억/ +49%)\n순이익 : -(예상치 : 317,400억)\n\n**최근 실적 추이**\n2026.1Q 1,330,000억/ 572,000억/ -\n2025.4Q 938,374억/ 200,737억/ 196,417억\n2025.3Q 860,617억/ 121,661억/ ",
+          "date": "2026-04-06T22:40"
         }
       ]
     },
     "SK하이닉스": {
       "ticker": "SK하이닉스",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
+      "messageCount": 1,
       "channels": [
-        "beluga_investment",
-        "d_ticker"
+        "Jstockclass"
       ],
-      "latestDate": "2026-04-06T22:09:39+00:00",
+      "latestDate": "2026-04-07T11:27:26+00:00",
       "messages": [
         {
-          "channel": "beluga_investment",
-          "text": "**260406_1Q26(F) 삼성전자&SK하이닉스 영업이익 추정치 변화[vs. YTD]\n\n(1) 삼성전자: 21.25조 → 38.49조[YTD +81.1%] \n\n(2) SK하이닉스 17.33조 → 30.67조[YTD +77.0%]**",
-          "date": "2026-04-06T00:36"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "구글 TPU에 공급하는 커스텀 HBM은 SK하이닉스가 담당하고 있습니다. \n\n(26.02.13) 이날 회동에서 SK하이닉스는 구글 차세대 AI 모델 및 TPU 아키텍처 로드맵에 맞춘 Custom HBM 공동 설계, 향후 HBM 기반 TPU에 대한 협력 등 중장기 AI 칩 로드맵 전반으로 협력 범위를 확대하자는 제안을 전달했다.\n\nhttps://news.skhynix.co.kr/global-bigtech-ai-partnership-google/",
-          "date": "2026-04-06T22:09"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**삼성전자, P5용 EUV 20대 발주…“내년 첫 클린룸 준공”**\n\n([서울경제](https://www.sedaily.com/article/20028957)) 삼성전자가 10㎚(나노미터·10억 분의 1ｍ) 이하의 초미세공정을 위한 핵심 장비인 극자외선(EUV) 노광장비 약 20대를 네덜란드 반도체 장비 회사 ASML에 발주한 것으로 파악됐다. 심자외선(DUV) 장비까지 포함하면 노광장비의 발주 규모만 총 70여 대에 달한다. 삼성전자가 이번에 발주한 노광장비들은 내년 1분기로 예상되는 P5 내 1구역의 클린룸 구축 시점에 맞춰 ",
-          "date": "2026-04-06T09:07"
+          "channel": "Jstockclass",
+          "text": "**테크 산업의 가치 투자 기회 (GS)\n**\n**1. 글로벌 시장 환경의 변화\n**\n• 2025년 초부터 이란 전쟁 시작 전까지 미국 증시는 타 지역 대비 부진하며 과거의 독주 체제 종료\n\n• 미국 달러 약세로 인해 글로벌 분산 투자의 수익 기회와 매력도 상승\n\n• 시장의 성과가 특정 국가나 섹터에 집중되지 않고 가치주 중심으로 넓게 확산되는 'Broadening out' 현상 발생\n\n**2. 테크 섹터의 역사적 저평가 구간 진입\n**\n• 테크 섹터는 1970년대 초반 이후 약 50년 만에 가장 저조한 상대적 수익률 기록중\n\n• ",
+          "date": "2026-04-07T11:27"
         }
       ]
     },
-    "삼성전자": {
-      "ticker": "삼성전자",
+    "BE": {
+      "ticker": "BE",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 4,
-      "channels": [
-        "d_ticker",
-        "beluga_investment",
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-04-06T09:07:56+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**260406_1Q26(F) 삼성전자&SK하이닉스 영업이익 추정치 변화[vs. YTD]\n\n(1) 삼성전자: 21.25조 → 38.49조[YTD +81.1%] \n\n(2) SK하이닉스 17.33조 → 30.67조[YTD +77.0%]**",
-          "date": "2026-04-06T00:36"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "**삼성전자, P4 최종 라인까지 설비 발주**\n\n([지디넷코리아](https://n.news.naver.com/article/092/0002417569?type=journalists)) 6일 지디넷코리아 취재에 따르면 삼성전자는 최근 P4 내 ph2·ph4 2개 동에 대한 전공정 설비를 일괄 발주했다. P4는 총 4개의 ph로 나뉜다. 구축 순서는 1-3-4-2다. 가장 먼저 구축된 ph1은 이미 모든 투자가 완료됐다. ph3도 지난해 하반기부터 투자가 진행돼, 현재 대부분의 설비 셋업이 마무리된 상황이다. 올해에는 남은 ph4·",
-          "date": "2026-04-06T03:16"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**삼성전자, P5용 EUV 20대 발주…“내년 첫 클린룸 준공”**\n\n([서울경제](https://www.sedaily.com/article/20028957)) 삼성전자가 10㎚(나노미터·10억 분의 1ｍ) 이하의 초미세공정을 위한 핵심 장비인 극자외선(EUV) 노광장비 약 20대를 네덜란드 반도체 장비 회사 ASML에 발주한 것으로 파악됐다. 심자외선(DUV) 장비까지 포함하면 노광장비의 발주 규모만 총 70여 대에 달한다. 삼성전자가 이번에 발주한 노광장비들은 내년 1분기로 예상되는 P5 내 1구역의 클린룸 구축 시점에 맞춰 ",
-          "date": "2026-04-06T09:07"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**삼성전자, P4 최종 라인까지 설비 발주**\n\n([지디넷코리아](https://n.news.naver.com/article/092/0002417569?type=journalists)) 6일 지디넷코리아 취재에 따르면 삼성전자는 최근 P4 내 ph2·ph4 2개 동에 대한 전공정 설비를 일괄 발주했다. P4는 총 4개의 ph로 나뉜다. 구축 순서는 1-3-4-2다. 가장 먼저 구축된 ph1은 이미 모든 투자가 완료됐다. ph3도 지난해 하반기부터 투자가 진행돼, 현재 대부분의 설비 셋업이 마무리된 상황이다. 올해에는 남은 ph4·",
-          "date": "2026-04-06T03:10"
-        }
-      ]
-    },
-    "NVDA": {
-      "ticker": "NVDA",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-04-06T15:37:37+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "Citi) 미국 반도체 1Q26 실적 프리뷰 – 혼조세 수요; AMD 및 ADI에 상승 CW 추가\n\n씨티의 견해\n당사는 반도체 실적 시즌이 혼조세를 보일 것으로 예상하며, AI/범용 서버 수요를 바탕으로 데이터센터 반도체를 가장 선호하고, 그 다음으로는 낮은 재고 수준 및 억눌린 마진을 감안해 아날로그 반도체를 선호하며, 스마트폰 반도체에 대해서는 부품 BOM 비용 상승이 저가형 단말기 판매 성장에 부정적인 영향을 미치고 있어 신중한 입장을 유지한다. 당사의 최우선 매수 종목은 AVGO, NVDA, TXN, MPWR이다. 에이전틱 ",
-          "date": "2026-04-06T15:37"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "UBS) SemiBytes: NVDA 루빈 울트라 구성 변경, MLPerf v6.0, TER CPO 교육 세션\n\n잠재적인 루빈 울트라 구성 변경은 단위 경제성 측면에서 중립적; MLPerf v6.0은 NVDA의 시스템 수준 우위를 부각; TER의 CPO 기회를 재점검.\n\n루빈 울트라의 2다이 GPU 패키지 전환 - 실리콘/HBM 수요에 중립적\n지난 한 주 동안 루빈 울트라 구성과 관련한 투자자 문의가 다수 접수되었습니다. NVDA GTC 이후 UBS는 NVIDIA가 루빈 울트라를 당초 예상된 4다이 구성이 아닌 2다이 GPU CoW",
-          "date": "2026-04-06T05:48"
-        }
-      ]
-    },
-    "ADI": {
-      "ticker": "ADI",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
+      "messageCount": 11,
       "channels": [
         "aetherjapanresearch",
-        "d_ticker"
+        "beluga_investment",
+        "d_ticker",
+        "Jstockclass"
       ],
-      "latestDate": "2026-04-06T21:29:00+00:00",
+      "latestDate": "2026-04-07T22:09:49+00:00",
       "messages": [
         {
-          "channel": "aetherjapanresearch",
-          "text": "Citi) 미국 반도체 1Q26 실적 프리뷰 – 혼조세 수요; AMD 및 ADI에 상승 CW 추가\n\n씨티의 견해\n당사는 반도체 실적 시즌이 혼조세를 보일 것으로 예상하며, AI/범용 서버 수요를 바탕으로 데이터센터 반도체를 가장 선호하고, 그 다음으로는 낮은 재고 수준 및 억눌린 마진을 감안해 아날로그 반도체를 선호하며, 스마트폰 반도체에 대해서는 부품 BOM 비용 상승이 저가형 단말기 판매 성장에 부정적인 영향을 미치고 있어 신중한 입장을 유지한다. 당사의 최우선 매수 종목은 AVGO, NVDA, TXN, MPWR이다. 에이전틱 ",
-          "date": "2026-04-06T15:37"
+          "channel": "Jstockclass",
+          "text": "**삼성전자 1Q 실적발표 (MS)**\n\n**1. 실적 하이라이트\n\n**• **매출액:** 133조 원 (전년 대비 68% 증가, 전 분기 대비 42% 증가)\n\n• **영업이익:** **57조 원** (시장 컨센서스인 43조 원을 대폭 상회)\n\n• **특이사항:** 메모리 가격 강세에 따른 '슈퍼 사이클' 급 실적 달성\n\n**2. 부문별 세부 분석**\n**\n**• **메모리 반도체:** 영업이익 약 **53조 원** 추정. 범용 DRAM과 NAND의 강력한 가격 상승이 실적 견인\n\n• **파운드리/LSI:** 적자 폭이 1조 원 미",
+          "date": "2026-04-07T01:00"
         },
         {
-          "channel": "d_ticker",
-          "text": "**매디슨에어, 기업가치 $13.2B에 IPO 진행**\n\n([Bloomberg](https://www.bloomberg.com/news/articles/2026-04-06/industrial-firm-madison-air-seeks-to-raise-2-23-billion-in-ipo)) 산업용 환기·여과 시스템 전문 기업 매디슨 에어가 뉴욕증권거래소(NYSE) 상장을 위해 최대 $2.23B를 조달하는 기업공개(IPO)를 진행한다. 이는 1999년 UPS 상장 이후 산업 섹터에서 가장 큰 규모다. 이번 IPO에서 주당 $25~$27 ",
-          "date": "2026-04-06T21:29"
-        }
-      ]
-    },
-    "TSLA": {
-      "ticker": "TSLA",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-04-06T12:10:22+00:00",
-      "messages": [
+          "channel": "beluga_investment",
+          "text": "**오픈AI, '초지능 대비책' 제안...\"AI 세금제·주 4일 근무 도입 필요\"\n\nAI 기술이 경제와 노동시장을 근본적으로 바꿀 것으로 예상되는 가운데, 오픈AI가 ‘초지능(superintelligence)’ 시대를 대비한 종합 정책 청사진을 제시했다. \n\n**오픈AI는 6일(현지시간) ‘**지능 시대를 위한 산업정책(Industrial Policy for the Intelligence Age)**’ 보고서를 통해 **인간을 뛰어넘는 능력을 지닌 AI**, 이른바 ‘**초지능**’ 시대에 대비한 정책 제안을 발표했다.\n\n핵심 제안",
+          "date": "2026-04-07T10:33"
+        },
+        {
+          "channel": "beluga_investment",
+          "text": "**SENIOR IRANIAN SOURCE: TEHRAN HAS REJECTED ANY TEMPORARY CEASEFIRE WITH THE U.S\n\n이란 고위 소식통: 테헤란은 미국과의 어떠한 일시적 휴전도 거부했다.\n\n⸻\n\nSENIOR IRANIAN SOURCE: TEHRAN HAS SET PRECONDITIONS FOR TALKS WITH U.S. ON ‘A LASTING PEACE’\n\n이란 고위 소식통: 테헤란은 미국과의 ‘지속적인 평화’에 관한 협상을 위해 사전 조건을 제시했다.\n\n⸻\n\nSENIOR IRANIAN SOURCE",
+          "date": "2026-04-07T10:16"
+        },
         {
           "channel": "aetherjapanresearch",
-          "text": "JP모건) 테슬라; 1Q26 인도량이 최근 컨센서스 대비 -7% 하회(과거 컨센서스 대비 -74% 하회)한 가운데 미판매 차량의 기록적 급증이 FCF 악화를 가중시킴에 따라 비중축소 의견 재확인. 목표가 $145\n\n*요약\nJP모건은 테슬라(TSLA)의 1Q26 인도량이 35만 8천 대에 그치며 최근 블룸버그 컨센서스(37만 2천 대) 대비 -4%, 당사 전망치(38만 5천 대) 대비 -7% 하회한 것을 확인한 후 추정치를 하향 조정하고 비중축소(Underweight) 의견을 재확인하였습니다. 특히 이번 인도량은 2022년 6월 9일",
-          "date": "2026-04-06T12:10"
-        }
-      ]
-    },
-    "TSM": {
-      "ticker": "TSM",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-04-06T05:48:43+00:00",
-      "messages": [
+          "text": "**삼성전자, AI 이어 우주반도체 선점 나선다**\n\n([서울경제](https://n.news.naver.com/article/011/0004608085?type=journalists)) 앞서 삼성전자는 1일(현지시간) 미국에서 발사된 유인 달 탐사선인 ‘아르테미스 2호’에 동승한 ‘K-라드큐브’를 통해 극한의 방사능 띠로 불리는 ‘밴앨런대(Van Allen Belts)’에서 칩의 손상 여부를 파악하는 실증을 시작했다. 우주항공청은 아르테미스 2호와 함께 날아간 K-라드큐브는 정상 교신에 실패했다고 공지한 바 있다. 하지만 삼성전자",
+          "date": "2026-04-07T09:04"
+        },
         {
           "channel": "aetherjapanresearch",
-          "text": "UBS) SemiBytes: NVDA 루빈 울트라 구성 변경, MLPerf v6.0, TER CPO 교육 세션\n\n잠재적인 루빈 울트라 구성 변경은 단위 경제성 측면에서 중립적; MLPerf v6.0은 NVDA의 시스템 수준 우위를 부각; TER의 CPO 기회를 재점검.\n\n루빈 울트라의 2다이 GPU 패키지 전환 - 실리콘/HBM 수요에 중립적\n지난 한 주 동안 루빈 울트라 구성과 관련한 투자자 문의가 다수 접수되었습니다. NVDA GTC 이후 UBS는 NVIDIA가 루빈 울트라를 당초 예상된 4다이 구성이 아닌 2다이 GPU CoW",
-          "date": "2026-04-06T05:48"
-        }
-      ]
-    },
-    "GOOG": {
-      "ticker": "GOOG",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "d_ticker"
-      ],
-      "latestDate": "2026-04-06T22:09:39+00:00",
-      "messages": [
-        {
-          "channel": "d_ticker",
-          "text": "구글 TPU에 공급하는 커스텀 HBM은 SK하이닉스가 담당하고 있습니다. \n\n(26.02.13) 이날 회동에서 SK하이닉스는 구글 차세대 AI 모델 및 TPU 아키텍처 로드맵에 맞춘 Custom HBM 공동 설계, 향후 HBM 기반 TPU에 대한 협력 등 중장기 AI 칩 로드맵 전반으로 협력 범위를 확대하자는 제안을 전달했다.\n\nhttps://news.skhynix.co.kr/global-bigtech-ai-partnership-google/",
-          "date": "2026-04-06T22:09"
-        }
-      ]
-    },
-    "미래에셋": {
-      "ticker": "미래에셋",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "d_ticker"
-      ],
-      "latestDate": "2026-04-06T01:26:11+00:00",
-      "messages": [
-        {
-          "channel": "d_ticker",
-          "text": "**미래에셋, 스페이스X 국내 공모 추진…법률 검토 착수**\n\n([뉴스1](https://n.news.naver.com/mnews/article/421/0008871818)) 6일 금융투자업계에 따르면 미래에셋증권은 오는 6월 상장 예정인 스페이스X IPO에 참여해 국내 투자자를 대상으로 공모주를 공급하는 방안에 대한 법률 검토에 착수했다. 미래에셋증권은 조만간 스페이스X 공모를 위한 증권신고서를 금융감독원에 제출할 예정이다. 금감원이 승인할 경우 구체적인 IPO 방식을 결정해 국내 기관과 개인 투자자를 대상으로 참여 신청을 받을 ",
-          "date": "2026-04-06T01:26"
+          "text": "**삼성전자 1Q 실적발표 (MS)**\n\n**1. 실적 하이라이트\n\n**• **매출액:** 133조 원 (전년 대비 68% 증가, 전 분기 대비 42% 증가)\n\n• **영업이익:** **57조 원** (시장 컨센서스인 43조 원을 대폭 상회)\n\n• **특이사항:** 메모리 가격 강세에 따른 '슈퍼 사이클' 급 실적 달성\n\n**2. 부문별 세부 분석**\n**\n**• **메모리 반도체:** 영업이익 약 **53조 원** 추정. 범용 DRAM과 NAND의 강력한 가격 상승이 실적 견인\n\n• **파운드리/LSI:** 적자 폭이 1조 원 미",
+          "date": "2026-04-07T03:35"
         }
       ]
     },
@@ -435,19 +101,492 @@
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
-        "DOC_POOL"
+        "report_figure_by_offset"
       ],
-      "latestDate": "2026-04-06T22:07:37+00:00",
+      "latestDate": "2026-04-07T07:38:15+00:00",
       "messages": [
         {
-          "channel": "DOC_POOL",
-          "text": "**현대로템 (064350)**\n제목: 1Q26 프리뷰: 기대치 부합. 중요한 것은 신규수주 성과\n작성일: 2026.04.07\n작성자: 채운샘 (하나증권 리서치센터)\n투자의견: BUY (유지)\n목표주가: 283,000원 (유지)\n\n**[1분기 실적]**\n· 1분기 매출액은 1.4조원으로 전년 대비 23.0% 증가할 것으로 예상되며, 영업이익은 2,157억원으로 전년 대비 6.3% 증가할 것으로 전망합니다. 시장 컨센서스에 부합하는 실적입니다.\n· 디펜스솔루션 부문에서 폴란드 2차 계약 매출 인식이 본격화되며 수출 매출이 전년 대비 ",
-          "date": "2026-04-06T22:07"
+          "channel": "report_figure_by_offset",
+          "text": "국내 방산기업들의 로컬 콘텐츠 조건 충족을 위한 **유럽 현지 생산/조립** 및 **MRO 시설 투자** 계획\n\n • 한화에어로스페이스: **루마니아/폴란드/\n에스토니아** 현지 공장 및 JV 설립 계획\n\n • 현대로템: 폴란드 거점 마련해 **전차 현지 생산**할 예정",
+          "date": "2026-04-07T07:38"
+        }
+      ]
+    },
+    "한화에어로": {
+      "ticker": "한화에어로",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "report_figure_by_offset"
+      ],
+      "latestDate": "2026-04-07T07:38:15+00:00",
+      "messages": [
+        {
+          "channel": "report_figure_by_offset",
+          "text": "국내 방산기업들의 로컬 콘텐츠 조건 충족을 위한 **유럽 현지 생산/조립** 및 **MRO 시설 투자** 계획\n\n • 한화에어로스페이스: **루마니아/폴란드/\n에스토니아** 현지 공장 및 JV 설립 계획\n\n • 현대로템: 폴란드 거점 마련해 **전차 현지 생산**할 예정",
+          "date": "2026-04-07T07:38"
+        }
+      ]
+    },
+    "MSFT": {
+      "ticker": "MSFT",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 4,
+      "channels": [
+        "aetherjapanresearch",
+        "beluga_investment",
+        "d_ticker"
+      ],
+      "latestDate": "2026-04-07T22:06:25+00:00",
+      "messages": [
+        {
+          "channel": "beluga_investment",
+          "text": "**Project Glasswing: Securing critical software for the AI era\n\n**Project Glasswing은 Anthropic과 **AWS, Apple, Google, Microsoft, Cisco** 등 주요 기업들이 함께 시작한 **보안 협력 프로젝트**로, AI가 핵심 소프트웨어의 **취약점을 찾고 악용하는 능력**이 급격히 강해진 상황에 대응하기 위해 만들어졌습니다. Anthropic은 자사의 비공개 모델인 **Claude Mythos Preview**가 이미 **주요 운영체제, 웹",
+          "date": "2026-04-07T21:52"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "골드만삭스) 마이크로소프트: 3QFY 실적 프리뷰 및 SOTP를 활용한 M365 사업 분석, 목표가 $600\n\n마이크로소프트는 4월 29일 3QFY(3월) 실적을 발표할 예정입니다. 1월 28일 2Q EPS 발표 이후 주가는 -23% 하락했습니다(나스닥 -8% 대비). 주된 원인은 두 가지입니다: 1) 애저(Azure)의 상향 수정 없이 설비투자(capex)만 상향 수정되면서 ROI 및 애저의 경쟁적 포지셔닝에 대한 우려가 재부상한 것, 그리고 2) 마이크로소프트의 지식 근로자 애플리케이션 사업부(Office 365)가 Claude",
+          "date": "2026-04-07T12:27"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Keybanc) 아시아 투어(이어서)\n1. 파운드리 주요 내용\nIntel의 18A 수율은 Panther Lake의 램프업이 지속되면서 꾸준히 개선되고 있습니다. INTC의 18A 수율은 지속적인 개선세를 보이며 지난 분기 60%대 초반에서 약 65%까지 꾸준히 향상되었습니다. 이에 따라 PC ODM들은 2Q26에 걸쳐 Panther Lake CPU의 생산 출하량이 증가할 것으로 기대하고 있습니다. \nIFS는 M시리즈 프로세서를 위한 14A 공정에서 AAPL로부터 추가 설계 수주를 확보하였으며, A시리즈 AP 수주 가능성도 여전히 열",
+          "date": "2026-04-07T00:32"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**앤스로픽, 차세대 모델 '미토스' 보안 점검 돌입**\n\n([Bloomberg](https://www.bloomberg.com/news/articles/2026-04-07/anthropic-lets-apple-amazon-test-more-powerful-mythos-ai-model)) 앤스로픽이 차세대 AI 모델인 미토스(Mythos)를 공개하기 전, 보안 취약점 점검을 위해 애플, 아마존, 마이크로소프트, 시스코 및 주요 정부 기관과 '프로젝트 글래스윙'을 시작했다. 더 강력해진 AI 모델이 사이버 공격(소스 코드 해킹, 보안",
+          "date": "2026-04-07T22:06"
+        }
+      ]
+    },
+    "APP": {
+      "ticker": "APP",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 3,
+      "channels": [
+        "d_ticker",
+        "beluga_investment"
+      ],
+      "latestDate": "2026-04-07T22:06:25+00:00",
+      "messages": [
+        {
+          "channel": "beluga_investment",
+          "text": "**Project Glasswing: Securing critical software for the AI era\n\n**Project Glasswing은 Anthropic과 **AWS, Apple, Google, Microsoft, Cisco** 등 주요 기업들이 함께 시작한 **보안 협력 프로젝트**로, AI가 핵심 소프트웨어의 **취약점을 찾고 악용하는 능력**이 급격히 강해진 상황에 대응하기 위해 만들어졌습니다. Anthropic은 자사의 비공개 모델인 **Claude Mythos Preview**가 이미 **주요 운영체제, 웹",
+          "date": "2026-04-07T21:52"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**앤스로픽, 차세대 모델 '미토스' 보안 점검 돌입**\n\n([Bloomberg](https://www.bloomberg.com/news/articles/2026-04-07/anthropic-lets-apple-amazon-test-more-powerful-mythos-ai-model)) 앤스로픽이 차세대 AI 모델인 미토스(Mythos)를 공개하기 전, 보안 취약점 점검을 위해 애플, 아마존, 마이크로소프트, 시스코 및 주요 정부 기관과 '프로젝트 글래스윙'을 시작했다. 더 강력해진 AI 모델이 사이버 공격(소스 코드 해킹, 보안",
+          "date": "2026-04-07T22:06"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**애플, '폴더블 아이폰' 예정대로 9월에 공개 ****$AAPL**\n\n([Bloomberg](https://www.bloomberg.com/news/articles/2026-04-07/apple-s-foldable-iphone-remains-on-track-for-september-debut)) 애플의 첫 폴더블 아이폰이 제조 공정상의 지연 우려를 불식시키고 예정대로 올해 9월 아이폰 18 시리즈와 함께 공개될 전망이다. 그러나 폴더블 아이폰은 화면 주름과 내구성 문제가 발생한 것으로 전해졌다. 닛케이 아시아에 따르면 애플은 첫",
+          "date": "2026-04-07T22:02"
+        }
+      ]
+    },
+    "AAPL": {
+      "ticker": "AAPL",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 9,
+      "channels": [
+        "aetherjapanresearch",
+        "beluga_investment",
+        "d_ticker"
+      ],
+      "latestDate": "2026-04-07T22:09:49+00:00",
+      "messages": [
+        {
+          "channel": "beluga_investment",
+          "text": "**Project Glasswing: Securing critical software for the AI era\n\n**Project Glasswing은 Anthropic과 **AWS, Apple, Google, Microsoft, Cisco** 등 주요 기업들이 함께 시작한 **보안 협력 프로젝트**로, AI가 핵심 소프트웨어의 **취약점을 찾고 악용하는 능력**이 급격히 강해진 상황에 대응하기 위해 만들어졌습니다. Anthropic은 자사의 비공개 모델인 **Claude Mythos Preview**가 이미 **주요 운영체제, 웹",
+          "date": "2026-04-07T21:52"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) 삼성전자; 견조한 1Q26 실적, 2027년 이익 가시성이 다음 핵심 촉매. 목표가 30만원\n\n삼성은 최근 상향 조정된 컨센서스를 크게 상회하는 견조한 1Q 헤드라인 실적을 공시했습니다. 1Q의 높은 기저와 2026년 내내 메모리 가격 강세가 지속될 것이라는 당사의 전망을 감안할 때, 당사의 메모리 가격 전망치에는 상방 리스크가 존재하며 이는 EPS의 추가 상향 수정 가능성을 시사합니다. 메모리 실적 지속 가능성에 대한 논쟁은 이어질 것으로 보이며, 당사는 현재 주가가 성장통 단계(즉, 디레이팅과 멀티플 정상화 사이의 변",
+          "date": "2026-04-07T13:42"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) 브로드컴: GOOGL LTA/매출 약정 및 Anthropic 확장, 멀티 제너레이션 TPU 락인 부각; AAPL이 선례 제공 코멘트\n\n어젯밤 AVGO, GOOGL, Anthropic은 전략적 파트너십의 대폭적인 연장 및 심화를 발표했습니다. 구체적으로는 미래 세대 커스텀 TPU 개발 및 공급을 위한 장기 계약(LTA) 체결(Harlan Sur는 Google의 매출 약정도 포함된 것으로 판단)과 함께, 2031년까지 네트워킹 및 기타 부품을 포괄하는 공급 보증 계약(즉, 향후 4세대의 TPU에 해당)을 체결했습니다. 중요한",
+          "date": "2026-04-07T12:52"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "골드만삭스) 마이크로소프트: 3QFY 실적 프리뷰 및 SOTP를 활용한 M365 사업 분석, 목표가 $600\n\n마이크로소프트는 4월 29일 3QFY(3월) 실적을 발표할 예정입니다. 1월 28일 2Q EPS 발표 이후 주가는 -23% 하락했습니다(나스닥 -8% 대비). 주된 원인은 두 가지입니다: 1) 애저(Azure)의 상향 수정 없이 설비투자(capex)만 상향 수정되면서 ROI 및 애저의 경쟁적 포지셔닝에 대한 우려가 재부상한 것, 그리고 2) 마이크로소프트의 지식 근로자 애플리케이션 사업부(Office 365)가 Claude",
+          "date": "2026-04-07T12:27"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Keybanc) 아시아 투어(이어서)\n1. 파운드리 주요 내용\nIntel의 18A 수율은 Panther Lake의 램프업이 지속되면서 꾸준히 개선되고 있습니다. INTC의 18A 수율은 지속적인 개선세를 보이며 지난 분기 60%대 초반에서 약 65%까지 꾸준히 향상되었습니다. 이에 따라 PC ODM들은 2Q26에 걸쳐 Panther Lake CPU의 생산 출하량이 증가할 것으로 기대하고 있습니다. \nIFS는 M시리즈 프로세서를 위한 14A 공정에서 AAPL로부터 추가 설계 수주를 확보하였으며, A시리즈 AP 수주 가능성도 여전히 열",
+          "date": "2026-04-07T00:32"
+        }
+      ]
+    },
+    "GOOGL": {
+      "ticker": "GOOGL",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 3,
+      "channels": [
+        "aetherjapanresearch",
+        "beluga_investment"
+      ],
+      "latestDate": "2026-04-07T21:52:02+00:00",
+      "messages": [
+        {
+          "channel": "beluga_investment",
+          "text": "**Project Glasswing: Securing critical software for the AI era\n\n**Project Glasswing은 Anthropic과 **AWS, Apple, Google, Microsoft, Cisco** 등 주요 기업들이 함께 시작한 **보안 협력 프로젝트**로, AI가 핵심 소프트웨어의 **취약점을 찾고 악용하는 능력**이 급격히 강해진 상황에 대응하기 위해 만들어졌습니다. Anthropic은 자사의 비공개 모델인 **Claude Mythos Preview**가 이미 **주요 운영체제, 웹",
+          "date": "2026-04-07T21:52"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) 브로드컴: GOOGL LTA/매출 약정 및 Anthropic 확장, 멀티 제너레이션 TPU 락인 부각; AAPL이 선례 제공 코멘트\n\n어젯밤 AVGO, GOOGL, Anthropic은 전략적 파트너십의 대폭적인 연장 및 심화를 발표했습니다. 구체적으로는 미래 세대 커스텀 TPU 개발 및 공급을 위한 장기 계약(LTA) 체결(Harlan Sur는 Google의 매출 약정도 포함된 것으로 판단)과 함께, 2031년까지 네트워킹 및 기타 부품을 포괄하는 공급 보증 계약(즉, 향후 4세대의 TPU에 해당)을 체결했습니다. 중요한",
+          "date": "2026-04-07T12:52"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Keybanc) 아시아 투어(이어서)\n1. 파운드리 주요 내용\nIntel의 18A 수율은 Panther Lake의 램프업이 지속되면서 꾸준히 개선되고 있습니다. INTC의 18A 수율은 지속적인 개선세를 보이며 지난 분기 60%대 초반에서 약 65%까지 꾸준히 향상되었습니다. 이에 따라 PC ODM들은 2Q26에 걸쳐 Panther Lake CPU의 생산 출하량이 증가할 것으로 기대하고 있습니다. \nIFS는 M시리즈 프로세서를 위한 14A 공정에서 AAPL로부터 추가 설계 수주를 확보하였으며, A시리즈 AP 수주 가능성도 여전히 열",
+          "date": "2026-04-07T00:32"
+        }
+      ]
+    },
+    "GOOG": {
+      "ticker": "GOOG",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 3,
+      "channels": [
+        "aetherjapanresearch",
+        "beluga_investment"
+      ],
+      "latestDate": "2026-04-07T21:52:02+00:00",
+      "messages": [
+        {
+          "channel": "beluga_investment",
+          "text": "**Project Glasswing: Securing critical software for the AI era\n\n**Project Glasswing은 Anthropic과 **AWS, Apple, Google, Microsoft, Cisco** 등 주요 기업들이 함께 시작한 **보안 협력 프로젝트**로, AI가 핵심 소프트웨어의 **취약점을 찾고 악용하는 능력**이 급격히 강해진 상황에 대응하기 위해 만들어졌습니다. Anthropic은 자사의 비공개 모델인 **Claude Mythos Preview**가 이미 **주요 운영체제, 웹",
+          "date": "2026-04-07T21:52"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) 브로드컴: GOOGL LTA/매출 약정 및 Anthropic 확장, 멀티 제너레이션 TPU 락인 부각; AAPL이 선례 제공 코멘트\n\n어젯밤 AVGO, GOOGL, Anthropic은 전략적 파트너십의 대폭적인 연장 및 심화를 발표했습니다. 구체적으로는 미래 세대 커스텀 TPU 개발 및 공급을 위한 장기 계약(LTA) 체결(Harlan Sur는 Google의 매출 약정도 포함된 것으로 판단)과 함께, 2031년까지 네트워킹 및 기타 부품을 포괄하는 공급 보증 계약(즉, 향후 4세대의 TPU에 해당)을 체결했습니다. 중요한",
+          "date": "2026-04-07T12:52"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Keybanc) 아시아 투어(이어서)\n1. 파운드리 주요 내용\nIntel의 18A 수율은 Panther Lake의 램프업이 지속되면서 꾸준히 개선되고 있습니다. INTC의 18A 수율은 지속적인 개선세를 보이며 지난 분기 60%대 초반에서 약 65%까지 꾸준히 향상되었습니다. 이에 따라 PC ODM들은 2Q26에 걸쳐 Panther Lake CPU의 생산 출하량이 증가할 것으로 기대하고 있습니다. \nIFS는 M시리즈 프로세서를 위한 14A 공정에서 AAPL로부터 추가 설계 수주를 확보하였으며, A시리즈 AP 수주 가능성도 여전히 열",
+          "date": "2026-04-07T00:32"
+        }
+      ]
+    },
+    "TIME코스닥": {
+      "ticker": "TIME코스닥",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 2,
+      "channels": [
+        "aetherjapanresearch",
+        "beluga_investment"
+      ],
+      "latestDate": "2026-04-07T15:20:18+00:00",
+      "messages": [
+        {
+          "channel": "beluga_investment",
+          "text": "**오픈AI, '초지능 대비책' 제안...\"AI 세금제·주 4일 근무 도입 필요\"\n\nAI 기술이 경제와 노동시장을 근본적으로 바꿀 것으로 예상되는 가운데, 오픈AI가 ‘초지능(superintelligence)’ 시대를 대비한 종합 정책 청사진을 제시했다. \n\n**오픈AI는 6일(현지시간) ‘**지능 시대를 위한 산업정책(Industrial Policy for the Intelligence Age)**’ 보고서를 통해 **인간을 뛰어넘는 능력을 지닌 AI**, 이른바 ‘**초지능**’ 시대에 대비한 정책 제안을 발표했다.\n\n핵심 제안",
+          "date": "2026-04-07T10:33"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "미국과의 외교적·간접적 대화 채널은 닫히지 않았습니다. \nhttps://x.com/TehranTimes79/status/2041524237593170001?s=20\n\n테헤란타임즈라는 이란쪽 뉴스매체에서는 이런말도 있고 해서 뭐가 뭔지 잘 모르겠음...",
+          "date": "2026-04-07T15:20"
+        }
+      ]
+    },
+    "TEM": {
+      "ticker": "TEM",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 3,
+      "channels": [
+        "d_ticker",
+        "beluga_investment"
+      ],
+      "latestDate": "2026-04-07T22:02:15+00:00",
+      "messages": [
+        {
+          "channel": "beluga_investment",
+          "text": "**SENIOR IRANIAN SOURCE: TEHRAN HAS REJECTED ANY TEMPORARY CEASEFIRE WITH THE U.S\n\n이란 고위 소식통: 테헤란은 미국과의 어떠한 일시적 휴전도 거부했다.\n\n⸻\n\nSENIOR IRANIAN SOURCE: TEHRAN HAS SET PRECONDITIONS FOR TALKS WITH U.S. ON ‘A LASTING PEACE’\n\n이란 고위 소식통: 테헤란은 미국과의 ‘지속적인 평화’에 관한 협상을 위해 사전 조건을 제시했다.\n\n⸻\n\nSENIOR IRANIAN SOURCE",
+          "date": "2026-04-07T10:16"
+        },
+        {
+          "channel": "beluga_investment",
+          "text": "2026.04.07 07:39:25\n기업명: 삼성전자(시가총액: 1,143조 821억) A005930\n보고서명: 연결재무제표기준영업(잠정)실적(공정공시)\n\n매출액 : 1,330,000억(예상치 : 1,183,049억+/ 12%)\n영업익 : 572,000억(예상치 : 384,977억/ +49%)\n순이익 : -(예상치 : 317,400억)\n\n**최근 실적 추이**\n2026.1Q 1,330,000억/ 572,000억/ -\n2025.4Q 938,374억/ 200,737억/ 196,417억\n2025.3Q 860,617억/ 121,661억/ ",
+          "date": "2026-04-06T22:40"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**애플, '폴더블 아이폰' 예정대로 9월에 공개 ****$AAPL**\n\n([Bloomberg](https://www.bloomberg.com/news/articles/2026-04-07/apple-s-foldable-iphone-remains-on-track-for-september-debut)) 애플의 첫 폴더블 아이폰이 제조 공정상의 지연 우려를 불식시키고 예정대로 올해 9월 아이폰 18 시리즈와 함께 공개될 전망이다. 그러나 폴더블 아이폰은 화면 주름과 내구성 문제가 발생한 것으로 전해졌다. 닛케이 아시아에 따르면 애플은 첫",
+          "date": "2026-04-07T22:02"
+        }
+      ]
+    },
+    "AVGO": {
+      "ticker": "AVGO",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 3,
+      "channels": [
+        "aetherjapanresearch",
+        "d_ticker"
+      ],
+      "latestDate": "2026-04-07T12:52:59+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) 브로드컴: GOOGL LTA/매출 약정 및 Anthropic 확장, 멀티 제너레이션 TPU 락인 부각; AAPL이 선례 제공 코멘트\n\n어젯밤 AVGO, GOOGL, Anthropic은 전략적 파트너십의 대폭적인 연장 및 심화를 발표했습니다. 구체적으로는 미래 세대 커스텀 TPU 개발 및 공급을 위한 장기 계약(LTA) 체결(Harlan Sur는 Google의 매출 약정도 포함된 것으로 판단)과 함께, 2031년까지 네트워킹 및 기타 부품을 포괄하는 공급 보증 계약(즉, 향후 4세대의 TPU에 해당)을 체결했습니다. 중요한",
+          "date": "2026-04-07T12:52"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Keybanc) 아시아 투어 후기; 메모리는 점점 파괴적으로 변하고 있습니다.\n\n최근 아시아 출장을 마친 후, 당사는 여러 기업의 실적 추정치와 목표주가를 수정하였습니다. 가장 주목할 만한 사항은 메모리 공급 부족과 가격 급등이 최종 시장에 미치는 영향으로, PC 및 플래그십 스마트폰의 빌드가 추가적인 메모리 가격 인상에 앞서 앞당겨진 반면, 안드로이드 수요에는 부정적인 영향을 미치고 있다는 점입니다. 또한, AI가 비(非)AI 부문의 공급 상황을 점점 더 타이트하게 만들면서 아날로그 수주의 의미 있는 증가와 광범위한 가격 인상이 ",
+          "date": "2026-04-07T00:25"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**[단독] 삼성전기, 애플에 반도체 유리기판 샘플 공급**\n\n([디일렉](https://www.thelec.kr/news/articleView.html?idxno=54740)) 7일 디일렉 취재를 종합하면 삼성전기는 지난해부터 애플에 유리기판 샘플을 공급하고 있는 것으로 확인됐다. 샘플은 기존 플립칩-볼그리드어레이(FC-BGA)에서 유기 소재가 담당하던 코어를 유리로 대체한 기판 제품이다. 커스텀 인공지능(AI) 칩 설계사 브로드컴에 이어 최종 수요기업인 애플에도 유리기판 샘플을 공급하면서 신규 사업 외연을 빠르게 넓히고 있다는 ",
+          "date": "2026-04-07T08:39"
+        }
+      ]
+    },
+    "SMH": {
+      "ticker": "SMH",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 2,
+      "channels": [
+        "aetherjapanresearch",
+        "d_ticker"
+      ],
+      "latestDate": "2026-04-07T09:04:06+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "**삼성전자, AI 이어 우주반도체 선점 나선다**\n\n([서울경제](https://n.news.naver.com/article/011/0004608085?type=journalists)) 앞서 삼성전자는 1일(현지시간) 미국에서 발사된 유인 달 탐사선인 ‘아르테미스 2호’에 동승한 ‘K-라드큐브’를 통해 극한의 방사능 띠로 불리는 ‘밴앨런대(Van Allen Belts)’에서 칩의 손상 여부를 파악하는 실증을 시작했다. 우주항공청은 아르테미스 2호와 함께 날아간 K-라드큐브는 정상 교신에 실패했다고 공지한 바 있다. 하지만 삼성전자",
+          "date": "2026-04-07T09:04"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**삼성전자, AI 이어 우주반도체 선점 나선다**\n\n([서울경제](https://n.news.naver.com/article/011/0004608085?type=journalists)) 앞서 삼성전자는 1일(현지시간) 미국에서 발사된 유인 달 탐사선인 ‘아르테미스 2호’에 동승한 ‘K-라드큐브’를 통해 극한의 방사능 띠로 불리는 ‘밴앨런대(Van Allen Belts)’에서 칩의 손상 여부를 파악하는 실증을 시작했다. 우주항공청은 아르테미스 2호와 함께 날아간 K-라드큐브는 정상 교신에 실패했다고 공지한 바 있다. 하지만 삼성전자",
+          "date": "2026-04-07T08:50"
+        }
+      ]
+    },
+    "3690": {
+      "ticker": "3690",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-04-07T06:00:00+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "보고서에 따르면 해당 분석가는 호르무즈 해협에 도착한 뒤 현지 보트 선장에게 현금 다발을 건네주고 3시 간 뒤 스피드 보트를 탄 채 해협에 들어갈 수 있었다. 오만 국경을 넘을 때 촬영과 기록을 하지 않겠다는 서약을 했고, 해안경비대에 붙잡혀 구금돼 휴대전화를 압수당하기도 했지만 천신만고 끝에 뉴욕에 돌아와 보고서를 발간한 것으로 전해졌다.\n\n—> 지리네 ㅋㅋㅋㅋ\n\nhttps://www.donga.com/news/NewsStand/article/all/20260407/133690290/1",
+          "date": "2026-04-07T06:00"
+        }
+      ]
+    },
+    "TSLA": {
+      "ticker": "TSLA",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 2,
+      "channels": [
+        "aetherjapanresearch",
+        "d_ticker"
+      ],
+      "latestDate": "2026-04-07T21:38:38+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "제목 : 오픈AI, 머스크 ‘반경쟁 행위’ 조사 촉구                                                                                             *연합인포맥스*\nCNBC는 “오픈AI는 캘리포니아주 및 델라웨어주 법무장관에게 서한을 보내 테슬라(NAS:TSLA)의 일론 머스크 CEO와 그의 측근들의 ‘반경쟁적행위’에 대한 조사를 촉구했다”고 보도했다.   오픈AI의 제이슨 권 최고전략책임자(CSO)는 “머스크 CEO가 메타 플랫폼스(NAS:META)의 마크 저커",
+          "date": "2026-04-07T00:59"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**인텔, 머스크의 <테라팹> 참여 ****$INTC**\n\n([Reutres](https://www.reuters.com/business/autos-transportation/intel-join-musks-terafab-mega-ai-chip-project-2026-04-07/)) 인텔이 일론 머스크의 '테라팹(Terafab)' 프로젝트에 합류한다고 발표했다. 테라팹은 스페이스X 및 테슬라와 협력하여 로보틱스와 데이터센터를 구동할 프로세서를 제조하는 것을 목표로 한다. 인텔의 제조 역량은 AI와 로보틱스 발전을 위해 연간 1테라와트",
+          "date": "2026-04-07T21:38"
+        }
+      ]
+    },
+    "META": {
+      "ticker": "META",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 6,
+      "channels": [
+        "aetherjapanresearch",
+        "d_ticker"
+      ],
+      "latestDate": "2026-04-07T22:09:49+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "제목 : 오픈AI, 머스크 ‘반경쟁 행위’ 조사 촉구                                                                                             *연합인포맥스*\nCNBC는 “오픈AI는 캘리포니아주 및 델라웨어주 법무장관에게 서한을 보내 테슬라(NAS:TSLA)의 일론 머스크 CEO와 그의 측근들의 ‘반경쟁적행위’에 대한 조사를 촉구했다”고 보도했다.   오픈AI의 제이슨 권 최고전략책임자(CSO)는 “머스크 CEO가 메타 플랫폼스(NAS:META)의 마크 저커",
+          "date": "2026-04-07T00:59"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Keybanc) 아시아 투어(이어서)\n1. 파운드리 주요 내용\nIntel의 18A 수율은 Panther Lake의 램프업이 지속되면서 꾸준히 개선되고 있습니다. INTC의 18A 수율은 지속적인 개선세를 보이며 지난 분기 60%대 초반에서 약 65%까지 꾸준히 향상되었습니다. 이에 따라 PC ODM들은 2Q26에 걸쳐 Panther Lake CPU의 생산 출하량이 증가할 것으로 기대하고 있습니다. \nIFS는 M시리즈 프로세서를 위한 14A 공정에서 AAPL로부터 추가 설계 수주를 확보하였으며, A시리즈 AP 수주 가능성도 여전히 열",
+          "date": "2026-04-07T00:32"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Keybanc) 아시아 반도체 투어; 메모리 부문\n메모리 가격은 2Q26에도 q/q 기준 +30~50%의 큰 폭 인상이 예상되나, 수요 탄력성에 대한 우려로 메모리 생산업체들이 향후 가격 인상을 조정할 가능성이 있습니다. 공급망 파트너들은 DRAM/NAND 가격이 향후 수 분기에 걸쳐 계속해서 큰 폭으로 상승할 것으로 예상하고 있으나, 상승 폭은 다소 줄어들 것으로 보고 있습니다. DRAM/NAND 가격이 1Q26에 q/q 기준 약 100% 상승한 이후, 2Q26에도 q/q 기준 +30~50% 범위의 의미 있는 인상이 예상됩니다. ",
+          "date": "2026-04-07T00:32"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Keybanc) 아시아 투어 후기; 메모리는 점점 파괴적으로 변하고 있습니다.\n\n최근 아시아 출장을 마친 후, 당사는 여러 기업의 실적 추정치와 목표주가를 수정하였습니다. 가장 주목할 만한 사항은 메모리 공급 부족과 가격 급등이 최종 시장에 미치는 영향으로, PC 및 플래그십 스마트폰의 빌드가 추가적인 메모리 가격 인상에 앞서 앞당겨진 반면, 안드로이드 수요에는 부정적인 영향을 미치고 있다는 점입니다. 또한, AI가 비(非)AI 부문의 공급 상황을 점점 더 타이트하게 만들면서 아날로그 수주의 의미 있는 증가와 광범위한 가격 인상이 ",
+          "date": "2026-04-07T00:25"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**PIMCO, 오라클 데이터센터에 $14B 조달 논의 ****$ORCL**\n\n([Bloomberg](https://www.bloomberg.com/news/articles/2026-04-07/pimco-said-to-weigh-14-billion-debt-deal-for-oracle-data-center)) 세계 최대 채권 운용사 핌코는 뱅크오브아메리카와 협력해 미시간주 설린 타운십에 건설될 오라클 데이터센터를 위한 $14B 규모의 자금 조달을 논의 중이다. 이 데이터센터는 오픈AI의 애플리케이션 구동을 지원할 핵심 기지다. 이번",
+          "date": "2026-04-07T22:09"
+        }
+      ]
+    },
+    "TSM": {
+      "ticker": "TSM",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 2,
+      "channels": [
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-04-07T00:32:21+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Keybanc) 아시아 투어(이어서)\n1. 파운드리 주요 내용\nIntel의 18A 수율은 Panther Lake의 램프업이 지속되면서 꾸준히 개선되고 있습니다. INTC의 18A 수율은 지속적인 개선세를 보이며 지난 분기 60%대 초반에서 약 65%까지 꾸준히 향상되었습니다. 이에 따라 PC ODM들은 2Q26에 걸쳐 Panther Lake CPU의 생산 출하량이 증가할 것으로 기대하고 있습니다. \nIFS는 M시리즈 프로세서를 위한 14A 공정에서 AAPL로부터 추가 설계 수주를 확보하였으며, A시리즈 AP 수주 가능성도 여전히 열",
+          "date": "2026-04-07T00:32"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Keybanc) 아시아 투어 후기; 메모리는 점점 파괴적으로 변하고 있습니다.\n\n최근 아시아 출장을 마친 후, 당사는 여러 기업의 실적 추정치와 목표주가를 수정하였습니다. 가장 주목할 만한 사항은 메모리 공급 부족과 가격 급등이 최종 시장에 미치는 영향으로, PC 및 플래그십 스마트폰의 빌드가 추가적인 메모리 가격 인상에 앞서 앞당겨진 반면, 안드로이드 수요에는 부정적인 영향을 미치고 있다는 점입니다. 또한, AI가 비(非)AI 부문의 공급 상황을 점점 더 타이트하게 만들면서 아날로그 수주의 의미 있는 증가와 광범위한 가격 인상이 ",
+          "date": "2026-04-07T00:25"
+        }
+      ]
+    },
+    "NVDA": {
+      "ticker": "NVDA",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 5,
+      "channels": [
+        "aetherjapanresearch",
+        "d_ticker"
+      ],
+      "latestDate": "2026-04-07T21:51:00+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Keybanc) 아시아 투어(이어서)\n1. 파운드리 주요 내용\nIntel의 18A 수율은 Panther Lake의 램프업이 지속되면서 꾸준히 개선되고 있습니다. INTC의 18A 수율은 지속적인 개선세를 보이며 지난 분기 60%대 초반에서 약 65%까지 꾸준히 향상되었습니다. 이에 따라 PC ODM들은 2Q26에 걸쳐 Panther Lake CPU의 생산 출하량이 증가할 것으로 기대하고 있습니다. \nIFS는 M시리즈 프로세서를 위한 14A 공정에서 AAPL로부터 추가 설계 수주를 확보하였으며, A시리즈 AP 수주 가능성도 여전히 열",
+          "date": "2026-04-07T00:32"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Keybanc) 아시아 반도체 투어; 메모리 부문\n메모리 가격은 2Q26에도 q/q 기준 +30~50%의 큰 폭 인상이 예상되나, 수요 탄력성에 대한 우려로 메모리 생산업체들이 향후 가격 인상을 조정할 가능성이 있습니다. 공급망 파트너들은 DRAM/NAND 가격이 향후 수 분기에 걸쳐 계속해서 큰 폭으로 상승할 것으로 예상하고 있으나, 상승 폭은 다소 줄어들 것으로 보고 있습니다. DRAM/NAND 가격이 1Q26에 q/q 기준 약 100% 상승한 이후, 2Q26에도 q/q 기준 +30~50% 범위의 의미 있는 인상이 예상됩니다. ",
+          "date": "2026-04-07T00:32"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Keybnac) 아시아 투어(데이터센터 부분)\n2026년 NVDA가 확보한 CoWoS 공급은 65만 개로 변함없으며, 2027년 확보된 공급은 84만 개입니다. 2026년 NVDA의 CoWoS 공급은 65만 개(+76%) 인터포저로 변동이 없으며, 이는 Rubin의 소폭 지연에 따른 것으로 보이는 한편, NVDA는 2027년 CoWoS 공급으로 84만 개(+29%)를 확보하였습니다. 당사는 2026년 이 CoWoS 공급이 Blackwell GPU 550만~600만 개, Rubin 150만 개, Hopper GPU 100만 개를 뒷받",
+          "date": "2026-04-07T00:31"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Keybanc) 아시아 투어 후기; 메모리는 점점 파괴적으로 변하고 있습니다.\n\n최근 아시아 출장을 마친 후, 당사는 여러 기업의 실적 추정치와 목표주가를 수정하였습니다. 가장 주목할 만한 사항은 메모리 공급 부족과 가격 급등이 최종 시장에 미치는 영향으로, PC 및 플래그십 스마트폰의 빌드가 추가적인 메모리 가격 인상에 앞서 앞당겨진 반면, 안드로이드 수요에는 부정적인 영향을 미치고 있다는 점입니다. 또한, AI가 비(非)AI 부문의 공급 상황을 점점 더 타이트하게 만들면서 아날로그 수주의 의미 있는 증가와 광범위한 가격 인상이 ",
+          "date": "2026-04-07T00:25"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**메타, 사내 'AI 토큰' 경쟁 체계 도입 ****$META**\n\n([The Information](https://www.theinformation.com/articles/meta-employees-vie-ai-token-legend-status)) 메타는 8만 5,000명 이상의 직원을 대상으로 AI 토큰 소비량을 추적하는 '클로드노믹스'라는 내부 리더보드를 운영하고 있다. 토큰을 많이 소비한 상위 250명의 헤비 유저에게는 '토큰 레전드', '세션 임모탈', '모델 커너수어'와 같은 명예로운 직함과 배지를 부여한다. 최근 3",
+          "date": "2026-04-07T21:51"
+        }
+      ]
+    },
+    "ADI": {
+      "ticker": "ADI",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-04-07T00:25:18+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Keybanc) 아시아 투어 후기; 메모리는 점점 파괴적으로 변하고 있습니다.\n\n최근 아시아 출장을 마친 후, 당사는 여러 기업의 실적 추정치와 목표주가를 수정하였습니다. 가장 주목할 만한 사항은 메모리 공급 부족과 가격 급등이 최종 시장에 미치는 영향으로, PC 및 플래그십 스마트폰의 빌드가 추가적인 메모리 가격 인상에 앞서 앞당겨진 반면, 안드로이드 수요에는 부정적인 영향을 미치고 있다는 점입니다. 또한, AI가 비(非)AI 부문의 공급 상황을 점점 더 타이트하게 만들면서 아날로그 수주의 의미 있는 증가와 광범위한 가격 인상이 ",
+          "date": "2026-04-07T00:25"
+        }
+      ]
+    },
+    "ORCL": {
+      "ticker": "ORCL",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "d_ticker"
+      ],
+      "latestDate": "2026-04-07T22:09:49+00:00",
+      "messages": [
+        {
+          "channel": "d_ticker",
+          "text": "**PIMCO, 오라클 데이터센터에 $14B 조달 논의 ****$ORCL**\n\n([Bloomberg](https://www.bloomberg.com/news/articles/2026-04-07/pimco-said-to-weigh-14-billion-debt-deal-for-oracle-data-center)) 세계 최대 채권 운용사 핌코는 뱅크오브아메리카와 협력해 미시간주 설린 타운십에 건설될 오라클 데이터센터를 위한 $14B 규모의 자금 조달을 논의 중이다. 이 데이터센터는 오픈AI의 애플리케이션 구동을 지원할 핵심 기지다. 이번",
+          "date": "2026-04-07T22:09"
+        }
+      ]
+    },
+    "AMZN": {
+      "ticker": "AMZN",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 3,
+      "channels": [
+        "d_ticker"
+      ],
+      "latestDate": "2026-04-07T22:06:25+00:00",
+      "messages": [
+        {
+          "channel": "d_ticker",
+          "text": "**앤스로픽, 차세대 모델 '미토스' 보안 점검 돌입**\n\n([Bloomberg](https://www.bloomberg.com/news/articles/2026-04-07/anthropic-lets-apple-amazon-test-more-powerful-mythos-ai-model)) 앤스로픽이 차세대 AI 모델인 미토스(Mythos)를 공개하기 전, 보안 취약점 점검을 위해 애플, 아마존, 마이크로소프트, 시스코 및 주요 정부 기관과 '프로젝트 글래스윙'을 시작했다. 더 강력해진 AI 모델이 사이버 공격(소스 코드 해킹, 보안",
+          "date": "2026-04-07T22:06"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**아마존, 도매 업계 '가격인상' 요청 거절 ****$AMZN**\n\n([The Information](https://www.theinformation.com/articles/amazons-tough-stance-prices-prompts-brands-pull-products)) 아마존은 최근 관세 인상과 유가 상승 등으로 제조 원가가 오른 콜게이트, 아디다스 등 도매 업체들의 가격인상 요청을 거절하고 있다. 아마존의 알고리즘은 월마트나 타깃 등 다른 경쟁업체의 최저가에 실시간으로 맞추도록 설계되어 있다. 도매가가 오르면 아마존의 ",
+          "date": "2026-04-07T21:53"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**우버, 아마존 AI 가속기 도입 ****$UBER**\n\n([Official](https://www.aboutamazon.com/news/aws/aws-uber-ai-trainium-graviton)) 우버는 AWS의 자체 설계 칩인 그라비톤4(Graviton4)를 도입해 차량 호출 서비스를 ms 단위의 초저지연 수준으로 품질을 향상한다. 또 우버는 AWS의 차세대 AI 학습용 칩인 트레니엄3(Trainium3)를 활용해 AI 모델 학습 파일럿을 시작했다. 수십억 건의 주행 데이터를 분석해 도착 예정 시간(ETA)의 정확도를 높이",
+          "date": "2026-04-07T21:45"
+        }
+      ]
+    },
+    "삼성전기": {
+      "ticker": "삼성전기",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "d_ticker"
+      ],
+      "latestDate": "2026-04-07T08:39:30+00:00",
+      "messages": [
+        {
+          "channel": "d_ticker",
+          "text": "**[단독] 삼성전기, 애플에 반도체 유리기판 샘플 공급**\n\n([디일렉](https://www.thelec.kr/news/articleView.html?idxno=54740)) 7일 디일렉 취재를 종합하면 삼성전기는 지난해부터 애플에 유리기판 샘플을 공급하고 있는 것으로 확인됐다. 샘플은 기존 플립칩-볼그리드어레이(FC-BGA)에서 유기 소재가 담당하던 코어를 유리로 대체한 기판 제품이다. 커스텀 인공지능(AI) 칩 설계사 브로드컴에 이어 최종 수요기업인 애플에도 유리기판 샘플을 공급하면서 신규 사업 외연을 빠르게 넓히고 있다는 ",
+          "date": "2026-04-07T08:39"
         }
       ]
     }
   },
-  "totalMessages": 71,
+  "totalMessages": 72,
   "channels": [
     "Jstockclass",
     "report_figure_by_offset",
