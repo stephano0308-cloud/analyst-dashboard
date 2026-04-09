@@ -1,365 +1,198 @@
 {
-  "fetchedAt": "2026-04-08T22:33:36.629881",
+  "fetchedAt": "2026-04-09T22:35:02.539347",
   "status": "ok",
   "stocks": {
-    "NVDA": {
-      "ticker": "NVDA",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
-      "channels": [
-        "Jstockclass",
-        "aetherjapanresearch",
-        "d_ticker"
-      ],
-      "latestDate": "2026-04-08T08:33:36+00:00",
-      "messages": [
-        {
-          "channel": "Jstockclass",
-          "text": "**Cloud capex preview :** **반도체 벤더 매출 목표 달성을 위한 설비투자 확대 필요성 (Bofa)\n**\n**1. 반도체 벤더와 클라우드 기업 간의 성장 격차\n**\n• **벤더들의 높은 기대치**: 엔비디아, 브로드컴, AMD 등 주요 AI 반도체 벤더들의 2027년 합산 데이터센터 매출은 전년 대비 약 1,800억~2,000억 달러(50% 이상) 증가할 것으로 예상\n\n• **현재의 투자 전망**: 반면, 현재 시장 컨센서스가 예상하는 하이퍼스케일 클라우드 기업들의 2027년 Capex 증가분은 약 1,200억 ",
-          "date": "2026-04-08T08:33"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "삼성전자가 차세대 AI 서버 메모리 모듈인 SOCAMM2의 양산 핵심 과제였던 뒤틀림(warpage) 문제를 자체 개발한 저온 솔더(LTS) 기술을 통해 해결한 것으로 알려졌습니다. 솔더링 온도를 260°C 이상에서 150°C 이하로 낮춰 소재 간 열팽창계수 불일치를 최소화하였으며, 다이 구조를 이중 타워에서 단일 타워로 전환하고 에폭시 몰딩 컴파운드의 특성을 최적화하는 등 설계 개선도 병행하였습니다. 이를 통해 삼성전자는 NVIDIA의 차세대 AI 플랫폼 Vera Rubin에 탑재될 SOCAMM2의 개발 및 양산 일정에서 경쟁사 ",
-          "date": "2026-04-08T08:18"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "루멘텀 투자자라면 꼭 읽어봐야 할 리포트가 나왔네요\n\n스케일아웃(랙 간 연결) 광회로스위치(OCS)\n↓\n스케일아웃 광공통패키지(CPO) 스위치\n↓\n스케일업(칩 간 연결) OCS·CPO\n\n이 과정으로 루멘텀의 TAM(시장 기회)가 확장돼 왔습니다. 엔비디아 차세대 GPU인 파인만 상용화 국면에서는 스케일업 CPO TAM이 스케일아웃 CPO 대비 3~16배의 크다고 합니다. 구글 역시 OCS의 선두주자로서 스케일업 OCS 채택 시 스케일아웃 OCS보다 3~9배 TAM이 큰 것으로 추정됐습니다. 최대 우려 요인인 레이저 소재 InP 공급",
-          "date": "2026-04-08T01:05"
-        }
-      ]
-    },
-    "AAPL": {
-      "ticker": "AAPL",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "Jstockclass",
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-04-08T10:01:18+00:00",
-      "messages": [
-        {
-          "channel": "Jstockclass",
-          "text": "**Cloud capex preview :** **반도체 벤더 매출 목표 달성을 위한 설비투자 확대 필요성 (Bofa)\n**\n**1. 반도체 벤더와 클라우드 기업 간의 성장 격차\n**\n• **벤더들의 높은 기대치**: 엔비디아, 브로드컴, AMD 등 주요 AI 반도체 벤더들의 2027년 합산 데이터센터 매출은 전년 대비 약 1,800억~2,000억 달러(50% 이상) 증가할 것으로 예상\n\n• **현재의 투자 전망**: 반면, 현재 시장 컨센서스가 예상하는 하이퍼스케일 클라우드 기업들의 2027년 Capex 증가분은 약 1,200억 ",
-          "date": "2026-04-08T08:33"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "애플, 맥북 네오로 인해 '엄청난 딜레마'에 직면\n\n맥북 네오는 애플 역사상 가장 저렴한 맥북으로, 출시 이후 폭발적인 인기를 끌며 팀 쿡이 \"맥 역사상 첫 구매 고객 기준 최고의 출시 첫 주\"라고 언급할 만큼 큰 성공을 거두고 있습니다. 그러나 바로 이 인기가 애플에게 심각한 딜레마를 안겨주고 있습니다.\n\n맥북 네오에는 아이폰 16 Pro용 A18 Pro 칩 제조 과정에서 GPU 코어 불량이 발생해 폐기 예정이었던 5코어 GPU 버전의 칩, 즉 이른바 '빈닝' 칩이 탑재됩니다. 이 칩은 어차피 버려질 것이었기 때문에 애플 입장에서",
-          "date": "2026-04-08T10:01"
-        }
-      ]
-    },
-    "AVGO": {
-      "ticker": "AVGO",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "Jstockclass",
-        "beluga_investment"
-      ],
-      "latestDate": "2026-04-08T08:33:36+00:00",
-      "messages": [
-        {
-          "channel": "Jstockclass",
-          "text": "**Cloud capex preview :** **반도체 벤더 매출 목표 달성을 위한 설비투자 확대 필요성 (Bofa)\n**\n**1. 반도체 벤더와 클라우드 기업 간의 성장 격차\n**\n• **벤더들의 높은 기대치**: 엔비디아, 브로드컴, AMD 등 주요 AI 반도체 벤더들의 2027년 합산 데이터센터 매출은 전년 대비 약 1,800억~2,000억 달러(50% 이상) 증가할 것으로 예상\n\n• **현재의 투자 전망**: 반면, 현재 시장 컨센서스가 예상하는 하이퍼스케일 클라우드 기업들의 2027년 Capex 증가분은 약 1,200억 ",
-          "date": "2026-04-08T08:33"
-        },
-        {
-          "channel": "beluga_investment",
-          "text": "**260408_Broadcom: Partnerships with Google and Anthropic reinforces Broadcom’s technology advantage in custom silicon and AI networking - Goldman Sachs**\n\n**(1) 전일 Broadcom은 8-K 공시를 통해 Google과 장기 계약[LTA, Long Term Agreement]를 체결했다고 발표 **\n\n(2) 해당 계약에 따라 Broadcom은 Google의 차세대 TPU 제품을 개발 및 공급할 예정 \n\n**",
-          "date": "2026-04-08T03:50"
-        }
-      ]
-    },
-    "TSM": {
-      "ticker": "TSM",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "Jstockclass",
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-04-08T10:01:18+00:00",
-      "messages": [
-        {
-          "channel": "Jstockclass",
-          "text": "**TSMC: 강력한 AI 수요 기반 다개년 성장 및 수익성 강화 전망, TP 상향 (GS)**\n\n**1. 목표주가 상향 조정\n**\n• 목표주가 NT$2,600 → NT$2,750으로 상향\n\n**2. 강력한 AI 수요 및 매출 성장\n**\n• **AI 기반 성장 가속화**: 스마트폰 및 소비자 가전의 단기적 수요 약세를 AI 가속기 및 AI 서버 CPU 수요가 상쇄  \n\n• **매출 성장 전망**: 2026년부터 2028년까지 달러 기준 매출이 매년 35%, 30%, 29%씩 견조하게 성장할 것으로 예상  \n\n• **공급 부족 지속*",
-          "date": "2026-04-08T08:15"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "애플, 맥북 네오로 인해 '엄청난 딜레마'에 직면\n\n맥북 네오는 애플 역사상 가장 저렴한 맥북으로, 출시 이후 폭발적인 인기를 끌며 팀 쿡이 \"맥 역사상 첫 구매 고객 기준 최고의 출시 첫 주\"라고 언급할 만큼 큰 성공을 거두고 있습니다. 그러나 바로 이 인기가 애플에게 심각한 딜레마를 안겨주고 있습니다.\n\n맥북 네오에는 아이폰 16 Pro용 A18 Pro 칩 제조 과정에서 GPU 코어 불량이 발생해 폐기 예정이었던 5코어 GPU 버전의 칩, 즉 이른바 '빈닝' 칩이 탑재됩니다. 이 칩은 어차피 버려질 것이었기 때문에 애플 입장에서",
-          "date": "2026-04-08T10:01"
-        }
-      ]
-    },
-    "삼성전자": {
-      "ticker": "삼성전자",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 4,
-      "channels": [
-        "Jstockclass",
-        "aetherjapanresearch",
-        "d_ticker"
-      ],
-      "latestDate": "2026-04-08T13:16:52+00:00",
-      "messages": [
-        {
-          "channel": "Jstockclass",
-          "text": "**삼성전자 **\n\n**1. 메모리 반도체 가격 상승세 지속**\n\n• 2분기 모바일 및 서버향 ASP 상승 흐름 견조할 것으로 전망\n\n• 대형 고객사들의 무차별적 가격 수용 속 연쇄적 가격 상승 나타날 것으로 기대\n\n• LTA 체결 확대로 메모리 마진 하방 경직성 확보 및 실적 변동성 축소\n\n**2. HBM4 및 차세대 제품 경쟁력**\n\n• HBM4 본격 출하 시작 및 북미 주요 거래선향 공급 확대 가시화\n\n• AI 인프라 투자 지속에 따른 고부가 메모리 비중 확대로 수익성 극대화\n\n• 경쟁사 대비 압도적인 HBM4 성능 증명 및 ",
-          "date": "2026-04-07T23:34"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "삼성전자가 차세대 AI 서버 메모리 모듈인 SOCAMM2의 양산 핵심 과제였던 뒤틀림(warpage) 문제를 자체 개발한 저온 솔더(LTS) 기술을 통해 해결한 것으로 알려졌습니다. 솔더링 온도를 260°C 이상에서 150°C 이하로 낮춰 소재 간 열팽창계수 불일치를 최소화하였으며, 다이 구조를 이중 타워에서 단일 타워로 전환하고 에폭시 몰딩 컴파운드의 특성을 최적화하는 등 설계 개선도 병행하였습니다. 이를 통해 삼성전자는 NVIDIA의 차세대 AI 플랫폼 Vera Rubin에 탑재될 SOCAMM2의 개발 및 양산 일정에서 경쟁사 ",
-          "date": "2026-04-08T08:18"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**홍라희 3兆 삼성전자 지분, 마지막 블록딜**\n\n([인베스트조선](https://www.investchosun.com/m/article.html?contid=2026040880196)) 홍라희 삼성미술관 리움 명예관장이 상속세 납부 재원 마련을 위해 약 3조1000억원 규모의 삼성전자 지분 매각에 나선다. 8일 투자은행(IB)업계에 따르면 홍 명예관장은 이날 장 종료 후 삼성전자 주식 1500만주(지분율 약 0.25%)를 시간외대량매매(블록딜) 방식으로 매각하기로 했다. 기관투자가를 대상으로 수요예측이 진행 중이며, 구체적인 할",
-          "date": "2026-04-08T13:16"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**삼성전기, '그록3 LPU'용 FC-BGA 공급**\n\n([지디넷코리아](https://zdnet.co.kr/view/?no=20260408085211)) 8일 지디넷코리아 취재에 따르면 삼성전기는 최근 그록3 LPU용 플립칩-볼그레이드어레이(FC-BGA) 양산 준비에 돌입했다. 삼성전기는 그록3 LPU용 FC-BGA의 '퍼스트 벤더(공급량 1위 업체)' 지위를 확보했고, 올 2분기부터 본격 양산할 것으로 관측된다. \n\nLPU 등 다양한 프로세서 제품이 등장함에 따라 기판 업체의 Q 사이클이 본격 시작되는 느낌입니다",
-          "date": "2026-04-08T02:14"
-        }
-      ]
-    },
     "BE": {
       "ticker": "BE",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 6,
+      "messageCount": 5,
       "channels": [
-        "aetherjapanresearch",
+        "Jstockclass",
+        "d_ticker",
         "DOC_POOL",
-        "beluga_investment"
+        "aetherjapanresearch"
       ],
-      "latestDate": "2026-04-08T22:29:54+00:00",
+      "latestDate": "2026-04-09T22:14:15+00:00",
       "messages": [
         {
-          "channel": "beluga_investment",
-          "text": "**Applied Intuition: How Applied Intuition Reached $15B\n\n회사 철학 및 운영:** **Applied Intuition**은 **10억 달러 이상의 투자를 유치**했음에도 불구하고, **자본을 효율적으로 사용하면서 수익을 창출하는 방식**으로 운영되고 있습니다. **Qasar Younis**는 많은 베이 지역 기업들이 취미 프로젝트처럼 운영되는 반면, **Applied Intuition은 실질적이고 진지한 사업 모델**을 구축했다고 강조합니다.\n\n**사업 영역 및 성장:** 이들은 **자동",
-          "date": "2026-04-08T11:49"
+          "channel": "Jstockclass",
+          "text": "**올해 계획된 미국 데이터센터의 거의 절반이 지연 또는 취소 (Source: Bloomberg)**\n\n**- 주요 원인 중 하나는 전력 장비 부족: 변압기, 스위치기어, 배터리.** 이러한 장비는 AI 전력을 공급하는 데 필요할 뿐만 아니라, 전기차 및 히트펌프 확산으로 전력 소비가 증가하는 상황에서 전력망을 확장하는 데도 필수적. 미국 내 생산 능력은 이러한 수요를 따라가지 못하고 있으며, 공급 부족으로 인해 데이터센터 개발업체들은 수입에 의존.\n\n**- 미국의 AI는 해외 수입에 의존:** 2021년 수입 증가 급증은 AI 기",
+          "date": "2026-04-09T22:14"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "휴전 발표 이후 호르무즈 해협에서 선박 운항 재개\n\n휴전 발표에 따라 호르무즈 해협에서 선박 활동의 초기 징후가 나타나고 있으며, 이번 휴전에는 협상을 위한 전략적 수로의 임시 재개방이 포함되어 있습니다. MarineTraffic 데이터에 따르면, 유조선 426척, LPG 운반선 34척, LNG 선박 19척을 포함한 수백 척의 선박이 이 지역에 남아 있으며, 이 중 다수는 혼란 기간 동안 사실상 발이 묶여 있었습니다.\n\n현재 초기 운항이 기록되고 있습니다. 그리스 선적의 벌크선 NJ Earth가 UTC 기준 08시 44분에 해협을 ",
-          "date": "2026-04-08T09:43"
+          "text": "오픈AI와 앤트로픽이 각각 고급 사이버보안 역량을 갖춘 AI 모델을 소수의 파트너에게만 제한적으로 공개하는 방식을 채택하고 있습니다. 앤트로픽은 선별된 기술·사이버보안 기업들을 대상으로 신규 모델 '마이토스(Mythos)' 프리뷰의 접근을 제한하겠다고 발표한 바 있으며, 오픈AI 역시 가장 사이버 역량이 뛰어난 추론 모델인 GPT-5.3-Codex 출시 이후 초대 전용 \"사이버 신뢰 접근(Trusted Access for Cyber)\" 파일럿 프로그램을 도입하고 참여 기관에 1,000만 달러 상당의 API 크레딧을 지원했습니다.\n\n",
+          "date": "2026-04-09T15:43"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "J.P. 모건) 앤트로픽, 보안 업계를 함께 이끌다; 프로젝트 글래스윙, 보안 부문에 긍정적 신호\n\n앤트로픽이 오늘 발표한 프로젝트 글래스윙(Project Glasswing)은 AI 생태계에서 보안의 역할에 관한 담론에 있어 중대한 변화를 의미하며, AI가 당사 커버리지 전반에 걸쳐 수요 촉진 요인으로 작용한다는 당사의 견해를 뒷받침합니다. 이번 발표를 통해 공개된 Claude Mythos Preview는 아직 정식 출시되지 않은 최전선 모델로, 운영체제와 웹 브라우저 전반에 걸쳐 수천 건의 제로데이 취약점을 자율적으로 발견하였습니",
-          "date": "2026-04-08T08:06"
+          "text": "**올해 계획된 미국 데이터센터의 거의 절반이 지연 또는 취소 (Source: Bloomberg)**\n\n**- 주요 원인 중 하나는 전력 장비 부족: 변압기, 스위치기어, 배터리.** 이러한 장비는 AI 전력을 공급하는 데 필요할 뿐만 아니라, 전기차 및 히트펌프 확산으로 전력 소비가 증가하는 상황에서 전력망을 확장하는 데도 필수적. 미국 내 생산 능력은 이러한 수요를 따라가지 못하고 있으며, 공급 부족으로 인해 데이터센터 개발업체들은 수입에 의존.\n\n**- 미국의 AI는 해외 수입에 의존:** 2021년 수입 증가 급증은 AI 기",
+          "date": "2026-04-09T14:54"
         },
         {
-          "channel": "aetherjapanresearch",
-          "text": "미드스트림 부문 시사점 — 미국 미드스트림 분야에서, WMB는 단순 사이클 가스 터빈을 활용하여 데이터센터에 신속하게 전력을 공급하는 방식으로 데이터센터 전력 사업을 확장하고 있습니다. WMB는 총 약 2GW 용량의 배후 미터(behind-the-meter) 프로젝트에 70억 달러 이상을 승인하였습니다. 지금까지의 프로젝트 수익률은 약 10년 계약 기간에 걸쳐 5배(capex/EBITDA) 수준이며, 동사는 계약 기간 연장을 적극적으로 추진하고 있습니다. 승인된 수주잔고 이외에도, WMB는 추가 6GW의 배후 미터 프로젝트를 위한 ",
-          "date": "2026-04-08T06:25"
+          "channel": "d_ticker",
+          "text": "**올해 계획된 미국 데이터센터의 거의 절반이 지연 또는 취소 (Source: Bloomberg)**\n\n**- 주요 원인 중 하나는 전력 장비 부족: 변압기, 스위치기어, 배터리.** 이러한 장비는 AI 전력을 공급하는 데 필요할 뿐만 아니라, 전기차 및 히트펌프 확산으로 전력 소비가 증가하는 상황에서 전력망을 확장하는 데도 필수적. 미국 내 생산 능력은 이러한 수요를 따라가지 못하고 있으며, 공급 부족으로 인해 데이터센터 개발업체들은 수입에 의존.\n\n**- 미국의 AI는 해외 수입에 의존:** 2021년 수입 증가 급증은 AI 기",
+          "date": "2026-04-09T14:39"
         },
         {
-          "channel": "aetherjapanresearch",
-          "text": "기계 부문 시사점 — 이번 콜을 통해 당사는 CAT 및 CMI의 발전 사업에 대한 장기 수요 전망에 대해 보다 확신을 갖게 되었습니다. 향후 수년간 데이터센터 믹스가 학습에서 추론 쪽으로 더욱 이동할 것이라는 이건 씨의 언급이 특히 주목할 만하며, 이는 요구되는 예비 전력(standby power) MW 규모가 더 커지는 것을 지지할 것으로 판단합니다. 이건 씨는 시간이 지남에 따라 백업용 천연가스 사용이 증가할 것으로 예상하지만, 대규모로 안전하게 보관하기 용이한 디젤의 특성상 디젤 백업이 사라지는 일은 전혀 없을 것이라고 언급하",
-          "date": "2026-04-08T06:25"
+          "channel": "DOC_POOL",
+          "text": "**Alteogen/바이오/투자 발표**\n제목: Alteogen Investor Presentation\n작성일: 2026.04.09.\n작성자: (정보 없음)\n\n**핵심 요약**\n\n**플랫폼 기술 발전**\n· Alteogen은 2008년 Long-Acting Biobetter 플랫폼인 NexP™를 시작으로, 2012년 ADC 플랫폼 NexMab™, 2018년 Hybrozyme™, 그리고 2025년 Ultra-Long-Acting Biobetter 플랫폼을 선보이며 기술 혁신을 지속하고 있습니다.\n\n**신규 히알루로니다제 개발**\n· ",
+          "date": "2026-04-09T10:08"
         }
       ]
     },
-    "APP": {
-      "ticker": "APP",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "aetherjapanresearch",
-        "beluga_investment"
-      ],
-      "latestDate": "2026-04-08T14:56:15+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**Applied Intuition: How Applied Intuition Reached $15B\n\n회사 철학 및 운영:** **Applied Intuition**은 **10억 달러 이상의 투자를 유치**했음에도 불구하고, **자본을 효율적으로 사용하면서 수익을 창출하는 방식**으로 운영되고 있습니다. **Qasar Younis**는 많은 베이 지역 기업들이 취미 프로젝트처럼 운영되는 반면, **Applied Intuition은 실질적이고 진지한 사업 모델**을 구축했다고 강조합니다.\n\n**사업 영역 및 성장:** 이들은 **자동",
-          "date": "2026-04-08T11:49"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "WSJ) 중재자들과 이 사안에 정통한 한 관계자에 따르면, 이란 핵 협상에 공식적으로 참여하지 않았던 이스라엘은 협상이 막바지에 이르러 합의가 타결되었다는 소식을 접하고도 사전 협의가 이루어지지 않았다는 점에 불만을 품었다. \n\nhttps://www.wsj.com/livecoverage/iran-war-2026-trump-deadline-latest-news/card/exclusive-israel-was-informed-late-about-cease-fire-deal-and-wasn-t-happy-s18QUNCt1s4fL60Rnn0",
-          "date": "2026-04-08T14:56"
-        }
-      ]
-    },
-    "CLS": {
-      "ticker": "CLS",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "beluga_investment"
-      ],
-      "latestDate": "2026-04-08T08:13:40+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**260408_Global Equity Strategy: Sail away - CLSA**\n \n(1) 14일간의 휴전만으로는 전쟁 이전 수준으로 회복할 만큼 충분한 신뢰를 주기 어려우나, 해협 뒤편에 묶여 있던 선박이 이동할 수 있게 되며 숨통이 트고 있음\n\n(2) 양측 모두 합의에 이를 유인이 충분하지만, 협상 과정에서는 벼랑 끝 전술이 계속해서 이어질 것으로 판단\n\n(3) 그럼에도 불구하고, 우리는 전쟁 발발 직후 취했던 방어적 스탠스를 해제\n■ 중국: Neutral \n■ 대만: 10% UW  \n**■ 한국: 15% OW**\n",
-          "date": "2026-04-08T08:13"
-        }
-      ]
-    },
-    "SMH": {
-      "ticker": "SMH",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "aetherjapanresearch",
-        "beluga_investment"
-      ],
-      "latestDate": "2026-04-08T06:25:21+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**260408_Broadcom: Partnerships with Google and Anthropic reinforces Broadcom’s technology advantage in custom silicon and AI networking - Goldman Sachs**\n\n**(1) 전일 Broadcom은 8-K 공시를 통해 Google과 장기 계약[LTA, Long Term Agreement]를 체결했다고 발표 **\n\n(2) 해당 계약에 따라 Broadcom은 Google의 차세대 TPU 제품을 개발 및 공급할 예정 \n\n**",
-          "date": "2026-04-08T03:50"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "기계 부문 시사점 — 이번 콜을 통해 당사는 CAT 및 CMI의 발전 사업에 대한 장기 수요 전망에 대해 보다 확신을 갖게 되었습니다. 향후 수년간 데이터센터 믹스가 학습에서 추론 쪽으로 더욱 이동할 것이라는 이건 씨의 언급이 특히 주목할 만하며, 이는 요구되는 예비 전력(standby power) MW 규모가 더 커지는 것을 지지할 것으로 판단합니다. 이건 씨는 시간이 지남에 따라 백업용 천연가스 사용이 증가할 것으로 예상하지만, 대규모로 안전하게 보관하기 용이한 디젤의 특성상 디젤 백업이 사라지는 일은 전혀 없을 것이라고 언급하",
-          "date": "2026-04-08T06:25"
-        }
-      ]
-    },
-    "GOOGL": {
-      "ticker": "GOOGL",
+    "TEM": {
+      "ticker": "TEM",
       "summary": "분석 실패: Connection error.",
       "messageCount": 3,
       "channels": [
-        "DOC_POOL",
-        "beluga_investment",
-        "d_ticker"
+        "Jstockclass",
+        "d_ticker",
+        "aetherjapanresearch"
       ],
-      "latestDate": "2026-04-08T14:46:44+00:00",
+      "latestDate": "2026-04-09T22:14:15+00:00",
       "messages": [
         {
-          "channel": "beluga_investment",
-          "text": "**260408_Broadcom: Partnerships with Google and Anthropic reinforces Broadcom’s technology advantage in custom silicon and AI networking - Goldman Sachs**\n\n**(1) 전일 Broadcom은 8-K 공시를 통해 Google과 장기 계약[LTA, Long Term Agreement]를 체결했다고 발표 **\n\n(2) 해당 계약에 따라 Broadcom은 Google의 차세대 TPU 제품을 개발 및 공급할 예정 \n\n**",
-          "date": "2026-04-08T03:50"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "루멘텀 투자자라면 꼭 읽어봐야 할 리포트가 나왔네요\n\n스케일아웃(랙 간 연결) 광회로스위치(OCS)\n↓\n스케일아웃 광공통패키지(CPO) 스위치\n↓\n스케일업(칩 간 연결) OCS·CPO\n\n이 과정으로 루멘텀의 TAM(시장 기회)가 확장돼 왔습니다. 엔비디아 차세대 GPU인 파인만 상용화 국면에서는 스케일업 CPO TAM이 스케일아웃 CPO 대비 3~16배의 크다고 합니다. 구글 역시 OCS의 선두주자로서 스케일업 OCS 채택 시 스케일아웃 OCS보다 3~9배 TAM이 큰 것으로 추정됐습니다. 최대 우려 요인인 레이저 소재 InP 공급",
-          "date": "2026-04-08T01:05"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "**[빗썸-서클 업무협약 체결 및 전략적 제휴]**\n· 빗썸이 달러 스테이블코인 USDC 발행사인 서클과 업무협약(MOU)을 체결하고 국내 스테이블코인 시장 선점 경쟁에 본격적으로 뛰어듦\n· 이번 협약에는 서클의 제러미 앨레어 CEO 등 핵심 경영진이 방한하여 참여하며, 향후 가상자산 시장 내 법인 고객 참여에 대비한 B2B 특화 서비스 모델 구축을 논의할 예정임\n\n**[디지털 금융 생태계 확장 및 핀테크 연계]**\n· 양사는 단순한 코인 거래 지원을 넘어 토스, 카카오페이 등 국내 주요 핀테크 플랫폼과 연동된 스테이블코인 결제 시",
-          "date": "2026-04-08T14:46"
-        }
-      ]
-    },
-    "GOOG": {
-      "ticker": "GOOG",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "DOC_POOL",
-        "beluga_investment"
-      ],
-      "latestDate": "2026-04-08T14:46:44+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**260408_Broadcom: Partnerships with Google and Anthropic reinforces Broadcom’s technology advantage in custom silicon and AI networking - Goldman Sachs**\n\n**(1) 전일 Broadcom은 8-K 공시를 통해 Google과 장기 계약[LTA, Long Term Agreement]를 체결했다고 발표 **\n\n(2) 해당 계약에 따라 Broadcom은 Google의 차세대 TPU 제품을 개발 및 공급할 예정 \n\n**",
-          "date": "2026-04-08T03:50"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "**[빗썸-서클 업무협약 체결 및 전략적 제휴]**\n· 빗썸이 달러 스테이블코인 USDC 발행사인 서클과 업무협약(MOU)을 체결하고 국내 스테이블코인 시장 선점 경쟁에 본격적으로 뛰어듦\n· 이번 협약에는 서클의 제러미 앨레어 CEO 등 핵심 경영진이 방한하여 참여하며, 향후 가상자산 시장 내 법인 고객 참여에 대비한 B2B 특화 서비스 모델 구축을 논의할 예정임\n\n**[디지털 금융 생태계 확장 및 핀테크 연계]**\n· 양사는 단순한 코인 거래 지원을 넘어 토스, 카카오페이 등 국내 주요 핀테크 플랫폼과 연동된 스테이블코인 결제 시",
-          "date": "2026-04-08T14:46"
-        }
-      ]
-    },
-    "SK하이닉스": {
-      "ticker": "SK하이닉스",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 4,
-      "channels": [
-        "aetherjapanresearch",
-        "d_ticker"
-      ],
-      "latestDate": "2026-04-08T14:36:34+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "Citi) SK 하이닉스; 1분기 2026 프리뷰: 견조한 1분기 실적 예상; AI 추론 수요에 힘입은 지속적인 메모리 수요, 목표가 170만원으로 상향\n\n\n시티의 견해\n당사는 SK 하이닉스가 1분기 2026년 영업이익을 39.1조 원(전분기 대비 +104%, 전년 대비 +426%)으로 보고할 것으로 예상하며, 이는 견조한 1분기 2026년 메모리 가격 상승 및 지속적인 HBM 매출에 기인합니다. 64GB 서버 DDR5 DRAM 가격이 2026년 하반기까지 강세를 유지할 것으로 예상됨에 따라, HBM 수요와 범용 메모리에 대한 구속",
-          "date": "2026-04-08T14:36"
+          "channel": "Jstockclass",
+          "text": "**올해 계획된 미국 데이터센터의 거의 절반이 지연 또는 취소 (Source: Bloomberg)**\n\n**- 주요 원인 중 하나는 전력 장비 부족: 변압기, 스위치기어, 배터리.** 이러한 장비는 AI 전력을 공급하는 데 필요할 뿐만 아니라, 전기차 및 히트펌프 확산으로 전력 소비가 증가하는 상황에서 전력망을 확장하는 데도 필수적. 미국 내 생산 능력은 이러한 수요를 따라가지 못하고 있으며, 공급 부족으로 인해 데이터센터 개발업체들은 수입에 의존.\n\n**- 미국의 AI는 해외 수입에 의존:** 2021년 수입 증가 급증은 AI 기",
+          "date": "2026-04-09T22:14"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "삼성전자가 차세대 AI 서버 메모리 모듈인 SOCAMM2의 양산 핵심 과제였던 뒤틀림(warpage) 문제를 자체 개발한 저온 솔더(LTS) 기술을 통해 해결한 것으로 알려졌습니다. 솔더링 온도를 260°C 이상에서 150°C 이하로 낮춰 소재 간 열팽창계수 불일치를 최소화하였으며, 다이 구조를 이중 타워에서 단일 타워로 전환하고 에폭시 몰딩 컴파운드의 특성을 최적화하는 등 설계 개선도 병행하였습니다. 이를 통해 삼성전자는 NVIDIA의 차세대 AI 플랫폼 Vera Rubin에 탑재될 SOCAMM2의 개발 및 양산 일정에서 경쟁사 ",
-          "date": "2026-04-08T08:18"
+          "text": "**올해 계획된 미국 데이터센터의 거의 절반이 지연 또는 취소 (Source: Bloomberg)**\n\n**- 주요 원인 중 하나는 전력 장비 부족: 변압기, 스위치기어, 배터리.** 이러한 장비는 AI 전력을 공급하는 데 필요할 뿐만 아니라, 전기차 및 히트펌프 확산으로 전력 소비가 증가하는 상황에서 전력망을 확장하는 데도 필수적. 미국 내 생산 능력은 이러한 수요를 따라가지 못하고 있으며, 공급 부족으로 인해 데이터센터 개발업체들은 수입에 의존.\n\n**- 미국의 AI는 해외 수입에 의존:** 2021년 수입 증가 급증은 AI 기",
+          "date": "2026-04-09T14:54"
         },
         {
           "channel": "d_ticker",
-          "text": "SK하이닉스 HBM4 퀄 통과가 연말에 결정된다는 얘기가 지배적인데, UBS 리포트에 언급된 것처럼 베이스다이 재설계를 마쳤다면 빠르게 퀄 통과가 진행되길 바라겠습니다.",
-          "date": "2026-04-08T13:19"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**SK하이닉스, '321단 QLC 낸드' 기반 SSD 출시\n**\n([연합뉴스](https://www.yna.co.kr/view/AKR20260408046800003)) SK하이닉스는 자사 최초로 개발한 321단 QLC(쿼드러플 레벨 셀) 낸드플래시 기반 솔리드 스테이트 드라이브(SSD) 제품인 'PQC21'의 개발을 완료하고, 고객사에 본격적인 공급을 시작했다고 8일 밝혔다. 낸드는 데이터 저장 단위인 셀에 몇 비트(Bit)를 저장할 수 있는지에 따라 SLC(1비트), MLC(2비트), TLC(3비트), QLC(4비트), PLC(",
-          "date": "2026-04-08T01:30"
+          "text": "**올해 계획된 미국 데이터센터의 거의 절반이 지연 또는 취소 (Source: Bloomberg)**\n\n**- 주요 원인 중 하나는 전력 장비 부족: 변압기, 스위치기어, 배터리.** 이러한 장비는 AI 전력을 공급하는 데 필요할 뿐만 아니라, 전기차 및 히트펌프 확산으로 전력 소비가 증가하는 상황에서 전력망을 확장하는 데도 필수적. 미국 내 생산 능력은 이러한 수요를 따라가지 못하고 있으며, 공급 부족으로 인해 데이터센터 개발업체들은 수입에 의존.\n\n**- 미국의 AI는 해외 수입에 의존:** 2021년 수입 증가 급증은 AI 기",
+          "date": "2026-04-09T14:39"
         }
       ]
     },
     "MSFT": {
       "ticker": "MSFT",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
+      "messageCount": 2,
       "channels": [
+        "Jstockclass",
         "aetherjapanresearch"
       ],
-      "latestDate": "2026-04-08T08:18:11+00:00",
+      "latestDate": "2026-04-09T22:13:55+00:00",
       "messages": [
         {
+          "channel": "Jstockclass",
+          "text": ">>“메모리 가격 하락설 사실과 달라… 공급 부족 심각, 올해 내 완화 어려워” — Transcend Information 회장\n\n•트랜센드 회장은 시장에서 제기되는 메모리 가격 하락설과 달리, 실제 삼성전자,  마이크론 등 주요 공급업체와의 거래에서는 가격 약세가 전혀 나타나지 않고 있다고 밝혔음. 2분기 DDR5 가격은 1분기 대비 약 40~50% 상승할 것으로 보이며, 수요 또한 충분히 충족되지 못하는 상황이라고 설명했음.\n\n•메모리 공장 증설에는 긴 시간이 소요되는 만큼, 올해 내내 공급 부족 국면이 해소되기 어려울 것으로 ",
+          "date": "2026-04-09T22:13"
+        },
+        {
           "channel": "aetherjapanresearch",
-          "text": "삼성전자가 차세대 AI 서버 메모리 모듈인 SOCAMM2의 양산 핵심 과제였던 뒤틀림(warpage) 문제를 자체 개발한 저온 솔더(LTS) 기술을 통해 해결한 것으로 알려졌습니다. 솔더링 온도를 260°C 이상에서 150°C 이하로 낮춰 소재 간 열팽창계수 불일치를 최소화하였으며, 다이 구조를 이중 타워에서 단일 타워로 전환하고 에폭시 몰딩 컴파운드의 특성을 최적화하는 등 설계 개선도 병행하였습니다. 이를 통해 삼성전자는 NVIDIA의 차세대 AI 플랫폼 Vera Rubin에 탑재될 SOCAMM2의 개발 및 양산 일정에서 경쟁사 ",
-          "date": "2026-04-08T08:18"
+          "text": "Citi) IT예산 관련 CIO 설문조사 결과\n\n1. 글로벌 IT 예산 전망과 거시 환경\n이번 1분기 서베이에서 CIO들이 예상하는 향후 12개월(NTM) IT 예산 증가율은 +2.6%로, 직전 분기(4Q25)의 +3.3%에서 소폭 둔화되었습니다. 다만 이는 역사적 평균 범위 내에 해당하며, 지역별로는 온도 차가 뚜렷하게 나타났습니다. 미국은 3.6%에서 2.4%로 큰 폭 하락한 반면, EMEA는 2.4%에서 3.1%로 오히려 상승하며 8분기 중 최고치를 기록했습니다. 직전 3개월간의 IT 예산 실제 수정치는 +0.8%로 긍정적인 ",
+          "date": "2026-04-09T13:24"
         }
       ]
     },
-    "TIME코스닥": {
-      "ticker": "TIME코스닥",
+    "삼성전자": {
+      "ticker": "삼성전자",
       "summary": "분석 실패: Connection error.",
       "messageCount": 2,
       "channels": [
-        "aetherjapanresearch",
-        "DOC_POOL"
+        "Jstockclass",
+        "report_figure_by_offset"
       ],
-      "latestDate": "2026-04-08T14:46:54+00:00",
+      "latestDate": "2026-04-09T22:13:55+00:00",
       "messages": [
         {
-          "channel": "aetherjapanresearch",
-          "text": "삼성전자가 차세대 AI 서버 메모리 모듈인 SOCAMM2의 양산 핵심 과제였던 뒤틀림(warpage) 문제를 자체 개발한 저온 솔더(LTS) 기술을 통해 해결한 것으로 알려졌습니다. 솔더링 온도를 260°C 이상에서 150°C 이하로 낮춰 소재 간 열팽창계수 불일치를 최소화하였으며, 다이 구조를 이중 타워에서 단일 타워로 전환하고 에폭시 몰딩 컴파운드의 특성을 최적화하는 등 설계 개선도 병행하였습니다. 이를 통해 삼성전자는 NVIDIA의 차세대 AI 플랫폼 Vera Rubin에 탑재될 SOCAMM2의 개발 및 양산 일정에서 경쟁사 ",
-          "date": "2026-04-08T08:18"
+          "channel": "Jstockclass",
+          "text": ">>“메모리 가격 하락설 사실과 달라… 공급 부족 심각, 올해 내 완화 어려워” — Transcend Information 회장\n\n•트랜센드 회장은 시장에서 제기되는 메모리 가격 하락설과 달리, 실제 삼성전자,  마이크론 등 주요 공급업체와의 거래에서는 가격 약세가 전혀 나타나지 않고 있다고 밝혔음. 2분기 DDR5 가격은 1분기 대비 약 40~50% 상승할 것으로 보이며, 수요 또한 충분히 충족되지 못하는 상황이라고 설명했음.\n\n•메모리 공장 증설에는 긴 시간이 소요되는 만큼, 올해 내내 공급 부족 국면이 해소되기 어려울 것으로 ",
+          "date": "2026-04-09T22:13"
         },
         {
-          "channel": "DOC_POOL",
-          "text": "**[키옥시아의 실적 성장과 배경]**\n· AI 서버 등 관련 장비의 수요 증가와 이에 따른 낸드플래시(NAND Flash) 가격 급등으로 키옥시아의 실적이 가파르게 성장하고 있음.\n· 메모리 시장의 우호적인 환경이 조성됨에 따라, 키옥시아가 확보한 현금을 향후 어떻게 전략적으로 활용할지가 업계와 시장의 주요 관심사로 부상함.\n\n**[클라우드 빅테크와의 장기 협력]**\n· 키옥시아는 안정적인 공급망 구축과 사업 확장을 위해 대형 클라우드 기업들과 2029년까지를 기한으로 하는 장기 공급 계약을 추진하고 있음.\n· 클라우드 빅테크와의",
-          "date": "2026-04-08T14:46"
+          "channel": "report_figure_by_offset",
+          "text": "[업데이트] 메모리 디램 **운용 전망**\n\n • 2027년 하반기까지 **공급 병목 예상**\n\n • **삼성전자**, **SK하이닉스**의 클린룸 쇼티지 현상은 **2H27까지 지속**",
+          "date": "2026-04-09T13:27"
         }
       ]
     },
-    "SOL금융": {
-      "ticker": "SOL금융",
+    "AMZN": {
+      "ticker": "AMZN",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 6,
+      "channels": [
+        "Jstockclass",
+        "d_ticker",
+        "aetherjapanresearch",
+        "beluga_investment"
+      ],
+      "latestDate": "2026-04-09T22:31:01+00:00",
+      "messages": [
+        {
+          "channel": "Jstockclass",
+          "text": "**에이피알 : 유럽 정복과 초격차 실적으로 증명하는 압도적 성장세\n\n1. 1Q26 실적 전망 및 컨센서스 상회**\n\n• **1분기 영업이익 전망**: 약 1,413억~1,461억 원 (전년 대비 +160% 이상 성장)\n\n• **시장 기대치 상회**: 컨센서스를 약 16~19% 상회하는 '어닝 서프라이즈' 예상\n\n• **매출액 추정**: 약 5,800억~5,895억 원 (전년 대비 +120% 내외 성장)\n\n• **수익성 개선**: 영업이익률 약 24~25% 수준으로 높은 레버리지 효과 발생\n\n**2. 지역별 성장 모멘텀 및 핵심 투",
+          "date": "2026-04-08T23:38"
+        },
+        {
+          "channel": "beluga_investment",
+          "text": "아마존 앤디 재시 CEO가 **대형 AWS 고객 두 곳이 아마존의 2026년 Graviton 생산능력 전체를 원했다**고 밝혔습니다.\n\n**Graviton**은 AWS가 직접 설계한 **서버용 CPU 제품군**입니다. 쉽게 말해, 아마존이 자사 클라우드(AWS)에서 쓰기 위해 만든 **자체 Arm 기반 프로세서**입니다. AWS는 이를 통해 EC2 같은 서비스에서 **가격 대비 성능**을 높이는 것이 목표라고 설명합니다.  \n\n또한 그는 **아마존의 칩 사업이 독립 사업부였다면 연간 약 500억 달러 규모로 운영되고 있을 것**이라",
+          "date": "2026-04-09T21:39"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Citi) IT예산 관련 CIO 설문조사 결과\n\n1. 글로벌 IT 예산 전망과 거시 환경\n이번 1분기 서베이에서 CIO들이 예상하는 향후 12개월(NTM) IT 예산 증가율은 +2.6%로, 직전 분기(4Q25)의 +3.3%에서 소폭 둔화되었습니다. 다만 이는 역사적 평균 범위 내에 해당하며, 지역별로는 온도 차가 뚜렷하게 나타났습니다. 미국은 3.6%에서 2.4%로 큰 폭 하락한 반면, EMEA는 2.4%에서 3.1%로 오히려 상승하며 8분기 중 최고치를 기록했습니다. 직전 3개월간의 IT 예산 실제 수정치는 +0.8%로 긍정적인 ",
+          "date": "2026-04-09T13:24"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "BofA) 가속화 되는 클로드의 채택률은 AI CAPEX 투자의 정당성을 뒷받침합니다.\n\n1. 앤트로픽의 성장세, 기업용 AI 지출 가속화를 시사\n월요일 앤트로픽은 연간 환산 매출(ARR)이 300억 달러를 돌파했다고 공시했습니다. 이는 2025년 말의 90억 달러, 그리고 한 달 전의 190억 달러에서 크게 증가한 수치입니다 (앤트로픽 ARR 관련 3월 보고서 참조). 공개된 내용에 따르면, Claude에 대한 수요 가속화는 기업 고객들에 의해 주도되고 있으며, 앤트로픽 모델에 연간 100만 달러 이상을 지출하는 기업이 현재 1,",
+          "date": "2026-04-09T09:58"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**아마존, 미시시피 데이터 센터에 $25B 투자\n**\n([Official](https://www.aboutamazon.com/news/company-news/amazon-25-billion-mississippi-data-centers)) 아마존이 미시시피주에 총 $25B를 투자해 데이터 센터를 확장하고 2,000개의 고숙련 일자리를 창출한다는 계획을 발표했다. 이는 미시시피 역사상 최대 규모의 자본 투자다. 전력 인프라 비용을 전액 부담함으로써 기존 전기 요금 인상 없이 그리드 신뢰성을 50% 향상시키고 $300M 규모의 전력망 ",
+          "date": "2026-04-09T22:31"
+        }
+      ]
+    },
+    "APP": {
+      "ticker": "APP",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
-        "aetherjapanresearch"
+        "Jstockclass"
       ],
-      "latestDate": "2026-04-08T08:18:11+00:00",
+      "latestDate": "2026-04-08T22:56:21+00:00",
       "messages": [
         {
-          "channel": "aetherjapanresearch",
-          "text": "삼성전자가 차세대 AI 서버 메모리 모듈인 SOCAMM2의 양산 핵심 과제였던 뒤틀림(warpage) 문제를 자체 개발한 저온 솔더(LTS) 기술을 통해 해결한 것으로 알려졌습니다. 솔더링 온도를 260°C 이상에서 150°C 이하로 낮춰 소재 간 열팽창계수 불일치를 최소화하였으며, 다이 구조를 이중 타워에서 단일 타워로 전환하고 에폭시 몰딩 컴파운드의 특성을 최적화하는 등 설계 개선도 병행하였습니다. 이를 통해 삼성전자는 NVIDIA의 차세대 AI 플랫폼 Vera Rubin에 탑재될 SOCAMM2의 개발 및 양산 일정에서 경쟁사 ",
-          "date": "2026-04-08T08:18"
+          "channel": "Jstockclass",
+          "text": "**반도체 섹터별 상세 전망 및 투자 포인트 (GS)\n**\n**1. Compute & Storage\n**\n• **서버 CPU 및 ASIC 성장**: 하이퍼스케일러들의 CapEx 확대 기조에 따라 AI 기능이 포함된 서버 CPU와 주요 ASIC 프로그램의 실적 상향이 기대\n\n• **스토리지 생태계 우위**: 메모리/스토리지 전반의 업황이 긍정적이나, 특히 신규 공급 증가가 제한적인 HDD와 NAND 분야를 선호\n\n• **AI 인프라 수요**: 에이전틱 AI와 AI 인프라 구축 수요가 서버 CPU 시장의 핵심 동력으로 작용 중\n\n**2",
+          "date": "2026-04-08T22:56"
+        }
+      ]
+    },
+    "SK하이닉스": {
+      "ticker": "SK하이닉스",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 3,
+      "channels": [
+        "report_figure_by_offset",
+        "d_ticker",
+        "beluga_investment"
+      ],
+      "latestDate": "2026-04-09T13:27:01+00:00",
+      "messages": [
+        {
+          "channel": "report_figure_by_offset",
+          "text": "[업데이트] 메모리 디램 **운용 전망**\n\n • 2027년 하반기까지 **공급 병목 예상**\n\n • **삼성전자**, **SK하이닉스**의 클린룸 쇼티지 현상은 **2H27까지 지속**",
+          "date": "2026-04-09T13:27"
+        },
+        {
+          "channel": "beluga_investment",
+          "text": "**260409_SK Hynix: 1Q26 Preview: Expect Solid 1Q Result; Sustained Memory Demand Supported by AI Inference Demand - CITI **\n\n(1) 우리는 SK하이닉스의 1Q26(F) 예상 영업이익으로 39.1조를 전망 vs. 35.1조[BBG] \n*FnGuide: 32.7조 \n\n(2) 이는 메모리 가격의 견조한 상승과 HBM 판매 지속에 힘입어 YoY +426%, QoQ +104% 증가하는 수준\n\n(3) 1Q26 DRAM ASP는 QoQ +63%, ",
+          "date": "2026-04-08T23:10"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**SK하이닉스, 스페인 '세미다이내믹스' 전략적 투자**\n\n([Official](https://semidynamics.com/ko/newsroom/press-releases)) 세미다이내믹스(Semidynamics)는 스페인 바르셀로나에 본사를 둔 '메모리 중심 인프라' 전문 팹리스 기업으로, RISC-V 기반 AI 추론에 특화된 고성능 CPU 코어를 설계한다. 기존 CPU 아키텍처를 개조하는 것이 아니라, 처음부터 '메모리 벽' 문제를 해결하기 위해 설계된 것이 특징이다. 세미다이내믹스는 메모리 지연시간이 발생하는 중에도 프로세",
+          "date": "2026-04-08T23:13"
         }
       ]
     },
@@ -368,136 +201,295 @@
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
-        "aetherjapanresearch"
+        "beluga_investment"
       ],
-      "latestDate": "2026-04-08T08:18:11+00:00",
+      "latestDate": "2026-04-09T12:51:17+00:00",
       "messages": [
         {
+          "channel": "beluga_investment",
+          "text": "**코딩(Coding): 코딩은 AI의 대표적인 활용 사례이며, 다른 분야를 거의 한 자릿수 배수 수준으로 압도하고 있습니다.** 이는 Cursor 같은 기업들의 폭발적인 성장, 그리고 Claude Code와 Codex 같은 도구들의 초고속 성장에서 매우 분명하게 드러납니다. 이러한 성장률은 사실상 거의 모든 사람들이 가졌던 가장 낙관적인 전망조차 뛰어넘고 있으며, Fortune 500 및 Global 2000 기업들에서의 AI 도구 도입도 대부분 코드 영역에 집중되고 있습니다.\n\n여러 측면에서 코딩은 AI에 가장 이상적인 활용 사",
+          "date": "2026-04-09T12:51"
+        }
+      ]
+    },
+    "AVGO": {
+      "ticker": "AVGO",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 3,
+      "channels": [
+        "aetherjapanresearch",
+        "beluga_investment"
+      ],
+      "latestDate": "2026-04-09T09:58:45+00:00",
+      "messages": [
+        {
+          "channel": "beluga_investment",
+          "text": "**Anthropic과 TPU, 추론 워크로드 점유율 확대 전망**\n\nAnthropic가 **코딩 모델과 엔터프라이즈 시장에 집중한 전략은 더 빠른 매출 성장이라는 측면에서 분명한 성과를 냈으며**, 이는 **전체 가속기 시장에서 TPU 점유율 확대**에도 도움이 될 수 있습니다. 생성형 AI의 중심축이 **추론(inferencing)** 으로 이동하는 가운데, 당사는 **Anthropic의 LLM이 더 빠르게 성장하고 있다는 점**을 바탕으로, Anthropic의 TPU 사용이 **신규 추론 워크로드에서 점진적으로 추가 점유율을 ",
+          "date": "2026-04-09T08:53"
+        },
+        {
           "channel": "aetherjapanresearch",
-          "text": "삼성전자가 차세대 AI 서버 메모리 모듈인 SOCAMM2의 양산 핵심 과제였던 뒤틀림(warpage) 문제를 자체 개발한 저온 솔더(LTS) 기술을 통해 해결한 것으로 알려졌습니다. 솔더링 온도를 260°C 이상에서 150°C 이하로 낮춰 소재 간 열팽창계수 불일치를 최소화하였으며, 다이 구조를 이중 타워에서 단일 타워로 전환하고 에폭시 몰딩 컴파운드의 특성을 최적화하는 등 설계 개선도 병행하였습니다. 이를 통해 삼성전자는 NVIDIA의 차세대 AI 플랫폼 Vera Rubin에 탑재될 SOCAMM2의 개발 및 양산 일정에서 경쟁사 ",
-          "date": "2026-04-08T08:18"
+          "text": "BofA) 가속화 되는 클로드의 채택률은 AI CAPEX 투자의 정당성을 뒷받침합니다.\n\n1. 앤트로픽의 성장세, 기업용 AI 지출 가속화를 시사\n월요일 앤트로픽은 연간 환산 매출(ARR)이 300억 달러를 돌파했다고 공시했습니다. 이는 2025년 말의 90억 달러, 그리고 한 달 전의 190억 달러에서 크게 증가한 수치입니다 (앤트로픽 ARR 관련 3월 보고서 참조). 공개된 내용에 따르면, Claude에 대한 수요 가속화는 기업 고객들에 의해 주도되고 있으며, 앤트로픽 모델에 연간 100만 달러 이상을 지출하는 기업이 현재 1,",
+          "date": "2026-04-09T09:58"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "6. 2026년 AMD CoWoS 물량 소폭 하향, 2027년은 변동 없음: 당사의 이전 업데이트에서 언급한 바와 같이, MI450과 관련하여 TSMC에서 일부 지연(2nm 탑 다이 재테이프아웃 및 HBM4 특성화 과제 포함)이 발생하고 있습니다. 이에 따라 당사는 2026년 CoWoS 추정치를 소폭 하향 조정하는 반면(기존 90K에서 77K으로), 2027년 전망치는 유지합니다. AMD는 MI450 램프가 순조롭게 시작될 경우 2027년 상향 여지가 있으며, MI450에 N2 공정 노드를 활용한다는 점이 제한적인 N3P 캐파를 놓",
+          "date": "2026-04-09T02:43"
+        }
+      ]
+    },
+    "GOOG": {
+      "ticker": "GOOG",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 4,
+      "channels": [
+        "aetherjapanresearch",
+        "d_ticker",
+        "beluga_investment"
+      ],
+      "latestDate": "2026-04-09T14:11:40+00:00",
+      "messages": [
+        {
+          "channel": "beluga_investment",
+          "text": "**Anthropic과 TPU, 추론 워크로드 점유율 확대 전망**\n\nAnthropic가 **코딩 모델과 엔터프라이즈 시장에 집중한 전략은 더 빠른 매출 성장이라는 측면에서 분명한 성과를 냈으며**, 이는 **전체 가속기 시장에서 TPU 점유율 확대**에도 도움이 될 수 있습니다. 생성형 AI의 중심축이 **추론(inferencing)** 으로 이동하는 가운데, 당사는 **Anthropic의 LLM이 더 빠르게 성장하고 있다는 점**을 바탕으로, Anthropic의 TPU 사용이 **신규 추론 워크로드에서 점진적으로 추가 점유율을 ",
+          "date": "2026-04-09T08:53"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "제목 : 인텔, 알파벳과 다년간 협력 발표                                                                                                      *연합인포맥스*\n벤징가는 알파벳과의 다년간 협력이 발표되면서, 인텔 주가가 상승하고 있다고 보도했다.   “▲ 인텔(NAS: INTC)이 ▲ 알파벳(NAS: GOOGL, GOOG)와의 다년간 협력 관계 구축을 발표했다. 알파벳이 차세대 인공지능 기술을 연구하고 클라우드 인프라를 구축하는 과정에서, 인텔의 프로세서",
+          "date": "2026-04-09T14:11"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Citi) IT예산 관련 CIO 설문조사 결과\n\n1. 글로벌 IT 예산 전망과 거시 환경\n이번 1분기 서베이에서 CIO들이 예상하는 향후 12개월(NTM) IT 예산 증가율은 +2.6%로, 직전 분기(4Q25)의 +3.3%에서 소폭 둔화되었습니다. 다만 이는 역사적 평균 범위 내에 해당하며, 지역별로는 온도 차가 뚜렷하게 나타났습니다. 미국은 3.6%에서 2.4%로 큰 폭 하락한 반면, EMEA는 2.4%에서 3.1%로 오히려 상승하며 8분기 중 최고치를 기록했습니다. 직전 3개월간의 IT 예산 실제 수정치는 +0.8%로 긍정적인 ",
+          "date": "2026-04-09T13:24"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**구글, 데이터센터 CPU '인텔 제온' 채택 공식화...ASIC도 공동 개발**\n\n([Official](https://www.intc.com/news-events/press-releases/detail/1766/intel-and-google-deepen-collaboration-to-advance-ai)) 인텔과 구글은 수년간의 전략적 협력을 확대한다고 발표했다. 우선 인텔의 서버향 CPU인 제온(XEON) 제품군은 구글 클라우드의 AI 추론 및 범용 워크로드를 지속적으로 지원할 예정이며, 최신 제온 6 프로세서는 이미 구글 클",
+          "date": "2026-04-09T13:33"
+        }
+      ]
+    },
+    "GOOGL": {
+      "ticker": "GOOGL",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 8,
+      "channels": [
+        "aetherjapanresearch",
+        "d_ticker",
+        "beluga_investment"
+      ],
+      "latestDate": "2026-04-09T15:23:09+00:00",
+      "messages": [
+        {
+          "channel": "beluga_investment",
+          "text": "**Anthropic과 TPU, 추론 워크로드 점유율 확대 전망**\n\nAnthropic가 **코딩 모델과 엔터프라이즈 시장에 집중한 전략은 더 빠른 매출 성장이라는 측면에서 분명한 성과를 냈으며**, 이는 **전체 가속기 시장에서 TPU 점유율 확대**에도 도움이 될 수 있습니다. 생성형 AI의 중심축이 **추론(inferencing)** 으로 이동하는 가운데, 당사는 **Anthropic의 LLM이 더 빠르게 성장하고 있다는 점**을 바탕으로, Anthropic의 TPU 사용이 **신규 추론 워크로드에서 점진적으로 추가 점유율을 ",
+          "date": "2026-04-09T08:53"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Citi Global Macro Strategy 이란 — 최악의 시나리오는 모면했는가?\n\n1. 핵심 시각 — \"딥 매수(Buy the Dip)\"의 조건이 충족되고 있다\n씨티는 지정학적 리스크 국면에서 통상적으로 딥 매수가 유효한 전략임을 인정하면서도, 유가가 정점을 확인한 이후에야 안전하게 리스크를 추가할 수 있다는 입장을 견지해왔습니다. 이번 보고서에서는 미국-이란 분쟁이 최악을 지났을 가능성이 충분하다고 판단하며, 충분한 \"출구 경로(off-ramp)\"가 보인다는 근거 하에 리스크를 서서히 되돌리기 시작했습니다. 또한 위기 중에",
+          "date": "2026-04-09T15:23"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "제목 : 인텔, 알파벳과 다년간 협력 발표                                                                                                      *연합인포맥스*\n벤징가는 알파벳과의 다년간 협력이 발표되면서, 인텔 주가가 상승하고 있다고 보도했다.   “▲ 인텔(NAS: INTC)이 ▲ 알파벳(NAS: GOOGL, GOOG)와의 다년간 협력 관계 구축을 발표했다. 알파벳이 차세대 인공지능 기술을 연구하고 클라우드 인프라를 구축하는 과정에서, 인텔의 프로세서",
+          "date": "2026-04-09T14:11"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Citi) IT예산 관련 CIO 설문조사 결과\n\n1. 글로벌 IT 예산 전망과 거시 환경\n이번 1분기 서베이에서 CIO들이 예상하는 향후 12개월(NTM) IT 예산 증가율은 +2.6%로, 직전 분기(4Q25)의 +3.3%에서 소폭 둔화되었습니다. 다만 이는 역사적 평균 범위 내에 해당하며, 지역별로는 온도 차가 뚜렷하게 나타났습니다. 미국은 3.6%에서 2.4%로 큰 폭 하락한 반면, EMEA는 2.4%에서 3.1%로 오히려 상승하며 8분기 중 최고치를 기록했습니다. 직전 3개월간의 IT 예산 실제 수정치는 +0.8%로 긍정적인 ",
+          "date": "2026-04-09T13:24"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "BofA) 메타의 새로운 LLM 출시에서의 중요한 첫 걸음, 목표가 $885\n\nMSL 투데이로부터의 새로운 LLM 시리즈 중 첫 번째인 뮤즈 스파크\n오늘 메타는 메타 슈퍼인텔리전스 랩스가 출시하는 첫 번째 LLM인 뮤즈 스파크를 선보이며, 뮤즈 시리즈 모델의 새로운 막을 열었습니다. 이 새로운 모델은 메타 AI 및 meta.ai에서 이용 가능하며, 일부 사용자를 대상으로 한 비공개 API 프리뷰가 개방되었고, 향후 몇 주 안에 왓츠앱, 인스타그램, 페이스북, 메타 스마트 글래스 전반에 걸쳐 기존의 라마 기반 챗봇을 대체할 것으로 예",
+          "date": "2026-04-09T12:44"
+        }
+      ]
+    },
+    "NVDA": {
+      "ticker": "NVDA",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 5,
+      "channels": [
+        "aetherjapanresearch",
+        "d_ticker",
+        "beluga_investment"
+      ],
+      "latestDate": "2026-04-09T15:35:38+00:00",
+      "messages": [
+        {
+          "channel": "beluga_investment",
+          "text": "**Anthropic과 TPU, 추론 워크로드 점유율 확대 전망**\n\nAnthropic가 **코딩 모델과 엔터프라이즈 시장에 집중한 전략은 더 빠른 매출 성장이라는 측면에서 분명한 성과를 냈으며**, 이는 **전체 가속기 시장에서 TPU 점유율 확대**에도 도움이 될 수 있습니다. 생성형 AI의 중심축이 **추론(inferencing)** 으로 이동하는 가운데, 당사는 **Anthropic의 LLM이 더 빠르게 성장하고 있다는 점**을 바탕으로, Anthropic의 TPU 사용이 **신규 추론 워크로드에서 점진적으로 추가 점유율을 ",
+          "date": "2026-04-09T08:53"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) 기아 CEO 인베스터 데이 행사 주요 내용\n\n기아는 다각화된 파워트레인 믹스(ICE, HEV, EV, PBV)와 지역별 맞춤 실행 전략을 활용하여 성장을 지속하겠다고 밝혔습니다. 2030년까지 글로벌 판매량 413만 대(기존 419만 대에서 하향)를 목표로 하며, 글로벌 시장점유율 4.5% 목표는 변동 없이 유지합니다. xHEV 판매량은 2026년 69만 대에서 2030년 110만 대로 증가할 것으로 예상되며, EV 목표는 2030년 100만 대로 하향 조정되었습니다(기존 126만 대). 전동화 PBV는 LCV 시장의 전",
+          "date": "2026-04-09T15:35"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "6. 2026년 AMD CoWoS 물량 소폭 하향, 2027년은 변동 없음: 당사의 이전 업데이트에서 언급한 바와 같이, MI450과 관련하여 TSMC에서 일부 지연(2nm 탑 다이 재테이프아웃 및 HBM4 특성화 과제 포함)이 발생하고 있습니다. 이에 따라 당사는 2026년 CoWoS 추정치를 소폭 하향 조정하는 반면(기존 90K에서 77K으로), 2027년 전망치는 유지합니다. AMD는 MI450 램프가 순조롭게 시작될 경우 2027년 상향 여지가 있으며, MI450에 N2 공정 노드를 활용한다는 점이 제한적인 N3P 캐파를 놓",
+          "date": "2026-04-09T02:43"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) TSMC; CoWoS 및 첨단 후공정 업데이트\n\n1. CoWoS 및 SoIC 캐파 추정치 상향: 당사는 CoWoS 추정치를 소폭 상향 조정하며, TSMC의 CoWoS 캐파가 2026년 말/2027년 말/2028년 말까지 각각 115K/155K/175K wfpm에 달할 것으로 예상합니다. 또한 비(非) TSMC CoWoS 캐파는 2027년 말/2028년 말까지 약 25K/35K wfpm으로 서서히 확대될 것으로 전망합니다. CoPoS(또는 패널 레벨 패키징)는 2028년 이후 캐파 확장의 핵심 과제가 될 가능성이 높으나, ",
+          "date": "2026-04-09T02:42"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**코어위브, 메타와 $21B 규모 AI 인프라 확장 계약 ****$CRWV****\n**\n([Press](https://investors.coreweave.com/news/news-details/2026/CoreWeave-and-Meta-Announce-21-Billion-Expanded-AI-Infrastructure-Agreement/)) 메타가 코어위브와 2032년 12월까지 약 $21B 규모의 AI 클라우드 용량 공급 계약을 체결하며 기존 파트너십을 대폭 강화했다. 이번 계약을 통해 메타는 AI 추론 워크로드를 확장하고 인프",
+          "date": "2026-04-09T12:30"
+        }
+      ]
+    },
+    "SOL금융": {
+      "ticker": "SOL금융",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 2,
+      "channels": [
+        "DOC_POOL",
+        "beluga_investment"
+      ],
+      "latestDate": "2026-04-09T08:09:51+00:00",
+      "messages": [
+        {
+          "channel": "beluga_investment",
+          "text": "**260409_SK Hynix: 1Q26 Preview: Expect Solid 1Q Result; Sustained Memory Demand Supported by AI Inference Demand - CITI **\n\n(1) 우리는 SK하이닉스의 1Q26(F) 예상 영업이익으로 39.1조를 전망 vs. 35.1조[BBG] \n*FnGuide: 32.7조 \n\n(2) 이는 메모리 가격의 견조한 상승과 HBM 판매 지속에 힘입어 YoY +426%, QoQ +104% 증가하는 수준\n\n(3) 1Q26 DRAM ASP는 QoQ +63%, ",
+          "date": "2026-04-08T23:10"
+        },
+        {
+          "channel": "DOC_POOL",
+          "text": "**[클로봇/로봇 솔루션/투자 정보]**\n제목: Global #1 Robot Solution Provider\n작성일: 2023.09.27 (제시된 PDF에서 정확한 작성일을 알 수 없어, 임의로 설정하였습니다. 실제 리포트 확인 필요)\n\n**[기술 기반 성장]**\n· AI 기반 운영 고도화를 통한 기술 경쟁력 강화 및 로봇 운영 플랫폼 고도화, 특화 모델 제공.\n· 이기종 통합 및 Fleet 운영 최적화, AI 기반 운영 데이터 분석 강화를 통해 고객 Lock-in 효과 및 전환 비용 증대.\n\n**[DLS 인수 시너지]**\n· DL",
+          "date": "2026-04-09T08:09"
         }
       ]
     },
     "CRWD": {
       "ticker": "CRWD",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
+      "messageCount": 2,
       "channels": [
         "aetherjapanresearch"
       ],
-      "latestDate": "2026-04-08T08:06:48+00:00",
+      "latestDate": "2026-04-09T15:43:24+00:00",
       "messages": [
         {
           "channel": "aetherjapanresearch",
-          "text": "J.P. 모건) 앤트로픽, 보안 업계를 함께 이끌다; 프로젝트 글래스윙, 보안 부문에 긍정적 신호\n\n앤트로픽이 오늘 발표한 프로젝트 글래스윙(Project Glasswing)은 AI 생태계에서 보안의 역할에 관한 담론에 있어 중대한 변화를 의미하며, AI가 당사 커버리지 전반에 걸쳐 수요 촉진 요인으로 작용한다는 당사의 견해를 뒷받침합니다. 이번 발표를 통해 공개된 Claude Mythos Preview는 아직 정식 출시되지 않은 최전선 모델로, 운영체제와 웹 브라우저 전반에 걸쳐 수천 건의 제로데이 취약점을 자율적으로 발견하였습니",
-          "date": "2026-04-08T08:06"
+          "text": "오픈AI와 앤트로픽이 각각 고급 사이버보안 역량을 갖춘 AI 모델을 소수의 파트너에게만 제한적으로 공개하는 방식을 채택하고 있습니다. 앤트로픽은 선별된 기술·사이버보안 기업들을 대상으로 신규 모델 '마이토스(Mythos)' 프리뷰의 접근을 제한하겠다고 발표한 바 있으며, 오픈AI 역시 가장 사이버 역량이 뛰어난 추론 모델인 GPT-5.3-Codex 출시 이후 초대 전용 \"사이버 신뢰 접근(Trusted Access for Cyber)\" 파일럿 프로그램을 도입하고 참여 기관에 1,000만 달러 상당의 API 크레딧을 지원했습니다.\n\n",
+          "date": "2026-04-09T15:43"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Citi) IT예산 관련 CIO 설문조사 결과\n\n1. 글로벌 IT 예산 전망과 거시 환경\n이번 1분기 서베이에서 CIO들이 예상하는 향후 12개월(NTM) IT 예산 증가율은 +2.6%로, 직전 분기(4Q25)의 +3.3%에서 소폭 둔화되었습니다. 다만 이는 역사적 평균 범위 내에 해당하며, 지역별로는 온도 차가 뚜렷하게 나타났습니다. 미국은 3.6%에서 2.4%로 큰 폭 하락한 반면, EMEA는 2.4%에서 3.1%로 오히려 상승하며 8분기 중 최고치를 기록했습니다. 직전 3개월간의 IT 예산 실제 수정치는 +0.8%로 긍정적인 ",
+          "date": "2026-04-09T13:24"
         }
       ]
     },
-    "GEV": {
-      "ticker": "GEV",
+    "META": {
+      "ticker": "META",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 6,
+      "channels": [
+        "aetherjapanresearch",
+        "d_ticker",
+        "DOC_POOL"
+      ],
+      "latestDate": "2026-04-09T22:03:41+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) 메타; 뮤즈 스파크, 메타의 AI 모델 출시에 불을 붙이다; 비중확대 및 목표주가 825달러 유지\n\n메타가 메타 슈퍼인텔리전스 랩스의 첫 번째 모델인 뮤즈 스파크를 출시하면서, 수요일 META 주가는 장중 최대 +9%(S&P 500 +3% 대비) 상승했습니다. 이 모델은 메타 역사상 가장 강력한 모델로 자리매김하며, MSL이 AI 스택을 처음부터 완전히 재구축한 결과물입니다. 뮤즈 스파크는 네이티브 멀티모달 추론 모델로, 툴 사용, 시각적 사고의 연쇄, 그리고 멀티 에이전트 오케스트레이션을 지원합니다. 스파크는 현재 새롭",
+          "date": "2026-04-09T12:55"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "BofA) 메타의 새로운 LLM 출시에서의 중요한 첫 걸음, 목표가 $885\n\nMSL 투데이로부터의 새로운 LLM 시리즈 중 첫 번째인 뮤즈 스파크\n오늘 메타는 메타 슈퍼인텔리전스 랩스가 출시하는 첫 번째 LLM인 뮤즈 스파크를 선보이며, 뮤즈 시리즈 모델의 새로운 막을 열었습니다. 이 새로운 모델은 메타 AI 및 meta.ai에서 이용 가능하며, 일부 사용자를 대상으로 한 비공개 API 프리뷰가 개방되었고, 향후 몇 주 안에 왓츠앱, 인스타그램, 페이스북, 메타 스마트 글래스 전반에 걸쳐 기존의 라마 기반 챗봇을 대체할 것으로 예",
+          "date": "2026-04-09T12:44"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) TSMC; CoWoS 및 첨단 후공정 업데이트\n\n1. CoWoS 및 SoIC 캐파 추정치 상향: 당사는 CoWoS 추정치를 소폭 상향 조정하며, TSMC의 CoWoS 캐파가 2026년 말/2027년 말/2028년 말까지 각각 115K/155K/175K wfpm에 달할 것으로 예상합니다. 또한 비(非) TSMC CoWoS 캐파는 2027년 말/2028년 말까지 약 25K/35K wfpm으로 서서히 확대될 것으로 전망합니다. CoPoS(또는 패널 레벨 패키징)는 2028년 이후 캐파 확장의 핵심 과제가 될 가능성이 높으나, ",
+          "date": "2026-04-09T02:42"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**코어위브, 메타와 $21B 규모 AI 인프라 확장 계약 ****$CRWV****\n**\n([Press](https://investors.coreweave.com/news/news-details/2026/CoreWeave-and-Meta-Announce-21-Billion-Expanded-AI-Infrastructure-Agreement/)) 메타가 코어위브와 2032년 12월까지 약 $21B 규모의 AI 클라우드 용량 공급 계약을 체결하며 기존 파트너십을 대폭 강화했다. 이번 계약을 통해 메타는 AI 추론 워크로드를 확장하고 인프",
+          "date": "2026-04-09T12:30"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**메타, 신규 AI 모델 '뮤즈 스파크' 출시 ****$META**\n\n([Official](https://ai.meta.com/blog/introducing-muse-spark-msl/)) 메타가 개인용 슈퍼지능 구현을 위해 AI 기술 요소를 통째로 재설계하여 차세대 멀티모달 추론 모델 라인업 '뮤즈(코드명 : 아보카도)'의 첫 번째 모델인 '뮤즈 스파크'를 내놓았다. 9개월 전 메타가 $14.3B를 투자해 인수한 스케일 AI의 설립자 알렉산더 왕이 최고 AI 책임자(CAIO)로서 개발을 진두지휘했다. 기존 오픈 소스 중심이었던 ",
+          "date": "2026-04-08T22:36"
+        }
+      ]
+    },
+    "TSLA": {
+      "ticker": "TSLA",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
         "aetherjapanresearch"
       ],
-      "latestDate": "2026-04-08T06:25:21+00:00",
+      "latestDate": "2026-04-09T12:01:24+00:00",
       "messages": [
         {
           "channel": "aetherjapanresearch",
-          "text": "기계 부문 시사점 — 이번 콜을 통해 당사는 CAT 및 CMI의 발전 사업에 대한 장기 수요 전망에 대해 보다 확신을 갖게 되었습니다. 향후 수년간 데이터센터 믹스가 학습에서 추론 쪽으로 더욱 이동할 것이라는 이건 씨의 언급이 특히 주목할 만하며, 이는 요구되는 예비 전력(standby power) MW 규모가 더 커지는 것을 지지할 것으로 판단합니다. 이건 씨는 시간이 지남에 따라 백업용 천연가스 사용이 증가할 것으로 예상하지만, 대규모로 안전하게 보관하기 용이한 디젤의 특성상 디젤 백업이 사라지는 일은 전혀 없을 것이라고 언급하",
-          "date": "2026-04-08T06:25"
+          "text": "스페이스X임원은 \"xAI는 경쟁사에 명백히 뒤쳐져 있다\" 발언, xAI, 스페이스X IPO를 앞두고 다시 개편중\n\n일론 머스크의 xAI가 우주 기업 스페이스X의 대형 IPO를 앞두고 양사의 통합을 강화하는 가운데, 비즈니스 인사이더가 입수한 내부 메모에 따르면 AI 기업 xAI가 또 한 번 대규모 엔지니어링 팀 개편에 돌입했습니다.\n\n**스페이스X 임원 마이클 니콜스는 회사가 경쟁사에 \"명백히 뒤처져 있다\"며, 가능한 한 빠르게 따라잡기 위한 조치를 취하고 있다고 밝혔습니다.**\n스페이스X에서 스타링크 수석 부사장을 맡고 있는 니콜",
+          "date": "2026-04-09T12:01"
         }
       ]
     },
-    "VRT": {
-      "ticker": "VRT",
+    "TSM": {
+      "ticker": "TSM",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
+      "messageCount": 3,
       "channels": [
-        "aetherjapanresearch"
+        "aetherjapanresearch",
+        "d_ticker"
       ],
-      "latestDate": "2026-04-08T06:25:21+00:00",
+      "latestDate": "2026-04-09T02:43:08+00:00",
       "messages": [
         {
           "channel": "aetherjapanresearch",
-          "text": "기계 부문 시사점 — 이번 콜을 통해 당사는 CAT 및 CMI의 발전 사업에 대한 장기 수요 전망에 대해 보다 확신을 갖게 되었습니다. 향후 수년간 데이터센터 믹스가 학습에서 추론 쪽으로 더욱 이동할 것이라는 이건 씨의 언급이 특히 주목할 만하며, 이는 요구되는 예비 전력(standby power) MW 규모가 더 커지는 것을 지지할 것으로 판단합니다. 이건 씨는 시간이 지남에 따라 백업용 천연가스 사용이 증가할 것으로 예상하지만, 대규모로 안전하게 보관하기 용이한 디젤의 특성상 디젤 백업이 사라지는 일은 전혀 없을 것이라고 언급하",
-          "date": "2026-04-08T06:25"
+          "text": "6. 2026년 AMD CoWoS 물량 소폭 하향, 2027년은 변동 없음: 당사의 이전 업데이트에서 언급한 바와 같이, MI450과 관련하여 TSMC에서 일부 지연(2nm 탑 다이 재테이프아웃 및 HBM4 특성화 과제 포함)이 발생하고 있습니다. 이에 따라 당사는 2026년 CoWoS 추정치를 소폭 하향 조정하는 반면(기존 90K에서 77K으로), 2027년 전망치는 유지합니다. AMD는 MI450 램프가 순조롭게 시작될 경우 2027년 상향 여지가 있으며, MI450에 N2 공정 노드를 활용한다는 점이 제한적인 N3P 캐파를 놓",
+          "date": "2026-04-09T02:43"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) TSMC; CoWoS 및 첨단 후공정 업데이트\n\n1. CoWoS 및 SoIC 캐파 추정치 상향: 당사는 CoWoS 추정치를 소폭 상향 조정하며, TSMC의 CoWoS 캐파가 2026년 말/2027년 말/2028년 말까지 각각 115K/155K/175K wfpm에 달할 것으로 예상합니다. 또한 비(非) TSMC CoWoS 캐파는 2027년 말/2028년 말까지 약 25K/35K wfpm으로 서서히 확대될 것으로 전망합니다. CoPoS(또는 패널 레벨 패키징)는 2028년 이후 캐파 확장의 핵심 과제가 될 가능성이 높으나, ",
+          "date": "2026-04-09T02:42"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**SK하이닉스, 스페인 '세미다이내믹스' 전략적 투자**\n\n([Official](https://semidynamics.com/ko/newsroom/press-releases)) 세미다이내믹스(Semidynamics)는 스페인 바르셀로나에 본사를 둔 '메모리 중심 인프라' 전문 팹리스 기업으로, RISC-V 기반 AI 추론에 특화된 고성능 CPU 코어를 설계한다. 기존 CPU 아키텍처를 개조하는 것이 아니라, 처음부터 '메모리 벽' 문제를 해결하기 위해 설계된 것이 특징이다. 세미다이내믹스는 메모리 지연시간이 발생하는 중에도 프로세",
+          "date": "2026-04-08T23:13"
         }
       ]
     },
-    "삼성전기": {
-      "ticker": "삼성전기",
+    "SMH": {
+      "ticker": "SMH",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
         "d_ticker"
       ],
-      "latestDate": "2026-04-08T02:14:01+00:00",
+      "latestDate": "2026-04-09T13:33:31+00:00",
       "messages": [
         {
           "channel": "d_ticker",
-          "text": "**삼성전기, '그록3 LPU'용 FC-BGA 공급**\n\n([지디넷코리아](https://zdnet.co.kr/view/?no=20260408085211)) 8일 지디넷코리아 취재에 따르면 삼성전기는 최근 그록3 LPU용 플립칩-볼그레이드어레이(FC-BGA) 양산 준비에 돌입했다. 삼성전기는 그록3 LPU용 FC-BGA의 '퍼스트 벤더(공급량 1위 업체)' 지위를 확보했고, 올 2분기부터 본격 양산할 것으로 관측된다. \n\nLPU 등 다양한 프로세서 제품이 등장함에 따라 기판 업체의 Q 사이클이 본격 시작되는 느낌입니다",
-          "date": "2026-04-08T02:14"
-        }
-      ]
-    },
-    "FRMI": {
-      "ticker": "FRMI",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "DOC_POOL"
-      ],
-      "latestDate": "2026-04-08T22:07:59+00:00",
-      "messages": [
-        {
-          "channel": "DOC_POOL",
-          "text": "**[현대건설 (000720) / 건설 / 기업분석]**\n제목: 1Q26 추정: 매출액 6.9조원, 영업이익 1,613억원(OPM 2.3%)\n작성일: 2024.04.09\n작성자: 김승준 (하나증권 리서치센터)\n투자의견: BUY (유지)\n목표주가: 240,000원 (상향)\n\n核心 요약 3개:\n\n**[1분기 실적 전망]**\n· 1분기 매출액은 6.9조원(-7.7% yoy), 영업이익은 1,613억원(-24.5% yoy)으로 추정되며, 컨센서스에 부합할 것으로 전망됩니다. 주택건축 GPM은 5.5%, 토목 8.0%, 플랜트 2.5%로 추",
-          "date": "2026-04-08T22:07"
-        }
-      ]
-    },
-    "SMR": {
-      "ticker": "SMR",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "DOC_POOL"
-      ],
-      "latestDate": "2026-04-08T22:07:59+00:00",
-      "messages": [
-        {
-          "channel": "DOC_POOL",
-          "text": "**[현대건설 (000720) / 건설 / 기업분석]**\n제목: 1Q26 추정: 매출액 6.9조원, 영업이익 1,613억원(OPM 2.3%)\n작성일: 2024.04.09\n작성자: 김승준 (하나증권 리서치센터)\n투자의견: BUY (유지)\n목표주가: 240,000원 (상향)\n\n核心 요약 3개:\n\n**[1분기 실적 전망]**\n· 1분기 매출액은 6.9조원(-7.7% yoy), 영업이익은 1,613억원(-24.5% yoy)으로 추정되며, 컨센서스에 부합할 것으로 전망됩니다. 주택건축 GPM은 5.5%, 토목 8.0%, 플랜트 2.5%로 추",
-          "date": "2026-04-08T22:07"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "[하나/소재산업재] (CERAWeek 2026 참관기) Reshaping the Energy Map: 호르무즈, 그 이후 - 윤재성, 유재선, 김현수, 김시현\n\n▶ 보고서: https://vo.la/MpWni9u\n\n\n▶ 이번 CERAWeek의 가장 큰 화두는 '에너지 안보'와 'AI와 에너지의 융합' 입니다. 특히, 이번 호르무즈 사태에 따라 1) 각국의 에너지 안보는 능동적으로 재설계 되어야 하며 2) 이 과정에서 모든 에너지원은 귀해지고 3) Energy Transition보다 'Energy Addition'이 강조되기 시작했습",
-          "date": "2026-04-08T15:02"
-        }
-      ]
-    },
-    "삼성중공업": {
-      "ticker": "삼성중공업",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "DOC_POOL"
-      ],
-      "latestDate": "2026-04-08T15:02:20+00:00",
-      "messages": [
-        {
-          "channel": "DOC_POOL",
-          "text": "[하나/소재산업재] (CERAWeek 2026 참관기) Reshaping the Energy Map: 호르무즈, 그 이후 - 윤재성, 유재선, 김현수, 김시현\n\n▶ 보고서: https://vo.la/MpWni9u\n\n\n▶ 이번 CERAWeek의 가장 큰 화두는 '에너지 안보'와 'AI와 에너지의 융합' 입니다. 특히, 이번 호르무즈 사태에 따라 1) 각국의 에너지 안보는 능동적으로 재설계 되어야 하며 2) 이 과정에서 모든 에너지원은 귀해지고 3) Energy Transition보다 'Energy Addition'이 강조되기 시작했습",
-          "date": "2026-04-08T15:02"
+          "text": "**구글, 데이터센터 CPU '인텔 제온' 채택 공식화...ASIC도 공동 개발**\n\n([Official](https://www.intc.com/news-events/press-releases/detail/1766/intel-and-google-deepen-collaboration-to-advance-ai)) 인텔과 구글은 수년간의 전략적 협력을 확대한다고 발표했다. 우선 인텔의 서버향 CPU인 제온(XEON) 제품군은 구글 클라우드의 AI 추론 및 범용 워크로드를 지속적으로 지원할 예정이며, 최신 제온 6 프로세서는 이미 구글 클",
+          "date": "2026-04-09T13:33"
         }
       ]
     }
   },
-  "totalMessages": 66,
+  "totalMessages": 62,
   "channels": [
     "Jstockclass",
     "report_figure_by_offset",
