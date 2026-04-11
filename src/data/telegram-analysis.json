@@ -1,580 +1,139 @@
 {
-  "fetchedAt": "2026-04-10T22:27:07.054410",
+  "fetchedAt": "2026-04-11T22:24:34.532067",
   "status": "ok",
   "stocks": {
-    "MSFT": {
-      "ticker": "MSFT",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 5,
-      "channels": [
-        "Jstockclass",
-        "d_ticker",
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-04-10T14:12:36+00:00",
-      "messages": [
-        {
-          "channel": "Jstockclass",
-          "text": "**마이크론 목표주가 $825로** **상향 및 2028년 성장성 낙관 (Lynx Equity)\n\n1. 목표주가 상향\n**\n• **목표주가 : **$700** **→  $825 (Street high, 약 +95% 상승 여력)\n\n**2. 공급 가시성 및 수주 상황\n**\n• **완판 범위 확대 : **경영진이 밝힌 2026년 HBM 을 넘어, 2027년까지 HBM·DDR5·lpDDR5 생산 용량 전량 확보 확인\n\n• **차기 협상 조기 착수** : 2027년 물량 할당 완료에 따라, 현재 2028년 공급 물량 및 가격 조건에 대해 주",
-          "date": "2026-04-10T13:37"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건 반도체 뉴스 코멘트\n\n오늘 많은 분들이 도쿄에서 있었던 LITE CEO 마이크 헐스턴의 낙관적인 수요 관련 발언에 대해 묻고 계십니다. 저희와 대화하는 사람들 중 마이크의 말을 의심하는 사람은 없다고 생각하며, EML 부족은 현실입니다. 그리고 우리는 여전히 잠재적으로 수요를 증가시킬 수 있는 구매자들로부터 이야기를 듣고 있습니다. 그렇긴 하지만, 뉴욕에서의 대화들을 통해 제가 느낀 점은 사람들이 이 섹터에서 나타난 큰 움직임에 대해 점점 더 불편해하고 있다는 것입니다. 어제 당사 노트에 대한 피드백을 보면, 바이사이드는 ",
-          "date": "2026-04-10T14:12"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "Citi)오라클; 오라클 AI 월드 투어 NYC, 인프라 및 앱 전반에 걸친 트랙션 개선 확인, 목표가 $320(유지)\n\n씨티의 견해\n당사는 뉴욕에서 열린 오라클 AI 월드 투어에 참석하여 10개 이상의 파트너 및 고객사와 미팅을 진행했습니다. 기조연설과 세션에서는 금융 서비스, 산업재, AI 네이티브 수직 계열에 걸친 다양한 고객 성공 사례가 소개되었으며, 인프라와 퓨전 애플리케이션 양 측면을 모두 다루었습니다. 전반적인 인상은 긍정적이었습니다. 오라클은 AI 데이터베이스와 퓨전 애플리케이션 전반에 걸쳐 AI 기능을 확장하며 OC",
-          "date": "2026-04-10T12:21"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "6. AI 네오클라우드\n네오클라우드는 하이퍼스케일러와 전통 데이터센터 운영자 사이의 중간 층위에 위치하는 가속 컴퓨팅 전용 플랫폼으로, 속도, 하드웨어 특수성, 엔지니어링 유연성, 높은 실행 리스크 수용도를 경쟁력으로 삼습니다. 비즈니스 모델은 베어메탈 GPU 렌탈에서 시작해 예약 용량 및 장기 계약, 매니지드 AI 클러스터, Training-as-a-Service, 인퍼런스 중심 모델까지 스펙트럼을 형성하며, CRWV와 NBIS, Lambda, Crusoe, IREN 등 대형 네오클라우드는 대체로 이 모델들을 혼합해 운영합니다.\n",
-          "date": "2026-04-10T11:58"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**대만 PSMC, 마이크론 HBM 공급망 진입 ****6770.TW**\n\n반도체 파운드리 전문 파워칩(PSMC)이 최근 대만 퉁뤄 공장을 마이크론에 매각 완료하고, 이를 바탕으로 HBM 공급망에 본격 진입할 계획을 발표했다. 3월 중순 퉁뤄 공장의 재산권 이전을 완료해 마이크론으로부터 $1.36B를 입금받았고, 나머지 $0.44B는 내년 말까지 지급될 예정이다. 양사는 단순 매각 관계를 넘어 HBM 파트너십까지 이어갈 예정이다. PSMC는 마이크론의 HBM 후단 웨이퍼 제조 파트너로 낙점됐다. 마이크론이 전단 공정을 담당하고, P",
-          "date": "2026-04-10T08:36"
-        }
-      ]
-    },
-    "SK하이닉스": {
-      "ticker": "SK하이닉스",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "Jstockclass",
-        "beluga_investment"
-      ],
-      "latestDate": "2026-04-10T12:16:24+00:00",
-      "messages": [
-        {
-          "channel": "Jstockclass",
-          "text": "» 메모리반도체 테마 ETF인 DRAM(Roundhill Memory ETF, 4월2일 상장)이 상장 이후 빠른 속도의 자금 유입 기조를 보이며 AUM이 2.4억달러 돌파\n\n» SK하이닉스, Micron, 삼성전자 중심으로 집중된 포트폴리오를 구성",
-          "date": "2026-04-10T12:16"
-        },
-        {
-          "channel": "beluga_investment",
-          "text": "**260410_SK하이닉스 영업이익 추정치 변화[vs. 260313] \n\n(1) 2026(F): 153.1조 → 176.7조\n\n(2) 2027(F): 186.5조 → 229.9조**",
-          "date": "2026-04-10T01:52"
-        }
-      ]
-    },
-    "삼성전자": {
-      "ticker": "삼성전자",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 6,
-      "channels": [
-        "Jstockclass",
-        "d_ticker",
-        "beluga_investment",
-        "DOC_POOL"
-      ],
-      "latestDate": "2026-04-10T13:44:56+00:00",
-      "messages": [
-        {
-          "channel": "Jstockclass",
-          "text": "» 메모리반도체 테마 ETF인 DRAM(Roundhill Memory ETF, 4월2일 상장)이 상장 이후 빠른 속도의 자금 유입 기조를 보이며 AUM이 2.4억달러 돌파\n\n» SK하이닉스, Micron, 삼성전자 중심으로 집중된 포트폴리오를 구성",
-          "date": "2026-04-10T12:16"
-        },
-        {
-          "channel": "beluga_investment",
-          "text": "**260410_삼성전자 영업이익 추정치 변화[vs. 260313] \n\n(1) 2026(F): 194.5조 → 256.2조 \n\n(2) 2027(F): 237.0조 → 327.4조**",
-          "date": "2026-04-10T01:51"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "삼성전기의 LPU향 ABF기판 공급 수는 Pod 기준 2,560개로 기존 엔비디아 NV스위치향 공급 수(1,152개)보다 2배 이상 많다고 합니다",
-          "date": "2026-04-10T00:31"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**삼성전자, 베트남에 $4B 반도체 패키징 팹 건설 계획**\n\n([Bloomberg](https://www.bloomberg.com/news/articles/2026-04-09/samsung-to-invest-4-billion-in-chip-packaging-site-in-vietnam)) 삼성전자가 베트남 타이응우옌성에 $4B를 투자해 반도체 후공정 공장 구축에 나선다. 투자는 여러 단계로 나뉘어 진행되며, 첫 번째 단계에서 $2B가 우선 투입될 예정이다. 삼성은 현재까지 베트남에 $23.2B 이상을 투자했으며, 약 9만 명의 ",
-          "date": "2026-04-09T23:47"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**트랜센드 \"2분기 DDR5 40~50% 상승 전망\" ****2451.TW**\n\n([Digitimes](https://www.digitimes.com/news/a20260409PD225/demand-transcend-ddr5-2026-ddr4.html)) 대만의 메모리 모듈 제조사 트랜센드(Transcend)의 피터 슈 회장이 \"메모리 평균 판매 가격이 일부 품목에서는 4~5배까지 급등했다\"며 \"2026년 2분기 DDR5 고정 거래가는 1분기 대비 40~50% 추가 상승할 것\"이라고 전망했다. 현재 떠돌고 있는 시중의 현물 가격 ",
-          "date": "2026-04-09T23:44"
-        }
-      ]
-    },
-    "EWY": {
-      "ticker": "EWY",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "Jstockclass"
-      ],
-      "latestDate": "2026-04-10T11:59:52+00:00",
-      "messages": [
-        {
-          "channel": "Jstockclass",
-          "text": "**외국인 수급: 선물이 주는 힌트 (한국투자)**\n\n**1. 2026년 외국인 수급 미스터리**\n\n• 한국 ETF(EWY) 및 글로벌 주식형 펀드로의 자금 유입 지속\n\n• 실제 한국 주식 시장 내 외국인은 약 54조 원 규모 순매도 중\n\n• 원화 약세 우려로 인한 이탈이라기엔 채권 순매수가 이어져 설득력 부족\n\n**2. 글로벌 연기금 및 국부펀드의 자산배분 한도 도달**\n\n• 캐나다, 네덜란드 등 국부펀드 비중 높은 국가 중심으로 순매도 상위권 위치\n\n• 한국 비중이 전략적 자산배분 한도 상단에 도달했을 가능성 제기\n\n• 아일랜드",
-          "date": "2026-04-10T11:59"
-        }
-      ]
-    },
-    "삼양식품": {
-      "ticker": "삼양식품",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "report_figure_by_offset"
-      ],
-      "latestDate": "2026-04-10T00:30:27+00:00",
-      "messages": [
-        {
-          "channel": "report_figure_by_offset",
-          "text": "미국 무역확장법 232조 관세 경감 관련주 **성과** 및 **Valuation**\n\n • 화장품: **에이피알/실리콘투/달바글로벌/코스메카코리아**\n\n • 음식료: **삼양식품/CJ제일제당/농심/풀무원**\n\n • 변압기: **HD현대일렉트릭/효성중공업/LS ELECTRIC**",
-          "date": "2026-04-10T00:30"
-        }
-      ]
-    },
-    "HD마린엔진": {
-      "ticker": "HD마린엔진",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "report_figure_by_offset"
-      ],
-      "latestDate": "2026-04-10T00:30:27+00:00",
-      "messages": [
-        {
-          "channel": "report_figure_by_offset",
-          "text": "미국 무역확장법 232조 관세 경감 관련주 **성과** 및 **Valuation**\n\n • 화장품: **에이피알/실리콘투/달바글로벌/코스메카코리아**\n\n • 음식료: **삼양식품/CJ제일제당/농심/풀무원**\n\n • 변압기: **HD현대일렉트릭/효성중공업/LS ELECTRIC**",
-          "date": "2026-04-10T00:30"
-        }
-      ]
-    },
-    "HD현대일렉": {
-      "ticker": "HD현대일렉",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "report_figure_by_offset"
-      ],
-      "latestDate": "2026-04-10T00:30:27+00:00",
-      "messages": [
-        {
-          "channel": "report_figure_by_offset",
-          "text": "미국 무역확장법 232조 관세 경감 관련주 **성과** 및 **Valuation**\n\n • 화장품: **에이피알/실리콘투/달바글로벌/코스메카코리아**\n\n • 음식료: **삼양식품/CJ제일제당/농심/풀무원**\n\n • 변압기: **HD현대일렉트릭/효성중공업/LS ELECTRIC**",
-          "date": "2026-04-10T00:30"
-        }
-      ]
-    },
-    "ORCL": {
-      "ticker": "ORCL",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-04-10T15:35:15+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "시트론 $AAOI 공매도 — $LITE의 반대 사례\n\n2주 전 $AAOI는 $85였습니다. 오늘은 $140입니다. 별 내용 없는 보도자료 하나로 시가총액이 35억 달러 증가했습니다. 이 주식은 룰렛 바퀴가 멈추면 다시 $85로 돌아가야 합니다(그래도 여전히 컨센서스를 상회하는 수준입니다).\n\n한 가지 분명히 해두겠습니다. 시트론은 AI 비관론자가 아닙니다. 어떤 아키텍처가 승리하든 모든 하이퍼스케일러가 더 많이 구매하는 광섬유 백본인 $GLW를 롱으로 보유하고 있습니다. 실제 이익과 실제 수주 잔고를 보유한 엔비디아의 선택받은 파트",
-          "date": "2026-04-10T15:35"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "Citi)오라클; 오라클 AI 월드 투어 NYC, 인프라 및 앱 전반에 걸친 트랙션 개선 확인, 목표가 $320(유지)\n\n씨티의 견해\n당사는 뉴욕에서 열린 오라클 AI 월드 투어에 참석하여 10개 이상의 파트너 및 고객사와 미팅을 진행했습니다. 기조연설과 세션에서는 금융 서비스, 산업재, AI 네이티브 수직 계열에 걸친 다양한 고객 성공 사례가 소개되었으며, 인프라와 퓨전 애플리케이션 양 측면을 모두 다루었습니다. 전반적인 인상은 긍정적이었습니다. 오라클은 AI 데이터베이스와 퓨전 애플리케이션 전반에 걸쳐 AI 기능을 확장하며 OC",
-          "date": "2026-04-10T12:21"
-        }
-      ]
-    },
-    "AMZN": {
-      "ticker": "AMZN",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "d_ticker",
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-04-10T15:35:15+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "시트론 $AAOI 공매도 — $LITE의 반대 사례\n\n2주 전 $AAOI는 $85였습니다. 오늘은 $140입니다. 별 내용 없는 보도자료 하나로 시가총액이 35억 달러 증가했습니다. 이 주식은 룰렛 바퀴가 멈추면 다시 $85로 돌아가야 합니다(그래도 여전히 컨센서스를 상회하는 수준입니다).\n\n한 가지 분명히 해두겠습니다. 시트론은 AI 비관론자가 아닙니다. 어떤 아키텍처가 승리하든 모든 하이퍼스케일러가 더 많이 구매하는 광섬유 백본인 $GLW를 롱으로 보유하고 있습니다. 실제 이익과 실제 수주 잔고를 보유한 엔비디아의 선택받은 파트",
-          "date": "2026-04-10T15:35"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**아마존, 미시시피 데이터 센터에 $25B 투자\n**\n([Official](https://www.aboutamazon.com/news/company-news/amazon-25-billion-mississippi-data-centers)) 아마존이 미시시피주에 총 $25B를 투자해 데이터 센터를 확장하고 2,000개의 고숙련 일자리를 창출한다는 계획을 발표했다. 이는 미시시피 역사상 최대 규모의 자본 투자다. 전력 인프라 비용을 전액 부담함으로써 기존 전기 요금 인상 없이 그리드 신뢰성을 50% 향상시키고 $300M 규모의 전력망 ",
-          "date": "2026-04-09T22:31"
-        }
-      ]
-    },
-    "NVDA": {
-      "ticker": "NVDA",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 8,
-      "channels": [
-        "d_ticker",
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-04-10T15:35:15+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "시트론 $AAOI 공매도 — $LITE의 반대 사례\n\n2주 전 $AAOI는 $85였습니다. 오늘은 $140입니다. 별 내용 없는 보도자료 하나로 시가총액이 35억 달러 증가했습니다. 이 주식은 룰렛 바퀴가 멈추면 다시 $85로 돌아가야 합니다(그래도 여전히 컨센서스를 상회하는 수준입니다).\n\n한 가지 분명히 해두겠습니다. 시트론은 AI 비관론자가 아닙니다. 어떤 아키텍처가 승리하든 모든 하이퍼스케일러가 더 많이 구매하는 광섬유 백본인 $GLW를 롱으로 보유하고 있습니다. 실제 이익과 실제 수주 잔고를 보유한 엔비디아의 선택받은 파트",
-          "date": "2026-04-10T15:35"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건 반도체 뉴스 코멘트\n\n오늘 많은 분들이 도쿄에서 있었던 LITE CEO 마이크 헐스턴의 낙관적인 수요 관련 발언에 대해 묻고 계십니다. 저희와 대화하는 사람들 중 마이크의 말을 의심하는 사람은 없다고 생각하며, EML 부족은 현실입니다. 그리고 우리는 여전히 잠재적으로 수요를 증가시킬 수 있는 구매자들로부터 이야기를 듣고 있습니다. 그렇긴 하지만, 뉴욕에서의 대화들을 통해 제가 느낀 점은 사람들이 이 섹터에서 나타난 큰 움직임에 대해 점점 더 불편해하고 있다는 것입니다. 어제 당사 노트에 대한 피드백을 보면, 바이사이드는 ",
-          "date": "2026-04-10T14:12"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "6. AI 네오클라우드\n네오클라우드는 하이퍼스케일러와 전통 데이터센터 운영자 사이의 중간 층위에 위치하는 가속 컴퓨팅 전용 플랫폼으로, 속도, 하드웨어 특수성, 엔지니어링 유연성, 높은 실행 리스크 수용도를 경쟁력으로 삼습니다. 비즈니스 모델은 베어메탈 GPU 렌탈에서 시작해 예약 용량 및 장기 계약, 매니지드 AI 클러스터, Training-as-a-Service, 인퍼런스 중심 모델까지 스펙트럼을 형성하며, CRWV와 NBIS, Lambda, Crusoe, IREN 등 대형 네오클라우드는 대체로 이 모델들을 혼합해 운영합니다.\n",
-          "date": "2026-04-10T11:58"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "Cantor) \"AI's Infrastructure Layer; The Backbone of Intelligence\" \n\n1. 전체 투자 논지\nCantor는 이번 보고서를 통해 \"AI Infrastructure\"라는 신규 섹터를 공식 출범시켰으며, 과거 Bitcoin 마이닝 커버리지를 해체하고 데이터센터와 네오클라우드 섹터의 19개 종목을 한 데 묶어 신규/재개 커버리지(CRWV, FRMI, WYFI, NBIS, DLR, EQIX 등 6종)를 개시했습니다. 핵심 논지는 단순합니다. AI는 데이터센터 없이는 존재할 수 없고, 데이터센",
-          "date": "2026-04-10T11:58"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건) 아시아 반도체; 2월 WSTS 데이터: AI 반도체 및 메모리, 전년 대비 최강 매출 성장 기록\n\n2월 전체 반도체 매출은 전년 대비 86% 증가했으며(1월 58% YoY 대비), 로직 반도체는 전년 대비 26% 증가(1월 30% YoY), 메모리는 전년 대비 259% 증가(1월 160% YoY)했습니다. 반도체 부문은 1994년 이후 2월 기준 최강의 성장세를 기록했으며(이전 최고치는 1995년 7월의 77%), 7개월 연속 가속화 흐름을 이어가고 있습니다. 이는 주로 1) 에이전틱 AI 워크로드의 강력한 성장에 힘입은",
-          "date": "2026-04-10T06:45"
-        }
-      ]
-    },
-    "MRVL": {
-      "ticker": "MRVL",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-04-10T14:12:36+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건 반도체 뉴스 코멘트\n\n오늘 많은 분들이 도쿄에서 있었던 LITE CEO 마이크 헐스턴의 낙관적인 수요 관련 발언에 대해 묻고 계십니다. 저희와 대화하는 사람들 중 마이크의 말을 의심하는 사람은 없다고 생각하며, EML 부족은 현실입니다. 그리고 우리는 여전히 잠재적으로 수요를 증가시킬 수 있는 구매자들로부터 이야기를 듣고 있습니다. 그렇긴 하지만, 뉴욕에서의 대화들을 통해 제가 느낀 점은 사람들이 이 섹터에서 나타난 큰 움직임에 대해 점점 더 불편해하고 있다는 것입니다. 어제 당사 노트에 대한 피드백을 보면, 바이사이드는 ",
-          "date": "2026-04-10T14:12"
-        }
-      ]
-    },
-    "GOOG": {
-      "ticker": "GOOG",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
-      "channels": [
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-04-10T14:12:36+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건 반도체 뉴스 코멘트\n\n오늘 많은 분들이 도쿄에서 있었던 LITE CEO 마이크 헐스턴의 낙관적인 수요 관련 발언에 대해 묻고 계십니다. 저희와 대화하는 사람들 중 마이크의 말을 의심하는 사람은 없다고 생각하며, EML 부족은 현실입니다. 그리고 우리는 여전히 잠재적으로 수요를 증가시킬 수 있는 구매자들로부터 이야기를 듣고 있습니다. 그렇긴 하지만, 뉴욕에서의 대화들을 통해 제가 느낀 점은 사람들이 이 섹터에서 나타난 큰 움직임에 대해 점점 더 불편해하고 있다는 것입니다. 어제 당사 노트에 대한 피드백을 보면, 바이사이드는 ",
-          "date": "2026-04-10T14:12"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "6. AI 네오클라우드\n네오클라우드는 하이퍼스케일러와 전통 데이터센터 운영자 사이의 중간 층위에 위치하는 가속 컴퓨팅 전용 플랫폼으로, 속도, 하드웨어 특수성, 엔지니어링 유연성, 높은 실행 리스크 수용도를 경쟁력으로 삼습니다. 비즈니스 모델은 베어메탈 GPU 렌탈에서 시작해 예약 용량 및 장기 계약, 매니지드 AI 클러스터, Training-as-a-Service, 인퍼런스 중심 모델까지 스펙트럼을 형성하며, CRWV와 NBIS, Lambda, Crusoe, IREN 등 대형 네오클라우드는 대체로 이 모델들을 혼합해 운영합니다.\n",
-          "date": "2026-04-10T11:58"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "미즈호) 알파벳; Anthropic 및 수주잔고, GCP 매출의 큰 상승 여력 시사; 추정치 및 목표주가 $420으로 상향\n\n저희는 (1) Anthropic(비상장) 파트너십 관련 최신 신호와 (2) 보다 정교한 수주잔고 분석을 바탕으로, 이미 시장 컨센서스를 상회하는 구글 클라우드 추정치를 의미 있게 상향하고 목표주가를 420달러로 올립니다. 시장 컨센서스는 매출 상승 여력과 마진 레버리지를 지나치게 낮게 반영하고 있으며, 특히 TPU 판매가 자산경량형 로열티 유사 수익구조로 전환될 경우 더욱 그러합니다. 강세 시나리오에서 클라우",
-          "date": "2026-04-10T04:37"
-        }
-      ]
-    },
-    "AVGO": {
-      "ticker": "AVGO",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-04-10T14:12:36+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건 반도체 뉴스 코멘트\n\n오늘 많은 분들이 도쿄에서 있었던 LITE CEO 마이크 헐스턴의 낙관적인 수요 관련 발언에 대해 묻고 계십니다. 저희와 대화하는 사람들 중 마이크의 말을 의심하는 사람은 없다고 생각하며, EML 부족은 현실입니다. 그리고 우리는 여전히 잠재적으로 수요를 증가시킬 수 있는 구매자들로부터 이야기를 듣고 있습니다. 그렇긴 하지만, 뉴욕에서의 대화들을 통해 제가 느낀 점은 사람들이 이 섹터에서 나타난 큰 움직임에 대해 점점 더 불편해하고 있다는 것입니다. 어제 당사 노트에 대한 피드백을 보면, 바이사이드는 ",
-          "date": "2026-04-10T14:12"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "미즈호) 알파벳; Anthropic 및 수주잔고, GCP 매출의 큰 상승 여력 시사; 추정치 및 목표주가 $420으로 상향\n\n저희는 (1) Anthropic(비상장) 파트너십 관련 최신 신호와 (2) 보다 정교한 수주잔고 분석을 바탕으로, 이미 시장 컨센서스를 상회하는 구글 클라우드 추정치를 의미 있게 상향하고 목표주가를 420달러로 올립니다. 시장 컨센서스는 매출 상승 여력과 마진 레버리지를 지나치게 낮게 반영하고 있으며, 특히 TPU 판매가 자산경량형 로열티 유사 수익구조로 전환될 경우 더욱 그러합니다. 강세 시나리오에서 클라우",
-          "date": "2026-04-10T04:37"
-        }
-      ]
-    },
-    "META": {
-      "ticker": "META",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 4,
-      "channels": [
-        "d_ticker",
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-04-10T14:15:42+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건 반도체 뉴스 코멘트\n\n오늘 많은 분들이 도쿄에서 있었던 LITE CEO 마이크 헐스턴의 낙관적인 수요 관련 발언에 대해 묻고 계십니다. 저희와 대화하는 사람들 중 마이크의 말을 의심하는 사람은 없다고 생각하며, EML 부족은 현실입니다. 그리고 우리는 여전히 잠재적으로 수요를 증가시킬 수 있는 구매자들로부터 이야기를 듣고 있습니다. 그렇긴 하지만, 뉴욕에서의 대화들을 통해 제가 느낀 점은 사람들이 이 섹터에서 나타난 큰 움직임에 대해 점점 더 불편해하고 있다는 것입니다. 어제 당사 노트에 대한 피드백을 보면, 바이사이드는 ",
-          "date": "2026-04-10T14:12"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "번스타인 리서치) 메타: \"Muse Spark, 투자자들의 AI 기대감에 불을 지필 수 있을까?\"\n\n투자의견: Outperform / 목표주가: $900 / 현재가: $612.42\n\n메타는 자사의 Superintelligence Labs 부문을 통해 새로운 모델 패밀리 \"Muse\"의 첫 번째 프론티어급 모델인 \"Muse Spark\"를 공개했습니다. 이는 2025년 4월 Llama 4 Maverick 이후 메타가 선보이는 첫 번째 프론티어급 모델로, Anthropic의 Mythos가 정식 출시되지 못하고 OpenAI의 차기 모델 발표",
-          "date": "2026-04-10T12:57"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "6. AI 네오클라우드\n네오클라우드는 하이퍼스케일러와 전통 데이터센터 운영자 사이의 중간 층위에 위치하는 가속 컴퓨팅 전용 플랫폼으로, 속도, 하드웨어 특수성, 엔지니어링 유연성, 높은 실행 리스크 수용도를 경쟁력으로 삼습니다. 비즈니스 모델은 베어메탈 GPU 렌탈에서 시작해 예약 용량 및 장기 계약, 매니지드 AI 클러스터, Training-as-a-Service, 인퍼런스 중심 모델까지 스펙트럼을 형성하며, CRWV와 NBIS, Lambda, Crusoe, IREN 등 대형 네오클라우드는 대체로 이 모델들을 혼합해 운영합니다.\n",
-          "date": "2026-04-10T11:58"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**코어위브, 앤스로픽과 다년간 계약 체결 ****$CRWV**\n\n([Press](http://anthropic.com/)) 코어위브는 앤스로픽의 AI 모델인 '클로드(Claude)' 제품군의 개발과 배포를 지원하기 위한 다년 간의 인프라 공급 계약을 체결했다. 이번 계약을 통해 확보된 컴퓨팅 자원은 올해 하반기부터 가동될 예정이다. 양사는 초기 단계적인 인프라 구축에 집중한 뒤, 향후 협력 범위를 점진적으로 확장할 계획이다. 앤스로픽이 합류함에 따라 전 세계 상위 10대 AI 모델 제공업체 중 9곳이 코어위브의 플랫폼을 이용하게 ",
-          "date": "2026-04-10T14:15"
-        }
-      ]
-    },
-    "GOOGL": {
-      "ticker": "GOOGL",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 5,
-      "channels": [
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-04-10T14:12:36+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건 반도체 뉴스 코멘트\n\n오늘 많은 분들이 도쿄에서 있었던 LITE CEO 마이크 헐스턴의 낙관적인 수요 관련 발언에 대해 묻고 계십니다. 저희와 대화하는 사람들 중 마이크의 말을 의심하는 사람은 없다고 생각하며, EML 부족은 현실입니다. 그리고 우리는 여전히 잠재적으로 수요를 증가시킬 수 있는 구매자들로부터 이야기를 듣고 있습니다. 그렇긴 하지만, 뉴욕에서의 대화들을 통해 제가 느낀 점은 사람들이 이 섹터에서 나타난 큰 움직임에 대해 점점 더 불편해하고 있다는 것입니다. 어제 당사 노트에 대한 피드백을 보면, 바이사이드는 ",
-          "date": "2026-04-10T14:12"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "BofA) 구글; AI 전쟁: 클로드 또 한 번의 강한 달, 제미나이의 강한 성장세 지속. 목표가 $370\n\n1. 트래픽: 제미나이 전월 대비 +8%, 챗GPT -6%, 클로드 +90%\n3월 기준 Similarweb에 따르면, 구글의 글로벌 일평균 웹 방문자 수는 전년 대비 3% 증가한 28억 명, 챗GPT는 전년 대비 26% 증가한 1억 8,500만 명, 제미나이는 659% 증가한 8,400만 명, 클로드는 521% 증가한 2,000만 명을 기록했습니다. 전월 대비로는 구글 -3%, 챗GPT -6%, 제미나이 +8%, 클로드 +9",
-          "date": "2026-04-10T12:26"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "Citi)오라클; 오라클 AI 월드 투어 NYC, 인프라 및 앱 전반에 걸친 트랙션 개선 확인, 목표가 $320(유지)\n\n씨티의 견해\n당사는 뉴욕에서 열린 오라클 AI 월드 투어에 참석하여 10개 이상의 파트너 및 고객사와 미팅을 진행했습니다. 기조연설과 세션에서는 금융 서비스, 산업재, AI 네이티브 수직 계열에 걸친 다양한 고객 성공 사례가 소개되었으며, 인프라와 퓨전 애플리케이션 양 측면을 모두 다루었습니다. 전반적인 인상은 긍정적이었습니다. 오라클은 AI 데이터베이스와 퓨전 애플리케이션 전반에 걸쳐 AI 기능을 확장하며 OC",
-          "date": "2026-04-10T12:21"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건) 아시아 반도체; 2월 WSTS 데이터: AI 반도체 및 메모리, 전년 대비 최강 매출 성장 기록\n\n2월 전체 반도체 매출은 전년 대비 86% 증가했으며(1월 58% YoY 대비), 로직 반도체는 전년 대비 26% 증가(1월 30% YoY), 메모리는 전년 대비 259% 증가(1월 160% YoY)했습니다. 반도체 부문은 1994년 이후 2월 기준 최강의 성장세를 기록했으며(이전 최고치는 1995년 7월의 77%), 7개월 연속 가속화 흐름을 이어가고 있습니다. 이는 주로 1) 에이전틱 AI 워크로드의 강력한 성장에 힘입은",
-          "date": "2026-04-10T06:45"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "미즈호) 알파벳; Anthropic 및 수주잔고, GCP 매출의 큰 상승 여력 시사; 추정치 및 목표주가 $420으로 상향\n\n저희는 (1) Anthropic(비상장) 파트너십 관련 최신 신호와 (2) 보다 정교한 수주잔고 분석을 바탕으로, 이미 시장 컨센서스를 상회하는 구글 클라우드 추정치를 의미 있게 상향하고 목표주가를 420달러로 올립니다. 시장 컨센서스는 매출 상승 여력과 마진 레버리지를 지나치게 낮게 반영하고 있으며, 특히 TPU 판매가 자산경량형 로열티 유사 수익구조로 전환될 경우 더욱 그러합니다. 강세 시나리오에서 클라우",
-          "date": "2026-04-10T04:37"
-        }
-      ]
-    },
-    "APP": {
-      "ticker": "APP",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-04-10T12:57:38+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "번스타인 리서치) 메타: \"Muse Spark, 투자자들의 AI 기대감에 불을 지필 수 있을까?\"\n\n투자의견: Outperform / 목표주가: $900 / 현재가: $612.42\n\n메타는 자사의 Superintelligence Labs 부문을 통해 새로운 모델 패밀리 \"Muse\"의 첫 번째 프론티어급 모델인 \"Muse Spark\"를 공개했습니다. 이는 2025년 4월 Llama 4 Maverick 이후 메타가 선보이는 첫 번째 프론티어급 모델로, Anthropic의 Mythos가 정식 출시되지 못하고 OpenAI의 차기 모델 발표",
-          "date": "2026-04-10T12:57"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "코어위브, 35억 달러 규모 전환사채 발행 규모 확대 \n\n코어위브(CoreWeave, Nasdaq: CRWV)는 2032년 만기 1.75% 전환사채(convertible senior notes)를 총 35억 달러 규모로 발행한다고 발표했습니다. 당초 30억 달러 규모로 공시했으나 이번에 상향 조정된 것이며, 초기 매입자들에게는 추가로 최대 5억 달러어치를 매입할 수 있는 옵션도 부여되었습니다. 결제 예정일은 2026년 4월 14일입니다.\n\n사채의 이자율은 연 1.75%로 반기마다 현금 지급되며, 만기는 2032년 10월 1일입니다.",
-          "date": "2026-04-10T12:07"
-        }
-      ]
-    },
-    "TEM": {
-      "ticker": "TEM",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-04-10T12:57:38+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "번스타인 리서치) 메타: \"Muse Spark, 투자자들의 AI 기대감에 불을 지필 수 있을까?\"\n\n투자의견: Outperform / 목표주가: $900 / 현재가: $612.42\n\n메타는 자사의 Superintelligence Labs 부문을 통해 새로운 모델 패밀리 \"Muse\"의 첫 번째 프론티어급 모델인 \"Muse Spark\"를 공개했습니다. 이는 2025년 4월 Llama 4 Maverick 이후 메타가 선보이는 첫 번째 프론티어급 모델로, Anthropic의 Mythos가 정식 출시되지 못하고 OpenAI의 차기 모델 발표",
-          "date": "2026-04-10T12:57"
-        }
-      ]
-    },
     "BE": {
       "ticker": "BE",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 6,
+      "messageCount": 4,
       "channels": [
-        "d_ticker",
-        "aetherjapanresearch"
+        "report_figure_by_offset",
+        "aetherjapanresearch",
+        "d_ticker"
       ],
-      "latestDate": "2026-04-10T12:57:38+00:00",
+      "latestDate": "2026-04-11T14:42:05+00:00",
       "messages": [
         {
-          "channel": "aetherjapanresearch",
-          "text": "번스타인 리서치) 메타: \"Muse Spark, 투자자들의 AI 기대감에 불을 지필 수 있을까?\"\n\n투자의견: Outperform / 목표주가: $900 / 현재가: $612.42\n\n메타는 자사의 Superintelligence Labs 부문을 통해 새로운 모델 패밀리 \"Muse\"의 첫 번째 프론티어급 모델인 \"Muse Spark\"를 공개했습니다. 이는 2025년 4월 Llama 4 Maverick 이후 메타가 선보이는 첫 번째 프론티어급 모델로, Anthropic의 Mythos가 정식 출시되지 못하고 OpenAI의 차기 모델 발표",
-          "date": "2026-04-10T12:57"
+          "channel": "report_figure_by_offset",
+          "text": "국내 **ESS 부품업체** 현황\n\n • **서진시스템**: ESS 인클로저 생산, 3개의 북미 공장 순차적으로 가동하며 **ESS향 매출 확대 기대**\n\n • **한중엔시에스**: BESS 수냉식 냉각 시스템 제조, 현재 **삼성SDI ESS(SBB) 제품 단독 납품**, 27년 고객사용 삼성SDI 미국 현지 공장 양산 개시하며 **ESS향 성장 업사이드 확대 **및 **수주 경쟁력** 확보\n\n • **신성에스티**: BESS 관련 부품 제조, 올 5월 가동 예정인 북미 현지 공장에서 **LGES에 ESS용 수냉식 냉각 부품(히트",
+          "date": "2026-04-11T07:35"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "⚡️⚡️⚡️⚡️⚡️⚡️\n파키스탄 언론, 이란 대표단 협상 위해 도착 확인. 이란과 미국 간 주요 협상, 내일 진행 예정.\n\nPAKISTANI MEDIA CONFIRMS ARRIVAL OF THE IRANIAN DELEGATION FOR NEGOTIATIONS; THE MAIN NEGOTIATIONS BETWEEN IRAN AND AMERICA WILL BE HELD TOMORROW\n\n오잉 뭐지...일단 이런 뉴스가 떠도네요.\n\n파키스탄 시간은 오후 5시 25분입니다.",
-          "date": "2026-04-10T12:26"
+          "text": "WSJ) 트럼프, 퇴임 전 참모진에 대한 대규모 사면 약속\n최근 회의에서 대통령은 오벌 오피스 반경 200피트 이내에 있는 사람들에게 사면을 해주겠다고 말했다고, 해당 발언을 접한 관계자들이 전했다\n\nhttps://www.wsj.com/politics/policy/trump-promises-mass-pardons-to-staff-before-leaving-office-d7274d32?mod=hp_lead_pos3",
+          "date": "2026-04-11T14:42"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "Citi)오라클; 오라클 AI 월드 투어 NYC, 인프라 및 앱 전반에 걸친 트랙션 개선 확인, 목표가 $320(유지)\n\n씨티의 견해\n당사는 뉴욕에서 열린 오라클 AI 월드 투어에 참석하여 10개 이상의 파트너 및 고객사와 미팅을 진행했습니다. 기조연설과 세션에서는 금융 서비스, 산업재, AI 네이티브 수직 계열에 걸친 다양한 고객 성공 사례가 소개되었으며, 인프라와 퓨전 애플리케이션 양 측면을 모두 다루었습니다. 전반적인 인상은 긍정적이었습니다. 오라클은 AI 데이터베이스와 퓨전 애플리케이션 전반에 걸쳐 AI 기능을 확장하며 OC",
-          "date": "2026-04-10T12:21"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "📈 주요 뉴스 브리핑\n\n1. **NOVOROSSIYSK OIL LOADINGS HAD BEEN HALTED FOR SEVERAL DAYS || OIL TANKER MOORS AT NOVOROSSIYSK AFTER ATTACKS - SHIP TRACKING**\n• 요약: 노보로시스크 항만의 원유 선적이 수일간 중단됐고, 공격 이후 유조선이 현지에 정박한 것으로 전해졌다. 흑해 원유 수출 흐름이 다시 흔들리면서 공급 차질 우려가 커지고 있다. 전쟁 리스크가 물류 인프라에 직접 반영되는 장면이다.\n• 시장 영향: 원유 공급 불안이 이어지",
-          "date": "2026-04-10T12:06"
+          "text": "미즈호) Oracle; Oracle AI World Tour in NYC - 주요 내용. 아웃퍼폼/목표가 $320\n\n당사는 오늘 일찍 뉴욕에서 열린 Oracle의 AI World Tour에 참석하였으며, (a) Oracle의 OCI 인프라가 RoCE 네트워킹 아키텍처 및 오프박스 가상화(off-box virtualization)에 힘입어 하이퍼스케일러 및 네오클라우드가 쉽게 복제하기 어려운 방식으로 내구성 있는 차별화를 유지하고 있다는 확신이 강화되었고(당사의 최근 Beyond the GPU 노트에서 개요를 제시한 바 있음), (b",
+          "date": "2026-04-11T10:53"
         },
         {
           "channel": "d_ticker",
-          "text": "**삼성전자, 베트남에 $4B 반도체 패키징 팹 건설 계획**\n\n([Bloomberg](https://www.bloomberg.com/news/articles/2026-04-09/samsung-to-invest-4-billion-in-chip-packaging-site-in-vietnam)) 삼성전자가 베트남 타이응우옌성에 $4B를 투자해 반도체 후공정 공장 구축에 나선다. 투자는 여러 단계로 나뉘어 진행되며, 첫 번째 단계에서 $2B가 우선 투입될 예정이다. 삼성은 현재까지 베트남에 $23.2B 이상을 투자했으며, 약 9만 명의 ",
-          "date": "2026-04-09T23:47"
+          "text": "**PJM, 데이터센터 전력 폭증 대비 15GW 긴급 확보 추진**\n\n([Bloomberg](https://www.bloomberg.com/news/articles/2026-04-10/pjm-targets-15-gigawatts-of-new-power-to-feed-data-center-boom)) 미국 동부 13개 주 전력망을 운영하는 PJM이 AI 데이터센터 붐으로 인한 전력 부족 사태에 대응하기 위해 15기가와트(GW) 규모의 신규 전력을 확보하는 긴급 제안을 발표했다. 이는 대형 원자력 발전소 약 15기에 해당하는 엄청난 양",
+          "date": "2026-04-11T14:06"
+        }
+      ]
+    },
+    "에스티팜": {
+      "ticker": "에스티팜",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "report_figure_by_offset"
+      ],
+      "latestDate": "2026-04-11T07:35:37+00:00",
+      "messages": [
+        {
+          "channel": "report_figure_by_offset",
+          "text": "국내 **ESS 부품업체** 현황\n\n • **서진시스템**: ESS 인클로저 생산, 3개의 북미 공장 순차적으로 가동하며 **ESS향 매출 확대 기대**\n\n • **한중엔시에스**: BESS 수냉식 냉각 시스템 제조, 현재 **삼성SDI ESS(SBB) 제품 단독 납품**, 27년 고객사용 삼성SDI 미국 현지 공장 양산 개시하며 **ESS향 성장 업사이드 확대 **및 **수주 경쟁력** 확보\n\n • **신성에스티**: BESS 관련 부품 제조, 올 5월 가동 예정인 북미 현지 공장에서 **LGES에 ESS용 수냉식 냉각 부품(히트",
+          "date": "2026-04-11T07:35"
+        }
+      ]
+    },
+    "CRWD": {
+      "ticker": "CRWD",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-04-11T15:58:34+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Citi) Crowdstrike(CRWD.O) — SVP 카운터 어드버서리 운영 담당자와의 대화 주요 내용\n\n시티의 견해\n당사는 CRWD의 카운터 어드버서리 운영 담당 SVP와의 만찬에 참석하여 Project Glasswing 파트너십 관련 경쟁적 시사점/기회 및 토큰 할당/소비 역학, AI 위협 환경 및 주요 공격자 접근 방식, 그리고 AI/에이전틱 시대에 가장 중요한 고객 니즈에 대한 통찰을 얻었습니다. 당사의 견해로는, 이번 대화가 사이버 환경 리더십과 방대한 텔레메트리 접근성에서 비롯된 CRWD의 인텔/데이터/파트너십 우위를",
+          "date": "2026-04-11T15:58"
         }
       ]
     },
     "AAPL": {
       "ticker": "AAPL",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
+      "messageCount": 4,
       "channels": [
+        "DOC_POOL",
         "aetherjapanresearch"
       ],
-      "latestDate": "2026-04-10T12:21:34+00:00",
+      "latestDate": "2026-04-11T13:28:03+00:00",
       "messages": [
         {
           "channel": "aetherjapanresearch",
-          "text": "Citi)오라클; 오라클 AI 월드 투어 NYC, 인프라 및 앱 전반에 걸친 트랙션 개선 확인, 목표가 $320(유지)\n\n씨티의 견해\n당사는 뉴욕에서 열린 오라클 AI 월드 투어에 참석하여 10개 이상의 파트너 및 고객사와 미팅을 진행했습니다. 기조연설과 세션에서는 금융 서비스, 산업재, AI 네이티브 수직 계열에 걸친 다양한 고객 성공 사례가 소개되었으며, 인프라와 퓨전 애플리케이션 양 측면을 모두 다루었습니다. 전반적인 인상은 긍정적이었습니다. 오라클은 AI 데이터베이스와 퓨전 애플리케이션 전반에 걸쳐 AI 기능을 확장하며 OC",
-          "date": "2026-04-10T12:21"
+          "text": "Citi) 대만 전자 및 반도체 — 대만 월간 트래커 및 AI 최신 동향 — 다양한 하위 섹터에서 강한 전년 대비 성장\n\n시티의 견해\n거시적 불확실성과 지정학적 갈등에 따른 시장 혼란에도 불구하고, 당사는 대부분의 대만 테크 기업, 특히 AI 공급망에서 강한 1Q26 매출 모멘텀을 확인합니다. 당사 커버리지 내에서 가장 강한 모멘텀은 테스팅 인터페이스 및 서버 관련 기업들로, 1Q26 매출이 전년 대비 60% 이상 성장하였으며, 열관리 부품은 1Q26 매출이 전년 대비 거의 두 배에 달하는 성장을 보이고 있습니다. 전분기 대비 기준",
+          "date": "2026-04-11T13:01"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "JP모건) TSMC; 1Q26 매출 가이던스 상단 달성; 임박한 실적 발표 콜에서 강한 GM 및 건전한 2026 전망 예상\n\n1. 1Q26 매출 가이던스 상단 부합; 총마진은 가이던스 초과 가능성: TSMC의 3월 매출은 NT$4,150억으로 전월 대비 31%, 전년 대비 45% 증가했습니다. 1Q26 잠정 매출은 NT$1조 1,340억으로 전분기 대비 8%, 전년 대비 35% 증가하여 JPMe/컨센서스 추정치에 부합하였으며, 달러 기준 1Q26 가이던스 상단(US$346~358억)을 충족했습니다. 당사는 강한 1Q26 매출이 주로",
-          "date": "2026-04-10T12:12"
+          "text": "Citi) Software’s $100B+ AI Shock; Turning More Selective\n\n씨티는 1분기 실적 시즌과 그 이후를 앞두고 파운데이션 모델 선두 업체들의 매출이 포물선 형태로 급증하는 가운데 소프트웨어 업종에 대해 보다 선별적인 접근으로 전환하며, 애플리케이션 소프트웨어의 아키텍처, 비즈니스 모델 지속가능성, 그리고 잔존가치(terminal value)에 대한 우려가 향후 수개월간 심화될 위험이 있다고 진단합니다. 핵심 근거로 비상장 AI 기업들이 향후 수년간 1,000억 달러 이상의 신규 매출을 창출할 것",
+          "date": "2026-04-11T11:15"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "JP모건) 아시아 반도체; 2월 WSTS 데이터: AI 반도체 및 메모리, 전년 대비 최강 매출 성장 기록\n\n2월 전체 반도체 매출은 전년 대비 86% 증가했으며(1월 58% YoY 대비), 로직 반도체는 전년 대비 26% 증가(1월 30% YoY), 메모리는 전년 대비 259% 증가(1월 160% YoY)했습니다. 반도체 부문은 1994년 이후 2월 기준 최강의 성장세를 기록했으며(이전 최고치는 1995년 7월의 77%), 7개월 연속 가속화 흐름을 이어가고 있습니다. 이는 주로 1) 에이전틱 AI 워크로드의 강력한 성장에 힘입은",
-          "date": "2026-04-10T06:45"
+          "text": "미즈호) Oracle; Oracle AI World Tour in NYC - 주요 내용. 아웃퍼폼/목표가 $320\n\n당사는 오늘 일찍 뉴욕에서 열린 Oracle의 AI World Tour에 참석하였으며, (a) Oracle의 OCI 인프라가 RoCE 네트워킹 아키텍처 및 오프박스 가상화(off-box virtualization)에 힘입어 하이퍼스케일러 및 네오클라우드가 쉽게 복제하기 어려운 방식으로 내구성 있는 차별화를 유지하고 있다는 확신이 강화되었고(당사의 최근 Beyond the GPU 노트에서 개요를 제시한 바 있음), (b",
+          "date": "2026-04-11T10:53"
+        },
+        {
+          "channel": "DOC_POOL",
+          "text": "**[디지털자산/AI x 블록체인]**\n제목: AI x 블록체인 컨버전스\n작성일: 2026.04.09\n작성자: 최윤영 (한화투자증권)\n\n**[AI와 블록체인의 결합 배경 및 역할]**\n· AI 산업의 핵심 병목인 연산 자원(GPU) 부족과 인프라 집중 문제를 해결하기 위해 블록체인 기반 탈중앙화 인프라가 대안으로 부상하고 있으며, 유휴 자원을 연결하는 분산형 컴퓨팅 모델이 주목받음\n· AI 에이전트의 경제 활동이 본격화됨에 따라 신원·평판 검증 및 결제 인프라에 대한 수요가 급증하고 있으며, x402(결제)와 ERC-8004(신원·",
+          "date": "2026-04-11T13:28"
         }
       ]
     },
     "TSM": {
       "ticker": "TSM",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
-      "channels": [
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-04-10T12:12:48+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건) TSMC; 1Q26 매출 가이던스 상단 달성; 임박한 실적 발표 콜에서 강한 GM 및 건전한 2026 전망 예상\n\n1. 1Q26 매출 가이던스 상단 부합; 총마진은 가이던스 초과 가능성: TSMC의 3월 매출은 NT$4,150억으로 전월 대비 31%, 전년 대비 45% 증가했습니다. 1Q26 잠정 매출은 NT$1조 1,340억으로 전분기 대비 8%, 전년 대비 35% 증가하여 JPMe/컨센서스 추정치에 부합하였으며, 달러 기준 1Q26 가이던스 상단(US$346~358억)을 충족했습니다. 당사는 강한 1Q26 매출이 주로",
-          "date": "2026-04-10T12:12"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건) 아시아 반도체; 2월 WSTS 데이터: AI 반도체 및 메모리, 전년 대비 최강 매출 성장 기록\n\n2월 전체 반도체 매출은 전년 대비 86% 증가했으며(1월 58% YoY 대비), 로직 반도체는 전년 대비 26% 증가(1월 30% YoY), 메모리는 전년 대비 259% 증가(1월 160% YoY)했습니다. 반도체 부문은 1994년 이후 2월 기준 최강의 성장세를 기록했으며(이전 최고치는 1995년 7월의 77%), 7개월 연속 가속화 흐름을 이어가고 있습니다. 이는 주로 1) 에이전틱 AI 워크로드의 강력한 성장에 힘입은",
-          "date": "2026-04-10T06:45"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "TSMC 3월 매출: 415,191NTD mn\n(30.7% MoM, +45.2% YoY)",
-          "date": "2026-04-10T05:45"
-        }
-      ]
-    },
-    "ADI": {
-      "ticker": "ADI",
-      "summary": "분석 실패: Connection error.",
       "messageCount": 2,
       "channels": [
         "d_ticker",
         "aetherjapanresearch"
       ],
-      "latestDate": "2026-04-10T12:06:51+00:00",
+      "latestDate": "2026-04-11T14:03:19+00:00",
       "messages": [
         {
           "channel": "aetherjapanresearch",
-          "text": "📈 주요 뉴스 브리핑\n\n1. **NOVOROSSIYSK OIL LOADINGS HAD BEEN HALTED FOR SEVERAL DAYS || OIL TANKER MOORS AT NOVOROSSIYSK AFTER ATTACKS - SHIP TRACKING**\n• 요약: 노보로시스크 항만의 원유 선적이 수일간 중단됐고, 공격 이후 유조선이 현지에 정박한 것으로 전해졌다. 흑해 원유 수출 흐름이 다시 흔들리면서 공급 차질 우려가 커지고 있다. 전쟁 리스크가 물류 인프라에 직접 반영되는 장면이다.\n• 시장 영향: 원유 공급 불안이 이어지",
-          "date": "2026-04-10T12:06"
+          "text": "Citi) 대만 전자 및 반도체 — 대만 월간 트래커 및 AI 최신 동향 — 다양한 하위 섹터에서 강한 전년 대비 성장\n\n시티의 견해\n거시적 불확실성과 지정학적 갈등에 따른 시장 혼란에도 불구하고, 당사는 대부분의 대만 테크 기업, 특히 AI 공급망에서 강한 1Q26 매출 모멘텀을 확인합니다. 당사 커버리지 내에서 가장 강한 모멘텀은 테스팅 인터페이스 및 서버 관련 기업들로, 1Q26 매출이 전년 대비 60% 이상 성장하였으며, 열관리 부품은 1Q26 매출이 전년 대비 거의 두 배에 달하는 성장을 보이고 있습니다. 전분기 대비 기준",
+          "date": "2026-04-11T13:01"
         },
         {
           "channel": "d_ticker",
-          "text": "**메모리 비용 급등이 CAPEX에 미치는 영향**\n\n프랑스의 클라우드 서비스 사업자(CSP) OVHCloud가 금일 실적을 발표했는데 흥미로운 대목이 있습니다. \"메모리 등 핵심 인프라 부품 가격 상승에 대비해 하반기 예산의 일부를 상반기로 앞당겨 집행(Front-loading)했다\"라는 부분인데요. '전략적 선취매'를 취했다는 말입니다. 여기서 추가로 \"연간 매출 대비 CAPEX 비중을 기존 30~32% → 33~35%로 상향 조정했다\"고 언급했습니다. 아무래도 CSP 입장에서는 '컴퓨팅 용량'을 기준으로 CAPEX를 집행하다 ",
-          "date": "2026-04-09T23:00"
+          "text": "**‘日 파운드리’ 라피더스, TSMC에 도전장**\n\n([Nikkei](https://www.nikkei.com/article/DGXZQOUC094FI0Z00C26A4000000/)) 라피다스가 홋카이도 치토세시에서 반도체 조립을 담당하는 후공정 시제품 라인을 본격 가동하며 전·후공정 일괄 생산 체제 구축에 박차를 가한다. 번 가동은 600mm 사각형 유리 패널을 활용한 미세금속배선(RDL) 인터포저 신기술을 통해 기존 실리콘 웨이퍼 방식 대비 생산 효율을 10배 이상 높이는 것이 핵심이다. 2025년 4월 전공정 시제품 라인 가동",
+          "date": "2026-04-11T14:03"
         }
       ]
     },
-    "FRMI": {
-      "ticker": "FRMI",
+    "ORCL": {
+      "ticker": "ORCL",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
         "aetherjapanresearch"
       ],
-      "latestDate": "2026-04-10T11:58:03+00:00",
+      "latestDate": "2026-04-11T11:15:25+00:00",
       "messages": [
         {
           "channel": "aetherjapanresearch",
-          "text": "Cantor) \"AI's Infrastructure Layer; The Backbone of Intelligence\" \n\n1. 전체 투자 논지\nCantor는 이번 보고서를 통해 \"AI Infrastructure\"라는 신규 섹터를 공식 출범시켰으며, 과거 Bitcoin 마이닝 커버리지를 해체하고 데이터센터와 네오클라우드 섹터의 19개 종목을 한 데 묶어 신규/재개 커버리지(CRWV, FRMI, WYFI, NBIS, DLR, EQIX 등 6종)를 개시했습니다. 핵심 논지는 단순합니다. AI는 데이터센터 없이는 존재할 수 없고, 데이터센",
-          "date": "2026-04-10T11:58"
-        }
-      ]
-    },
-    "TIME코스닥": {
-      "ticker": "TIME코스닥",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "d_ticker",
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-04-10T11:58:03+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "Cantor) \"AI's Infrastructure Layer; The Backbone of Intelligence\" \n\n1. 전체 투자 논지\nCantor는 이번 보고서를 통해 \"AI Infrastructure\"라는 신규 섹터를 공식 출범시켰으며, 과거 Bitcoin 마이닝 커버리지를 해체하고 데이터센터와 네오클라우드 섹터의 19개 종목을 한 데 묶어 신규/재개 커버리지(CRWV, FRMI, WYFI, NBIS, DLR, EQIX 등 6종)를 개시했습니다. 핵심 논지는 단순합니다. AI는 데이터센터 없이는 존재할 수 없고, 데이터센",
-          "date": "2026-04-10T11:58"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**트랜센드 \"2분기 DDR5 40~50% 상승 전망\" ****2451.TW**\n\n([Digitimes](https://www.digitimes.com/news/a20260409PD225/demand-transcend-ddr5-2026-ddr4.html)) 대만의 메모리 모듈 제조사 트랜센드(Transcend)의 피터 슈 회장이 \"메모리 평균 판매 가격이 일부 품목에서는 4~5배까지 급등했다\"며 \"2026년 2분기 DDR5 고정 거래가는 1분기 대비 40~50% 추가 상승할 것\"이라고 전망했다. 현재 떠돌고 있는 시중의 현물 가격 ",
-          "date": "2026-04-09T23:44"
-        }
-      ]
-    },
-    "CLS": {
-      "ticker": "CLS",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-04-10T11:58:03+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "Cantor) \"AI's Infrastructure Layer; The Backbone of Intelligence\" \n\n1. 전체 투자 논지\nCantor는 이번 보고서를 통해 \"AI Infrastructure\"라는 신규 섹터를 공식 출범시켰으며, 과거 Bitcoin 마이닝 커버리지를 해체하고 데이터센터와 네오클라우드 섹터의 19개 종목을 한 데 묶어 신규/재개 커버리지(CRWV, FRMI, WYFI, NBIS, DLR, EQIX 등 6종)를 개시했습니다. 핵심 논지는 단순합니다. AI는 데이터센터 없이는 존재할 수 없고, 데이터센",
-          "date": "2026-04-10T11:58"
+          "text": "Citi) Software’s $100B+ AI Shock; Turning More Selective\n\n씨티는 1분기 실적 시즌과 그 이후를 앞두고 파운데이션 모델 선두 업체들의 매출이 포물선 형태로 급증하는 가운데 소프트웨어 업종에 대해 보다 선별적인 접근으로 전환하며, 애플리케이션 소프트웨어의 아키텍처, 비즈니스 모델 지속가능성, 그리고 잔존가치(terminal value)에 대한 우려가 향후 수개월간 심화될 위험이 있다고 진단합니다. 핵심 근거로 비상장 AI 기업들이 향후 수년간 1,000억 달러 이상의 신규 매출을 창출할 것",
+          "date": "2026-04-11T11:15"
         }
       ]
     },
@@ -583,83 +142,201 @@
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
-        "d_ticker"
+        "aetherjapanresearch"
       ],
-      "latestDate": "2026-04-10T15:55:52+00:00",
+      "latestDate": "2026-04-11T11:15:25+00:00",
       "messages": [
         {
-          "channel": "d_ticker",
-          "text": "트럼프 “팔란티어는 뛰어난 전투 능력과 기술을 갖추고 있다는 것을 입증했습니다. 적군에게 물어보십시요!!!”\n\nPLTR 주가 반응은 없습니다",
-          "date": "2026-04-10T15:55"
+          "channel": "aetherjapanresearch",
+          "text": "Citi) Software’s $100B+ AI Shock; Turning More Selective\n\n씨티는 1분기 실적 시즌과 그 이후를 앞두고 파운데이션 모델 선두 업체들의 매출이 포물선 형태로 급증하는 가운데 소프트웨어 업종에 대해 보다 선별적인 접근으로 전환하며, 애플리케이션 소프트웨어의 아키텍처, 비즈니스 모델 지속가능성, 그리고 잔존가치(terminal value)에 대한 우려가 향후 수개월간 심화될 위험이 있다고 진단합니다. 핵심 근거로 비상장 AI 기업들이 향후 수년간 1,000억 달러 이상의 신규 매출을 창출할 것",
+          "date": "2026-04-11T11:15"
         }
       ]
     },
-    "현대차": {
-      "ticker": "현대차",
+    "MSFT": {
+      "ticker": "MSFT",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 2,
+      "channels": [
+        "d_ticker",
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-04-11T14:33:55+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Citi) Software’s $100B+ AI Shock; Turning More Selective\n\n씨티는 1분기 실적 시즌과 그 이후를 앞두고 파운데이션 모델 선두 업체들의 매출이 포물선 형태로 급증하는 가운데 소프트웨어 업종에 대해 보다 선별적인 접근으로 전환하며, 애플리케이션 소프트웨어의 아키텍처, 비즈니스 모델 지속가능성, 그리고 잔존가치(terminal value)에 대한 우려가 향후 수개월간 심화될 위험이 있다고 진단합니다. 핵심 근거로 비상장 AI 기업들이 향후 수년간 1,000억 달러 이상의 신규 매출을 창출할 것",
+          "date": "2026-04-11T11:15"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**15주차 글로벌 증시 주간 상승률 - Dean's Ticker\n**\n[US](https://t.me/d_ticker)\n+58%｜에이비스 버짓｜차량 렌탈\n+45%｜AOI｜광트랜시버\n+33%｜네비우스｜네오클라우드\n+27%｜아스테라 랩스｜통신칩\n+25%｜TTM 테크놀로지스｜반도체기판\n+24%｜앰코｜첨단 패키징(OSAT)\n+24%｜코어위브｜네오클라우드\n+24%｜인텔｜종합반도체\n+23%｜블룸에너지｜연료전지\n+21%｜샌디스크｜NAND\n+21%｜사이타임｜MEMS 칩\n+21%｜모놀리식｜전력관리 칩\n+21%｜램리서치｜반도체장비(식각)\n+20%｜",
+          "date": "2026-04-11T14:33"
+        }
+      ]
+    },
+    "APP": {
+      "ticker": "APP",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-04-11T10:53:31+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "미즈호) Oracle; Oracle AI World Tour in NYC - 주요 내용. 아웃퍼폼/목표가 $320\n\n당사는 오늘 일찍 뉴욕에서 열린 Oracle의 AI World Tour에 참석하였으며, (a) Oracle의 OCI 인프라가 RoCE 네트워킹 아키텍처 및 오프박스 가상화(off-box virtualization)에 힘입어 하이퍼스케일러 및 네오클라우드가 쉽게 복제하기 어려운 방식으로 내구성 있는 차별화를 유지하고 있다는 확신이 강화되었고(당사의 최근 Beyond the GPU 노트에서 개요를 제시한 바 있음), (b",
+          "date": "2026-04-11T10:53"
+        }
+      ]
+    },
+    "삼성전자": {
+      "ticker": "삼성전자",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
         "d_ticker"
       ],
-      "latestDate": "2026-04-10T01:21:43+00:00",
+      "latestDate": "2026-04-11T14:33:55+00:00",
       "messages": [
         {
           "channel": "d_ticker",
-          "text": "**현대차그룹, 계열사 지분 출자해 미국에 로보틱스 회사 신설한다**\n\n([연합인포맥스](https://news.einfomax.co.kr/news/articleView.html?idxno=4408792)) 10일 완성차 업계에 따르면 기아는 전일 열린 '2026 CEO 인베스터 데이'에서 미국 내 로보틱스 생산 및 총괄 법인인 '로보틱스 아메리카(Robotics America, 가칭)'를 설립할 계획을 밝혔다. 신설 법인에는 그룹사들이 지분을 투자할 계획이다. 해당 법인은 산하 로봇 전문 기업인 보스턴 다이내믹스의 차세대 휴머노이",
-          "date": "2026-04-10T01:21"
+          "text": "**15주차 글로벌 증시 주간 상승률 - Dean's Ticker\n**\n[US](https://t.me/d_ticker)\n+58%｜에이비스 버짓｜차량 렌탈\n+45%｜AOI｜광트랜시버\n+33%｜네비우스｜네오클라우드\n+27%｜아스테라 랩스｜통신칩\n+25%｜TTM 테크놀로지스｜반도체기판\n+24%｜앰코｜첨단 패키징(OSAT)\n+24%｜코어위브｜네오클라우드\n+24%｜인텔｜종합반도체\n+23%｜블룸에너지｜연료전지\n+21%｜샌디스크｜NAND\n+21%｜사이타임｜MEMS 칩\n+21%｜모놀리식｜전력관리 칩\n+21%｜램리서치｜반도체장비(식각)\n+20%｜",
+          "date": "2026-04-11T14:33"
         }
       ]
     },
     "삼성전기": {
       "ticker": "삼성전기",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
+      "messageCount": 1,
       "channels": [
-        "d_ticker",
-        "DOC_POOL"
+        "d_ticker"
       ],
-      "latestDate": "2026-04-10T13:44:56+00:00",
+      "latestDate": "2026-04-11T14:33:55+00:00",
       "messages": [
         {
           "channel": "d_ticker",
-          "text": "삼성전기의 LPU향 ABF기판 공급 수는 Pod 기준 2,560개로 기존 엔비디아 NV스위치향 공급 수(1,152개)보다 2배 이상 많다고 합니다",
-          "date": "2026-04-10T00:31"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**삼성전자, 베트남에 $4B 반도체 패키징 팹 건설 계획**\n\n([Bloomberg](https://www.bloomberg.com/news/articles/2026-04-09/samsung-to-invest-4-billion-in-chip-packaging-site-in-vietnam)) 삼성전자가 베트남 타이응우옌성에 $4B를 투자해 반도체 후공정 공장 구축에 나선다. 투자는 여러 단계로 나뉘어 진행되며, 첫 번째 단계에서 $2B가 우선 투입될 예정이다. 삼성은 현재까지 베트남에 $23.2B 이상을 투자했으며, 약 9만 명의 ",
-          "date": "2026-04-09T23:47"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "**[삼성전기]**\n제목: 확산되는 부품 Shortage\n작성일: 2026.04.07\n작성자: 김운호(IBK투자증권)\n투자의견: 매수\n목표주가: 600,000원\n\n**[26년 1분기 실적 전망]**\n· 26년 1분기 매출액은 전 분기 대비 9.1% 증가한 3조 1,650억 원, 영업이익은 16.0% 증가한 2,779억 원으로 예상함.\n· 전 사업부의 매출 증가와 영업이익률 개선이 전망되며, 일부 제품의 가격 인상 효과 및 계절성 효과가 실적 상승을 견인함.\n· 영업이익은 일회성 비용 반영에도 불구하고 수익성 개선세가 뚜렷하며, 패키",
-          "date": "2026-04-10T13:44"
+          "text": "**15주차 글로벌 증시 주간 상승률 - Dean's Ticker\n**\n[US](https://t.me/d_ticker)\n+58%｜에이비스 버짓｜차량 렌탈\n+45%｜AOI｜광트랜시버\n+33%｜네비우스｜네오클라우드\n+27%｜아스테라 랩스｜통신칩\n+25%｜TTM 테크놀로지스｜반도체기판\n+24%｜앰코｜첨단 패키징(OSAT)\n+24%｜코어위브｜네오클라우드\n+24%｜인텔｜종합반도체\n+23%｜블룸에너지｜연료전지\n+21%｜샌디스크｜NAND\n+21%｜사이타임｜MEMS 칩\n+21%｜모놀리식｜전력관리 칩\n+21%｜램리서치｜반도체장비(식각)\n+20%｜",
+          "date": "2026-04-11T14:33"
         }
       ]
     },
-    "미래에셋": {
-      "ticker": "미래에셋",
+    "NVDA": {
+      "ticker": "NVDA",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
+      "messageCount": 1,
+      "channels": [
+        "d_ticker"
+      ],
+      "latestDate": "2026-04-11T14:03:19+00:00",
+      "messages": [
+        {
+          "channel": "d_ticker",
+          "text": "**‘日 파운드리’ 라피더스, TSMC에 도전장**\n\n([Nikkei](https://www.nikkei.com/article/DGXZQOUC094FI0Z00C26A4000000/)) 라피다스가 홋카이도 치토세시에서 반도체 조립을 담당하는 후공정 시제품 라인을 본격 가동하며 전·후공정 일괄 생산 체제 구축에 박차를 가한다. 번 가동은 600mm 사각형 유리 패널을 활용한 미세금속배선(RDL) 인터포저 신기술을 통해 기존 실리콘 웨이퍼 방식 대비 생산 효율을 10배 이상 높이는 것이 핵심이다. 2025년 4월 전공정 시제품 라인 가동",
+          "date": "2026-04-11T14:03"
+        }
+      ]
+    },
+    "TEM": {
+      "ticker": "TEM",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "d_ticker"
+      ],
+      "latestDate": "2026-04-11T13:49:22+00:00",
+      "messages": [
+        {
+          "channel": "d_ticker",
+          "text": "**록히드마틴산 우주선 ‘오라이온’, 아르테미스 2호 임무 완수 ****$LMT**\n\n([Press](https://news.lockheedmartin.com/2026-04-10-Splashdown-Lockheed-Martin-Built-Orion-Spacecraft-Safely-Returns-Astronauts-to-Earth,-Completing-NASAs-Artemis-II-Mission)) LMT이 제작한 오라이온(Orion) 우주선이 10일간의 달 궤도 왕복 임무를 마치고 태평양에 무사히 착수하며 NASA의 아르테미스 2호",
+          "date": "2026-04-11T13:49"
+        }
+      ]
+    },
+    "LMT": {
+      "ticker": "LMT",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "d_ticker"
+      ],
+      "latestDate": "2026-04-11T13:49:22+00:00",
+      "messages": [
+        {
+          "channel": "d_ticker",
+          "text": "**록히드마틴산 우주선 ‘오라이온’, 아르테미스 2호 임무 완수 ****$LMT**\n\n([Press](https://news.lockheedmartin.com/2026-04-10-Splashdown-Lockheed-Martin-Built-Orion-Spacecraft-Safely-Returns-Astronauts-to-Earth,-Completing-NASAs-Artemis-II-Mission)) LMT이 제작한 오라이온(Orion) 우주선이 10일간의 달 궤도 왕복 임무를 마치고 태평양에 무사히 착수하며 NASA의 아르테미스 2호",
+          "date": "2026-04-11T13:49"
+        }
+      ]
+    },
+    "TSLA": {
+      "ticker": "TSLA",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "d_ticker"
+      ],
+      "latestDate": "2026-04-11T13:44:42+00:00",
+      "messages": [
+        {
+          "channel": "d_ticker",
+          "text": "**테슬라 FSD, 네덜란드 승인 획득 ****$TSLA**\n\nFSD(Full Self-Driving) Supervised가 네덜란드 도로 당국(RDW)으로부터 유럽 최초로 공식 승인을 받았다. RDW는 18개월간의 정밀 테스트를 통해 해당 시스템이 올바르게 사용될 경우 도로 안전에 긍정적인 기여를 한다고 판단했으며, 고속도로와 시내 도로 모두에서 사용을 허가했다. 이번 승인은 모델 3와 모델 Y 등 네덜란드 내 약 10만 대의 테슬라 차량에 즉각적인 영향을 미칠 전망이다. 다만, 유럽 버전은 미국의 FSD보다 엄격한 안전 요건이 ",
+          "date": "2026-04-11T13:44"
+        }
+      ]
+    },
+    "GOOGL": {
+      "ticker": "GOOGL",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
       "channels": [
         "DOC_POOL"
       ],
-      "latestDate": "2026-04-10T12:46:35+00:00",
+      "latestDate": "2026-04-11T13:28:03+00:00",
       "messages": [
         {
           "channel": "DOC_POOL",
-          "text": "**팬오션/해운/운송**\n제목: 그럼에도 강해지는 이익 체력\n작성일: 2026.04.10\n작성자: 류제현 / 미래에셋증권\n투자의견: 매수\n목표주가: 7,400원\n\n**[1분기 실적 전망]**\n· 1Q26 영업이익은 1,344억원으로 시장 기대치(1,285억원)를 상회할 것으로 전망된다. 장기 운송 계약 물량은 유류비 전가가 가능하며, 탱커 및 LNG 부문 사업에서 실적 호조가 예상된다.\n\n**[MR탱커, LNG 수익성 개선]**\n· MR탱커는 수익성이 높은 노선 배치로 운용 효율을 높이고, LNG 선박은 대선 물량으로 최근 호르무즈",
-          "date": "2026-04-10T12:46"
-        },
+          "text": "**[디지털자산/AI x 블록체인]**\n제목: AI x 블록체인 컨버전스\n작성일: 2026.04.09\n작성자: 최윤영 (한화투자증권)\n\n**[AI와 블록체인의 결합 배경 및 역할]**\n· AI 산업의 핵심 병목인 연산 자원(GPU) 부족과 인프라 집중 문제를 해결하기 위해 블록체인 기반 탈중앙화 인프라가 대안으로 부상하고 있으며, 유휴 자원을 연결하는 분산형 컴퓨팅 모델이 주목받음\n· AI 에이전트의 경제 활동이 본격화됨에 따라 신원·평판 검증 및 결제 인프라에 대한 수요가 급증하고 있으며, x402(결제)와 ERC-8004(신원·",
+          "date": "2026-04-11T13:28"
+        }
+      ]
+    },
+    "GOOG": {
+      "ticker": "GOOG",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "DOC_POOL"
+      ],
+      "latestDate": "2026-04-11T13:28:03+00:00",
+      "messages": [
         {
           "channel": "DOC_POOL",
-          "text": "**천보 (278280)**\n제목: 몇 안되는 사이버 캡 수혜주\n작성일: 2026.04.10\n작성자: 김철중, 정세훈 (미래에셋증권)\n투자의견: 매수\n목표주가: 79,000원\n\n**[사이버 캡 수혜]**\n· 북미 OEM의 신규 모델향 F 전해질의 본격적인 출하가 시작되었으며, 2027년 EBITDA는 섹터 업황 호황기인 21~22년 수준을 상회할 것으로 전망됩니다. F 전해질 매출액은 2025년 10억원에서 2027년 1,050억원으로 증가하며 전사 실적 성장을 견인할 것으로 예상됩니다.\n\n**[실적 개선 전망]**\n· 하반기 기존",
-          "date": "2026-04-10T12:42"
+          "text": "**[디지털자산/AI x 블록체인]**\n제목: AI x 블록체인 컨버전스\n작성일: 2026.04.09\n작성자: 최윤영 (한화투자증권)\n\n**[AI와 블록체인의 결합 배경 및 역할]**\n· AI 산업의 핵심 병목인 연산 자원(GPU) 부족과 인프라 집중 문제를 해결하기 위해 블록체인 기반 탈중앙화 인프라가 대안으로 부상하고 있으며, 유휴 자원을 연결하는 분산형 컴퓨팅 모델이 주목받음\n· AI 에이전트의 경제 활동이 본격화됨에 따라 신원·평판 검증 및 결제 인프라에 대한 수요가 급증하고 있으며, x402(결제)와 ERC-8004(신원·",
+          "date": "2026-04-11T13:28"
+        }
+      ]
+    },
+    "FRMI": {
+      "ticker": "FRMI",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "DOC_POOL"
+      ],
+      "latestDate": "2026-04-11T13:26:35+00:00",
+      "messages": [
+        {
+          "channel": "DOC_POOL",
+          "text": "**[건설 산업]**\n제목: 4월: 이란 그 이후\n작성일: 2026.04.10\n작성자: 김승준, 하민호 (하나증권)\n투자의견: Overweight\nTOP PICK: 삼성E&A, GS건설, 아이에스동서\n\n**[이란 재건 및 해외 수주 기대감]**\n· 미국과 이란 간 휴전 및 관계 정상화 가능성으로 중동 지역의 O&G 다운스트림 플랜트 재건 발주 기대감이 고조됨.\n· 재건 프로젝트는 비용보다 시간이 중요하여, 과거 해당 설비를 건설한 EPC사(삼성E&A, GS건설, 대우건설 등)가 설계 및 자재 스펙에 대한 높은 이해도를 바탕으로 수주",
+          "date": "2026-04-11T13:26"
         }
       ]
     }
   },
-  "totalMessages": 75,
+  "totalMessages": 31,
   "channels": [
     "Jstockclass",
     "report_figure_by_offset",
