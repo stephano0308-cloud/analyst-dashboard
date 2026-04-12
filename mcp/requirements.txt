@@ -1,0 +1,7 @@
+mcp
+pydantic
+python-dotenv
+pypdf
+pdfplumber
+openpyxl
+pandas
