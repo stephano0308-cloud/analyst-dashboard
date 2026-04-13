@@ -1,365 +1,566 @@
 {
-  "fetchedAt": "2026-04-12T22:28:41.069815",
+  "fetchedAt": "2026-04-13T22:36:38.230127",
   "status": "ok",
   "stocks": {
-    "GOOGL": {
-      "ticker": "GOOGL",
+    "BE": {
+      "ticker": "BE",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
+      "messageCount": 7,
       "channels": [
+        "d_ticker",
+        "beluga_investment",
         "Jstockclass",
-        "DOC_POOL"
+        "aetherjapanresearch"
       ],
-      "latestDate": "2026-04-12T22:18:59+00:00",
+      "latestDate": "2026-04-13T22:29:40+00:00",
       "messages": [
         {
           "channel": "Jstockclass",
-          "text": "**장기 성장주 De-rating 배경 분석 및 핵심 투자 포인트 (GS)**\n\n**1. 시장 현황\n**\n• **성장주 가격 조정**: S&P 500이 고점 부근까지 회복했으나 장기 성장주는 2025년 10월 고점 대비 20% 이상 하락 상태\n\n• **밸류에이션 급감**: 장기 성장주의 PER이 36배에서 27배로 압축되며 10년래 최저 수준에 근접\n\n• **언더퍼포먼스 심화**: 지난 6개월간 S&P 500 동일가중지수 대비 27%p 뒤처지며 최근 15년 중 가장 부진한 흐름을 기록\n\n**2. 하락 원인 분석\n**\n• **거시 경",
-          "date": "2026-04-12T01:42"
+          "text": "**최근 SNDK 목표주가 변화**\n\n금일 Citi의 상향까지 최근 일주일간 5곳에서 상향조정\n\nBernstein에서는 가장 높은 $1,250 제시 (Bull case로는 $3,000)\n\n4월 30일 실적발표를 앞두고 추정치가 상향조정되는중..",
+          "date": "2026-04-13T11:12"
         },
         {
-          "channel": "DOC_POOL",
-          "text": "**[현대차/자동차/분석리포트]**\n제목: 로보틱스 도입 및 SDV 타임라인 가시화\n작성일: 2026.04.11\n작성자: 유민기 (상상인증권)\n투자의견: 매수 유지\n목표주가: 700,000원 유지\n\n**[1분기 실적 부진]**\n· 2026년 1분기 매출액 46.2조원(+4.6% YoY), 영업이익 2.4조원(-32.9% YoY)으로 컨센서스를 하회할 전망입니다.\n· 도매판매는 97.5만대로 전년 동기 대비 2.4% 감소했으며, 특히 팰리세이드 리콜 이슈가 내수 판매 부진의 주요 원인으로 작용했습니다.\n\n**[미래 성장 동력 강화]*",
-          "date": "2026-04-12T22:18"
-        }
-      ]
-    },
-    "META": {
-      "ticker": "META",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "Jstockclass"
-      ],
-      "latestDate": "2026-04-12T01:42:50+00:00",
-      "messages": [
+          "channel": "beluga_investment",
+          "text": "미국의 **실업률을 안정적으로 유지하는 데 필요한 일자리 수가 급감** 했습니다.\n\n실업률을 현재 수준에서 유지하기 위해 필요한 월간 최소 신규 고용은 이제 **월평균 -3,000명** 수준까지 내려왔습니다.\n\n이 손익분기점 수준은 **2023년 중반 월 약 25만 명** 에서 크게 낮아졌는데, 이는 **순이민 감소** 가 주요 원인입니다.\n\n불법체류 기준 **순 무단이민(net unauthorized immigration)** 은 2025년 2월에 마이너스로 전환됐고, 이후 2025년 하반기에는 **월평균 -5만5,000명** 을",
+          "date": "2026-04-13T22:15"
+        },
         {
-          "channel": "Jstockclass",
-          "text": "**장기 성장주 De-rating 배경 분석 및 핵심 투자 포인트 (GS)**\n\n**1. 시장 현황\n**\n• **성장주 가격 조정**: S&P 500이 고점 부근까지 회복했으나 장기 성장주는 2025년 10월 고점 대비 20% 이상 하락 상태\n\n• **밸류에이션 급감**: 장기 성장주의 PER이 36배에서 27배로 압축되며 10년래 최저 수준에 근접\n\n• **언더퍼포먼스 심화**: 지난 6개월간 S&P 500 동일가중지수 대비 27%p 뒤처지며 최근 15년 중 가장 부진한 흐름을 기록\n\n**2. 하락 원인 분석\n**\n• **거시 경",
-          "date": "2026-04-12T01:42"
+          "channel": "aetherjapanresearch",
+          "text": "**오라클, 블룸에너지 연료전지 2.8GW 발주 ****$BE**\n\n([Reuters](https://www.reuters.com/legal/litigation/bloom-energy-supply-up-28-gw-fuel-cells-under-expanded-oracle-deal-2026-04-13/)) 오라클은 블룸에너지로부터 최대 2.8GW 규모의 연료전지 시스템을 조달하기 위한 기본 서비스 계약을 체결했다. 이 중 1.2GW 용량은 이미 계약이 완료되어 미국 전역의 오라클 프로젝트에 배치가 진행 중이며 내년까지 이어질 예정이다",
+          "date": "2026-04-13T22:29"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "CNBC) OpenAI, 메모에서 아마존과의 동맹 강조하며 마이크로소프트가 고객 확보 '능력을 제한했다'고 밝혀\n\nOpenAI의 신임 최고 수익 책임자(CRO)인 데니스 드레서는 일요일 직원들에게 보낸 메모에서 아마존과의 동맹을 기업용 비즈니스의 핵심 성장 동력으로 강조하는 한편, 마이크로소프트와의 오랜 제휴에 따른 제약 사항을 지적했습니다.\n\n드레서의 메모는 아마존이 전략적 파트너십의 일환으로 OpenAI에 최대 500억 달러를 투자하겠다는 계획을 발표한 지 두 달도 채 되지 않아 나온 것입니다. 아마존의 최대 클라우드 컴퓨팅 경",
+          "date": "2026-04-13T14:55"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) TSMC의 SoIC 캐파 확장 가속화 보도, Besi에 긍정적\n\n뉴스:TSMC가 대만 내 SoIC 캐파(3D 스태킹/하이브리드 본딩)의 확장을 가속화하고 있으며, 2027년 말까지 월 40,000매(wpm) 수준의 캐파를 확보할 것으로 알려졌습니다.\n\n당사의 견해: Besi는 하이브리드 본더에 대한 강력한 수주를 기대할 수 있습니다. 하이브리드 본더는 SoIC의 핵심 장비이며, TSMC에서 Besi가 유일한 퀄리파이드 공급업체입니다. 이는 AI/HPC 수요를 충족하기 위해 신규 또는 증설된 어드밴스드 패키징 캐파에서 장비",
+          "date": "2026-04-13T09:58"
         }
       ]
     },
     "VRT": {
       "ticker": "VRT",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
+      "messageCount": 2,
       "channels": [
+        "d_ticker",
         "Jstockclass"
       ],
-      "latestDate": "2026-04-12T01:42:50+00:00",
+      "latestDate": "2026-04-13T15:13:38+00:00",
       "messages": [
         {
           "channel": "Jstockclass",
-          "text": "**장기 성장주 De-rating 배경 분석 및 핵심 투자 포인트 (GS)**\n\n**1. 시장 현황\n**\n• **성장주 가격 조정**: S&P 500이 고점 부근까지 회복했으나 장기 성장주는 2025년 10월 고점 대비 20% 이상 하락 상태\n\n• **밸류에이션 급감**: 장기 성장주의 PER이 36배에서 27배로 압축되며 10년래 최저 수준에 근접\n\n• **언더퍼포먼스 심화**: 지난 6개월간 S&P 500 동일가중지수 대비 27%p 뒤처지며 최근 15년 중 가장 부진한 흐름을 기록\n\n**2. 하락 원인 분석\n**\n• **거시 경",
-          "date": "2026-04-12T01:42"
+          "text": "**Vertiv, BMarko Structures 인수로 AI 데이터센터 인프라 생산 능력 확대**\n\n**1. 인수 개요**\n\n• Vertiv, 미국 기반의 맞춤형 구조물 제조 기업 BMarko Structures 인수 발표\n\n• 북미 지역 내 인프라 솔루션 사업의 수직 계열화 강화 목적\n\n**2. 전략적 투자 포인트**\n\n1) **제조 역량 및 리드타임 개선**\n\n• 복합 및 통합 인프라 솔루션의 설계 및 제조 공정 내재화\n\n• 증가하는 AI 수요에 대응하기 위한 생산 속도 가속화 및 공급망 안정성 확보\n\n2) **AI 및 데이터",
+          "date": "2026-04-13T10:49"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**버티브, BMarko Strucutres 인수 ****$VRT**\n\n([Press](https://www.prnewswire.com/news-releases/vertiv-acquires-bmarko-structures-to-expand-capacity-for-manufactured-and-converged-infrastructure-solutions-302739968.html)) 데이터센터 냉각 솔루션 전문 버티브가 맞춤형 구조물 제조사 BMarko를 인수했다고 발표했다. 인수액은 공개되지 않았다. BMarko는 고품질 맞춤형 ",
+          "date": "2026-04-13T15:13"
         }
       ]
     },
     "NVDA": {
       "ticker": "NVDA",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
+      "messageCount": 8,
       "channels": [
+        "d_ticker",
         "Jstockclass",
-        "DOC_POOL"
+        "aetherjapanresearch"
       ],
-      "latestDate": "2026-04-12T22:18:59+00:00",
+      "latestDate": "2026-04-13T22:33:17+00:00",
       "messages": [
         {
           "channel": "Jstockclass",
-          "text": "**장기 성장주 De-rating 배경 분석 및 핵심 투자 포인트 (GS)**\n\n**1. 시장 현황\n**\n• **성장주 가격 조정**: S&P 500이 고점 부근까지 회복했으나 장기 성장주는 2025년 10월 고점 대비 20% 이상 하락 상태\n\n• **밸류에이션 급감**: 장기 성장주의 PER이 36배에서 27배로 압축되며 10년래 최저 수준에 근접\n\n• **언더퍼포먼스 심화**: 지난 6개월간 S&P 500 동일가중지수 대비 27%p 뒤처지며 최근 15년 중 가장 부진한 흐름을 기록\n\n**2. 하락 원인 분석\n**\n• **거시 경",
-          "date": "2026-04-12T01:42"
+          "text": "S&P500 1Q YoY 이익성장률은 +12.5%로 전망\n\n테크가 +45.4%로 성장주도\n\n엔비디아와 마이크론 두 기업이 인덱스 전체 성장의 약 절반 차지 전망",
+          "date": "2026-04-13T10:43"
         },
         {
-          "channel": "DOC_POOL",
-          "text": "**[현대차/자동차/분석리포트]**\n제목: 로보틱스 도입 및 SDV 타임라인 가시화\n작성일: 2026.04.11\n작성자: 유민기 (상상인증권)\n투자의견: 매수 유지\n목표주가: 700,000원 유지\n\n**[1분기 실적 부진]**\n· 2026년 1분기 매출액 46.2조원(+4.6% YoY), 영업이익 2.4조원(-32.9% YoY)으로 컨센서스를 하회할 전망입니다.\n· 도매판매는 97.5만대로 전년 동기 대비 2.4% 감소했으며, 특히 팰리세이드 리콜 이슈가 내수 판매 부진의 주요 원인으로 작용했습니다.\n\n**[미래 성장 동력 강화]*",
-          "date": "2026-04-12T22:18"
+          "channel": "aetherjapanresearch",
+          "text": "**젠슨 황 “델·”HP 인수하고 있지 않다”**\n\nIT 전문 매체 세미어큐레이트(SemiAccurate)는 엔비디아가 특정 PC 제조사를 인수하기 위해 1년 넘게 협상을 벌여왔다고 보도했다. 구체적인 기업명은 언급되지 않았으나, 시장에서는 델(DELL)과 HP(HPQ)를 특정했다. 엔비디아 대변인은 “해당 보도는 사실이 아니며, 엔비디아는 어떤 PC 제조사와도 인수 협상을 진행하고 있지 않다”고 밝혔다. DELL은 6.8%, HPQ는 5.3% 상승 마감했다.",
+          "date": "2026-04-13T22:33"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "엔비디아가 대형 PC 관련 기업 인수를 협상 중입니다\n\n분석: 이 인수는 컴퓨팅 지형을 근본적으로 바꿀 것입니다\n\n엔비디아는 대형 회사를 인수하기 위해 1년 넘게 협상을 진행해 왔으며, 이는 PC 지형을 재편할 것입니다. SemiAccurate는 2024년 말부터 이 이야기를 추적해 왔으며, 계약을 성사시키거나 백지화할 시기가 다가오고 있습니다.\n\n2025년 초, SemiAccurate가 인텔 인수에 대한 일론 머스크의 관심에 대해 단독으로 보도했던 것을 기억하십니까? 사람들은 얼마나 비웃었는지 모릅니다. 그리고 그 상황은 머스크가",
+          "date": "2026-04-13T15:48"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) TSMC의 SoIC 캐파 확장 가속화 보도, Besi에 긍정적\n\n뉴스:TSMC가 대만 내 SoIC 캐파(3D 스태킹/하이브리드 본딩)의 확장을 가속화하고 있으며, 2027년 말까지 월 40,000매(wpm) 수준의 캐파를 확보할 것으로 알려졌습니다.\n\n당사의 견해: Besi는 하이브리드 본더에 대한 강력한 수주를 기대할 수 있습니다. 하이브리드 본더는 SoIC의 핵심 장비이며, TSMC에서 Besi가 유일한 퀄리파이드 공급업체입니다. 이는 AI/HPC 수요를 충족하기 위해 신규 또는 증설된 어드밴스드 패키징 캐파에서 장비",
+          "date": "2026-04-13T09:58"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**젠슨 황 “델·HP 인수하고 있지 않다”**\n\nIT 전문 매체 세미어큐레이트(SemiAccurate)는 엔비디아가 특정 PC 제조사를 인수하기 위해 1년 넘게 협상을 벌여왔다고 보도했다. 구체적인 기업명은 언급되지 않았으나, 시장에서는 델(DELL)과 HP(HPQ)를 특정했다. 엔비디아 대변인은 “해당 보도는 사실이 아니며, 엔비디아는 어떤 PC 제조사와도 인수 협상을 진행하고 있지 않다”고 밝혔다. DELL은 6.8%, HPQ는 5.3% 상승 마감했다.",
+          "date": "2026-04-13T22:32"
+        }
+      ]
+    },
+    "MSFT": {
+      "ticker": "MSFT",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 5,
+      "channels": [
+        "d_ticker",
+        "beluga_investment",
+        "Jstockclass",
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-04-13T14:55:21+00:00",
+      "messages": [
+        {
+          "channel": "Jstockclass",
+          "text": "S&P500 1Q YoY 이익성장률은 +12.5%로 전망\n\n테크가 +45.4%로 성장주도\n\n엔비디아와 마이크론 두 기업이 인덱스 전체 성장의 약 절반 차지 전망",
+          "date": "2026-04-13T10:43"
+        },
+        {
+          "channel": "beluga_investment",
+          "text": "**OpenAI, 내부 메모에서 Amazon과의 제휴 강조… Microsoft가 “고객 접근 능력을 제한했다”고 언급**\n\n• OpenAI의 매출 총괄 Denise Dresser는 일요일 직원들에게 보낸 메모에서, **Amazon과의 파트너십이 회사의 엔터프라이즈 시장 점유율 확대를 위한 핵심 수단이 될 것**이라고 강조했습니다.\n\n• CNBC가 확인한 해당 메모는, **Amazon이 전략적 파트너십의 일환으로 OpenAI에 최대 500억 달러를 투자할 계획이라고 발표한 지 두 달도 채 지나지 않은 시점**에 나왔습니다.\n\n• Dr",
+          "date": "2026-04-13T14:03"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "CNBC) OpenAI, 메모에서 아마존과의 동맹 강조하며 마이크로소프트가 고객 확보 '능력을 제한했다'고 밝혀\n\nOpenAI의 신임 최고 수익 책임자(CRO)인 데니스 드레서는 일요일 직원들에게 보낸 메모에서 아마존과의 동맹을 기업용 비즈니스의 핵심 성장 동력으로 강조하는 한편, 마이크로소프트와의 오랜 제휴에 따른 제약 사항을 지적했습니다.\n\n드레서의 메모는 아마존이 전략적 파트너십의 일환으로 OpenAI에 최대 500억 달러를 투자하겠다는 계획을 발표한 지 두 달도 채 되지 않아 나온 것입니다. 아마존의 최대 클라우드 컴퓨팅 경",
+          "date": "2026-04-13T14:55"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "**마이크로소프트, ‘오픈클로’ 영감 받아 코파일럿 개선한다 ****$MSFT**\n\n([The Information](https://www.theinformation.com/articles/microsoft-plots-new-copilot-features-inspired-openclaw)) 마이크로소프트는 코파일럿이 단순한 텍스트 응답을 넘어, 사용자의 PC 화면을 직접 보고 이해하며 마우스 클릭이나 키보드 입력과 같은 동작을 수행하는 '디지털 에이전트'로 진화시키려 한다. 이는 오픈소스 프레임워크인 오픈클로의 접근 방식과 유사하다",
+          "date": "2026-04-13T14:50"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**마이크로소프트, ‘오픈클로’ 영감 받아 코파일럿 개선한다 ****$MSFT**\n\n([The Information](https://www.theinformation.com/articles/microsoft-plots-new-copilot-features-inspired-openclaw)) 마이크로소프트는 코파일럿이 단순한 텍스트 응답을 넘어, 사용자의 PC 화면을 직접 보고 이해하며 마우스 클릭이나 키보드 입력과 같은 동작을 수행하는 '디지털 에이전트'로 진화시키려 한다. 이는 오픈소스 프레임워크인 오픈클로의 접근 방식과 유사하다",
+          "date": "2026-04-13T14:50"
+        }
+      ]
+    },
+    "ORCL": {
+      "ticker": "ORCL",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 3,
+      "channels": [
+        "d_ticker",
+        "Jstockclass",
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-04-13T22:29:40+00:00",
+      "messages": [
+        {
+          "channel": "Jstockclass",
+          "text": "**Vertiv 1Q26 실적 프리뷰 및 TP 상향 (Bofa)**\n\n**1. 시장 환경 및 수요 전망\n**\n• 미국 데이터센터 건설 착공액 1~2월 369억 달러 기록 (전년 동기 14억 달러 대비 급증)  \n\n• 6개월 내 착공 예정 프로젝트 규모 708억 달러로 강력한 파이프라인 형성  \n\n• 미국 데이터센터 건설 지출 연간 470억 달러 속도로 전년 대비 31% 가속화 \n\n**2. 하이퍼스케일러 및 개발사 동향**  \n\n• 5대 클라우드 서비스 제공사(MS, 아마존, 구글, 메타, 오라클) 자본지출 2026년 60% 증가 전",
+          "date": "2026-04-13T10:20"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "**오라클, 블룸에너지 연료전지 2.8GW 발주 ****$BE**\n\n([Reuters](https://www.reuters.com/legal/litigation/bloom-energy-supply-up-28-gw-fuel-cells-under-expanded-oracle-deal-2026-04-13/)) 오라클은 블룸에너지로부터 최대 2.8GW 규모의 연료전지 시스템을 조달하기 위한 기본 서비스 계약을 체결했다. 이 중 1.2GW 용량은 이미 계약이 완료되어 미국 전역의 오라클 프로젝트에 배치가 진행 중이며 내년까지 이어질 예정이다",
+          "date": "2026-04-13T22:29"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**오라클, 블룸에너지 연료전지 2.8GW 발주 ****$BE**\n\n([Reuters](https://www.reuters.com/legal/litigation/bloom-energy-supply-up-28-gw-fuel-cells-under-expanded-oracle-deal-2026-04-13/)) 오라클은 블룸에너지로부터 최대 2.8GW 규모의 연료전지 시스템을 조달하기 위한 기본 서비스 계약을 체결했다. 이 중 1.2GW 용량은 이미 계약이 완료되어 미국 전역의 오라클 프로젝트에 배치가 진행 중이며 내년까지 이어질 예정이다",
+          "date": "2026-04-13T22:16"
+        }
+      ]
+    },
+    "AMZN": {
+      "ticker": "AMZN",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 9,
+      "channels": [
+        "d_ticker",
+        "beluga_investment",
+        "Jstockclass",
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-04-13T22:29:39+00:00",
+      "messages": [
+        {
+          "channel": "Jstockclass",
+          "text": "**Vertiv 1Q26 실적 프리뷰 및 TP 상향 (Bofa)**\n\n**1. 시장 환경 및 수요 전망\n**\n• 미국 데이터센터 건설 착공액 1~2월 369억 달러 기록 (전년 동기 14억 달러 대비 급증)  \n\n• 6개월 내 착공 예정 프로젝트 규모 708억 달러로 강력한 파이프라인 형성  \n\n• 미국 데이터센터 건설 지출 연간 470억 달러 속도로 전년 대비 31% 가속화 \n\n**2. 하이퍼스케일러 및 개발사 동향**  \n\n• 5대 클라우드 서비스 제공사(MS, 아마존, 구글, 메타, 오라클) 자본지출 2026년 60% 증가 전",
+          "date": "2026-04-13T10:20"
+        },
+        {
+          "channel": "Jstockclass",
+          "text": "**LS일렉트릭, 아마존에 1700억 배전반 공급**\n\n美 AI데이터센터 건설 폭증하자\n배전반 등 전력기기 공급 태부족\n\n하반기 텍사스공장서 생산 시작 \n북미지역 빅테크 수요 공략 속도\n\nhttps://naver.me/FFqvC6ve",
+          "date": "2026-04-13T09:53"
+        },
+        {
+          "channel": "beluga_investment",
+          "text": "**OpenAI, 내부 메모에서 Amazon과의 제휴 강조… Microsoft가 “고객 접근 능력을 제한했다”고 언급**\n\n• OpenAI의 매출 총괄 Denise Dresser는 일요일 직원들에게 보낸 메모에서, **Amazon과의 파트너십이 회사의 엔터프라이즈 시장 점유율 확대를 위한 핵심 수단이 될 것**이라고 강조했습니다.\n\n• CNBC가 확인한 해당 메모는, **Amazon이 전략적 파트너십의 일환으로 OpenAI에 최대 500억 달러를 투자할 계획이라고 발표한 지 두 달도 채 지나지 않은 시점**에 나왔습니다.\n\n• Dr",
+          "date": "2026-04-13T14:03"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "**메타, 사상 최초로 ‘광고 매출’ 구글 초과 ****$META**\n\n([WSJ](https://www.wsj.com/business/media/meta-expected-to-unseat-google-as-worlds-largest-digital-ad-player-83d3f522)) 2026년 메타의 순 광고 매출(콘텐츠 획득 비용 제외)은 $243.46B에 달할 것으로 추정되며, 이는 구글의 예상치인 $239.54B를 근소하게 앞서는 수치다. 메타의 광고 매출 성장률은 2025년 22.1%에서 올해 24.1%로 가속화되는 반면,",
+          "date": "2026-04-13T22:29"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "아마존 LEO, 항공기용 기가비트급 안테나 출시\n아마존 LEO 항공용 안테나는 최대 1Gbps의 다운로드 속도와 400Mbps의 업로드 속도를 제공하여 항공기 승객과 승무원에게 안정적인 인터넷 연결을 선사할 것입니다.",
+          "date": "2026-04-13T15:09"
+        }
+      ]
+    },
+    "META": {
+      "ticker": "META",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 5,
+      "channels": [
+        "d_ticker",
+        "Jstockclass",
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-04-13T22:29:39+00:00",
+      "messages": [
+        {
+          "channel": "Jstockclass",
+          "text": "**Vertiv 1Q26 실적 프리뷰 및 TP 상향 (Bofa)**\n\n**1. 시장 환경 및 수요 전망\n**\n• 미국 데이터센터 건설 착공액 1~2월 369억 달러 기록 (전년 동기 14억 달러 대비 급증)  \n\n• 6개월 내 착공 예정 프로젝트 규모 708억 달러로 강력한 파이프라인 형성  \n\n• 미국 데이터센터 건설 지출 연간 470억 달러 속도로 전년 대비 31% 가속화 \n\n**2. 하이퍼스케일러 및 개발사 동향**  \n\n• 5대 클라우드 서비스 제공사(MS, 아마존, 구글, 메타, 오라클) 자본지출 2026년 60% 증가 전",
+          "date": "2026-04-13T10:20"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "**메타, 사상 최초로 ‘광고 매출’ 구글 초과 ****$META**\n\n([WSJ](https://www.wsj.com/business/media/meta-expected-to-unseat-google-as-worlds-largest-digital-ad-player-83d3f522)) 2026년 메타의 순 광고 매출(콘텐츠 획득 비용 제외)은 $243.46B에 달할 것으로 추정되며, 이는 구글의 예상치인 $239.54B를 근소하게 앞서는 수치다. 메타의 광고 매출 성장률은 2025년 22.1%에서 올해 24.1%로 가속화되는 반면,",
+          "date": "2026-04-13T22:29"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) TSMC의 SoIC 캐파 확장 가속화 보도, Besi에 긍정적\n\n뉴스:TSMC가 대만 내 SoIC 캐파(3D 스태킹/하이브리드 본딩)의 확장을 가속화하고 있으며, 2027년 말까지 월 40,000매(wpm) 수준의 캐파를 확보할 것으로 알려졌습니다.\n\n당사의 견해: Besi는 하이브리드 본더에 대한 강력한 수주를 기대할 수 있습니다. 하이브리드 본더는 SoIC의 핵심 장비이며, TSMC에서 Besi가 유일한 퀄리파이드 공급업체입니다. 이는 AI/HPC 수요를 충족하기 위해 신규 또는 증설된 어드밴스드 패키징 캐파에서 장비",
+          "date": "2026-04-13T09:58"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**메타, 사상 최초로 ‘광고 매출’ 구글 초과 ****$META**\n\n([WSJ](https://www.wsj.com/business/media/meta-expected-to-unseat-google-as-worlds-largest-digital-ad-player-83d3f522)) 2026년 메타의 순 광고 매출(콘텐츠 획득 비용 제외)은 $243.46B에 달할 것으로 추정되며, 이는 구글의 예상치인 $239.54B를 근소하게 앞서는 수치다. 메타의 광고 매출 성장률은 2025년 22.1%에서 올해 24.1%로 가속화되는 반면,",
+          "date": "2026-04-13T22:13"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**라인메탈, 미사일 합작법인 설립 ****RHM.DE**\n\n([Official](https://www.rheinmetall.com/en/media/news-watch/news/2026/04/2026-04-13-rheinmetall-and-destinus-form-joint-venture-for-missile-systems)) 독일의 최대 방산업체인 라인메탈과 네덜란드의 국방 기술 기업 데스티누스(Destinus)가 첨단 미사일 시스템 생산을 위한 합작법인(JV) 설립에 합의했다. JV 명칭은 ‘라인메탈 데스티누스 스트라이크 시스템",
+          "date": "2026-04-13T14:39"
+        }
+      ]
+    },
+    "GOOGL": {
+      "ticker": "GOOGL",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 6,
+      "channels": [
+        "d_ticker",
+        "Jstockclass",
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-04-13T22:29:39+00:00",
+      "messages": [
+        {
+          "channel": "Jstockclass",
+          "text": "**Vertiv 1Q26 실적 프리뷰 및 TP 상향 (Bofa)**\n\n**1. 시장 환경 및 수요 전망\n**\n• 미국 데이터센터 건설 착공액 1~2월 369억 달러 기록 (전년 동기 14억 달러 대비 급증)  \n\n• 6개월 내 착공 예정 프로젝트 규모 708억 달러로 강력한 파이프라인 형성  \n\n• 미국 데이터센터 건설 지출 연간 470억 달러 속도로 전년 대비 31% 가속화 \n\n**2. 하이퍼스케일러 및 개발사 동향**  \n\n• 5대 클라우드 서비스 제공사(MS, 아마존, 구글, 메타, 오라클) 자본지출 2026년 60% 증가 전",
+          "date": "2026-04-13T10:20"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "**메타, 사상 최초로 ‘광고 매출’ 구글 초과 ****$META**\n\n([WSJ](https://www.wsj.com/business/media/meta-expected-to-unseat-google-as-worlds-largest-digital-ad-player-83d3f522)) 2026년 메타의 순 광고 매출(콘텐츠 획득 비용 제외)은 $243.46B에 달할 것으로 추정되며, 이는 구글의 예상치인 $239.54B를 근소하게 앞서는 수치다. 메타의 광고 매출 성장률은 2025년 22.1%에서 올해 24.1%로 가속화되는 반면,",
+          "date": "2026-04-13T22:29"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "CNBC) OpenAI, 메모에서 아마존과의 동맹 강조하며 마이크로소프트가 고객 확보 '능력을 제한했다'고 밝혀\n\nOpenAI의 신임 최고 수익 책임자(CRO)인 데니스 드레서는 일요일 직원들에게 보낸 메모에서 아마존과의 동맹을 기업용 비즈니스의 핵심 성장 동력으로 강조하는 한편, 마이크로소프트와의 오랜 제휴에 따른 제약 사항을 지적했습니다.\n\n드레서의 메모는 아마존이 전략적 파트너십의 일환으로 OpenAI에 최대 500억 달러를 투자하겠다는 계획을 발표한 지 두 달도 채 되지 않아 나온 것입니다. 아마존의 최대 클라우드 컴퓨팅 경",
+          "date": "2026-04-13T14:55"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) TSMC의 SoIC 캐파 확장 가속화 보도, Besi에 긍정적\n\n뉴스:TSMC가 대만 내 SoIC 캐파(3D 스태킹/하이브리드 본딩)의 확장을 가속화하고 있으며, 2027년 말까지 월 40,000매(wpm) 수준의 캐파를 확보할 것으로 알려졌습니다.\n\n당사의 견해: Besi는 하이브리드 본더에 대한 강력한 수주를 기대할 수 있습니다. 하이브리드 본더는 SoIC의 핵심 장비이며, TSMC에서 Besi가 유일한 퀄리파이드 공급업체입니다. 이는 AI/HPC 수요를 충족하기 위해 신규 또는 증설된 어드밴스드 패키징 캐파에서 장비",
+          "date": "2026-04-13T09:58"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "파이낸셜 타임즈) 구글의 터보퀀트 알고리즘이 메모리 반도체의 AI 수요를 해칠 것인가?\n더 효율적인 인공지능은 오히려 반도체 수요를 더욱 확대할 수 있다고 전문가들은 말한다\n\n\n구글이 3월 말 공개한 터보퀀트(TurboQuant) 기술은 AI 모델의 단기 메모리인 KV 캐시를 압축해 메모리 사용량을 최대 6배까지 줄일 수 있다고 주장하며, 삼성과 SK하이닉스 등 한국 메모리 반도체 기업의 주가를 급락시키고 HBM 수요 위축에 대한 우려를 촉발했습니다. 그러나 삼성전자가 단일 분기 사상 최대 수준의 실적 가이던스를 발표하며 메모리 시",
+          "date": "2026-04-13T03:17"
+        }
+      ]
+    },
+    "AAPL": {
+      "ticker": "AAPL",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 2,
+      "channels": [
+        "beluga_investment",
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-04-13T21:14:31+00:00",
+      "messages": [
+        {
+          "channel": "beluga_investment",
+          "text": "**Credo, DustPhotonics 인수 합의… 실리콘 포토닉스 및 차세대 광 연결 분야 확장 가속화\n\n**DustPhotonics 인수($750mn) Credo의 광 인터커넥트 로드맵을 직접적으로 앞당기고, 글로벌 광통신 산업에서 회사가 대응할 수 있는 시장 범위를 크게 넓혀줍니다. DustPhotonics는 **400G, 800G, 1.6T** 를 아우르는 차별화된 SiPho PIC 포트폴리오를 개발했으며, 로드맵은 **3.2T** 까지 확장되어 있습니다.\n\n이 기술은 핵심 광 기능을 **단일 칩에 통합** 해 부품 복잡성",
+          "date": "2026-04-13T21:14"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) TSMC의 SoIC 캐파 확장 가속화 보도, Besi에 긍정적\n\n뉴스:TSMC가 대만 내 SoIC 캐파(3D 스태킹/하이브리드 본딩)의 확장을 가속화하고 있으며, 2027년 말까지 월 40,000매(wpm) 수준의 캐파를 확보할 것으로 알려졌습니다.\n\n당사의 견해: Besi는 하이브리드 본더에 대한 강력한 수주를 기대할 수 있습니다. 하이브리드 본더는 SoIC의 핵심 장비이며, TSMC에서 Besi가 유일한 퀄리파이드 공급업체입니다. 이는 AI/HPC 수요를 충족하기 위해 신규 또는 증설된 어드밴스드 패키징 캐파에서 장비",
+          "date": "2026-04-13T09:58"
         }
       ]
     },
     "삼성전자": {
       "ticker": "삼성전자",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "report_figure_by_offset",
-        "DOC_POOL"
-      ],
-      "latestDate": "2026-04-12T22:19:15+00:00",
-      "messages": [
-        {
-          "channel": "report_figure_by_offset",
-          "text": "**<<26년 4월 1-10일 잠정 수출 데이터 정리>>**\n\n개인적인 총평 : 반도체 D램, NAND 매우 좋고, 전체적인 반도체 관련 수출이 좋아보임. 라면과 화장품 수출데이터가 ATH급으로 올라온 것이 인상깊었음. 화장품은 계절성으로 지금이 가장 좋은 시기.\n\n**\n-반도체-**\n\n>D램 : 다시 한번 큰 폭으로 증가하면서 레벨업.(삼전/하닉)\n>플래시 메모리 : D램 보다 더 큰 폭으로 급등.(삼전/하닉)\n>스크러버 : MOM 크게 감소.(GST,유니셈)\n>블랭크마스크 : 디스플레이 - MOM 유지. 반도체 - MOM 증가.",
-          "date": "2026-04-12T06:34"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "**[기업명/산업명/카테고리]**\n하나증권 리서치센터\n제목: 화수분전략 - 시장은 압축된다. 업종과 종목도 압축하자\n작성일: 2026.04.13\n작성자: 이재만\n\n**[시장 전망]**\n· 금리 인하 기대감 형성이 필요하며, 미국 2년물 국채금리가 기준금리보다 높아 연준의 금리 인하 가능성 반영.\n· 미국 경제 성장 둔화로 시중금리 하락 가능성이 높으며, 에너지 제외 CPI 상승 압력은 낮으나 미시건대 소비자심리지수는 역대 최저 수준.\n· 미국과 이란 전쟁에도 불구하고 달러 인덱스의 급등 현상이 나타나지 않아, 장기 달러 약세를 고려",
-          "date": "2026-04-12T22:19"
-        }
-      ]
-    },
-    "에스티팜": {
-      "ticker": "에스티팜",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "report_figure_by_offset"
-      ],
-      "latestDate": "2026-04-12T06:34:16+00:00",
-      "messages": [
-        {
-          "channel": "report_figure_by_offset",
-          "text": "**<<26년 4월 1-10일 잠정 수출 데이터 정리>>**\n\n개인적인 총평 : 반도체 D램, NAND 매우 좋고, 전체적인 반도체 관련 수출이 좋아보임. 라면과 화장품 수출데이터가 ATH급으로 올라온 것이 인상깊었음. 화장품은 계절성으로 지금이 가장 좋은 시기.\n\n**\n-반도체-**\n\n>D램 : 다시 한번 큰 폭으로 증가하면서 레벨업.(삼전/하닉)\n>플래시 메모리 : D램 보다 더 큰 폭으로 급등.(삼전/하닉)\n>스크러버 : MOM 크게 감소.(GST,유니셈)\n>블랭크마스크 : 디스플레이 - MOM 유지. 반도체 - MOM 증가.",
-          "date": "2026-04-12T06:34"
-        }
-      ]
-    },
-    "삼성전기": {
-      "ticker": "삼성전기",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "report_figure_by_offset"
-      ],
-      "latestDate": "2026-04-12T06:34:16+00:00",
-      "messages": [
-        {
-          "channel": "report_figure_by_offset",
-          "text": "**<<26년 4월 1-10일 잠정 수출 데이터 정리>>**\n\n개인적인 총평 : 반도체 D램, NAND 매우 좋고, 전체적인 반도체 관련 수출이 좋아보임. 라면과 화장품 수출데이터가 ATH급으로 올라온 것이 인상깊었음. 화장품은 계절성으로 지금이 가장 좋은 시기.\n\n**\n-반도체-**\n\n>D램 : 다시 한번 큰 폭으로 증가하면서 레벨업.(삼전/하닉)\n>플래시 메모리 : D램 보다 더 큰 폭으로 급등.(삼전/하닉)\n>스크러버 : MOM 크게 감소.(GST,유니셈)\n>블랭크마스크 : 디스플레이 - MOM 유지. 반도체 - MOM 증가.",
-          "date": "2026-04-12T06:34"
-        }
-      ]
-    },
-    "HD마린엔진": {
-      "ticker": "HD마린엔진",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
-      "channels": [
-        "report_figure_by_offset",
-        "DOC_POOL"
-      ],
-      "latestDate": "2026-04-12T22:19:15+00:00",
-      "messages": [
-        {
-          "channel": "report_figure_by_offset",
-          "text": "**<<26년 4월 1-10일 잠정 수출 데이터 정리>>**\n\n개인적인 총평 : 반도체 D램, NAND 매우 좋고, 전체적인 반도체 관련 수출이 좋아보임. 라면과 화장품 수출데이터가 ATH급으로 올라온 것이 인상깊었음. 화장품은 계절성으로 지금이 가장 좋은 시기.\n\n**\n-반도체-**\n\n>D램 : 다시 한번 큰 폭으로 증가하면서 레벨업.(삼전/하닉)\n>플래시 메모리 : D램 보다 더 큰 폭으로 급등.(삼전/하닉)\n>스크러버 : MOM 크게 감소.(GST,유니셈)\n>블랭크마스크 : 디스플레이 - MOM 유지. 반도체 - MOM 증가.",
-          "date": "2026-04-12T06:34"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "**[기업명/산업명/카테고리]**\n하나증권 리서치센터\n제목: 화수분전략 - 시장은 압축된다. 업종과 종목도 압축하자\n작성일: 2026.04.13\n작성자: 이재만\n\n**[시장 전망]**\n· 금리 인하 기대감 형성이 필요하며, 미국 2년물 국채금리가 기준금리보다 높아 연준의 금리 인하 가능성 반영.\n· 미국 경제 성장 둔화로 시중금리 하락 가능성이 높으며, 에너지 제외 CPI 상승 압력은 낮으나 미시건대 소비자심리지수는 역대 최저 수준.\n· 미국과 이란 전쟁에도 불구하고 달러 인덱스의 급등 현상이 나타나지 않아, 장기 달러 약세를 고려",
-          "date": "2026-04-12T22:19"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "**HD현대일렉트릭/전기전자/리포트**\n제목: 투자의견 '매수' 유지, 목표주가 1,220,000원으로 상향\n작성일: 2026.04.13\n작성자: 허민호 (대신증권)\n투자의견: BUY (매수, 유지)\n목표주가: 1,220,000\n\n**[성장성 확대]**\n· 1Q26F 영업이익 2,527억원(+16% YoY) 및 2026F 1.28조원(+28% YoY) 전망. 미국 유통법인 및 국내 본사 출하 시점 차이, 매출액의 상저하고 경향 등 감안 시 1분기 매출 성장 속도 둔화는 우려 사항 아님. 765kV 전력기기의 북미 시장 고성장 본격화",
-          "date": "2026-04-12T22:18"
-        }
-      ]
-    },
-    "산일전기": {
-      "ticker": "산일전기",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "report_figure_by_offset"
-      ],
-      "latestDate": "2026-04-12T06:34:16+00:00",
-      "messages": [
-        {
-          "channel": "report_figure_by_offset",
-          "text": "**<<26년 4월 1-10일 잠정 수출 데이터 정리>>**\n\n개인적인 총평 : 반도체 D램, NAND 매우 좋고, 전체적인 반도체 관련 수출이 좋아보임. 라면과 화장품 수출데이터가 ATH급으로 올라온 것이 인상깊었음. 화장품은 계절성으로 지금이 가장 좋은 시기.\n\n**\n-반도체-**\n\n>D램 : 다시 한번 큰 폭으로 증가하면서 레벨업.(삼전/하닉)\n>플래시 메모리 : D램 보다 더 큰 폭으로 급등.(삼전/하닉)\n>스크러버 : MOM 크게 감소.(GST,유니셈)\n>블랭크마스크 : 디스플레이 - MOM 유지. 반도체 - MOM 증가.",
-          "date": "2026-04-12T06:34"
-        }
-      ]
-    },
-    "TEM": {
-      "ticker": "TEM",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
+      "messageCount": 5,
       "channels": [
         "d_ticker",
-        "beluga_investment"
+        "beluga_investment",
+        "aetherjapanresearch"
       ],
-      "latestDate": "2026-04-12T22:14:03+00:00",
+      "latestDate": "2026-04-13T14:56:40+00:00",
       "messages": [
         {
           "channel": "beluga_investment",
-          "text": "Anthropic CEO: **“코딩이 가장 먼저 사라질 것이다. 그다음은 소프트웨어 엔지니어링 전반이다.”**\n\n그럼에도 살아남는 5%는 무엇인가?\n바로 **시스템 사고(Systems Thinking)** 입니다.\n\n중요한 것은 **문법(syntax)** 이 아닙니다.\n**오케스트레이션, 하니스, 메모리, 엣지 추론**입니다.\n\n**https://x.com/rohit4verse/status/2043361324558844290?s=46**\n\n***하니스(harness)** 는 보통 **여러 도구나 모델이 제대로 작동하도록 묶어두는 ",
-          "date": "2026-04-12T22:14"
+          "text": "**260413_US Semiconductor Equipment Big-Three Capex Preview - CITI **\n\n(1) 1Q26 실적 발표를 앞두고 Big 3[TSMC/삼성전자/Intel]의 CAPEX를 점검 \n*Big 3는 '25년 WFE 지출의 약 55%를 차지한 바 있음\n\n(2) 우리는 장비 업종이 현재 2단계 업사이클에 있다는 기존 견해를 유지하며, '26년/'27년 WFE가 우리의 강세 시나리오인 $140bn/$180bn에 점점 더 가까워지고 있다고 판단\n\n(3) 우리는 TSMC가 '26년 가이던스 $52bn",
+          "date": "2026-04-12T22:58"
         },
-        {
-          "channel": "d_ticker",
-          "text": "**국군, 자폭드론 도입 추진**\n\n([중앙일보](https://www.joongang.co.kr/article/25419577)) 이란전에서 실전 데뷔한 미국의 저비용 자폭 드론 ‘루카스(Low-cost Uncrewed Combat Attack System)’가 현대전의 또다른 다크호스로 떠오른 가운데 우리 공군도 루카스급 저비용 무인 체계(드론) 도입을 추진하는것으로 나타났다. 같은 맥락에서 드론작전사령부 폐지를 검토했던 국방부는 본부 차원의 드론 조직을 신설하는 방안을 검토 중인데, 이란전을 기점으로 군 내부에 드론의 중요성을",
-          "date": "2026-04-12T21:21"
-        }
-      ]
-    },
-    "BE": {
-      "ticker": "BE",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
-      "channels": [
-        "aetherjapanresearch",
-        "d_ticker",
-        "DOC_POOL"
-      ],
-      "latestDate": "2026-04-12T22:17:45+00:00",
-      "messages": [
         {
           "channel": "aetherjapanresearch",
-          "text": "반도체 리포트 하나 추천드립니다.\n\n한국은행 ‘[글로벌 반도체 경기 확장세 지속 가능성 점검(이택민)](https://www.bok.or.kr/portal/bbs/P0002105/view.do?nttId=10095747&searchCnd=1&searchKwd=&depth2=200699&date=&sdate=&edate=&sort=1&pageUnit=10&depth=200699&pageIndex=1&programType=newsData&menuNo=200439&oldMenuNo=200066)‘이며, AI와 메모리 산업의 현 상황을 가",
-          "date": "2026-04-12T11:46"
+          "text": "파이낸셜 타임즈) 구글의 터보퀀트 알고리즘이 메모리 반도체의 AI 수요를 해칠 것인가?\n더 효율적인 인공지능은 오히려 반도체 수요를 더욱 확대할 수 있다고 전문가들은 말한다\n\n\n구글이 3월 말 공개한 터보퀀트(TurboQuant) 기술은 AI 모델의 단기 메모리인 KV 캐시를 압축해 메모리 사용량을 최대 6배까지 줄일 수 있다고 주장하며, 삼성과 SK하이닉스 등 한국 메모리 반도체 기업의 주가를 급락시키고 HBM 수요 위축에 대한 우려를 촉발했습니다. 그러나 삼성전자가 단일 분기 사상 최대 수준의 실적 가이던스를 발표하며 메모리 시",
+          "date": "2026-04-13T03:17"
         },
         {
           "channel": "d_ticker",
-          "text": "반도체 리포트 하나 추천드립니다.\n\n한국은행 ‘[글로벌 반도체 경기 확장세 지속 가능성 점검(이택민)](https://www.bok.or.kr/portal/bbs/P0002105/view.do?nttId=10095747&searchCnd=1&searchKwd=&depth2=200699&date=&sdate=&edate=&sort=1&pageUnit=10&depth=200699&pageIndex=1&programType=newsData&menuNo=200439&oldMenuNo=200066)‘이며, AI와 메모리 산업의 현 상황을 가",
-          "date": "2026-04-12T11:36"
+          "text": "[[단독] 삼성 HBM 로직다이 가격 40~50% 올렸다…적자 파운드리 '반전 신호'](https://www.fnnews.com/news/202604131420016759#_enliple)\n\n삼성파운드리가 4N 베이스다이 수율 90%를 달성한 것으로 알려져 있죠. 단순히 팔이 안으로 굽어서 가격 인상을 수용한 것을 넘어 정말 실력을 인정받은 셈입니다(물론 SK하이닉스-TSMC 간 12N 베이스다이 계약액보다 훨씬 큽니다). 테슬라 ‘AI5·6’와 엔비디아 ‘그록’ 등 굵직한 수주를 또 수율을 잡는 등 양산을 성공하고 나면, 누적된 ",
+          "date": "2026-04-13T14:56"
         },
         {
-          "channel": "DOC_POOL",
-          "text": "**[조선/HD한국조선해양/산업 분석]**\n제목: 해가 지지 않는 조선제국: 2번째 발걸음 HHIP\n작성일: 2026.04.09\n작성자: 최광식, 이준범 (DAOL 다올투자증권)\n투자의견: BUY\n목표주가: 560,000원\n\n**[SEA Belt 전략 확대]**\n· HD한국조선해양은 합병 배경으로 제시했던 해외 생산거점 확대 전략을 SEA Belt 전략으로 구체화하고 있습니다. 이는 중국에 빼앗긴 시장을 탈환하고, 한국의 기자재 인프라를 안정화하며, 인도 등 로컬 콘텐츠 시장을 선점하여 사이클에 둔감한 사업 구조를 구축하는 것을 목",
-          "date": "2026-04-12T22:17"
+          "channel": "d_ticker",
+          "text": "**삼성SDI, 벤츠에 첫 배터리 공급 추진**\n\n([디일렉](https://www.thelec.kr/news/articleView.html?idxno=54974)) 삼성SDI가 메르세데스-벤츠의 차세대 전기차에 배터리 공급을 추진한다. 오는 2028년형 전기차에 탑재할 배터리를 두고 양사는 다양한 협력 방안을 논의하고 있다. 이재용 삼성전자 회장이 지난해부터 최주선 삼성SDI 사장과 함께 벤츠 수뇌부를 연이어 만나며 협력을 끌어올린 결과다. 계약이 이뤄진다면 삼성SDI 배터리가 벤츠 전기차에 처음 탑재된다. 13일 업계에 따르면 ",
+          "date": "2026-04-13T08:48"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**반도체 원료 '브롬', 이스라엘 의존도 98%**\n\n([연합뉴스](https://www.yna.co.kr/view/AKR20260413021800003?section=industry/all)) 13일 한국무역협회에 따르면 미국과 이란 전쟁으로 호르무즈 해협 통항이 자유롭지 않은 가운데 원유, 나프타 외에도 중동 의존도가 높은 헬륨, 브롬 등에 대한 안정적 공급망 확보가 핵심 과제로 떠올랐다. 삼성전자 등이 일부 생산라인에 '헬륨 재사용 시스템'을 적용해 단기 대응은 가능하지만, 이마저도 사태가 장기화하면 수급 위기를 맞을 수 있",
+          "date": "2026-04-13T05:27"
         }
       ]
     },
-    "HD현대일렉": {
-      "ticker": "HD현대일렉",
+    "APP": {
+      "ticker": "APP",
       "summary": "분석 실패: Connection error.",
       "messageCount": 2,
       "channels": [
-        "DOC_POOL"
+        "beluga_investment",
+        "aetherjapanresearch"
       ],
-      "latestDate": "2026-04-12T22:19:15+00:00",
+      "latestDate": "2026-04-13T09:58:13+00:00",
       "messages": [
         {
-          "channel": "DOC_POOL",
-          "text": "**[기업명/산업명/카테고리]**\n하나증권 리서치센터\n제목: 화수분전략 - 시장은 압축된다. 업종과 종목도 압축하자\n작성일: 2026.04.13\n작성자: 이재만\n\n**[시장 전망]**\n· 금리 인하 기대감 형성이 필요하며, 미국 2년물 국채금리가 기준금리보다 높아 연준의 금리 인하 가능성 반영.\n· 미국 경제 성장 둔화로 시중금리 하락 가능성이 높으며, 에너지 제외 CPI 상승 압력은 낮으나 미시건대 소비자심리지수는 역대 최저 수준.\n· 미국과 이란 전쟁에도 불구하고 달러 인덱스의 급등 현상이 나타나지 않아, 장기 달러 약세를 고려",
-          "date": "2026-04-12T22:19"
+          "channel": "beluga_investment",
+          "text": "**260413_US Semiconductor Equipment Big-Three Capex Preview - CITI **\n\n(1) 1Q26 실적 발표를 앞두고 Big 3[TSMC/삼성전자/Intel]의 CAPEX를 점검 \n*Big 3는 '25년 WFE 지출의 약 55%를 차지한 바 있음\n\n(2) 우리는 장비 업종이 현재 2단계 업사이클에 있다는 기존 견해를 유지하며, '26년/'27년 WFE가 우리의 강세 시나리오인 $140bn/$180bn에 점점 더 가까워지고 있다고 판단\n\n(3) 우리는 TSMC가 '26년 가이던스 $52bn",
+          "date": "2026-04-12T22:58"
         },
         {
-          "channel": "DOC_POOL",
-          "text": "**HD현대일렉트릭/전기전자/리포트**\n제목: 투자의견 '매수' 유지, 목표주가 1,220,000원으로 상향\n작성일: 2026.04.13\n작성자: 허민호 (대신증권)\n투자의견: BUY (매수, 유지)\n목표주가: 1,220,000\n\n**[성장성 확대]**\n· 1Q26F 영업이익 2,527억원(+16% YoY) 및 2026F 1.28조원(+28% YoY) 전망. 미국 유통법인 및 국내 본사 출하 시점 차이, 매출액의 상저하고 경향 등 감안 시 1분기 매출 성장 속도 둔화는 우려 사항 아님. 765kV 전력기기의 북미 시장 고성장 본격화",
-          "date": "2026-04-12T22:18"
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) TSMC의 SoIC 캐파 확장 가속화 보도, Besi에 긍정적\n\n뉴스:TSMC가 대만 내 SoIC 캐파(3D 스태킹/하이브리드 본딩)의 확장을 가속화하고 있으며, 2027년 말까지 월 40,000매(wpm) 수준의 캐파를 확보할 것으로 알려졌습니다.\n\n당사의 견해: Besi는 하이브리드 본더에 대한 강력한 수주를 기대할 수 있습니다. 하이브리드 본더는 SoIC의 핵심 장비이며, TSMC에서 Besi가 유일한 퀄리파이드 공급업체입니다. 이는 AI/HPC 수요를 충족하기 위해 신규 또는 증설된 어드밴스드 패키징 캐파에서 장비",
+          "date": "2026-04-13T09:58"
         }
       ]
     },
-    "현대로템": {
-      "ticker": "현대로템",
+    "TSM": {
+      "ticker": "TSM",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
+      "messageCount": 4,
       "channels": [
-        "DOC_POOL"
+        "d_ticker",
+        "beluga_investment",
+        "aetherjapanresearch"
       ],
-      "latestDate": "2026-04-12T22:19:15+00:00",
+      "latestDate": "2026-04-13T14:56:40+00:00",
       "messages": [
         {
-          "channel": "DOC_POOL",
-          "text": "**[기업명/산업명/카테고리]**\n하나증권 리서치센터\n제목: 화수분전략 - 시장은 압축된다. 업종과 종목도 압축하자\n작성일: 2026.04.13\n작성자: 이재만\n\n**[시장 전망]**\n· 금리 인하 기대감 형성이 필요하며, 미국 2년물 국채금리가 기준금리보다 높아 연준의 금리 인하 가능성 반영.\n· 미국 경제 성장 둔화로 시중금리 하락 가능성이 높으며, 에너지 제외 CPI 상승 압력은 낮으나 미시건대 소비자심리지수는 역대 최저 수준.\n· 미국과 이란 전쟁에도 불구하고 달러 인덱스의 급등 현상이 나타나지 않아, 장기 달러 약세를 고려",
-          "date": "2026-04-12T22:19"
+          "channel": "beluga_investment",
+          "text": "**260413_US Semiconductor Equipment Big-Three Capex Preview - CITI **\n\n(1) 1Q26 실적 발표를 앞두고 Big 3[TSMC/삼성전자/Intel]의 CAPEX를 점검 \n*Big 3는 '25년 WFE 지출의 약 55%를 차지한 바 있음\n\n(2) 우리는 장비 업종이 현재 2단계 업사이클에 있다는 기존 견해를 유지하며, '26년/'27년 WFE가 우리의 강세 시나리오인 $140bn/$180bn에 점점 더 가까워지고 있다고 판단\n\n(3) 우리는 TSMC가 '26년 가이던스 $52bn",
+          "date": "2026-04-12T22:58"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) TSMC의 SoIC 캐파 확장 가속화 보도, Besi에 긍정적\n\n뉴스:TSMC가 대만 내 SoIC 캐파(3D 스태킹/하이브리드 본딩)의 확장을 가속화하고 있으며, 2027년 말까지 월 40,000매(wpm) 수준의 캐파를 확보할 것으로 알려졌습니다.\n\n당사의 견해: Besi는 하이브리드 본더에 대한 강력한 수주를 기대할 수 있습니다. 하이브리드 본더는 SoIC의 핵심 장비이며, TSMC에서 Besi가 유일한 퀄리파이드 공급업체입니다. 이는 AI/HPC 수요를 충족하기 위해 신규 또는 증설된 어드밴스드 패키징 캐파에서 장비",
+          "date": "2026-04-13T09:58"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) ASML 1Q26 프리뷰: 고객 수요 지표에 대한 코멘터리는 강세를 보일 것. 목표가 $1813\n\nASML 실적 발표의 핵심은 4Q25에 수주한 강력한 오더 대비 고객 수요 지표에 관한 회사 측 코멘터리가 될 것입니다. 동사는 더 이상 오더를 공시하지 않을 예정이어서, 실적 보고서에 의미 있는 긍정적 뉴스나 새로운 소식이 없을 것이라는 우려가 투자자들 사이에 존재합니다. 당사의 견해로는, 회사 측이 분기 동안의 고객 수요 지표에 대해 매우 긍정적인 색채의 언급을 할 가능성이 높습니다. 하이닉스와 삼성으로부터의 강력한 수주",
+          "date": "2026-04-13T00:43"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "[[단독] 삼성 HBM 로직다이 가격 40~50% 올렸다…적자 파운드리 '반전 신호'](https://www.fnnews.com/news/202604131420016759#_enliple)\n\n삼성파운드리가 4N 베이스다이 수율 90%를 달성한 것으로 알려져 있죠. 단순히 팔이 안으로 굽어서 가격 인상을 수용한 것을 넘어 정말 실력을 인정받은 셈입니다(물론 SK하이닉스-TSMC 간 12N 베이스다이 계약액보다 훨씬 큽니다). 테슬라 ‘AI5·6’와 엔비디아 ‘그록’ 등 굵직한 수주를 또 수율을 잡는 등 양산을 성공하고 나면, 누적된 ",
+          "date": "2026-04-13T14:56"
         }
       ]
     },
-    "SK하이닉스": {
-      "ticker": "SK하이닉스",
+    "SMH": {
+      "ticker": "SMH",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
-        "DOC_POOL"
+        "beluga_investment"
       ],
-      "latestDate": "2026-04-12T22:19:15+00:00",
+      "latestDate": "2026-04-12T22:58:34+00:00",
       "messages": [
         {
-          "channel": "DOC_POOL",
-          "text": "**[기업명/산업명/카테고리]**\n하나증권 리서치센터\n제목: 화수분전략 - 시장은 압축된다. 업종과 종목도 압축하자\n작성일: 2026.04.13\n작성자: 이재만\n\n**[시장 전망]**\n· 금리 인하 기대감 형성이 필요하며, 미국 2년물 국채금리가 기준금리보다 높아 연준의 금리 인하 가능성 반영.\n· 미국 경제 성장 둔화로 시중금리 하락 가능성이 높으며, 에너지 제외 CPI 상승 압력은 낮으나 미시건대 소비자심리지수는 역대 최저 수준.\n· 미국과 이란 전쟁에도 불구하고 달러 인덱스의 급등 현상이 나타나지 않아, 장기 달러 약세를 고려",
-          "date": "2026-04-12T22:19"
+          "channel": "beluga_investment",
+          "text": "**260413_US Semiconductor Equipment Big-Three Capex Preview - CITI **\n\n(1) 1Q26 실적 발표를 앞두고 Big 3[TSMC/삼성전자/Intel]의 CAPEX를 점검 \n*Big 3는 '25년 WFE 지출의 약 55%를 차지한 바 있음\n\n(2) 우리는 장비 업종이 현재 2단계 업사이클에 있다는 기존 견해를 유지하며, '26년/'27년 WFE가 우리의 강세 시나리오인 $140bn/$180bn에 점점 더 가까워지고 있다고 판단\n\n(3) 우리는 TSMC가 '26년 가이던스 $52bn",
+          "date": "2026-04-12T22:58"
         }
       ]
     },
-    "삼성중공업": {
-      "ticker": "삼성중공업",
+    "TIGER지주": {
+      "ticker": "TIGER지주",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
+      "messageCount": 2,
       "channels": [
-        "DOC_POOL"
+        "d_ticker",
+        "aetherjapanresearch"
       ],
-      "latestDate": "2026-04-12T22:19:15+00:00",
+      "latestDate": "2026-04-13T22:29:40+00:00",
       "messages": [
         {
-          "channel": "DOC_POOL",
-          "text": "**[기업명/산업명/카테고리]**\n하나증권 리서치센터\n제목: 화수분전략 - 시장은 압축된다. 업종과 종목도 압축하자\n작성일: 2026.04.13\n작성자: 이재만\n\n**[시장 전망]**\n· 금리 인하 기대감 형성이 필요하며, 미국 2년물 국채금리가 기준금리보다 높아 연준의 금리 인하 가능성 반영.\n· 미국 경제 성장 둔화로 시중금리 하락 가능성이 높으며, 에너지 제외 CPI 상승 압력은 낮으나 미시건대 소비자심리지수는 역대 최저 수준.\n· 미국과 이란 전쟁에도 불구하고 달러 인덱스의 급등 현상이 나타나지 않아, 장기 달러 약세를 고려",
-          "date": "2026-04-12T22:19"
-        }
-      ]
-    },
-    "두산에너빌": {
-      "ticker": "두산에너빌",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "DOC_POOL"
-      ],
-      "latestDate": "2026-04-12T22:19:15+00:00",
-      "messages": [
+          "channel": "aetherjapanresearch",
+          "text": "**오라클, 블룸에너지 연료전지 2.8GW 발주 ****$BE**\n\n([Reuters](https://www.reuters.com/legal/litigation/bloom-energy-supply-up-28-gw-fuel-cells-under-expanded-oracle-deal-2026-04-13/)) 오라클은 블룸에너지로부터 최대 2.8GW 규모의 연료전지 시스템을 조달하기 위한 기본 서비스 계약을 체결했다. 이 중 1.2GW 용량은 이미 계약이 완료되어 미국 전역의 오라클 프로젝트에 배치가 진행 중이며 내년까지 이어질 예정이다",
+          "date": "2026-04-13T22:29"
+        },
         {
-          "channel": "DOC_POOL",
-          "text": "**[기업명/산업명/카테고리]**\n하나증권 리서치센터\n제목: 화수분전략 - 시장은 압축된다. 업종과 종목도 압축하자\n작성일: 2026.04.13\n작성자: 이재만\n\n**[시장 전망]**\n· 금리 인하 기대감 형성이 필요하며, 미국 2년물 국채금리가 기준금리보다 높아 연준의 금리 인하 가능성 반영.\n· 미국 경제 성장 둔화로 시중금리 하락 가능성이 높으며, 에너지 제외 CPI 상승 압력은 낮으나 미시건대 소비자심리지수는 역대 최저 수준.\n· 미국과 이란 전쟁에도 불구하고 달러 인덱스의 급등 현상이 나타나지 않아, 장기 달러 약세를 고려",
-          "date": "2026-04-12T22:19"
-        }
-      ]
-    },
-    "현대차": {
-      "ticker": "현대차",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "DOC_POOL"
-      ],
-      "latestDate": "2026-04-12T22:18:59+00:00",
-      "messages": [
-        {
-          "channel": "DOC_POOL",
-          "text": "**[현대차/자동차/분석리포트]**\n제목: 로보틱스 도입 및 SDV 타임라인 가시화\n작성일: 2026.04.11\n작성자: 유민기 (상상인증권)\n투자의견: 매수 유지\n목표주가: 700,000원 유지\n\n**[1분기 실적 부진]**\n· 2026년 1분기 매출액 46.2조원(+4.6% YoY), 영업이익 2.4조원(-32.9% YoY)으로 컨센서스를 하회할 전망입니다.\n· 도매판매는 97.5만대로 전년 동기 대비 2.4% 감소했으며, 특히 팰리세이드 리콜 이슈가 내수 판매 부진의 주요 원인으로 작용했습니다.\n\n**[미래 성장 동력 강화]*",
-          "date": "2026-04-12T22:18"
+          "channel": "d_ticker",
+          "text": "**오라클, 블룸에너지 연료전지 2.8GW 발주 ****$BE**\n\n([Reuters](https://www.reuters.com/legal/litigation/bloom-energy-supply-up-28-gw-fuel-cells-under-expanded-oracle-deal-2026-04-13/)) 오라클은 블룸에너지로부터 최대 2.8GW 규모의 연료전지 시스템을 조달하기 위한 기본 서비스 계약을 체결했다. 이 중 1.2GW 용량은 이미 계약이 완료되어 미국 전역의 오라클 프로젝트에 배치가 진행 중이며 내년까지 이어질 예정이다",
+          "date": "2026-04-13T22:16"
         }
       ]
     },
     "GOOG": {
       "ticker": "GOOG",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
+      "messageCount": 3,
       "channels": [
-        "DOC_POOL"
+        "d_ticker",
+        "aetherjapanresearch"
       ],
-      "latestDate": "2026-04-12T22:18:59+00:00",
+      "latestDate": "2026-04-13T22:29:39+00:00",
       "messages": [
         {
-          "channel": "DOC_POOL",
-          "text": "**[현대차/자동차/분석리포트]**\n제목: 로보틱스 도입 및 SDV 타임라인 가시화\n작성일: 2026.04.11\n작성자: 유민기 (상상인증권)\n투자의견: 매수 유지\n목표주가: 700,000원 유지\n\n**[1분기 실적 부진]**\n· 2026년 1분기 매출액 46.2조원(+4.6% YoY), 영업이익 2.4조원(-32.9% YoY)으로 컨센서스를 하회할 전망입니다.\n· 도매판매는 97.5만대로 전년 동기 대비 2.4% 감소했으며, 특히 팰리세이드 리콜 이슈가 내수 판매 부진의 주요 원인으로 작용했습니다.\n\n**[미래 성장 동력 강화]*",
-          "date": "2026-04-12T22:18"
+          "channel": "aetherjapanresearch",
+          "text": "**메타, 사상 최초로 ‘광고 매출’ 구글 초과 ****$META**\n\n([WSJ](https://www.wsj.com/business/media/meta-expected-to-unseat-google-as-worlds-largest-digital-ad-player-83d3f522)) 2026년 메타의 순 광고 매출(콘텐츠 획득 비용 제외)은 $243.46B에 달할 것으로 추정되며, 이는 구글의 예상치인 $239.54B를 근소하게 앞서는 수치다. 메타의 광고 매출 성장률은 2025년 22.1%에서 올해 24.1%로 가속화되는 반면,",
+          "date": "2026-04-13T22:29"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) TSMC의 SoIC 캐파 확장 가속화 보도, Besi에 긍정적\n\n뉴스:TSMC가 대만 내 SoIC 캐파(3D 스태킹/하이브리드 본딩)의 확장을 가속화하고 있으며, 2027년 말까지 월 40,000매(wpm) 수준의 캐파를 확보할 것으로 알려졌습니다.\n\n당사의 견해: Besi는 하이브리드 본더에 대한 강력한 수주를 기대할 수 있습니다. 하이브리드 본더는 SoIC의 핵심 장비이며, TSMC에서 Besi가 유일한 퀄리파이드 공급업체입니다. 이는 AI/HPC 수요를 충족하기 위해 신규 또는 증설된 어드밴스드 패키징 캐파에서 장비",
+          "date": "2026-04-13T09:58"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**메타, 사상 최초로 ‘광고 매출’ 구글 초과 ****$META**\n\n([WSJ](https://www.wsj.com/business/media/meta-expected-to-unseat-google-as-worlds-largest-digital-ad-player-83d3f522)) 2026년 메타의 순 광고 매출(콘텐츠 획득 비용 제외)은 $243.46B에 달할 것으로 추정되며, 이는 구글의 예상치인 $239.54B를 근소하게 앞서는 수치다. 메타의 광고 매출 성장률은 2025년 22.1%에서 올해 24.1%로 가속화되는 반면,",
+          "date": "2026-04-13T22:13"
         }
       ]
     },
-    "HD한국조선": {
-      "ticker": "HD한국조선",
+    "SK하이닉스": {
+      "ticker": "SK하이닉스",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 4,
+      "channels": [
+        "d_ticker",
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-04-13T14:56:40+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "파이낸셜 타임즈) 구글의 터보퀀트 알고리즘이 메모리 반도체의 AI 수요를 해칠 것인가?\n더 효율적인 인공지능은 오히려 반도체 수요를 더욱 확대할 수 있다고 전문가들은 말한다\n\n\n구글이 3월 말 공개한 터보퀀트(TurboQuant) 기술은 AI 모델의 단기 메모리인 KV 캐시를 압축해 메모리 사용량을 최대 6배까지 줄일 수 있다고 주장하며, 삼성과 SK하이닉스 등 한국 메모리 반도체 기업의 주가를 급락시키고 HBM 수요 위축에 대한 우려를 촉발했습니다. 그러나 삼성전자가 단일 분기 사상 최대 수준의 실적 가이던스를 발표하며 메모리 시",
+          "date": "2026-04-13T03:17"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) ASML 1Q26 프리뷰: 고객 수요 지표에 대한 코멘터리는 강세를 보일 것. 목표가 $1813\n\nASML 실적 발표의 핵심은 4Q25에 수주한 강력한 오더 대비 고객 수요 지표에 관한 회사 측 코멘터리가 될 것입니다. 동사는 더 이상 오더를 공시하지 않을 예정이어서, 실적 보고서에 의미 있는 긍정적 뉴스나 새로운 소식이 없을 것이라는 우려가 투자자들 사이에 존재합니다. 당사의 견해로는, 회사 측이 분기 동안의 고객 수요 지표에 대해 매우 긍정적인 색채의 언급을 할 가능성이 높습니다. 하이닉스와 삼성으로부터의 강력한 수주",
+          "date": "2026-04-13T00:43"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "[[단독] 삼성 HBM 로직다이 가격 40~50% 올렸다…적자 파운드리 '반전 신호'](https://www.fnnews.com/news/202604131420016759#_enliple)\n\n삼성파운드리가 4N 베이스다이 수율 90%를 달성한 것으로 알려져 있죠. 단순히 팔이 안으로 굽어서 가격 인상을 수용한 것을 넘어 정말 실력을 인정받은 셈입니다(물론 SK하이닉스-TSMC 간 12N 베이스다이 계약액보다 훨씬 큽니다). 테슬라 ‘AI5·6’와 엔비디아 ‘그록’ 등 굵직한 수주를 또 수율을 잡는 등 양산을 성공하고 나면, 누적된 ",
+          "date": "2026-04-13T14:56"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**'HBF' 시장 열렸다…샌디스크 공급망 구축 개시**\n\n([전자신문](https://www.etnews.com/20260413000040)) 13일 업계에 따르면, 샌디스크는 HBM 시제품 생산 라인을 조성하기 위해 관련 소부장 협력사와 생태계 구축을 시작했다. 회사는 올 하반기 시제품을 시장에 선보일 예정인데, 이를 위한 파일롯 라인 신설로 분석된다. 생산 라인 후보지로는 일본이 유력하게 떠오르고 있다. 소부장 업계 고위 관계자는 “샌디스크가 하반기 주요 설비 반입을 목표로 소부장 기업과 협업을 타진하고 있다”며 “일부 기업은",
+          "date": "2026-04-13T05:28"
+        }
+      ]
+    },
+    "미래에셋": {
+      "ticker": "미래에셋",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
-        "DOC_POOL"
+        "aetherjapanresearch"
       ],
-      "latestDate": "2026-04-12T22:17:45+00:00",
+      "latestDate": "2026-04-13T03:17:54+00:00",
       "messages": [
         {
-          "channel": "DOC_POOL",
-          "text": "**[조선/HD한국조선해양/산업 분석]**\n제목: 해가 지지 않는 조선제국: 2번째 발걸음 HHIP\n작성일: 2026.04.09\n작성자: 최광식, 이준범 (DAOL 다올투자증권)\n투자의견: BUY\n목표주가: 560,000원\n\n**[SEA Belt 전략 확대]**\n· HD한국조선해양은 합병 배경으로 제시했던 해외 생산거점 확대 전략을 SEA Belt 전략으로 구체화하고 있습니다. 이는 중국에 빼앗긴 시장을 탈환하고, 한국의 기자재 인프라를 안정화하며, 인도 등 로컬 콘텐츠 시장을 선점하여 사이클에 둔감한 사업 구조를 구축하는 것을 목",
-          "date": "2026-04-12T22:17"
+          "channel": "aetherjapanresearch",
+          "text": "파이낸셜 타임즈) 구글의 터보퀀트 알고리즘이 메모리 반도체의 AI 수요를 해칠 것인가?\n더 효율적인 인공지능은 오히려 반도체 수요를 더욱 확대할 수 있다고 전문가들은 말한다\n\n\n구글이 3월 말 공개한 터보퀀트(TurboQuant) 기술은 AI 모델의 단기 메모리인 KV 캐시를 압축해 메모리 사용량을 최대 6배까지 줄일 수 있다고 주장하며, 삼성과 SK하이닉스 등 한국 메모리 반도체 기업의 주가를 급락시키고 HBM 수요 위축에 대한 우려를 촉발했습니다. 그러나 삼성전자가 단일 분기 사상 최대 수준의 실적 가이던스를 발표하며 메모리 시",
+          "date": "2026-04-13T03:17"
+        }
+      ]
+    },
+    "SOL금융": {
+      "ticker": "SOL금융",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "d_ticker"
+      ],
+      "latestDate": "2026-04-13T15:13:38+00:00",
+      "messages": [
+        {
+          "channel": "d_ticker",
+          "text": "**버티브, BMarko Strucutres 인수 ****$VRT**\n\n([Press](https://www.prnewswire.com/news-releases/vertiv-acquires-bmarko-structures-to-expand-capacity-for-manufactured-and-converged-infrastructure-solutions-302739968.html)) 데이터센터 냉각 솔루션 전문 버티브가 맞춤형 구조물 제조사 BMarko를 인수했다고 발표했다. 인수액은 공개되지 않았다. BMarko는 고품질 맞춤형 ",
+          "date": "2026-04-13T15:13"
+        }
+      ]
+    },
+    "TSLA": {
+      "ticker": "TSLA",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "d_ticker"
+      ],
+      "latestDate": "2026-04-13T14:56:40+00:00",
+      "messages": [
+        {
+          "channel": "d_ticker",
+          "text": "[[단독] 삼성 HBM 로직다이 가격 40~50% 올렸다…적자 파운드리 '반전 신호'](https://www.fnnews.com/news/202604131420016759#_enliple)\n\n삼성파운드리가 4N 베이스다이 수율 90%를 달성한 것으로 알려져 있죠. 단순히 팔이 안으로 굽어서 가격 인상을 수용한 것을 넘어 정말 실력을 인정받은 셈입니다(물론 SK하이닉스-TSMC 간 12N 베이스다이 계약액보다 훨씬 큽니다). 테슬라 ‘AI5·6’와 엔비디아 ‘그록’ 등 굵직한 수주를 또 수율을 잡는 등 양산을 성공하고 나면, 누적된 ",
+          "date": "2026-04-13T14:56"
+        }
+      ]
+    },
+    "TEM": {
+      "ticker": "TEM",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "d_ticker"
+      ],
+      "latestDate": "2026-04-13T14:39:45+00:00",
+      "messages": [
+        {
+          "channel": "d_ticker",
+          "text": "**라인메탈, 미사일 합작법인 설립 ****RHM.DE**\n\n([Official](https://www.rheinmetall.com/en/media/news-watch/news/2026/04/2026-04-13-rheinmetall-and-destinus-form-joint-venture-for-missile-systems)) 독일의 최대 방산업체인 라인메탈과 네덜란드의 국방 기술 기업 데스티누스(Destinus)가 첨단 미사일 시스템 생산을 위한 합작법인(JV) 설립에 합의했다. JV 명칭은 ‘라인메탈 데스티누스 스트라이크 시스템",
+          "date": "2026-04-13T14:39"
         }
       ]
     }
   },
-  "totalMessages": 40,
+  "totalMessages": 83,
   "channels": [
     "Jstockclass",
     "report_figure_by_offset",
