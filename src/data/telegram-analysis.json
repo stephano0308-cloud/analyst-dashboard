@@ -1,452 +1,261 @@
 {
-  "fetchedAt": "2026-04-14T22:42:18.477087",
+  "fetchedAt": "2026-04-15T22:39:06.595732",
   "status": "ok",
   "stocks": {
-    "APP": {
-      "ticker": "APP",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 4,
-      "channels": [
-        "aetherjapanresearch",
-        "d_ticker",
-        "beluga_investment"
-      ],
-      "latestDate": "2026-04-14T21:46:10+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**브로드컴, 메타와의 파트너십 확대 발표\n\n메타의 맞춤형 실리콘 MTIA를 지원하기 위한 멀티 기가와트급 기술 배치**\n\n• 메타는 브로드컴과 협력해 **업계 최초의 2nm AI 컴퓨트 가속기를 도입할 예정이며, 이는 여러 해에 걸친 지속적 인프라 확장의 기반**이 됨\n\n• **향후 3년 동안 양사는 차세대 AI 모델에 필요한 메타의 급증하는 컴퓨팅 수요를 충족하기 위해 차세대 AI 가속기 칩 개발에 협력**할 예정\n\n• **이번 파트너십은 브로드컴의 업계 선도 XPU 플랫폼을 기반으로 하며, 여러 세대의 실리콘에 걸쳐 메타의 A",
-          "date": "2026-04-14T21:46"
-        },
-        {
-          "channel": "beluga_investment",
-          "text": "**260414_Meta, 글로벌 최대 규모의 디지털 광고 사업자로 Google을 제칠 것으로 전망 - WSJ \n\n[Key Takeaways] \n\n(1) Emarketer에 따르면, Meta가 Google을 제치고 세계 최대 디지털 광고 기업이 될 것으로 전망 \n\n(2) Meta의 광고 사업 성장은 Reels 같은 새로운 서비스와 AI의 힘을 바탕으로 모멘텀을 받고 있음\n\n(3) 미국 검색 광고시장에서의 Google의 M/S는 경쟁 심화로 인해 올해 50% 아래로 떨어질 것으로 전망 \n\n-\n\n[Contents] **\n\n(1) 시장 ",
-          "date": "2026-04-14T01:59"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "**아마존, 글로벌스타 인수 완료 ****$AMZN**\n\n([Official](https://www.aboutamazon.com/news/company-news/amazon-globalstar-apple)) 아마존이 위성 통신 서비스 기업 글로벌스타(GSAT)를 인수하고, ‘아마존 LEO’의 위성망을 확대한다. 아마존은 GSAT이 보유한 무선 주파수 대역, 위성 운영 자산을 확보해 아마존 LEO 망에 D2D(Direct-to-Device) 서비스를 추가할 예정이다. 2028년부터 차세대 D2D 위성 시스템을 본격 배치한다는 구상이다",
-          "date": "2026-04-14T12:37"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**아마존, 글로벌스타 인수 완료 ****$AMZN**\n\n([Official](https://www.aboutamazon.com/news/company-news/amazon-globalstar-apple)) 아마존이 위성 통신 서비스 기업 글로벌스타(GSAT)를 주당 $90(현 $72.9)에 인수하고, ‘아마존 LEO’의 위성망을 확대한다. 아마존은 GSAT이 보유한 무선 주파수 대역, 위성 운영 자산을 확보해 아마존 LEO 망에 D2D(Direct-to-Device) 서비스를 추가할 예정이다. 2028년부터 차세대 D2D 위성 시",
-          "date": "2026-04-14T12:37"
-        }
-      ]
-    },
-    "META": {
-      "ticker": "META",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 6,
-      "channels": [
-        "easobi",
-        "aetherjapanresearch",
-        "d_ticker",
-        "beluga_investment"
-      ],
-      "latestDate": "2026-04-14T22:23:32+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**브로드컴, 메타와의 파트너십 확대 발표\n\n메타의 맞춤형 실리콘 MTIA를 지원하기 위한 멀티 기가와트급 기술 배치**\n\n• 메타는 브로드컴과 협력해 **업계 최초의 2nm AI 컴퓨트 가속기를 도입할 예정이며, 이는 여러 해에 걸친 지속적 인프라 확장의 기반**이 됨\n\n• **향후 3년 동안 양사는 차세대 AI 모델에 필요한 메타의 급증하는 컴퓨팅 수요를 충족하기 위해 차세대 AI 가속기 칩 개발에 협력**할 예정\n\n• **이번 파트너십은 브로드컴의 업계 선도 XPU 플랫폼을 기반으로 하며, 여러 세대의 실리콘에 걸쳐 메타의 A",
-          "date": "2026-04-14T21:46"
-        },
-        {
-          "channel": "beluga_investment",
-          "text": "**260414_Meta, 글로벌 최대 규모의 디지털 광고 사업자로 Google을 제칠 것으로 전망 - WSJ \n\n[Key Takeaways] \n\n(1) Emarketer에 따르면, Meta가 Google을 제치고 세계 최대 디지털 광고 기업이 될 것으로 전망 \n\n(2) Meta의 광고 사업 성장은 Reels 같은 새로운 서비스와 AI의 힘을 바탕으로 모멘텀을 받고 있음\n\n(3) 미국 검색 광고시장에서의 Google의 M/S는 경쟁 심화로 인해 올해 50% 아래로 떨어질 것으로 전망 \n\n-\n\n[Contents] **\n\n(1) 시장 ",
-          "date": "2026-04-14T01:59"
-        },
-        {
-          "channel": "easobi",
-          "text": "2026년 4월 14일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시 3대 지수는 유가 급락과 메가캡 주식들의 지속적인 강세에 힘입어 견조한 상승세를 이어갔습니다. 다우존스 산업평균지수는 48535.99로 317.74포인트 (0.66%) 상승했고, 나스닥 종합지수는 23639.09로 455.35포인트 (1.96%) 상승했습니다. S&P 500 지수는 6894.38로 8.14포인트 (0.12%) 상승 마감하며 주요 지수 모두 연초 대비 플러스 전환에 성공했습니다. 이란-미국 간 영구 휴전 협상에 대한 지속적인 낙관론이 시장의 급격한 반등",
-          "date": "2026-04-14T21:46"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "미즈호) 코어위브 중립, 목표가 $105(기존 $95)\n분기별 점검: CRWV에 대한 당사의 점검은 고객 집중도와 공급 역학으로 인해 자연스럽게 제한적입니다. AI 인프라 수요는 추론 워크로드가 상당한 모멘텀을 얻으면서 견조함을 유지하고 있으며, 당사는 CRWV가 4분기에 상당한 용량을 추가한 이후 여러 대형 계약의 지속적인 가동 증가로부터 수혜를 받을 것으로 예상합니다. 분기별 상회 수준을 예측하기는 어렵지만, 당사는 최소한 CRWV가 당사의 1분기 매출 예상치인 19억 5,200만 달러(전년 대비 +99%)를 지난 분기의 110",
-          "date": "2026-04-14T15:26"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "DA Davidson) 코어위브; 프론티어 최전선에서의 유리한 포지셔닝(4월 10일), 목표가 $175로 상향\n\n오늘 오전 CoreWeave는 Anthropic과 다년간 계약을 체결했다고 발표했으며, 이로써 CoreWeave의 고객군에 또 하나의 프론티어 AI 연구소가 추가되었습니다. 이는 어제 발표된 Meta와의 파트너십 확대 및 2032년까지 제공될 새로운 210억 달러 규모의 계약 소식에 이은 것입니다. 이 두 가지 발표는 CoreWeave가 당사가 예측하는 바와 같이 향후에도 지속될 컴퓨팅 수요 가속화의 절대적 다수를 차지하",
-          "date": "2026-04-14T13:10"
-        }
-      ]
-    },
-    "AVGO": {
-      "ticker": "AVGO",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "d_ticker",
-        "beluga_investment"
-      ],
-      "latestDate": "2026-04-14T22:23:32+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**브로드컴, 메타와의 파트너십 확대 발표\n\n메타의 맞춤형 실리콘 MTIA를 지원하기 위한 멀티 기가와트급 기술 배치**\n\n• 메타는 브로드컴과 협력해 **업계 최초의 2nm AI 컴퓨트 가속기를 도입할 예정이며, 이는 여러 해에 걸친 지속적 인프라 확장의 기반**이 됨\n\n• **향후 3년 동안 양사는 차세대 AI 모델에 필요한 메타의 급증하는 컴퓨팅 수요를 충족하기 위해 차세대 AI 가속기 칩 개발에 협력**할 예정\n\n• **이번 파트너십은 브로드컴의 업계 선도 XPU 플랫폼을 기반으로 하며, 여러 세대의 실리콘에 걸쳐 메타의 A",
-          "date": "2026-04-14T21:46"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**메타, 브로드컴과 ASIC 공동 개발 파트너십 확대 ****$AVGO**\n\n([Official](https://about.fb.com/news/2026/04/meta-partners-with-broadcom-to-co-develop-custom-ai-silicon/)) 메타는 차세대 AI 가속기인 ‘MTIA’를 다세대에 걸쳐 브로드컴과 공동 개발하는 파트너십 확대안을 발표했다. 양사는 향후 2년 내에 배포될 4종의 신규 MTIA 칩을 포함하여 다세대의 커스텀 실리콘을 공동 설계한다. 브로드컴은 칩 설계뿐만 아니라 첨단 패키징(A",
-          "date": "2026-04-14T22:23"
-        }
-      ]
-    },
     "NVDA": {
       "ticker": "NVDA",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 10,
-      "channels": [
-        "easobi",
-        "aetherjapanresearch",
-        "d_ticker",
-        "beluga_investment"
-      ],
-      "latestDate": "2026-04-14T22:00:21+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**대전환: 에이전틱 AI가 CPU:GPU 비율을 어떻게 재편하고 있는가\n**\n에이전틱 AI는 **CPU:GPU 비율의 구조적 변화를 유도**하고 있으며, 그 결과 **공급 부족**이 발생하면서 **Intel과 AMD가 가격 인상**에 나서고 있습니다.\n\n2026년 3월, 두 개의 발표가 거의 동시에 나왔습니다. **Nvidia는 Vera CPU를 독립형 제품으로 판매하기 시작했고**, **Arm은 자사 최초의 자체 CPU인 Arm AGI CPU를 공개했습니다.** GPU 회사와 IP 라이선스 회사가 같은 달에 모두 CPU 시장에 ",
-          "date": "2026-04-14T20:42"
-        },
-        {
-          "channel": "beluga_investment",
-          "text": "**AI에서 희소성이 시작됨**\n\n2000년대 이후 처음으로, 기술 기업들이 자사 공급망의 한계에 직면하고 있습니다.\n\n엔비디아의 **Blackwell 칩 GPU 임대 가격**은 이번 주 시간당 **4.08달러**를 기록하며, 불과 두 달 전의 **2.75달러 대비 48% 상승**했습니다. CoreWeave는 가격을 **20% 인상**했고, 최소 계약 기간도 **1년에서 3년으로 연장**했습니다.\n\n“우리는 지금 컴퓨트가 충분하지 않아서 추진하지 못하는 일들에 대해 매우 어려운 선택을 하고 있습니다.”\n— **Sarah Friar,",
-          "date": "2026-04-14T11:34"
-        },
-        {
-          "channel": "easobi",
-          "text": "2026년 4월 14일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시 3대 지수는 유가 급락과 메가캡 주식들의 지속적인 강세에 힘입어 견조한 상승세를 이어갔습니다. 다우존스 산업평균지수는 48535.99로 317.74포인트 (0.66%) 상승했고, 나스닥 종합지수는 23639.09로 455.35포인트 (1.96%) 상승했습니다. S&P 500 지수는 6894.38로 8.14포인트 (0.12%) 상승 마감하며 주요 지수 모두 연초 대비 플러스 전환에 성공했습니다. 이란-미국 간 영구 휴전 협상에 대한 지속적인 낙관론이 시장의 급격한 반등",
-          "date": "2026-04-14T21:46"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "미즈호) 팔란티어 목표가 $195로 상향\n팔란티어(PLTR)에 대한 분기별 채널 점검은 본질적으로 제한적이지만, 전반적인 기업 수요는 매우 건조한 상태를 유지하고 있습니다. 2026년 1분기 초 PLTR 관련 문의량이 전년 대비 급격히 증가했다는 접촉선의 증언이 있었으며, 이는 기업 시장에서의 플랫폼 관심도가 더욱 확산되고 있음을 시사합니다. 다만 일부 성숙 고객사에서 덜 복잡한 증분 배포를 저비용 플랫폼에서 평가하는 사용 사례 합리화 조짐이 포착된 점은 다소 부정적입니다. 연방정부 부문은 여전히 강세이며, 지정학적 갈등의 고조로 ",
-          "date": "2026-04-14T15:35"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "미즈호) 코어위브 중립, 목표가 $105(기존 $95)\n분기별 점검: CRWV에 대한 당사의 점검은 고객 집중도와 공급 역학으로 인해 자연스럽게 제한적입니다. AI 인프라 수요는 추론 워크로드가 상당한 모멘텀을 얻으면서 견조함을 유지하고 있으며, 당사는 CRWV가 4분기에 상당한 용량을 추가한 이후 여러 대형 계약의 지속적인 가동 증가로부터 수혜를 받을 것으로 예상합니다. 분기별 상회 수준을 예측하기는 어렵지만, 당사는 최소한 CRWV가 당사의 1분기 매출 예상치인 19억 5,200만 달러(전년 대비 +99%)를 지난 분기의 110",
-          "date": "2026-04-14T15:26"
-        }
-      ]
-    },
-    "SK하이닉스": {
-      "ticker": "SK하이닉스",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 5,
-      "channels": [
-        "aetherjapanresearch",
-        "d_ticker",
-        "beluga_investment"
-      ],
-      "latestDate": "2026-04-14T10:05:08+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**260414_삼성전자/SK하이닉스 시가총액 추이 및 할인률\n\n(1) SK하이닉스의 시가총액은 삼성전자의 약 65% 수준으로 저점인 55% 대비 다소 상승 \n\n(2) 삼성전자 우선주의 할인률은 다소 높아진 상태 지속\n\n(3) SK스퀘어의 NAV 할인율은 3월 최저점을 찍고 소폭 축소되는 흐름**",
-          "date": "2026-04-14T07:33"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "* **SK하이닉스, 올해 HBM4 줄이고 HBM3E, 서버디램 확대**\n\n\n\n다만 **줄어드는 SK하이닉스의 HBM4 물량은 이전 세대인 HBM3E와 서버용 D램 등으로 수요가 대체될 전망**이다.\n\n시장조사업체 트렌드포스는 최근 발간한 보고서에서 \"HBM4 검증에 필요한 시간 외에도 네트워크 인터커넥트 전환과 전력 소비량 증가, 더 고도화된 액체 냉각 솔루션 최적화 등 여러 과제가 남아있다\"며 \"결과적으로 엔비디아의 고성능 GPU 출하량에서 **루빈 시리즈가 차지하는 비중은 기존 29%에서 22%로 감소**할 것으로 예상된다\"고",
-          "date": "2026-04-14T07:29"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**삼성·SK, HBM에 역량 집중…포토마스크 외주 늘렸다**\n\n([서울경제](https://n.news.naver.com/article/011/0004610658?type=journalists)) 14일 업계에 따르면 삼성전자와 SK하이닉스는 자체 제작하던 선단 공정용 포토마스크의 외주 물량을 확대하고 있다. 반도체 업계의 한 관계자는 “국내 포토마스크 아웃소싱 매출은 이번 분기에 전년 동기 대비 2배 이상 늘어났다”며 “이는 지난해부터 선단 공정용 포토마스크 외주가 확대되면서 수요가 급증한 영향”이라고 설명했다. 그간 메모리 업",
-          "date": "2026-04-14T10:05"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "* **SK하이닉스, 올해 HBM4 줄이고 HBM3E, 서버디램 확대**\n\n\n\n다만 **줄어드는 SK하이닉스의 HBM4 물량은 이전 세대인 HBM3E와 서버용 D램 등으로 수요가 대체될 전망**이다.\n\n시장조사업체 트렌드포스는 최근 발간한 보고서에서 \"HBM4 검증에 필요한 시간 외에도 네트워크 인터커넥트 전환과 전력 소비량 증가, 더 고도화된 액체 냉각 솔루션 최적화 등 여러 과제가 남아있다\"며 \"결과적으로 엔비디아의 고성능 GPU 출하량에서 **루빈 시리즈가 차지하는 비중은 기존 29%에서 22%로 감소**할 것으로 예상된다\"고",
-          "date": "2026-04-14T07:08"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "난야가 고부가가치 메모리 제품(HBM 등)을 만드는 게 아니다 보니 LTA를 체결하더라도 기간이 2~3년에 불과한 상황입니다. 반면 삼성전자·SK하이닉스는 D램의 경우 5년짜리 계약을 체결합니다. 난야가 LTA를 체결하는 대상은 이번에 지분을 확보한 키옥시아, 솔리다임(SK하이닉스 자회사), 샌디스크 등 NAND 업체들입니다. 나머지는 대부분 12개월 단위의 계약인 MTA, 분기·월 단위의 STA라고 합니다.",
-          "date": "2026-04-14T00:28"
-        }
-      ]
-    },
-    "삼성전자": {
-      "ticker": "삼성전자",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 7,
-      "channels": [
-        "DOC_POOL",
-        "aetherjapanresearch",
-        "d_ticker",
-        "beluga_investment"
-      ],
-      "latestDate": "2026-04-14T22:06:40+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**260414_삼성전자/SK하이닉스 시가총액 추이 및 할인률\n\n(1) SK하이닉스의 시가총액은 삼성전자의 약 65% 수준으로 저점인 55% 대비 다소 상승 \n\n(2) 삼성전자 우선주의 할인률은 다소 높아진 상태 지속\n\n(3) SK스퀘어의 NAV 할인율은 3월 최저점을 찍고 소폭 축소되는 흐름**",
-          "date": "2026-04-14T07:33"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "**삼성전자, 평택 P5에 낸드 증설 투자 결정**\n\nhttps://www.thebell.co.kr/front/newsview.asp?code=00&key=202604141533431160102114",
-          "date": "2026-04-14T07:29"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**삼성·SK, HBM에 역량 집중…포토마스크 외주 늘렸다**\n\n([서울경제](https://n.news.naver.com/article/011/0004610658?type=journalists)) 14일 업계에 따르면 삼성전자와 SK하이닉스는 자체 제작하던 선단 공정용 포토마스크의 외주 물량을 확대하고 있다. 반도체 업계의 한 관계자는 “국내 포토마스크 아웃소싱 매출은 이번 분기에 전년 동기 대비 2배 이상 늘어났다”며 “이는 지난해부터 선단 공정용 포토마스크 외주가 확대되면서 수요가 급증한 영향”이라고 설명했다. 그간 메모리 업",
-          "date": "2026-04-14T10:05"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**삼성전자, 평택 P5에 낸드 증설 투자 결정**\n\nhttps://www.thebell.co.kr/front/newsview.asp?code=00&key=202604141533431160102114",
-          "date": "2026-04-14T07:26"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**[단독] 삼성전기, 베트남에 1.8兆 투자…FC-BGA 생산능력 확충**\n\n([헤럴드경제](https://n.news.naver.com/mnews/article/016/0002629275?rc=N&ntype=RANKING&sid=101)) 14일 업계에 따르면 삼성전기는 베트남 생산법인에 고부가 반도체 기판인 FC-BGA(플립 칩 볼 그리드 어레이) 생산능력 확대를 위한 투자를 진행할 예정이다. 베트남 외국인투자청에 따르면 삼성전기는 로봇, 자율주행차 및 AI용 FC-BGA 생산을 목표로 투자 등록 증명서를 발급받았다. 이른바 ",
-          "date": "2026-04-14T01:47"
-        }
-      ]
-    },
-    "테크윙": {
-      "ticker": "테크윙",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "beluga_investment"
-      ],
-      "latestDate": "2026-04-14T06:36:21+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "2026.04.14 15:29:53\n기업명: 테크윙(시가총액: 1조 9,972억) A089030\n보고서명: 단일판매ㆍ공급계약체결\n\n계약상대 : Micron Memory Malaysia SDN. BHD. \n계약내용 : 반도체 검사장비 공급계약 체결 \n공급지역 : 말레이시아 \n계약금액 : 229억\n\n계약시작 : 2026-04-13\n계약종료 : 2026-10-02\n계약기간 : 5개월\n매출대비 : 14.37%\n\n공시링크: https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260414900549\n최근계약 :",
-          "date": "2026-04-14T06:36"
-        }
-      ]
-    },
-    "TEM": {
-      "ticker": "TEM",
-      "summary": "분석 실패: Connection error.",
       "messageCount": 2,
       "channels": [
-        "aetherjapanresearch",
-        "beluga_investment"
+        "Jstockclass",
+        "d_ticker"
       ],
-      "latestDate": "2026-04-14T15:35:05+00:00",
+      "latestDate": "2026-04-15T04:40:55+00:00",
       "messages": [
         {
-          "channel": "beluga_investment",
-          "text": "2026.04.14 15:29:53\n기업명: 테크윙(시가총액: 1조 9,972억) A089030\n보고서명: 단일판매ㆍ공급계약체결\n\n계약상대 : Micron Memory Malaysia SDN. BHD. \n계약내용 : 반도체 검사장비 공급계약 체결 \n공급지역 : 말레이시아 \n계약금액 : 229억\n\n계약시작 : 2026-04-13\n계약종료 : 2026-10-02\n계약기간 : 5개월\n매출대비 : 14.37%\n\n공시링크: https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260414900549\n최근계약 :",
-          "date": "2026-04-14T06:36"
+          "channel": "Jstockclass",
+          "text": "**XBI vs 한국바요**\n\nXBI가 좋으면 XBI를 사고\n\n한국 바이오 개별종목이 좋으면 한국 바이오 개별종목을 사자\n\n엔비디아 관련주보다 엔비디아\n\n뭐 이런거지..",
+          "date": "2026-04-14T23:02"
         },
         {
-          "channel": "aetherjapanresearch",
-          "text": "미즈호) 팔란티어 목표가 $195로 상향\n팔란티어(PLTR)에 대한 분기별 채널 점검은 본질적으로 제한적이지만, 전반적인 기업 수요는 매우 건조한 상태를 유지하고 있습니다. 2026년 1분기 초 PLTR 관련 문의량이 전년 대비 급격히 증가했다는 접촉선의 증언이 있었으며, 이는 기업 시장에서의 플랫폼 관심도가 더욱 확산되고 있음을 시사합니다. 다만 일부 성숙 고객사에서 덜 복잡한 증분 배포를 저비용 플랫폼에서 평가하는 사용 사례 합리화 조짐이 포착된 점은 다소 부정적입니다. 연방정부 부문은 여전히 강세이며, 지정학적 갈등의 고조로 ",
-          "date": "2026-04-14T15:35"
+          "channel": "d_ticker",
+          "text": "**🍜 MSG 회사가 AI 칩의 병목? — Ajinomoto ABF, 95% 독점의 톨게이트**\n\nAjinomoto = 117년 된 일본 MSG(감칠맛 조미료) 회사.\n그런데 이 회사가 만드는 ABF(Build-up Film)가 AI 칩의 핵심 소재.\n\n📌 ABF란?\n첨단 반도체 패키지 내부의 절연 필름. Nvidia Blackwell, AMD MI300 등 AI 칩의 칩렛 적층/연결에 필수. 고성능 칩일수록 더 많은 ABF 필요.\n시장점유율: ~95%. 사실상 독점.\n\n⚠️ 병목 우려\nAI 칩 수요 폭발 → ABF 수요 동반 급증",
+          "date": "2026-04-15T04:40"
         }
       ]
     },
     "BE": {
       "ticker": "BE",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 10,
-      "channels": [
-        "DOC_POOL",
-        "aetherjapanresearch",
-        "d_ticker",
-        "beluga_investment"
-      ],
-      "latestDate": "2026-04-14T22:06:55+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "글로벌 데이터센터 전력 수요는 더 빠르게 가속될 전망입니다.\n\nGoldman Sachs에 따르면, 데이터센터 전력 수요는 2023년 대비 2030년까지 **+220%**, 즉 **+905TWh** 증가해, 사상 최대인 **1,350TWh**에 도달할 것으로 예상됩니다.\n\n이는 기존에 예상했던 **+175%**보다 더 높은 수준이며, 그 배경에는 **AI 서버 출하 전망 상향**과 **AI 연산용 고전력 서버 배치 확대**가 있습니다.\n\n이 증가분의 약 60%는 미국에서 발생할 것으로 예상되며, 이는 기존 추정치인 약 50%에서 더 ",
-          "date": "2026-04-14T03:11"
-        },
-        {
-          "channel": "beluga_investment",
-          "text": "**260414_Meta, 글로벌 최대 규모의 디지털 광고 사업자로 Google을 제칠 것으로 전망 - WSJ \n\n[Key Takeaways] \n\n(1) Emarketer에 따르면, Meta가 Google을 제치고 세계 최대 디지털 광고 기업이 될 것으로 전망 \n\n(2) Meta의 광고 사업 성장은 Reels 같은 새로운 서비스와 AI의 힘을 바탕으로 모멘텀을 받고 있음\n\n(3) 미국 검색 광고시장에서의 Google의 M/S는 경쟁 심화로 인해 올해 50% 아래로 떨어질 것으로 전망 \n\n-\n\n[Contents] **\n\n(1) 시장 ",
-          "date": "2026-04-14T01:59"
-        },
-        {
-          "channel": "beluga_investment",
-          "text": "**260414_Taiwan ODMs: 1Q26 revenue wrap: Revenue beats on server strength and early NB build - JPMorgan \n\n[Key Takeaways] \n\n(1) GB300 램프업이 예상보다 빠르게 진행 중 \n\n(2) Amazon Inferencia PJT는 상반기 다소 정체되겠으나, 2H26부터 큰 폭의 램프업/성장 기대 \n\n(3) 1Q26 견조한 노트북 출하량 결과는 메모리 비용 상승에 따른 Pull-In 수요\n\n-\n\n[Contents] **\n\n(1) 대만의 주요",
-          "date": "2026-04-14T00:01"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "미즈호) 코어위브 중립, 목표가 $105(기존 $95)\n분기별 점검: CRWV에 대한 당사의 점검은 고객 집중도와 공급 역학으로 인해 자연스럽게 제한적입니다. AI 인프라 수요는 추론 워크로드가 상당한 모멘텀을 얻으면서 견조함을 유지하고 있으며, 당사는 CRWV가 4분기에 상당한 용량을 추가한 이후 여러 대형 계약의 지속적인 가동 증가로부터 수혜를 받을 것으로 예상합니다. 분기별 상회 수준을 예측하기는 어렵지만, 당사는 최소한 CRWV가 당사의 1분기 매출 예상치인 19억 5,200만 달러(전년 대비 +99%)를 지난 분기의 110",
-          "date": "2026-04-14T15:26"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "BofA) 구글; Google Cloud Next에서 자신감 있는 톤 예상. 목표가 $370\n\n1. 기조연설은 에이전트, 인프라, 고객 수주에 초점\nGoogle은 4월 22일부터 24일까지 라스베이거스에서 연례 Cloud Next 컨퍼런스를 개최합니다. 1일차(태평양 표준시 오전 9시) Google Cloud CEO 기조연설에서는 Google의 인프라 진전 및 에이전틱 역량에 대한 업데이트가 제공될 것으로 예상됩니다. 개발자 대상 사전 공개에서 Google은 \"Cloud Next의 초점은 미래를 위한 구성 요소, 즉 에이전틱 AI,",
-          "date": "2026-04-14T12:39"
-        }
-      ]
-    },
-    "GOOG": {
-      "ticker": "GOOG",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 6,
-      "channels": [
-        "aetherjapanresearch",
-        "beluga_investment"
-      ],
-      "latestDate": "2026-04-14T15:31:22+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**260414_Meta, 글로벌 최대 규모의 디지털 광고 사업자로 Google을 제칠 것으로 전망 - WSJ \n\n[Key Takeaways] \n\n(1) Emarketer에 따르면, Meta가 Google을 제치고 세계 최대 디지털 광고 기업이 될 것으로 전망 \n\n(2) Meta의 광고 사업 성장은 Reels 같은 새로운 서비스와 AI의 힘을 바탕으로 모멘텀을 받고 있음\n\n(3) 미국 검색 광고시장에서의 Google의 M/S는 경쟁 심화로 인해 올해 50% 아래로 떨어질 것으로 전망 \n\n-\n\n[Contents] **\n\n(1) 시장 ",
-          "date": "2026-04-14T01:59"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "미즈호) 마이크로소프트 목표가 $515로 하향조정.\n\n마이크로소프트(MSFT)의 분기별 점검 결과는 전반적으로 양호한 편이었습니다. 클라우드 마이그레이션이 건조하게 지속되고 AI 지출도 매우 강세를 보이는 가운데, 애저(Azure)의 3회계분기 성장률은 회사 가이던스인 전년 대비 37~38%(CC 기준)를 소폭 상회할 것으로 예상되며, 4회계분기 가이던스에도 문제가 없을 것으로 전망됩니다. 반면 Microsoft 365 Copilot은 여전히 부진한 흐름을 이어가고 있는 것으로 확인되었으나, 최근 언론 보도에서는 수익화 측면에서 전",
-          "date": "2026-04-14T15:31"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "신규 설계 벤더: Marvell\n\nGoogle은 Marvell과 TPU 개발 프로젝트에 대해 적극적으로 협상 중이며, Marvell은 MediaTek과 유사한 설계 서비스 역할을 담당하게 될 것입니다. Google의 의도는 벤더 기반을 다변화하고 비용 및 성능 최적화를 위해 고속 인터커넥트 분야에서의 Marvell의 강점을 활용하는 것입니다. 이 프로젝트들은 현재 초기 사양 정의 단계에 있습니다.\n\n또한 Google은 Groq를 통한 NVIDIA의 고성능 추론 시장 진출에 대응하기 위해 LLM에 최적화된 전용 추론 아키텍처(Goog",
-          "date": "2026-04-14T13:53"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "DA Davidson) 코어위브; 프론티어 최전선에서의 유리한 포지셔닝(4월 10일), 목표가 $175로 상향\n\n오늘 오전 CoreWeave는 Anthropic과 다년간 계약을 체결했다고 발표했으며, 이로써 CoreWeave의 고객군에 또 하나의 프론티어 AI 연구소가 추가되었습니다. 이는 어제 발표된 Meta와의 파트너십 확대 및 2032년까지 제공될 새로운 210억 달러 규모의 계약 소식에 이은 것입니다. 이 두 가지 발표는 CoreWeave가 당사가 예측하는 바와 같이 향후에도 지속될 컴퓨팅 수요 가속화의 절대적 다수를 차지하",
-          "date": "2026-04-14T13:10"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "BofA) 구글; Google Cloud Next에서 자신감 있는 톤 예상. 목표가 $370\n\n1. 기조연설은 에이전트, 인프라, 고객 수주에 초점\nGoogle은 4월 22일부터 24일까지 라스베이거스에서 연례 Cloud Next 컨퍼런스를 개최합니다. 1일차(태평양 표준시 오전 9시) Google Cloud CEO 기조연설에서는 Google의 인프라 진전 및 에이전틱 역량에 대한 업데이트가 제공될 것으로 예상됩니다. 개발자 대상 사전 공개에서 Google은 \"Cloud Next의 초점은 미래를 위한 구성 요소, 즉 에이전틱 AI,",
-          "date": "2026-04-14T12:39"
-        }
-      ]
-    },
-    "GOOGL": {
-      "ticker": "GOOGL",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 6,
-      "channels": [
-        "aetherjapanresearch",
-        "beluga_investment"
-      ],
-      "latestDate": "2026-04-14T15:31:22+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**260414_Meta, 글로벌 최대 규모의 디지털 광고 사업자로 Google을 제칠 것으로 전망 - WSJ \n\n[Key Takeaways] \n\n(1) Emarketer에 따르면, Meta가 Google을 제치고 세계 최대 디지털 광고 기업이 될 것으로 전망 \n\n(2) Meta의 광고 사업 성장은 Reels 같은 새로운 서비스와 AI의 힘을 바탕으로 모멘텀을 받고 있음\n\n(3) 미국 검색 광고시장에서의 Google의 M/S는 경쟁 심화로 인해 올해 50% 아래로 떨어질 것으로 전망 \n\n-\n\n[Contents] **\n\n(1) 시장 ",
-          "date": "2026-04-14T01:59"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "미즈호) 마이크로소프트 목표가 $515로 하향조정.\n\n마이크로소프트(MSFT)의 분기별 점검 결과는 전반적으로 양호한 편이었습니다. 클라우드 마이그레이션이 건조하게 지속되고 AI 지출도 매우 강세를 보이는 가운데, 애저(Azure)의 3회계분기 성장률은 회사 가이던스인 전년 대비 37~38%(CC 기준)를 소폭 상회할 것으로 예상되며, 4회계분기 가이던스에도 문제가 없을 것으로 전망됩니다. 반면 Microsoft 365 Copilot은 여전히 부진한 흐름을 이어가고 있는 것으로 확인되었으나, 최근 언론 보도에서는 수익화 측면에서 전",
-          "date": "2026-04-14T15:31"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "신규 설계 벤더: Marvell\n\nGoogle은 Marvell과 TPU 개발 프로젝트에 대해 적극적으로 협상 중이며, Marvell은 MediaTek과 유사한 설계 서비스 역할을 담당하게 될 것입니다. Google의 의도는 벤더 기반을 다변화하고 비용 및 성능 최적화를 위해 고속 인터커넥트 분야에서의 Marvell의 강점을 활용하는 것입니다. 이 프로젝트들은 현재 초기 사양 정의 단계에 있습니다.\n\n또한 Google은 Groq를 통한 NVIDIA의 고성능 추론 시장 진출에 대응하기 위해 LLM에 최적화된 전용 추론 아키텍처(Goog",
-          "date": "2026-04-14T13:53"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "DA Davidson) 코어위브; 프론티어 최전선에서의 유리한 포지셔닝(4월 10일), 목표가 $175로 상향\n\n오늘 오전 CoreWeave는 Anthropic과 다년간 계약을 체결했다고 발표했으며, 이로써 CoreWeave의 고객군에 또 하나의 프론티어 AI 연구소가 추가되었습니다. 이는 어제 발표된 Meta와의 파트너십 확대 및 2032년까지 제공될 새로운 210억 달러 규모의 계약 소식에 이은 것입니다. 이 두 가지 발표는 CoreWeave가 당사가 예측하는 바와 같이 향후에도 지속될 컴퓨팅 수요 가속화의 절대적 다수를 차지하",
-          "date": "2026-04-14T13:10"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "BofA) 구글; Google Cloud Next에서 자신감 있는 톤 예상. 목표가 $370\n\n1. 기조연설은 에이전트, 인프라, 고객 수주에 초점\nGoogle은 4월 22일부터 24일까지 라스베이거스에서 연례 Cloud Next 컨퍼런스를 개최합니다. 1일차(태평양 표준시 오전 9시) Google Cloud CEO 기조연설에서는 Google의 인프라 진전 및 에이전틱 역량에 대한 업데이트가 제공될 것으로 예상됩니다. 개발자 대상 사전 공개에서 Google은 \"Cloud Next의 초점은 미래를 위한 구성 요소, 즉 에이전틱 AI,",
-          "date": "2026-04-14T12:39"
-        }
-      ]
-    },
-    "AMZN": {
-      "ticker": "AMZN",
-      "summary": "분석 실패: Connection error.",
       "messageCount": 7,
       "channels": [
-        "easobi",
-        "aetherjapanresearch",
+        "Jstockclass",
+        "beluga_investment",
         "d_ticker",
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-04-15T14:25:53+00:00",
+      "messages": [
+        {
+          "channel": "Jstockclass",
+          "text": "**한국 반도체에 대한 미국 투자자 피드백 (GS)**\n\n**1. 메모리 시장 전망에 대한 상반된 시각\n**\n• **미국 투자자 내 뚜렷한 견해차**: 아시아 투자자들에 비해 낙관론자와 신중론자 사이의 논쟁이 훨씬 더 치열하게 전개\n\n• **신중론(Bear)의 핵심 근거**: 2026년 2분기부터 메모리 가격 상승세가 둔화되고 2026년 말이나 2027년 초부터는 가격이 하락할 수 있다는 우려\n\n• **낙관론(Bull)의 핵심 근거**: 삼성전자의 2026년 1분기 영업이익이 과거 2017-2018년 슈퍼 사이클 당시의 연간 평균 ",
+          "date": "2026-04-14T22:45"
+        },
+        {
+          "channel": "beluga_investment",
+          "text": "**260415_South Korea Technology: Investor feedback: Stronger bull vs. bear debate on memory with LTAs top of mind; Buy SEC and SK Hynix - Goldman Sachs **\n\n(1) 투자자들은 메모리 산업과 삼성전자/SK하이닉스에 대한 관심으로 초집중 되었으며, 이는 최근 아시아에서 진행한 NDR보다도 훨씬 더 강한 수준\n\n(2) 메모리 산업에 대한 시각은 아시아 투자자들과 비교했을 때 훨씬 더 갈렸는데, 이는 아시아 투자자들 대",
+          "date": "2026-04-15T03:54"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "번스타인) 브로드컴 (AVGO): 메타와의 대규모 다년간 MTIA 파트너십 발표\n\n브로드컴의 커스텀 ASIC 관련 발표가 계속되는 가운데, 동사는 화요일 오후 메타와 \"메타의 커스텀 실리콘 MTIA 멀티 기가와트 규모를 지원\"하기 위한 다년간·다세대 확장 파트너십을 발표하였습니다. 초기 약정 규모는 1GW를 초과하며(추가 확대 예정), 최소 2029년까지 연장할 계획입니다. 여기에는 학습 및 추론용 다세대 MTIA 칩과 네트워킹 부품이 포함되며, 단순한 하드웨어 공급을 넘어 시스템 수준 최적화 및 R&D 협력으로까지 범위가 확대됩니",
+          "date": "2026-04-15T14:25"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "다이이치산쿄, 일반의약품 자회사를 산토리 HD에 매각 예정－2,465억 엔\nhttps://www.bloomberg.com/jp/news/articles/2026-04-15/TDIVHJKK3NY800?taid=69df3b3b4cd2160001d639da&utm_campaign=trueanthem&utm_content=japan&utm_medium=social&utm_source=twitter",
+          "date": "2026-04-15T07:18"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "**[반.전] ASML: 1Q26 실적 발표 - Quick review**\n\n안녕하세요. 삼성증권 문준호의 ‘반도체를 전하다’입니다.\n\nASML이 오늘 밤 10시 컨퍼런스콜을 앞두고, 실적 자료를 먼저 공개했습니다.\n\n1분기 실적은 컨센서스를 대체로 상회했습니다. 역시나 메모리가 강력했습니다.\n\n한편, 2분기 가이던스 상단이 컨센서스 수준이다 보니 실망스러울 수 있겠으나, 2026년 연간으로는 오히려 가이던스가 시장의 높아진 눈높이까지 상향되었습니다.\n\n\n**■ 1Q26 실적 (컨센서스: Bloomberg)**\n\n- 매출액 87.6",
+          "date": "2026-04-15T06:39"
+        }
+      ]
+    },
+    "삼성전자": {
+      "ticker": "삼성전자",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 5,
+      "channels": [
+        "Jstockclass",
+        "beluga_investment",
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-04-15T03:54:45+00:00",
+      "messages": [
+        {
+          "channel": "Jstockclass",
+          "text": "**한국 반도체에 대한 미국 투자자 피드백 (GS)**\n\n**1. 메모리 시장 전망에 대한 상반된 시각\n**\n• **미국 투자자 내 뚜렷한 견해차**: 아시아 투자자들에 비해 낙관론자와 신중론자 사이의 논쟁이 훨씬 더 치열하게 전개\n\n• **신중론(Bear)의 핵심 근거**: 2026년 2분기부터 메모리 가격 상승세가 둔화되고 2026년 말이나 2027년 초부터는 가격이 하락할 수 있다는 우려\n\n• **낙관론(Bull)의 핵심 근거**: 삼성전자의 2026년 1분기 영업이익이 과거 2017-2018년 슈퍼 사이클 당시의 연간 평균 ",
+          "date": "2026-04-14T22:45"
+        },
+        {
+          "channel": "beluga_investment",
+          "text": "**260415_South Korea Technology: Investor feedback: Stronger bull vs. bear debate on memory with LTAs top of mind; Buy SEC and SK Hynix - Goldman Sachs **\n\n(1) 투자자들은 메모리 산업과 삼성전자/SK하이닉스에 대한 관심으로 초집중 되었으며, 이는 최근 아시아에서 진행한 NDR보다도 훨씬 더 강한 수준\n\n(2) 메모리 산업에 대한 시각은 아시아 투자자들과 비교했을 때 훨씬 더 갈렸는데, 이는 아시아 투자자들 대",
+          "date": "2026-04-15T03:54"
+        },
+        {
+          "channel": "beluga_investment",
+          "text": "MCP (복합구조칩 집적회로) (전국_대만+홍콩+중국)\n관련종목 : 삼성전자 / SK하이닉스\n\n2026년 3월 확정치 수출데이터 입니다.",
+          "date": "2026-04-15T02:40"
+        },
+        {
+          "channel": "beluga_investment",
+          "text": "디램 (전국_글로벌)\n관련종목 : 삼성전자 / SK하이닉스\n\n2026년 3월 확정치 수출데이터 입니다.",
+          "date": "2026-04-15T02:39"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "왜 미국 투자자는 삼성전자를 SK하이닉스보다 더 선호할까[갭 월드]\nhttps://n.news.naver.com/article/011/0004610853?type=editn&cds=news_edit",
+          "date": "2026-04-15T03:14"
+        }
+      ]
+    },
+    "SK하이닉스": {
+      "ticker": "SK하이닉스",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 8,
+      "channels": [
+        "Jstockclass",
+        "beluga_investment",
+        "d_ticker",
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-04-15T14:14:05+00:00",
+      "messages": [
+        {
+          "channel": "Jstockclass",
+          "text": "**한국 반도체에 대한 미국 투자자 피드백 (GS)**\n\n**1. 메모리 시장 전망에 대한 상반된 시각\n**\n• **미국 투자자 내 뚜렷한 견해차**: 아시아 투자자들에 비해 낙관론자와 신중론자 사이의 논쟁이 훨씬 더 치열하게 전개\n\n• **신중론(Bear)의 핵심 근거**: 2026년 2분기부터 메모리 가격 상승세가 둔화되고 2026년 말이나 2027년 초부터는 가격이 하락할 수 있다는 우려\n\n• **낙관론(Bull)의 핵심 근거**: 삼성전자의 2026년 1분기 영업이익이 과거 2017-2018년 슈퍼 사이클 당시의 연간 평균 ",
+          "date": "2026-04-14T22:45"
+        },
+        {
+          "channel": "beluga_investment",
+          "text": "**260415_South Korea Technology: Investor feedback: Stronger bull vs. bear debate on memory with LTAs top of mind; Buy SEC and SK Hynix - Goldman Sachs **\n\n(1) 투자자들은 메모리 산업과 삼성전자/SK하이닉스에 대한 관심으로 초집중 되었으며, 이는 최근 아시아에서 진행한 NDR보다도 훨씬 더 강한 수준\n\n(2) 메모리 산업에 대한 시각은 아시아 투자자들과 비교했을 때 훨씬 더 갈렸는데, 이는 아시아 투자자들 대",
+          "date": "2026-04-15T03:54"
+        },
+        {
+          "channel": "beluga_investment",
+          "text": "MCP (복합구조칩 집적회로) (전국_대만+홍콩+중국)\n관련종목 : 삼성전자 / SK하이닉스\n\n2026년 3월 확정치 수출데이터 입니다.",
+          "date": "2026-04-15T02:40"
+        },
+        {
+          "channel": "beluga_investment",
+          "text": "디램 (전국_글로벌)\n관련종목 : 삼성전자 / SK하이닉스\n\n2026년 3월 확정치 수출데이터 입니다.",
+          "date": "2026-04-15T02:39"
+        },
+        {
+          "channel": "beluga_investment",
+          "text": "**260415_SK하이닉스 영업이익 추정치 변화[vs. YTD] \n\n(1) 1Q26(F): 17.33조 → 32.98조[YTD +90.3%] \n\n(2) 2Q26(F) 20.49조 → 46.15조[YTD +125.2%]**",
+          "date": "2026-04-15T01:34"
+        }
+      ]
+    },
+    "SMR": {
+      "ticker": "SMR",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 2,
+      "channels": [
+        "report_figure_by_offset"
+      ],
+      "latestDate": "2026-04-15T10:58:40+00:00",
+      "messages": [
+        {
+          "channel": "report_figure_by_offset",
+          "text": "원전 사업 **밸류체인**과 SMR **공급망 구조**",
+          "date": "2026-04-15T10:58"
+        },
+        {
+          "channel": "report_figure_by_offset",
+          "text": "SMR 모델별 **국내 건설사 투자** 및 **MOU** 동향",
+          "date": "2026-04-15T10:56"
+        }
+      ]
+    },
+    "TEM": {
+      "ticker": "TEM",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 3,
+      "channels": [
         "beluga_investment"
       ],
-      "latestDate": "2026-04-14T21:46:19+00:00",
+      "latestDate": "2026-04-15T04:43:52+00:00",
       "messages": [
         {
           "channel": "beluga_investment",
-          "text": "**260414_Meta, 글로벌 최대 규모의 디지털 광고 사업자로 Google을 제칠 것으로 전망 - WSJ \n\n[Key Takeaways] \n\n(1) Emarketer에 따르면, Meta가 Google을 제치고 세계 최대 디지털 광고 기업이 될 것으로 전망 \n\n(2) Meta의 광고 사업 성장은 Reels 같은 새로운 서비스와 AI의 힘을 바탕으로 모멘텀을 받고 있음\n\n(3) 미국 검색 광고시장에서의 Google의 M/S는 경쟁 심화로 인해 올해 50% 아래로 떨어질 것으로 전망 \n\n-\n\n[Contents] **\n\n(1) 시장 ",
-          "date": "2026-04-14T01:59"
+          "text": "2026.04.15 13:29:35\n기업명: 브이엠(시가총액: 1조 1,522억) A089970\n보고서명: 연결재무제표기준영업(잠정)실적(공정공시)\n\n매출액 : 889억(예상치 : 774억+/ 15%)\n영업익 : 301억(예상치 : 254억/ +19%)\n순이익 : 256억(예상치 : 213억+/ 20%)\n\n**최근 실적 추이**\n2026.1Q 889억/ 301억/ 256억\n2025.4Q 508억/ 93억/ 112억\n2025.3Q 364억/ 90억/ 113억\n2025.2Q 392억/ 44억/ 21억\n2025.1Q 179억/ 19억/ ",
+          "date": "2026-04-15T04:43"
         },
         {
           "channel": "beluga_investment",
-          "text": "**260414_Taiwan ODMs: 1Q26 revenue wrap: Revenue beats on server strength and early NB build - JPMorgan \n\n[Key Takeaways] \n\n(1) GB300 램프업이 예상보다 빠르게 진행 중 \n\n(2) Amazon Inferencia PJT는 상반기 다소 정체되겠으나, 2H26부터 큰 폭의 램프업/성장 기대 \n\n(3) 1Q26 견조한 노트북 출하량 결과는 메모리 비용 상승에 따른 Pull-In 수요\n\n-\n\n[Contents] **\n\n(1) 대만의 주요",
-          "date": "2026-04-14T00:01"
+          "text": "2026.04.15 10:59:58\n기업명: 테크윙(시가총액: 2조 935억) A089030\n보고서명: 연결재무제표기준영업(잠정)실적(공정공시)\n\n매출액 : 524억(예상치 : 455억+/ 15%)\n영업익 : 97억(예상치 : 28억/ +246%)\n순이익 : -(예상치 : -)\n\n**최근 실적 추이**\n2026.1Q 524억/ 97억/ -\n2025.4Q 339억/ 6억/ -45억\n2025.3Q 418억/ 71억/ -67억\n2025.2Q 489억/ 64억/ 217억\n2025.1Q 346억/ 18억/ -16억\n\n공시링크: https:/",
+          "date": "2026-04-15T02:02"
         },
         {
-          "channel": "easobi",
-          "text": "2026년 4월 14일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시 3대 지수는 유가 급락과 메가캡 주식들의 지속적인 강세에 힘입어 견조한 상승세를 이어갔습니다. 다우존스 산업평균지수는 48535.99로 317.74포인트 (0.66%) 상승했고, 나스닥 종합지수는 23639.09로 455.35포인트 (1.96%) 상승했습니다. S&P 500 지수는 6894.38로 8.14포인트 (0.12%) 상승 마감하며 주요 지수 모두 연초 대비 플러스 전환에 성공했습니다. 이란-미국 간 영구 휴전 협상에 대한 지속적인 낙관론이 시장의 급격한 반등",
-          "date": "2026-04-14T21:46"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "미즈호) 마이크로소프트 목표가 $515로 하향조정.\n\n마이크로소프트(MSFT)의 분기별 점검 결과는 전반적으로 양호한 편이었습니다. 클라우드 마이그레이션이 건조하게 지속되고 AI 지출도 매우 강세를 보이는 가운데, 애저(Azure)의 3회계분기 성장률은 회사 가이던스인 전년 대비 37~38%(CC 기준)를 소폭 상회할 것으로 예상되며, 4회계분기 가이던스에도 문제가 없을 것으로 전망됩니다. 반면 Microsoft 365 Copilot은 여전히 부진한 흐름을 이어가고 있는 것으로 확인되었으나, 최근 언론 보도에서는 수익화 측면에서 전",
-          "date": "2026-04-14T15:31"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "**아마존, 글로벌스타 인수 완료 ****$AMZN**\n\n([Official](https://www.aboutamazon.com/news/company-news/amazon-globalstar-apple)) 아마존이 위성 통신 서비스 기업 글로벌스타(GSAT)를 인수하고, ‘아마존 LEO’의 위성망을 확대한다. 아마존은 GSAT이 보유한 무선 주파수 대역, 위성 운영 자산을 확보해 아마존 LEO 망에 D2D(Direct-to-Device) 서비스를 추가할 예정이다. 2028년부터 차세대 D2D 위성 시스템을 본격 배치한다는 구상이다",
-          "date": "2026-04-14T12:37"
+          "channel": "beluga_investment",
+          "text": "2026.04.15 07:57:42\n기업명: 에이디테크놀로지(시가총액: 7,164억) A200710\n보고서명: 단일판매ㆍ공급계약체결\n\n계약상대 : - \n계약내용 : 주문형 반도체 ASIC 개발 \n공급지역 : - \n계약금액 : 396억\n\n계약시작 : 2026-03-16\n계약종료 : 2027-05-31\n계약기간 : 1년 2개월\n매출대비 : 24.1%\n\n공시링크: https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260415900007\n최근계약 : https://www.awakeplus.co.kr/boa",
+          "date": "2026-04-14T22:59"
         }
       ]
     },
-    "TIGER지주": {
-      "ticker": "TIGER지주",
+    "테크윙": {
+      "ticker": "테크윙",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
+      "messageCount": 2,
       "channels": [
-        "easobi"
-      ],
-      "latestDate": "2026-04-14T21:46:19+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "2026년 4월 14일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시 3대 지수는 유가 급락과 메가캡 주식들의 지속적인 강세에 힘입어 견조한 상승세를 이어갔습니다. 다우존스 산업평균지수는 48535.99로 317.74포인트 (0.66%) 상승했고, 나스닥 종합지수는 23639.09로 455.35포인트 (1.96%) 상승했습니다. S&P 500 지수는 6894.38로 8.14포인트 (0.12%) 상승 마감하며 주요 지수 모두 연초 대비 플러스 전환에 성공했습니다. 이란-미국 간 영구 휴전 협상에 대한 지속적인 낙관론이 시장의 급격한 반등",
-          "date": "2026-04-14T21:46"
-        }
-      ]
-    },
-    "PLTR": {
-      "ticker": "PLTR",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
+        "beluga_investment",
         "aetherjapanresearch"
       ],
-      "latestDate": "2026-04-14T15:35:05+00:00",
+      "latestDate": "2026-04-15T14:14:05+00:00",
       "messages": [
         {
+          "channel": "beluga_investment",
+          "text": "2026.04.15 10:59:58\n기업명: 테크윙(시가총액: 2조 935억) A089030\n보고서명: 연결재무제표기준영업(잠정)실적(공정공시)\n\n매출액 : 524억(예상치 : 455억+/ 15%)\n영업익 : 97억(예상치 : 28억/ +246%)\n순이익 : -(예상치 : -)\n\n**최근 실적 추이**\n2026.1Q 524억/ 97억/ -\n2025.4Q 339억/ 6억/ -45억\n2025.3Q 418억/ 71억/ -67억\n2025.2Q 489억/ 64억/ 217억\n2025.1Q 346억/ 18억/ -16억\n\n공시링크: https:/",
+          "date": "2026-04-15T02:02"
+        },
+        {
           "channel": "aetherjapanresearch",
-          "text": "미즈호) 팔란티어 목표가 $195로 상향\n팔란티어(PLTR)에 대한 분기별 채널 점검은 본질적으로 제한적이지만, 전반적인 기업 수요는 매우 건조한 상태를 유지하고 있습니다. 2026년 1분기 초 PLTR 관련 문의량이 전년 대비 급격히 증가했다는 접촉선의 증언이 있었으며, 이는 기업 시장에서의 플랫폼 관심도가 더욱 확산되고 있음을 시사합니다. 다만 일부 성숙 고객사에서 덜 복잡한 증분 배포를 저비용 플랫폼에서 평가하는 사용 사례 합리화 조짐이 포착된 점은 다소 부정적입니다. 연방정부 부문은 여전히 강세이며, 지정학적 갈등의 고조로 ",
-          "date": "2026-04-14T15:35"
+          "text": "Citi) 테크윙 (089030.KQ); 1Q 실적 리뷰: 메모리 핸들러 및 CoK 수요에 힘입은 견조한 영업이익 결과. 목표가 8만원 유지\n\n씨티 견해:\n테크윙은 1Q26 영업이익 97억원(+1,566% QoQ / +444% YoY)을 보고하였으며, 이는 강한 메모리 핸들러 매출과 COK 출하가 큐브 프로버 판매의 일시적 공백을 상쇄한 결과입니다. 당사는 견조한 메모리 후공정 투자를 바탕으로 26E 및 27E 전반에 걸쳐 메모리 핸들러 수요가 예상을 상회할 것으로 전망합니다. 26E 큐브 프로버 출하 전망을 하향 조정하였음에도 불",
+          "date": "2026-04-15T14:14"
         }
       ]
     },
-    "LMT": {
-      "ticker": "LMT",
+    "TSLA": {
+      "ticker": "TSLA",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
+      "messageCount": 3,
       "channels": [
+        "easobi",
+        "d_ticker",
         "aetherjapanresearch"
       ],
-      "latestDate": "2026-04-14T15:35:05+00:00",
+      "latestDate": "2026-04-15T22:02:28+00:00",
       "messages": [
         {
+          "channel": "easobi",
+          "text": "2026년 4월 15일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시는 대형 기술주와 성장주 강세에 힘입어 혼조세로 마감했습니다. S&P 500 지수는 0.81% 상승한 6949.95로 거래를 마치며 장중 7,026.24와 종가 7,022.95로 사상 최고치를 경신했습니다. 기술주 중심의 나스닥 종합지수 역시 1.59% 상승한 24016.02로 사상 최고 종가를 기록했습니다. 반면, 다우존스 산업평균지수는 0.15% 하락한 48463.72에 마감하며 비교적 광범위한 시장의 약세를 반영했습니다. 시장은 미국과 이란 간 휴전 협상 재개 가",
+          "date": "2026-04-15T22:02"
+        },
+        {
           "channel": "aetherjapanresearch",
-          "text": "미즈호) 팔란티어 목표가 $195로 상향\n팔란티어(PLTR)에 대한 분기별 채널 점검은 본질적으로 제한적이지만, 전반적인 기업 수요는 매우 건조한 상태를 유지하고 있습니다. 2026년 1분기 초 PLTR 관련 문의량이 전년 대비 급격히 증가했다는 접촉선의 증언이 있었으며, 이는 기업 시장에서의 플랫폼 관심도가 더욱 확산되고 있음을 시사합니다. 다만 일부 성숙 고객사에서 덜 복잡한 증분 배포를 저비용 플랫폼에서 평가하는 사용 사례 합리화 조짐이 포착된 점은 다소 부정적입니다. 연방정부 부문은 여전히 강세이며, 지정학적 갈등의 고조로 ",
-          "date": "2026-04-14T15:35"
+          "text": "TESLA SHARES SET FOR BIGGEST ONE-DAY JUMP IN OVER NINE-MONTHS, LAST UP 7.9% [...](https://x.com/DeItaone/status/2044443615686975585)",
+          "date": "2026-04-15T15:54"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "머스크가 TSMC 태그를 잘못 한 거라고 합니다... TSMC 공계는 없고 링크건 데는 TSC라는 곳임 ㅋㅋㅋ (참고로 테슬라 차량용 엣지 칩 AI5는 TSMC와 삼성 듀얼 벤더 체계입니다)",
+          "date": "2026-04-15T09:42"
+        }
+      ]
+    },
+    "META": {
+      "ticker": "META",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 2,
+      "channels": [
+        "easobi",
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-04-15T22:02:28+00:00",
+      "messages": [
+        {
+          "channel": "easobi",
+          "text": "2026년 4월 15일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시는 대형 기술주와 성장주 강세에 힘입어 혼조세로 마감했습니다. S&P 500 지수는 0.81% 상승한 6949.95로 거래를 마치며 장중 7,026.24와 종가 7,022.95로 사상 최고치를 경신했습니다. 기술주 중심의 나스닥 종합지수 역시 1.59% 상승한 24016.02로 사상 최고 종가를 기록했습니다. 반면, 다우존스 산업평균지수는 0.15% 하락한 48463.72에 마감하며 비교적 광범위한 시장의 약세를 반영했습니다. 시장은 미국과 이란 간 휴전 협상 재개 가",
+          "date": "2026-04-15T22:02"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "번스타인) 브로드컴 (AVGO): 메타와의 대규모 다년간 MTIA 파트너십 발표\n\n브로드컴의 커스텀 ASIC 관련 발표가 계속되는 가운데, 동사는 화요일 오후 메타와 \"메타의 커스텀 실리콘 MTIA 멀티 기가와트 규모를 지원\"하기 위한 다년간·다세대 확장 파트너십을 발표하였습니다. 초기 약정 규모는 1GW를 초과하며(추가 확대 예정), 최소 2029년까지 연장할 계획입니다. 여기에는 학습 및 추론용 다세대 MTIA 칩과 네트워킹 부품이 포함되며, 단순한 하드웨어 공급을 넘어 시스템 수준 최적화 및 R&D 협력으로까지 범위가 확대됩니",
+          "date": "2026-04-15T14:25"
         }
       ]
     },
@@ -455,116 +264,153 @@
       "summary": "분석 실패: Connection error.",
       "messageCount": 2,
       "channels": [
-        "aetherjapanresearch",
-        "d_ticker"
+        "easobi",
+        "aetherjapanresearch"
       ],
-      "latestDate": "2026-04-14T22:15:19+00:00",
+      "latestDate": "2026-04-15T22:02:28+00:00",
       "messages": [
         {
-          "channel": "aetherjapanresearch",
-          "text": "미즈호) 마이크로소프트 목표가 $515로 하향조정.\n\n마이크로소프트(MSFT)의 분기별 점검 결과는 전반적으로 양호한 편이었습니다. 클라우드 마이그레이션이 건조하게 지속되고 AI 지출도 매우 강세를 보이는 가운데, 애저(Azure)의 3회계분기 성장률은 회사 가이던스인 전년 대비 37~38%(CC 기준)를 소폭 상회할 것으로 예상되며, 4회계분기 가이던스에도 문제가 없을 것으로 전망됩니다. 반면 Microsoft 365 Copilot은 여전히 부진한 흐름을 이어가고 있는 것으로 확인되었으나, 최근 언론 보도에서는 수익화 측면에서 전",
-          "date": "2026-04-14T15:31"
+          "channel": "easobi",
+          "text": "2026년 4월 15일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시는 대형 기술주와 성장주 강세에 힘입어 혼조세로 마감했습니다. S&P 500 지수는 0.81% 상승한 6949.95로 거래를 마치며 장중 7,026.24와 종가 7,022.95로 사상 최고치를 경신했습니다. 기술주 중심의 나스닥 종합지수 역시 1.59% 상승한 24016.02로 사상 최고 종가를 기록했습니다. 반면, 다우존스 산업평균지수는 0.15% 하락한 48463.72에 마감하며 비교적 광범위한 시장의 약세를 반영했습니다. 시장은 미국과 이란 간 휴전 협상 재개 가",
+          "date": "2026-04-15T22:02"
         },
         {
-          "channel": "d_ticker",
-          "text": "**마이크로소프트, 와이오밍주 데이터센터 확장 발표 ****$MSFT**\n\n([Press](https://news.microsoft.com/source/2026/04/14/microsoft-announces-intent-to-expand-datacenter-operations-in-cheyenne-accelerating-innovation-and-economic-growth/)) MS가 미국 와이오밍주 샤이엔에 있는 390만 평 부지를 매입해 데이터센터를 확장하겠다는 계획을 발표했다. MS는 샤이엔 전역의 도로, 우수관, 산책로, ",
-          "date": "2026-04-14T22:15"
+          "channel": "aetherjapanresearch",
+          "text": "Citi) 테크윙 (089030.KQ); 1Q 실적 리뷰: 메모리 핸들러 및 CoK 수요에 힘입은 견조한 영업이익 결과. 목표가 8만원 유지\n\n씨티 견해:\n테크윙은 1Q26 영업이익 97억원(+1,566% QoQ / +444% YoY)을 보고하였으며, 이는 강한 메모리 핸들러 매출과 COK 출하가 큐브 프로버 판매의 일시적 공백을 상쇄한 결과입니다. 당사는 견조한 메모리 후공정 투자를 바탕으로 26E 및 27E 전반에 걸쳐 메모리 핸들러 수요가 예상을 상회할 것으로 전망합니다. 26E 큐브 프로버 출하 전망을 하향 조정하였음에도 불",
+          "date": "2026-04-15T14:14"
         }
       ]
     },
-    "AAPL": {
-      "ticker": "AAPL",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 6,
-      "channels": [
-        "aetherjapanresearch",
-        "d_ticker"
-      ],
-      "latestDate": "2026-04-14T15:21:33+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "미즈호) 클라우드 플레어 목표가 $235로 하향.\n\n클라우드플레어(NET)의 4분기 실적은 매출이 전년 대비 약 33.5% 성장하며 시장 예상치인 29%를 크게 상회했습니다. 이는 3분기의 3.2% 초과 달성보다도 우수한 3.9% 초과 달성으로, 최근 4분기 평균인 2.2%를 크게 웃도는 결과입니다. 영업 생산성은 8분기 연속 전년 대비 성장을 기록했으며, 4년 만에 최고 수준의 할당량 달성률을 보였고, 순증 100만 달러 이상 고객 수와 4,250만 달러 규모의 ACV 계약 모두 분기 최고치를 갱신했습니다.\n\n채널 파트너십도 뚜렷",
-          "date": "2026-04-14T15:21"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "BofA) 구글; Google Cloud Next에서 자신감 있는 톤 예상. 목표가 $370\n\n1. 기조연설은 에이전트, 인프라, 고객 수주에 초점\nGoogle은 4월 22일부터 24일까지 라스베이거스에서 연례 Cloud Next 컨퍼런스를 개최합니다. 1일차(태평양 표준시 오전 9시) Google Cloud CEO 기조연설에서는 Google의 인프라 진전 및 에이전틱 역량에 대한 업데이트가 제공될 것으로 예상됩니다. 개발자 대상 사전 공개에서 Google은 \"Cloud Next의 초점은 미래를 위한 구성 요소, 즉 에이전틱 AI,",
-          "date": "2026-04-14T12:39"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "**아마존, 글로벌스타 인수 완료 ****$AMZN**\n\n([Official](https://www.aboutamazon.com/news/company-news/amazon-globalstar-apple)) 아마존이 위성 통신 서비스 기업 글로벌스타(GSAT)를 인수하고, ‘아마존 LEO’의 위성망을 확대한다. 아마존은 GSAT이 보유한 무선 주파수 대역, 위성 운영 자산을 확보해 아마존 LEO 망에 D2D(Direct-to-Device) 서비스를 추가할 예정이다. 2028년부터 차세대 D2D 위성 시스템을 본격 배치한다는 구상이다",
-          "date": "2026-04-14T12:37"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건) 난야 테크놀로지; 1분기 어닝 서프라이즈, 그러나 서버/AI 익스포저 부재는 여전히 우려 요인; 목표주가 NT$230으로 상향, Neutral 유지\n\n난야 테크놀로지(NYT)의 1분기 실적은 JP모건 추정치 및 시장 컨센서스를 상회하였으며, 이는 DRAM ASP가 전 분기 대비 약 70% 상승하면서 강력한 운영 레버리지 효과가 발생한 덕분입니다. 경영진은 높은 수준의 마진 프로파일(영업이익률 60% 이상)을 지속적으로 유지할 수 있다는 자신감을 피력하였으며, 현재의 메모리 시장 업사이클 추세를 활용하여 추가적인 가격 인상",
-          "date": "2026-04-14T00:06"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**아마존, 글로벌스타 인수 완료 ****$AMZN**\n\n([Official](https://www.aboutamazon.com/news/company-news/amazon-globalstar-apple)) 아마존이 위성 통신 서비스 기업 글로벌스타(GSAT)를 주당 $90(현 $72.9)에 인수하고, ‘아마존 LEO’의 위성망을 확대한다. 아마존은 GSAT이 보유한 무선 주파수 대역, 위성 운영 자산을 확보해 아마존 LEO 망에 D2D(Direct-to-Device) 서비스를 추가할 예정이다. 2028년부터 차세대 D2D 위성 시",
-          "date": "2026-04-14T12:37"
-        }
-      ]
-    },
-    "SMH": {
-      "ticker": "SMH",
+    "AVGO": {
+      "ticker": "AVGO",
       "summary": "분석 실패: Connection error.",
       "messageCount": 2,
       "channels": [
-        "aetherjapanresearch",
-        "d_ticker"
+        "easobi",
+        "aetherjapanresearch"
       ],
-      "latestDate": "2026-04-14T22:23:32+00:00",
+      "latestDate": "2026-04-15T22:02:28+00:00",
       "messages": [
         {
-          "channel": "aetherjapanresearch",
-          "text": "신규 설계 벤더: Marvell\n\nGoogle은 Marvell과 TPU 개발 프로젝트에 대해 적극적으로 협상 중이며, Marvell은 MediaTek과 유사한 설계 서비스 역할을 담당하게 될 것입니다. Google의 의도는 벤더 기반을 다변화하고 비용 및 성능 최적화를 위해 고속 인터커넥트 분야에서의 Marvell의 강점을 활용하는 것입니다. 이 프로젝트들은 현재 초기 사양 정의 단계에 있습니다.\n\n또한 Google은 Groq를 통한 NVIDIA의 고성능 추론 시장 진출에 대응하기 위해 LLM에 최적화된 전용 추론 아키텍처(Goog",
-          "date": "2026-04-14T13:53"
+          "channel": "easobi",
+          "text": "2026년 4월 15일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시는 대형 기술주와 성장주 강세에 힘입어 혼조세로 마감했습니다. S&P 500 지수는 0.81% 상승한 6949.95로 거래를 마치며 장중 7,026.24와 종가 7,022.95로 사상 최고치를 경신했습니다. 기술주 중심의 나스닥 종합지수 역시 1.59% 상승한 24016.02로 사상 최고 종가를 기록했습니다. 반면, 다우존스 산업평균지수는 0.15% 하락한 48463.72에 마감하며 비교적 광범위한 시장의 약세를 반영했습니다. 시장은 미국과 이란 간 휴전 협상 재개 가",
+          "date": "2026-04-15T22:02"
         },
         {
-          "channel": "d_ticker",
-          "text": "**메타, 브로드컴과 ASIC 공동 개발 파트너십 확대 ****$AVGO**\n\n([Official](https://about.fb.com/news/2026/04/meta-partners-with-broadcom-to-co-develop-custom-ai-silicon/)) 메타는 차세대 AI 가속기인 ‘MTIA’를 다세대에 걸쳐 브로드컴과 공동 개발하는 파트너십 확대안을 발표했다. 양사는 향후 2년 내에 배포될 4종의 신규 MTIA 칩을 포함하여 다세대의 커스텀 실리콘을 공동 설계한다. 브로드컴은 칩 설계뿐만 아니라 첨단 패키징(A",
-          "date": "2026-04-14T22:23"
+          "channel": "aetherjapanresearch",
+          "text": "번스타인) 브로드컴 (AVGO): 메타와의 대규모 다년간 MTIA 파트너십 발표\n\n브로드컴의 커스텀 ASIC 관련 발표가 계속되는 가운데, 동사는 화요일 오후 메타와 \"메타의 커스텀 실리콘 MTIA 멀티 기가와트 규모를 지원\"하기 위한 다년간·다세대 확장 파트너십을 발표하였습니다. 초기 약정 규모는 1GW를 초과하며(추가 확대 예정), 최소 2029년까지 연장할 계획입니다. 여기에는 학습 및 추론용 다세대 MTIA 칩과 네트워킹 부품이 포함되며, 단순한 하드웨어 공급을 넘어 시스템 수준 최적화 및 R&D 협력으로까지 범위가 확대됩니",
+          "date": "2026-04-15T14:25"
         }
       ]
     },
-    "SOL금융": {
-      "ticker": "SOL금융",
+    "GOOGL": {
+      "ticker": "GOOGL",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
         "aetherjapanresearch"
       ],
-      "latestDate": "2026-04-14T00:06:41+00:00",
+      "latestDate": "2026-04-15T14:25:53+00:00",
       "messages": [
         {
           "channel": "aetherjapanresearch",
-          "text": "JP모건) 난야 테크놀로지; 1분기 어닝 서프라이즈, 그러나 서버/AI 익스포저 부재는 여전히 우려 요인; 목표주가 NT$230으로 상향, Neutral 유지\n\n난야 테크놀로지(NYT)의 1분기 실적은 JP모건 추정치 및 시장 컨센서스를 상회하였으며, 이는 DRAM ASP가 전 분기 대비 약 70% 상승하면서 강력한 운영 레버리지 효과가 발생한 덕분입니다. 경영진은 높은 수준의 마진 프로파일(영업이익률 60% 이상)을 지속적으로 유지할 수 있다는 자신감을 피력하였으며, 현재의 메모리 시장 업사이클 추세를 활용하여 추가적인 가격 인상",
-          "date": "2026-04-14T00:06"
+          "text": "번스타인) 브로드컴 (AVGO): 메타와의 대규모 다년간 MTIA 파트너십 발표\n\n브로드컴의 커스텀 ASIC 관련 발표가 계속되는 가운데, 동사는 화요일 오후 메타와 \"메타의 커스텀 실리콘 MTIA 멀티 기가와트 규모를 지원\"하기 위한 다년간·다세대 확장 파트너십을 발표하였습니다. 초기 약정 규모는 1GW를 초과하며(추가 확대 예정), 최소 2029년까지 연장할 계획입니다. 여기에는 학습 및 추론용 다세대 MTIA 칩과 네트워킹 부품이 포함되며, 단순한 하드웨어 공급을 넘어 시스템 수준 최적화 및 R&D 협력으로까지 범위가 확대됩니",
+          "date": "2026-04-15T14:25"
         }
       ]
     },
-    "삼성전기": {
-      "ticker": "삼성전기",
+    "TSM": {
+      "ticker": "TSM",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 2,
+      "channels": [
+        "d_ticker"
+      ],
+      "latestDate": "2026-04-15T09:42:48+00:00",
+      "messages": [
+        {
+          "channel": "d_ticker",
+          "text": "머스크가 TSMC 태그를 잘못 한 거라고 합니다... TSMC 공계는 없고 링크건 데는 TSC라는 곳임 ㅋㅋㅋ (참고로 테슬라 차량용 엣지 칩 AI5는 TSMC와 삼성 듀얼 벤더 체계입니다)",
+          "date": "2026-04-15T09:42"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**🍜 MSG 회사가 AI 칩의 병목? — Ajinomoto ABF, 95% 독점의 톨게이트**\n\nAjinomoto = 117년 된 일본 MSG(감칠맛 조미료) 회사.\n그런데 이 회사가 만드는 ABF(Build-up Film)가 AI 칩의 핵심 소재.\n\n📌 ABF란?\n첨단 반도체 패키지 내부의 절연 필름. Nvidia Blackwell, AMD MI300 등 AI 칩의 칩렛 적층/연결에 필수. 고성능 칩일수록 더 많은 ABF 필요.\n시장점유율: ~95%. 사실상 독점.\n\n⚠️ 병목 우려\nAI 칩 수요 폭발 → ABF 수요 동반 급증",
+          "date": "2026-04-15T04:40"
+        }
+      ]
+    },
+    "현대로템": {
+      "ticker": "현대로템",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
         "d_ticker"
       ],
-      "latestDate": "2026-04-14T01:47:45+00:00",
+      "latestDate": "2026-04-15T08:02:30+00:00",
       "messages": [
         {
           "channel": "d_ticker",
-          "text": "**[단독] 삼성전기, 베트남에 1.8兆 투자…FC-BGA 생산능력 확충**\n\n([헤럴드경제](https://n.news.naver.com/mnews/article/016/0002629275?rc=N&ntype=RANKING&sid=101)) 14일 업계에 따르면 삼성전기는 베트남 생산법인에 고부가 반도체 기판인 FC-BGA(플립 칩 볼 그리드 어레이) 생산능력 확대를 위한 투자를 진행할 예정이다. 베트남 외국인투자청에 따르면 삼성전기는 로봇, 자율주행차 및 AI용 FC-BGA 생산을 목표로 투자 등록 증명서를 발급받았다. 이른바 ",
-          "date": "2026-04-14T01:47"
+          "text": "**[단독] 현대위아, 로템에 방산사업 매각\n\n**15일 업계에 따르면 현대위아는 최근 방산 부문을 현대로템에 매각하기 위한 실무 작업에 들어갔다. 지난해 7월 공작기계 부문을 매각한 데 이은 추가 사업구조 개편이다. 매각 작업은 연내 마무리하는 것이 목표다. 이번 사업 조정이 마무리되면 현대위아의 사업 포트폴리오는 로봇과 열관리 중심으로 재편된다. 현대위아는 이들 사업을 앞세워 미래 모빌리티 생태계에서 핵심 부품 공급사로 거듭나겠다는 구상이다. 현대로템은 현대위아의 포신 제조 기술을 내재화해 무기 체계 수직계열화를 완성한다는 계획",
+          "date": "2026-04-15T08:02"
+        }
+      ]
+    },
+    "한화에어로": {
+      "ticker": "한화에어로",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "DOC_POOL"
+      ],
+      "latestDate": "2026-04-15T22:08:34+00:00",
+      "messages": [
+        {
+          "channel": "DOC_POOL",
+          "text": "**한화에어로스페이스/방산/기업분석**\n제목: 1Q26 프리뷰: 기대치 하회. 하반기로 갈수록 개선\n작성일: 2026.04.16\n작성자: 채운샘 (하나증권 리서치센터)\n투자의견: BUY (유지)\n목표주가: 1,750,000원 (상향)\n\n**[1분기 실적 부진]**\n· 1분기 실적은 시장 컨센서스를 하회할 전망이며, 이는 폴란드 K9, 천무 수출 매출 인식 감소 및 하반기 집중된 수주 잔고 인도 일정 영향 때문이다.\n\n**[하반기 실적 개선]**\n· 올해 실적은 분기별로 하반기로 갈수록 개선될 것으로 보이며, 이집트, 호주 등 폴란드",
+          "date": "2026-04-15T22:08"
+        }
+      ]
+    },
+    "미래에셋": {
+      "ticker": "미래에셋",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 2,
+      "channels": [
+        "DOC_POOL"
+      ],
+      "latestDate": "2026-04-15T22:08:05+00:00",
+      "messages": [
+        {
+          "channel": "DOC_POOL",
+          "text": "**크래프톤 (259960) / 게임 / 투자 분석**\n제목: PUBG 트래픽 서프라이즈 지속\n작성일: 2026.04.15\n작성자: 임희석 (미래에셋증권)\n투자의견: 매수\n목표주가: 390,000원\n\n**[1분기 실적 전망]**\n· 1분기 매출액은 1조 2,550억원 (+44% YoY), 영업이익은 4,620억원 (+1% YoY)으로 컨센서스를 상회하는 높은 성장이 예상됩니다. 이는 주로 모바일 부문의 회복세와 중국 화평정영의 매출 호조에 기인하며, 특히 1월 이후 프로모션 정상화로 인한 폭발적인 결제액 증가가 긍정적입니다.\n\n**",
+          "date": "2026-04-15T22:08"
+        },
+        {
+          "channel": "DOC_POOL",
+          "text": "**반도체**\n제목: 엔터프라이즈 SSD 수요 전망치 상향\n작성일: 2026.04.15\n작성자: 김영건 (미래에셋증권)\n투자의견: 비중확대 유지\n\n**[AI 훈풍]**\n· AI 추론향 NAND 수요 급증으로 엔터프라이즈 SSD 수요 전망이 3% 상향되었으며, 이는 AI 시장 성장과 고용량 NAND에 대한 니즈 증가에 따른 긍정적인 영향으로 분석됩니다.\n\n**[수익성 개선]**\n· NAND의 영업이익률이 DRAM에 필적할 수준으로 개선될 가능성이 높아지고 있으며, 단수 증가에 따른 원가 절감 효과와 맞물려 수익성 개선 폭이 더욱 가파",
+          "date": "2026-04-15T22:07"
+        }
+      ]
+    },
+    "TIGER지주": {
+      "ticker": "TIGER지주",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "DOC_POOL"
+      ],
+      "latestDate": "2026-04-15T22:06:40+00:00",
+      "messages": [
+        {
+          "channel": "DOC_POOL",
+          "text": "**[Citigroup Inc / 금융 / 은행]**\n제목: 어닝서프라이즈에 역대 최대의 자사주 매입. 여수신도 양호\n작성일: 2026.04.16\n작성자: 하나증권 애널리스트 최정욱, RA 정소영\n투자의견:\n목표주가:\n\n**[실적 개선 모멘텀]**\n· 1분기 순이익은 YoY 42.3% 증가한 57.9억달러(EPS 3.06달러)를 기록하며 시장 컨센서스를 상회하는 어닝 서프라이즈를 시현했습니다. 이는 5대 핵심사업 부문의 영업수익 증가와 함께 1분기 NIM은 2.46%로 전분기 대비 3bp 하락했지만, 총대출 증가(QoQ 4.8%, ",
+          "date": "2026-04-15T22:06"
         }
       ]
     }
   },
-  "totalMessages": 64,
+  "totalMessages": 76,
   "channels": [
     "Jstockclass",
     "report_figure_by_offset",
