@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-04-30T22:40:19.747826",
+  "fetchedAt": "2026-05-01T22:42:46.207419",
   "stockCount": 22,
   "stocks": {
     "SK하이닉스": {
@@ -27,9 +27,9 @@
       "dividendYield": 0.76,
       "dailyChangePct": -2.43,
       "rsi14": 62.2,
-      "macd": 8716.6,
-      "macdSignal": 8280.1,
-      "macdHist": 436.5,
+      "macd": 8770.44,
+      "macdSignal": 8347.78,
+      "macdHist": 422.66,
       "technicalSignal": "MACD+"
     },
     "삼성전자우": {
@@ -42,9 +42,9 @@
       "dividendYield": 1.05,
       "dailyChangePct": -3.18,
       "rsi14": 71.1,
-      "macd": 7507.12,
-      "macdSignal": 6086.67,
-      "macdHist": 1420.45,
+      "macd": 7561.35,
+      "macdSignal": 6154.84,
+      "macdHist": 1406.51,
       "technicalSignal": "과매수 / MACD+"
     },
     "삼성전기": {
