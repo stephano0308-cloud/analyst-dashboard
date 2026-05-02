@@ -1,74 +1,324 @@
 {
-  "fetchedAt": "2026-05-01T22:44:13.549999",
+  "fetchedAt": "2026-05-02T22:32:44.041795",
   "status": "ok",
   "stocks": {
-    "AAPL": {
-      "ticker": "AAPL",
+    "BE": {
+      "ticker": "BE",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 4,
+      "messageCount": 9,
       "channels": [
         "aetherjapanresearch",
-        "sunstudy1004",
-        "Jstockclass"
+        "Jstockclass",
+        "sunstudy1004"
       ],
-      "latestDate": "2026-05-01T22:16:12+00:00",
+      "latestDate": "2026-05-02T13:16:27+00:00",
       "messages": [
         {
           "channel": "Jstockclass",
-          "text": "애플 목표주가 변동 내용",
-          "date": "2026-05-01T11:16"
+          "text": "**KOSPI 상승 지속과 실적 서프라이즈 기반 이익 확산 및 내수 회복 수혜 (GS)**\n\n**1. 시장 및 수급 흐름**\n\n- **지수 상승 지속**: KOSPI 주간 +1.9%, 2026년 YTD +56% 상승 → 강한 상승 추세 유지\n\n- **글로벌 대비 위상 상승**: 시가총액 영국 상회 → 글로벌 내 Korea 비중 확대 의미\n\n- **외국인 매도 지속**: Tech·조선 중심 순유출 → 단기 수급 부담 요인\n\n- **기관 순매수 대응**: 기관 중심 수급 지지 → 시장 하방 방어 역할\n\n**2. 실적 사이클 및 EPS ",
+          "date": "2026-05-02T12:46"
         },
         {
           "channel": "Jstockclass",
-          "text": "**Apple F2Q26 실적 분석 및 주요 IB별 투자 시각 비교\n\n1. 실적 및 수익성에 대한 공통적 평가\n**\n• **어닝 서프라이즈**: 2분기 매출($1,112억, 전년 대비 +17%)과 EPS($2.01) 모두 시장 컨센서스를 상회하며 강력한 실적을 달성\n\n• **기록적인 매출총이익률 **: 원재료 가격 상승 압박에도 불구하고 역대 최고치인 49.3%의 매출총이익률을 기록하며 시장의 우려를 불식시킴\n\n• **강력한 서비스 부문**: 서비스 매출이 전년 대비 약 16% 성장하며 전체 수익성 개선의 핵심 동력이 되었음\n\n• ",
-          "date": "2026-05-01T10:57"
+          "text": "**Q1 2026 S&P500 실적 중간 점검 (GS)**\n\n**1. 이례적으로 강한 실적 시즌**\n\n- EPS miss 비율 5%로 25년래 최저 수준\n\n- 서프라이즈 빈도 61%로 역사 평균(49%) 크게 상회\n\n2. **주가 반응**\n\n1) **실적 대비 주가 반응 약화**\n\n- EPS beat 이후 초과수익 +20bp 수준 (역사적으로 매우 낮은 수준)\n\n- 좋은 실적에도 주가 상승 제한적\n\n2) **알파 창출 환경 악화**\n\n- 거시 불확실성 + 높은 변동성 → 실적 기반 트레이딩 난이도 상승\n\n- “좋은 실적 = 주가 상",
+          "date": "2026-05-02T12:33"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "JP모건) 도쿄 일렉트론; 4분기 실적: 견조한 성과, 중기 계획의 3조 엔 매출 목표도 사정권 내, 목표가 51000엔.\n\n긍정적: 4분기 영업이익은 전분기 대비 77% 증가한 2,056억 엔으로 강세를 보였다 (블룸버그 추정치 1,801억 엔, 당사 추정치 1,690억 엔). 로직 애플리케이션은 당사 예상을 크게 상회했다. 경영진은 FY2026부터 반기별 가이던스로 전환했으며, FY2026 상반기 매출 1조 5,700억 엔 (전년 동기 대비 +33%) 및 영업이익 4,310억 엔 (+42%)을 목표로 하고 있다. 하반기 출하량은",
-          "date": "2026-05-01T11:08"
+          "text": "Citi) 1Q26 클라우드 비교: 클라우드 성장 가속화 속 CapEx 급증\n\n\n시티의 견해\n1분기 실적 발표 이후 상위 4개 클라우드 제공업체의 결과를 정리합니다. 마이크로소프트, AWS, GCP, OCI의 성장 개선에 힘입어 업계 전체 성장률은 전년 대비 +41%로 약 6%포인트 가속화되었습니다. 마이크로소프트 애저의 성장률은 전 분기 대비 1%포인트 가속화되어 전년 대비 +39% CC(FQ2의 +38% 대비), 아마존 AWS 성장률은 전년 대비 +28% CC로 가속화(4분기 24% 대비), 구글 클라우드 성장률은 16%포인트 ",
+          "date": "2026-05-02T13:16"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "https://youtu.be/zbb_tnucOMg?si=jzqmhR01HD9u5OHU",
+          "date": "2026-05-02T08:22"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Wccftech) 인텔의 핵심 고급 패키징 기술인 EMIB(Embedded Multi-die Interconnect Bridge)가 90%의 수율을 달성했다고 GF 시큐리티즈의 애널리스트 Jeff Pu가 밝혔습니다. 이는 인텔 파운드리 사업의 경쟁력을 크게 높이는 성과로, TSMC의 CoWoS 기술에 대한 비용 효율적인 대안으로서의 입지를 강화하는 신호로 평가됩니다.\n\n고객사 측면에서는 구글이 차세대 TPU에 EMIB를 채택할 예정이고, 엔비디아도 차세대 파인만(Feynman) 칩에 활용할 것으로 알려졌으며, 메타 역시 2028년 ",
+          "date": "2026-05-02T05:34"
+        }
+      ]
+    },
+    "GOOGL": {
+      "ticker": "GOOGL",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 7,
+      "channels": [
+        "aetherjapanresearch",
+        "sunstudy1004"
+      ],
+      "latestDate": "2026-05-02T13:16:27+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Citi) 1Q26 클라우드 비교: 클라우드 성장 가속화 속 CapEx 급증\n\n\n시티의 견해\n1분기 실적 발표 이후 상위 4개 클라우드 제공업체의 결과를 정리합니다. 마이크로소프트, AWS, GCP, OCI의 성장 개선에 힘입어 업계 전체 성장률은 전년 대비 +41%로 약 6%포인트 가속화되었습니다. 마이크로소프트 애저의 성장률은 전 분기 대비 1%포인트 가속화되어 전년 대비 +39% CC(FQ2의 +38% 대비), 아마존 AWS 성장률은 전년 대비 +28% CC로 가속화(4분기 24% 대비), 구글 클라우드 성장률은 16%포인트 ",
+          "date": "2026-05-02T13:16"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Citi) AI의 ROI: 백로그 가속화가 투자 수익에 대한 지속적인 신뢰를 견인\n\n시티의 견해\n하이퍼스케일러 클라우드 매출은 빅3 CSP 전반에 걸쳐 가속화되었으며, 합산 매출 성장률은 4분기 +33%에서 1분기 +39%로, 백로그는 +95%에서 +143%로 각각 가속화되었습니다. 기업 도입에 의해 주도되는 AI 수요는 컴퓨팅 용량의 증가 속도를 계속 앞지르고 있으며, 구글은 제약이 단기 매출 성장을 제한하고 있다고 언급했습니다. 메타, GCP, 애저는 2026년 설비투자(CapEx) 전망을 상향 조정하였으며, 합산 지출은 4분기",
+          "date": "2026-05-02T12:42"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Wccftech) 인텔의 핵심 고급 패키징 기술인 EMIB(Embedded Multi-die Interconnect Bridge)가 90%의 수율을 달성했다고 GF 시큐리티즈의 애널리스트 Jeff Pu가 밝혔습니다. 이는 인텔 파운드리 사업의 경쟁력을 크게 높이는 성과로, TSMC의 CoWoS 기술에 대한 비용 효율적인 대안으로서의 입지를 강화하는 신호로 평가됩니다.\n\n고객사 측면에서는 구글이 차세대 TPU에 EMIB를 채택할 예정이고, 엔비디아도 차세대 파인만(Feynman) 칩에 활용할 것으로 알려졌으며, 메타 역시 2028년 ",
+          "date": "2026-05-02T05:34"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": ">>CSP 대규모 증설…대만 공급망, 최소 3년 호황 전망\n\n•마이크로소프트, 아마존, Alphabet, 메타 등 미국 4대 빅테크가 2026년 CAPEX를 일제히 상향하고, 2027년 추가 확대까지 예고하며 AI 인프라 투자 경쟁이 장기화되는 흐름임. 이에 따라 글로벌 AI 인프라 재편 속에서 대만 공급망은 최소 3년 이상 수혜 구간에 진입할 것으로 전망\n\n•올해 4개사의 총 CAPEX는 메모리 등 부품 가격 상승까지 반영되며 약 6,950억~7,250억 달러 수준으로 확대될 전망임. 향후 투자도 데이터센터, 자체 설계 칩, 네트",
+          "date": "2026-05-02T03:12"
         },
         {
           "channel": "sunstudy1004",
-          "text": "S&P 500·나스닥, ‘애플 호실적·유가 하락 겹호재’에 사상 최고치 경신 \n-애플 매출 전망치 상향 조정 기술주 견인… S&P 500 사상 첫 7,200선 돌파\nhttps://www.g-enews.com/article/Securities/2026/05/202605020517291457e250e8e188_1#_PA",
-          "date": "2026-05-01T22:16"
+          "text": ">>CCL 공급 부족 본격화… Gold Circuit Electronics, 목표가 잇단 상향 (대만경제일보) \n\n•CCL과 PCB 산업에서 공급 타이트 현상이 심화되며 가격 인상 사이클이 본격화되고 있음. Citigroup는 CCL 시장이 수급 타이트 상태에 진입해 2026~2027년에도 공급 부족이 지속될 것으로 보며, 분기별 가격 인상이 가능한 구조라고 평가했음.\n\n•PCB 측면에서는 고성능 스위치와 ASIC 수요가 강하게 이어지며 Gold Circuit Electronics(금상전자)의 업황 개선이 두드러질 전망. 기술 경쟁",
+          "date": "2026-05-02T12:33"
         }
       ]
     },
     "MSFT": {
       "ticker": "MSFT",
       "summary": "분석 실패: Connection error.",
+      "messageCount": 6,
+      "channels": [
+        "aetherjapanresearch",
+        "sunstudy1004"
+      ],
+      "latestDate": "2026-05-02T13:16:27+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Citi) 1Q26 클라우드 비교: 클라우드 성장 가속화 속 CapEx 급증\n\n\n시티의 견해\n1분기 실적 발표 이후 상위 4개 클라우드 제공업체의 결과를 정리합니다. 마이크로소프트, AWS, GCP, OCI의 성장 개선에 힘입어 업계 전체 성장률은 전년 대비 +41%로 약 6%포인트 가속화되었습니다. 마이크로소프트 애저의 성장률은 전 분기 대비 1%포인트 가속화되어 전년 대비 +39% CC(FQ2의 +38% 대비), 아마존 AWS 성장률은 전년 대비 +28% CC로 가속화(4분기 24% 대비), 구글 클라우드 성장률은 16%포인트 ",
+          "date": "2026-05-02T13:16"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Citi) AI의 ROI: 백로그 가속화가 투자 수익에 대한 지속적인 신뢰를 견인\n\n시티의 견해\n하이퍼스케일러 클라우드 매출은 빅3 CSP 전반에 걸쳐 가속화되었으며, 합산 매출 성장률은 4분기 +33%에서 1분기 +39%로, 백로그는 +95%에서 +143%로 각각 가속화되었습니다. 기업 도입에 의해 주도되는 AI 수요는 컴퓨팅 용량의 증가 속도를 계속 앞지르고 있으며, 구글은 제약이 단기 매출 성장을 제한하고 있다고 언급했습니다. 메타, GCP, 애저는 2026년 설비투자(CapEx) 전망을 상향 조정하였으며, 합산 지출은 4분기",
+          "date": "2026-05-02T12:42"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": ">>CSP 대규모 증설…대만 공급망, 최소 3년 호황 전망\n\n•마이크로소프트, 아마존, Alphabet, 메타 등 미국 4대 빅테크가 2026년 CAPEX를 일제히 상향하고, 2027년 추가 확대까지 예고하며 AI 인프라 투자 경쟁이 장기화되는 흐름임. 이에 따라 글로벌 AI 인프라 재편 속에서 대만 공급망은 최소 3년 이상 수혜 구간에 진입할 것으로 전망\n\n•올해 4개사의 총 CAPEX는 메모리 등 부품 가격 상승까지 반영되며 약 6,950억~7,250억 달러 수준으로 확대될 전망임. 향후 투자도 데이터센터, 자체 설계 칩, 네트",
+          "date": "2026-05-02T03:12"
+        },
+        {
+          "channel": "sunstudy1004",
+          "text": "**Rothschild Redburn, 루멘텀(Lumentum, ****$LITE****)에 대해 투자의견 '매수(Buy)'와 목표주가 1,270달러를 제시하며 커버리지 개시**\n\n\"루멘텀의 핵심 사업은 레이저 부품 제조와 광 트랜시버(optical transceivers) 같은 완제품 생산을 중심으로 합니다. 이러한 핵심 사업은 **루멘텀이 향후 18개월에 걸쳐 가동할 약 80%의 추가 생산 능력(capacity) 확대로부터 수혜를 입을 것**이며, 최근 **엔비디아(NVIDIA)의 20억 달러 투자 덕분에 추가적인 생산 능력 확",
+          "date": "2026-05-02T12:33"
+        },
+        {
+          "channel": "sunstudy1004",
+          "text": "**>>2027년 AI Capex 1조 달러 시대 도래? (BofA) **\n\n•BofA가 글로벌 클라우드 사업자들의 AI 중심 Capex 전망을 대폭 상향했으며, 2026년 기준 8,000억 달러(+67% YoY) 수준, 2027년에는 1조 달러 돌파 가능성까지 제기. 핵심 포인트는 단순 투자 확대가 아니라 **구조적 공급 제약+수요 확정성** 조합\n\n•특히 마이크로소프트의 Capex 가이던스가 시장 기대 대비 약 240억 달러 상회했는데, 이 중 약 250억 달러가 부품 가격 상승에 기인 → GPU, HBM 등 AI 핵심 부품에서",
+          "date": "2026-05-02T12:33"
+        }
+      ]
+    },
+    "AMZN": {
+      "ticker": "AMZN",
+      "summary": "분석 실패: Connection error.",
       "messageCount": 5,
       "channels": [
         "aetherjapanresearch",
-        "Jstockclass"
+        "sunstudy1004"
       ],
-      "latestDate": "2026-05-01T11:13:46+00:00",
+      "latestDate": "2026-05-02T13:16:27+00:00",
       "messages": [
         {
-          "channel": "Jstockclass",
-          "text": "**SNDK 1Q 실적 분석 및 주요 IB별 투자시각 비교**\n\n**1. 실적 및 시장 상황에 대한 공통적 평가\n\n**• **어닝 서프라이즈:** 1분기 매출액($59.5억)과 주당순이익(EPS $23.41)이 시장 컨센서스를 대폭 상회함. 특히 EPS는 컨센서스($14.45) 대비 62% 높은 수치를 기록\n\n• **데이터센터 폭발적 성장:** 데이터센터 매출이 전 분기 대비 233% 성장하며 전체 실적을 견인함. 비트 출하량은 다소 줄었으나, 고부가 제품 믹스 개선과 가격 상승(+137% q/q)이 수익성을 극대화\n\n• **압도적",
-          "date": "2026-05-01T11:13"
+          "channel": "aetherjapanresearch",
+          "text": "Citi) 1Q26 클라우드 비교: 클라우드 성장 가속화 속 CapEx 급증\n\n\n시티의 견해\n1분기 실적 발표 이후 상위 4개 클라우드 제공업체의 결과를 정리합니다. 마이크로소프트, AWS, GCP, OCI의 성장 개선에 힘입어 업계 전체 성장률은 전년 대비 +41%로 약 6%포인트 가속화되었습니다. 마이크로소프트 애저의 성장률은 전 분기 대비 1%포인트 가속화되어 전년 대비 +39% CC(FQ2의 +38% 대비), 아마존 AWS 성장률은 전년 대비 +28% CC로 가속화(4분기 24% 대비), 구글 클라우드 성장률은 16%포인트 ",
+          "date": "2026-05-02T13:16"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "NYPost) OpenAI 재판의 판사, 머스크의 '자선단체에서 훔치는 것' 발언에 질색: \"당신은 변호사가 아닙니다\"\n\nOpenAI의 미래를 둘러싼 재판에서 일론 머스크는 이틀째 반대 심문을 받았습니다. 머스크는 심문 내내 \"자선단체에서 훔치는 건 안 됩니다\"라는 표현을 반복적으로 사용했으나, 이본 곤살레스 로저스 판사가 이를 기록에서 삭제하고 \"당신은 변호사가 아닙니다\"라며 제지하는 장면이 연출되었습니다. 머스크는 이에 \"법학 101을 수강한 적은 있다\"고 농담을 던지면서도 결국 자신이 변호사가 아님을 인정했습니다.\n\nOpenA",
-          "date": "2026-05-01T10:36"
+          "text": "Citi) AI의 ROI: 백로그 가속화가 투자 수익에 대한 지속적인 신뢰를 견인\n\n시티의 견해\n하이퍼스케일러 클라우드 매출은 빅3 CSP 전반에 걸쳐 가속화되었으며, 합산 매출 성장률은 4분기 +33%에서 1분기 +39%로, 백로그는 +95%에서 +143%로 각각 가속화되었습니다. 기업 도입에 의해 주도되는 AI 수요는 컴퓨팅 용량의 증가 속도를 계속 앞지르고 있으며, 구글은 제약이 단기 매출 성장을 제한하고 있다고 언급했습니다. 메타, GCP, 애저는 2026년 설비투자(CapEx) 전망을 상향 조정하였으며, 합산 지출은 4분기",
+          "date": "2026-05-02T12:42"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "Citi) 코어위브; 가속화되는 수요/설비투자, 장기 상승 여력을 지속적으로 견인할 것. 목표가 $155로 상향\n\n씨티의 견해\nAI 인프라 선도 기업인 CRWV에 유리한 여건이 계속해서 갖춰지고 있으며, 하이퍼스케일러, AI 랩, 엔터프라이즈 전반에 걸친 다변화로 고객 집중 리스크가 완화되면서 이번 분기 수주잔고(backlog)가 최소 QoQ +35~40% 이상 성장할 것으로 추정합니다. 신규 Jane Street+META 계약은 FY27 말까지 본격화될 가능성이 높으며, CRWV의 300억 달러 ARR 목표를 상회할 잠재력이 있고",
-          "date": "2026-05-01T10:28"
+          "text": ">>CSP 대규모 증설…대만 공급망, 최소 3년 호황 전망\n\n•마이크로소프트, 아마존, Alphabet, 메타 등 미국 4대 빅테크가 2026년 CAPEX를 일제히 상향하고, 2027년 추가 확대까지 예고하며 AI 인프라 투자 경쟁이 장기화되는 흐름임. 이에 따라 글로벌 AI 인프라 재편 속에서 대만 공급망은 최소 3년 이상 수혜 구간에 진입할 것으로 전망\n\n•올해 4개사의 총 CAPEX는 메모리 등 부품 가격 상승까지 반영되며 약 6,950억~7,250억 달러 수준으로 확대될 전망임. 향후 투자도 데이터센터, 자체 설계 칩, 네트",
+          "date": "2026-05-02T03:12"
+        },
+        {
+          "channel": "sunstudy1004",
+          "text": ">>CCL 공급 부족 본격화… Gold Circuit Electronics, 목표가 잇단 상향 (대만경제일보) \n\n•CCL과 PCB 산업에서 공급 타이트 현상이 심화되며 가격 인상 사이클이 본격화되고 있음. Citigroup는 CCL 시장이 수급 타이트 상태에 진입해 2026~2027년에도 공급 부족이 지속될 것으로 보며, 분기별 가격 인상이 가능한 구조라고 평가했음.\n\n•PCB 측면에서는 고성능 스위치와 ASIC 수요가 강하게 이어지며 Gold Circuit Electronics(금상전자)의 업황 개선이 두드러질 전망. 기술 경쟁",
+          "date": "2026-05-02T12:33"
+        },
+        {
+          "channel": "sunstudy1004",
+          "text": ">>CSP 대규모 증설…대만 공급망, 최소 3년 호황 전망\n\n•마이크로소프트, 아마존, Alphabet, 메타 등 미국 4대 빅테크가 2026년 CAPEX를 일제히 상향하고, 2027년 추가 확대까지 예고하며 AI 인프라 투자 경쟁이 장기화되는 흐름임. 이에 따라 글로벌 AI 인프라 재편 속에서 대만 공급망은 최소 3년 이상 수혜 구간에 진입할 것으로 전망\n\n•올해 4개사의 총 CAPEX는 메모리 등 부품 가격 상승까지 반영되며 약 6,950억~7,250억 달러 수준으로 확대될 전망임. 향후 투자도 데이터센터, 자체 설계 칩, 네트",
+          "date": "2026-05-02T02:49"
+        }
+      ]
+    },
+    "META": {
+      "ticker": "META",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 4,
+      "channels": [
+        "aetherjapanresearch",
+        "sunstudy1004"
+      ],
+      "latestDate": "2026-05-02T12:42:26+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Citi) AI의 ROI: 백로그 가속화가 투자 수익에 대한 지속적인 신뢰를 견인\n\n시티의 견해\n하이퍼스케일러 클라우드 매출은 빅3 CSP 전반에 걸쳐 가속화되었으며, 합산 매출 성장률은 4분기 +33%에서 1분기 +39%로, 백로그는 +95%에서 +143%로 각각 가속화되었습니다. 기업 도입에 의해 주도되는 AI 수요는 컴퓨팅 용량의 증가 속도를 계속 앞지르고 있으며, 구글은 제약이 단기 매출 성장을 제한하고 있다고 언급했습니다. 메타, GCP, 애저는 2026년 설비투자(CapEx) 전망을 상향 조정하였으며, 합산 지출은 4분기",
+          "date": "2026-05-02T12:42"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "Mizuho) 마이크로소프트 추정치 변경 — F3Q, 예상대로 전개되나 MSFT는 CY26 나머지 기간에 대한 강력한 Azure 가이던스 제시\n\nMSFT는 전반적으로 양호한 F3Q 실적을 보고했으며, 총 매출 829억 달러(Y/Y +15% CC)는 시장 예상치인 814억 달러를 크게 상회했습니다. 커머셜 부킹 성장률(보고 기준 Y/Y -6% CC, OpenAI 제외 시 Y/Y +7% CC)은 다소 실망스러웠으나, Azure 매출은 Y/Y +39% CC로 경영진 가이던스인 약 37~38% Y/Y CC를 상회했으며, 바이사이드 기대치와",
-          "date": "2026-05-01T10:15"
+          "text": "Wccftech) 인텔의 핵심 고급 패키징 기술인 EMIB(Embedded Multi-die Interconnect Bridge)가 90%의 수율을 달성했다고 GF 시큐리티즈의 애널리스트 Jeff Pu가 밝혔습니다. 이는 인텔 파운드리 사업의 경쟁력을 크게 높이는 성과로, TSMC의 CoWoS 기술에 대한 비용 효율적인 대안으로서의 입지를 강화하는 신호로 평가됩니다.\n\n고객사 측면에서는 구글이 차세대 TPU에 EMIB를 채택할 예정이고, 엔비디아도 차세대 파인만(Feynman) 칩에 활용할 것으로 알려졌으며, 메타 역시 2028년 ",
+          "date": "2026-05-02T05:34"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "BofA) AI, CY27년까지 설비투자(capex)를 1조 달러까지 끌어올릴 수 있어\n\n1. 정당화된 AI 설비투자, 지출 기업들의 강한 성장 견인\n미국의 4대 주요 하이퍼스케일러인 GOOGL, MSFT, AMZN(AWS), META가 수요일에 C1Q26 실적을 발표하고 CY26/27 설비투자 전망에 대한 업데이트된 견해를 제공했습니다. 큰 그림에서 보면, 대부분은 빠르게 가속화되는 AI 매출과 투자 수익률에 힘입어 가시성이 높아지면서 CY26 지출 전망이 더욱 강화되고 있다고 밝혔습니다. 특히 2026년 내내 컴퓨팅이 대부분 공",
-          "date": "2026-05-01T06:02"
+          "text": ">>CSP 대규모 증설…대만 공급망, 최소 3년 호황 전망\n\n•마이크로소프트, 아마존, Alphabet, 메타 등 미국 4대 빅테크가 2026년 CAPEX를 일제히 상향하고, 2027년 추가 확대까지 예고하며 AI 인프라 투자 경쟁이 장기화되는 흐름임. 이에 따라 글로벌 AI 인프라 재편 속에서 대만 공급망은 최소 3년 이상 수혜 구간에 진입할 것으로 전망\n\n•올해 4개사의 총 CAPEX는 메모리 등 부품 가격 상승까지 반영되며 약 6,950억~7,250억 달러 수준으로 확대될 전망임. 향후 투자도 데이터센터, 자체 설계 칩, 네트",
+          "date": "2026-05-02T03:12"
+        },
+        {
+          "channel": "sunstudy1004",
+          "text": ">>CSP 대규모 증설…대만 공급망, 최소 3년 호황 전망\n\n•마이크로소프트, 아마존, Alphabet, 메타 등 미국 4대 빅테크가 2026년 CAPEX를 일제히 상향하고, 2027년 추가 확대까지 예고하며 AI 인프라 투자 경쟁이 장기화되는 흐름임. 이에 따라 글로벌 AI 인프라 재편 속에서 대만 공급망은 최소 3년 이상 수혜 구간에 진입할 것으로 전망\n\n•올해 4개사의 총 CAPEX는 메모리 등 부품 가격 상승까지 반영되며 약 6,950억~7,250억 달러 수준으로 확대될 전망임. 향후 투자도 데이터센터, 자체 설계 칩, 네트",
+          "date": "2026-05-02T02:49"
+        }
+      ]
+    },
+    "AAPL": {
+      "ticker": "AAPL",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 2,
+      "channels": [
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-05-02T12:42:26+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Citi) AI의 ROI: 백로그 가속화가 투자 수익에 대한 지속적인 신뢰를 견인\n\n시티의 견해\n하이퍼스케일러 클라우드 매출은 빅3 CSP 전반에 걸쳐 가속화되었으며, 합산 매출 성장률은 4분기 +33%에서 1분기 +39%로, 백로그는 +95%에서 +143%로 각각 가속화되었습니다. 기업 도입에 의해 주도되는 AI 수요는 컴퓨팅 용량의 증가 속도를 계속 앞지르고 있으며, 구글은 제약이 단기 매출 성장을 제한하고 있다고 언급했습니다. 메타, GCP, 애저는 2026년 설비투자(CapEx) 전망을 상향 조정하였으며, 합산 지출은 4분기",
+          "date": "2026-05-02T12:42"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "애플, 맥 미니 데스크톱 시작가를 599달러에서 799달러로 인상.\n\n애플은 256GB 저장공간을 포함한 엔트리급 구성을 제거하는 방식으로 사실상 가격 인상. 해당 컴퓨터는 이제 512GB 모델부터 시작.",
+          "date": "2026-05-02T01:25"
+        }
+      ]
+    },
+    "NVDA": {
+      "ticker": "NVDA",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 6,
+      "channels": [
+        "aetherjapanresearch",
+        "sunstudy1004"
+      ],
+      "latestDate": "2026-05-02T12:33:23+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Wccftech) 인텔의 핵심 고급 패키징 기술인 EMIB(Embedded Multi-die Interconnect Bridge)가 90%의 수율을 달성했다고 GF 시큐리티즈의 애널리스트 Jeff Pu가 밝혔습니다. 이는 인텔 파운드리 사업의 경쟁력을 크게 높이는 성과로, TSMC의 CoWoS 기술에 대한 비용 효율적인 대안으로서의 입지를 강화하는 신호로 평가됩니다.\n\n고객사 측면에서는 구글이 차세대 TPU에 EMIB를 채택할 예정이고, 엔비디아도 차세대 파인만(Feynman) 칩에 활용할 것으로 알려졌으며, 메타 역시 2028년 ",
+          "date": "2026-05-02T05:34"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": ">>CSP 대규모 증설…대만 공급망, 최소 3년 호황 전망\n\n•마이크로소프트, 아마존, Alphabet, 메타 등 미국 4대 빅테크가 2026년 CAPEX를 일제히 상향하고, 2027년 추가 확대까지 예고하며 AI 인프라 투자 경쟁이 장기화되는 흐름임. 이에 따라 글로벌 AI 인프라 재편 속에서 대만 공급망은 최소 3년 이상 수혜 구간에 진입할 것으로 전망\n\n•올해 4개사의 총 CAPEX는 메모리 등 부품 가격 상승까지 반영되며 약 6,950억~7,250억 달러 수준으로 확대될 전망임. 향후 투자도 데이터센터, 자체 설계 칩, 네트",
+          "date": "2026-05-02T03:12"
+        },
+        {
+          "channel": "sunstudy1004",
+          "text": "**Rothschild Redburn, 루멘텀(Lumentum, ****$LITE****)에 대해 투자의견 '매수(Buy)'와 목표주가 1,270달러를 제시하며 커버리지 개시**\n\n\"루멘텀의 핵심 사업은 레이저 부품 제조와 광 트랜시버(optical transceivers) 같은 완제품 생산을 중심으로 합니다. 이러한 핵심 사업은 **루멘텀이 향후 18개월에 걸쳐 가동할 약 80%의 추가 생산 능력(capacity) 확대로부터 수혜를 입을 것**이며, 최근 **엔비디아(NVIDIA)의 20억 달러 투자 덕분에 추가적인 생산 능력 확",
+          "date": "2026-05-02T12:33"
+        },
+        {
+          "channel": "sunstudy1004",
+          "text": "**>>2027년 AI Capex 1조 달러 시대 도래? (BofA) **\n\n•BofA가 글로벌 클라우드 사업자들의 AI 중심 Capex 전망을 대폭 상향했으며, 2026년 기준 8,000억 달러(+67% YoY) 수준, 2027년에는 1조 달러 돌파 가능성까지 제기. 핵심 포인트는 단순 투자 확대가 아니라 **구조적 공급 제약+수요 확정성** 조합\n\n•특히 마이크로소프트의 Capex 가이던스가 시장 기대 대비 약 240억 달러 상회했는데, 이 중 약 250억 달러가 부품 가격 상승에 기인 → GPU, HBM 등 AI 핵심 부품에서",
+          "date": "2026-05-02T12:33"
+        },
+        {
+          "channel": "sunstudy1004",
+          "text": "**AI CPU가 삼킨 D램, 메모리 ‘숏티지’ 1년 더 간다\n\n2027년까지 D램 공급부족 장기화\n\nGPU에 이어 CPU도 D램 고용량화\n\n‘AI 조율자’된 CPU...대용량 기억력 필수\n\nCPU에 필수인 DDR5 ‘수급 불균형’ 심화**\n\n\n메모리 업계가 가격이** 100% 이상 급등한 ‘범용 D램’에 힘입어 전례 없는 실적을 기록한 가운데 인공지능(AI)용 중앙처리장치(CPU)의 확산까지 맞물리며 ‘숏티지(Shortage·공급부족)’ 현상이 1년 더 이어질 것이라는 전망이 제기**된다.\n\n인텔이** 최근 선보인 ‘AI CPU’",
+          "date": "2026-05-02T03:20"
+        }
+      ]
+    },
+    "TSM": {
+      "ticker": "TSM",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 2,
+      "channels": [
+        "aetherjapanresearch",
+        "sunstudy1004"
+      ],
+      "latestDate": "2026-05-02T12:33:23+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Wccftech) 인텔의 핵심 고급 패키징 기술인 EMIB(Embedded Multi-die Interconnect Bridge)가 90%의 수율을 달성했다고 GF 시큐리티즈의 애널리스트 Jeff Pu가 밝혔습니다. 이는 인텔 파운드리 사업의 경쟁력을 크게 높이는 성과로, TSMC의 CoWoS 기술에 대한 비용 효율적인 대안으로서의 입지를 강화하는 신호로 평가됩니다.\n\n고객사 측면에서는 구글이 차세대 TPU에 EMIB를 채택할 예정이고, 엔비디아도 차세대 파인만(Feynman) 칩에 활용할 것으로 알려졌으며, 메타 역시 2028년 ",
+          "date": "2026-05-02T05:34"
+        },
+        {
+          "channel": "sunstudy1004",
+          "text": "**>>2027년 AI Capex 1조 달러 시대 도래? (BofA) **\n\n•BofA가 글로벌 클라우드 사업자들의 AI 중심 Capex 전망을 대폭 상향했으며, 2026년 기준 8,000억 달러(+67% YoY) 수준, 2027년에는 1조 달러 돌파 가능성까지 제기. 핵심 포인트는 단순 투자 확대가 아니라 **구조적 공급 제약+수요 확정성** 조합\n\n•특히 마이크로소프트의 Capex 가이던스가 시장 기대 대비 약 240억 달러 상회했는데, 이 중 약 250억 달러가 부품 가격 상승에 기인 → GPU, HBM 등 AI 핵심 부품에서",
+          "date": "2026-05-02T12:33"
+        }
+      ]
+    },
+    "LLY": {
+      "ticker": "LLY",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-05-02T03:21:23+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) 일리야릴리 매출 컨센 상향, 목표가 $1300.\n\nJP모건은 일리야 릴리(LLY)의 1분기 실적을 반영하여 2027년 이후 매출 추정치를 약 30~35억 달러 상향 조정했습니다. 주요 상향 요인은 해외 마운자로(Mounjaro)의 실적으로, 1분기 OUS(미국 외) 매출이 44억 달러(연간 환산 약 180억 달러)로 시장 컨센서스를 약 10억 달러 웃돌았습니다. 이는 특정 지역에 국한된 성과가 아니라 광범위한 지역에서의 시장 성장과 릴리의 점유율 확대가 동시에 이루어진 결과이며, 미국 외 비만 치료제 시장의 침투율이 여전",
+          "date": "2026-05-02T03:21"
+        }
+      ]
+    },
+    "GOOG": {
+      "ticker": "GOOG",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 3,
+      "channels": [
+        "aetherjapanresearch",
+        "sunstudy1004"
+      ],
+      "latestDate": "2026-05-02T12:33:23+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": ">>CSP 대규모 증설…대만 공급망, 최소 3년 호황 전망\n\n•마이크로소프트, 아마존, Alphabet, 메타 등 미국 4대 빅테크가 2026년 CAPEX를 일제히 상향하고, 2027년 추가 확대까지 예고하며 AI 인프라 투자 경쟁이 장기화되는 흐름임. 이에 따라 글로벌 AI 인프라 재편 속에서 대만 공급망은 최소 3년 이상 수혜 구간에 진입할 것으로 전망\n\n•올해 4개사의 총 CAPEX는 메모리 등 부품 가격 상승까지 반영되며 약 6,950억~7,250억 달러 수준으로 확대될 전망임. 향후 투자도 데이터센터, 자체 설계 칩, 네트",
+          "date": "2026-05-02T03:12"
+        },
+        {
+          "channel": "sunstudy1004",
+          "text": ">>CCL 공급 부족 본격화… Gold Circuit Electronics, 목표가 잇단 상향 (대만경제일보) \n\n•CCL과 PCB 산업에서 공급 타이트 현상이 심화되며 가격 인상 사이클이 본격화되고 있음. Citigroup는 CCL 시장이 수급 타이트 상태에 진입해 2026~2027년에도 공급 부족이 지속될 것으로 보며, 분기별 가격 인상이 가능한 구조라고 평가했음.\n\n•PCB 측면에서는 고성능 스위치와 ASIC 수요가 강하게 이어지며 Gold Circuit Electronics(금상전자)의 업황 개선이 두드러질 전망. 기술 경쟁",
+          "date": "2026-05-02T12:33"
+        },
+        {
+          "channel": "sunstudy1004",
+          "text": ">>CSP 대규모 증설…대만 공급망, 최소 3년 호황 전망\n\n•마이크로소프트, 아마존, Alphabet, 메타 등 미국 4대 빅테크가 2026년 CAPEX를 일제히 상향하고, 2027년 추가 확대까지 예고하며 AI 인프라 투자 경쟁이 장기화되는 흐름임. 이에 따라 글로벌 AI 인프라 재편 속에서 대만 공급망은 최소 3년 이상 수혜 구간에 진입할 것으로 전망\n\n•올해 4개사의 총 CAPEX는 메모리 등 부품 가격 상승까지 반영되며 약 6,950억~7,250억 달러 수준으로 확대될 전망임. 향후 투자도 데이터센터, 자체 설계 칩, 네트",
+          "date": "2026-05-02T02:49"
+        }
+      ]
+    },
+    "TIGER지주": {
+      "ticker": "TIGER지주",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "sunstudy1004"
+      ],
+      "latestDate": "2026-05-02T12:33:23+00:00",
+      "messages": [
+        {
+          "channel": "sunstudy1004",
+          "text": ">>CCL 공급 부족 본격화… Gold Circuit Electronics, 목표가 잇단 상향 (대만경제일보) \n\n•CCL과 PCB 산업에서 공급 타이트 현상이 심화되며 가격 인상 사이클이 본격화되고 있음. Citigroup는 CCL 시장이 수급 타이트 상태에 진입해 2026~2027년에도 공급 부족이 지속될 것으로 보며, 분기별 가격 인상이 가능한 구조라고 평가했음.\n\n•PCB 측면에서는 고성능 스위치와 ASIC 수요가 강하게 이어지며 Gold Circuit Electronics(금상전자)의 업황 개선이 두드러질 전망. 기술 경쟁",
+          "date": "2026-05-02T12:33"
         }
       ]
     },
@@ -77,195 +327,30 @@
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
-        "Jstockclass"
+        "sunstudy1004"
       ],
-      "latestDate": "2026-05-01T10:57:40+00:00",
+      "latestDate": "2026-05-02T12:33:23+00:00",
       "messages": [
         {
-          "channel": "Jstockclass",
-          "text": "**Apple F2Q26 실적 분석 및 주요 IB별 투자 시각 비교\n\n1. 실적 및 수익성에 대한 공통적 평가\n**\n• **어닝 서프라이즈**: 2분기 매출($1,112억, 전년 대비 +17%)과 EPS($2.01) 모두 시장 컨센서스를 상회하며 강력한 실적을 달성\n\n• **기록적인 매출총이익률 **: 원재료 가격 상승 압박에도 불구하고 역대 최고치인 49.3%의 매출총이익률을 기록하며 시장의 우려를 불식시킴\n\n• **강력한 서비스 부문**: 서비스 매출이 전년 대비 약 16% 성장하며 전체 수익성 개선의 핵심 동력이 되었음\n\n• ",
-          "date": "2026-05-01T10:57"
+          "channel": "sunstudy1004",
+          "text": ">>CCL 공급 부족 본격화… Gold Circuit Electronics, 목표가 잇단 상향 (대만경제일보) \n\n•CCL과 PCB 산업에서 공급 타이트 현상이 심화되며 가격 인상 사이클이 본격화되고 있음. Citigroup는 CCL 시장이 수급 타이트 상태에 진입해 2026~2027년에도 공급 부족이 지속될 것으로 보며, 분기별 가격 인상이 가능한 구조라고 평가했음.\n\n•PCB 측면에서는 고성능 스위치와 ASIC 수요가 강하게 이어지며 Gold Circuit Electronics(금상전자)의 업황 개선이 두드러질 전망. 기술 경쟁",
+          "date": "2026-05-02T12:33"
         }
       ]
     },
-    "HD건설기계": {
-      "ticker": "HD건설기계",
+    "CLS": {
+      "ticker": "CLS",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
-        "report_figure_by_offset"
+        "sunstudy1004"
       ],
-      "latestDate": "2026-05-01T00:27:29+00:00",
+      "latestDate": "2026-05-02T12:33:23+00:00",
       "messages": [
         {
-          "channel": "report_figure_by_offset",
-          "text": "4월 들어 **역사상 신고가** 형성 종목\n\n • 역사상 신고가 종목이지만 실적이 뒷받침 해주는 종목\n\n- 기계: **HD건설기계**\n\n- 전력: **HD현대일렉트릭/산일전기**\n\n- 조선: **HD현대마린솔루션/한화엔진**\n\n- 방산,우주: **LIG디펜스앤에어로스페이스**\n\n- 화장품: **에이피알**\n\n-  IT하드웨어: **이수페타시스**\n\n- 반도체: **삼성전자/SK하이닉스/이오테크닉스**",
-          "date": "2026-05-01T00:27"
-        }
-      ]
-    },
-    "HD마린엔진": {
-      "ticker": "HD마린엔진",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "report_figure_by_offset"
-      ],
-      "latestDate": "2026-05-01T00:27:29+00:00",
-      "messages": [
-        {
-          "channel": "report_figure_by_offset",
-          "text": "4월 들어 **역사상 신고가** 형성 종목\n\n • 역사상 신고가 종목이지만 실적이 뒷받침 해주는 종목\n\n- 기계: **HD건설기계**\n\n- 전력: **HD현대일렉트릭/산일전기**\n\n- 조선: **HD현대마린솔루션/한화엔진**\n\n- 방산,우주: **LIG디펜스앤에어로스페이스**\n\n- 화장품: **에이피알**\n\n-  IT하드웨어: **이수페타시스**\n\n- 반도체: **삼성전자/SK하이닉스/이오테크닉스**",
-          "date": "2026-05-01T00:27"
-        }
-      ]
-    },
-    "산일전기": {
-      "ticker": "산일전기",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "report_figure_by_offset"
-      ],
-      "latestDate": "2026-05-01T00:27:29+00:00",
-      "messages": [
-        {
-          "channel": "report_figure_by_offset",
-          "text": "4월 들어 **역사상 신고가** 형성 종목\n\n • 역사상 신고가 종목이지만 실적이 뒷받침 해주는 종목\n\n- 기계: **HD건설기계**\n\n- 전력: **HD현대일렉트릭/산일전기**\n\n- 조선: **HD현대마린솔루션/한화엔진**\n\n- 방산,우주: **LIG디펜스앤에어로스페이스**\n\n- 화장품: **에이피알**\n\n-  IT하드웨어: **이수페타시스**\n\n- 반도체: **삼성전자/SK하이닉스/이오테크닉스**",
-          "date": "2026-05-01T00:27"
-        }
-      ]
-    },
-    "HD현대일렉": {
-      "ticker": "HD현대일렉",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "report_figure_by_offset"
-      ],
-      "latestDate": "2026-05-01T00:27:29+00:00",
-      "messages": [
-        {
-          "channel": "report_figure_by_offset",
-          "text": "4월 들어 **역사상 신고가** 형성 종목\n\n • 역사상 신고가 종목이지만 실적이 뒷받침 해주는 종목\n\n- 기계: **HD건설기계**\n\n- 전력: **HD현대일렉트릭/산일전기**\n\n- 조선: **HD현대마린솔루션/한화엔진**\n\n- 방산,우주: **LIG디펜스앤에어로스페이스**\n\n- 화장품: **에이피알**\n\n-  IT하드웨어: **이수페타시스**\n\n- 반도체: **삼성전자/SK하이닉스/이오테크닉스**",
-          "date": "2026-05-01T00:27"
-        }
-      ]
-    },
-    "SK하이닉스": {
-      "ticker": "SK하이닉스",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "report_figure_by_offset"
-      ],
-      "latestDate": "2026-05-01T00:27:29+00:00",
-      "messages": [
-        {
-          "channel": "report_figure_by_offset",
-          "text": "4월 들어 **역사상 신고가** 형성 종목\n\n • 역사상 신고가 종목이지만 실적이 뒷받침 해주는 종목\n\n- 기계: **HD건설기계**\n\n- 전력: **HD현대일렉트릭/산일전기**\n\n- 조선: **HD현대마린솔루션/한화엔진**\n\n- 방산,우주: **LIG디펜스앤에어로스페이스**\n\n- 화장품: **에이피알**\n\n-  IT하드웨어: **이수페타시스**\n\n- 반도체: **삼성전자/SK하이닉스/이오테크닉스**",
-          "date": "2026-05-01T00:27"
-        }
-      ]
-    },
-    "삼성전자": {
-      "ticker": "삼성전자",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "report_figure_by_offset",
-        "DOC_POOL"
-      ],
-      "latestDate": "2026-05-01T10:05:50+00:00",
-      "messages": [
-        {
-          "channel": "report_figure_by_offset",
-          "text": "4월 들어 **역사상 신고가** 형성 종목\n\n • 역사상 신고가 종목이지만 실적이 뒷받침 해주는 종목\n\n- 기계: **HD건설기계**\n\n- 전력: **HD현대일렉트릭/산일전기**\n\n- 조선: **HD현대마린솔루션/한화엔진**\n\n- 방산,우주: **LIG디펜스앤에어로스페이스**\n\n- 화장품: **에이피알**\n\n-  IT하드웨어: **이수페타시스**\n\n- 반도체: **삼성전자/SK하이닉스/이오테크닉스**",
-          "date": "2026-05-01T00:27"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "**[삼성전기/IT 부품/주요 종목]**\n제목: 중요한 건 꺾이지 않는 마음\n작성일: 2026.05.01\n작성자: Analyst 양승수, Meritz Securities\n투자의견: Buy\n목표주가: 1,020,000원\n\n**[1Q26 실적 호조]**\n· 1Q26 매출액(3.2조원)과 영업이익(2,806억원)이 시장 컨센서스를 상회했으며, AI 수요 확대로 MLCC 사업부 가동률 90% 이상 유지 및 Blended ASP 4.5% 상승. 패키지솔루션 사업부 매출액 역시 AI향 FC-BGA 매출 증가에 힘입어 추정치를 크게 상회.\n\n*",
-          "date": "2026-05-01T10:05"
-        }
-      ]
-    },
-    "TEM": {
-      "ticker": "TEM",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-05-01T12:14:16+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "https://www.anduril.com/news/anduril-adds-5g-comms-to-sentry-family-of-systems\n\n어제 나온 뉴스입니다.",
-          "date": "2026-05-01T12:14"
-        }
-      ]
-    },
-    "SOL금융": {
-      "ticker": "SOL금융",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-05-01T12:12:36+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "노키아 × Anduril, 센트리 시스템 제품군에 5G 통신 기능 추가\n\n안두릴이 센트리 타워 플랫폼을 기반으로 한 신제품 '5G 통신 센트리 타워(CST)'를 공개했습니다. 이 제품은 기존 셀룰러 인프라가 전무한 오지 환경, 즉 전방 작전기지, 미사일 기지, 원격 국경지대, 상업용 에너지 시설 등에서 임무 수행에 필수적인 고속·저지연 5G 통신을 제공하는 것을 목표로 합니다. 기존 5G 솔루션은 고정 인프라에 의존해 이러한 환경에서 사용이 사실상 불가능했으나, 5G CST는 자체 전원 공급 장치와 컴퓨팅, 통신 기능을 하나의 시스",
-          "date": "2026-05-01T12:12"
-        }
-      ]
-    },
-    "NVDA": {
-      "ticker": "NVDA",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-05-01T12:11:51+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건) Silicon Motion — 몬타이탄 및 부트드라이브 강한 진전과 함께 대폭적인 어닝 서프라이즈; 목표주가 $260으로 상향\n\nSIMO는 1Q26에 매출이 전분기 대비 23%, 전년 동기 대비 105% 성장하며 역대 최고치를 기록했고, GM 47.2%도 컨센서스를 상회하는 등 전방위적인 어닝 서프라이즈를 달성했습니다. JP모간은 이를 반영해 2026/27년 조정 EPS 추정치를 61%/64% 상향하고 목표주가를 기존 $145(Dec-26 기준)에서 $260(Jun-27 기준)으로 대폭 올렸습니다.\n\n성장의 핵심 동인은 ",
-          "date": "2026-05-01T12:11"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "BofA) AI, CY27년까지 설비투자(capex)를 1조 달러까지 끌어올릴 수 있어\n\n1. 정당화된 AI 설비투자, 지출 기업들의 강한 성장 견인\n미국의 4대 주요 하이퍼스케일러인 GOOGL, MSFT, AMZN(AWS), META가 수요일에 C1Q26 실적을 발표하고 CY26/27 설비투자 전망에 대한 업데이트된 견해를 제공했습니다. 큰 그림에서 보면, 대부분은 빠르게 가속화되는 AI 매출과 투자 수익률에 힘입어 가시성이 높아지면서 CY26 지출 전망이 더욱 강화되고 있다고 밝혔습니다. 특히 2026년 내내 컴퓨팅이 대부분 공",
-          "date": "2026-05-01T06:02"
-        }
-      ]
-    },
-    "GOOGL": {
-      "ticker": "GOOGL",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
-      "channels": [
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-05-01T11:13:49+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건) MediaTek Inc. — 강화된 ASIC 실행력과 빠른 TAM 성장; 우려 해소 및 비중확대로 상향\n\nJP모간은 미디어텍에 대한 투자의견을 비중확대(OW)로 상향 조정하며 목표주가를 NT$3,400(Jun-27 기준, 핵심이익 12x PER, 데이터센터 ASIC이익 30x PER의 SoTP 방식 산출)으로 제시했습니다. 이번 상향의 주된 배경은 미디어텍이 FY26 데이터센터 ASIC 매출 가이던스를 20억 달러로 상향 조정하고, FY27 TAM 전망을 700~800억 달러로 제시하면서 10~15%의 점유율 목표(즉 7",
-          "date": "2026-05-01T11:13"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "일론 머스크, xAI가 Grok 훈련에 OpenAI 모델을 사용했음을 확인\n\n목요일 캘리포니아 연방 법정에서 일론 머스크는 자신의 AI 스타트업인 xAI가 OpenAI의 모델을 사용해 자사 모델을 개선했다고 증언했습니다.\n\n문제가 된 것은 모델 증류(model distillation)로, 이는 더 큰 AI 모델이 일종의 \"교사\" 역할을 하여 더 작은 AI 모델인 \"학생\"에게 지식을 전달하는 업계의 일반적인 관행입니다. 이 방식은 흔히 기업 내부에서 자사의 AI 모델 하나를 이용해 다른 모델을 훈련시키는 합법적인 용도로 사용되지만, ",
-          "date": "2026-05-01T10:38"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "BofA) AI, CY27년까지 설비투자(capex)를 1조 달러까지 끌어올릴 수 있어\n\n1. 정당화된 AI 설비투자, 지출 기업들의 강한 성장 견인\n미국의 4대 주요 하이퍼스케일러인 GOOGL, MSFT, AMZN(AWS), META가 수요일에 C1Q26 실적을 발표하고 CY26/27 설비투자 전망에 대한 업데이트된 견해를 제공했습니다. 큰 그림에서 보면, 대부분은 빠르게 가속화되는 AI 매출과 투자 수익률에 힘입어 가시성이 높아지면서 CY26 지출 전망이 더욱 강화되고 있다고 밝혔습니다. 특히 2026년 내내 컴퓨팅이 대부분 공",
-          "date": "2026-05-01T06:02"
+          "channel": "sunstudy1004",
+          "text": "**Rothschild Redburn, 루멘텀(Lumentum, ****$LITE****)에 대해 투자의견 '매수(Buy)'와 목표주가 1,270달러를 제시하며 커버리지 개시**\n\n\"루멘텀의 핵심 사업은 레이저 부품 제조와 광 트랜시버(optical transceivers) 같은 완제품 생산을 중심으로 합니다. 이러한 핵심 사업은 **루멘텀이 향후 18개월에 걸쳐 가동할 약 80%의 추가 생산 능력(capacity) 확대로부터 수혜를 입을 것**이며, 최근 **엔비디아(NVIDIA)의 20억 달러 투자 덕분에 추가적인 생산 능력 확",
+          "date": "2026-05-02T12:33"
         }
       ]
     },
@@ -274,173 +359,67 @@
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-05-01T10:44:14+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "반면, 머스크 CEO 측은 이날 AI 안전을 집중적으로 거론했다. 오픈AI가 영리기업으로 바뀌면, AI 안전을 등한시할 것이라는 논리를 강조하기 위한 것이다.\n\n그의 변호사는 재판에 앞서 AI 안전 전문가를 증인으로 채택하려다 무산됐다. 이본 곤살레스 로저스 판사는 \"**그렇게 위험한 사업을 의뢰인이 직접 하고 있다는 것이 아이러니하다**\"라며 \"이 재판은 AI 안전 위험에 대한 재판이 아니다\"라고 선을 그었다.\n\n이 문제는 증언 도중에도 등장했다. 머스크 CEO는 AI 안전을 언급하며 \"터미네이터 사태를 피해야 한다\"라고 말했다.",
-          "date": "2026-05-01T10:44"
-        }
-      ]
-    },
-    "GOOG": {
-      "ticker": "GOOG",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-05-01T10:38:42+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "일론 머스크, xAI가 Grok 훈련에 OpenAI 모델을 사용했음을 확인\n\n목요일 캘리포니아 연방 법정에서 일론 머스크는 자신의 AI 스타트업인 xAI가 OpenAI의 모델을 사용해 자사 모델을 개선했다고 증언했습니다.\n\n문제가 된 것은 모델 증류(model distillation)로, 이는 더 큰 AI 모델이 일종의 \"교사\" 역할을 하여 더 작은 AI 모델인 \"학생\"에게 지식을 전달하는 업계의 일반적인 관행입니다. 이 방식은 흔히 기업 내부에서 자사의 AI 모델 하나를 이용해 다른 모델을 훈련시키는 합법적인 용도로 사용되지만, ",
-          "date": "2026-05-01T10:38"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "BofA) AI, CY27년까지 설비투자(capex)를 1조 달러까지 끌어올릴 수 있어\n\n1. 정당화된 AI 설비투자, 지출 기업들의 강한 성장 견인\n미국의 4대 주요 하이퍼스케일러인 GOOGL, MSFT, AMZN(AWS), META가 수요일에 C1Q26 실적을 발표하고 CY26/27 설비투자 전망에 대한 업데이트된 견해를 제공했습니다. 큰 그림에서 보면, 대부분은 빠르게 가속화되는 AI 매출과 투자 수익률에 힘입어 가시성이 높아지면서 CY26 지출 전망이 더욱 강화되고 있다고 밝혔습니다. 특히 2026년 내내 컴퓨팅이 대부분 공",
-          "date": "2026-05-01T06:02"
-        }
-      ]
-    },
-    "ORCL": {
-      "ticker": "ORCL",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-05-01T10:28:30+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "Citi) 코어위브; 가속화되는 수요/설비투자, 장기 상승 여력을 지속적으로 견인할 것. 목표가 $155로 상향\n\n씨티의 견해\nAI 인프라 선도 기업인 CRWV에 유리한 여건이 계속해서 갖춰지고 있으며, 하이퍼스케일러, AI 랩, 엔터프라이즈 전반에 걸친 다변화로 고객 집중 리스크가 완화되면서 이번 분기 수주잔고(backlog)가 최소 QoQ +35~40% 이상 성장할 것으로 추정합니다. 신규 Jane Street+META 계약은 FY27 말까지 본격화될 가능성이 높으며, CRWV의 300억 달러 ARR 목표를 상회할 잠재력이 있고",
-          "date": "2026-05-01T10:28"
-        }
-      ]
-    },
-    "META": {
-      "ticker": "META",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-05-01T10:28:30+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "Citi) 코어위브; 가속화되는 수요/설비투자, 장기 상승 여력을 지속적으로 견인할 것. 목표가 $155로 상향\n\n씨티의 견해\nAI 인프라 선도 기업인 CRWV에 유리한 여건이 계속해서 갖춰지고 있으며, 하이퍼스케일러, AI 랩, 엔터프라이즈 전반에 걸친 다변화로 고객 집중 리스크가 완화되면서 이번 분기 수주잔고(backlog)가 최소 QoQ +35~40% 이상 성장할 것으로 추정합니다. 신규 Jane Street+META 계약은 FY27 말까지 본격화될 가능성이 높으며, CRWV의 300억 달러 ARR 목표를 상회할 잠재력이 있고",
-          "date": "2026-05-01T10:28"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "BofA) AI, CY27년까지 설비투자(capex)를 1조 달러까지 끌어올릴 수 있어\n\n1. 정당화된 AI 설비투자, 지출 기업들의 강한 성장 견인\n미국의 4대 주요 하이퍼스케일러인 GOOGL, MSFT, AMZN(AWS), META가 수요일에 C1Q26 실적을 발표하고 CY26/27 설비투자 전망에 대한 업데이트된 견해를 제공했습니다. 큰 그림에서 보면, 대부분은 빠르게 가속화되는 AI 매출과 투자 수익률에 힘입어 가시성이 높아지면서 CY26 지출 전망이 더욱 강화되고 있다고 밝혔습니다. 특히 2026년 내내 컴퓨팅이 대부분 공",
-          "date": "2026-05-01T06:02"
-        }
-      ]
-    },
-    "BE": {
-      "ticker": "BE",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
-      "channels": [
-        "aetherjapanresearch",
         "sunstudy1004"
       ],
-      "latestDate": "2026-05-01T22:18:04+00:00",
+      "latestDate": "2026-05-02T12:17:53+00:00",
       "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "BofA) AI, CY27년까지 설비투자(capex)를 1조 달러까지 끌어올릴 수 있어\n\n1. 정당화된 AI 설비투자, 지출 기업들의 강한 성장 견인\n미국의 4대 주요 하이퍼스케일러인 GOOGL, MSFT, AMZN(AWS), META가 수요일에 C1Q26 실적을 발표하고 CY26/27 설비투자 전망에 대한 업데이트된 견해를 제공했습니다. 큰 그림에서 보면, 대부분은 빠르게 가속화되는 AI 매출과 투자 수익률에 힘입어 가시성이 높아지면서 CY26 지출 전망이 더욱 강화되고 있다고 밝혔습니다. 특히 2026년 내내 컴퓨팅이 대부분 공",
-          "date": "2026-05-01T06:02"
-        },
         {
           "channel": "sunstudy1004",
-          "text": "https://youtu.be/wzolrH1Wiiw?si=dPWr5saW8rYtuQWB",
-          "date": "2026-05-01T22:18"
-        },
+          "text": "[\"Golden Dome\" Director, 美 미사일 방어 역량 경고](https://www.c-span.org/clip/senate-committee/golden-dome-director-on-us-missile-capabilities/5199795)\n\n◦ **글로벌 안보 환경 변화 → 미국 본토 방어 취약성 증가**\n  • “글로벌 전략 환경이 변화” → 과거 대비 안전 여유(margin of safety) 사라짐  \n  • **적국들이 지속적으로 미국 본토를 위협** → 안보 환경 악화  \n  • 결과적으로 **미국 본토가 ",
+          "date": "2026-05-02T12:17"
+        }
+      ]
+    },
+    "SMH": {
+      "ticker": "SMH",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "sunstudy1004"
+      ],
+      "latestDate": "2026-05-02T12:17:53+00:00",
+      "messages": [
         {
           "channel": "sunstudy1004",
-          "text": "https://youtu.be/pX0-7IRNhqQ?si=a8tRB6s5QdjNISEf",
-          "date": "2026-05-01T22:13"
+          "text": "[\"Golden Dome\" Director, 美 미사일 방어 역량 경고](https://www.c-span.org/clip/senate-committee/golden-dome-director-on-us-missile-capabilities/5199795)\n\n◦ **글로벌 안보 환경 변화 → 미국 본토 방어 취약성 증가**\n  • “글로벌 전략 환경이 변화” → 과거 대비 안전 여유(margin of safety) 사라짐  \n  • **적국들이 지속적으로 미국 본토를 위협** → 안보 환경 악화  \n  • 결과적으로 **미국 본토가 ",
+          "date": "2026-05-02T12:17"
         }
       ]
     },
-    "AMZN": {
-      "ticker": "AMZN",
+    "삼성전자": {
+      "ticker": "삼성전자",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
-        "aetherjapanresearch"
+        "sunstudy1004"
       ],
-      "latestDate": "2026-05-01T06:02:31+00:00",
+      "latestDate": "2026-05-02T03:20:07+00:00",
       "messages": [
         {
-          "channel": "aetherjapanresearch",
-          "text": "BofA) AI, CY27년까지 설비투자(capex)를 1조 달러까지 끌어올릴 수 있어\n\n1. 정당화된 AI 설비투자, 지출 기업들의 강한 성장 견인\n미국의 4대 주요 하이퍼스케일러인 GOOGL, MSFT, AMZN(AWS), META가 수요일에 C1Q26 실적을 발표하고 CY26/27 설비투자 전망에 대한 업데이트된 견해를 제공했습니다. 큰 그림에서 보면, 대부분은 빠르게 가속화되는 AI 매출과 투자 수익률에 힘입어 가시성이 높아지면서 CY26 지출 전망이 더욱 강화되고 있다고 밝혔습니다. 특히 2026년 내내 컴퓨팅이 대부분 공",
-          "date": "2026-05-01T06:02"
+          "channel": "sunstudy1004",
+          "text": "**AI CPU가 삼킨 D램, 메모리 ‘숏티지’ 1년 더 간다\n\n2027년까지 D램 공급부족 장기화\n\nGPU에 이어 CPU도 D램 고용량화\n\n‘AI 조율자’된 CPU...대용량 기억력 필수\n\nCPU에 필수인 DDR5 ‘수급 불균형’ 심화**\n\n\n메모리 업계가 가격이** 100% 이상 급등한 ‘범용 D램’에 힘입어 전례 없는 실적을 기록한 가운데 인공지능(AI)용 중앙처리장치(CPU)의 확산까지 맞물리며 ‘숏티지(Shortage·공급부족)’ 현상이 1년 더 이어질 것이라는 전망이 제기**된다.\n\n인텔이** 최근 선보인 ‘AI CPU’",
+          "date": "2026-05-02T03:20"
         }
       ]
     },
-    "삼성전기": {
-      "ticker": "삼성전기",
+    "SK하이닉스": {
+      "ticker": "SK하이닉스",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
-        "DOC_POOL"
+        "sunstudy1004"
       ],
-      "latestDate": "2026-05-01T10:05:50+00:00",
+      "latestDate": "2026-05-02T03:20:07+00:00",
       "messages": [
         {
-          "channel": "DOC_POOL",
-          "text": "**[삼성전기/IT 부품/주요 종목]**\n제목: 중요한 건 꺾이지 않는 마음\n작성일: 2026.05.01\n작성자: Analyst 양승수, Meritz Securities\n투자의견: Buy\n목표주가: 1,020,000원\n\n**[1Q26 실적 호조]**\n· 1Q26 매출액(3.2조원)과 영업이익(2,806억원)이 시장 컨센서스를 상회했으며, AI 수요 확대로 MLCC 사업부 가동률 90% 이상 유지 및 Blended ASP 4.5% 상승. 패키지솔루션 사업부 매출액 역시 AI향 FC-BGA 매출 증가에 힘입어 추정치를 크게 상회.\n\n*",
-          "date": "2026-05-01T10:05"
-        }
-      ]
-    },
-    "삼성중공업": {
-      "ticker": "삼성중공업",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "DOC_POOL"
-      ],
-      "latestDate": "2026-05-01T10:05:17+00:00",
-      "messages": [
-        {
-          "channel": "DOC_POOL",
-          "text": "**[삼성중공업/조선업/기업분석]**\n제목: 살짝 출발이 늦었지만 도착 지점은 명확함\n작성일: 2026.05.04\n작성자: 유재선, 성무규 / 하나증권 리서치센터\n투자의견: BUY\n목표주가: 40,000원 (상향)\n\n**[핵심 요약 1]**\n**목표주가 상향 및 투자의견 유지**\n· 삼성중공업 목표주가를 기존 대비 11.1% 상향한 40,000원으로 제시하며 투자의견 'BUY'를 유지한다. 이는 2027년 예상 BPS에 목표 PBR 3.8배를 적용한 결과이다. 1분기 실적은 컨센서스를 하회했으나, 2분기 이후 외형 성장이 가속화될 ",
-          "date": "2026-05-01T10:05"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "**삼성중공업 (010140)**\n제목: 실망했나요? 2Q부터 난리납니다!\n작성일: 2026.04.30\n작성자: 최광식, 이준범 (다올투자증권)\n투자의견: BUY\n목표주가: 41,000원\n\n**1Q26 부진, 2Q부터 수익성 회복 기대**\n· 1Q26 실적은 매출 2조 9,020억원(YoY +16%, QoQ +2%), 영업이익 2,731억원(+122%, -8%)를 기록하며 컨센서스를 하회했으나, 이는 성과급 분기 반영 및 2025년 수주년도 전환의 영향으로, 2Q26부터는 VLEC 건조, 글로벌 오퍼레이션 매출 증가, 계절성 효과 ",
-          "date": "2026-05-01T02:14"
-        }
-      ]
-    },
-    "미래에셋": {
-      "ticker": "미래에셋",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "DOC_POOL"
-      ],
-      "latestDate": "2026-05-01T02:15:01+00:00",
-      "messages": [
-        {
-          "channel": "DOC_POOL",
-          "text": "**[기업명/산업명/카테고리]**\n캠브리콘/중국 반도체/AI 반도체\n\n제목: 중국 AI 반도체 자립의 선봉\n작성일: 2026.04.30\n작성자: 미래에셋증권\n\n**[핵심 요약 1: 1Q26 실적 호조, Siyuan 590 본격 출하]**\n· Siyuan 590의 대규모 양산 및 주요 고객사 ByteDance향 출하 확대에 힘입어 1Q26 매출액이 전년 동기 대비 159.6% 증가하며 사상 최대를 기록함.\n· SMIC 7nm 공정 수율 안정화와 선수금 증가로 향후 공급 확대 및 신규 수주 확보 가능성이 높음.\n\n**[핵심 요약 2: ",
-          "date": "2026-05-01T02:15"
+          "channel": "sunstudy1004",
+          "text": "**AI CPU가 삼킨 D램, 메모리 ‘숏티지’ 1년 더 간다\n\n2027년까지 D램 공급부족 장기화\n\nGPU에 이어 CPU도 D램 고용량화\n\n‘AI 조율자’된 CPU...대용량 기억력 필수\n\nCPU에 필수인 DDR5 ‘수급 불균형’ 심화**\n\n\n메모리 업계가 가격이** 100% 이상 급등한 ‘범용 D램’에 힘입어 전례 없는 실적을 기록한 가운데 인공지능(AI)용 중앙처리장치(CPU)의 확산까지 맞물리며 ‘숏티지(Shortage·공급부족)’ 현상이 1년 더 이어질 것이라는 전망이 제기**된다.\n\n인텔이** 최근 선보인 ‘AI CPU’",
+          "date": "2026-05-02T03:20"
         }
       ]
     }
   },
-  "totalMessages": 48,
+  "totalMessages": 32,
   "channels": [
     "Jstockclass",
     "report_figure_by_offset",
