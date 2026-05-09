@@ -1,366 +1,94 @@
 {
-  "fetchedAt": "2026-05-08T22:45:05.372498",
+  "fetchedAt": "2026-05-09T22:33:00.670588",
   "status": "ok",
   "stocks": {
-    "삼성전자": {
-      "ticker": "삼성전자",
+    "MSFT": {
+      "ticker": "MSFT",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 9,
+      "messageCount": 4,
       "channels": [
-        "d_ticker",
         "aetherjapanresearch",
         "Jstockclass",
-        "beluga_investment",
-        "DOC_POOL"
+        "easobi"
       ],
-      "latestDate": "2026-05-08T14:21:58+00:00",
+      "latestDate": "2026-05-09T12:56:33+00:00",
       "messages": [
         {
           "channel": "Jstockclass",
-          "text": "**골드만삭스, 코스피 목표지수 8,000 → 9,000으로 상향\n\n1. 코스피 목표지수** **9,000으로 상향\n**\n- 기존 8,000 → 9,000 상향\n\n- 골드만은 “보수적(conservative)” 목표라고 표현\n\n- 실적 상향 속도를 감안하면 추가 업사이드 가능성 시사\n\n- 북아시아 실적 개선이 전체 아시아 증시를 견인하는 구조**\n\n2. 메모리 슈퍼사이클이 핵심 투자논리\n**\n- DRAM·NAND 공급 부족 심화, AI 서버·AI 에이전트 수요 폭증\n\n- 메모리 가격 상승 → 이익 급증 구조\n업황 지속성이 시장 예상",
-          "date": "2026-05-08T08:09"
+          "text": "Fwd P/E만 보면 마이크론 11배, 샌디스크 9배, 삼전 6배, 하이닉스 5배\n\n비싼가? \nLTA로 인해 높아지는 이익 신뢰도를 잊지말자",
+          "date": "2026-05-09T00:06"
         },
         {
-          "channel": "beluga_investment",
-          "text": "[1보] 삼성전자 초기업노조 \"정부 요청 수용, 사후조정 절차 돌입\"\n\nhttps://www.yna.co.kr/view/AKR20260508137600003",
-          "date": "2026-05-08T07:31"
-        },
-        {
-          "channel": "beluga_investment",
-          "text": "**260508_MEMORY TRACKER (Apr): Another major price hike in 2QCY26 - Bernstein\n\n[Key Takeaways]\n\n(1) 2Q26 DRAM 계약가는 모든 어플리케이션 전반에서 또 한 번의 큰 폭의 상승을 보일 가능성이 높음\n■ PC +40% / Server +48% / Mobile +70~80% \n\n(2) 메모리 업체들의 LTA 협상은 순조로운 상황이며, 특히 미국 CSP 업체들과는 마무리 단계에 가까워지고 있음. LTA는 향후 다른 고객군[PC OEM이나 엔터프라이즈 서버 ",
-          "date": "2026-05-08T04:23"
+          "channel": "easobi",
+          "text": "2026년 5월 8일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시 3대 지수는 혼조세로 마감했으나, S&P 500과 나스닥 종합 지수는 강력한 기술주 주도력에 힘입어 사상 최고치를 경신했습니다. 다우존스 산업평균지수는 강보합권에서 거래를 마쳤습니다. 전일 하락했던 반도체 관련 주식들이 급등하며 시장 상승을 견인했습니다.\n\n📊 섹터별 동향:\n정보 기술 섹터가 0.5%를 넘는 유일한 상승률을 기록하며 시장을 주도했습니다. 특히 반도체 관련 주의 강세가 두드러졌습니다. 반면 헬스케어와 유틸리티 섹터는 각각 약 0.9% 하락하며 가장 큰 낙",
+          "date": "2026-05-08T22:33"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "[1보] 삼성전자 초기업노조 \"정부 요청 수용, 사후조정 절차 돌입\" | 연합뉴스\nhttps://www.yna.co.kr/view/AKR20260508137600003",
-          "date": "2026-05-08T07:32"
+          "text": "Citi) 미국 주식 전략; The case of NASDAQ 100\n\n씨티는 NASDAQ 100(NDX)을 전통적인 대형 성장주 지수보다 AI 인프라 빌드아웃에 대한 선호 투자처로 평가하고 있습니다. 보고서는 NDX를 전통적인 성장 및 밸류에이션 관점에서 분석한 결과, 펀더멘털 측면에서 매력적인 성장 기대가 반영되어 있으면서도 추가적인 상향 여지가 남아 있다고 판단합니다. 전통 밸류에이션은 역사적 평균 대비 높은 수준이나 과도하지는 않으며, PEG 비율은 20년 내 최저 수준 부근에 위치하고 있습니다. 다만 내재 성장률 지표는 상",
+          "date": "2026-05-09T12:56"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "[단독] 삼성전자, 메모리 직원들에게 영업이익 10% 성과급 지급 약속…3년 뒤 성과급 제도화도 제안\n\nhttps://n.news.naver.com/mnews/article/016/0002640577?sid=101",
-          "date": "2026-05-08T04:41"
-        }
-      ]
-    },
-    "SOL금융": {
-      "ticker": "SOL금융",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "Jstockclass"
-      ],
-      "latestDate": "2026-05-08T08:09:36+00:00",
-      "messages": [
-        {
-          "channel": "Jstockclass",
-          "text": "**골드만삭스, 코스피 목표지수 8,000 → 9,000으로 상향\n\n1. 코스피 목표지수** **9,000으로 상향\n**\n- 기존 8,000 → 9,000 상향\n\n- 골드만은 “보수적(conservative)” 목표라고 표현\n\n- 실적 상향 속도를 감안하면 추가 업사이드 가능성 시사\n\n- 북아시아 실적 개선이 전체 아시아 증시를 견인하는 구조**\n\n2. 메모리 슈퍼사이클이 핵심 투자논리\n**\n- DRAM·NAND 공급 부족 심화, AI 서버·AI 에이전트 수요 폭증\n\n- 메모리 가격 상승 → 이익 급증 구조\n업황 지속성이 시장 예상",
-          "date": "2026-05-08T08:09"
-        }
-      ]
-    },
-    "LLY": {
-      "ticker": "LLY",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "Jstockclass"
-      ],
-      "latestDate": "2026-05-08T08:09:36+00:00",
-      "messages": [
-        {
-          "channel": "Jstockclass",
-          "text": "**골드만삭스, 코스피 목표지수 8,000 → 9,000으로 상향\n\n1. 코스피 목표지수** **9,000으로 상향\n**\n- 기존 8,000 → 9,000 상향\n\n- 골드만은 “보수적(conservative)” 목표라고 표현\n\n- 실적 상향 속도를 감안하면 추가 업사이드 가능성 시사\n\n- 북아시아 실적 개선이 전체 아시아 증시를 견인하는 구조**\n\n2. 메모리 슈퍼사이클이 핵심 투자논리\n**\n- DRAM·NAND 공급 부족 심화, AI 서버·AI 에이전트 수요 폭증\n\n- 메모리 가격 상승 → 이익 급증 구조\n업황 지속성이 시장 예상",
-          "date": "2026-05-08T08:09"
+          "text": "클리블랜드 리서치) CY26~CY27 캐팩스, 메모리 가격 상승 및 지속적인 GPU·CPU 서버 강세로 예상치 상회 전망 \n\n핵심 요약\n1. CY26 캐팩스 전망치를 기존 6,880억 달러(전년 대비 +67%)에서 7,340억 달러(전년 대비 +78%)로 약 450~500억 달러 상향 조정합니다.\n2. CY27에도 AI 주도의 상당한 성장세가 이어질 것으로 전망되며, CSP들의 제안에 따라 전년 대비 약 40% 수준의 성장이 예상되고, 메모리 가격 상승도 동반될 것으로 봅니다.\n3. CY26에서 DRAM/NAND 캐팩스 믹스가 크게",
+          "date": "2026-05-09T08:40"
         }
       ]
     },
     "SK하이닉스": {
       "ticker": "SK하이닉스",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 8,
+      "messageCount": 2,
       "channels": [
-        "d_ticker",
-        "aetherjapanresearch",
-        "sunstudy1004",
         "Jstockclass",
-        "beluga_investment",
-        "DOC_POOL"
+        "sunstudy1004"
       ],
-      "latestDate": "2026-05-08T22:17:04+00:00",
+      "latestDate": "2026-05-09T03:53:05+00:00",
       "messages": [
         {
           "channel": "Jstockclass",
-          "text": "**골드만삭스, 코스피 목표지수 8,000 → 9,000으로 상향\n\n1. 코스피 목표지수** **9,000으로 상향\n**\n- 기존 8,000 → 9,000 상향\n\n- 골드만은 “보수적(conservative)” 목표라고 표현\n\n- 실적 상향 속도를 감안하면 추가 업사이드 가능성 시사\n\n- 북아시아 실적 개선이 전체 아시아 증시를 견인하는 구조**\n\n2. 메모리 슈퍼사이클이 핵심 투자논리\n**\n- DRAM·NAND 공급 부족 심화, AI 서버·AI 에이전트 수요 폭증\n\n- 메모리 가격 상승 → 이익 급증 구조\n업황 지속성이 시장 예상",
-          "date": "2026-05-08T08:09"
+          "text": "Fwd P/E만 보면 마이크론 11배, 샌디스크 9배, 삼전 6배, 하이닉스 5배\n\n비싼가? \nLTA로 인해 높아지는 이익 신뢰도를 잊지말자",
+          "date": "2026-05-09T00:06"
         },
         {
-          "channel": "beluga_investment",
-          "text": "* SK하이닉스 GDR 간밤에 16.3% 폭등\n\n- GDR에 주목해야한다는 당사 최근 보고서와 같이, 프랑크푸르트 거래소 GDR 거래량이 가파르게 증가하며 주가 역시 동반 상승\n\n- 7월중하순-8월초로 예상되는 미국 ADR에 앞서 GDR이 대한 관심도는 더 빠르게 증가할 전망\n\n- 최근 GDR 전환이 늘어나고 있음. 최근 장기투자자들이 GDR 비중확대에 나서고 있다는 점에 주목",
-          "date": "2026-05-08T20:56"
-        },
-        {
-          "channel": "beluga_investment",
-          "text": "**260508_MEMORY TRACKER (Apr): Another major price hike in 2QCY26 - Bernstein\n\n[Key Takeaways]\n\n(1) 2Q26 DRAM 계약가는 모든 어플리케이션 전반에서 또 한 번의 큰 폭의 상승을 보일 가능성이 높음\n■ PC +40% / Server +48% / Mobile +70~80% \n\n(2) 메모리 업체들의 LTA 협상은 순조로운 상황이며, 특히 미국 CSP 업체들과는 마무리 단계에 가까워지고 있음. LTA는 향후 다른 고객군[PC OEM이나 엔터프라이즈 서버 ",
-          "date": "2026-05-08T04:23"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "[단독] SK하이닉스, 칩 공급 확보를 위한 빅테크 기업들의 전례 없는 제안 쇄도 - 로이터\n(by https://t.me/TNBfolio)\n- 글로벌 빅테크 기업들이 AI 붐으로 인한 메모리 칩 부족 현상 속에서 물량을 확보하기 위해 SK하이닉스에 생산 라인 투자 및 장비 구매 자금 지원 등 전례 없는 제안을 쏟아냈다.\n- 고객사들은 전용 메모리 생산 라인 투자와 더불어 수억 달러에 달하는 ASML의 극자외선 노광장비 구매 자금 지원까지 제안했다.\n- 현금 보유력이 풍부한 SK하이닉스는 특정 구매자에 종속되거나 낮은 가격에 칩을 ",
-          "date": "2026-05-07T22:46"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "메모리 LTA(장기공급계약) 구속력을 올리는 최후 수단이 ‘CAPEX 분담’으로 보입니다\n\n과거 메모리 업계에서 LTA가 체결돼도 고객사가 일방적으로 취소하며 위약금만 일부 받는 행태가 있어 왔기에 LTA의 구속력이 약하다는 문제가 자주 제기됐습니다\n\n이에 삼성전자·SK하이닉스는 총 계약액의 30%를 선급금으로 받거나, 메모리 시가 변동에도 상·하한선 제한을 걸어둠으로써 가격을 방어하거나 하는 등 여러 장치를 활용하고 있습니다\n\n최고의 수단은 CAPEX 분담이 아닐까 싶은데요. 고객들이 전용 라인을 받는 대가로 메모리 기업의 생산 ",
-          "date": "2026-05-08T07:14"
+          "channel": "sunstudy1004",
+          "text": "**코스피        골드만삭스**\n\n작성: 탐방왕(https://t.me/tambangwang)\n\n당사는 **코스피 목표치를 기존 8000에서 9000으로 상향**함. 최근 코스피는 기술주 강세와 예상보다 양호한 수출 흐름에 힘입어 14% 상승함. 외국인은 여전히 코스피 순매도 중인데, 특히 코스피 테크 중심 매도 흐름 이어지고 있음.\n\n당사는 이번 **목표치 상향이 여전히 보수적이라고 판단**함. 핵심 배경은 2026년 EPS 성장률 전망 때문임. 당사는 **한국 시장 2026년 EPS 성장률을 300%로 전망하는데 이는 19",
+          "date": "2026-05-09T03:53"
         }
       ]
     },
-    "EWY": {
-      "ticker": "EWY",
+    "삼성전자": {
+      "ticker": "삼성전자",
       "summary": "분석 실패: Connection error.",
       "messageCount": 2,
       "channels": [
         "Jstockclass",
-        "beluga_investment"
+        "sunstudy1004"
       ],
-      "latestDate": "2026-05-08T15:07:44+00:00",
+      "latestDate": "2026-05-09T03:53:05+00:00",
       "messages": [
         {
           "channel": "Jstockclass",
-          "text": "우리에겐 넘나 익숙한 종목들\n\nSOXL, EWY, DRAM",
-          "date": "2026-05-08T00:57"
+          "text": "Fwd P/E만 보면 마이크론 11배, 샌디스크 9배, 삼전 6배, 하이닉스 5배\n\n비싼가? \nLTA로 인해 높아지는 이익 신뢰도를 잊지말자",
+          "date": "2026-05-09T00:06"
         },
         {
-          "channel": "beluga_investment",
-          "text": "**한국 ETF인 iShares MSCI South Korea ETF(EWY) 가 이제 전 세계 주식형 ETF 거래량의 약 14%를 차지**하고 있습니다.\n\n이 수치는 **Goldman Sachs**가 분석한 전 세계 주식형 ETF 688개 샘플 기준입니다.\n\n해당 비중은 **2025년 이후 무려 +500% 이상 급증**했습니다.\n\n지난 1년 동안 **EWY는 +213% 상승**하며 전 세계 국가 ETF 가운데 **최고의 수익률**을 기록했습니다.\n\n즉, 현대 금융시장 역사상 **한 번도 본 적 없는 수준의 자금 쏠림과 퍼포먼스**",
-          "date": "2026-05-08T15:07"
-        }
-      ]
-    },
-    "GOOGL": {
-      "ticker": "GOOGL",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 4,
-      "channels": [
-        "Jstockclass",
-        "d_ticker",
-        "beluga_investment",
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-05-08T14:53:53+00:00",
-      "messages": [
-        {
-          "channel": "Jstockclass",
-          "text": "**Retail radar : 메모리와 AI, 추격 매수의 시작 (JPM)**\n\n**1. 개인 투자자의 시장 복귀와 자신감 회복**\n\n• 개인 투자자들의 매수세가 지정학적·에너지 위기 해소 기대감에 힘입어 분쟁 이전 수준(최근 1년 역사상 77%ile)으로 점진적 회복 중\n\n• 주간 매수액은 83억 달러로 지난 12개월 평균치인 66억 달러를 상회하며 강한 복귀 신호를 보임\n\n• 3~4월 관망세를 유지하던 개인들은 이제 AI와 메모리 분야의 기회를 선점하기 위해 집중하고 있음\n\n**2. 메모리 및 AI 테마로의 집중 투자**\n\n• ",
-          "date": "2026-05-08T00:57"
-        },
-        {
-          "channel": "beluga_investment",
-          "text": "**Alphabet, Nvidia, Amazon, Broadcom, 그리고 Apple** 이 5개 종목이 **4월 1일 이후 S&P500 전체 상승분의 약 50%**를 차지했습니다.\n\n즉, 이 5개 종목만으로 해당 기간 S&P500의 **+12% 상승 랠리 중 약 +6%p**를 만들어냈다는 의미입니다.\n\n가장 큰 기여를 한 것은 **Alphabet**으로, 주가가 **+38% 상승**하며 지수 상승에 약 **+2%p** 기여했습니다.\n\n그 다음은 **Nvidia**로, **+21% 상승**하며 약 **+1.5%p** 기여했습니다.\n",
-          "date": "2026-05-08T14:53"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건) Datadog; Dog Training: 하이퍼스케일러 AI 연구소가 새로운 워크로드를 Datadog으로 가져오다; 업계 최고 목표주가 상향, 이제 시작에 불과 — 도약을 준비하라\n\n데이터독은 2025년 1분기에 월가 컨센서스 및 자체 가이던스를 모든 주요 지표에서 큰 폭으로 상회하는 실적을 발표하며 프리미엄 성장주로서의 입지를 재확인했습니다.\n\n1분기 총매출은 전년 동기 대비 +32.2% 성장하여 컨센서스 대비 약 6%p를 웃돌았으며, 이는 4분기 연속 가속화로 직전 3개 분기(+28.1% → +28.4% → +29.2",
-          "date": "2026-05-08T00:46"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "메모리 LTA(장기공급계약) 구속력을 올리는 최후 수단이 ‘CAPEX 분담’으로 보입니다\n\n과거 메모리 업계에서 LTA가 체결돼도 고객사가 일방적으로 취소하며 위약금만 일부 받는 행태가 있어 왔기에 LTA의 구속력이 약하다는 문제가 자주 제기됐습니다\n\n이에 삼성전자·SK하이닉스는 총 계약액의 30%를 선급금으로 받거나, 메모리 시가 변동에도 상·하한선 제한을 걸어둠으로써 가격을 방어하거나 하는 등 여러 장치를 활용하고 있습니다\n\n최고의 수단은 CAPEX 분담이 아닐까 싶은데요. 고객들이 전용 라인을 받는 대가로 메모리 기업의 생산 ",
-          "date": "2026-05-08T07:14"
-        }
-      ]
-    },
-    "NVDA": {
-      "ticker": "NVDA",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 5,
-      "channels": [
-        "Jstockclass",
-        "d_ticker",
-        "beluga_investment",
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-05-08T14:53:53+00:00",
-      "messages": [
-        {
-          "channel": "Jstockclass",
-          "text": "**Retail radar : 메모리와 AI, 추격 매수의 시작 (JPM)**\n\n**1. 개인 투자자의 시장 복귀와 자신감 회복**\n\n• 개인 투자자들의 매수세가 지정학적·에너지 위기 해소 기대감에 힘입어 분쟁 이전 수준(최근 1년 역사상 77%ile)으로 점진적 회복 중\n\n• 주간 매수액은 83억 달러로 지난 12개월 평균치인 66억 달러를 상회하며 강한 복귀 신호를 보임\n\n• 3~4월 관망세를 유지하던 개인들은 이제 AI와 메모리 분야의 기회를 선점하기 위해 집중하고 있음\n\n**2. 메모리 및 AI 테마로의 집중 투자**\n\n• ",
-          "date": "2026-05-08T00:57"
-        },
-        {
-          "channel": "beluga_investment",
-          "text": "**Alphabet, Nvidia, Amazon, Broadcom, 그리고 Apple** 이 5개 종목이 **4월 1일 이후 S&P500 전체 상승분의 약 50%**를 차지했습니다.\n\n즉, 이 5개 종목만으로 해당 기간 S&P500의 **+12% 상승 랠리 중 약 +6%p**를 만들어냈다는 의미입니다.\n\n가장 큰 기여를 한 것은 **Alphabet**으로, 주가가 **+38% 상승**하며 지수 상승에 약 **+2%p** 기여했습니다.\n\n그 다음은 **Nvidia**로, **+21% 상승**하며 약 **+1.5%p** 기여했습니다.\n",
-          "date": "2026-05-08T14:53"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "제목 : TSMC, 4월 매출 17.5% 증가… 1~4월 누적 매출은 30% 증가                                                                               *연합인포맥스*\n벤징가는 인공지능 반도체 수요 급증 속에 TSMC(NYS: TSM)의 4월 매출도 우수했다고 보도했다.   “TSMC는 4월에 매출 4,107.3억 신타이완달러를 기록했다. 전월 대비 1.1% 감소한 것이지만, 전년 동기 대비 17.5% 증가한 것이다. 1~4월 누적 매출은 1조 5,400억 신타이",
-          "date": "2026-05-08T10:07"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건) Datadog; Dog Training: 하이퍼스케일러 AI 연구소가 새로운 워크로드를 Datadog으로 가져오다; 업계 최고 목표주가 상향, 이제 시작에 불과 — 도약을 준비하라\n\n데이터독은 2025년 1분기에 월가 컨센서스 및 자체 가이던스를 모든 주요 지표에서 큰 폭으로 상회하는 실적을 발표하며 프리미엄 성장주로서의 입지를 재확인했습니다.\n\n1분기 총매출은 전년 동기 대비 +32.2% 성장하여 컨센서스 대비 약 6%p를 웃돌았으며, 이는 4분기 연속 가속화로 직전 3개 분기(+28.1% → +28.4% → +29.2",
-          "date": "2026-05-08T00:46"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "메모리 LTA(장기공급계약) 구속력을 올리는 최후 수단이 ‘CAPEX 분담’으로 보입니다\n\n과거 메모리 업계에서 LTA가 체결돼도 고객사가 일방적으로 취소하며 위약금만 일부 받는 행태가 있어 왔기에 LTA의 구속력이 약하다는 문제가 자주 제기됐습니다\n\n이에 삼성전자·SK하이닉스는 총 계약액의 30%를 선급금으로 받거나, 메모리 시가 변동에도 상·하한선 제한을 걸어둠으로써 가격을 방어하거나 하는 등 여러 장치를 활용하고 있습니다\n\n최고의 수단은 CAPEX 분담이 아닐까 싶은데요. 고객들이 전용 라인을 받는 대가로 메모리 기업의 생산 ",
-          "date": "2026-05-08T07:14"
-        }
-      ]
-    },
-    "TIME코스닥": {
-      "ticker": "TIME코스닥",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "report_figure_by_offset"
-      ],
-      "latestDate": "2026-05-08T01:55:34+00:00",
-      "messages": [
-        {
-          "channel": "report_figure_by_offset",
-          "text": "외국인 통합계좌 **투자 접근성** 변화 Timeline",
-          "date": "2026-05-08T01:55"
+          "channel": "sunstudy1004",
+          "text": "**코스피        골드만삭스**\n\n작성: 탐방왕(https://t.me/tambangwang)\n\n당사는 **코스피 목표치를 기존 8000에서 9000으로 상향**함. 최근 코스피는 기술주 강세와 예상보다 양호한 수출 흐름에 힘입어 14% 상승함. 외국인은 여전히 코스피 순매도 중인데, 특히 코스피 테크 중심 매도 흐름 이어지고 있음.\n\n당사는 이번 **목표치 상향이 여전히 보수적이라고 판단**함. 핵심 배경은 2026년 EPS 성장률 전망 때문임. 당사는 **한국 시장 2026년 EPS 성장률을 300%로 전망하는데 이는 19",
+          "date": "2026-05-09T03:53"
         }
       ]
     },
     "AAPL": {
       "ticker": "AAPL",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
+      "messageCount": 4,
       "channels": [
-        "easobi",
-        "beluga_investment",
-        "aetherjapanresearch"
+        "d_ticker",
+        "aetherjapanresearch",
+        "easobi"
       ],
-      "latestDate": "2026-05-08T22:33:35+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**Alphabet, Nvidia, Amazon, Broadcom, 그리고 Apple** 이 5개 종목이 **4월 1일 이후 S&P500 전체 상승분의 약 50%**를 차지했습니다.\n\n즉, 이 5개 종목만으로 해당 기간 S&P500의 **+12% 상승 랠리 중 약 +6%p**를 만들어냈다는 의미입니다.\n\n가장 큰 기여를 한 것은 **Alphabet**으로, 주가가 **+38% 상승**하며 지수 상승에 약 **+2%p** 기여했습니다.\n\n그 다음은 **Nvidia**로, **+21% 상승**하며 약 **+1.5%p** 기여했습니다.\n",
-          "date": "2026-05-08T14:53"
-        },
-        {
-          "channel": "easobi",
-          "text": "2026년 5월 8일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시 3대 지수는 혼조세로 마감했으나, S&P 500과 나스닥 종합 지수는 강력한 기술주 주도력에 힘입어 사상 최고치를 경신했습니다. 다우존스 산업평균지수는 강보합권에서 거래를 마쳤습니다. 전일 하락했던 반도체 관련 주식들이 급등하며 시장 상승을 견인했습니다.\n\n📊 섹터별 동향:\n정보 기술 섹터가 0.5%를 넘는 유일한 상승률을 기록하며 시장을 주도했습니다. 특히 반도체 관련 주의 강세가 두드러졌습니다. 반면 헬스케어와 유틸리티 섹터는 각각 약 0.9% 하락하며 가장 큰 낙",
-          "date": "2026-05-08T22:33"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "AI 기능을 위한 카메라가 탑재된 애플의 에어팟이 곧 양산 단계에 접어들 것으로 보인다\nhttps://www.theverge.com/tech/926376/apple-airpods-cameras-ai-production",
-          "date": "2026-05-08T01:22"
-        }
-      ]
-    },
-    "BE": {
-      "ticker": "BE",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 6,
-      "channels": [
-        "easobi",
-        "sunstudy1004",
-        "beluga_investment",
-        "DOC_POOL"
-      ],
-      "latestDate": "2026-05-08T22:15:27+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**Alphabet, Nvidia, Amazon, Broadcom, 그리고 Apple** 이 5개 종목이 **4월 1일 이후 S&P500 전체 상승분의 약 50%**를 차지했습니다.\n\n즉, 이 5개 종목만으로 해당 기간 S&P500의 **+12% 상승 랠리 중 약 +6%p**를 만들어냈다는 의미입니다.\n\n가장 큰 기여를 한 것은 **Alphabet**으로, 주가가 **+38% 상승**하며 지수 상승에 약 **+2%p** 기여했습니다.\n\n그 다음은 **Nvidia**로, **+21% 상승**하며 약 **+1.5%p** 기여했습니다.\n",
-          "date": "2026-05-08T14:53"
-        },
-        {
-          "channel": "beluga_investment",
-          "text": "**260508_MEMORY TRACKER (Apr): Another major price hike in 2QCY26 - Bernstein\n\n[Key Takeaways]\n\n(1) 2Q26 DRAM 계약가는 모든 어플리케이션 전반에서 또 한 번의 큰 폭의 상승을 보일 가능성이 높음\n■ PC +40% / Server +48% / Mobile +70~80% \n\n(2) 메모리 업체들의 LTA 협상은 순조로운 상황이며, 특히 미국 CSP 업체들과는 마무리 단계에 가까워지고 있음. LTA는 향후 다른 고객군[PC OEM이나 엔터프라이즈 서버 ",
-          "date": "2026-05-08T04:23"
-        },
-        {
-          "channel": "easobi",
-          "text": "카리나 출세했네\n\nhttps://youtu.be/gUZZBLykPds?si=zAjU83RN-JbGJ7CX",
-          "date": "2026-05-08T04:58"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "**[스튜디오드래곤/미디어/기업 분석]**\n제목: IP Value-Up 전략 구체화\n작성일: 2026.05.08\n작성자: Analyst 정지수, RA 박건영 (메리츠증권)\n투자의견: Buy\n목표주가: 59,000원\n\n**[1분기 실적 부진]**\n· 1Q26 연결 매출액 1,553억원(+16.0% YoY), 영업이익 64억원(+50.1% YoY)으로 시장 컨센서스(영업이익 96억원)를 하회함.\n· 글로벌 OTT 선판매 증가로 외형 성장을 이끌었으나, 오리지널 작품 확대에 따른 제작원가 증가 및 판권 상각비 이연으로 수익성이 다소 부진",
-          "date": "2026-05-08T14:23"
-        },
-        {
-          "channel": "sunstudy1004",
-          "text": "https://youtu.be/EXQDSkuZVKM?si=_9D8BZ_6oxAeWRJf",
-          "date": "2026-05-08T22:15"
-        }
-      ]
-    },
-    "AMZN": {
-      "ticker": "AMZN",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "beluga_investment"
-      ],
-      "latestDate": "2026-05-08T14:53:53+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**Alphabet, Nvidia, Amazon, Broadcom, 그리고 Apple** 이 5개 종목이 **4월 1일 이후 S&P500 전체 상승분의 약 50%**를 차지했습니다.\n\n즉, 이 5개 종목만으로 해당 기간 S&P500의 **+12% 상승 랠리 중 약 +6%p**를 만들어냈다는 의미입니다.\n\n가장 큰 기여를 한 것은 **Alphabet**으로, 주가가 **+38% 상승**하며 지수 상승에 약 **+2%p** 기여했습니다.\n\n그 다음은 **Nvidia**로, **+21% 상승**하며 약 **+1.5%p** 기여했습니다.\n",
-          "date": "2026-05-08T14:53"
-        }
-      ]
-    },
-    "AVGO": {
-      "ticker": "AVGO",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "beluga_investment"
-      ],
-      "latestDate": "2026-05-08T14:53:53+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**Alphabet, Nvidia, Amazon, Broadcom, 그리고 Apple** 이 5개 종목이 **4월 1일 이후 S&P500 전체 상승분의 약 50%**를 차지했습니다.\n\n즉, 이 5개 종목만으로 해당 기간 S&P500의 **+12% 상승 랠리 중 약 +6%p**를 만들어냈다는 의미입니다.\n\n가장 큰 기여를 한 것은 **Alphabet**으로, 주가가 **+38% 상승**하며 지수 상승에 약 **+2%p** 기여했습니다.\n\n그 다음은 **Nvidia**로, **+21% 상승**하며 약 **+1.5%p** 기여했습니다.\n",
-          "date": "2026-05-08T14:53"
-        }
-      ]
-    },
-    "APP": {
-      "ticker": "APP",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
-      "channels": [
-        "beluga_investment",
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-05-08T14:53:53+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**Alphabet, Nvidia, Amazon, Broadcom, 그리고 Apple** 이 5개 종목이 **4월 1일 이후 S&P500 전체 상승분의 약 50%**를 차지했습니다.\n\n즉, 이 5개 종목만으로 해당 기간 S&P500의 **+12% 상승 랠리 중 약 +6%p**를 만들어냈다는 의미입니다.\n\n가장 큰 기여를 한 것은 **Alphabet**으로, 주가가 **+38% 상승**하며 지수 상승에 약 **+2%p** 기여했습니다.\n\n그 다음은 **Nvidia**로, **+21% 상승**하며 약 **+1.5%p** 기여했습니다.\n",
-          "date": "2026-05-08T14:53"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "Marco Rubio says U.S. expects Iran response on peace deal 'today'\n\nhttps://www.cnbc.com/2026/05/08/marco-rubio-says-us-expects-iran-response-on-peace-deal-today.html?__source=androidappshare",
-          "date": "2026-05-08T12:20"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "AI 기능을 위한 카메라가 탑재된 애플의 에어팟이 곧 양산 단계에 접어들 것으로 보인다\nhttps://www.theverge.com/tech/926376/apple-airpods-cameras-ai-production",
-          "date": "2026-05-08T01:22"
-        }
-      ]
-    },
-    "MSFT": {
-      "ticker": "MSFT",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "easobi",
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-05-08T22:33:35+00:00",
+      "latestDate": "2026-05-09T12:20:49+00:00",
       "messages": [
         {
           "channel": "easobi",
@@ -369,8 +97,18 @@
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "JP모건) Datadog; Dog Training: 하이퍼스케일러 AI 연구소가 새로운 워크로드를 Datadog으로 가져오다; 업계 최고 목표주가 상향, 이제 시작에 불과 — 도약을 준비하라\n\n데이터독은 2025년 1분기에 월가 컨센서스 및 자체 가이던스를 모든 주요 지표에서 큰 폭으로 상회하는 실적을 발표하며 프리미엄 성장주로서의 입지를 재확인했습니다.\n\n1분기 총매출은 전년 동기 대비 +32.2% 성장하여 컨센서스 대비 약 6%p를 웃돌았으며, 이는 4분기 연속 가속화로 직전 3개 분기(+28.1% → +28.4% → +29.2",
-          "date": "2026-05-08T00:46"
+          "text": "JP모건) 퀄컴 1Q26 실적 발표 후 투자자 미팅 주요 내용\n\n당사는 Qualcomm의 IR 담당 시니어 디렉터인 Sasmit Dwivedi와 F2Q26(3월 결산) 실적 발표 후 투자자 미팅을 진행하였습니다. 아래에 미팅의 주요 내용을 정리합니다.\n\n1. 데이터센터 사업의 모멘텀이 지속적으로 강화되고 있습니다. Qualcomm은 데이터센터 사업에서 강한 모멘텀을 확인하고 있으며, 2027년에는 Qualcomm 기준으로 통상 수십억 달러 규모에 해당하는 의미 있는 매출 기여가 기대됩니다. 최근 한 하이퍼스케일러 고객과 발표한 커스",
+          "date": "2026-05-09T12:20"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) TSMC 4월 매출 예상에 부합; 첨단 공정 공급 부족 지속으로 2Q26 가이던스 상단 달성 전망\n\nTSMC의 4월 매출은 NT$4,107억으로 전년 대비 18% 증가, 전월 대비 1% 감소하며 예상에 부합하였고, 이는 당사 2Q26 추정치 및 Bloomberg 컨센서스의 약 33%에 해당합니다. GPU/ASIC, CPU 네트워킹, Apple iPhone/Mac의 견조한 수요에 힘입어 N5/N3 공정 노드의 공급 부족이 지속되면서 2Q26 매출은 가이던스 상단에 도달할 것으로 예상합니다. TSMC의 주가는 1Q26 실적 ",
+          "date": "2026-05-09T12:19"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**[단독] 애플, 인텔과 파운드리 예비 합의**\n\n([WSJ](https://www.wsj.com/tech/apple-intel-have-reached-preliminary-chip-making-agreement-69eb9370?mod=hp_lead_pos2)) 양사는 1년 넘게 협상을 진행해 왔으며 최근 몇 달간 공식 계약을 체결했다. 애플은 아이폰·아이패드·맥용 칩을 생산하기 위해 TSMC에 의존하고 있으며, 추가 칩 공급업체를 확보해야 하는 압박을 받고 있다. 지난 두 차례의 실적 발표 컨퍼런스 콜에서 팀 쿡 CEO는 아이폰",
+          "date": "2026-05-08T23:37"
         }
       ]
     },
@@ -379,9 +117,10 @@
       "summary": "분석 실패: Connection error.",
       "messageCount": 2,
       "channels": [
+        "aetherjapanresearch",
         "easobi"
       ],
-      "latestDate": "2026-05-08T22:33:35+00:00",
+      "latestDate": "2026-05-09T12:19:26+00:00",
       "messages": [
         {
           "channel": "easobi",
@@ -389,73 +128,182 @@
           "date": "2026-05-08T22:33"
         },
         {
-          "channel": "easobi",
-          "text": "https://x.com/Tesla_Teslaway/status/2052301178109895039?s=20",
-          "date": "2026-05-08T05:27"
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) TSMC 4월 매출 예상에 부합; 첨단 공정 공급 부족 지속으로 2Q26 가이던스 상단 달성 전망\n\nTSMC의 4월 매출은 NT$4,107억으로 전년 대비 18% 증가, 전월 대비 1% 감소하며 예상에 부합하였고, 이는 당사 2Q26 추정치 및 Bloomberg 컨센서스의 약 33%에 해당합니다. GPU/ASIC, CPU 네트워킹, Apple iPhone/Mac의 견조한 수요에 힘입어 N5/N3 공정 노드의 공급 부족이 지속되면서 2Q26 매출은 가이던스 상단에 도달할 것으로 예상합니다. TSMC의 주가는 1Q26 실적 ",
+          "date": "2026-05-09T12:19"
         }
       ]
     },
-    "ADI": {
-      "ticker": "ADI",
+    "BE": {
+      "ticker": "BE",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
+      "messageCount": 7,
       "channels": [
-        "easobi"
+        "d_ticker",
+        "aetherjapanresearch",
+        "DOC_POOL",
+        "sunstudy1004"
       ],
-      "latestDate": "2026-05-07T23:55:13+00:00",
+      "latestDate": "2026-05-09T13:34:12+00:00",
       "messages": [
         {
-          "channel": "easobi",
-          "text": "📅 2026년 5월 8일 / Dong Cheol Shin\n🏢 HD현대중공업 (CLSA)\n📝 Leading the pack\n🎯 HC Outperform 유지 / 목표주가 ₩982,000 → ₩1,000,000 (상승여력 +45%)\n───── ✦ ─────\n🔍 투자의견 및 목표주가\n• HC O-PF 유지, 목표주가 ₩982,000 → ₩1,000,000으로 상향 조정\n• 현재주가 ₩688,000 대비 상승여력 +45%\n• EV/백로그 기반 밸류에이션, 2026CL 백로그에 1.2배 멀티플 적용\n───── ✦ ─────\n💡 핵심 투자 논",
-          "date": "2026-05-07T23:55"
+          "channel": "aetherjapanresearch",
+          "text": "속보: 이스라엘 채널 12에 따르면, 이스라엘은 이란과의 합의가 성사될 가능성이 낮다고 보고 있으며, 미국 측에 전쟁이 재개될 경우 24시간 이내에 이란의 전체 에너지 인프라를 타격해야 한다고 전달했다.\n보도에 따르면 여러 아랍 국가들도 이란의 에너지 인프라를 표적으로 삼는 데 찬성하고 있는 것으로 알려졌다. \nhttps://x.com/KobeissiLetter/status/2053076045310353731?s=20",
+          "date": "2026-05-09T13:23"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) TSMC 4월 매출 예상에 부합; 첨단 공정 공급 부족 지속으로 2Q26 가이던스 상단 달성 전망\n\nTSMC의 4월 매출은 NT$4,107억으로 전년 대비 18% 증가, 전월 대비 1% 감소하며 예상에 부합하였고, 이는 당사 2Q26 추정치 및 Bloomberg 컨센서스의 약 33%에 해당합니다. GPU/ASIC, CPU 네트워킹, Apple iPhone/Mac의 견조한 수요에 힘입어 N5/N3 공정 노드의 공급 부족이 지속되면서 2Q26 매출은 가이던스 상단에 도달할 것으로 예상합니다. TSMC의 주가는 1Q26 실적 ",
+          "date": "2026-05-09T12:19"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**루멘텀, 나스닥 100 지수 합류**\n\n(상업용 부동산 플랫폼 Costar 대신해 루멘텀이 편입)\n\nhttps://www.globenewswire.com/news-release/2026/05/09/3291404/6948/en/lumentum-holdings-inc-to-join-the-nasdaq-100-index-beginning-may-18-2026.html",
+          "date": "2026-05-09T00:05"
+        },
+        {
+          "channel": "DOC_POOL",
+          "text": "**[LIG디펜스앤에어로스페이스]**\n제목: 고수익 수출 물량이 수익성 견인\n작성일: 2026.05.08\n작성자: 이상현, BNK투자증권\n투자의견: 매수\n목표주가: 1,180,000원\n\n**[투자 포인트 및 실적 전망]**\n· 1분기 연결기준 매출액 1조 1,679억 원, 영업이익 1,711억 원을 기록하며 영업이익 컨센서스를 46% 상회하는 어닝 서프라이즈를 달성함.\n· 중동 정세 불안으로 인해 당초 국내 납품 예정이었던 천궁-II 물량이 해외로 조기 납품되면서 수출 비중이 전년 동기 20.4%에서 34.7%로 확대되었고, 고수익",
+          "date": "2026-05-09T13:34"
+        },
+        {
+          "channel": "sunstudy1004",
+          "text": "https://youtube.com/shorts/2q8KPqs_r-E?si=AZQzh3qSZH3NaOoN",
+          "date": "2026-05-09T10:23"
         }
       ]
     },
-    "CLS": {
-      "ticker": "CLS",
+    "NVDA": {
+      "ticker": "NVDA",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
+      "messageCount": 5,
       "channels": [
-        "easobi"
+        "d_ticker",
+        "aetherjapanresearch"
       ],
-      "latestDate": "2026-05-07T23:55:13+00:00",
+      "latestDate": "2026-05-09T12:56:33+00:00",
       "messages": [
         {
-          "channel": "easobi",
-          "text": "📅 2026년 5월 8일 / Dong Cheol Shin\n🏢 HD현대중공업 (CLSA)\n📝 Leading the pack\n🎯 HC Outperform 유지 / 목표주가 ₩982,000 → ₩1,000,000 (상승여력 +45%)\n───── ✦ ─────\n🔍 투자의견 및 목표주가\n• HC O-PF 유지, 목표주가 ₩982,000 → ₩1,000,000으로 상향 조정\n• 현재주가 ₩688,000 대비 상승여력 +45%\n• EV/백로그 기반 밸류에이션, 2026CL 백로그에 1.2배 멀티플 적용\n───── ✦ ─────\n💡 핵심 투자 논",
-          "date": "2026-05-07T23:55"
+          "channel": "aetherjapanresearch",
+          "text": "Citi) 미국 주식 전략; The case of NASDAQ 100\n\n씨티는 NASDAQ 100(NDX)을 전통적인 대형 성장주 지수보다 AI 인프라 빌드아웃에 대한 선호 투자처로 평가하고 있습니다. 보고서는 NDX를 전통적인 성장 및 밸류에이션 관점에서 분석한 결과, 펀더멘털 측면에서 매력적인 성장 기대가 반영되어 있으면서도 추가적인 상향 여지가 남아 있다고 판단합니다. 전통 밸류에이션은 역사적 평균 대비 높은 수준이나 과도하지는 않으며, PEG 비율은 20년 내 최저 수준 부근에 위치하고 있습니다. 다만 내재 성장률 지표는 상",
+          "date": "2026-05-09T12:56"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "우주 컴퓨팅의 새로운 장이 열렸습니다 \n\nNVIDIA와 그 생태계는 다음과 같은 분야에서 지구에서 우주로 이어지는 AI 발전을 주도하고 있습니다:\n\n1) 지구 궤도 및 적외선 영상\n2) 무선 주파수 및 합성 개구면 레이더\n3) 자율 우주 운영\n\n선도적인 상업 우주 기업들과 임무 등급의 방사선 내성 파트너사들은 궤도상 AI 추론 및 지상 데이터 처리를 위한 NVIDIA Jetson Orin, IGX Thor, Vera Rubin Space-1 모듈을 궤도상 AI 추론 및 지상 데이터 처리를 위해 배치할 계획을 세우고 있습니다.\n\nht",
+          "date": "2026-05-09T12:46"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) TSMC 4월 매출 예상에 부합; 첨단 공정 공급 부족 지속으로 2Q26 가이던스 상단 달성 전망\n\nTSMC의 4월 매출은 NT$4,107억으로 전년 대비 18% 증가, 전월 대비 1% 감소하며 예상에 부합하였고, 이는 당사 2Q26 추정치 및 Bloomberg 컨센서스의 약 33%에 해당합니다. GPU/ASIC, CPU 네트워킹, Apple iPhone/Mac의 견조한 수요에 힘입어 N5/N3 공정 노드의 공급 부족이 지속되면서 2Q26 매출은 가이던스 상단에 도달할 것으로 예상합니다. TSMC의 주가는 1Q26 실적 ",
+          "date": "2026-05-09T12:19"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "클리블랜드 리서치) CY26~CY27 캐팩스, 메모리 가격 상승 및 지속적인 GPU·CPU 서버 강세로 예상치 상회 전망 \n\n핵심 요약\n1. CY26 캐팩스 전망치를 기존 6,880억 달러(전년 대비 +67%)에서 7,340억 달러(전년 대비 +78%)로 약 450~500억 달러 상향 조정합니다.\n2. CY27에도 AI 주도의 상당한 성장세가 이어질 것으로 전망되며, CSP들의 제안에 따라 전년 대비 약 40% 수준의 성장이 예상되고, 메모리 가격 상승도 동반될 것으로 봅니다.\n3. CY26에서 DRAM/NAND 캐팩스 믹스가 크게",
+          "date": "2026-05-09T08:40"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**[단독] 애플, 인텔과 파운드리 예비 합의**\n\n([WSJ](https://www.wsj.com/tech/apple-intel-have-reached-preliminary-chip-making-agreement-69eb9370?mod=hp_lead_pos2)) 양사는 1년 넘게 협상을 진행해 왔으며 최근 몇 달간 공식 계약을 체결했다. 애플은 아이폰·아이패드·맥용 칩을 생산하기 위해 TSMC에 의존하고 있으며, 추가 칩 공급업체를 확보해야 하는 압박을 받고 있다. 지난 두 차례의 실적 발표 컨퍼런스 콜에서 팀 쿡 CEO는 아이폰",
+          "date": "2026-05-08T23:37"
         }
       ]
     },
-    "HD마린엔진": {
-      "ticker": "HD마린엔진",
+    "AVGO": {
+      "ticker": "AVGO",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
+      "messageCount": 2,
       "channels": [
-        "easobi"
+        "aetherjapanresearch"
       ],
-      "latestDate": "2026-05-07T23:55:13+00:00",
+      "latestDate": "2026-05-09T12:56:33+00:00",
       "messages": [
         {
-          "channel": "easobi",
-          "text": "📅 2026년 5월 8일 / Dong Cheol Shin\n🏢 HD현대중공업 (CLSA)\n📝 Leading the pack\n🎯 HC Outperform 유지 / 목표주가 ₩982,000 → ₩1,000,000 (상승여력 +45%)\n───── ✦ ─────\n🔍 투자의견 및 목표주가\n• HC O-PF 유지, 목표주가 ₩982,000 → ₩1,000,000으로 상향 조정\n• 현재주가 ₩688,000 대비 상승여력 +45%\n• EV/백로그 기반 밸류에이션, 2026CL 백로그에 1.2배 멀티플 적용\n───── ✦ ─────\n💡 핵심 투자 논",
-          "date": "2026-05-07T23:55"
+          "channel": "aetherjapanresearch",
+          "text": "Citi) 미국 주식 전략; The case of NASDAQ 100\n\n씨티는 NASDAQ 100(NDX)을 전통적인 대형 성장주 지수보다 AI 인프라 빌드아웃에 대한 선호 투자처로 평가하고 있습니다. 보고서는 NDX를 전통적인 성장 및 밸류에이션 관점에서 분석한 결과, 펀더멘털 측면에서 매력적인 성장 기대가 반영되어 있으면서도 추가적인 상향 여지가 남아 있다고 판단합니다. 전통 밸류에이션은 역사적 평균 대비 높은 수준이나 과도하지는 않으며, PEG 비율은 20년 내 최저 수준 부근에 위치하고 있습니다. 다만 내재 성장률 지표는 상",
+          "date": "2026-05-09T12:56"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) TSMC 4월 매출 예상에 부합; 첨단 공정 공급 부족 지속으로 2Q26 가이던스 상단 달성 전망\n\nTSMC의 4월 매출은 NT$4,107억으로 전년 대비 18% 증가, 전월 대비 1% 감소하며 예상에 부합하였고, 이는 당사 2Q26 추정치 및 Bloomberg 컨센서스의 약 33%에 해당합니다. GPU/ASIC, CPU 네트워킹, Apple iPhone/Mac의 견조한 수요에 힘입어 N5/N3 공정 노드의 공급 부족이 지속되면서 2Q26 매출은 가이던스 상단에 도달할 것으로 예상합니다. TSMC의 주가는 1Q26 실적 ",
+          "date": "2026-05-09T12:19"
         }
       ]
     },
-    "HD현대중공업": {
-      "ticker": "HD현대중공업",
+    "GOOG": {
+      "ticker": "GOOG",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
+      "messageCount": 3,
       "channels": [
-        "easobi"
+        "aetherjapanresearch",
+        "DOC_POOL"
       ],
-      "latestDate": "2026-05-07T23:55:13+00:00",
+      "latestDate": "2026-05-09T12:28:37+00:00",
       "messages": [
         {
-          "channel": "easobi",
-          "text": "📅 2026년 5월 8일 / Dong Cheol Shin\n🏢 HD현대중공업 (CLSA)\n📝 Leading the pack\n🎯 HC Outperform 유지 / 목표주가 ₩982,000 → ₩1,000,000 (상승여력 +45%)\n───── ✦ ─────\n🔍 투자의견 및 목표주가\n• HC O-PF 유지, 목표주가 ₩982,000 → ₩1,000,000으로 상향 조정\n• 현재주가 ₩688,000 대비 상승여력 +45%\n• EV/백로그 기반 밸류에이션, 2026CL 백로그에 1.2배 멀티플 적용\n───── ✦ ─────\n💡 핵심 투자 논",
-          "date": "2026-05-07T23:55"
+          "channel": "aetherjapanresearch",
+          "text": "기회의 땅인것이네요\n\n[VC 이모저모] \"BW가 뭔지 몰랐어요\"…스타트업 '자본시장 문해력' 비상 < 증권 < 기사본문 - 연합인포맥스 https://share.google/5VA5wE0zN0seFrHxk",
+          "date": "2026-05-09T12:28"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "클리블랜드 리서치) CY26~CY27 캐팩스, 메모리 가격 상승 및 지속적인 GPU·CPU 서버 강세로 예상치 상회 전망 \n\n핵심 요약\n1. CY26 캐팩스 전망치를 기존 6,880억 달러(전년 대비 +67%)에서 7,340억 달러(전년 대비 +78%)로 약 450~500억 달러 상향 조정합니다.\n2. CY27에도 AI 주도의 상당한 성장세가 이어질 것으로 전망되며, CSP들의 제안에 따라 전년 대비 약 40% 수준의 성장이 예상되고, 메모리 가격 상승도 동반될 것으로 봅니다.\n3. CY26에서 DRAM/NAND 캐팩스 믹스가 크게",
+          "date": "2026-05-09T08:40"
+        },
+        {
+          "channel": "DOC_POOL",
+          "text": "**[AI 산업/테크]**\n제목: AI Bi-weekly: 스페이스X와 앤트로픽의 오월동주, 그리고 차도살인\n작성일: 2026.05.08\n작성자: 한종목, 김은지 (미래에셋증권)\n\n**[컴퓨팅 인프라 확보 경쟁의 변화]**\n· 앤트로픽이 xAI의 Colossus 1 데이터센터 전체를 단일 테넌트로 임대하는 계약을 체결하며, 단 한 달 만에 13.8GW 규모의 전력을 확보함.\n· 이는 기존의 AI 경쟁 구도가 단순한 모델 개발 경쟁에서, 컴퓨팅 자원을 선점하고 이를 효율적으로 운영하는 인프라 확보 및 재무적 구조 싸움으로 변화했음을 ",
+          "date": "2026-05-09T07:19"
+        }
+      ]
+    },
+    "GOOGL": {
+      "ticker": "GOOGL",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 2,
+      "channels": [
+        "aetherjapanresearch",
+        "DOC_POOL"
+      ],
+      "latestDate": "2026-05-09T12:28:37+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "기회의 땅인것이네요\n\n[VC 이모저모] \"BW가 뭔지 몰랐어요\"…스타트업 '자본시장 문해력' 비상 < 증권 < 기사본문 - 연합인포맥스 https://share.google/5VA5wE0zN0seFrHxk",
+          "date": "2026-05-09T12:28"
+        },
+        {
+          "channel": "DOC_POOL",
+          "text": "**[AI 산업/테크]**\n제목: AI Bi-weekly: 스페이스X와 앤트로픽의 오월동주, 그리고 차도살인\n작성일: 2026.05.08\n작성자: 한종목, 김은지 (미래에셋증권)\n\n**[컴퓨팅 인프라 확보 경쟁의 변화]**\n· 앤트로픽이 xAI의 Colossus 1 데이터센터 전체를 단일 테넌트로 임대하는 계약을 체결하며, 단 한 달 만에 13.8GW 규모의 전력을 확보함.\n· 이는 기존의 AI 경쟁 구도가 단순한 모델 개발 경쟁에서, 컴퓨팅 자원을 선점하고 이를 효율적으로 운영하는 인프라 확보 및 재무적 구조 싸움으로 변화했음을 ",
+          "date": "2026-05-09T07:19"
+        }
+      ]
+    },
+    "APP": {
+      "ticker": "APP",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 3,
+      "channels": [
+        "d_ticker",
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-05-09T12:20:49+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) 퀄컴 1Q26 실적 발표 후 투자자 미팅 주요 내용\n\n당사는 Qualcomm의 IR 담당 시니어 디렉터인 Sasmit Dwivedi와 F2Q26(3월 결산) 실적 발표 후 투자자 미팅을 진행하였습니다. 아래에 미팅의 주요 내용을 정리합니다.\n\n1. 데이터센터 사업의 모멘텀이 지속적으로 강화되고 있습니다. Qualcomm은 데이터센터 사업에서 강한 모멘텀을 확인하고 있으며, 2027년에는 Qualcomm 기준으로 통상 수십억 달러 규모에 해당하는 의미 있는 매출 기여가 기대됩니다. 최근 한 하이퍼스케일러 고객과 발표한 커스",
+          "date": "2026-05-09T12:20"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) TSMC 4월 매출 예상에 부합; 첨단 공정 공급 부족 지속으로 2Q26 가이던스 상단 달성 전망\n\nTSMC의 4월 매출은 NT$4,107억으로 전년 대비 18% 증가, 전월 대비 1% 감소하며 예상에 부합하였고, 이는 당사 2Q26 추정치 및 Bloomberg 컨센서스의 약 33%에 해당합니다. GPU/ASIC, CPU 네트워킹, Apple iPhone/Mac의 견조한 수요에 힘입어 N5/N3 공정 노드의 공급 부족이 지속되면서 2Q26 매출은 가이던스 상단에 도달할 것으로 예상합니다. TSMC의 주가는 1Q26 실적 ",
+          "date": "2026-05-09T12:19"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**[단독] 애플, 인텔과 파운드리 예비 합의**\n\n([WSJ](https://www.wsj.com/tech/apple-intel-have-reached-preliminary-chip-making-agreement-69eb9370?mod=hp_lead_pos2)) 양사는 1년 넘게 협상을 진행해 왔으며 최근 몇 달간 공식 계약을 체결했다. 애플은 아이폰·아이패드·맥용 칩을 생산하기 위해 TSMC에 의존하고 있으며, 추가 칩 공급업체를 확보해야 하는 압박을 받고 있다. 지난 두 차례의 실적 발표 컨퍼런스 콜에서 팀 쿡 CEO는 아이폰",
+          "date": "2026-05-08T23:37"
         }
       ]
     },
@@ -467,91 +315,118 @@
         "d_ticker",
         "aetherjapanresearch"
       ],
-      "latestDate": "2026-05-08T10:07:50+00:00",
+      "latestDate": "2026-05-09T12:19:26+00:00",
       "messages": [
         {
           "channel": "aetherjapanresearch",
-          "text": "제목 : TSMC, 4월 매출 17.5% 증가… 1~4월 누적 매출은 30% 증가                                                                               *연합인포맥스*\n벤징가는 인공지능 반도체 수요 급증 속에 TSMC(NYS: TSM)의 4월 매출도 우수했다고 보도했다.   “TSMC는 4월에 매출 4,107.3억 신타이완달러를 기록했다. 전월 대비 1.1% 감소한 것이지만, 전년 동기 대비 17.5% 증가한 것이다. 1~4월 누적 매출은 1조 5,400억 신타이",
-          "date": "2026-05-08T10:07"
+          "text": "JP모건) TSMC 4월 매출 예상에 부합; 첨단 공정 공급 부족 지속으로 2Q26 가이던스 상단 달성 전망\n\nTSMC의 4월 매출은 NT$4,107억으로 전년 대비 18% 증가, 전월 대비 1% 감소하며 예상에 부합하였고, 이는 당사 2Q26 추정치 및 Bloomberg 컨센서스의 약 33%에 해당합니다. GPU/ASIC, CPU 네트워킹, Apple iPhone/Mac의 견조한 수요에 힘입어 N5/N3 공정 노드의 공급 부족이 지속되면서 2Q26 매출은 가이던스 상단에 도달할 것으로 예상합니다. TSMC의 주가는 1Q26 실적 ",
+          "date": "2026-05-09T12:19"
         },
         {
           "channel": "d_ticker",
-          "text": "메모리 LTA(장기공급계약) 구속력을 올리는 최후 수단이 ‘CAPEX 분담’으로 보입니다\n\n과거 메모리 업계에서 LTA가 체결돼도 고객사가 일방적으로 취소하며 위약금만 일부 받는 행태가 있어 왔기에 LTA의 구속력이 약하다는 문제가 자주 제기됐습니다\n\n이에 삼성전자·SK하이닉스는 총 계약액의 30%를 선급금으로 받거나, 메모리 시가 변동에도 상·하한선 제한을 걸어둠으로써 가격을 방어하거나 하는 등 여러 장치를 활용하고 있습니다\n\n최고의 수단은 CAPEX 분담이 아닐까 싶은데요. 고객들이 전용 라인을 받는 대가로 메모리 기업의 생산 ",
-          "date": "2026-05-08T07:14"
+          "text": "**[단독] 애플, 인텔과 파운드리 예비 합의**\n\n([WSJ](https://www.wsj.com/tech/apple-intel-have-reached-preliminary-chip-making-agreement-69eb9370?mod=hp_lead_pos2)) 양사는 1년 넘게 협상을 진행해 왔으며 최근 몇 달간 공식 계약을 체결했다. 애플은 아이폰·아이패드·맥용 칩을 생산하기 위해 TSMC에 의존하고 있으며, 추가 칩 공급업체를 확보해야 하는 압박을 받고 있다. 지난 두 차례의 실적 발표 컨퍼런스 콜에서 팀 쿡 CEO는 아이폰",
+          "date": "2026-05-08T23:37"
         }
       ]
     },
-    "GOOG": {
-      "ticker": "GOOG",
+    "AMZN": {
+      "ticker": "AMZN",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
         "aetherjapanresearch"
       ],
-      "latestDate": "2026-05-08T00:46:45+00:00",
+      "latestDate": "2026-05-09T08:40:23+00:00",
       "messages": [
         {
           "channel": "aetherjapanresearch",
-          "text": "JP모건) Datadog; Dog Training: 하이퍼스케일러 AI 연구소가 새로운 워크로드를 Datadog으로 가져오다; 업계 최고 목표주가 상향, 이제 시작에 불과 — 도약을 준비하라\n\n데이터독은 2025년 1분기에 월가 컨센서스 및 자체 가이던스를 모든 주요 지표에서 큰 폭으로 상회하는 실적을 발표하며 프리미엄 성장주로서의 입지를 재확인했습니다.\n\n1분기 총매출은 전년 동기 대비 +32.2% 성장하여 컨센서스 대비 약 6%p를 웃돌았으며, 이는 4분기 연속 가속화로 직전 3개 분기(+28.1% → +28.4% → +29.2",
-          "date": "2026-05-08T00:46"
+          "text": "클리블랜드 리서치) CY26~CY27 캐팩스, 메모리 가격 상승 및 지속적인 GPU·CPU 서버 강세로 예상치 상회 전망 \n\n핵심 요약\n1. CY26 캐팩스 전망치를 기존 6,880억 달러(전년 대비 +67%)에서 7,340억 달러(전년 대비 +78%)로 약 450~500억 달러 상향 조정합니다.\n2. CY27에도 AI 주도의 상당한 성장세가 이어질 것으로 전망되며, CSP들의 제안에 따라 전년 대비 약 40% 수준의 성장이 예상되고, 메모리 가격 상승도 동반될 것으로 봅니다.\n3. CY26에서 DRAM/NAND 캐팩스 믹스가 크게",
+          "date": "2026-05-09T08:40"
         }
       ]
     },
-    "두산에너빌": {
-      "ticker": "두산에너빌",
+    "META": {
+      "ticker": "META",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
-        "d_ticker"
+        "aetherjapanresearch"
       ],
-      "latestDate": "2026-05-08T09:20:44+00:00",
+      "latestDate": "2026-05-09T08:40:23+00:00",
       "messages": [
         {
-          "channel": "d_ticker",
-          "text": "두산에너빌리티, AI데이터센터향 ‘중형 가스터빈’ 시장 진출\n\n90MW급 중형 가스터빈 설계 마치고 시제품 제작에 나선다고 합니다.\n\nhttps://www.hankyung.com/article/202605071940i",
-          "date": "2026-05-08T09:20"
+          "channel": "aetherjapanresearch",
+          "text": "클리블랜드 리서치) CY26~CY27 캐팩스, 메모리 가격 상승 및 지속적인 GPU·CPU 서버 강세로 예상치 상회 전망 \n\n핵심 요약\n1. CY26 캐팩스 전망치를 기존 6,880억 달러(전년 대비 +67%)에서 7,340억 달러(전년 대비 +78%)로 약 450~500억 달러 상향 조정합니다.\n2. CY27에도 AI 주도의 상당한 성장세가 이어질 것으로 전망되며, CSP들의 제안에 따라 전년 대비 약 40% 수준의 성장이 예상되고, 메모리 가격 상승도 동반될 것으로 봅니다.\n3. CY26에서 DRAM/NAND 캐팩스 믹스가 크게",
+          "date": "2026-05-09T08:40"
+        }
+      ]
+    },
+    "ORCL": {
+      "ticker": "ORCL",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-05-09T08:40:23+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "클리블랜드 리서치) CY26~CY27 캐팩스, 메모리 가격 상승 및 지속적인 GPU·CPU 서버 강세로 예상치 상회 전망 \n\n핵심 요약\n1. CY26 캐팩스 전망치를 기존 6,880억 달러(전년 대비 +67%)에서 7,340억 달러(전년 대비 +78%)로 약 450~500억 달러 상향 조정합니다.\n2. CY27에도 AI 주도의 상당한 성장세가 이어질 것으로 전망되며, CSP들의 제안에 따라 전년 대비 약 40% 수준의 성장이 예상되고, 메모리 가격 상승도 동반될 것으로 봅니다.\n3. CY26에서 DRAM/NAND 캐팩스 믹스가 크게",
+          "date": "2026-05-09T08:40"
+        }
+      ]
+    },
+    "TEM": {
+      "ticker": "TEM",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "DOC_POOL"
+      ],
+      "latestDate": "2026-05-09T10:17:44+00:00",
+      "messages": [
+        {
+          "channel": "DOC_POOL",
+          "text": "**[오름테라퓨틱/제약/코스닥]**\n제목: 본격적으로 드러나는 플랫폼 가치\n작성일: 2026.05.08.\n작성자: IV 리서치\n\n**[주요 파이프라인 ORM-1153 임상 진입]**\n· CD123을 표적으로 하는 Fc-silenced 항체와 GSPT1 degrader payload를 결합한 혈액암 치료제 ORM-1153의 2026년 하반기 IND Filing을 목표로 개발 중임.\n· 정상 조혈세포 대비 AML blast 및 Leukemic stem cell에서 높은 발현을 보여 치료창(Therapeutic window) 확보에 유리",
+          "date": "2026-05-09T10:17"
         }
       ]
     },
     "미래에셋": {
       "ticker": "미래에셋",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "DOC_POOL"
-      ],
-      "latestDate": "2026-05-08T14:24:20+00:00",
-      "messages": [
-        {
-          "channel": "DOC_POOL",
-          "text": "**[미래에셋증권/리서치/마켓 인사이트]**\n제목: 마켓 클로징 - 극과 극\n작성일: 2026.05.08\n작성자: 김석환, 박수진 (미래에셋증권)\n\n**[한국 증시 요약]**\n· 코스피와 코스닥 모두 소폭 상승했으나, 외국인 수급은 4, 6일 순매수에서 7, 8일 순매도로 전환되며 변동성을 보였습니다.\n· 피지컬 AI 및 로보틱스 관련주들이 순환매 형태로 강세를 보였으며, 백신/코로나19 테마주들도 한타바이러스 우려에 움직였습니다.\n· 넷마블은 목표가 하향 조정으로 인해 약세를 보였으며, 달러/원 환율은 1,470원 선을 넘보며 상",
-          "date": "2026-05-08T14:24"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "**[중국 반도체 / AI 반도체 / 산업 리포트]**\n제목: AI 반도체 시대 본격화\n작성일: 2026.05.08\n작성자: 권영배, 김영건, 강민희 (미래에셋증권)\n\n**[AI 칩 혁신]**\n· DeepSeek-V4 모델은 V4-Pro와 V4-Flash 두 가지로 출시되었으며, CSA 및 HCA 기술을 통해 이전 모델 대비 추론 FLOPs를 73%, 90% 절감하는 성능 향상을 달성했습니다.\n· 화웨이, Cambricon 등 중국 AI 칩메이커들은 DeepSeek-V4 출시 당일 Day 0 최적화를 완료하며 높은 기술 역량을 보여",
-          "date": "2026-05-08T14:23"
-        }
-      ]
-    },
-    "TIGER지주": {
-      "ticker": "TIGER지주",
-      "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
         "DOC_POOL"
       ],
-      "latestDate": "2026-05-08T14:23:32+00:00",
+      "latestDate": "2026-05-09T07:19:01+00:00",
       "messages": [
         {
           "channel": "DOC_POOL",
-          "text": "**[중국 반도체 / AI 반도체 / 산업 리포트]**\n제목: AI 반도체 시대 본격화\n작성일: 2026.05.08\n작성자: 권영배, 김영건, 강민희 (미래에셋증권)\n\n**[AI 칩 혁신]**\n· DeepSeek-V4 모델은 V4-Pro와 V4-Flash 두 가지로 출시되었으며, CSA 및 HCA 기술을 통해 이전 모델 대비 추론 FLOPs를 73%, 90% 절감하는 성능 향상을 달성했습니다.\n· 화웨이, Cambricon 등 중국 AI 칩메이커들은 DeepSeek-V4 출시 당일 Day 0 최적화를 완료하며 높은 기술 역량을 보여",
-          "date": "2026-05-08T14:23"
+          "text": "**[AI 산업/테크]**\n제목: AI Bi-weekly: 스페이스X와 앤트로픽의 오월동주, 그리고 차도살인\n작성일: 2026.05.08\n작성자: 한종목, 김은지 (미래에셋증권)\n\n**[컴퓨팅 인프라 확보 경쟁의 변화]**\n· 앤트로픽이 xAI의 Colossus 1 데이터센터 전체를 단일 테넌트로 임대하는 계약을 체결하며, 단 한 달 만에 13.8GW 규모의 전력을 확보함.\n· 이는 기존의 AI 경쟁 구도가 단순한 모델 개발 경쟁에서, 컴퓨팅 자원을 선점하고 이를 효율적으로 운영하는 인프라 확보 및 재무적 구조 싸움으로 변화했음을 ",
+          "date": "2026-05-09T07:19"
+        }
+      ]
+    },
+    "ADI": {
+      "ticker": "ADI",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "sunstudy1004"
+      ],
+      "latestDate": "2026-05-09T03:53:05+00:00",
+      "messages": [
+        {
+          "channel": "sunstudy1004",
+          "text": "**코스피        골드만삭스**\n\n작성: 탐방왕(https://t.me/tambangwang)\n\n당사는 **코스피 목표치를 기존 8000에서 9000으로 상향**함. 최근 코스피는 기술주 강세와 예상보다 양호한 수출 흐름에 힘입어 14% 상승함. 외국인은 여전히 코스피 순매도 중인데, 특히 코스피 테크 중심 매도 흐름 이어지고 있음.\n\n당사는 이번 **목표치 상향이 여전히 보수적이라고 판단**함. 핵심 배경은 2026년 EPS 성장률 전망 때문임. 당사는 **한국 시장 2026년 EPS 성장률을 300%로 전망하는데 이는 19",
+          "date": "2026-05-09T03:53"
         }
       ]
     }
   },
-  "totalMessages": 57,
+  "totalMessages": 38,
   "channels": [
     "Jstockclass",
     "report_figure_by_offset",
