@@ -1,408 +1,150 @@
 {
-  "fetchedAt": "2026-05-15T22:44:37.448120",
+  "fetchedAt": "2026-05-16T22:36:01.381596",
   "status": "ok",
   "stocks": {
-    "BE": {
-      "ticker": "BE",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
-      "channels": [
-        "beluga_investment",
-        "Jstockclass",
-        "easobi"
-      ],
-      "latestDate": "2026-05-15T06:46:52+00:00",
-      "messages": [
-        {
-          "channel": "Jstockclass",
-          "text": "[Web발신]\n[NH/황지현] 삼성전기\n\n■ 삼성전기 - MLCC 가격 인상 감지\n\n[Buy 유지, TP 1,500,000원 상향]\n\n▷본문보기: https://m.nhsec.com/c/8mi50\n\n- MLCC 가격 상승 사이클 시작\n\n투자의견 Buy 유지, 목표주가를 기존 100만원에서 150만원으로 상향. 일부 MLCC 제품의 가격 인상이 시작되면서 실적 추정치를 상향 조정한 데 기인. 또한 패키지 사업부와의 시너지를 고려해 컴포넌트 사업부 밸류에이션 시 프리미엄 기존 30%에서 50%로 확대\n\n유통업체 대상으로 일부 MLCC ",
-          "date": "2026-05-14T23:34"
-        },
-        {
-          "channel": "beluga_investment",
-          "text": "**Kioxia 1Q Operating Income Forecast Beats Estimates\n\n(Bloomberg) Kioxia forecast operating income for the first quarter; the guidance beat the average analyst estimate.\n\nFIRST QUARTER FORECAST**\nSees operating income 1.30 trillion yen, estimate 874.09 billion yen\n\nSees net income 869.00 billion ye",
-          "date": "2026-05-15T06:46"
-        },
-        {
-          "channel": "easobi",
-          "text": "**카리나 vs 페이커, 누구랑 플레이할래? | Google Play\n**https://youtu.be/6DooAFlcXA8?si=jkoiGd-V_25h0bag\n\n페이커랑 아재개그 주고받고싶다",
-          "date": "2026-05-15T05:29"
-        }
-      ]
-    },
     "삼성전자": {
       "ticker": "삼성전자",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 9,
+      "messageCount": 5,
       "channels": [
-        "d_ticker",
+        "report_figure_by_offset",
         "aetherjapanresearch",
-        "Jstockclass",
         "DOC_POOL",
-        "beluga_investment"
+        "easobi"
       ],
-      "latestDate": "2026-05-15T16:39:57+00:00",
+      "latestDate": "2026-05-16T11:07:22+00:00",
       "messages": [
         {
-          "channel": "Jstockclass",
-          "text": "[Web발신]\n[NH/황지현] 삼성전기\n\n■ 삼성전기 - MLCC 가격 인상 감지\n\n[Buy 유지, TP 1,500,000원 상향]\n\n▷본문보기: https://m.nhsec.com/c/8mi50\n\n- MLCC 가격 상승 사이클 시작\n\n투자의견 Buy 유지, 목표주가를 기존 100만원에서 150만원으로 상향. 일부 MLCC 제품의 가격 인상이 시작되면서 실적 추정치를 상향 조정한 데 기인. 또한 패키지 사업부와의 시너지를 고려해 컴포넌트 사업부 밸류에이션 시 프리미엄 기존 30%에서 50%로 확대\n\n유통업체 대상으로 일부 MLCC ",
-          "date": "2026-05-14T23:34"
+          "channel": "report_figure_by_offset",
+          "text": "삼성전자/SK하이닉스/현대차도 **못하는 5년 연속 성장** 기업\n\n • 2022년부터 2027년까지 **전년대비 영업이익이 성장**할 것으로 예상되는 시가총액 상위 30개 종목 (금융 제외)\n\n • **산업재 종목 17개**",
+          "date": "2026-05-16T07:50"
         },
         {
-          "channel": "beluga_investment",
-          "text": "**260515_삼성전자 연간 영업이익 추정치 변화[vs. 260407]\n\n(1) 28(F) 연간 영업이익 추정치 역전[vs. 27(F)] 시기: '26년 4월 7일 \n\n(1) 27(F) 328.8조 → 434.6조[+32.2%]\n\n(2) 28(F): 330.0조 → 444.3조[+34.6%]**",
-          "date": "2026-05-15T06:01"
-        },
-        {
-          "channel": "beluga_investment",
-          "text": "**[속보] 삼성전자 사장단 \"조건없이 임할 것…노조도 대화 나서달라\"\n\n****https://www.yna.co.kr/view/AKR20260515093400003**",
-          "date": "2026-05-15T04:37"
+          "channel": "easobi",
+          "text": "티커가 NASA인데....\n\nSPACE X 포함한 여러 국가 우주 테마 주식 보유하고 있네요.\n\nhttps://temaetfs.com/nasa\n\n한국도 있는데\n인텔리안테크, 스피어 (둘다 처음들어보는 주식)\n-> 저 국장 안한지 5년 넘었습니다 ㅋㅋ (삼전 하닉 못산 바보)\n\n**매수, 매도 추천이 아니며, 해당 게시물의 내용은 법적 증거로 사용될 수 없습니다. 매매에 따른 손실은 거래 당사자의 책임입니다 (Not a financial advice)**",
+          "date": "2026-05-16T02:24"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "안녕하세요.\n\n초기업노동 조합 삼성전자 지부 위원장 최승호입니다.\n\n오늘 오후 진행된 고용노동부 장관 면담 결과를 알려드립니다.\n\n김영훈 고용노동부 장관님을 비롯한 고용노동부 관계자분들께서 초기업 노조 사무실을 방문해 주셨습니다. \n\n그간의 교섭 경과, 삼성전자 사업구조, 현 시점의 핵심 쟁점사항을 설명드렸으며, 김영훈 장관님과 교섭 현황 전반에 대해 허심탄회하게 의견을 나눴습니다.\n\n장관님께서는 조합의 입장에 깊이 공감해 주셨으며, 조합의 뜻을 사측에 분명히 전달하겠다고 말씀해주셨습니다. \n\n이에 초기업 노조는 교섭 재개를 위해 ",
-          "date": "2026-05-15T08:53"
+          "text": "[노무라, AI 뉴노멀을 맞이하라\n](https://wallstreetcn.com/articles/3772426#from=ios)\n삼성·하이닉스의 몸값(밸류에이션)은 이제 'TSMC'를 따라가야 한다\n\n삼성전자 34만 원 → 59만 원 (118% 상승 여력) / SK하이닉스 234만 원 → 400만 원 (120% 상승 여력)\n\n**__(1) 패러다임 시프트\n__**\n과거에는 가격이 올랐다 폭락하는 전형적인 경기 순환형 주식으로 취급받아 Forward P/E가 고작 6배 수준에 갇혀 심각한 디스카운트를 받았습니다.\n\n그러나 AI 추론",
+          "date": "2026-05-16T11:07"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "[속보] 삼성전자 사장단 \"조건없이 임할 것…노조도 대화 나서달라\" | 연합뉴스\nhttps://www.yna.co.kr/view/AKR20260515093400003",
-          "date": "2026-05-15T04:37"
-        }
-      ]
-    },
-    "삼성전기": {
-      "ticker": "삼성전기",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "Jstockclass"
-      ],
-      "latestDate": "2026-05-14T23:34:46+00:00",
-      "messages": [
+          "text": "[속보] 삼성전자 노조 \"사측 대표교섭위원 교체…노사 미팅 예정\" | 연합뉴스\nhttps://www.yna.co.kr/view/AKR20260516042200003",
+          "date": "2026-05-16T06:44"
+        },
         {
-          "channel": "Jstockclass",
-          "text": "[Web발신]\n[NH/황지현] 삼성전기\n\n■ 삼성전기 - MLCC 가격 인상 감지\n\n[Buy 유지, TP 1,500,000원 상향]\n\n▷본문보기: https://m.nhsec.com/c/8mi50\n\n- MLCC 가격 상승 사이클 시작\n\n투자의견 Buy 유지, 목표주가를 기존 100만원에서 150만원으로 상향. 일부 MLCC 제품의 가격 인상이 시작되면서 실적 추정치를 상향 조정한 데 기인. 또한 패키지 사업부와의 시너지를 고려해 컴포넌트 사업부 밸류에이션 시 프리미엄 기존 30%에서 50%로 확대\n\n유통업체 대상으로 일부 MLCC ",
-          "date": "2026-05-14T23:34"
-        }
-      ]
-    },
-    "TIME코스닥": {
-      "ticker": "TIME코스닥",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "beluga_investment"
-      ],
-      "latestDate": "2026-05-15T06:46:52+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**Kioxia 1Q Operating Income Forecast Beats Estimates\n\n(Bloomberg) Kioxia forecast operating income for the first quarter; the guidance beat the average analyst estimate.\n\nFIRST QUARTER FORECAST**\nSees operating income 1.30 trillion yen, estimate 874.09 billion yen\n\nSees net income 869.00 billion ye",
-          "date": "2026-05-15T06:46"
+          "channel": "DOC_POOL",
+          "text": "**[삼성전자]**\n제목: AI 투자는 천장이 없다\n작성일: 2026.05.15\n작성자: 리서치본부장 김동원, Analyst 이창민, 연구원 강다현 (KB증권)\n투자의견: Buy\n목표주가: 450,000원\n\n**[메모리 실적 전망 및 목표주가 상향]**\n· 2분기 메모리 가격 상승세가 시장 예상을 상회하고, 2026년 DRAM 및 NAND 가격의 전년 대비 큰 폭의 상승(각 +297%, +256%) 전망을 반영하여 2026년과 2027년 영업이익 추정치를 상향 조정함.\n· 이에 따라 KB증권은 삼성전자 목표주가를 기존 360,000",
+          "date": "2026-05-16T06:21"
         }
       ]
     },
     "SK하이닉스": {
       "ticker": "SK하이닉스",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
-      "channels": [
-        "beluga_investment",
-        "d_ticker",
-        "DOC_POOL"
-      ],
-      "latestDate": "2026-05-15T16:39:57+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**260515_SK하이닉스 연간 영업이익 추정치 변화[vs. 260405]\n\n(1) 28(F) 연간 영업이익 추정치 역전[vs. 27(F)] 시기: '26년 4월 5일 \n\n(1) 27(F) 216.5조 → 332.3조[+53.5%]\n\n(2) 28(F): 219.4조 → 357.2조[+62.8%]**",
-          "date": "2026-05-15T06:01"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**정부가 ‘반도체 클러스터’ 지정 요건을 지방(수도권 외 지역)으로 명문화해 법에 못 박기로 했다. \n\n반도체 클러스터는 ‘반도체 산업 경쟁력 강화 및 지원에 관한 특별법’상 반도체 기업과 시설들이 모인 지역을 뜻하며 반도체 클러스터로 지정되면 각종 인허가 단축과 세금 공제 등의 혜택을 받을 수 있다. 앞으로 삼성전자나 SK하이닉스가 대규모 신규 팹을 지으면서 정부의 지원을 받으려면 반드시 지방으로 가야 한다는 의미다. \n\n대신 정부는 반도체 클러스터 조성에 필요한 전력·용수 등 각종 기반시설에 대해 총사업비의 최소 50% 이상,",
-          "date": "2026-05-15T09:27"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "**[반도체]**\n제목: 메기남 등장\n작성일: 2026.05.15\n작성자: 김록호(하나증권)\n투자의견: Overweight\n목표주가: 삼성전자(430,000원), SK하이닉스(2,750,000원), 피에스케이(128,000원), 피에스케이홀딩스(164,000원)\n\n**[AI향 LPDDR 수요 급증]**\n· AI 데이터센터의 핵심인 Nvidia의 차세대 GPU 아키텍처 'Vera Rubin' 출하가 2026년 하반기 본격화됨에 따라 고대역폭 LPDDR5X 메모리 수요가 폭발적으로 증가할 전망\n· Vera Rubin NVL72 랙에는 ",
-          "date": "2026-05-15T16:39"
-        }
-      ]
-    },
-    "MSFT": {
-      "ticker": "MSFT",
-      "summary": "분석 실패: Connection error.",
       "messageCount": 2,
       "channels": [
-        "easobi",
+        "report_figure_by_offset",
         "aetherjapanresearch"
       ],
-      "latestDate": "2026-05-15T21:31:53+00:00",
+      "latestDate": "2026-05-16T11:07:22+00:00",
       "messages": [
         {
-          "channel": "easobi",
-          "text": "2026년 5월 15일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시는 이날 주요 지수들이 일제히 하락하며 이번 주 기록적인 상승세를 거의 반납했습니다. S&P 500 지수는 1.24% 하락한 7408.50을 기록했고, 다우존스 산업평균지수는 1.07% 내린 49526.17, 기술주 중심의 나스닥 종합지수는 1.54% 급락한 26225.14로 마감했습니다. 이는 유가 급등과 국채 금리 상승에 따른 인플레이션 우려가 다시 불거진 영향이 컸습니다. 특히 기술주 및 대형 기술주에서 두드러진 약세가 관찰되었습니다.\n\n📊 섹터별 동향:\n에너지 ",
-          "date": "2026-05-15T21:31"
+          "channel": "report_figure_by_offset",
+          "text": "삼성전자/SK하이닉스/현대차도 **못하는 5년 연속 성장** 기업\n\n • 2022년부터 2027년까지 **전년대비 영업이익이 성장**할 것으로 예상되는 시가총액 상위 30개 종목 (금융 제외)\n\n • **산업재 종목 17개**",
+          "date": "2026-05-16T07:50"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "JP모건 코멘트 소프트웨어 vs. 반도체 \n\n당사 주식 파생상품팀의 James Hale이 제공한 주요 내용 및 트레이드 아이디어는 다음과 같습니다.\n\n1. 리테일(=개인) 투자 심리는 엇갈린 모습을 보이고 있습니다. 강력한 어닝 시즌에도 불구하고 공매도 포지션에 대한 관심이 일시적으로 높아지는 구간이 있었으나, 대체로 12개월 평균에 근접한 수준을 유지하고 있습니다.\n\n2. 월중(MTD) 기준으로 반도체 강세에 동참하는 동시에 소프트웨어에 대해서는 순매도로 전환하였습니다. 예를 들어 MSFT는 4월 두 번째로 많이 순매수된 종목(T",
-          "date": "2026-05-15T12:11"
+          "text": "[노무라, AI 뉴노멀을 맞이하라\n](https://wallstreetcn.com/articles/3772426#from=ios)\n삼성·하이닉스의 몸값(밸류에이션)은 이제 'TSMC'를 따라가야 한다\n\n삼성전자 34만 원 → 59만 원 (118% 상승 여력) / SK하이닉스 234만 원 → 400만 원 (120% 상승 여력)\n\n**__(1) 패러다임 시프트\n__**\n과거에는 가격이 올랐다 폭락하는 전형적인 경기 순환형 주식으로 취급받아 Forward P/E가 고작 6배 수준에 갇혀 심각한 디스카운트를 받았습니다.\n\n그러나 AI 추론",
+          "date": "2026-05-16T11:07"
         }
       ]
     },
-    "TSLA": {
-      "ticker": "TSLA",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "easobi",
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-05-15T21:31:53+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "2026년 5월 15일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시는 이날 주요 지수들이 일제히 하락하며 이번 주 기록적인 상승세를 거의 반납했습니다. S&P 500 지수는 1.24% 하락한 7408.50을 기록했고, 다우존스 산업평균지수는 1.07% 내린 49526.17, 기술주 중심의 나스닥 종합지수는 1.54% 급락한 26225.14로 마감했습니다. 이는 유가 급등과 국채 금리 상승에 따른 인플레이션 우려가 다시 불거진 영향이 컸습니다. 특히 기술주 및 대형 기술주에서 두드러진 약세가 관찰되었습니다.\n\n📊 섹터별 동향:\n에너지 ",
-          "date": "2026-05-15T21:31"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건 코멘트 소프트웨어 vs. 반도체 \n\n당사 주식 파생상품팀의 James Hale이 제공한 주요 내용 및 트레이드 아이디어는 다음과 같습니다.\n\n1. 리테일(=개인) 투자 심리는 엇갈린 모습을 보이고 있습니다. 강력한 어닝 시즌에도 불구하고 공매도 포지션에 대한 관심이 일시적으로 높아지는 구간이 있었으나, 대체로 12개월 평균에 근접한 수준을 유지하고 있습니다.\n\n2. 월중(MTD) 기준으로 반도체 강세에 동참하는 동시에 소프트웨어에 대해서는 순매도로 전환하였습니다. 예를 들어 MSFT는 4월 두 번째로 많이 순매수된 종목(T",
-          "date": "2026-05-15T12:11"
-        }
-      ]
-    },
-    "NVDA": {
-      "ticker": "NVDA",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 8,
-      "channels": [
-        "easobi",
-        "aetherjapanresearch",
-        "DOC_POOL"
-      ],
-      "latestDate": "2026-05-15T21:31:53+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "2026년 5월 15일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시는 이날 주요 지수들이 일제히 하락하며 이번 주 기록적인 상승세를 거의 반납했습니다. S&P 500 지수는 1.24% 하락한 7408.50을 기록했고, 다우존스 산업평균지수는 1.07% 내린 49526.17, 기술주 중심의 나스닥 종합지수는 1.54% 급락한 26225.14로 마감했습니다. 이는 유가 급등과 국채 금리 상승에 따른 인플레이션 우려가 다시 불거진 영향이 컸습니다. 특히 기술주 및 대형 기술주에서 두드러진 약세가 관찰되었습니다.\n\n📊 섹터별 동향:\n에너지 ",
-          "date": "2026-05-15T21:31"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "Citi) 중화 반도체 — H200 중국 판매 승인 가능성에 대한 간략한 코멘트\n\nCITI의 견해\n언론 보도에 따르면 미국은 알리바바, 텐센트, 바이트댄스를 포함한 10개 중국 기업에 대해 엔비디아 H200 칩 판매를 승인하였으며, 각 기업은 최대 75,000개의 H200 칩을 구매할 수 있도록 허용되었습니다. H200의 승인은 단기적으로 중국 AI 가속기 제조업체, 파운드리, WFE 벤더에 부정적으로 작용할 수 있으나, 다음과 같은 이유로 H200 수입이 중국의 AI 국산화 전망 및 자국 AI 칩에 대한 전략적 지원을 변화시키지는",
-          "date": "2026-05-15T12:25"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건) 1Q26 광학반도체 시장 업데이트; 전망치 상향은 COHR, 루멘텀들에게 긍정적.\n\nJPMorgan이 2026년 5월 15일자로 발간한 본 보고서는 산업 분석기관 LightCounting이 데이터컴 광통신 시장에 대한 전망치를 상향 조정한 내용을 다루고 있으며, 이는 동사 커버리지 내 광부품 공급사인 Coherent(COHR), Fabrinet(FN), Lumentum(LITE)에 대체로 긍정적인 요인이라고 평가하고 있습니다. 다만 일부 제3자 분석가들은 NeoCloud 사업자들의 AI 인프라 capex 가시성이 제한적이",
-          "date": "2026-05-15T12:23"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건 트레이딩 데스크 코멘터리(5월 14일 장마감)\n\nJON ROGERSON (ETF) – JPM ETF – 소폭 차익실현…\n어제 ETF 데스크에서는 아시아 소재 자산 배분자들이 주식 시장의 초과 성과를 확정하면서 발생한 역내외 리밸런싱 자금 흐름으로 인해 매도 우위 흐름이 두드러졌습니다. 주요 매도 종목은 VTI/VWO/VEA/IEMG였으며, 핫한 신흥국 경제(대만, 한국)에서의 외국인 매도 추세가 최근 몇 세션에 걸쳐 꾸준히 증가하고 있습니다. 한국(EWY)의 마지막 상승 구간은 주로 리테일 투자자 주도로 이루어진 것으로 보",
-          "date": "2026-05-15T12:12"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건) 트럼프-시진핑 정상회담: \"반드시 잘 이끌어 나가야 하며, 절대 망쳐서는 안 된다\"\n트럼프 대통령과 시진핑 국가주석은 5월 14일 베이징 인민대회당 및 중남해에서 정상회담을 개최하였습니다. 시진핑 주석은 미중 관계를 \"전략적 안정의 건설적 관계\"로 재정립하며 \"반드시 잘 이끌어 나가야 하며 절대 망쳐서는 안 된다\"고 강조하였고, 트럼프 대통령은 양국 관계를 'G2' 파트너십으로 재차 지칭하였습니다.\n\n공동성명은 발표되지 않았으나, 호르무즈 해협의 개방 유지에 대해서는 양측이 합의하였습니다. 백악관에 따르면 중국은 해협의 ",
-          "date": "2026-05-15T12:08"
-        }
-      ]
-    },
-    "GOOGL": {
-      "ticker": "GOOGL",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
-      "channels": [
-        "easobi",
-        "aetherjapanresearch",
-        "DOC_POOL"
-      ],
-      "latestDate": "2026-05-15T16:40:26+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "**카리나 vs 페이커, 누구랑 플레이할래? | Google Play\n**https://youtu.be/6DooAFlcXA8?si=jkoiGd-V_25h0bag\n\n페이커랑 아재개그 주고받고싶다",
-          "date": "2026-05-15T05:29"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건) 1Q26 광학반도체 시장 업데이트; 전망치 상향은 COHR, 루멘텀들에게 긍정적.\n\nJPMorgan이 2026년 5월 15일자로 발간한 본 보고서는 산업 분석기관 LightCounting이 데이터컴 광통신 시장에 대한 전망치를 상향 조정한 내용을 다루고 있으며, 이는 동사 커버리지 내 광부품 공급사인 Coherent(COHR), Fabrinet(FN), Lumentum(LITE)에 대체로 긍정적인 요인이라고 평가하고 있습니다. 다만 일부 제3자 분석가들은 NeoCloud 사업자들의 AI 인프라 capex 가시성이 제한적이",
-          "date": "2026-05-15T12:23"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "**[글로벌 AI 산업]**\n제목: 글로벌 AI 진검승부\n작성일: 2026.05.15\n작성자: 권영배, 박준서, 장다현 (미래에셋증권)\n\n**[AI 산업 대전환과 수익화의 중요성]**\n· AI 산업은 기술적 과시의 시대를 지나 모델 성능이 상향 평준화됨에 따라 실질적인 수익화 경쟁으로 진입함.\n· 컴퓨팅 수요 폭증으로 인한 대규모 CAPEX 투자가 지속되는 반면 AI 연산 단위 가격은 하락하고 있어, 막대한 투자비를 감당할 수 있는 반복적인 현금흐름 창출 능력이 기업 생존의 핵심이 됨.\n\n**[데이터 독점과 네트워크 효과의 전략적 ",
-          "date": "2026-05-15T16:40"
-        }
-      ]
-    },
-    "GOOG": {
-      "ticker": "GOOG",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "easobi",
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-05-15T12:23:53+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "**카리나 vs 페이커, 누구랑 플레이할래? | Google Play\n**https://youtu.be/6DooAFlcXA8?si=jkoiGd-V_25h0bag\n\n페이커랑 아재개그 주고받고싶다",
-          "date": "2026-05-15T05:29"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건) 1Q26 광학반도체 시장 업데이트; 전망치 상향은 COHR, 루멘텀들에게 긍정적.\n\nJPMorgan이 2026년 5월 15일자로 발간한 본 보고서는 산업 분석기관 LightCounting이 데이터컴 광통신 시장에 대한 전망치를 상향 조정한 내용을 다루고 있으며, 이는 동사 커버리지 내 광부품 공급사인 Coherent(COHR), Fabrinet(FN), Lumentum(LITE)에 대체로 긍정적인 요인이라고 평가하고 있습니다. 다만 일부 제3자 분석가들은 NeoCloud 사업자들의 AI 인프라 capex 가시성이 제한적이",
-          "date": "2026-05-15T12:23"
-        }
-      ]
-    },
-    "EWY": {
-      "ticker": "EWY",
+    "현대차": {
+      "ticker": "현대차",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
-        "aetherjapanresearch"
+        "report_figure_by_offset"
       ],
-      "latestDate": "2026-05-15T12:12:56+00:00",
+      "latestDate": "2026-05-16T07:50:32+00:00",
       "messages": [
         {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건 트레이딩 데스크 코멘터리(5월 14일 장마감)\n\nJON ROGERSON (ETF) – JPM ETF – 소폭 차익실현…\n어제 ETF 데스크에서는 아시아 소재 자산 배분자들이 주식 시장의 초과 성과를 확정하면서 발생한 역내외 리밸런싱 자금 흐름으로 인해 매도 우위 흐름이 두드러졌습니다. 주요 매도 종목은 VTI/VWO/VEA/IEMG였으며, 핫한 신흥국 경제(대만, 한국)에서의 외국인 매도 추세가 최근 몇 세션에 걸쳐 꾸준히 증가하고 있습니다. 한국(EWY)의 마지막 상승 구간은 주로 리테일 투자자 주도로 이루어진 것으로 보",
-          "date": "2026-05-15T12:12"
+          "channel": "report_figure_by_offset",
+          "text": "삼성전자/SK하이닉스/현대차도 **못하는 5년 연속 성장** 기업\n\n • 2022년부터 2027년까지 **전년대비 영업이익이 성장**할 것으로 예상되는 시가총액 상위 30개 종목 (금융 제외)\n\n • **산업재 종목 17개**",
+          "date": "2026-05-16T07:50"
         }
       ]
     },
-    "CRWD": {
-      "ticker": "CRWD",
+    "TEM": {
+      "ticker": "TEM",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
-        "aetherjapanresearch"
+        "easobi"
       ],
-      "latestDate": "2026-05-15T12:12:56+00:00",
+      "latestDate": "2026-05-16T02:24:29+00:00",
       "messages": [
         {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건 트레이딩 데스크 코멘터리(5월 14일 장마감)\n\nJON ROGERSON (ETF) – JPM ETF – 소폭 차익실현…\n어제 ETF 데스크에서는 아시아 소재 자산 배분자들이 주식 시장의 초과 성과를 확정하면서 발생한 역내외 리밸런싱 자금 흐름으로 인해 매도 우위 흐름이 두드러졌습니다. 주요 매도 종목은 VTI/VWO/VEA/IEMG였으며, 핫한 신흥국 경제(대만, 한국)에서의 외국인 매도 추세가 최근 몇 세션에 걸쳐 꾸준히 증가하고 있습니다. 한국(EWY)의 마지막 상승 구간은 주로 리테일 투자자 주도로 이루어진 것으로 보",
-          "date": "2026-05-15T12:12"
+          "channel": "easobi",
+          "text": "티커가 NASA인데....\n\nSPACE X 포함한 여러 국가 우주 테마 주식 보유하고 있네요.\n\nhttps://temaetfs.com/nasa\n\n한국도 있는데\n인텔리안테크, 스피어 (둘다 처음들어보는 주식)\n-> 저 국장 안한지 5년 넘었습니다 ㅋㅋ (삼전 하닉 못산 바보)\n\n**매수, 매도 추천이 아니며, 해당 게시물의 내용은 법적 증거로 사용될 수 없습니다. 매매에 따른 손실은 거래 당사자의 책임입니다 (Not a financial advice)**",
+          "date": "2026-05-16T02:24"
         }
       ]
     },
     "SMH": {
       "ticker": "SMH",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
+      "messageCount": 1,
       "channels": [
         "aetherjapanresearch"
       ],
-      "latestDate": "2026-05-15T12:12:56+00:00",
+      "latestDate": "2026-05-16T11:54:57+00:00",
       "messages": [
         {
           "channel": "aetherjapanresearch",
-          "text": "JP모건 트레이딩 데스크 코멘터리(5월 14일 장마감)\n\nJON ROGERSON (ETF) – JPM ETF – 소폭 차익실현…\n어제 ETF 데스크에서는 아시아 소재 자산 배분자들이 주식 시장의 초과 성과를 확정하면서 발생한 역내외 리밸런싱 자금 흐름으로 인해 매도 우위 흐름이 두드러졌습니다. 주요 매도 종목은 VTI/VWO/VEA/IEMG였으며, 핫한 신흥국 경제(대만, 한국)에서의 외국인 매도 추세가 최근 몇 세션에 걸쳐 꾸준히 증가하고 있습니다. 한국(EWY)의 마지막 상승 구간은 주로 리테일 투자자 주도로 이루어진 것으로 보",
-          "date": "2026-05-15T12:12"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건 코멘트 소프트웨어 vs. 반도체 \n\n당사 주식 파생상품팀의 James Hale이 제공한 주요 내용 및 트레이드 아이디어는 다음과 같습니다.\n\n1. 리테일(=개인) 투자 심리는 엇갈린 모습을 보이고 있습니다. 강력한 어닝 시즌에도 불구하고 공매도 포지션에 대한 관심이 일시적으로 높아지는 구간이 있었으나, 대체로 12개월 평균에 근접한 수준을 유지하고 있습니다.\n\n2. 월중(MTD) 기준으로 반도체 강세에 동참하는 동시에 소프트웨어에 대해서는 순매도로 전환하였습니다. 예를 들어 MSFT는 4월 두 번째로 많이 순매수된 종목(T",
-          "date": "2026-05-15T12:11"
+          "text": "제약·헬스테크 회복력 측면에서는 팬데믹 이후 필수 의약품, 백신 제조, 바이오테크와 게놈, 환자 케어 기술 및 인프라를 중심으로 헬스케어 공급망에 대한 관심이 커졌으며, Biosecure Act와 Section 232 관세가 정부 차원의 대응으로 언급되었습니다. 활성 의약품 원료의 대중국 의존, 임상시험 비중의 9배 급증(2013-2023년, 전 세계의 28%로 유럽 추월), 고부가 바이오의학 혁신에서의 미국·유럽 리더십 도전 등이 핵심 분야 투자 확대 압력으로 작용할 것으로 보았습니다. 다만 Section 232 관세 변경 가능성",
+          "date": "2026-05-16T11:54"
         }
       ]
     },
-    "AVGO": {
-      "ticker": "AVGO",
+    "BE": {
+      "ticker": "BE",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
         "aetherjapanresearch"
       ],
-      "latestDate": "2026-05-15T12:12:56+00:00",
+      "latestDate": "2026-05-16T11:54:47+00:00",
       "messages": [
         {
           "channel": "aetherjapanresearch",
-          "text": "JP모건 트레이딩 데스크 코멘터리(5월 14일 장마감)\n\nJON ROGERSON (ETF) – JPM ETF – 소폭 차익실현…\n어제 ETF 데스크에서는 아시아 소재 자산 배분자들이 주식 시장의 초과 성과를 확정하면서 발생한 역내외 리밸런싱 자금 흐름으로 인해 매도 우위 흐름이 두드러졌습니다. 주요 매도 종목은 VTI/VWO/VEA/IEMG였으며, 핫한 신흥국 경제(대만, 한국)에서의 외국인 매도 추세가 최근 몇 세션에 걸쳐 꾸준히 증가하고 있습니다. 한국(EWY)의 마지막 상승 구간은 주로 리테일 투자자 주도로 이루어진 것으로 보",
-          "date": "2026-05-15T12:12"
+          "text": "JP모건) 안보와 경제 회복성에 대한 투자 전략(5월 15일)\n\n본 보고서의 핵심 논지는 미국의 공공 및 민간 투자가 수십 년간 유지해 온 효율성 우선 원칙에서 벗어나, 국가·경제 안보와 회복력, 신뢰성 구축을 중시하는 방향으로 구조적 재편이 진행되고 있다는 것입니다. 코로나19, 러시아-우크라이나 전쟁, Liberation Day 관세 및 수출통제, 이란발 긴장 등 일련의 공급망 위기가 기존 글로벌 자본 배분 원칙의 취약성을 노출시켰으며, 가속화되는 경제 경쟁과 지정학적 분절화 압력이 이러한 변화를 가속하고 있다는 진단입니다. J",
+          "date": "2026-05-16T11:54"
         }
       ]
     },
     "TSM": {
       "ticker": "TSM",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
+      "messageCount": 1,
       "channels": [
-        "aetherjapanresearch",
-        "DOC_POOL"
+        "aetherjapanresearch"
       ],
-      "latestDate": "2026-05-15T16:39:57+00:00",
+      "latestDate": "2026-05-16T11:07:22+00:00",
       "messages": [
         {
           "channel": "aetherjapanresearch",
-          "text": "JPM) TSMC: 중국의 H200 승인 가능성에 관한 투자자 문의\n\n당사는 NVDA가 40~50만 개의 완제품 칩 재고를 보유하고 있으며, 이는 생산능력 제약 없이 조립 가능하다고 판단하고 있습니다. 신규 생산의 경우 TSMC N4 대기 시간과 잠재적 노사 분규 속에서의 SEC HBM3E 가용성이 변수로 작용할 것입니다. 당사 애널리스트는 TSMC가 어제 신주에서 개최한 대만 테크놀로지 심포지엄이 산호세 행사의 판박이였다고 언급했습니다. 2030년 반도체 산업 1.5조 달러 목표 및 AI 칩 성장 가정치에 대한 투자자 피드백을 받",
-          "date": "2026-05-15T08:52"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "**[반도체]**\n제목: 메기남 등장\n작성일: 2026.05.15\n작성자: 김록호(하나증권)\n투자의견: Overweight\n목표주가: 삼성전자(430,000원), SK하이닉스(2,750,000원), 피에스케이(128,000원), 피에스케이홀딩스(164,000원)\n\n**[AI향 LPDDR 수요 급증]**\n· AI 데이터센터의 핵심인 Nvidia의 차세대 GPU 아키텍처 'Vera Rubin' 출하가 2026년 하반기 본격화됨에 따라 고대역폭 LPDDR5X 메모리 수요가 폭발적으로 증가할 전망\n· Vera Rubin NVL72 랙에는 ",
-          "date": "2026-05-15T16:39"
-        }
-      ]
-    },
-    "AAPL": {
-      "ticker": "AAPL",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "DOC_POOL"
-      ],
-      "latestDate": "2026-05-15T16:40:26+00:00",
-      "messages": [
-        {
-          "channel": "DOC_POOL",
-          "text": "**[글로벌 AI 산업]**\n제목: 글로벌 AI 진검승부\n작성일: 2026.05.15\n작성자: 권영배, 박준서, 장다현 (미래에셋증권)\n\n**[AI 산업 대전환과 수익화의 중요성]**\n· AI 산업은 기술적 과시의 시대를 지나 모델 성능이 상향 평준화됨에 따라 실질적인 수익화 경쟁으로 진입함.\n· 컴퓨팅 수요 폭증으로 인한 대규모 CAPEX 투자가 지속되는 반면 AI 연산 단위 가격은 하락하고 있어, 막대한 투자비를 감당할 수 있는 반복적인 현금흐름 창출 능력이 기업 생존의 핵심이 됨.\n\n**[데이터 독점과 네트워크 효과의 전략적 ",
-          "date": "2026-05-15T16:40"
-        }
-      ]
-    },
-    "미래에셋": {
-      "ticker": "미래에셋",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "DOC_POOL"
-      ],
-      "latestDate": "2026-05-15T16:40:26+00:00",
-      "messages": [
-        {
-          "channel": "DOC_POOL",
-          "text": "**[글로벌 AI 산업]**\n제목: 글로벌 AI 진검승부\n작성일: 2026.05.15\n작성자: 권영배, 박준서, 장다현 (미래에셋증권)\n\n**[AI 산업 대전환과 수익화의 중요성]**\n· AI 산업은 기술적 과시의 시대를 지나 모델 성능이 상향 평준화됨에 따라 실질적인 수익화 경쟁으로 진입함.\n· 컴퓨팅 수요 폭증으로 인한 대규모 CAPEX 투자가 지속되는 반면 AI 연산 단위 가격은 하락하고 있어, 막대한 투자비를 감당할 수 있는 반복적인 현금흐름 창출 능력이 기업 생존의 핵심이 됨.\n\n**[데이터 독점과 네트워크 효과의 전략적 ",
-          "date": "2026-05-15T16:40"
-        }
-      ]
-    },
-    "META": {
-      "ticker": "META",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "DOC_POOL"
-      ],
-      "latestDate": "2026-05-15T16:40:26+00:00",
-      "messages": [
-        {
-          "channel": "DOC_POOL",
-          "text": "**[글로벌 AI 산업]**\n제목: 글로벌 AI 진검승부\n작성일: 2026.05.15\n작성자: 권영배, 박준서, 장다현 (미래에셋증권)\n\n**[AI 산업 대전환과 수익화의 중요성]**\n· AI 산업은 기술적 과시의 시대를 지나 모델 성능이 상향 평준화됨에 따라 실질적인 수익화 경쟁으로 진입함.\n· 컴퓨팅 수요 폭증으로 인한 대규모 CAPEX 투자가 지속되는 반면 AI 연산 단위 가격은 하락하고 있어, 막대한 투자비를 감당할 수 있는 반복적인 현금흐름 창출 능력이 기업 생존의 핵심이 됨.\n\n**[데이터 독점과 네트워크 효과의 전략적 ",
-          "date": "2026-05-15T16:40"
+          "text": "[노무라, AI 뉴노멀을 맞이하라\n](https://wallstreetcn.com/articles/3772426#from=ios)\n삼성·하이닉스의 몸값(밸류에이션)은 이제 'TSMC'를 따라가야 한다\n\n삼성전자 34만 원 → 59만 원 (118% 상승 여력) / SK하이닉스 234만 원 → 400만 원 (120% 상승 여력)\n\n**__(1) 패러다임 시프트\n__**\n과거에는 가격이 올랐다 폭락하는 전형적인 경기 순환형 주식으로 취급받아 Forward P/E가 고작 6배 수준에 갇혀 심각한 디스카운트를 받았습니다.\n\n그러나 AI 추론",
+          "date": "2026-05-16T11:07"
         }
       ]
     }
   },
-  "totalMessages": 52,
+  "totalMessages": 17,
   "channels": [
     "Jstockclass",
     "report_figure_by_offset",
