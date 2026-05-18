@@ -1,245 +1,243 @@
 {
-  "fetchedAt": "2026-05-17T22:49:06.478141",
+  "fetchedAt": "2026-05-18T22:51:24.395647",
   "status": "ok",
   "stocks": {
     "삼성전자": {
       "ticker": "삼성전자",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 10,
+      "messageCount": 11,
       "channels": [
+        "aetherjapanresearch",
+        "d_ticker",
         "Jstockclass",
-        "aetherjapanresearch"
+        "DOC_POOL",
+        "beluga_investment"
       ],
-      "latestDate": "2026-05-17T22:31:34+00:00",
+      "latestDate": "2026-05-18T22:11:31+00:00",
       "messages": [
         {
           "channel": "Jstockclass",
-          "text": "**Kioxia 실적 시사점 : NAND ASP/OPM 상향 가능성, 삼성전자·하이닉스 매수 유지 (GS)**\n\n**1. Kioxia 가이던스 → 삼성전자·하이닉스 NAND ASP/OPM 상향 가능성**\n\n• Kioxia 1Q USD 기준 블렌디드 ASP, 전 분기 대비 100%+ 급등\n\n• 비트 출하량은 장비 유지보수 및 재고 소진 영향으로 QoQ -10%\n\n• 단, 데이터센터 SSD 비트 출하는 QoQ 증가 유지\n\n• 2Q USD 매출 가이던스 QoQ +70% 제시, 성장 주도 요인은 ASP\n\n• 골드만삭스 현재 삼성전자·하이닉",
-          "date": "2026-05-17T04:49"
+          "text": "삼성전자 강보합..",
+          "date": "2026-05-18T00:37"
         },
         {
-          "channel": "aetherjapanresearch",
-          "text": "누가 ‘반도체 강성 노조’ 키웠나… 삼성전자 인사·재무 경영진 향한 책임론 - 조선비즈\nhttps://biz.chosun.com/it-science/ict/2026/05/18/5EC43LBY3BBVFF7VAZ7VFK2XRQ/",
-          "date": "2026-05-17T22:31"
+          "channel": "Jstockclass",
+          "text": "**하이닉스, TP 180만원 → 300만원으로 상향 (JPM)**\n\n내용은 삼성전자와 유사합니다. \n\n27~28년 영업이익 전망치 14~17% 상향조정",
+          "date": "2026-05-17T23:08"
         },
         {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건) 글로벌 메모리 마켓 업데이트\n\n본 보고서는 LTA(장기공급계약)가 메모리 산업의 비즈니스 모델과 밸류에이션 프레임워크를 구조적으로 바꾸는 변곡점이 되고 있다는 점을 핵심 논지로 삼고 있습니다. 2026년 초부터 LTA는 메모리 업계에서 가장 치열한 논쟁의 대상이 되어 왔으며, 1분기 실적 시즌을 거치면서 여러 AI 부품 제조업체에서 LTA 사례가 구체화되고 있습니다. 메모리 업계에서는 현재까지 세 가지 사례, 즉 마이크론의 5년 LTA 공시, NYT의 제3자 사모 발행을 동반한 LTA, 그리고 미국 NAND 제조사가 FY",
-          "date": "2026-05-17T12:59"
+          "channel": "Jstockclass",
+          "text": "**삼성전자, TP 35만원 → 48만원으로 상향 (JPM)**\n\n**1. LTA 도입에 따른 밸류에이션 프레임워크 전환**\n\n• 주요 CSP들과 LTA를 논의 중이며, 이를 통해 기존의 주기적 비즈니스 모델이 구조적으로 변화할 것으로 예상\n\n• LTA 체결은 메모리 수익의 질적 향상을 이끌어내며, 시장의 평가 기준을 기존 P/B에서 P/E 방식으로 전환하는 재평가 요소로 작용할 전망\n\n• 향후 2026~2027년 예상 EPS에 mid-cycle 배수인 P/E 8배를 적용하여 목표주가를 기존 350,000원에서 480,000원으로 ",
+          "date": "2026-05-17T23:02"
         },
         {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건)키옥시아 홀딩스 (285A); 강력한 어닝 서프라이즈 및 가이던스; LTA와 주주환원이 가치를 더욱 높일 것; 목표주가를 업계 최고 수준인 8만엔으로 상향\n\n키옥시아는 강력한 FY2025 4분기 실적 서프라이즈를 기록하였으며, 미국 ADR 상장 계획과 함께 보다 긍정적인 전망을 제시하였습니다. 업계 최고 수준의 마진 프로파일에 더하여, 키옥시아 경영진은 뛰어난 기술 실행력과 공급 규율을 보여주고 있으며, 이는 연초 대비 326% 상승 (메모리 동종업체 +205%, TOPIX +13%) 이후에도 주가의 상승 추세가 이어지기 ",
-          "date": "2026-05-17T12:54"
+          "channel": "beluga_investment",
+          "text": "**260518_SK hynix: LTA paves path for new valuation framework: raising PT to W3M, maintain OW - JPMorgan \n\n[Key Takeaways] \n\n(1) CSP들과 LTA 논의가 진행 중인 가운데, SK하이닉스는 전통적인 메모리 비즈니스 모델에 구조적 변화를 일으킬 수 있는 중요한 변곡점에 와 있다고 판단\n\n(2) 당분간 메모리 수급 불균형은 완화되기 어려우며, 메모리 업체와 CSP 양측 모두 LTA를 체결할 가능성이 높다고 판단 \n\n(3) 이는 메모리 이",
+          "date": "2026-05-17T22:54"
         },
         {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건) 삼성전자; 경기순환에서 구조적 성장으로: 목표주가 48만원으로 상향\n\n삼성전자 주가는 연초 대비 143% 상승하였으며 (메모리 동종업체: +267%, SOX: +70%), 이는 탑다운 CSP 설비투자 전망과 27년 추정 메모리 실적 간의 괴리가 좁혀지고, 장기 메모리 업사이클에 대한 확신이 높아진 데 기인하는 것으로 판단합니다. 메모리 제조사들은 주요 고객사들과 LTA 논의를 진행 중이며, 양측이 합의에 도달하여 기존 메모리 비즈니스 모델의 구조적 변화를 이끌 것으로 기대합니다. LTA가 메모리 실적의 질적 특성에 대한 ",
-          "date": "2026-05-17T12:52"
+          "channel": "beluga_investment",
+          "text": "**260518_Samsung Electronics: From cyclical to structural: Raise PT to W480K - JPMorgan \n\n[Key Takeaways] \n\n(1) 메모리 업체들은 주요 고객사들과 LTA를 논의 중이며 양측이 합의에 도달하면서 메모리 비즈니스 모델에 구조적 변화가 나타날 것으로 예상 \n\n(2) LTA는 메모리 이익의 질을 평가하는 방식에 중요한 영향을 미치고 종국에는 리레이팅 요인으로 작용할 것으로 판단 \n\n(3) 우리는 DRAM/NAND/HBM 가격 전망 상향을 반영해 '26년 ",
+          "date": "2026-05-17T22:52"
         }
       ]
     },
     "SK하이닉스": {
       "ticker": "SK하이닉스",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 6,
+      "messageCount": 3,
       "channels": [
-        "Jstockclass",
         "aetherjapanresearch",
-        "DOC_POOL"
+        "Jstockclass",
+        "beluga_investment"
       ],
-      "latestDate": "2026-05-17T22:22:44+00:00",
+      "latestDate": "2026-05-18T22:33:21+00:00",
       "messages": [
         {
           "channel": "Jstockclass",
-          "text": "**Kioxia 실적 시사점 : NAND ASP/OPM 상향 가능성, 삼성전자·하이닉스 매수 유지 (GS)**\n\n**1. Kioxia 가이던스 → 삼성전자·하이닉스 NAND ASP/OPM 상향 가능성**\n\n• Kioxia 1Q USD 기준 블렌디드 ASP, 전 분기 대비 100%+ 급등\n\n• 비트 출하량은 장비 유지보수 및 재고 소진 영향으로 QoQ -10%\n\n• 단, 데이터센터 SSD 비트 출하는 QoQ 증가 유지\n\n• 2Q USD 매출 가이던스 QoQ +70% 제시, 성장 주도 요인은 ASP\n\n• 골드만삭스 현재 삼성전자·하이닉",
-          "date": "2026-05-17T04:49"
+          "text": "**하이닉스, TP 180만원 → 300만원으로 상향 (JPM)**\n\n내용은 삼성전자와 유사합니다. \n\n27~28년 영업이익 전망치 14~17% 상향조정",
+          "date": "2026-05-17T23:08"
+        },
+        {
+          "channel": "beluga_investment",
+          "text": "**260518_SK hynix: LTA paves path for new valuation framework: raising PT to W3M, maintain OW - JPMorgan \n\n[Key Takeaways] \n\n(1) CSP들과 LTA 논의가 진행 중인 가운데, SK하이닉스는 전통적인 메모리 비즈니스 모델에 구조적 변화를 일으킬 수 있는 중요한 변곡점에 와 있다고 판단\n\n(2) 당분간 메모리 수급 불균형은 완화되기 어려우며, 메모리 업체와 CSP 양측 모두 LTA를 체결할 가능성이 높다고 판단 \n\n(3) 이는 메모리 이",
+          "date": "2026-05-17T22:54"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "JP모건) 글로벌 메모리 마켓 업데이트\n\n본 보고서는 LTA(장기공급계약)가 메모리 산업의 비즈니스 모델과 밸류에이션 프레임워크를 구조적으로 바꾸는 변곡점이 되고 있다는 점을 핵심 논지로 삼고 있습니다. 2026년 초부터 LTA는 메모리 업계에서 가장 치열한 논쟁의 대상이 되어 왔으며, 1분기 실적 시즌을 거치면서 여러 AI 부품 제조업체에서 LTA 사례가 구체화되고 있습니다. 메모리 업계에서는 현재까지 세 가지 사례, 즉 마이크론의 5년 LTA 공시, NYT의 제3자 사모 발행을 동반한 LTA, 그리고 미국 NAND 제조사가 FY",
-          "date": "2026-05-17T12:59"
-        },
+          "text": "**‼️델 행사, 블룸버그TV인터뷰**\n\n\"마이크론과 SK하이닉스 언급\"\n\n(질문) Last one on this, like Jensen outlined the Micron and the SK example, three years ago you gave them the heads up, do they believe you, are they sort of acting on that, they're investing?\"\n======\n\nSo it does take a long time to build these factories, but",
+          "date": "2026-05-18T22:33"
+        }
+      ]
+    },
+    "현대차": {
+      "ticker": "현대차",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "report_figure_by_offset"
+      ],
+      "latestDate": "2026-05-18T15:04:54+00:00",
+      "messages": [
         {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건)키옥시아 홀딩스 (285A); 강력한 어닝 서프라이즈 및 가이던스; LTA와 주주환원이 가치를 더욱 높일 것; 목표주가를 업계 최고 수준인 8만엔으로 상향\n\n키옥시아는 강력한 FY2025 4분기 실적 서프라이즈를 기록하였으며, 미국 ADR 상장 계획과 함께 보다 긍정적인 전망을 제시하였습니다. 업계 최고 수준의 마진 프로파일에 더하여, 키옥시아 경영진은 뛰어난 기술 실행력과 공급 규율을 보여주고 있으며, 이는 연초 대비 326% 상승 (메모리 동종업체 +205%, TOPIX +13%) 이후에도 주가의 상승 추세가 이어지기 ",
-          "date": "2026-05-17T12:54"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건) SK 하이닉스; LTA가 새로운 밸류에이션 프레임워크의 길을 열다: 목표주가 300만원으로 상향, OW 유지\n\nSK 하이닉스 주가는 연초 대비 201% 상승하였으며 (메모리 동종업체: +255%, SOX: +70%), 이는 2027년 추정 메모리 실적 및 장기 메모리 업사이클에 대한 시장의 신뢰 제고에 기인하는 것으로 판단됩니다. CSP 고객사들과의 LTA 협의가 진행되는 가운데, 저희는 SK 하이닉스가 기존 메모리 비즈니스 모델의 구조적 변화를 이끌 중대한 변곡점에 위치해 있다고 봅니다. 메모리 수급 불균형이 당분간 해",
-          "date": "2026-05-17T12:51"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "골드만삭스) 키옥시아 실적의 시사점\n5월 15일, 일본 NAND 제조사 키옥시아가 CY1Q26 실적을 발표하였으며, 당사는 커버리지 중인 한국 메모리 공급업체인 SK하이닉스와 삼성전자(에 대한 시사점을 제공합니다. \n주요 시사점은 다음과 같습니다: 1) CY2Q26 가이던스로부터 SEC/하이닉스의 더 강한 ASP 성장 및 높은 NAND OPM이 시사될 가능성이 높음, 2) 2027년까지 공급 타이트함이 지속될 것으로 예상하는 강세 시장 전망을 유지함, 3) 키옥시아의 ADR 상장 가능성은 하이닉스 센티먼트에 긍정적으로 작용할 수 있",
-          "date": "2026-05-17T04:23"
+          "channel": "report_figure_by_offset",
+          "text": "현대차 JPM 컨퍼런스 자료입니다!\n\nBD 기조연설에 현대차그룹 임원분들도 함께 참석하시는 것으로 보입니다.",
+          "date": "2026-05-18T15:04"
         }
       ]
     },
     "NVDA": {
       "ticker": "NVDA",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 6,
+      "messageCount": 2,
       "channels": [
-        "Jstockclass",
-        "aetherjapanresearch",
-        "easobi"
+        "easobi",
+        "beluga_investment"
       ],
-      "latestDate": "2026-05-17T13:05:59+00:00",
+      "latestDate": "2026-05-18T21:33:21+00:00",
       "messages": [
         {
-          "channel": "Jstockclass",
-          "text": "**AI, 모멘텀, 그리고 하나의 거대한 트레이드 (GS)\n\n1. 시장 현황: AI 중심의 극단적 쏠림\n\n**• S&P 500 YTD +10%, 이 중 TMT(IT·통신서비스·AMZN·TSLA)가 수익의 85% 차지\n\n• 기술주 제외 S&P 500은 YTD 고작 +3%\n\n• NVDA 단독으로 S&P 500 전체 YTD 수익의 20% 기여 (시가총액 비중 9%)\n\n• 지수는 최근 1개월간 14번 신고가 경신했으나, 중간값 종목은 52주 고점 대비 -13%\n\n• 시장 폭(breadth) 수십 년래 최저 수준으로 축소\n**\n2. 모멘텀 ",
-          "date": "2026-05-17T04:26"
+          "channel": "beluga_investment",
+          "text": "***NVIDIA CEO HUANG: NEED TO ENSURE SUPPLY CHAIN IS READY; SEES MEMORY DEMAND OUTSTRIPPING CAPACITY\n\n*엔비디아 CEO 황: 공급망이 준비돼 있도록 보장할 필요가 있음. 메모리 수요가 생산 능력을 초과할 것으로 전망**",
+          "date": "2026-05-18T21:30"
         },
         {
           "channel": "easobi",
-          "text": "*   TJX (TJX Companies) FQ1: 총 매출 +6.77% 증가한 139.98억 달러, 동일 매장 매출(comps) +3.6%, 매출총이익률 약 30%, 주당순이익(EPS) +9.7% 증가한 1.01달러로 예상됩니다.\n*   WDAY (워크데이) FQ1: 총 매출 +12.3% 증가한 25억 달러(구독 매출 +13.4% 증가한 23.3억 달러), 12개월 구독 백로그 +15.1% 증가한 87.8억 달러, 영업이익률 30.5%로 예상됩니다. F27 구독 매출은 +12.6%(가이던스 12-13% 대비), 영업이익률 30.1",
-          "date": "2026-05-17T09:00"
-        },
-        {
-          "channel": "easobi",
-          "text": "📅 Catalyst Watch (week of Mon 5/18) - 주간 전략 프리뷰\n\n🧭 한눈에 보는 주간 핵심 📈\n이번 주에는 중국 경제 지표, FOMC 의사록, 플래시 PMI 등 주요 거시 경제 이벤트들이 대기하고 있습니다. 기업 실적 발표로는 홈디포(HD), 아날로그디바이스(ADI), 엔비디아(NVDA), 타겟(TGT), TJX, 월마트(WMT), 워크데이(WDAY), 디어(DE) 등 주요 기업들의 실적이 예정되어 투자자들의 이목을 집중시킬 것입니다. 또한 델 테크놀로지스 월드와 구글 I/O 컨퍼런스 등 기술 관련 행사도 주",
-          "date": "2026-05-17T09:00"
-        },
-        {
-          "channel": "easobi",
-          "text": "🔁 Catalyst Watch Delta (week of Mon 5/18 vs Mon 5/8)\n\n🧭 변화 한눈에\n*   주요 거시경제 이벤트와 실적 발표 기업 목록이 완전히 새로운 항목들로 교체됨.\n*   신규 기업 컨퍼런스 및 기술 행사(Dell, Google)가 추가되고, 지난 주의 애널리스트 미팅은 사라짐.\n*   전 주에 다루었던 기업별 상세 전망은 모두 제외되고, 이번 주에 새롭게 많은 기업들의 상세 전망이 추가됨.\n\n🆕 새로 생긴 리스크\n*   CAVA: 극도로 높은 밸류에이션, 거시적 소비자 역풍, 다른 고평가 QSR ",
-          "date": "2026-05-17T08:52"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건) CoWoS와 어드밴스드 패키징 전망치 상향\n\nCoWoS 캐파 전망에서 JP모건은 TSMC가 2026년 말까지 115K, 2027년 말까지 175K, 2028년 말까지 220K wfpm의 CoWoS 캐파를 구축할 것으로 예상했으며, 연간 웨이퍼 산출량은 2026년 110만장, 2027년 190만장, 2028년 240만장 수준에 이를 것으로 전망했습니다. 상향의 배경으로는 자체 캐파의 빠른 램프업과 OSAT 및 VIS를 활용한 인터포저 제조 외주가 거론되었으며, TSMC가 최근 가이던스로 제시한 2022-27년 CoWoS 캐",
-          "date": "2026-05-17T13:05"
-        }
-      ]
-    },
-    "AMZN": {
-      "ticker": "AMZN",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
-      "channels": [
-        "Jstockclass",
-        "easobi"
-      ],
-      "latestDate": "2026-05-17T09:00:58+00:00",
-      "messages": [
-        {
-          "channel": "Jstockclass",
-          "text": "**AI, 모멘텀, 그리고 하나의 거대한 트레이드 (GS)\n\n1. 시장 현황: AI 중심의 극단적 쏠림\n\n**• S&P 500 YTD +10%, 이 중 TMT(IT·통신서비스·AMZN·TSLA)가 수익의 85% 차지\n\n• 기술주 제외 S&P 500은 YTD 고작 +3%\n\n• NVDA 단독으로 S&P 500 전체 YTD 수익의 20% 기여 (시가총액 비중 9%)\n\n• 지수는 최근 1개월간 14번 신고가 경신했으나, 중간값 종목은 52주 고점 대비 -13%\n\n• 시장 폭(breadth) 수십 년래 최저 수준으로 축소\n**\n2. 모멘텀 ",
-          "date": "2026-05-17T04:26"
-        },
-        {
-          "channel": "easobi",
-          "text": "*   TJX (TJX Companies) FQ1: 총 매출 +6.77% 증가한 139.98억 달러, 동일 매장 매출(comps) +3.6%, 매출총이익률 약 30%, 주당순이익(EPS) +9.7% 증가한 1.01달러로 예상됩니다.\n*   WDAY (워크데이) FQ1: 총 매출 +12.3% 증가한 25억 달러(구독 매출 +13.4% 증가한 23.3억 달러), 12개월 구독 백로그 +15.1% 증가한 87.8억 달러, 영업이익률 30.5%로 예상됩니다. F27 구독 매출은 +12.6%(가이던스 12-13% 대비), 영업이익률 30.1",
-          "date": "2026-05-17T09:00"
-        },
-        {
-          "channel": "easobi",
-          "text": "🔁 Catalyst Watch Delta (week of Mon 5/18 vs Mon 5/8)\n\n🧭 변화 한눈에\n*   주요 거시경제 이벤트와 실적 발표 기업 목록이 완전히 새로운 항목들로 교체됨.\n*   신규 기업 컨퍼런스 및 기술 행사(Dell, Google)가 추가되고, 지난 주의 애널리스트 미팅은 사라짐.\n*   전 주에 다루었던 기업별 상세 전망은 모두 제외되고, 이번 주에 새롭게 많은 기업들의 상세 전망이 추가됨.\n\n🆕 새로 생긴 리스크\n*   CAVA: 극도로 높은 밸류에이션, 거시적 소비자 역풍, 다른 고평가 QSR ",
-          "date": "2026-05-17T08:52"
+          "text": "2026년 5월 18일 글로벌 마감 시황 브리핑 📈📉\n\n뉴욕 증시는 기술주 약세와 지정학적 불확실성 속에서 혼조세를 보이며 등락을 거듭했습니다. 다우존스 산업평균지수는 49686.12로 159.95포인트(0.32%) 상승한 반면, 나스닥 종합지수는 26111.73으로 113.41포인트(-0.43%) 하락했으며, S&P 500 지수는 7403.05로 5.45포인트(-0.07%) 소폭 하락 마감했습니다. 미국과 이란 간 평화 협상 관련 초기 낙관론이 희석되고 반도체 부문의 지속적인 압박이 시장 전반에 영향을 미쳤습니다. 그러나 트럼프 ",
+          "date": "2026-05-18T21:33"
         }
       ]
     },
     "TSLA": {
       "ticker": "TSLA",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
+      "messageCount": 2,
       "channels": [
-        "Jstockclass"
+        "DOC_POOL",
+        "easobi"
       ],
-      "latestDate": "2026-05-17T04:26:19+00:00",
+      "latestDate": "2026-05-18T22:11:31+00:00",
       "messages": [
         {
-          "channel": "Jstockclass",
-          "text": "**AI, 모멘텀, 그리고 하나의 거대한 트레이드 (GS)\n\n1. 시장 현황: AI 중심의 극단적 쏠림\n\n**• S&P 500 YTD +10%, 이 중 TMT(IT·통신서비스·AMZN·TSLA)가 수익의 85% 차지\n\n• 기술주 제외 S&P 500은 YTD 고작 +3%\n\n• NVDA 단독으로 S&P 500 전체 YTD 수익의 20% 기여 (시가총액 비중 9%)\n\n• 지수는 최근 1개월간 14번 신고가 경신했으나, 중간값 종목은 52주 고점 대비 -13%\n\n• 시장 폭(breadth) 수십 년래 최저 수준으로 축소\n**\n2. 모멘텀 ",
-          "date": "2026-05-17T04:26"
+          "channel": "easobi",
+          "text": "2026년 5월 18일 글로벌 마감 시황 브리핑 📈📉\n\n뉴욕 증시는 기술주 약세와 지정학적 불확실성 속에서 혼조세를 보이며 등락을 거듭했습니다. 다우존스 산업평균지수는 49686.12로 159.95포인트(0.32%) 상승한 반면, 나스닥 종합지수는 26111.73으로 113.41포인트(-0.43%) 하락했으며, S&P 500 지수는 7403.05로 5.45포인트(-0.07%) 소폭 하락 마감했습니다. 미국과 이란 간 평화 협상 관련 초기 낙관론이 희석되고 반도체 부문의 지속적인 압박이 시장 전반에 영향을 미쳤습니다. 그러나 트럼프 ",
+          "date": "2026-05-18T21:33"
+        },
+        {
+          "channel": "DOC_POOL",
+          "text": "**비에이치 (090460)**\n제목: 로봇은 비에이치(R/F PCB)에 왜 주목하는가!\n작성일: 2024.05.19\n작성자: 박강호 (대신증권)\n투자의견: BUY\n목표주가: 52,000\n\n**[로봇 시장 확대]**\n· 글로벌 휴머노이드 및 로봇 시장 성장에 따라 연성PCB(FPCB) 및 R/F PCB 수요가 증대될 전망입니다. 테슬라, 보스턴 다이내믹스, 현대자동차, 삼성전자, LG전자 등 주요 업체들이 로봇 사업에 주목하며, 비에이치는 이러한 추세에 부합하는 핵심 부품 공급업체로 부상할 가능성이 높습니다.\n\n**[기술 경쟁력 및",
+          "date": "2026-05-18T22:11"
         }
       ]
     },
-    "ADI": {
-      "ticker": "ADI",
+    "VRT": {
+      "ticker": "VRT",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
+      "messageCount": 1,
       "channels": [
         "easobi"
       ],
-      "latestDate": "2026-05-17T09:00:58+00:00",
+      "latestDate": "2026-05-18T21:33:21+00:00",
       "messages": [
         {
           "channel": "easobi",
-          "text": "*   TJX (TJX Companies) FQ1: 총 매출 +6.77% 증가한 139.98억 달러, 동일 매장 매출(comps) +3.6%, 매출총이익률 약 30%, 주당순이익(EPS) +9.7% 증가한 1.01달러로 예상됩니다.\n*   WDAY (워크데이) FQ1: 총 매출 +12.3% 증가한 25억 달러(구독 매출 +13.4% 증가한 23.3억 달러), 12개월 구독 백로그 +15.1% 증가한 87.8억 달러, 영업이익률 30.5%로 예상됩니다. F27 구독 매출은 +12.6%(가이던스 12-13% 대비), 영업이익률 30.1",
-          "date": "2026-05-17T09:00"
-        },
-        {
-          "channel": "easobi",
-          "text": "📅 Catalyst Watch (week of Mon 5/18) - 주간 전략 프리뷰\n\n🧭 한눈에 보는 주간 핵심 📈\n이번 주에는 중국 경제 지표, FOMC 의사록, 플래시 PMI 등 주요 거시 경제 이벤트들이 대기하고 있습니다. 기업 실적 발표로는 홈디포(HD), 아날로그디바이스(ADI), 엔비디아(NVDA), 타겟(TGT), TJX, 월마트(WMT), 워크데이(WDAY), 디어(DE) 등 주요 기업들의 실적이 예정되어 투자자들의 이목을 집중시킬 것입니다. 또한 델 테크놀로지스 월드와 구글 I/O 컨퍼런스 등 기술 관련 행사도 주",
-          "date": "2026-05-17T09:00"
-        },
-        {
-          "channel": "easobi",
-          "text": "🔁 Catalyst Watch Delta (week of Mon 5/18 vs Mon 5/8)\n\n🧭 변화 한눈에\n*   주요 거시경제 이벤트와 실적 발표 기업 목록이 완전히 새로운 항목들로 교체됨.\n*   신규 기업 컨퍼런스 및 기술 행사(Dell, Google)가 추가되고, 지난 주의 애널리스트 미팅은 사라짐.\n*   전 주에 다루었던 기업별 상세 전망은 모두 제외되고, 이번 주에 새롭게 많은 기업들의 상세 전망이 추가됨.\n\n🆕 새로 생긴 리스크\n*   CAVA: 극도로 높은 밸류에이션, 거시적 소비자 역풍, 다른 고평가 QSR ",
-          "date": "2026-05-17T08:52"
+          "text": "2026년 5월 18일 글로벌 마감 시황 브리핑 📈📉\n\n뉴욕 증시는 기술주 약세와 지정학적 불확실성 속에서 혼조세를 보이며 등락을 거듭했습니다. 다우존스 산업평균지수는 49686.12로 159.95포인트(0.32%) 상승한 반면, 나스닥 종합지수는 26111.73으로 113.41포인트(-0.43%) 하락했으며, S&P 500 지수는 7403.05로 5.45포인트(-0.07%) 소폭 하락 마감했습니다. 미국과 이란 간 평화 협상 관련 초기 낙관론이 희석되고 반도체 부문의 지속적인 압박이 시장 전반에 영향을 미쳤습니다. 그러나 트럼프 ",
+          "date": "2026-05-18T21:33"
         }
       ]
     },
-    "GOOGL": {
-      "ticker": "GOOGL",
+    "BE": {
+      "ticker": "BE",
       "summary": "분석 실패: Connection error.",
       "messageCount": 5,
       "channels": [
-        "aetherjapanresearch",
-        "easobi"
+        "easobi",
+        "aetherjapanresearch"
       ],
-      "latestDate": "2026-05-17T13:05:59+00:00",
+      "latestDate": "2026-05-18T22:33:21+00:00",
       "messages": [
         {
           "channel": "easobi",
-          "text": "*   TJX (TJX Companies) FQ1: 총 매출 +6.77% 증가한 139.98억 달러, 동일 매장 매출(comps) +3.6%, 매출총이익률 약 30%, 주당순이익(EPS) +9.7% 증가한 1.01달러로 예상됩니다.\n*   WDAY (워크데이) FQ1: 총 매출 +12.3% 증가한 25억 달러(구독 매출 +13.4% 증가한 23.3억 달러), 12개월 구독 백로그 +15.1% 증가한 87.8억 달러, 영업이익률 30.5%로 예상됩니다. F27 구독 매출은 +12.6%(가이던스 12-13% 대비), 영업이익률 30.1",
-          "date": "2026-05-17T09:00"
-        },
-        {
-          "channel": "easobi",
-          "text": "📅 Catalyst Watch (week of Mon 5/18) - 주간 전략 프리뷰\n\n🧭 한눈에 보는 주간 핵심 📈\n이번 주에는 중국 경제 지표, FOMC 의사록, 플래시 PMI 등 주요 거시 경제 이벤트들이 대기하고 있습니다. 기업 실적 발표로는 홈디포(HD), 아날로그디바이스(ADI), 엔비디아(NVDA), 타겟(TGT), TJX, 월마트(WMT), 워크데이(WDAY), 디어(DE) 등 주요 기업들의 실적이 예정되어 투자자들의 이목을 집중시킬 것입니다. 또한 델 테크놀로지스 월드와 구글 I/O 컨퍼런스 등 기술 관련 행사도 주",
-          "date": "2026-05-17T09:00"
-        },
-        {
-          "channel": "easobi",
-          "text": "🔁 Catalyst Watch Delta (week of Mon 5/18 vs Mon 5/8)\n\n🧭 변화 한눈에\n*   주요 거시경제 이벤트와 실적 발표 기업 목록이 완전히 새로운 항목들로 교체됨.\n*   신규 기업 컨퍼런스 및 기술 행사(Dell, Google)가 추가되고, 지난 주의 애널리스트 미팅은 사라짐.\n*   전 주에 다루었던 기업별 상세 전망은 모두 제외되고, 이번 주에 새롭게 많은 기업들의 상세 전망이 추가됨.\n\n🆕 새로 생긴 리스크\n*   CAVA: 극도로 높은 밸류에이션, 거시적 소비자 역풍, 다른 고평가 QSR ",
-          "date": "2026-05-17T08:52"
+          "text": "**#기계**** ****#DN오토모티브**** 260518 1Q26 Review**\n\n- 공작기계의 DN솔루션즈 매출 5,600억 / OP 1,115억 (OPM 19.9%). 신규수주는 분기 6,500억 수준으로 분기 기준 ATH.\n- 북미 수주 강세 코멘트 받았는데, 우주항공향 수요 강세 영향이 있는 듯.\n- 새로 인수한 Heller는 900 / -20. Heller 실적은 2월부터 반영.\n- Heller의 경우 4Q25와 달리 QoQ 적자전환하였으나 분기 계절성이라고 봐야.\n- 연매출 기준 BEP 450~500m€ 수준으로 소",
+          "date": "2026-05-18T13:37"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "JP모건) CoWoS와 어드밴스드 패키징 전망치 상향\n\nCoWoS 캐파 전망에서 JP모건은 TSMC가 2026년 말까지 115K, 2027년 말까지 175K, 2028년 말까지 220K wfpm의 CoWoS 캐파를 구축할 것으로 예상했으며, 연간 웨이퍼 산출량은 2026년 110만장, 2027년 190만장, 2028년 240만장 수준에 이를 것으로 전망했습니다. 상향의 배경으로는 자체 캐파의 빠른 램프업과 OSAT 및 VIS를 활용한 인터포저 제조 외주가 거론되었으며, TSMC가 최근 가이던스로 제시한 2022-27년 CoWoS 캐",
-          "date": "2026-05-17T13:05"
+          "text": "**‼️델 행사, 블룸버그TV인터뷰**\n\n\"마이크론과 SK하이닉스 언급\"\n\n(질문) Last one on this, like Jensen outlined the Micron and the SK example, three years ago you gave them the heads up, do they believe you, are they sort of acting on that, they're investing?\"\n======\n\nSo it does take a long time to build these factories, but",
+          "date": "2026-05-18T22:33"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "정부, 삼성전자에 긴급조정권 첫 거론…\"마지막 기회\" 최대 압박\n\n김민석 국무총리는 이날 정부서울청사에서 진행한 삼성전자 파업 관련 대국민담화에서 \"삼성전자 파업으로 국민 경제에 막대한 피해가 우려되는 상황이 발생한다면 정부는 국민 경제 보호를 위해 긴급조정을 포함한 가능한 모든 대응 수단을 강구하지 않을 수 없다\"고 밝혔다.\n\n김 총리는 \"동시에 분명히 말씀드린다. 18일 교섭은 파업을 막을 수 있는 사실상 마지막 기회\"라며 \"노사 모두 이 자리의 무게를 결코 가볍게 여겨선 안 된다\"고 강조했다.\n\nhttps://www.yna.c",
-          "date": "2026-05-17T03:49"
+          "text": "**‼️델 행사, 블룸버그TV인터뷰**\n\n(답)The president wants America to win everywhere, right? The president wants America to lead the AI revolution, and so H200s are licensed to sell to China\n\n트럼프 대통령은 미국이 모든 곳에서 이기기를 원합니다, 그렇지 않나요? 대통령은 미국이 AI 혁명을 주도하기를 바라며, 이에 따라 H200은 중국 수출 승인을 받은 상태입니다.\n\n이제 중국 정부가 자국 시장을 얼마나 ",
+          "date": "2026-05-18T22:33"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Citi) 항공우주 vs 방산, 누가 먼저 반등할까\n\n1. 보고서 핵심 요지\nCiti는 이번 보고서를 통해 항공우주·방산 커버리지 전반에 대한 추정치와 목표주가를 일제히 업데이트하였으며, 대규모 분쟁 해결 움직임이 없는 상황에서 즉각적인 V자형 반등은 기대하기 어렵다고 진단하였습니다. 다만 최근의 과도한 매도 반응이 매수 기회를 만들어내고 있으며, 섹터를 견인하는 메가트렌드가 지속적으로 누적되면서 밸류에이션 압축이 오히려 심화되고 있다고 평가하였습니다. 이러한 판단을 바탕으로 LMT(록히드마틴), RTX, LOAR(LOAR홀딩스),",
+          "date": "2026-05-18T15:10"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "*** 미국이 이란산 원유 제재 잠정 해제 동의했다는 소식**\n\n========================\n\n~ **US HAS ACCEPTED THE LIFTING OF IRAN'S OIL SANCTIONS IN ITS NEW TEXT** : A SOURCE CLOSE TO THE NEGOTIATION TEAM TOLD TASNIM THAT UNLIKE ITS PREVIOUS TEXTS, THE US HAS ACCEPTED IN THE NEW TEXT TO WAVE IRAN'S OIL SANCTIONS DURING THE NEG",
+          "date": "2026-05-18T12:30"
         }
       ]
     },
-    "GOOG": {
-      "ticker": "GOOG",
+    "LLY": {
+      "ticker": "LLY",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-05-18T22:33:21+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "**‼️델 행사, 블룸버그TV인터뷰**\n\n\"마이크론과 SK하이닉스 언급\"\n\n(질문) Last one on this, like Jensen outlined the Micron and the SK example, three years ago you gave them the heads up, do they believe you, are they sort of acting on that, they're investing?\"\n======\n\nSo it does take a long time to build these factories, but",
+          "date": "2026-05-18T22:33"
+        }
+      ]
+    },
+    "MSFT": {
+      "ticker": "MSFT",
       "summary": "분석 실패: Connection error.",
       "messageCount": 2,
       "channels": [
-        "aetherjapanresearch",
-        "easobi"
+        "aetherjapanresearch"
       ],
-      "latestDate": "2026-05-17T08:52:31+00:00",
+      "latestDate": "2026-05-18T22:33:21+00:00",
       "messages": [
         {
-          "channel": "easobi",
-          "text": "🔁 Catalyst Watch Delta (week of Mon 5/18 vs Mon 5/8)\n\n🧭 변화 한눈에\n*   주요 거시경제 이벤트와 실적 발표 기업 목록이 완전히 새로운 항목들로 교체됨.\n*   신규 기업 컨퍼런스 및 기술 행사(Dell, Google)가 추가되고, 지난 주의 애널리스트 미팅은 사라짐.\n*   전 주에 다루었던 기업별 상세 전망은 모두 제외되고, 이번 주에 새롭게 많은 기업들의 상세 전망이 추가됨.\n\n🆕 새로 생긴 리스크\n*   CAVA: 극도로 높은 밸류에이션, 거시적 소비자 역풍, 다른 고평가 QSR ",
-          "date": "2026-05-17T08:52"
+          "channel": "aetherjapanresearch",
+          "text": "**‼️델 행사, 블룸버그TV인터뷰**\n\n\"마이크론과 SK하이닉스 언급\"\n\n(질문) Last one on this, like Jensen outlined the Micron and the SK example, three years ago you gave them the heads up, do they believe you, are they sort of acting on that, they're investing?\"\n======\n\nSo it does take a long time to build these factories, but",
+          "date": "2026-05-18T22:33"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "정부, 삼성전자에 긴급조정권 첫 거론…\"마지막 기회\" 최대 압박\n\n김민석 국무총리는 이날 정부서울청사에서 진행한 삼성전자 파업 관련 대국민담화에서 \"삼성전자 파업으로 국민 경제에 막대한 피해가 우려되는 상황이 발생한다면 정부는 국민 경제 보호를 위해 긴급조정을 포함한 가능한 모든 대응 수단을 강구하지 않을 수 없다\"고 밝혔다.\n\n김 총리는 \"동시에 분명히 말씀드린다. 18일 교섭은 파업을 막을 수 있는 사실상 마지막 기회\"라며 \"노사 모두 이 자리의 무게를 결코 가볍게 여겨선 안 된다\"고 강조했다.\n\nhttps://www.yna.c",
-          "date": "2026-05-17T03:49"
+          "text": "시게이트 CEO \"신규 공장 건설은 너무 오래 걸린다\" 발언에 메모리 주식 급락\n\n시게이트의 주가가 월요일 6% 이상 하락하며 메모리 업종 전반의 매도세를 이끌었습니다. 이는 CEO 데이브 모즐리가 JP모건 컨퍼런스에서 한 발언이 발단이 되었는데, 그는 신규 공장 건설이나 신규 설비 도입에 착수할 경우 기술 성장 속도가 오히려 둔화될 것이라며 현실적으로 시간이 너무 오래 걸린다고 밝혔습니다. 마이크론, 샌디스크, 웨스턴 디지털 주가도 일제히 약 5% 하락 마감했습니다.\n\n최근 AI 투자 붐으로 메모리 수요가 급증하면서 메모리 칩주들",
+          "date": "2026-05-18T22:32"
+        }
+      ]
+    },
+    "TIME코스닥": {
+      "ticker": "TIME코스닥",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 2,
+      "channels": [
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-05-18T22:33:21+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "**‼️델 행사, 블룸버그TV인터뷰**\n\n\"마이크론과 SK하이닉스 언급\"\n\n(질문) Last one on this, like Jensen outlined the Micron and the SK example, three years ago you gave them the heads up, do they believe you, are they sort of acting on that, they're investing?\"\n======\n\nSo it does take a long time to build these factories, but",
+          "date": "2026-05-18T22:33"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "**‼️델 행사, 블룸버그TV인터뷰**\n\n(답)The president wants America to win everywhere, right? The president wants America to lead the AI revolution, and so H200s are licensed to sell to China\n\n트럼프 대통령은 미국이 모든 곳에서 이기기를 원합니다, 그렇지 않나요? 대통령은 미국이 AI 혁명을 주도하기를 바라며, 이에 따라 H200은 중국 수출 승인을 받은 상태입니다.\n\n이제 중국 정부가 자국 시장을 얼마나 ",
+          "date": "2026-05-18T22:33"
         }
       ]
     },
@@ -248,47 +246,73 @@
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
-        "easobi"
+        "aetherjapanresearch"
       ],
-      "latestDate": "2026-05-17T08:52:31+00:00",
+      "latestDate": "2026-05-18T22:32:35+00:00",
       "messages": [
         {
-          "channel": "easobi",
-          "text": "📘 Weekly Recap (week ended Friday May 15, 2026) - 지난주 미국 시황 리뷰\n\n🧭 한눈에 보는 주간 핵심\n이번 주 시장에서는 어닝(실적) 발표 측면에서는 강세론자들이 승리했지만, 전반적으로는 약세론자들이 우세했습니다. 📈 시스코와 어플라이드 머티리얼즈를 필두로 한 4월 말 실적 시즌이 견조하게 시작되면서 어닝은 여전히 강세를 보였고, 이는 강세론자들에게 힘을 실어주었습니다. 하지만 이란과의 교착 상태, 트럼프 대통령의 중국 방문 성과 부재, 전 세계적인 높은 인플레이션 수치, 기술 및 AI 섹터의",
-          "date": "2026-05-17T08:52"
+          "channel": "aetherjapanresearch",
+          "text": "시게이트 CEO \"신규 공장 건설은 너무 오래 걸린다\" 발언에 메모리 주식 급락\n\n시게이트의 주가가 월요일 6% 이상 하락하며 메모리 업종 전반의 매도세를 이끌었습니다. 이는 CEO 데이브 모즐리가 JP모건 컨퍼런스에서 한 발언이 발단이 되었는데, 그는 신규 공장 건설이나 신규 설비 도입에 착수할 경우 기술 성장 속도가 오히려 둔화될 것이라며 현실적으로 시간이 너무 오래 걸린다고 밝혔습니다. 마이크론, 샌디스크, 웨스턴 디지털 주가도 일제히 약 5% 하락 마감했습니다.\n\n최근 AI 투자 붐으로 메모리 수요가 급증하면서 메모리 칩주들",
+          "date": "2026-05-18T22:32"
         }
       ]
     },
-    "BE": {
-      "ticker": "BE",
+    "LMT": {
+      "ticker": "LMT",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 4,
+      "messageCount": 1,
       "channels": [
-        "aetherjapanresearch",
-        "DOC_POOL",
-        "easobi"
+        "aetherjapanresearch"
       ],
-      "latestDate": "2026-05-17T22:24:09+00:00",
+      "latestDate": "2026-05-18T15:10:56+00:00",
       "messages": [
         {
-          "channel": "easobi",
-          "text": "전 세계가 주목하는 중국의 첨단기술 그 중심에는 결국 '인재' 가있다|KBS 다큐 인사이트 - 인재전쟁2 :1부 차이나 스피드 260514 방송\nhttps://youtu.be/0-nPEj6euio?si=sOybw3mUVC7nL4qW\n\n일요일 아침에 딱",
-          "date": "2026-05-16T23:25"
+          "channel": "aetherjapanresearch",
+          "text": "Citi) 항공우주 vs 방산, 누가 먼저 반등할까\n\n1. 보고서 핵심 요지\nCiti는 이번 보고서를 통해 항공우주·방산 커버리지 전반에 대한 추정치와 목표주가를 일제히 업데이트하였으며, 대규모 분쟁 해결 움직임이 없는 상황에서 즉각적인 V자형 반등은 기대하기 어렵다고 진단하였습니다. 다만 최근의 과도한 매도 반응이 매수 기회를 만들어내고 있으며, 섹터를 견인하는 메가트렌드가 지속적으로 누적되면서 밸류에이션 압축이 오히려 심화되고 있다고 평가하였습니다. 이러한 판단을 바탕으로 LMT(록히드마틴), RTX, LOAR(LOAR홀딩스),",
+          "date": "2026-05-18T15:10"
+        }
+      ]
+    },
+    "AAPL": {
+      "ticker": "AAPL",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 3,
+      "channels": [
+        "DOC_POOL",
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-05-18T22:11:31+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Citi) 2030년 CPU TAM 1,320억 달러 전망; INTC 및 AMD 목표주가 상향\n\n시티의 견해\n당사는 범용 CPU, AI 헤드 노드, 에이전틱 CPU 애플리케이션을 포함하는 서버 CPU TAM 모델을 새롭게 제시합니다. 당사는 CPU TAM이 2030년까지 1,320억 달러로 확대될 것으로 전망하며, 이는 연평균 35% 성장률(CAGR)에 해당하며, 에이전틱 CPU의 연평균 185% 성장률이 이를 주도할 것으로 봅니다. 당사는 매수 의견의 INTC와 중립 의견의 AMD의 목표주가를 상향 조정하며, 이는 업데이트된 CP",
+          "date": "2026-05-18T14:53"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "트럼프 대통령의 3,700건 넘는 주식 거래에 월가 내부자들 경악 - 블룸버그 \n(by https://t.me/TNBfolio)\n- 트럼프 대통령의 최신 재무 공개에 따르면 그 또는 투자 고문들이 1분기에 3,700건이 넘는 주식 거래를 수행했다.\n- 이 거래들은 트럼프 정부와 이해관계가 있는 주요 기업들을 포함하고 있어 이해상충 우려를 재점화했다.\n- 트럼프 대통령은 1분기에 NVIDIA, Oracle, Microsoft, Boeing, Costco 등의 기업 주식을 각각 최소 100만 달러 이상 매수했다.\n- 백악관은 트럼프 대",
-          "date": "2026-05-17T12:42"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": ">>나트륨 배터리는 ‘가난한 사람의 리튬배터리’가 아니라 ‘AI 시대의 전략적 선택’\n\n•나트륨이온 배터리가 ‘리튬배터리 대체재’에서 독립적인 전략 기술로 재평가되고 있음. 최근 CATL의 연이은 움직임은 나트륨 배터리 산업화가 본격적인 전환점에 진입했음을 보여주고 있음. 특히 AIDC 에너지저장 수요 급증과 리튬 가격 재상승이 맞물리며, 나트륨 배터리의 안전성·원가 경쟁력·공급망 자립 가치가 다시 부각\n\n•2026년 4월 CATL은 TechDay에서 차세대 ‘나신(钠新)’ 배터리를 공개하며 양산의 핵심 난제로 꼽히던 네 가지 문제",
-          "date": "2026-05-17T03:41"
+          "text": "Citi) 키옥시아; 강한 가격 상승 모멘텀; FY3/27 영업이익 추정치를 7조 엔으로 상향\n\n씨티의 견해\n키옥시아 홀딩스의 목표주가를 31,000엔에서 73,000엔으로 상향하며 매수/고위험 등급을 유지합니다. 4~6월 ASP가 전분기 대비 64% 상승하여 1~3월의 115% 상승(당사 추정치) 이후에도 높은 성장세를 유지할 것으로 예상하며, FY3/27 영업이익 추정치를 7조 엔으로 상향합니다. 수요 측면에서는 AI 워크로드 증가에 따른 데이터센터 수요가 계속 확대되고 있습니다. 공급 측면에서 키옥시아는 2026년 전체 시장의",
+          "date": "2026-05-18T08:12"
         },
         {
           "channel": "DOC_POOL",
-          "text": "**[티엘비/반도체/부품]**\n제목: 티엘비 2026년 1분기 경영실적 발표\n작성일: 2026.05.12\n\n**[AI 서버 시장 성장]**\n· AI 서버 수요 확대로 고성능 메모리 및 스토리지용 PCB 수요가 증가하며, 티엘비는 Al Beneficiary로서 수혜를 입을 것으로 전망됩니다.\n\n**[매출 및 이익 성장 지속]**\n· 2026년 1분기 매출액 758억, 영업이익 107억을 기록하며 역대 최고 실적을 달성했습니다.\n· 이는 3분기 연속 창사 이래 최대 매출 및 세자리수 영업이익률 달성으로, 높은 환율 영향과 b.ASP의 ",
-          "date": "2026-05-17T22:24"
+          "text": "**비에이치 (090460)**\n제목: 로봇은 비에이치(R/F PCB)에 왜 주목하는가!\n작성일: 2024.05.19\n작성자: 박강호 (대신증권)\n투자의견: BUY\n목표주가: 52,000\n\n**[로봇 시장 확대]**\n· 글로벌 휴머노이드 및 로봇 시장 성장에 따라 연성PCB(FPCB) 및 R/F PCB 수요가 증대될 전망입니다. 테슬라, 보스턴 다이내믹스, 현대자동차, 삼성전자, LG전자 등 주요 업체들이 로봇 사업에 주목하며, 비에이치는 이러한 추세에 부합하는 핵심 부품 공급업체로 부상할 가능성이 높습니다.\n\n**[기술 경쟁력 및",
+          "date": "2026-05-18T22:11"
+        }
+      ]
+    },
+    "SMH": {
+      "ticker": "SMH",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-05-18T14:53:11+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Citi) 2030년 CPU TAM 1,320억 달러 전망; INTC 및 AMD 목표주가 상향\n\n시티의 견해\n당사는 범용 CPU, AI 헤드 노드, 에이전틱 CPU 애플리케이션을 포함하는 서버 CPU TAM 모델을 새롭게 제시합니다. 당사는 CPU TAM이 2030년까지 1,320억 달러로 확대될 것으로 전망하며, 이는 연평균 35% 성장률(CAGR)에 해당하며, 에이전틱 CPU의 연평균 185% 성장률이 이를 주도할 것으로 봅니다. 당사는 매수 의견의 INTC와 중립 의견의 AMD의 목표주가를 상향 조정하며, 이는 업데이트된 CP",
+          "date": "2026-05-18T14:53"
         }
       ]
     },
@@ -299,189 +323,113 @@
       "channels": [
         "aetherjapanresearch"
       ],
-      "latestDate": "2026-05-17T13:05:59+00:00",
+      "latestDate": "2026-05-18T14:53:11+00:00",
       "messages": [
         {
           "channel": "aetherjapanresearch",
-          "text": "JP모건) CoWoS와 어드밴스드 패키징 전망치 상향\n\nCoWoS 캐파 전망에서 JP모건은 TSMC가 2026년 말까지 115K, 2027년 말까지 175K, 2028년 말까지 220K wfpm의 CoWoS 캐파를 구축할 것으로 예상했으며, 연간 웨이퍼 산출량은 2026년 110만장, 2027년 190만장, 2028년 240만장 수준에 이를 것으로 전망했습니다. 상향의 배경으로는 자체 캐파의 빠른 램프업과 OSAT 및 VIS를 활용한 인터포저 제조 외주가 거론되었으며, TSMC가 최근 가이던스로 제시한 2022-27년 CoWoS 캐",
-          "date": "2026-05-17T13:05"
+          "text": "Citi) 2030년 CPU TAM 1,320억 달러 전망; INTC 및 AMD 목표주가 상향\n\n시티의 견해\n당사는 범용 CPU, AI 헤드 노드, 에이전틱 CPU 애플리케이션을 포함하는 서버 CPU TAM 모델을 새롭게 제시합니다. 당사는 CPU TAM이 2030년까지 1,320억 달러로 확대될 것으로 전망하며, 이는 연평균 35% 성장률(CAGR)에 해당하며, 에이전틱 CPU의 연평균 185% 성장률이 이를 주도할 것으로 봅니다. 당사는 매수 의견의 INTC와 중립 의견의 AMD의 목표주가를 상향 조정하며, 이는 업데이트된 CP",
+          "date": "2026-05-18T14:53"
         }
       ]
     },
-    "AVGO": {
-      "ticker": "AVGO",
+    "GOOGL": {
+      "ticker": "GOOGL",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
         "aetherjapanresearch"
       ],
-      "latestDate": "2026-05-17T13:05:59+00:00",
+      "latestDate": "2026-05-18T14:53:11+00:00",
       "messages": [
         {
           "channel": "aetherjapanresearch",
-          "text": "JP모건) CoWoS와 어드밴스드 패키징 전망치 상향\n\nCoWoS 캐파 전망에서 JP모건은 TSMC가 2026년 말까지 115K, 2027년 말까지 175K, 2028년 말까지 220K wfpm의 CoWoS 캐파를 구축할 것으로 예상했으며, 연간 웨이퍼 산출량은 2026년 110만장, 2027년 190만장, 2028년 240만장 수준에 이를 것으로 전망했습니다. 상향의 배경으로는 자체 캐파의 빠른 램프업과 OSAT 및 VIS를 활용한 인터포저 제조 외주가 거론되었으며, TSMC가 최근 가이던스로 제시한 2022-27년 CoWoS 캐",
-          "date": "2026-05-17T13:05"
+          "text": "Citi) 2030년 CPU TAM 1,320억 달러 전망; INTC 및 AMD 목표주가 상향\n\n시티의 견해\n당사는 범용 CPU, AI 헤드 노드, 에이전틱 CPU 애플리케이션을 포함하는 서버 CPU TAM 모델을 새롭게 제시합니다. 당사는 CPU TAM이 2030년까지 1,320억 달러로 확대될 것으로 전망하며, 이는 연평균 35% 성장률(CAGR)에 해당하며, 에이전틱 CPU의 연평균 185% 성장률이 이를 주도할 것으로 봅니다. 당사는 매수 의견의 INTC와 중립 의견의 AMD의 목표주가를 상향 조정하며, 이는 업데이트된 CP",
+          "date": "2026-05-18T14:53"
         }
       ]
     },
-    "MSFT": {
-      "ticker": "MSFT",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 4,
-      "channels": [
-        "d_ticker",
-        "aetherjapanresearch",
-        "DOC_POOL"
-      ],
-      "latestDate": "2026-05-17T22:24:30+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건) 글로벌 메모리 마켓 업데이트\n\n본 보고서는 LTA(장기공급계약)가 메모리 산업의 비즈니스 모델과 밸류에이션 프레임워크를 구조적으로 바꾸는 변곡점이 되고 있다는 점을 핵심 논지로 삼고 있습니다. 2026년 초부터 LTA는 메모리 업계에서 가장 치열한 논쟁의 대상이 되어 왔으며, 1분기 실적 시즌을 거치면서 여러 AI 부품 제조업체에서 LTA 사례가 구체화되고 있습니다. 메모리 업계에서는 현재까지 세 가지 사례, 즉 마이크론의 5년 LTA 공시, NYT의 제3자 사모 발행을 동반한 LTA, 그리고 미국 NAND 제조사가 FY",
-          "date": "2026-05-17T12:59"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "트럼프 대통령의 3,700건 넘는 주식 거래에 월가 내부자들 경악 - 블룸버그 \n(by https://t.me/TNBfolio)\n- 트럼프 대통령의 최신 재무 공개에 따르면 그 또는 투자 고문들이 1분기에 3,700건이 넘는 주식 거래를 수행했다.\n- 이 거래들은 트럼프 정부와 이해관계가 있는 주요 기업들을 포함하고 있어 이해상충 우려를 재점화했다.\n- 트럼프 대통령은 1분기에 NVIDIA, Oracle, Microsoft, Boeing, Costco 등의 기업 주식을 각각 최소 100만 달러 이상 매수했다.\n- 백악관은 트럼프 대",
-          "date": "2026-05-17T12:42"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**20주차 글로벌 증시 주간 상승률 - Dean's Ticker\n**\n[US](https://t.me/d_ticker)\n+30%｜타워 세미컨덕터｜파운드리\n+28%｜어플라이드 옵토일렉트로닉스｜광트랜시버\n+24%｜벤처글로벌｜LNG 터미널\n+24%｜네비우스｜AI 인프라\n+22%｜시스코｜네트워킹 장치\n+19%｜루멘 테크놀로지스｜엣지 컴퓨팅 센터\n+18%｜로켓랩｜로켓 발사\n+18%｜아라마크｜위탁 급식\n+17%｜팔로알토｜사이버보안\n+16%｜아스테라 랩스｜리타이머\n+16%｜패브리넷｜전자제품제조(EMS)\n+15%｜지브라｜바코드 스캐너\n+15%｜",
-          "date": "2026-05-17T13:41"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "**[하나마이크론/반도체/부품/장비]**\n제목: 기업가치 제고, 순항 중\n작성일: 2026.05.18\n작성자: Analyst 정민규 IIT/반도체\n투자의견: BUY 유지\n목표주가: 61,000원\n\n**[1분기 호실적 달성]**\n· 1Q26 연결 매출액 및 영업이익이 각각 5,077억원(+62.8% YoY, +12.8% QoQ), 720억원(+514% YoY)으로 컨센서스를 크게 상회하며 예상을 뛰어넘는 실적을 기록했습니다. 특히 브라질 법인의 높은 수익성과 베트남 법인의 단가 계약 효과가 수익성 개선을 견인했습니다.\n\n**[외형 성",
-          "date": "2026-05-17T22:24"
-        }
-      ]
-    },
-    "AAPL": {
-      "ticker": "AAPL",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-05-17T11:32:21+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "* **27년 **(루빈이 주도할)** AI 서버향 LPDDR 수요는 삼성+애플 스마트폰향 LPDDR 수요보다 더 큼**(Citrini Research)\n\n\n- 26년 블랙웰 기반 LPDDR 수요는 (불확실하지만) 10억~15억GB로 추정되므로 차트상의 **27년 서버향 60억 GB는 4~6배의 수요폭증을 의미**하고\n\n- 스맛폰향을 포함한 **전체 LPDDR 수요는 26년 대비 27년 +40~50% 급증한다는 계산이 나옴**\n\n- 삼전은 컨콜에서 분명히 **'27년이 26년보다 더 타이트하다'**고 했고\n\n- 한투 채민숙 애널리스",
-          "date": "2026-05-17T11:32"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "골드만삭스) 키옥시아 실적의 시사점\n5월 15일, 일본 NAND 제조사 키옥시아가 CY1Q26 실적을 발표하였으며, 당사는 커버리지 중인 한국 메모리 공급업체인 SK하이닉스와 삼성전자(에 대한 시사점을 제공합니다. \n주요 시사점은 다음과 같습니다: 1) CY2Q26 가이던스로부터 SEC/하이닉스의 더 강한 ASP 성장 및 높은 NAND OPM이 시사될 가능성이 높음, 2) 2027년까지 공급 타이트함이 지속될 것으로 예상하는 강세 시장 전망을 유지함, 3) 키옥시아의 ADR 상장 가능성은 하이닉스 센티먼트에 긍정적으로 작용할 수 있",
-          "date": "2026-05-17T04:23"
-        }
-      ]
-    },
-    "META": {
-      "ticker": "META",
+    "TEM": {
+      "ticker": "TEM",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
         "aetherjapanresearch"
       ],
-      "latestDate": "2026-05-17T08:05:36+00:00",
+      "latestDate": "2026-05-18T12:30:24+00:00",
       "messages": [
         {
           "channel": "aetherjapanresearch",
-          "text": "메타의 구조조정으로 직원들이 무료 간식, 음료, 충전기를 챙기려 몰려들며 패닉 사태 발생: 전직 직원\n(@FirstSquaw)",
-          "date": "2026-05-17T08:05"
+          "text": "*** 미국이 이란산 원유 제재 잠정 해제 동의했다는 소식**\n\n========================\n\n~ **US HAS ACCEPTED THE LIFTING OF IRAN'S OIL SANCTIONS IN ITS NEW TEXT** : A SOURCE CLOSE TO THE NEGOTIATION TEAM TOLD TASNIM THAT UNLIKE ITS PREVIOUS TEXTS, THE US HAS ACCEPTED IN THE NEW TEXT TO WAVE IRAN'S OIL SANCTIONS DURING THE NEG",
+          "date": "2026-05-18T12:30"
         }
       ]
     },
-    "SMR": {
-      "ticker": "SMR",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "aetherjapanresearch",
-        "DOC_POOL"
-      ],
-      "latestDate": "2026-05-17T22:22:44+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "미국 첫 SMR 건설 테라파워, 한국 원전 기술 사들였다 | 연합뉴스\nhttps://www.yna.co.kr/view/AKR20260516033300017",
-          "date": "2026-05-17T06:25"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "**[SK / 지주업]**\n제목: 이제는 할인이 아니라 프리미엄을 논할 때\n작성일: 2026.05.18\n작성자: 이경연 (대신증권 Research Center)\n투자의견: BUY (유지)\n목표주가: 880,000원 (상향)\n\n**[핵심 요약 1: SK, 구조조정 및 리밸런싱 성과 가시화]**\n· SK는 ①브랜드 로열티 증가, ②상장 자회사 주가 상승에 따른 NAV 증가, ③비상장 자회사 SK에코플랜트의 가치 재평가, ④구조적 할인율 축소에 따라 목표주가를 880,000원으로 상향(125.6%) 제시.\n· SK에코플랜트는 AI 인프라",
-          "date": "2026-05-17T22:22"
-        }
-      ]
-    },
-    "CRWD": {
-      "ticker": "CRWD",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "d_ticker"
-      ],
-      "latestDate": "2026-05-17T13:41:11+00:00",
-      "messages": [
-        {
-          "channel": "d_ticker",
-          "text": "**20주차 글로벌 증시 주간 상승률 - Dean's Ticker\n**\n[US](https://t.me/d_ticker)\n+30%｜타워 세미컨덕터｜파운드리\n+28%｜어플라이드 옵토일렉트로닉스｜광트랜시버\n+24%｜벤처글로벌｜LNG 터미널\n+24%｜네비우스｜AI 인프라\n+22%｜시스코｜네트워킹 장치\n+19%｜루멘 테크놀로지스｜엣지 컴퓨팅 센터\n+18%｜로켓랩｜로켓 발사\n+18%｜아라마크｜위탁 급식\n+17%｜팔로알토｜사이버보안\n+16%｜아스테라 랩스｜리타이머\n+16%｜패브리넷｜전자제품제조(EMS)\n+15%｜지브라｜바코드 스캐너\n+15%｜",
-          "date": "2026-05-17T13:41"
-        }
-      ]
-    },
-    "HD마린엔진": {
-      "ticker": "HD마린엔진",
+    "AMZN": {
+      "ticker": "AMZN",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
         "DOC_POOL"
       ],
-      "latestDate": "2026-05-17T22:23:55+00:00",
+      "latestDate": "2026-05-18T22:13:03+00:00",
       "messages": [
         {
           "channel": "DOC_POOL",
-          "text": "**[조선/조선기자재/리포트]**\n제목: 신조선가지수 2주만에 또 상승, LNG선 7척 수주 등 수주 강세\n작성일: 2024.05.17\n작성자: 최광식, 이준범 (다올투자증권)\n\n**[LNG선 발주]**\n· 지난주 한국 조선사들이 7척의 LNG선을 수주하며 강세를 보였으며, HD현대삼호, HD현대중공업, 한화오션, 삼성중공업 등 주요 기업들이 신규 수주를 확보했습니다.\n\n**[신조선가 상승]**\n· 신조선가지수가 2주 연속 상승하며 185P를 기록했으며, 이는 벌크선, 핸디 탱커, VLGC, 컨테이너선 등 다양한 선종에서 나타나는 ",
-          "date": "2026-05-17T22:23"
+          "text": "**[하나증권 / 리서치 / Morning Brief]**\n제목: 하나증권 리서치센터 Morning Brief\n작성일: 2026.05.19\n\n**[해외주식]**\n· **우주 데이터센터 가치 부각**\n- 스페이스X IPO 밸류에이션 1.75조 달러 이상 (EV/Sales 58배) 및 지수 편입, ETF 수급 효과로 우주 섹터 전반의 리레이팅이 촉매 작용.\n- 지상 데이터센터의 전력, 인허가, 비용 문제 심화로 우주가 대안으로 부상하며 빅테크의 경쟁 진입 가속.\n- 스페이스X의 우주 데이터센터 10년 누적 비용 $27bn으로 지상 $4",
+          "date": "2026-05-18T22:13"
         }
       ]
     },
-    "삼성중공업": {
-      "ticker": "삼성중공업",
+    "TIGER지주": {
+      "ticker": "TIGER지주",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
         "DOC_POOL"
       ],
-      "latestDate": "2026-05-17T22:23:55+00:00",
+      "latestDate": "2026-05-18T14:27:23+00:00",
       "messages": [
         {
           "channel": "DOC_POOL",
-          "text": "**[조선/조선기자재/리포트]**\n제목: 신조선가지수 2주만에 또 상승, LNG선 7척 수주 등 수주 강세\n작성일: 2024.05.17\n작성자: 최광식, 이준범 (다올투자증권)\n\n**[LNG선 발주]**\n· 지난주 한국 조선사들이 7척의 LNG선을 수주하며 강세를 보였으며, HD현대삼호, HD현대중공업, 한화오션, 삼성중공업 등 주요 기업들이 신규 수주를 확보했습니다.\n\n**[신조선가 상승]**\n· 신조선가지수가 2주 연속 상승하며 185P를 기록했으며, 이는 벌크선, 핸디 탱커, VLGC, 컨테이너선 등 다양한 선종에서 나타나는 ",
-          "date": "2026-05-17T22:23"
+          "text": "**[증권/시장 분석/Market Insight]**\n제목: 마켓 클로징 - 멈추지 않는 외국인\n작성일: 2026.05.18\n작성자: 김석환, 박수진 (미래에셋증권)\n\n**[외국인 매수세]**\n· 외국인이 코스피 시장에서 8거래일 연속 순매수를 기록하며 약 36조 원 규모로 매수 규모가 확대되었습니다.\n\n**[주요 시장 동향]**\n· 삼성전자( +3.88%)는 막판 협상 기대감에 힘입어 반등했습니다.\n· 우주항공 섹터는 스페이스X의 조기 상장 기대감으로 강세를 보이며 PLUS 우주항공&UAM(+8.41%) 종목이 상승했습니다.\n· ",
+          "date": "2026-05-18T14:27"
         }
       ]
     },
-    "HD현대중공업": {
-      "ticker": "HD현대중공업",
+    "KODEX200": {
+      "ticker": "KODEX200",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
         "DOC_POOL"
       ],
-      "latestDate": "2026-05-17T22:23:55+00:00",
+      "latestDate": "2026-05-18T14:27:23+00:00",
       "messages": [
         {
           "channel": "DOC_POOL",
-          "text": "**[조선/조선기자재/리포트]**\n제목: 신조선가지수 2주만에 또 상승, LNG선 7척 수주 등 수주 강세\n작성일: 2024.05.17\n작성자: 최광식, 이준범 (다올투자증권)\n\n**[LNG선 발주]**\n· 지난주 한국 조선사들이 7척의 LNG선을 수주하며 강세를 보였으며, HD현대삼호, HD현대중공업, 한화오션, 삼성중공업 등 주요 기업들이 신규 수주를 확보했습니다.\n\n**[신조선가 상승]**\n· 신조선가지수가 2주 연속 상승하며 185P를 기록했으며, 이는 벌크선, 핸디 탱커, VLGC, 컨테이너선 등 다양한 선종에서 나타나는 ",
-          "date": "2026-05-17T22:23"
+          "text": "**[증권/시장 분석/Market Insight]**\n제목: 마켓 클로징 - 멈추지 않는 외국인\n작성일: 2026.05.18\n작성자: 김석환, 박수진 (미래에셋증권)\n\n**[외국인 매수세]**\n· 외국인이 코스피 시장에서 8거래일 연속 순매수를 기록하며 약 36조 원 규모로 매수 규모가 확대되었습니다.\n\n**[주요 시장 동향]**\n· 삼성전자( +3.88%)는 막판 협상 기대감에 힘입어 반등했습니다.\n· 우주항공 섹터는 스페이스X의 조기 상장 기대감으로 강세를 보이며 PLUS 우주항공&UAM(+8.41%) 종목이 상승했습니다.\n· ",
+          "date": "2026-05-18T14:27"
+        }
+      ]
+    },
+    "미래에셋": {
+      "ticker": "미래에셋",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "DOC_POOL"
+      ],
+      "latestDate": "2026-05-18T14:27:23+00:00",
+      "messages": [
+        {
+          "channel": "DOC_POOL",
+          "text": "**[증권/시장 분석/Market Insight]**\n제목: 마켓 클로징 - 멈추지 않는 외국인\n작성일: 2026.05.18\n작성자: 김석환, 박수진 (미래에셋증권)\n\n**[외국인 매수세]**\n· 외국인이 코스피 시장에서 8거래일 연속 순매수를 기록하며 약 36조 원 규모로 매수 규모가 확대되었습니다.\n\n**[주요 시장 동향]**\n· 삼성전자( +3.88%)는 막판 협상 기대감에 힘입어 반등했습니다.\n· 우주항공 섹터는 스페이스X의 조기 상장 기대감으로 강세를 보이며 PLUS 우주항공&UAM(+8.41%) 종목이 상승했습니다.\n· ",
+          "date": "2026-05-18T14:27"
         }
       ]
     }
   },
-  "totalMessages": 63,
+  "totalMessages": 54,
   "channels": [
     "Jstockclass",
     "report_figure_by_offset",
