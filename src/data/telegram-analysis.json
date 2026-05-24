@@ -1,80 +1,161 @@
 {
-  "fetchedAt": "2026-05-23T22:47:47.803544",
+  "fetchedAt": "2026-05-24T22:45:55.435238",
   "status": "ok",
   "stocks": {
-    "TSM": {
-      "ticker": "TSM",
+    "BE": {
+      "ticker": "BE",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
+      "messageCount": 8,
       "channels": [
-        "aetherjapanresearch"
+        "DOC_POOL",
+        "report_figure_by_offset",
+        "aetherjapanresearch",
+        "easobi"
       ],
-      "latestDate": "2026-05-23T13:00:43+00:00",
+      "latestDate": "2026-05-24T22:15:49+00:00",
       "messages": [
         {
-          "channel": "aetherjapanresearch",
-          "text": "LTN) TSMC 성과급 삭감설에 직원들 분통 터뜨리며 \"삼성 파업 본받겠다\" 으름장\n\n TSMC 직원들의 급여와 각종 성과급·보너스는 줄곧 전 국민의 관심사였습니다. 2026년 현재까지 TSMC 주가는 여전히 눈부신 성과를 보이고 있지만, 최근 페이스북의 TSMC 관련 커뮤니티에 TSMC가 직원 성과급을 삭감할 예정이라는 내용의 게시물이 대거 등장했습니다. 관련 게시물 댓글란은 온통 비난 일색이며, 심지어 삼성전자의 파업을 본보기로 삼겠다고 으름장을 놓는 직원들까지 나타났습니다.\n\n페이스북의 'TSMC 대소사(TSMC大小事)', ",
-          "date": "2026-05-23T13:00"
+          "channel": "report_figure_by_offset",
+          "text": "https://youtu.be/N1YADWIzs_4\n\n간스님과 같이 염블리님 유튜브에 제 채널이  언급되었네요. 감사합니다 :)",
+          "date": "2026-05-24T07:34"
+        },
+        {
+          "channel": "easobi",
+          "text": "📅 Catalyst Watch (week of Mon 5/25) - 주간 전략 프리뷰\n\n🧭 한눈에 보는 주간 핵심\n\n이번 주 거시 경제 지표 발표는 비교적 한산하지만, 목요일에 발표될 미국의 4월 개인소비지출(PCE) 데이터에 시장의 관심이 집중될 예정입니다. 또한, 실적 발표가 매우 많으며, 여러 주요 증권사 컨퍼런스도 예정되어 있어 개별 기업 및 산업 전반에 걸친 논의가 활발할 것으로 예상됩니다. 특히 인공지능(AI) 관련 칩 및 소프트웨어 분야의 실적과 전망이 주목받을 것입니다. 🚀\n\n📅 날짜별 핵심 이벤트 캘린더\n\n🔥 주요 ",
+          "date": "2026-05-24T09:11"
+        },
+        {
+          "channel": "easobi",
+          "text": "*   AZO, ZS, ANF, DKS, A, CRM, HPQ, MRVL, SNOW, BBY, BURL, DLTR, HRL, KSS, ADSK, AEO, COST, DELL, GAP, MDB, NTAP 등 주요 기업들의 실적 발표 결과와 향후 가이던스에 따라 개별 주식의 등락폭을 확인해야 합니다. 특히 소프트웨어(ZS, CRM, SNOW, ADSK, MDB, NTAP)의 AI 관련 전망, 반도체/하드웨어(HPQ, MRVL, DELL)의 AI 서버 수요 및 마진 동향, 소매업(ANF, DKS, BBY, BURL, DLTR, HRL, ",
+          "date": "2026-05-24T09:11"
+        },
+        {
+          "channel": "easobi",
+          "text": "🔁 Catalyst Watch Delta (week of Mon 5/25 vs Mon 5/18)\n\n🧭 변화 한눈에\n*   거시경제 초점 변화: 지난 주 중국 경제 지표, FOMC 의사록, 플래시 PMI 발표에서 이번 주 미국 4월 개인소비지출(PCE) 데이터로 관심이 집중되었습니다. 전반적인 거시경제 일정은 한산한 편입니다. 📊\n*   기업 실적 발표 라인업 교체: 지난 주와 완전히 다른 새로운 기업들이 대거 실적 발표를 앞두고 있습니다. 특히 소매, 소프트웨어, 반도체/하드웨어 업종의 주요 기업들이 포함됩니다. 📈\n*   증권사 ",
+          "date": "2026-05-24T09:11"
+        },
+        {
+          "channel": "easobi",
+          "text": "https://youtu.be/N1YADWIzs_4?si=x9HdDsbbv8XJETFZ\n\n소개해주셔서 감사합니다 🔥",
+          "date": "2026-05-24T02:22"
         }
       ]
     },
-    "삼성전자": {
-      "ticker": "삼성전자",
+    "MRVL": {
+      "ticker": "MRVL",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
+      "messageCount": 3,
       "channels": [
-        "DOC_POOL",
-        "aetherjapanresearch"
+        "easobi"
       ],
-      "latestDate": "2026-05-23T13:00:43+00:00",
+      "latestDate": "2026-05-24T09:11:05+00:00",
       "messages": [
         {
-          "channel": "aetherjapanresearch",
-          "text": "LTN) TSMC 성과급 삭감설에 직원들 분통 터뜨리며 \"삼성 파업 본받겠다\" 으름장\n\n TSMC 직원들의 급여와 각종 성과급·보너스는 줄곧 전 국민의 관심사였습니다. 2026년 현재까지 TSMC 주가는 여전히 눈부신 성과를 보이고 있지만, 최근 페이스북의 TSMC 관련 커뮤니티에 TSMC가 직원 성과급을 삭감할 예정이라는 내용의 게시물이 대거 등장했습니다. 관련 게시물 댓글란은 온통 비난 일색이며, 심지어 삼성전자의 파업을 본보기로 삼겠다고 으름장을 놓는 직원들까지 나타났습니다.\n\n페이스북의 'TSMC 대소사(TSMC大小事)', ",
-          "date": "2026-05-23T13:00"
+          "channel": "easobi",
+          "text": "주요 기업들의 스트리트 컨센서스(시장 기대치)는 다음과 같습니다. 📊\n\n  AZO (AutoZone): 3분기 국내 동일 점포 매출 +4.6%, 총 매출 48억 6천만 달러 (+8.9%), 매출총이익 51.5%를 예상합니다.\n  ZS (Zscaler): 3분기 EPS 1.01달러, 총 매출 8억 3,530만 달러 (+23.2%), ARR 35억 달러 (+24.5%), 잉여현금흐름 약 1억 3,300만 달러를 예상합니다.\n  DELL (Dell): 1분기 총 매출 355억 달러 (+52%) (ISG +116% 222억 달러, AI 서",
+          "date": "2026-05-24T09:11"
         },
         {
-          "channel": "DOC_POOL",
-          "text": "**[기업명: 비엠티]**\n제목: 반도체·친환경 연료 중심 신규 성장 Cycle 진입\n작성일: 2026.05.16\n\n**[반도체 부문 실적 회복 및 성장]**\n· 삼성전자 및 SK하이닉스 대상의 계장/UHP 피팅·밸브 공급 경험을 바탕으로 반도체 투자 회복에 따른 수주 급증 기대\n· 기존 단품 공급에서 필터, 레귤레이터, 가스시스템 등 시스템 제품군으로 공급 범위를 확장하여 제품 믹스 개선 및 수익성 제고 추진\n\n**[친환경 연료 및 에너지 다각화]**\n· LNG, 메탄올, 암모니아, 수소 등 친환경 연료 전환 추세에 대응하여 초저",
-          "date": "2026-05-23T02:53"
+          "channel": "easobi",
+          "text": "📅 Catalyst Watch (week of Mon 5/25) - 주간 전략 프리뷰\n\n🧭 한눈에 보는 주간 핵심\n\n이번 주 거시 경제 지표 발표는 비교적 한산하지만, 목요일에 발표될 미국의 4월 개인소비지출(PCE) 데이터에 시장의 관심이 집중될 예정입니다. 또한, 실적 발표가 매우 많으며, 여러 주요 증권사 컨퍼런스도 예정되어 있어 개별 기업 및 산업 전반에 걸친 논의가 활발할 것으로 예상됩니다. 특히 인공지능(AI) 관련 칩 및 소프트웨어 분야의 실적과 전망이 주목받을 것입니다. 🚀\n\n📅 날짜별 핵심 이벤트 캘린더\n\n🔥 주요 ",
+          "date": "2026-05-24T09:11"
+        },
+        {
+          "channel": "easobi",
+          "text": "*   AZO, ZS, ANF, DKS, A, CRM, HPQ, MRVL, SNOW, BBY, BURL, DLTR, HRL, KSS, ADSK, AEO, COST, DELL, GAP, MDB, NTAP 등 주요 기업들의 실적 발표 결과와 향후 가이던스에 따라 개별 주식의 등락폭을 확인해야 합니다. 특히 소프트웨어(ZS, CRM, SNOW, ADSK, MDB, NTAP)의 AI 관련 전망, 반도체/하드웨어(HPQ, MRVL, DELL)의 AI 서버 수요 및 마진 동향, 소매업(ANF, DKS, BBY, BURL, DLTR, HRL, ",
+          "date": "2026-05-24T09:11"
+        }
+      ]
+    },
+    "APP": {
+      "ticker": "APP",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "easobi"
+      ],
+      "latestDate": "2026-05-24T09:11:05+00:00",
+      "messages": [
+        {
+          "channel": "easobi",
+          "text": "📅 Catalyst Watch (week of Mon 5/25) - 주간 전략 프리뷰\n\n🧭 한눈에 보는 주간 핵심\n\n이번 주 거시 경제 지표 발표는 비교적 한산하지만, 목요일에 발표될 미국의 4월 개인소비지출(PCE) 데이터에 시장의 관심이 집중될 예정입니다. 또한, 실적 발표가 매우 많으며, 여러 주요 증권사 컨퍼런스도 예정되어 있어 개별 기업 및 산업 전반에 걸친 논의가 활발할 것으로 예상됩니다. 특히 인공지능(AI) 관련 칩 및 소프트웨어 분야의 실적과 전망이 주목받을 것입니다. 🚀\n\n📅 날짜별 핵심 이벤트 캘린더\n\n🔥 주요 ",
+          "date": "2026-05-24T09:11"
         }
       ]
     },
     "NVDA": {
       "ticker": "NVDA",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
+      "messageCount": 1,
       "channels": [
-        "DOC_POOL",
-        "aetherjapanresearch"
+        "easobi"
       ],
-      "latestDate": "2026-05-23T12:24:14+00:00",
+      "latestDate": "2026-05-24T09:11:05+00:00",
       "messages": [
         {
-          "channel": "aetherjapanresearch",
-          "text": "**UBS의 테크 전망(APAC) 보고서\n\nUBS가 AI 메모리 및 패키징 사이클에 대해 여전히 매우 공격적인 입장을 유지**\n\n​이번 반도체 공급망 분석에서 나온 몇 가지 주요 업데이트는 다음과 같습니다:\n\n​**2026년 엔비디아 AI GPU 출하량 전망치: 기존 870만 대에서 1,030만 대로 상향 **조정\n\n​Rubin(루빈) 아키텍처: 2026년 하반기부터 본격적인 양산(Ramp-up) 예상\n\n​**CoWoS 패키징 생산 능력: 2027년 말까지 월 21만 웨이퍼(WPM) 달성 전망**\n\n​**HBM 웨이퍼 할당량: 20",
-          "date": "2026-05-23T12:24"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "**[기업명/산업명/카테고리]**\n제목: 네비우스 그룹(NBIS US) - 대규모 AI 인프라 공급 계약 확보, '운용 비중 확대' 유지\n작성일: 2026.05.22\n작성자: 유중호(KB증권)\n\n**[투자 포인트 및 실적 전망]**\n· AI 클라우드 인프라 수요가 공급을 지속적으로 상회하며 가용 용량이 완전 판매되는 등 강력한 성장세를 기록 중이며, 향후 3년(2026~2028년) 매출 CAGR이 239.2%로 동종 기업을 압도함.\n· 2026년 CAPEX 가이던스를 기존 최대 200억 달러에서 200억~250억 달러로 상향 조정하",
-          "date": "2026-05-23T02:55"
+          "channel": "easobi",
+          "text": "🔁 Catalyst Watch Delta (week of Mon 5/25 vs Mon 5/18)\n\n🧭 변화 한눈에\n*   거시경제 초점 변화: 지난 주 중국 경제 지표, FOMC 의사록, 플래시 PMI 발표에서 이번 주 미국 4월 개인소비지출(PCE) 데이터로 관심이 집중되었습니다. 전반적인 거시경제 일정은 한산한 편입니다. 📊\n*   기업 실적 발표 라인업 교체: 지난 주와 완전히 다른 새로운 기업들이 대거 실적 발표를 앞두고 있습니다. 특히 소매, 소프트웨어, 반도체/하드웨어 업종의 주요 기업들이 포함됩니다. 📈\n*   증권사 ",
+          "date": "2026-05-24T09:11"
         }
       ]
     },
-    "AAPL": {
-      "ticker": "AAPL",
+    "GOOGL": {
+      "ticker": "GOOGL",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 2,
+      "channels": [
+        "easobi",
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-05-24T09:11:05+00:00",
+      "messages": [
+        {
+          "channel": "easobi",
+          "text": "🔁 Catalyst Watch Delta (week of Mon 5/25 vs Mon 5/18)\n\n🧭 변화 한눈에\n*   거시경제 초점 변화: 지난 주 중국 경제 지표, FOMC 의사록, 플래시 PMI 발표에서 이번 주 미국 4월 개인소비지출(PCE) 데이터로 관심이 집중되었습니다. 전반적인 거시경제 일정은 한산한 편입니다. 📊\n*   기업 실적 발표 라인업 교체: 지난 주와 완전히 다른 새로운 기업들이 대거 실적 발표를 앞두고 있습니다. 특히 소매, 소프트웨어, 반도체/하드웨어 업종의 주요 기업들이 포함됩니다. 📈\n*   증권사 ",
+          "date": "2026-05-24T09:11"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "「Citi's Inference Ahead - Vertical Walls & Diagonal Supplies」\n\n씨티는 향후 AI 산업의 방향성을 OpenAI의 CFO인 Sarah Friar가 처음 언급했던 \"수직적 수요의 벽(vertical wall of demand)\"이라는 개념으로 정의하고 있으며, 이번 주 Anthropic이 발표한 2분기 매출 전망치인 109억 달러(전분기 대비 130% 증가, 1분기 48억 달러 대비)가 이를 뒷받침한다고 평가합니다. 구글이 월간 3.2조 토큰을 처리하며 전년 동기 대비 7배 증가한 점, ",
+          "date": "2026-05-24T04:10"
+        }
+      ]
+    },
+    "AMZN": {
+      "ticker": "AMZN",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
-        "aetherjapanresearch"
+        "easobi"
       ],
-      "latestDate": "2026-05-23T12:06:28+00:00",
+      "latestDate": "2026-05-24T09:11:05+00:00",
       "messages": [
         {
+          "channel": "easobi",
+          "text": "🔁 Catalyst Watch Delta (week of Mon 5/25 vs Mon 5/18)\n\n🧭 변화 한눈에\n*   거시경제 초점 변화: 지난 주 중국 경제 지표, FOMC 의사록, 플래시 PMI 발표에서 이번 주 미국 4월 개인소비지출(PCE) 데이터로 관심이 집중되었습니다. 전반적인 거시경제 일정은 한산한 편입니다. 📊\n*   기업 실적 발표 라인업 교체: 지난 주와 완전히 다른 새로운 기업들이 대거 실적 발표를 앞두고 있습니다. 특히 소매, 소프트웨어, 반도체/하드웨어 업종의 주요 기업들이 포함됩니다. 📈\n*   증권사 ",
+          "date": "2026-05-24T09:11"
+        }
+      ]
+    },
+    "GOOG": {
+      "ticker": "GOOG",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 2,
+      "channels": [
+        "easobi",
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-05-24T09:11:05+00:00",
+      "messages": [
+        {
+          "channel": "easobi",
+          "text": "🔁 Catalyst Watch Delta (week of Mon 5/25 vs Mon 5/18)\n\n🧭 변화 한눈에\n*   거시경제 초점 변화: 지난 주 중국 경제 지표, FOMC 의사록, 플래시 PMI 발표에서 이번 주 미국 4월 개인소비지출(PCE) 데이터로 관심이 집중되었습니다. 전반적인 거시경제 일정은 한산한 편입니다. 📊\n*   기업 실적 발표 라인업 교체: 지난 주와 완전히 다른 새로운 기업들이 대거 실적 발표를 앞두고 있습니다. 특히 소매, 소프트웨어, 반도체/하드웨어 업종의 주요 기업들이 포함됩니다. 📈\n*   증권사 ",
+          "date": "2026-05-24T09:11"
+        },
+        {
           "channel": "aetherjapanresearch",
-          "text": "JP모건) 중국 AI애플리케이션 기업들과 이야기 한 뒤 얻은 시사점\n\n가장 핵심적인 메시지는 AI 가치 창출이 점차 파운데이션 모델 자체보다는 독점적 데이터, 워크플로우 맥락, 고객 통합 및 배포 노하우에 좌우되고 있다는 점입니다. 이를 \"맥락은 소유하고, 모델은 빌린다(own the context, rent the model)\"는 프레임워크로 요약할 수 있으며, 여러 기업이 가격, 성능, 용도에 따라 다양한 국내외 모델을 교차 활용하는 멀티모델 라우팅 방식을 채택하고 있다고 밝혔습니다. 한 상장 모델 기업도 API 전환 비용이 낮",
-          "date": "2026-05-23T12:06"
+          "text": "「Citi's Inference Ahead - Vertical Walls & Diagonal Supplies」\n\n씨티는 향후 AI 산업의 방향성을 OpenAI의 CFO인 Sarah Friar가 처음 언급했던 \"수직적 수요의 벽(vertical wall of demand)\"이라는 개념으로 정의하고 있으며, 이번 주 Anthropic이 발표한 2분기 매출 전망치인 109억 달러(전분기 대비 130% 증가, 1분기 48억 달러 대비)가 이를 뒷받침한다고 평가합니다. 구글이 월간 3.2조 토큰을 처리하며 전년 동기 대비 7배 증가한 점, ",
+          "date": "2026-05-24T04:10"
         }
       ]
     },
@@ -83,51 +164,62 @@
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
-        "DOC_POOL"
+        "aetherjapanresearch"
       ],
-      "latestDate": "2026-05-23T02:55:31+00:00",
+      "latestDate": "2026-05-24T04:10:42+00:00",
       "messages": [
         {
-          "channel": "DOC_POOL",
-          "text": "**[기업명/산업명/카테고리]**\n제목: 네비우스 그룹(NBIS US) - 대규모 AI 인프라 공급 계약 확보, '운용 비중 확대' 유지\n작성일: 2026.05.22\n작성자: 유중호(KB증권)\n\n**[투자 포인트 및 실적 전망]**\n· AI 클라우드 인프라 수요가 공급을 지속적으로 상회하며 가용 용량이 완전 판매되는 등 강력한 성장세를 기록 중이며, 향후 3년(2026~2028년) 매출 CAGR이 239.2%로 동종 기업을 압도함.\n· 2026년 CAPEX 가이던스를 기존 최대 200억 달러에서 200억~250억 달러로 상향 조정하",
-          "date": "2026-05-23T02:55"
+          "channel": "aetherjapanresearch",
+          "text": "「Citi's Inference Ahead - Vertical Walls & Diagonal Supplies」\n\n씨티는 향후 AI 산업의 방향성을 OpenAI의 CFO인 Sarah Friar가 처음 언급했던 \"수직적 수요의 벽(vertical wall of demand)\"이라는 개념으로 정의하고 있으며, 이번 주 Anthropic이 발표한 2분기 매출 전망치인 109억 달러(전분기 대비 130% 증가, 1분기 48억 달러 대비)가 이를 뒷받침한다고 평가합니다. 구글이 월간 3.2조 토큰을 처리하며 전년 동기 대비 7배 증가한 점, ",
+          "date": "2026-05-24T04:10"
         }
       ]
     },
-    "TSLA": {
-      "ticker": "TSLA",
+    "SMH": {
+      "ticker": "SMH",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
+      "messageCount": 1,
       "channels": [
-        "DOC_POOL"
+        "aetherjapanresearch"
       ],
-      "latestDate": "2026-05-23T02:54:37+00:00",
+      "latestDate": "2026-05-24T04:10:42+00:00",
       "messages": [
         {
-          "channel": "DOC_POOL",
-          "text": "**[기업명/산업명/카테고리]**\n제목: AI/로보틱스: 로보틱스 모멘텀 재점검\n작성일: 2026.05.22\n작성자: 최승환, 이병화 (신한투자증권)\n투자의견: 비중확대 (유지)\n\n**[로보틱스 시장 전망]**\n· 2026년은 휴머노이드 로봇이 R&D 단계를 넘어 본격적인 양산 및 상업화 단계로 진입하는 원년이며, 테슬라와 현대차그룹 등 주요 기업의 양산 일정에 따른 다양한 주가 캐털리스트가 존재함.\n· 로봇 산업은 AI 인프라(반도체·광·전력·냉각)와 성장의 궤를 공유하며, 부족한 노동력과 인건비 상승 문제를 해결하기 위한 기업들",
-          "date": "2026-05-23T02:54"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "**[혁신성장/산업전망]**\n제목: 2026년 하반기 산업 전망 - 혁신성장, 초성장 옴니버스\n작성일: 2026.05.22\n작성자: 이병화, 최승환, 허성규, 김유민, 김지영, 이채윤 (신한투자증권)\n투자의견: 비중확대 (유지)\n\n**[투자 포인트 및 실적 전망]**\n· 중소형주 환경 개선: 외국인의 국내 성장주 접근성 확대, 일본 밸류업 성공 사례와 유사한 수급 흐름, 그리고 정부의 생산적 금융 기조(국민성장펀드, BDC, 연기금 코스닥 벤치마크 도입)가 중소형주 수급의 구조적 변화를 뒷받침함\n· 초성장 테마의 5대 핵심 분야: ",
-          "date": "2026-05-23T02:54"
+          "channel": "aetherjapanresearch",
+          "text": "「Citi's Inference Ahead - Vertical Walls & Diagonal Supplies」\n\n씨티는 향후 AI 산업의 방향성을 OpenAI의 CFO인 Sarah Friar가 처음 언급했던 \"수직적 수요의 벽(vertical wall of demand)\"이라는 개념으로 정의하고 있으며, 이번 주 Anthropic이 발표한 2분기 매출 전망치인 109억 달러(전분기 대비 130% 증가, 1분기 48억 달러 대비)가 이를 뒷받침한다고 평가합니다. 구글이 월간 3.2조 토큰을 처리하며 전년 동기 대비 7배 증가한 점, ",
+          "date": "2026-05-24T04:10"
         }
       ]
     },
-    "현대차": {
-      "ticker": "현대차",
+    "ADI": {
+      "ticker": "ADI",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
         "DOC_POOL"
       ],
-      "latestDate": "2026-05-23T02:54:37+00:00",
+      "latestDate": "2026-05-24T22:15:22+00:00",
       "messages": [
         {
           "channel": "DOC_POOL",
-          "text": "**[기업명/산업명/카테고리]**\n제목: AI/로보틱스: 로보틱스 모멘텀 재점검\n작성일: 2026.05.22\n작성자: 최승환, 이병화 (신한투자증권)\n투자의견: 비중확대 (유지)\n\n**[로보틱스 시장 전망]**\n· 2026년은 휴머노이드 로봇이 R&D 단계를 넘어 본격적인 양산 및 상업화 단계로 진입하는 원년이며, 테슬라와 현대차그룹 등 주요 기업의 양산 일정에 따른 다양한 주가 캐털리스트가 존재함.\n· 로봇 산업은 AI 인프라(반도체·광·전력·냉각)와 성장의 궤를 공유하며, 부족한 노동력과 인건비 상승 문제를 해결하기 위한 기업들",
-          "date": "2026-05-23T02:54"
+          "text": "**[쏠리드/통신장비/기업분석]**\n제목: 쏠리드 2026년 투자 설명회 자료\n작성일: 2026.05.XX (작성일자 명확하지 않음)\n작성자: (정보 없음)\n\n\n**[커버리지 솔루션 강자]**\n· 5G 확산과 공공 안전 통신망 구축 수요 증가로 DAS(Distributed Antenna System) 시장에서 견조한 성장세를 보이고 있습니다.\n· 런던 지하철 프로젝트 성공을 바탕으로 유럽 시장을 확장하고 있으며, 일본 정부의 5G 전국 망 가속 계획에 따라 JR 구간 중계기 공급 사업도 순항 중입니다.\n· 국내 통신 3사(SKT, ",
+          "date": "2026-05-24T22:15"
+        }
+      ]
+    },
+    "TEM": {
+      "ticker": "TEM",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "DOC_POOL"
+      ],
+      "latestDate": "2026-05-24T22:15:22+00:00",
+      "messages": [
+        {
+          "channel": "DOC_POOL",
+          "text": "**[쏠리드/통신장비/기업분석]**\n제목: 쏠리드 2026년 투자 설명회 자료\n작성일: 2026.05.XX (작성일자 명확하지 않음)\n작성자: (정보 없음)\n\n\n**[커버리지 솔루션 강자]**\n· 5G 확산과 공공 안전 통신망 구축 수요 증가로 DAS(Distributed Antenna System) 시장에서 견조한 성장세를 보이고 있습니다.\n· 런던 지하철 프로젝트 성공을 바탕으로 유럽 시장을 확장하고 있으며, 일본 정부의 5G 전국 망 가속 계획에 따라 JR 구간 중계기 공급 사업도 순항 중입니다.\n· 국내 통신 3사(SKT, ",
+          "date": "2026-05-24T22:15"
         }
       ]
     },
@@ -138,17 +230,17 @@
       "channels": [
         "DOC_POOL"
       ],
-      "latestDate": "2026-05-23T02:53:07+00:00",
+      "latestDate": "2026-05-24T22:14:32+00:00",
       "messages": [
         {
           "channel": "DOC_POOL",
-          "text": "**[기업명: 비엠티]**\n제목: 반도체·친환경 연료 중심 신규 성장 Cycle 진입\n작성일: 2026.05.16\n\n**[반도체 부문 실적 회복 및 성장]**\n· 삼성전자 및 SK하이닉스 대상의 계장/UHP 피팅·밸브 공급 경험을 바탕으로 반도체 투자 회복에 따른 수주 급증 기대\n· 기존 단품 공급에서 필터, 레귤레이터, 가스시스템 등 시스템 제품군으로 공급 범위를 확장하여 제품 믹스 개선 및 수익성 제고 추진\n\n**[친환경 연료 및 에너지 다각화]**\n· LNG, 메탄올, 암모니아, 수소 등 친환경 연료 전환 추세에 대응하여 초저",
-          "date": "2026-05-23T02:53"
+          "text": "**SK스퀘어/통신서비스업종/지주회사**\n제목: SK스퀘어: 도전적이고 성공적인 기업가치 제고 전략, 시장 흐름 간파 우수 사례\n작성일: 2026.05.26\n작성자: 김회재 (대신증권)\n투자의견: BUY\n목표주가: 1,500,000원\n\n\n**[기업가치 제고]**\n· SK스퀘어는 2024년 11월부터 기업가치 제고 계획을 발표하며 2027년까지 NAV 할인율 50% 이하, 2028년까지 30% 이하를 목표로 설정했습니다. 이러한 목표는 당시의 높은 할인율(3Q24 기준 65.2%)을 고려할 때 도전적이었으나, SK하이닉스 투자 제한에",
+          "date": "2026-05-24T22:14"
         }
       ]
     }
   },
-  "totalMessages": 13,
+  "totalMessages": 28,
   "channels": [
     "Jstockclass",
     "report_figure_by_offset",
