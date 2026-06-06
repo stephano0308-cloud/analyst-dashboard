@@ -1,118 +1,179 @@
 {
-  "fetchedAt": "2026-06-05T22:56:52.270925",
+  "fetchedAt": "2026-06-06T22:59:43.755834",
   "status": "ok",
   "stocks": {
-    "NVDA": {
-      "ticker": "NVDA",
+    "BE": {
+      "ticker": "BE",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 6,
+      "messageCount": 5,
       "channels": [
         "easobi",
-        "beluga_investment",
         "aetherjapanresearch"
       ],
-      "latestDate": "2026-06-05T22:30:14+00:00",
+      "latestDate": "2026-06-06T08:54:07+00:00",
       "messages": [
         {
-          "channel": "beluga_investment",
-          "text": "**SpaceX가 클라우드 컴퓨팅 용량 확보를 위해 Google과 계약을 체결했으며, 여기에는 약 11만 개의 NVIDIA GPU와 CPU, 메모리 및 관련 부품이 포함됩니다.**\n\n**SpaceX는 2026년 10월부터 2029년 6월까지 매월 9억 2,000만 달러를 Google에 지급하기로 합의했습니다.**\n\n**컴퓨팅 용량은 2026년 9월까지 단계적으로 확대(ramp-up)될 예정입니다.**\n\n만약 Google이 2026년 9월 30일까지 전체 용량을 제공하지 못할 경우, 월 이용료는 제공되지 않은 비율만큼 비례하여 감액됩",
-          "date": "2026-06-05T19:06"
-        },
-        {
-          "channel": "beluga_investment",
-          "text": "[메리츠증권 전기전자/IT부품 양승수]\n\n안녕하세요, 메리츠증권 양승수입니다.\n\n전일 밤 SemiAnalysis에서 제기한 SoCAMM 용량 축소 이슈와 관련해 기판 관점에서 코멘트드립니다.\n\nSoCAMM 메모리 모듈은 기존 온보드 LPDDR 구조와 달리 탈부착 가능한 모듈형 구조이며, 일반적으로 하나의 모듈 기판 위에 LPDDR 패키지 4개가 실장되는 형태입니다. 따라서 이번에 언급된 Rubin NVL72의 DRAM 용량 축소는 모듈당 탑재되는 메모리 용량이 192GB에서 96GB로 낮아지는 변화이지, 랙당 필요한 SoCAMM 모",
-          "date": "2026-06-04T23:23"
+          "channel": "easobi",
+          "text": "**스텔라 블레이드: 블러드 레인**\nhttps://youtu.be/zhdh_LspRHk?si=kERrkG7Fi4a1ppoA\n\n**바이오하자드 RE:베로니카 **\nhttps://youtu.be/h4b0Y7L21jc?si=MWdwWRaTGKQHBV8P\n\n**몬헌 와일즈 어센던스**\nhttps://youtu.be/rVOzlcUPe7Q?si=QH-XBJw87FkxrpzD\n\n**스트레인저 댄 헤븐(용과 같이 스튜디오 신작) **\nhttps://youtu.be/WCk9NQTmDb8?si=-mqxKGOe5gfDhuEs\n\n**버추어파이터 크로스",
+          "date": "2026-06-06T02:12"
         },
         {
           "channel": "easobi",
-          "text": "2026년 6월 5일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시는 견조한 고용 지표 발표와 기술주 약세 지속이라는 이중 압력에 직면하며 주요 지수 모두 상당한 하락세를 기록했습니다. 다우존스 산업평균지수는 50866.78로 695.15포인트 (-1.35%) 하락했으며, 나스닥 종합지수는 25730.42로 1121.53포인트 (-4.18%) 급락했습니다. S&P 500 지수 또한 7383.74로 200.57포인트 (-2.64%) 떨어지면서 9주 연속 상승세를 마감했습니다.\n미국 노동부의 5월 고용보고서에서 비농업 고용이 172,000",
-          "date": "2026-06-05T22:30"
-        },
-        {
-          "channel": "easobi",
-          "text": "엔비디아 잰슨황이 불러낸다 vs 페이커가 불러낸다\n\n어디로 갈까?",
-          "date": "2026-06-05T05:52"
+          "text": "『FINAL FANTASY VII REVELATION』\n■발매일: 2027년 봄 발매 예정\nhttps://youtu.be/81AdPvVf0ew?si=b98nfLI8SywS7yG2",
+          "date": "2026-06-06T01:34"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "[한투증권 채민숙/김연준] 반도체 산업 Brief: 주가 하락은 비중 확대의 기회\n\n● SoCAMM2 용량 다운그레이드는 공급 제약의 방증\n- SoCAMM2 module당 용량이 192GB에서 96GB로 낮아졌다는 SemiAnalysis의 comment가 SNS에서 확산되면서 메모리 사용량 감소 우려로 삼성전자, SK하이닉스, 마이크론 등 메모리 관련주 주가 큰 폭 하락\n- 인과관계와 순서를 명확히 할 필요가 있음. 96GB로의 다운그레이드는 수요 축소가 아닌 공급 제약의 방증임. 기존 192GB 표준에 96GB, 64GB skew",
-          "date": "2026-06-05T07:07"
+          "text": "https://youtu.be/3sIpWcuBPjI?si=kYwIdw85x7gQ58UF",
+          "date": "2026-06-06T08:54"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "파란 나라를 보았니?\n\nhttps://youtu.be/9KgqsR_r18g?si=beEkjhpc-fLxyyrJ",
+          "date": "2026-06-06T08:52"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Citi) COMPUTEX 2026의 새로운 내용, 2부: CPO 출격 준비 완료\n\n씨티의 견해\nComputex 2026은 CPO에 있어 전환점이었습니다. 논의의 초점은 개별 광학 디바이스에서 완전한 랙 스케일 배포로 분명히 이동했습니다. Wiwynn과 Ayar Labs는 광 I/O가 실제 AI 인프라에 어떻게 통합될 수 있는지를 시연했으며, NVIDIA의 Spectrum-6 SPX 시연은 Hon Hai/Foxconn이 수행한 스케일아웃 CPO 랙을 보여주는 사례였습니다. Marvell은 미래 광학 클러스터의 네트워킹 백본으로 자리",
+          "date": "2026-06-06T08:38"
         }
       ]
     },
-    "GOOG": {
-      "ticker": "GOOG",
+    "SK하이닉스": {
+      "ticker": "SK하이닉스",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
+      "messageCount": 3,
       "channels": [
-        "beluga_investment"
+        "aetherjapanresearch"
       ],
-      "latestDate": "2026-06-05T19:06:16+00:00",
+      "latestDate": "2026-06-06T16:31:23+00:00",
       "messages": [
         {
-          "channel": "beluga_investment",
-          "text": "**SpaceX가 클라우드 컴퓨팅 용량 확보를 위해 Google과 계약을 체결했으며, 여기에는 약 11만 개의 NVIDIA GPU와 CPU, 메모리 및 관련 부품이 포함됩니다.**\n\n**SpaceX는 2026년 10월부터 2029년 6월까지 매월 9억 2,000만 달러를 Google에 지급하기로 합의했습니다.**\n\n**컴퓨팅 용량은 2026년 9월까지 단계적으로 확대(ramp-up)될 예정입니다.**\n\n만약 Google이 2026년 9월 30일까지 전체 용량을 제공하지 못할 경우, 월 이용료는 제공되지 않은 비율만큼 비례하여 감액됩",
-          "date": "2026-06-05T19:06"
+          "channel": "aetherjapanresearch",
+          "text": "바이낸스 하이닉스 차트 살인적이네 ㅋㅋ",
+          "date": "2026-06-06T16:31"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "**독일 상장 삼전 & 하이닉스**\n\n삼전은 15%, 하이닉스는 21% 하락 마감",
+          "date": "2026-06-06T15:06"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Wccftech) CXMT의 \"저렴한\" DDR5는 허구, 메모리3사와 가격 비슷해\n\nCXMT의 DDR5가 “저가 대안”이라는 인식은 과장됐다는 것입니다. Computex에서 여러 메모리 모듈 업체들이 전한 내용에 따르면, CXMT DDR5 가격은 삼성전자, SK하이닉스, Micron 제품과 거의 비슷한 수준이며, 소비자용 DRAM 가격 상승을 크게 낮춰줄 만큼 싸지는 않다고 합니다.\n\n다만 CXMT의 강점은 가격이 아니라 공급 여력입니다. 삼성전자·SK하이닉스·Micron은 HBM, SOCAMM 등 AI용 고부가 메모리에 생산 우선",
+          "date": "2026-06-06T13:31"
         }
       ]
     },
-    "GOOGL": {
-      "ticker": "GOOGL",
+    "AVGO": {
+      "ticker": "AVGO",
       "summary": "분석 실패: Connection error.",
       "messageCount": 2,
       "channels": [
-        "DOC_POOL",
-        "beluga_investment"
+        "aetherjapanresearch",
+        "DOC_POOL"
       ],
-      "latestDate": "2026-06-05T19:06:16+00:00",
+      "latestDate": "2026-06-06T16:28:57+00:00",
       "messages": [
         {
-          "channel": "beluga_investment",
-          "text": "**SpaceX가 클라우드 컴퓨팅 용량 확보를 위해 Google과 계약을 체결했으며, 여기에는 약 11만 개의 NVIDIA GPU와 CPU, 메모리 및 관련 부품이 포함됩니다.**\n\n**SpaceX는 2026년 10월부터 2029년 6월까지 매월 9억 2,000만 달러를 Google에 지급하기로 합의했습니다.**\n\n**컴퓨팅 용량은 2026년 9월까지 단계적으로 확대(ramp-up)될 예정입니다.**\n\n만약 Google이 2026년 9월 30일까지 전체 용량을 제공하지 못할 경우, 월 이용료는 제공되지 않은 비율만큼 비례하여 감액됩",
-          "date": "2026-06-05T19:06"
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) 주간 증시 포지셔닝에 대한 브리핑\n\n요약: 주식시장은 주 후반으로 가면서 위험회피 모드로 전환되고 있습니다. 다만 금요일 매도세 이전까지 지난주 미국 자금 흐름은 좀 더 중립적으로 바뀌었고, 일부 투자심리 지표는 추가로 약화됐습니다. 아시아는 헤지펀드들의 매수가 계속됐으며, APAC 혼잡도 성과는 역사적 고점 수준을 유지하고 있습니다. 모멘텀 리스크는 여전히 높습니다. 즉, 약세가 끝났다고 볼 만큼 큰 폭의 포지션 축소는 아직 나타나지 않았습니다. 헤지펀드의 경기민감주 대비 방어주 익스포저는 최근 다시 고점으로 상승했는데",
+          "date": "2026-06-06T16:28"
         },
         {
           "channel": "DOC_POOL",
-          "text": "**[IT/휴대폰/산업분석]**\n제목: 이제 애플에 주목할 시기, 비에이치, LGD의 수혜\n작성일: 2026.06.05\n작성자: 박강호 (대신증권)\n투자의견: Overweight (비중확대, 유지)\n\n**[애플의 AI 경쟁력 강화 및 생태계 확장]**\n· 애플 주가가 역사적 신고가를 경신하는 가운데, 다가오는 개발자 회의(WWDC26)를 기점으로 애플의 자체 AI 모델과 글로벌 대규모 언어 모델(챗GPT, 제미나이)의 결합이 본격화될 전망\n· 구글 제미나이 등을 접목한 시리를 통해 정보 검색, 문서 요약, 복잡한 추론 등 온디바이스",
-          "date": "2026-06-05T11:45"
+          "text": "**[Tech & Stock Weekly]**\n제목: AI 가동의 필수 요건으로서 보안 중요도 급부상\n작성일: 2026.06.05\n작성자: 김재임, 김시현(하나증권)\n\n**[AI 보안 시장의 구조적 성장]**\n· 크라우드스트라이크는 AI 가동을 위한 필수 인프라로서 보안 수요가 급증하는 '미토스 모멘트'를 통해 강력한 실적 가시성을 확보함.\n· 팔로알토 역시 AI 도입 가속화에 따른 보안 수요와 더불어 아이덴티티 및 모니터링 분야의 선제적 인수 합병 효과로 통합 플랫폼으로서의 지배력이 강화됨.\n· 기업들이 AI 투자를 비용이 아닌 ",
+          "date": "2026-06-06T05:56"
         }
       ]
     },
-    "TSLA": {
-      "ticker": "TSLA",
+    "삼성전자": {
+      "ticker": "삼성전자",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
+      "messageCount": 3,
       "channels": [
-        "easobi",
         "aetherjapanresearch"
       ],
-      "latestDate": "2026-06-05T22:30:14+00:00",
+      "latestDate": "2026-06-06T15:10:16+00:00",
       "messages": [
         {
-          "channel": "easobi",
-          "text": "2026년 6월 5일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시는 견조한 고용 지표 발표와 기술주 약세 지속이라는 이중 압력에 직면하며 주요 지수 모두 상당한 하락세를 기록했습니다. 다우존스 산업평균지수는 50866.78로 695.15포인트 (-1.35%) 하락했으며, 나스닥 종합지수는 25730.42로 1121.53포인트 (-4.18%) 급락했습니다. S&P 500 지수 또한 7383.74로 200.57포인트 (-2.64%) 떨어지면서 9주 연속 상승세를 마감했습니다.\n미국 노동부의 5월 고용보고서에서 비농업 고용이 172,000",
-          "date": "2026-06-05T22:30"
+          "channel": "aetherjapanresearch",
+          "text": "하닉 189만원/삼전 298,833.56원",
+          "date": "2026-06-06T15:10"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "1. CSOP SK하이닉스 2배 etf가 2025년 10월 상장되어 현재 8개월이 안되서 최근 최고가 기준 약 800억 HKD에 달하는 AUM을 달성했음. \n\n이만큼 빠르게 성장했던 etf는 몇 없는데, IBIT(BlackRock iShares Bitcoin Trust)가 있었지만, 이는 비레버리지 현물 비트코인 etf 였기 때문에, 수급 매커니즘이 달랐음.\n\n비슷한 매커니즘으로는 TSLL(Direxion Daily TSLA Bull 2X Shares)이나, NVDL(GraniteShares 2x Long NVDA Daily ETF",
-          "date": "2026-06-05T05:31"
+          "text": "**독일 상장 삼전 & 하이닉스**\n\n삼전은 15%, 하이닉스는 21% 하락 마감",
+          "date": "2026-06-06T15:06"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Wccftech) CXMT의 \"저렴한\" DDR5는 허구, 메모리3사와 가격 비슷해\n\nCXMT의 DDR5가 “저가 대안”이라는 인식은 과장됐다는 것입니다. Computex에서 여러 메모리 모듈 업체들이 전한 내용에 따르면, CXMT DDR5 가격은 삼성전자, SK하이닉스, Micron 제품과 거의 비슷한 수준이며, 소비자용 DRAM 가격 상승을 크게 낮춰줄 만큼 싸지는 않다고 합니다.\n\n다만 CXMT의 강점은 가격이 아니라 공급 여력입니다. 삼성전자·SK하이닉스·Micron은 HBM, SOCAMM 등 AI용 고부가 메모리에 생산 우선",
+          "date": "2026-06-06T13:31"
         }
       ]
     },
-    "META": {
-      "ticker": "META",
+    "MSFT": {
+      "ticker": "MSFT",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 2,
+      "channels": [
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-06-06T08:38:59+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Citi) COMPUTEX 2026의 새로운 내용, 2부: CPO 출격 준비 완료\n\n씨티의 견해\nComputex 2026은 CPO에 있어 전환점이었습니다. 논의의 초점은 개별 광학 디바이스에서 완전한 랙 스케일 배포로 분명히 이동했습니다. Wiwynn과 Ayar Labs는 광 I/O가 실제 AI 인프라에 어떻게 통합될 수 있는지를 시연했으며, NVIDIA의 Spectrum-6 SPX 시연은 Hon Hai/Foxconn이 수행한 스케일아웃 CPO 랙을 보여주는 사례였습니다. Marvell은 미래 광학 클러스터의 네트워킹 백본으로 자리",
+          "date": "2026-06-06T08:38"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Citi) Microsoft BUILD2026후기; 풀 AI 스택의 구성 요소. TP $620\n\n씨티는 Microsoft Build 2026을 통해 마이크로소프트가 단순한 Copilot 중심 전략을 넘어, AI 모델·데이터·거버넌스·에이전트 오케스트레이션·엣지 하드웨어까지 포괄하는 풀스택 AI 플랫폼으로 진화하고 있다고 평가했습니다. 특히 OpenAI 의존도를 점진적으로 낮추려는 독자 AI 로드맵이 더 명확해졌고, 과거 Build 행사보다 발표의 실질성과 엔지니어링 속도가 높았다는 판단입니다.\n\n현장에서는 금융기관, 대형 SI, 공",
+          "date": "2026-06-06T08:33"
+        }
+      ]
+    },
+    "TSM": {
+      "ticker": "TSM",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
-        "easobi"
+        "aetherjapanresearch"
       ],
-      "latestDate": "2026-06-05T22:30:14+00:00",
+      "latestDate": "2026-06-06T08:38:59+00:00",
       "messages": [
         {
-          "channel": "easobi",
-          "text": "2026년 6월 5일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시는 견조한 고용 지표 발표와 기술주 약세 지속이라는 이중 압력에 직면하며 주요 지수 모두 상당한 하락세를 기록했습니다. 다우존스 산업평균지수는 50866.78로 695.15포인트 (-1.35%) 하락했으며, 나스닥 종합지수는 25730.42로 1121.53포인트 (-4.18%) 급락했습니다. S&P 500 지수 또한 7383.74로 200.57포인트 (-2.64%) 떨어지면서 9주 연속 상승세를 마감했습니다.\n미국 노동부의 5월 고용보고서에서 비농업 고용이 172,000",
-          "date": "2026-06-05T22:30"
+          "channel": "aetherjapanresearch",
+          "text": "Citi) COMPUTEX 2026의 새로운 내용, 2부: CPO 출격 준비 완료\n\n씨티의 견해\nComputex 2026은 CPO에 있어 전환점이었습니다. 논의의 초점은 개별 광학 디바이스에서 완전한 랙 스케일 배포로 분명히 이동했습니다. Wiwynn과 Ayar Labs는 광 I/O가 실제 AI 인프라에 어떻게 통합될 수 있는지를 시연했으며, NVIDIA의 Spectrum-6 SPX 시연은 Hon Hai/Foxconn이 수행한 스케일아웃 CPO 랙을 보여주는 사례였습니다. Marvell은 미래 광학 클러스터의 네트워킹 백본으로 자리",
+          "date": "2026-06-06T08:38"
+        }
+      ]
+    },
+    "NVDA": {
+      "ticker": "NVDA",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 3,
+      "channels": [
+        "aetherjapanresearch",
+        "DOC_POOL"
+      ],
+      "latestDate": "2026-06-06T08:38:59+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Citi) COMPUTEX 2026의 새로운 내용, 2부: CPO 출격 준비 완료\n\n씨티의 견해\nComputex 2026은 CPO에 있어 전환점이었습니다. 논의의 초점은 개별 광학 디바이스에서 완전한 랙 스케일 배포로 분명히 이동했습니다. Wiwynn과 Ayar Labs는 광 I/O가 실제 AI 인프라에 어떻게 통합될 수 있는지를 시연했으며, NVIDIA의 Spectrum-6 SPX 시연은 Hon Hai/Foxconn이 수행한 스케일아웃 CPO 랙을 보여주는 사례였습니다. Marvell은 미래 광학 클러스터의 네트워킹 백본으로 자리",
+          "date": "2026-06-06T08:38"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "Citi) Microsoft BUILD2026후기; 풀 AI 스택의 구성 요소. TP $620\n\n씨티는 Microsoft Build 2026을 통해 마이크로소프트가 단순한 Copilot 중심 전략을 넘어, AI 모델·데이터·거버넌스·에이전트 오케스트레이션·엣지 하드웨어까지 포괄하는 풀스택 AI 플랫폼으로 진화하고 있다고 평가했습니다. 특히 OpenAI 의존도를 점진적으로 낮추려는 독자 AI 로드맵이 더 명확해졌고, 과거 Build 행사보다 발표의 실질성과 엔지니어링 속도가 높았다는 판단입니다.\n\n현장에서는 금융기관, 대형 SI, 공",
+          "date": "2026-06-06T08:33"
+        },
+        {
+          "channel": "DOC_POOL",
+          "text": "**[Tech & Stock Weekly]**\n제목: AI 가동의 필수 요건으로서 보안 중요도 급부상\n작성일: 2026.06.05\n작성자: 김재임, 김시현(하나증권)\n\n**[AI 보안 시장의 구조적 성장]**\n· 크라우드스트라이크는 AI 가동을 위한 필수 인프라로서 보안 수요가 급증하는 '미토스 모멘트'를 통해 강력한 실적 가시성을 확보함.\n· 팔로알토 역시 AI 도입 가속화에 따른 보안 수요와 더불어 아이덴티티 및 모니터링 분야의 선제적 인수 합병 효과로 통합 플랫폼으로서의 지배력이 강화됨.\n· 기업들이 AI 투자를 비용이 아닌 ",
+          "date": "2026-06-06T05:56"
         }
       ]
     },
@@ -121,296 +182,67 @@
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
-        "easobi"
-      ],
-      "latestDate": "2026-06-05T22:30:14+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "2026년 6월 5일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시는 견조한 고용 지표 발표와 기술주 약세 지속이라는 이중 압력에 직면하며 주요 지수 모두 상당한 하락세를 기록했습니다. 다우존스 산업평균지수는 50866.78로 695.15포인트 (-1.35%) 하락했으며, 나스닥 종합지수는 25730.42로 1121.53포인트 (-4.18%) 급락했습니다. S&P 500 지수 또한 7383.74로 200.57포인트 (-2.64%) 떨어지면서 9주 연속 상승세를 마감했습니다.\n미국 노동부의 5월 고용보고서에서 비농업 고용이 172,000",
-          "date": "2026-06-05T22:30"
-        }
-      ]
-    },
-    "BE": {
-      "ticker": "BE",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "easobi"
-      ],
-      "latestDate": "2026-06-05T22:30:14+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "2026년 6월 5일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시는 견조한 고용 지표 발표와 기술주 약세 지속이라는 이중 압력에 직면하며 주요 지수 모두 상당한 하락세를 기록했습니다. 다우존스 산업평균지수는 50866.78로 695.15포인트 (-1.35%) 하락했으며, 나스닥 종합지수는 25730.42로 1121.53포인트 (-4.18%) 급락했습니다. S&P 500 지수 또한 7383.74로 200.57포인트 (-2.64%) 떨어지면서 9주 연속 상승세를 마감했습니다.\n미국 노동부의 5월 고용보고서에서 비농업 고용이 172,000",
-          "date": "2026-06-05T22:30"
-        },
-        {
-          "channel": "easobi",
-          "text": "성공한 황씨\n\nhttps://www.youtube.com/live/fgBpnoz1Q_Y?si=qonPUnqJXBGHY8mU",
-          "date": "2026-06-05T05:29"
-        }
-      ]
-    },
-    "AVGO": {
-      "ticker": "AVGO",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "easobi"
-      ],
-      "latestDate": "2026-06-05T22:30:14+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "2026년 6월 5일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시는 견조한 고용 지표 발표와 기술주 약세 지속이라는 이중 압력에 직면하며 주요 지수 모두 상당한 하락세를 기록했습니다. 다우존스 산업평균지수는 50866.78로 695.15포인트 (-1.35%) 하락했으며, 나스닥 종합지수는 25730.42로 1121.53포인트 (-4.18%) 급락했습니다. S&P 500 지수 또한 7383.74로 200.57포인트 (-2.64%) 떨어지면서 9주 연속 상승세를 마감했습니다.\n미국 노동부의 5월 고용보고서에서 비농업 고용이 172,000",
-          "date": "2026-06-05T22:30"
-        }
-      ]
-    },
-    "HD한국조선": {
-      "ticker": "HD한국조선",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "easobi"
-      ],
-      "latestDate": "2026-06-05T05:28:58+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "📅 2026년 6월 4일 / Dong Cheol Shin\n🏢 한국 조선 산업 보고서 (CLSA)\n📝 Top gear\n🎯 커버 종목 모두 Outperform 계열 (HD현대중공업 HC O-PF / HD한국조선해양 O-PF), AI 데이터센터 엔진·해군 신성장 테마가 핵심 아이디어\n•  HD현대중공업 (329180 KS, HC O-PF, TP ₩1,000,000), HD한국조선해양 (009540 KS, O-PF, TP ₩690,000)\n───── ✦ ─────\n🏭 섹터 배경 및 공통 테마\n•  AI 데이터센터향 엔진 수요가 전례 없이 ",
-          "date": "2026-06-05T05:28"
-        }
-      ]
-    },
-    "HD현대중공업": {
-      "ticker": "HD현대중공업",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "easobi"
-      ],
-      "latestDate": "2026-06-05T05:28:58+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "📅 2026년 6월 4일 / Dong Cheol Shin\n🏢 한국 조선 산업 보고서 (CLSA)\n📝 Top gear\n🎯 커버 종목 모두 Outperform 계열 (HD현대중공업 HC O-PF / HD한국조선해양 O-PF), AI 데이터센터 엔진·해군 신성장 테마가 핵심 아이디어\n•  HD현대중공업 (329180 KS, HC O-PF, TP ₩1,000,000), HD한국조선해양 (009540 KS, O-PF, TP ₩690,000)\n───── ✦ ─────\n🏭 섹터 배경 및 공통 테마\n•  AI 데이터센터향 엔진 수요가 전례 없이 ",
-          "date": "2026-06-05T05:28"
-        }
-      ]
-    },
-    "CLS": {
-      "ticker": "CLS",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "easobi"
-      ],
-      "latestDate": "2026-06-05T05:28:58+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "📅 2026년 6월 4일 / Dong Cheol Shin\n🏢 한국 조선 산업 보고서 (CLSA)\n📝 Top gear\n🎯 커버 종목 모두 Outperform 계열 (HD현대중공업 HC O-PF / HD한국조선해양 O-PF), AI 데이터센터 엔진·해군 신성장 테마가 핵심 아이디어\n•  HD현대중공업 (329180 KS, HC O-PF, TP ₩1,000,000), HD한국조선해양 (009540 KS, O-PF, TP ₩690,000)\n───── ✦ ─────\n🏭 섹터 배경 및 공통 테마\n•  AI 데이터센터향 엔진 수요가 전례 없이 ",
-          "date": "2026-06-05T05:28"
-        }
-      ]
-    },
-    "HD마린엔진": {
-      "ticker": "HD마린엔진",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "easobi"
-      ],
-      "latestDate": "2026-06-05T05:28:58+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "📅 2026년 6월 4일 / Dong Cheol Shin\n🏢 한국 조선 산업 보고서 (CLSA)\n📝 Top gear\n🎯 커버 종목 모두 Outperform 계열 (HD현대중공업 HC O-PF / HD한국조선해양 O-PF), AI 데이터센터 엔진·해군 신성장 테마가 핵심 아이디어\n•  HD현대중공업 (329180 KS, HC O-PF, TP ₩1,000,000), HD한국조선해양 (009540 KS, O-PF, TP ₩690,000)\n───── ✦ ─────\n🏭 섹터 배경 및 공통 테마\n•  AI 데이터센터향 엔진 수요가 전례 없이 ",
-          "date": "2026-06-05T05:28"
-        }
-      ]
-    },
-    "AAPL": {
-      "ticker": "AAPL",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
-      "channels": [
-        "DOC_POOL",
         "aetherjapanresearch"
       ],
-      "latestDate": "2026-06-05T15:17:21+00:00",
+      "latestDate": "2026-06-06T08:33:56+00:00",
       "messages": [
         {
           "channel": "aetherjapanresearch",
-          "text": "JP모건) 퀄컴 6월 24일 투자자의날은 긍정적인 촉매가 될 것, TP $265.\n\nJP모건은 퀄컴(QCOM)에 대해 6월 24일 Investor Day가 단기 긍정 촉매가 될 가능성이 높다고 보고, 주식을 Positive Catalyst Watch에 편입했습니다. 투자의견은 여전히 Neutral을 유지했지만, 목표가는 기존 160달러에서 265달러로 크게 상향했습니다. 이는 FY27 EPS 추정치를 기존 10.45달러에서 11.50달러로 10.1% 올리고, 데이터센터 진출에 따른 성장성 개선을 반영해 약 23배 P/E를 적용한 결",
-          "date": "2026-06-05T15:17"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "Citi에서 커버하는 반도체&하드웨어 회사들중 우주항공/인공위성에 익스포저가 있는 회사들입니다. 향후 우주도 눈여겨봐야할 섹터인 만큼 업로드 합니다.\n\nAmphenol(APH)은 위성 인터페이스 장치와 고속 항공전자용 첨단 비행제어 시스템 등 우주 탐사의 여러 영역을 지원하고 있으며, 회사는 우주를 장기 기술 진화의 핵심 고성장 분야로 보고 있습니다. 관련 항공우주·방산 매출은 전체의 약 15%입니다.\n\nTE Connectivity(TEL)는 발사체, 위성, 유인 임무, 심우주 탐사선에 쓰이는 미션 크리티컬 하드웨어를 공급하며, 전",
-          "date": "2026-06-05T12:46"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "**[IT/휴대폰/산업분석]**\n제목: 이제 애플에 주목할 시기, 비에이치, LGD의 수혜\n작성일: 2026.06.05\n작성자: 박강호 (대신증권)\n투자의견: Overweight (비중확대, 유지)\n\n**[애플의 AI 경쟁력 강화 및 생태계 확장]**\n· 애플 주가가 역사적 신고가를 경신하는 가운데, 다가오는 개발자 회의(WWDC26)를 기점으로 애플의 자체 AI 모델과 글로벌 대규모 언어 모델(챗GPT, 제미나이)의 결합이 본격화될 전망\n· 구글 제미나이 등을 접목한 시리를 통해 정보 검색, 문서 요약, 복잡한 추론 등 온디바이스",
-          "date": "2026-06-05T11:45"
+          "text": "Citi) Microsoft BUILD2026후기; 풀 AI 스택의 구성 요소. TP $620\n\n씨티는 Microsoft Build 2026을 통해 마이크로소프트가 단순한 Copilot 중심 전략을 넘어, AI 모델·데이터·거버넌스·에이전트 오케스트레이션·엣지 하드웨어까지 포괄하는 풀스택 AI 플랫폼으로 진화하고 있다고 평가했습니다. 특히 OpenAI 의존도를 점진적으로 낮추려는 독자 AI 로드맵이 더 명확해졌고, 과거 Build 행사보다 발표의 실질성과 엔지니어링 속도가 높았다는 판단입니다.\n\n현장에서는 금융기관, 대형 SI, 공",
+          "date": "2026-06-06T08:33"
         }
       ]
     },
-    "MSFT": {
-      "ticker": "MSFT",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
-      "channels": [
-        "d_ticker",
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-06-05T12:46:36+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "Citi에서 커버하는 반도체&하드웨어 회사들중 우주항공/인공위성에 익스포저가 있는 회사들입니다. 향후 우주도 눈여겨봐야할 섹터인 만큼 업로드 합니다.\n\nAmphenol(APH)은 위성 인터페이스 장치와 고속 항공전자용 첨단 비행제어 시스템 등 우주 탐사의 여러 영역을 지원하고 있으며, 회사는 우주를 장기 기술 진화의 핵심 고성장 분야로 보고 있습니다. 관련 항공우주·방산 매출은 전체의 약 15%입니다.\n\nTE Connectivity(TEL)는 발사체, 위성, 유인 임무, 심우주 탐사선에 쓰이는 미션 크리티컬 하드웨어를 공급하며, 전",
-          "date": "2026-06-05T12:46"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "[한투증권 채민숙/김연준] 반도체 산업 Brief: 주가 하락은 비중 확대의 기회\n\n● SoCAMM2 용량 다운그레이드는 공급 제약의 방증\n- SoCAMM2 module당 용량이 192GB에서 96GB로 낮아졌다는 SemiAnalysis의 comment가 SNS에서 확산되면서 메모리 사용량 감소 우려로 삼성전자, SK하이닉스, 마이크론 등 메모리 관련주 주가 큰 폭 하락\n- 인과관계와 순서를 명확히 할 필요가 있음. 96GB로의 다운그레이드는 수요 축소가 아닌 공급 제약의 방증임. 기존 192GB 표준에 96GB, 64GB skew",
-          "date": "2026-06-05T07:07"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "베라루빈 SOCAMM2 메모리 용량 규격 반토막 소식에 어제 마이크론부터 오늘 코스피까지 대참사가 나고 있네요\n\nSOCAMM은 기판 부착형 메모리 모듈로 베라루빈의 베라 CPU를 보조하는 외부 메모리 서브시스템으로 쓰입니다. 저전력D램인 LPDDR5X를 탑재합니다. \n\n그런데 Semianalysis에 따르면 SOCAMM2가 당초 LPDDR5X 1536GB 규격을 채택하려 했으나 768GB로 절반이나 줄였다고 하는데요.\n\n여기서 알 수 있는 의도는 랙 출하량을 늘리기 위함이라고 볼 수 있죠. 이번 컴퓨텍스에서 증명됐지만 대만 서버 O",
-          "date": "2026-06-05T00:22"
-        }
-      ]
-    },
-    "ADI": {
-      "ticker": "ADI",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-06-05T12:46:36+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "Citi에서 커버하는 반도체&하드웨어 회사들중 우주항공/인공위성에 익스포저가 있는 회사들입니다. 향후 우주도 눈여겨봐야할 섹터인 만큼 업로드 합니다.\n\nAmphenol(APH)은 위성 인터페이스 장치와 고속 항공전자용 첨단 비행제어 시스템 등 우주 탐사의 여러 영역을 지원하고 있으며, 회사는 우주를 장기 기술 진화의 핵심 고성장 분야로 보고 있습니다. 관련 항공우주·방산 매출은 전체의 약 15%입니다.\n\nTE Connectivity(TEL)는 발사체, 위성, 유인 임무, 심우주 탐사선에 쓰이는 미션 크리티컬 하드웨어를 공급하며, 전",
-          "date": "2026-06-05T12:46"
-        }
-      ]
-    },
-    "삼성전자": {
-      "ticker": "삼성전자",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 6,
-      "channels": [
-        "DOC_POOL",
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-06-05T11:45:20+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "[한투증권 채민숙/김연준] 반도체 산업 Brief: 주가 하락은 비중 확대의 기회\n\n● SoCAMM2 용량 다운그레이드는 공급 제약의 방증\n- SoCAMM2 module당 용량이 192GB에서 96GB로 낮아졌다는 SemiAnalysis의 comment가 SNS에서 확산되면서 메모리 사용량 감소 우려로 삼성전자, SK하이닉스, 마이크론 등 메모리 관련주 주가 큰 폭 하락\n- 인과관계와 순서를 명확히 할 필요가 있음. 96GB로의 다운그레이드는 수요 축소가 아닌 공급 제약의 방증임. 기존 192GB 표준에 96GB, 64GB skew",
-          "date": "2026-06-05T07:07"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "5. 더 중요한 점은 마켓메이커 입장에서는 프리미엄/괴리도 본주 매수를 유도한다는 점임. 7709가 홍콩에서 강하게 매수되면 시장가격이 iNAV/NAV 대비 프리미엄으로 뜰 수 있음. \n\n그러면 마켓메이커는 보통: \n\n비싼 ETF를 매도 → 새 유닛을 설정하거나 스왑 익스포저를 늘림 → 그 과정에서 스왑딜러가 하이닉스 델타를 매수 → ETF 프리미엄 축소\n\n이런 식으로 차익거래를 함. 문제는 이 과정도 하이닉스 본주에는 매수 압력. 특히 하이닉스가 이미 오르고 있고, 7709 수요가 계속 들어오면 마켓메이커는 계속 ETF를 팔면서도",
-          "date": "2026-06-05T05:31"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "4. 즉, 삼성전자는 홍콩에 2배 롱과 -2배 인버스가 둘 다 있음. 삼성전자 2배 롱 수요가 들어와도, 반대편에서 삼성전자 -2배 인버스 수요가 있으면 딜러/스왑 북 안에서 일부 델타가 상쇄될 수 있음. CSOP 삼성전자 상품은 홍콩에서 2배 레버리지와 -2배 인버스가 같이 상장된 것으로 확인됨. \n\n\n반면 하이닉스는 확인되는 홍콩 상품이 7709 2배 롱 중심이고, -2배 인버스는 확인되지 않음. 그러면 플로우가 이렇게 비대칭이 됨.\n\n예를 들자면, 다음과 같음.\n\n**삼성전자:**\n롱 2배 매수 플로우 ↔ 인버스 매수 플로우가",
-          "date": "2026-06-05T05:31"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "3. 삼성전자는 홍콩에서 2배 롱과 -2배 인버스가 둘 다 존재했음. 그래서 삼성전자에 대해서는 해외 단기자금이 롱/숏을 둘 다 상대적으로 쉽게 표현할 수 있었을 가능성이 큼.\n\n반면 하이닉스는 롱 2배만 있었다면, 같은 “K-반도체 고베타”라도 하이닉스 쪽은 롱 수요가 더 비대칭적으로 쌓이는 구조였다고 볼 수 있음. 이게 “하이닉스가 삼성전자보다 유독 강한 이유”의 일부일 수 있음.\n\n핵심은 CSOP 7709가 현물 보유형이 아니라 스왑 기반 합성복제 구조라는 점. 상품설명서 기준으로 7709는 SK하이닉스 일간 성과의 2배를 제",
-          "date": "2026-06-05T05:31"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "2. 문제는 삼성전자도 동일하게 CSOP 삼성전자 2배로 출시되어있는데, 삼성전자의 경우 레버리지와 인버스가 동시에 존재함.\n\n그러나 SK하이닉스의 경우 레버리지만 존재하고, 인버스 상품은 출시되어있지 않음.\n\n이것이 한국시장에 역동적으로 작용하게 되는 다이내믹 구조를 갖추게 됨.",
-          "date": "2026-06-05T05:31"
-        }
-      ]
-    },
-    "SK하이닉스": {
-      "ticker": "SK하이닉스",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 12,
-      "channels": [
-        "d_ticker",
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-06-05T07:07:40+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "[한투증권 채민숙/김연준] 반도체 산업 Brief: 주가 하락은 비중 확대의 기회\n\n● SoCAMM2 용량 다운그레이드는 공급 제약의 방증\n- SoCAMM2 module당 용량이 192GB에서 96GB로 낮아졌다는 SemiAnalysis의 comment가 SNS에서 확산되면서 메모리 사용량 감소 우려로 삼성전자, SK하이닉스, 마이크론 등 메모리 관련주 주가 큰 폭 하락\n- 인과관계와 순서를 명확히 할 필요가 있음. 96GB로의 다운그레이드는 수요 축소가 아닌 공급 제약의 방증임. 기존 192GB 표준에 96GB, 64GB skew",
-          "date": "2026-06-05T07:07"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "이 스레드는 롱의 의견도 숏의 의견도 아니고, 순수하게 한국시장 플레이어들이 대다수가 모르고 있던 사실입니다.\n\n이러한 이유로 SK하이닉스의 시가총액 상승률이 가파를 수 있었음을 파악할 수 있고, 기저에는 더 퓨어한 메모리 플레이어라는 인식이 글로벌 투자자들에게 있었을 수도 있습니다.\n\n그러나 CSOP 측의 SK하이닉스만 인버스가 없는 특이한 구조로 인해 미친 수급 영향이 매우 크다는 점, 숏감마 상황에서의 SK하이닉스 변동성을 크게 유지할 수 밖에 없다는 점은 투자자로서 알아야겠죠.",
-          "date": "2026-06-05T05:31"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "8. 반면, 하락하기 시작할때, SK하이닉스의 다이나믹 델타헤지의 언와인드 역시 매도압력으로 자기강화 논리를 갖춤.\n\n뿐만 아니라, 미국시장, 대만, 일본 시장이 모두 -1% 빠진다고 하더라도, 위 구조 하에서는 SK하이닉스에 대한 델타헤지 언와인드가 크게 발생해 더 큰 폭의 하락률을 기록할 것이고, 이는 시장 반도체 섹터에 큰 영향을 가해 더 큰 하락폭을 기여하게 되는 센티먼트 구조임.\n\n해외시장 대비 한국시장이 많이 빠진다하면, 당신이 CSOP SK하이닉스 인버스 상품을 찾아본 적이 있는지 파악해보길 바람.\n\n금융상품의 구조와 ",
-          "date": "2026-06-05T05:31"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "7. 핵심은 CSOP 카운터파티들의 개별선물 헤지 => 근월물 선물 콘탱고 => 현물 저평가 매수차익거래 과정에서 SK하이닉스의 현물 매수력이 굉장한 규모의 순매수 압력을 전달시킨 것으로 판단됨.",
-          "date": "2026-06-05T05:31"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "6. 이로 인해, SK하이닉스는 CSOP 스왑 카운터파티 측의 딜러 델타헤지로 개별선물 롱 헤지가 다이나믹으로 작용하고 있고, 선물 콘탱고 발생으로 인해 현물 저평 매수 차익거래가 유지되어온 것으로 확인됨.\n\n최근까지도 근월물 SK하이닉스의 매수차익거래 베이시스는 일중 3만원 호가의 차이를 발생시켜왔음. (일중 1만원 베이시스만 발생해도 엄청난 이익 = 1만원 / 현재가 => x bp가 무위험으로 차익이 가능) 파생상품 데스크에 관심있었다면 최근 많은 델타원 팀들에서 SK하이닉스 매수차익거래에 참여했을 것으로 대놓고 추측이 가능했음",
-          "date": "2026-06-05T05:31"
-        }
-      ]
-    },
-    "삼성전기": {
-      "ticker": "삼성전기",
+    "META": {
+      "ticker": "META",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
         "DOC_POOL"
       ],
-      "latestDate": "2026-06-05T11:45:20+00:00",
+      "latestDate": "2026-06-06T05:56:34+00:00",
       "messages": [
         {
           "channel": "DOC_POOL",
-          "text": "**[삼성전기/전자부품]**\n제목: 기판도 깐부다\n작성일: 2026.06.05\n작성자: 박준서(미래에셋증권)\n투자의견: 매수\n목표주가: 2,800,000원\n\n**[탈중국 공급망 재편에 따른 FC-BGA 수혜]**\n· AI 반도체 핵심 부품인 FC-BGA(플립칩 볼그리드 어레이)가 지정학적 리스크로 인한 글로벌 공급망 재편의 직접적인 수혜처로 부각됨.\n· 글로벌 PCB 및 기판 생산이 중국 본토에 과도하게 편중된 구조에서, 북미 빅테크 고객사들의 비중국 조달 수요가 동사로 집중되며 중장기 물량과 판가 가시성이 강화됨.\n· 동사는 비중",
-          "date": "2026-06-05T11:45"
+          "text": "**[Tech & Stock Weekly]**\n제목: AI 가동의 필수 요건으로서 보안 중요도 급부상\n작성일: 2026.06.05\n작성자: 김재임, 김시현(하나증권)\n\n**[AI 보안 시장의 구조적 성장]**\n· 크라우드스트라이크는 AI 가동을 위한 필수 인프라로서 보안 수요가 급증하는 '미토스 모멘트'를 통해 강력한 실적 가시성을 확보함.\n· 팔로알토 역시 AI 도입 가속화에 따른 보안 수요와 더불어 아이덴티티 및 모니터링 분야의 선제적 인수 합병 효과로 통합 플랫폼으로서의 지배력이 강화됨.\n· 기업들이 AI 투자를 비용이 아닌 ",
+          "date": "2026-06-06T05:56"
         }
       ]
     },
-    "미래에셋": {
-      "ticker": "미래에셋",
+    "GOOGL": {
+      "ticker": "GOOGL",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
         "DOC_POOL"
       ],
-      "latestDate": "2026-06-05T11:45:20+00:00",
+      "latestDate": "2026-06-06T05:56:34+00:00",
       "messages": [
         {
           "channel": "DOC_POOL",
-          "text": "**[삼성전기/전자부품]**\n제목: 기판도 깐부다\n작성일: 2026.06.05\n작성자: 박준서(미래에셋증권)\n투자의견: 매수\n목표주가: 2,800,000원\n\n**[탈중국 공급망 재편에 따른 FC-BGA 수혜]**\n· AI 반도체 핵심 부품인 FC-BGA(플립칩 볼그리드 어레이)가 지정학적 리스크로 인한 글로벌 공급망 재편의 직접적인 수혜처로 부각됨.\n· 글로벌 PCB 및 기판 생산이 중국 본토에 과도하게 편중된 구조에서, 북미 빅테크 고객사들의 비중국 조달 수요가 동사로 집중되며 중장기 물량과 판가 가시성이 강화됨.\n· 동사는 비중",
-          "date": "2026-06-05T11:45"
+          "text": "**[Tech & Stock Weekly]**\n제목: AI 가동의 필수 요건으로서 보안 중요도 급부상\n작성일: 2026.06.05\n작성자: 김재임, 김시현(하나증권)\n\n**[AI 보안 시장의 구조적 성장]**\n· 크라우드스트라이크는 AI 가동을 위한 필수 인프라로서 보안 수요가 급증하는 '미토스 모멘트'를 통해 강력한 실적 가시성을 확보함.\n· 팔로알토 역시 AI 도입 가속화에 따른 보안 수요와 더불어 아이덴티티 및 모니터링 분야의 선제적 인수 합병 효과로 통합 플랫폼으로서의 지배력이 강화됨.\n· 기업들이 AI 투자를 비용이 아닌 ",
+          "date": "2026-06-06T05:56"
+        }
+      ]
+    },
+    "CRWD": {
+      "ticker": "CRWD",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "DOC_POOL"
+      ],
+      "latestDate": "2026-06-06T05:56:34+00:00",
+      "messages": [
+        {
+          "channel": "DOC_POOL",
+          "text": "**[Tech & Stock Weekly]**\n제목: AI 가동의 필수 요건으로서 보안 중요도 급부상\n작성일: 2026.06.05\n작성자: 김재임, 김시현(하나증권)\n\n**[AI 보안 시장의 구조적 성장]**\n· 크라우드스트라이크는 AI 가동을 위한 필수 인프라로서 보안 수요가 급증하는 '미토스 모멘트'를 통해 강력한 실적 가시성을 확보함.\n· 팔로알토 역시 AI 도입 가속화에 따른 보안 수요와 더불어 아이덴티티 및 모니터링 분야의 선제적 인수 합병 효과로 통합 플랫폼으로서의 지배력이 강화됨.\n· 기업들이 AI 투자를 비용이 아닌 ",
+          "date": "2026-06-06T05:56"
         }
       ]
     }
   },
-  "totalMessages": 67,
+  "totalMessages": 18,
   "channels": [
     "Jstockclass",
     "report_figure_by_offset",
