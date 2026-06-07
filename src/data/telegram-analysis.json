@@ -1,89 +1,370 @@
 {
-  "fetchedAt": "2026-06-06T22:59:43.755834",
+  "fetchedAt": "2026-06-07T22:58:51.501035",
   "status": "ok",
   "stocks": {
     "BE": {
       "ticker": "BE",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 5,
+      "messageCount": 8,
+      "channels": [
+        "aetherjapanresearch",
+        "easobi",
+        "beluga_investment",
+        "DOC_POOL"
+      ],
+      "latestDate": "2026-06-07T22:23:30+00:00",
+      "messages": [
+        {
+          "channel": "beluga_investment",
+          "text": "**미국 기술 업계 해고가 급증하고 있습니다.**\n\n미국 인사 컨설팅업체 챌린저 그레이(Challenger Gray) 데이터에 따르면, 미국 기술 기업들은 5월에 **38,242명의 감원을 발표**했으며, 이는 **2024년 8월 이후 가장 높은 월간 수치**입니다.\n\n연초 이후(YTD) 기술 업계 감원 규모는 전년 대비 **66% 증가한 123,653명**으로, 모든 산업 가운데 가장 많았습니다. 이는 두 번째로 많은 운송업 부문보다도 **3배 이상 높은 수준**입니다.\n\nAI는 **3개월 연속 가장 많이 언급된 감원 사유**였습",
+          "date": "2026-06-07T01:02"
+        },
+        {
+          "channel": "easobi",
+          "text": "4.  **SpaceX IPO 동향 파악**: 상장 가격 결정 및 첫 거래일 흐름을 통해 시장의 신규 대형 기술주 수용도를 가늠하세요.\n5.  **주요 기업 실적 분석**: 특히 ORCL, ADBE의 AI 관련 지표와 LEN의 주택 시장 전망을 통해 섹터별 투자 아이디어를 발굴하세요.\n6.  **산업별 컨퍼런스 내용 점검**: 헬스케어, 에너지, 기술, 금융, 산업재/소재 등 각 섹터의 최신 트렌드와 전망을 파악하세요.\n\n한 줄 결론: 이번 주는 미국 인플레이션과 주요 중앙은행의 통화 정책, 그리고 애플 WWDC 및 스페이스X IP",
+          "date": "2026-06-07T09:49"
+        },
+        {
+          "channel": "easobi",
+          "text": "📅 Catalyst Watch (week of Mon 6/8) - 주간 전략 프리뷰\n\n🧭 한눈에 보는 주간 핵심 👋\n이번 주는 거시경제 지표, 중앙은행 결정, 주요 기업 실적, 그리고 기술 산업의 중요한 이벤트로 가득합니다. 미국 5월 CPI와 PPI 발표로 인플레이션 동향이 주목받고, ECB와 캐나다 중앙은행의 금리 결정이 이어집니다. 기업 실적 발표로는 CPB, SJM, CHWY, ORCL, ADBE, LEN 등이 예정되어 있으며, 애플 WWDC 키노트에서 시리의 대대적인 개편이 예상됩니다. 스페이스X IPO도 이번 주 가격이 ",
+          "date": "2026-06-07T09:49"
+        },
+        {
+          "channel": "easobi",
+          "text": "🔁 Catalyst Watch Delta (week of Mon 6/8 vs Mon 6/1)\n\n🧭 변화 한눈에\n이번 주 Vital Catalyst Watch는 지난주와 비교해 매크로 이벤트, 기업 실적 발표, 주요 기술 컨퍼런스 및 IPO 일정, 셀사이드 컨퍼런스 등 전반적인 감시 대상이 완전히 새로운 국면으로 전환되었습니다. 특히, 지난주 고용 지표 중심의 미국 경제 데이터에서 이번 주에는 미국 및 중국 인플레이션 지표, 주요국 중앙은행 금리 결정(BoC, ECB)으로 매크로 초점이 이동했습니다. 또한, 스페이스X IPO 및 애플",
+          "date": "2026-06-07T09:49"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) 2026 Computex 시사점 Part 2\n\n저희는 6월 3~4일 JPM Computex 부스 투어를 진행했으며, 주요 시사점은 다음과 같습니다.\n\n1. Kyber 랙 일정 리스크, 백플레인 SI: 저희 리서치에 따르면 NVIDIA의 Kyber GPU 랙은 백플레인 신호 무결성 문제로 인해 불확실성 또는 지연 가능성이 있는 것으로 보입니다. 양산 목표 시점은 2027년 하반기입니다. Rubin Ultra NVL144와 관련해서는 두 가지 대안 설계가 검토 중인 것으로 파악합니다. 첫째는 케이블 카트리지를 통해 두 개의 ",
+          "date": "2026-06-07T15:45"
+        }
+      ]
+    },
+    "ORCL": {
+      "ticker": "ORCL",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 3,
+      "channels": [
+        "easobi"
+      ],
+      "latestDate": "2026-06-07T09:49:07+00:00",
+      "messages": [
+        {
+          "channel": "easobi",
+          "text": "4.  **SpaceX IPO 동향 파악**: 상장 가격 결정 및 첫 거래일 흐름을 통해 시장의 신규 대형 기술주 수용도를 가늠하세요.\n5.  **주요 기업 실적 분석**: 특히 ORCL, ADBE의 AI 관련 지표와 LEN의 주택 시장 전망을 통해 섹터별 투자 아이디어를 발굴하세요.\n6.  **산업별 컨퍼런스 내용 점검**: 헬스케어, 에너지, 기술, 금융, 산업재/소재 등 각 섹터의 최신 트렌드와 전망을 파악하세요.\n\n한 줄 결론: 이번 주는 미국 인플레이션과 주요 중앙은행의 통화 정책, 그리고 애플 WWDC 및 스페이스X IP",
+          "date": "2026-06-07T09:49"
+        },
+        {
+          "channel": "easobi",
+          "text": "📅 Catalyst Watch (week of Mon 6/8) - 주간 전략 프리뷰\n\n🧭 한눈에 보는 주간 핵심 👋\n이번 주는 거시경제 지표, 중앙은행 결정, 주요 기업 실적, 그리고 기술 산업의 중요한 이벤트로 가득합니다. 미국 5월 CPI와 PPI 발표로 인플레이션 동향이 주목받고, ECB와 캐나다 중앙은행의 금리 결정이 이어집니다. 기업 실적 발표로는 CPB, SJM, CHWY, ORCL, ADBE, LEN 등이 예정되어 있으며, 애플 WWDC 키노트에서 시리의 대대적인 개편이 예상됩니다. 스페이스X IPO도 이번 주 가격이 ",
+          "date": "2026-06-07T09:49"
+        },
+        {
+          "channel": "easobi",
+          "text": "🔁 Catalyst Watch Delta (week of Mon 6/8 vs Mon 6/1)\n\n🧭 변화 한눈에\n이번 주 Vital Catalyst Watch는 지난주와 비교해 매크로 이벤트, 기업 실적 발표, 주요 기술 컨퍼런스 및 IPO 일정, 셀사이드 컨퍼런스 등 전반적인 감시 대상이 완전히 새로운 국면으로 전환되었습니다. 특히, 지난주 고용 지표 중심의 미국 경제 데이터에서 이번 주에는 미국 및 중국 인플레이션 지표, 주요국 중앙은행 금리 결정(BoC, ECB)으로 매크로 초점이 이동했습니다. 또한, 스페이스X IPO 및 애플",
+          "date": "2026-06-07T09:49"
+        }
+      ]
+    },
+    "AAPL": {
+      "ticker": "AAPL",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 3,
+      "channels": [
+        "easobi"
+      ],
+      "latestDate": "2026-06-07T09:49:07+00:00",
+      "messages": [
+        {
+          "channel": "easobi",
+          "text": "4.  **SpaceX IPO 동향 파악**: 상장 가격 결정 및 첫 거래일 흐름을 통해 시장의 신규 대형 기술주 수용도를 가늠하세요.\n5.  **주요 기업 실적 분석**: 특히 ORCL, ADBE의 AI 관련 지표와 LEN의 주택 시장 전망을 통해 섹터별 투자 아이디어를 발굴하세요.\n6.  **산업별 컨퍼런스 내용 점검**: 헬스케어, 에너지, 기술, 금융, 산업재/소재 등 각 섹터의 최신 트렌드와 전망을 파악하세요.\n\n한 줄 결론: 이번 주는 미국 인플레이션과 주요 중앙은행의 통화 정책, 그리고 애플 WWDC 및 스페이스X IP",
+          "date": "2026-06-07T09:49"
+        },
+        {
+          "channel": "easobi",
+          "text": "📅 Catalyst Watch (week of Mon 6/8) - 주간 전략 프리뷰\n\n🧭 한눈에 보는 주간 핵심 👋\n이번 주는 거시경제 지표, 중앙은행 결정, 주요 기업 실적, 그리고 기술 산업의 중요한 이벤트로 가득합니다. 미국 5월 CPI와 PPI 발표로 인플레이션 동향이 주목받고, ECB와 캐나다 중앙은행의 금리 결정이 이어집니다. 기업 실적 발표로는 CPB, SJM, CHWY, ORCL, ADBE, LEN 등이 예정되어 있으며, 애플 WWDC 키노트에서 시리의 대대적인 개편이 예상됩니다. 스페이스X IPO도 이번 주 가격이 ",
+          "date": "2026-06-07T09:49"
+        },
+        {
+          "channel": "easobi",
+          "text": "🔁 Catalyst Watch Delta (week of Mon 6/8 vs Mon 6/1)\n\n🧭 변화 한눈에\n이번 주 Vital Catalyst Watch는 지난주와 비교해 매크로 이벤트, 기업 실적 발표, 주요 기술 컨퍼런스 및 IPO 일정, 셀사이드 컨퍼런스 등 전반적인 감시 대상이 완전히 새로운 국면으로 전환되었습니다. 특히, 지난주 고용 지표 중심의 미국 경제 데이터에서 이번 주에는 미국 및 중국 인플레이션 지표, 주요국 중앙은행 금리 결정(BoC, ECB)으로 매크로 초점이 이동했습니다. 또한, 스페이스X IPO 및 애플",
+          "date": "2026-06-07T09:49"
+        }
+      ]
+    },
+    "GOOGL": {
+      "ticker": "GOOGL",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 6,
+      "channels": [
+        "easobi",
+        "aetherjapanresearch",
+        "DOC_POOL"
+      ],
+      "latestDate": "2026-06-07T22:23:30+00:00",
+      "messages": [
+        {
+          "channel": "easobi",
+          "text": "📅 Catalyst Watch (week of Mon 6/8) - 주간 전략 프리뷰\n\n🧭 한눈에 보는 주간 핵심 👋\n이번 주는 거시경제 지표, 중앙은행 결정, 주요 기업 실적, 그리고 기술 산업의 중요한 이벤트로 가득합니다. 미국 5월 CPI와 PPI 발표로 인플레이션 동향이 주목받고, ECB와 캐나다 중앙은행의 금리 결정이 이어집니다. 기업 실적 발표로는 CPB, SJM, CHWY, ORCL, ADBE, LEN 등이 예정되어 있으며, 애플 WWDC 키노트에서 시리의 대대적인 개편이 예상됩니다. 스페이스X IPO도 이번 주 가격이 ",
+          "date": "2026-06-07T09:49"
+        },
+        {
+          "channel": "easobi",
+          "text": "🔁 Catalyst Watch Delta (week of Mon 6/8 vs Mon 6/1)\n\n🧭 변화 한눈에\n이번 주 Vital Catalyst Watch는 지난주와 비교해 매크로 이벤트, 기업 실적 발표, 주요 기술 컨퍼런스 및 IPO 일정, 셀사이드 컨퍼런스 등 전반적인 감시 대상이 완전히 새로운 국면으로 전환되었습니다. 특히, 지난주 고용 지표 중심의 미국 경제 데이터에서 이번 주에는 미국 및 중국 인플레이션 지표, 주요국 중앙은행 금리 결정(BoC, ECB)으로 매크로 초점이 이동했습니다. 또한, 스페이스X IPO 및 애플",
+          "date": "2026-06-07T09:49"
+        },
+        {
+          "channel": "easobi",
+          "text": "📘 Weekly Recap (week ended Friday June 5, 2026) - 지난주 미국 시황 리뷰\n\n🧭 한눈에 보는 주간 핵심\n전반적인 시장은 강세론과 약세론의 뚜렷한 승리 없이 보합세를 보였습니다. 그러나 기술 및 AI 섹터에서는 약세론자들이 우세했습니다. 📉 브로드컴 보고서가 실망감을 주며 칩 주식의 전 세계적인 매도세를 촉발했습니다. S&P/다우존스의 지수 편입 규칙 유지 결정은 향후 메가캡 IPO 물량 흡수에 대한 의문을 제기했습니다. 구글의 자금 조달은 투자자들의 AI 투자 욕구를 보여주었으나, 동시에 구글조",
+          "date": "2026-06-07T09:49"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "미즈호) ASIC 콜: C28E까지 TPU 쓰나미, 10배 이상 성장 및 META ASIC 램프. AVGO, MU에 긍정적\n\n당사는 10번째 분기 AI ASIC 로드맵 콜을 진행했으며, 2026~2028년 추정치와 관련해 업계의 중요한 업데이트를 확인했습니다. 핵심 포인트는 다음과 같습니다. 1) 2028년 TPU 출하량은 잠재적으로 3,500만 개에 달할 수 있으며, 2026년 약 430만 개 대비 약 8배 수준입니다. GOOGL은 Anthropic 및 기타 고객과 함께 TPU를 외부로 확장하려 하고 있습니다. 2) 2028년 추",
+          "date": "2026-06-07T14:52"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "모건스탠리) 브로드컴; 매우 강한 수요에도 불구하고 기대치에는 미달\nBroadcom 실적은 시장 기대치가 워낙 높았던 점을 제외하면 매우 강한 결과였다는 평가입니다. AI 사업은 4월 분기 30% 성장에서 7월 분기 약 200% 성장으로 가속했고, 순차적으로도 약 40% 증가했습니다. 올해 AI 매출 가이던스 560억 달러, 내년 “1,000억 달러를 크게 상회”한다는 전망은 컨센서스와 대체로 부합하지만 여전히 매우 강한 수준입니다. 특히 하반기 매출이 상반기 대비 두 배로 늘어난다는 언급과 “성장 궤적이 지속된다”는 표현은 추가 ",
+          "date": "2026-06-07T02:03"
+        }
+      ]
+    },
+    "APP": {
+      "ticker": "APP",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 3,
+      "channels": [
+        "easobi",
+        "DOC_POOL"
+      ],
+      "latestDate": "2026-06-07T22:23:30+00:00",
+      "messages": [
+        {
+          "channel": "easobi",
+          "text": "📅 Catalyst Watch (week of Mon 6/8) - 주간 전략 프리뷰\n\n🧭 한눈에 보는 주간 핵심 👋\n이번 주는 거시경제 지표, 중앙은행 결정, 주요 기업 실적, 그리고 기술 산업의 중요한 이벤트로 가득합니다. 미국 5월 CPI와 PPI 발표로 인플레이션 동향이 주목받고, ECB와 캐나다 중앙은행의 금리 결정이 이어집니다. 기업 실적 발표로는 CPB, SJM, CHWY, ORCL, ADBE, LEN 등이 예정되어 있으며, 애플 WWDC 키노트에서 시리의 대대적인 개편이 예상됩니다. 스페이스X IPO도 이번 주 가격이 ",
+          "date": "2026-06-07T09:49"
+        },
+        {
+          "channel": "easobi",
+          "text": "🔁 Catalyst Watch Delta (week of Mon 6/8 vs Mon 6/1)\n\n🧭 변화 한눈에\n이번 주 Vital Catalyst Watch는 지난주와 비교해 매크로 이벤트, 기업 실적 발표, 주요 기술 컨퍼런스 및 IPO 일정, 셀사이드 컨퍼런스 등 전반적인 감시 대상이 완전히 새로운 국면으로 전환되었습니다. 특히, 지난주 고용 지표 중심의 미국 경제 데이터에서 이번 주에는 미국 및 중국 인플레이션 지표, 주요국 중앙은행 금리 결정(BoC, ECB)으로 매크로 초점이 이동했습니다. 또한, 스페이스X IPO 및 애플",
+          "date": "2026-06-07T09:49"
+        },
+        {
+          "channel": "DOC_POOL",
+          "text": "**KODEX 현대차 로보틱스 밸류체인 TOP3 플러스 ETF**\n제목: 현대차그룹 로보틱스 비즈니스와 연계된 패시브 ETF 신규 상장\n작성일: 2026.06.09\n작성자: Global Asset Research 박승진, 신민건\n투자의견:\n목표주가:\n\n**[ETF 구성]**\n· 현대차그룹의 로보틱스 비즈니스와 연계된 국내 및 미국 상장 기업들로 구성되는 패시브 ETF입니다.\n· 완성차 기업을 넘어 글로벌 로보틱스 기업으로 진화하는 현대차그룹에 집중하며, 현대차를 핵심 종목으로 로봇 밸류체인 전반의 관련 기업을 편입합니다.\n· 편입 ",
+          "date": "2026-06-07T22:23"
+        }
+      ]
+    },
+    "GOOG": {
+      "ticker": "GOOG",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 4,
       "channels": [
         "easobi",
         "aetherjapanresearch"
       ],
-      "latestDate": "2026-06-06T08:54:07+00:00",
+      "latestDate": "2026-06-07T14:52:34+00:00",
       "messages": [
         {
           "channel": "easobi",
-          "text": "**스텔라 블레이드: 블러드 레인**\nhttps://youtu.be/zhdh_LspRHk?si=kERrkG7Fi4a1ppoA\n\n**바이오하자드 RE:베로니카 **\nhttps://youtu.be/h4b0Y7L21jc?si=MWdwWRaTGKQHBV8P\n\n**몬헌 와일즈 어센던스**\nhttps://youtu.be/rVOzlcUPe7Q?si=QH-XBJw87FkxrpzD\n\n**스트레인저 댄 헤븐(용과 같이 스튜디오 신작) **\nhttps://youtu.be/WCk9NQTmDb8?si=-mqxKGOe5gfDhuEs\n\n**버추어파이터 크로스",
-          "date": "2026-06-06T02:12"
+          "text": "📅 Catalyst Watch (week of Mon 6/8) - 주간 전략 프리뷰\n\n🧭 한눈에 보는 주간 핵심 👋\n이번 주는 거시경제 지표, 중앙은행 결정, 주요 기업 실적, 그리고 기술 산업의 중요한 이벤트로 가득합니다. 미국 5월 CPI와 PPI 발표로 인플레이션 동향이 주목받고, ECB와 캐나다 중앙은행의 금리 결정이 이어집니다. 기업 실적 발표로는 CPB, SJM, CHWY, ORCL, ADBE, LEN 등이 예정되어 있으며, 애플 WWDC 키노트에서 시리의 대대적인 개편이 예상됩니다. 스페이스X IPO도 이번 주 가격이 ",
+          "date": "2026-06-07T09:49"
         },
         {
           "channel": "easobi",
-          "text": "『FINAL FANTASY VII REVELATION』\n■발매일: 2027년 봄 발매 예정\nhttps://youtu.be/81AdPvVf0ew?si=b98nfLI8SywS7yG2",
-          "date": "2026-06-06T01:34"
+          "text": "🔁 Catalyst Watch Delta (week of Mon 6/8 vs Mon 6/1)\n\n🧭 변화 한눈에\n이번 주 Vital Catalyst Watch는 지난주와 비교해 매크로 이벤트, 기업 실적 발표, 주요 기술 컨퍼런스 및 IPO 일정, 셀사이드 컨퍼런스 등 전반적인 감시 대상이 완전히 새로운 국면으로 전환되었습니다. 특히, 지난주 고용 지표 중심의 미국 경제 데이터에서 이번 주에는 미국 및 중국 인플레이션 지표, 주요국 중앙은행 금리 결정(BoC, ECB)으로 매크로 초점이 이동했습니다. 또한, 스페이스X IPO 및 애플",
+          "date": "2026-06-07T09:49"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "https://youtu.be/3sIpWcuBPjI?si=kYwIdw85x7gQ58UF",
-          "date": "2026-06-06T08:54"
+          "text": "미즈호) ASIC 콜: C28E까지 TPU 쓰나미, 10배 이상 성장 및 META ASIC 램프. AVGO, MU에 긍정적\n\n당사는 10번째 분기 AI ASIC 로드맵 콜을 진행했으며, 2026~2028년 추정치와 관련해 업계의 중요한 업데이트를 확인했습니다. 핵심 포인트는 다음과 같습니다. 1) 2028년 TPU 출하량은 잠재적으로 3,500만 개에 달할 수 있으며, 2026년 약 430만 개 대비 약 8배 수준입니다. GOOGL은 Anthropic 및 기타 고객과 함께 TPU를 외부로 확장하려 하고 있습니다. 2) 2028년 추",
+          "date": "2026-06-07T14:52"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "파란 나라를 보았니?\n\nhttps://youtu.be/9KgqsR_r18g?si=beEkjhpc-fLxyyrJ",
-          "date": "2026-06-06T08:52"
+          "text": "모건스탠리) 브로드컴; 매우 강한 수요에도 불구하고 기대치에는 미달\nBroadcom 실적은 시장 기대치가 워낙 높았던 점을 제외하면 매우 강한 결과였다는 평가입니다. AI 사업은 4월 분기 30% 성장에서 7월 분기 약 200% 성장으로 가속했고, 순차적으로도 약 40% 증가했습니다. 올해 AI 매출 가이던스 560억 달러, 내년 “1,000억 달러를 크게 상회”한다는 전망은 컨센서스와 대체로 부합하지만 여전히 매우 강한 수준입니다. 특히 하반기 매출이 상반기 대비 두 배로 늘어난다는 언급과 “성장 궤적이 지속된다”는 표현은 추가 ",
+          "date": "2026-06-07T02:03"
+        }
+      ]
+    },
+    "EWY": {
+      "ticker": "EWY",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 2,
+      "channels": [
+        "easobi"
+      ],
+      "latestDate": "2026-06-07T09:49:07+00:00",
+      "messages": [
+        {
+          "channel": "easobi",
+          "text": "📅 Catalyst Watch (week of Mon 6/8) - 주간 전략 프리뷰\n\n🧭 한눈에 보는 주간 핵심 👋\n이번 주는 거시경제 지표, 중앙은행 결정, 주요 기업 실적, 그리고 기술 산업의 중요한 이벤트로 가득합니다. 미국 5월 CPI와 PPI 발표로 인플레이션 동향이 주목받고, ECB와 캐나다 중앙은행의 금리 결정이 이어집니다. 기업 실적 발표로는 CPB, SJM, CHWY, ORCL, ADBE, LEN 등이 예정되어 있으며, 애플 WWDC 키노트에서 시리의 대대적인 개편이 예상됩니다. 스페이스X IPO도 이번 주 가격이 ",
+          "date": "2026-06-07T09:49"
+        },
+        {
+          "channel": "easobi",
+          "text": "🔁 Catalyst Watch Delta (week of Mon 6/8 vs Mon 6/1)\n\n🧭 변화 한눈에\n이번 주 Vital Catalyst Watch는 지난주와 비교해 매크로 이벤트, 기업 실적 발표, 주요 기술 컨퍼런스 및 IPO 일정, 셀사이드 컨퍼런스 등 전반적인 감시 대상이 완전히 새로운 국면으로 전환되었습니다. 특히, 지난주 고용 지표 중심의 미국 경제 데이터에서 이번 주에는 미국 및 중국 인플레이션 지표, 주요국 중앙은행 금리 결정(BoC, ECB)으로 매크로 초점이 이동했습니다. 또한, 스페이스X IPO 및 애플",
+          "date": "2026-06-07T09:49"
+        }
+      ]
+    },
+    "미래에셋": {
+      "ticker": "미래에셋",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 3,
+      "channels": [
+        "easobi",
+        "aetherjapanresearch",
+        "d_ticker"
+      ],
+      "latestDate": "2026-06-07T14:25:55+00:00",
+      "messages": [
+        {
+          "channel": "easobi",
+          "text": "🔁 Catalyst Watch Delta (week of Mon 6/8 vs Mon 6/1)\n\n🧭 변화 한눈에\n이번 주 Vital Catalyst Watch는 지난주와 비교해 매크로 이벤트, 기업 실적 발표, 주요 기술 컨퍼런스 및 IPO 일정, 셀사이드 컨퍼런스 등 전반적인 감시 대상이 완전히 새로운 국면으로 전환되었습니다. 특히, 지난주 고용 지표 중심의 미국 경제 데이터에서 이번 주에는 미국 및 중국 인플레이션 지표, 주요국 중앙은행 금리 결정(BoC, ECB)으로 매크로 초점이 이동했습니다. 또한, 스페이스X IPO 및 애플",
+          "date": "2026-06-07T09:49"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "Citi) COMPUTEX 2026의 새로운 내용, 2부: CPO 출격 준비 완료\n\n씨티의 견해\nComputex 2026은 CPO에 있어 전환점이었습니다. 논의의 초점은 개별 광학 디바이스에서 완전한 랙 스케일 배포로 분명히 이동했습니다. Wiwynn과 Ayar Labs는 광 I/O가 실제 AI 인프라에 어떻게 통합될 수 있는지를 시연했으며, NVIDIA의 Spectrum-6 SPX 시연은 Hon Hai/Foxconn이 수행한 스케일아웃 CPO 랙을 보여주는 사례였습니다. Marvell은 미래 광학 클러스터의 네트워킹 백본으로 자리",
-          "date": "2026-06-06T08:38"
+          "text": "**젠슨 황 \"내일 몇 가지 발표\"…삼성 전영현 회동 예정도**\n\n**젠슨 황 엔비디아 최고경영자(CEO)가 내일인 8일 \"몇 가지 발표가 있을 수도 있다\"고 예고했다.**\n\n황 CEO는 7일 오후 서울 강남구 깐부치킨 삼성점에서 최태원 SK그룹 회장 및 SK하이닉스, SK텔레콤 주요 경영진과의 이른바 깐부 회동 중 기자들과 만나 \"우리는 AI 슈퍼컴퓨터부터 CPU, 새로운 PC, 로보틱스에 이르기까지 다양한 산업 분야에서 협력하고 있다\"고 말했다.\n\n**'SK텔레콤 경영진을 함께 만난 이유'를 묻는 말에 황 CEO는 \"통신 네트워",
+          "date": "2026-06-07T12:11"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**23주차 글로벌 증시 주간 상승률 - Dean's Ticker\n**\n[US](https://t.me/d_ticker)\n+29%｜마벨｜광연결 부품·커스텀 프로세서\n+19%｜트윌리오｜컨택센터 SW\n+15%｜휴매나｜의료보험\n+14%｜HP 엔터프라이즈｜AI 서버 OEM\n+12%｜어플라이드 옵토일렉트로닉스｜광트랜시버\n+11%｜메드트로닉｜의료기기\n+10%｜쿠퍼 컴퍼니즈｜콘택트 렌즈\n+10%｜아이콘｜임상시험수탁(CRO)\n+9%｜셰니에르 에너지｜LNG 터미널\n+8%｜디지털오션｜중소기업 클라우드\n+9%｜MGM 리조트｜카지노\n+8%｜액손 엔터프라",
+          "date": "2026-06-07T14:25"
         }
       ]
     },
     "SK하이닉스": {
       "ticker": "SK하이닉스",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
+      "messageCount": 2,
       "channels": [
+        "easobi",
         "aetherjapanresearch"
       ],
-      "latestDate": "2026-06-06T16:31:23+00:00",
+      "latestDate": "2026-06-07T12:11:26+00:00",
       "messages": [
         {
-          "channel": "aetherjapanresearch",
-          "text": "바이낸스 하이닉스 차트 살인적이네 ㅋㅋ",
-          "date": "2026-06-06T16:31"
+          "channel": "easobi",
+          "text": "📘 Weekly Recap (week ended Friday June 5, 2026) - 지난주 미국 시황 리뷰\n\n🧭 한눈에 보는 주간 핵심\n전반적인 시장은 강세론과 약세론의 뚜렷한 승리 없이 보합세를 보였습니다. 그러나 기술 및 AI 섹터에서는 약세론자들이 우세했습니다. 📉 브로드컴 보고서가 실망감을 주며 칩 주식의 전 세계적인 매도세를 촉발했습니다. S&P/다우존스의 지수 편입 규칙 유지 결정은 향후 메가캡 IPO 물량 흡수에 대한 의문을 제기했습니다. 구글의 자금 조달은 투자자들의 AI 투자 욕구를 보여주었으나, 동시에 구글조",
+          "date": "2026-06-07T09:49"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "**독일 상장 삼전 & 하이닉스**\n\n삼전은 15%, 하이닉스는 21% 하락 마감",
-          "date": "2026-06-06T15:06"
+          "text": "**젠슨 황 \"내일 몇 가지 발표\"…삼성 전영현 회동 예정도**\n\n**젠슨 황 엔비디아 최고경영자(CEO)가 내일인 8일 \"몇 가지 발표가 있을 수도 있다\"고 예고했다.**\n\n황 CEO는 7일 오후 서울 강남구 깐부치킨 삼성점에서 최태원 SK그룹 회장 및 SK하이닉스, SK텔레콤 주요 경영진과의 이른바 깐부 회동 중 기자들과 만나 \"우리는 AI 슈퍼컴퓨터부터 CPU, 새로운 PC, 로보틱스에 이르기까지 다양한 산업 분야에서 협력하고 있다\"고 말했다.\n\n**'SK텔레콤 경영진을 함께 만난 이유'를 묻는 말에 황 CEO는 \"통신 네트워",
+          "date": "2026-06-07T12:11"
+        }
+      ]
+    },
+    "NVDA": {
+      "ticker": "NVDA",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 10,
+      "channels": [
+        "easobi",
+        "aetherjapanresearch",
+        "DOC_POOL"
+      ],
+      "latestDate": "2026-06-07T22:23:30+00:00",
+      "messages": [
+        {
+          "channel": "easobi",
+          "text": "📘 Weekly Recap (week ended Friday June 5, 2026) - 지난주 미국 시황 리뷰\n\n🧭 한눈에 보는 주간 핵심\n전반적인 시장은 강세론과 약세론의 뚜렷한 승리 없이 보합세를 보였습니다. 그러나 기술 및 AI 섹터에서는 약세론자들이 우세했습니다. 📉 브로드컴 보고서가 실망감을 주며 칩 주식의 전 세계적인 매도세를 촉발했습니다. S&P/다우존스의 지수 편입 규칙 유지 결정은 향후 메가캡 IPO 물량 흡수에 대한 의문을 제기했습니다. 구글의 자금 조달은 투자자들의 AI 투자 욕구를 보여주었으나, 동시에 구글조",
+          "date": "2026-06-07T09:49"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "Wccftech) CXMT의 \"저렴한\" DDR5는 허구, 메모리3사와 가격 비슷해\n\nCXMT의 DDR5가 “저가 대안”이라는 인식은 과장됐다는 것입니다. Computex에서 여러 메모리 모듈 업체들이 전한 내용에 따르면, CXMT DDR5 가격은 삼성전자, SK하이닉스, Micron 제품과 거의 비슷한 수준이며, 소비자용 DRAM 가격 상승을 크게 낮춰줄 만큼 싸지는 않다고 합니다.\n\n다만 CXMT의 강점은 가격이 아니라 공급 여력입니다. 삼성전자·SK하이닉스·Micron은 HBM, SOCAMM 등 AI용 고부가 메모리에 생산 우선",
-          "date": "2026-06-06T13:31"
+          "text": "8. HVDC에서 SiC 채택은 확고해지고 있으며, GaN은 아직 인증 중입니다. 저희 리서치에 따르면 SiC는 800V HVDC 랙, 예를 들어 AC/DC PSU, e-Fuse 모듈, 800V-to-54V DC/DC 변환,에서 필수적일 가능성이 높습니다. 반면 GaN은 이러한 용도에서 아직 인증 중이며, 전압 제약 때문에 더 낮은 전압 변환에서 더 많이 사용될 수 있습니다. NVIDIA는 공급 확보를 위해 여러 글로벌 SiC 공급업체를 인증하고 있을 가능성이 높습니다. 저희는 Infineon, STMicroelectronics, ",
+          "date": "2026-06-07T15:45"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) 2026 Computex 시사점 Part 2\n\n저희는 6월 3~4일 JPM Computex 부스 투어를 진행했으며, 주요 시사점은 다음과 같습니다.\n\n1. Kyber 랙 일정 리스크, 백플레인 SI: 저희 리서치에 따르면 NVIDIA의 Kyber GPU 랙은 백플레인 신호 무결성 문제로 인해 불확실성 또는 지연 가능성이 있는 것으로 보입니다. 양산 목표 시점은 2027년 하반기입니다. Rubin Ultra NVL144와 관련해서는 두 가지 대안 설계가 검토 중인 것으로 파악합니다. 첫째는 케이블 카트리지를 통해 두 개의 ",
+          "date": "2026-06-07T15:45"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "미즈호) ASIC 콜: C28E까지 TPU 쓰나미, 10배 이상 성장 및 META ASIC 램프. AVGO, MU에 긍정적\n\n당사는 10번째 분기 AI ASIC 로드맵 콜을 진행했으며, 2026~2028년 추정치와 관련해 업계의 중요한 업데이트를 확인했습니다. 핵심 포인트는 다음과 같습니다. 1) 2028년 TPU 출하량은 잠재적으로 3,500만 개에 달할 수 있으며, 2026년 약 430만 개 대비 약 8배 수준입니다. GOOGL은 Anthropic 및 기타 고객과 함께 TPU를 외부로 확장하려 하고 있습니다. 2) 2028년 추",
+          "date": "2026-06-07T14:52"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "**젠슨 황 \"내일 몇 가지 발표\"…삼성 전영현 회동 예정도**\n\n**젠슨 황 엔비디아 최고경영자(CEO)가 내일인 8일 \"몇 가지 발표가 있을 수도 있다\"고 예고했다.**\n\n황 CEO는 7일 오후 서울 강남구 깐부치킨 삼성점에서 최태원 SK그룹 회장 및 SK하이닉스, SK텔레콤 주요 경영진과의 이른바 깐부 회동 중 기자들과 만나 \"우리는 AI 슈퍼컴퓨터부터 CPU, 새로운 PC, 로보틱스에 이르기까지 다양한 산업 분야에서 협력하고 있다\"고 말했다.\n\n**'SK텔레콤 경영진을 함께 만난 이유'를 묻는 말에 황 CEO는 \"통신 네트워",
+          "date": "2026-06-07T12:11"
         }
       ]
     },
     "AVGO": {
       "ticker": "AVGO",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
+      "messageCount": 3,
       "channels": [
-        "aetherjapanresearch",
-        "DOC_POOL"
+        "easobi",
+        "aetherjapanresearch"
       ],
-      "latestDate": "2026-06-06T16:28:57+00:00",
+      "latestDate": "2026-06-07T14:52:34+00:00",
+      "messages": [
+        {
+          "channel": "easobi",
+          "text": "📘 Weekly Recap (week ended Friday June 5, 2026) - 지난주 미국 시황 리뷰\n\n🧭 한눈에 보는 주간 핵심\n전반적인 시장은 강세론과 약세론의 뚜렷한 승리 없이 보합세를 보였습니다. 그러나 기술 및 AI 섹터에서는 약세론자들이 우세했습니다. 📉 브로드컴 보고서가 실망감을 주며 칩 주식의 전 세계적인 매도세를 촉발했습니다. S&P/다우존스의 지수 편입 규칙 유지 결정은 향후 메가캡 IPO 물량 흡수에 대한 의문을 제기했습니다. 구글의 자금 조달은 투자자들의 AI 투자 욕구를 보여주었으나, 동시에 구글조",
+          "date": "2026-06-07T09:49"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "미즈호) ASIC 콜: C28E까지 TPU 쓰나미, 10배 이상 성장 및 META ASIC 램프. AVGO, MU에 긍정적\n\n당사는 10번째 분기 AI ASIC 로드맵 콜을 진행했으며, 2026~2028년 추정치와 관련해 업계의 중요한 업데이트를 확인했습니다. 핵심 포인트는 다음과 같습니다. 1) 2028년 TPU 출하량은 잠재적으로 3,500만 개에 달할 수 있으며, 2026년 약 430만 개 대비 약 8배 수준입니다. GOOGL은 Anthropic 및 기타 고객과 함께 TPU를 외부로 확장하려 하고 있습니다. 2) 2028년 추",
+          "date": "2026-06-07T14:52"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "모건스탠리) 브로드컴; 매우 강한 수요에도 불구하고 기대치에는 미달\nBroadcom 실적은 시장 기대치가 워낙 높았던 점을 제외하면 매우 강한 결과였다는 평가입니다. AI 사업은 4월 분기 30% 성장에서 7월 분기 약 200% 성장으로 가속했고, 순차적으로도 약 40% 증가했습니다. 올해 AI 매출 가이던스 560억 달러, 내년 “1,000억 달러를 크게 상회”한다는 전망은 컨센서스와 대체로 부합하지만 여전히 매우 강한 수준입니다. 특히 하반기 매출이 상반기 대비 두 배로 늘어난다는 언급과 “성장 궤적이 지속된다”는 표현은 추가 ",
+          "date": "2026-06-07T02:03"
+        }
+      ]
+    },
+    "MSFT": {
+      "ticker": "MSFT",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 3,
+      "channels": [
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-06-07T15:45:17+00:00",
       "messages": [
         {
           "channel": "aetherjapanresearch",
-          "text": "JP모건) 주간 증시 포지셔닝에 대한 브리핑\n\n요약: 주식시장은 주 후반으로 가면서 위험회피 모드로 전환되고 있습니다. 다만 금요일 매도세 이전까지 지난주 미국 자금 흐름은 좀 더 중립적으로 바뀌었고, 일부 투자심리 지표는 추가로 약화됐습니다. 아시아는 헤지펀드들의 매수가 계속됐으며, APAC 혼잡도 성과는 역사적 고점 수준을 유지하고 있습니다. 모멘텀 리스크는 여전히 높습니다. 즉, 약세가 끝났다고 볼 만큼 큰 폭의 포지션 축소는 아직 나타나지 않았습니다. 헤지펀드의 경기민감주 대비 방어주 익스포저는 최근 다시 고점으로 상승했는데",
-          "date": "2026-06-06T16:28"
+          "text": "8. HVDC에서 SiC 채택은 확고해지고 있으며, GaN은 아직 인증 중입니다. 저희 리서치에 따르면 SiC는 800V HVDC 랙, 예를 들어 AC/DC PSU, e-Fuse 모듈, 800V-to-54V DC/DC 변환,에서 필수적일 가능성이 높습니다. 반면 GaN은 이러한 용도에서 아직 인증 중이며, 전압 제약 때문에 더 낮은 전압 변환에서 더 많이 사용될 수 있습니다. NVIDIA는 공급 확보를 위해 여러 글로벌 SiC 공급업체를 인증하고 있을 가능성이 높습니다. 저희는 Infineon, STMicroelectronics, ",
+          "date": "2026-06-07T15:45"
         },
         {
-          "channel": "DOC_POOL",
-          "text": "**[Tech & Stock Weekly]**\n제목: AI 가동의 필수 요건으로서 보안 중요도 급부상\n작성일: 2026.06.05\n작성자: 김재임, 김시현(하나증권)\n\n**[AI 보안 시장의 구조적 성장]**\n· 크라우드스트라이크는 AI 가동을 위한 필수 인프라로서 보안 수요가 급증하는 '미토스 모멘트'를 통해 강력한 실적 가시성을 확보함.\n· 팔로알토 역시 AI 도입 가속화에 따른 보안 수요와 더불어 아이덴티티 및 모니터링 분야의 선제적 인수 합병 효과로 통합 플랫폼으로서의 지배력이 강화됨.\n· 기업들이 AI 투자를 비용이 아닌 ",
-          "date": "2026-06-06T05:56"
+          "channel": "aetherjapanresearch",
+          "text": "Jefferies) 마이크로소프트 BUILD 2026 참석 후기. TP $575\n\nMSFT Build 참석 후 전반적인 인상은 Microsoft에 대해 더 긍정적으로 바뀌었다는 내용입니다. 핵심은 기업 AI 경쟁의 중심이 기초 모델 자체에서 하니스, 평가(evals), 오케스트레이션 계층으로 이동하고 있으며, 이 영역에서 MSFT의 모델 중립적 접근, 엔드투엔드 스택, 기업 거버넌스 역량이 차별화되고 있다는 점입니다.\n\n보고서는 MSFT가 과거 운영체제에서 클라우드로 확장했던 것처럼, 이제는 기업 AI의 하니스와 평가 계층을 장악하",
+          "date": "2026-06-07T01:58"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "번스타인) Asia Tech Hardware & Semi: 2026 타이베이 컴퓨텍스 핵심 시사점\n\n저희는 6월 2일부터 4일까지 타이베이 컴퓨텍스에 참석했으며, Delta(OP), MediaTek(OP), Foxconn(2317 TT), Bizlink(3665 TT), Auras(3324 TT), Lite-on(2301 TT)의 가이드 투어와 Hon Precision(2317 TT), FOCI(8210 TT), ASE(3711 TT), Lotes(3533 TT), Winway(6515 TT), Zhending(4958 TT; 모두",
+          "date": "2026-06-07T01:52"
+        }
+      ]
+    },
+    "META": {
+      "ticker": "META",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-06-07T14:52:34+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "미즈호) ASIC 콜: C28E까지 TPU 쓰나미, 10배 이상 성장 및 META ASIC 램프. AVGO, MU에 긍정적\n\n당사는 10번째 분기 AI ASIC 로드맵 콜을 진행했으며, 2026~2028년 추정치와 관련해 업계의 중요한 업데이트를 확인했습니다. 핵심 포인트는 다음과 같습니다. 1) 2028년 TPU 출하량은 잠재적으로 3,500만 개에 달할 수 있으며, 2026년 약 430만 개 대비 약 8배 수준입니다. GOOGL은 Anthropic 및 기타 고객과 함께 TPU를 외부로 확장하려 하고 있습니다. 2) 2028년 추",
+          "date": "2026-06-07T14:52"
         }
       ]
     },
@@ -94,155 +375,129 @@
       "channels": [
         "aetherjapanresearch"
       ],
-      "latestDate": "2026-06-06T15:10:16+00:00",
+      "latestDate": "2026-06-07T12:11:26+00:00",
       "messages": [
         {
           "channel": "aetherjapanresearch",
-          "text": "하닉 189만원/삼전 298,833.56원",
-          "date": "2026-06-06T15:10"
+          "text": "**젠슨 황 \"내일 몇 가지 발표\"…삼성 전영현 회동 예정도**\n\n**젠슨 황 엔비디아 최고경영자(CEO)가 내일인 8일 \"몇 가지 발표가 있을 수도 있다\"고 예고했다.**\n\n황 CEO는 7일 오후 서울 강남구 깐부치킨 삼성점에서 최태원 SK그룹 회장 및 SK하이닉스, SK텔레콤 주요 경영진과의 이른바 깐부 회동 중 기자들과 만나 \"우리는 AI 슈퍼컴퓨터부터 CPU, 새로운 PC, 로보틱스에 이르기까지 다양한 산업 분야에서 협력하고 있다\"고 말했다.\n\n**'SK텔레콤 경영진을 함께 만난 이유'를 묻는 말에 황 CEO는 \"통신 네트워",
+          "date": "2026-06-07T12:11"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "**독일 상장 삼전 & 하이닉스**\n\n삼전은 15%, 하이닉스는 21% 하락 마감",
-          "date": "2026-06-06T15:06"
+          "text": "**[속보] 젠슨 황 \"내일 전영현 삼성전자 부회장 회동 예정, 이재용 회장은 몇주전 美서 만나\"**\n\nhttps://www.newsis.com/view/NISX20260604_0003655628\n\n**[속보] 젠슨 황 \"AI시대 통신 네트워크 재창조…韓 통신사와 협력\"**\n\n https://www.asiae.co.kr/article/2026060719405393470",
+          "date": "2026-06-07T11:15"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "Wccftech) CXMT의 \"저렴한\" DDR5는 허구, 메모리3사와 가격 비슷해\n\nCXMT의 DDR5가 “저가 대안”이라는 인식은 과장됐다는 것입니다. Computex에서 여러 메모리 모듈 업체들이 전한 내용에 따르면, CXMT DDR5 가격은 삼성전자, SK하이닉스, Micron 제품과 거의 비슷한 수준이며, 소비자용 DRAM 가격 상승을 크게 낮춰줄 만큼 싸지는 않다고 합니다.\n\n다만 CXMT의 강점은 가격이 아니라 공급 여력입니다. 삼성전자·SK하이닉스·Micron은 HBM, SOCAMM 등 AI용 고부가 메모리에 생산 우선",
-          "date": "2026-06-06T13:31"
+          "text": "👉[단독] 젠슨 황, 전영현 삼성전자 부회장과 회동...HBM4 물량 확보 나선다\n\nhttps://www.hankyung.com/article/202606071379i",
+          "date": "2026-06-07T08:36"
         }
       ]
     },
-    "MSFT": {
-      "ticker": "MSFT",
+    "현대차": {
+      "ticker": "현대차",
       "summary": "분석 실패: Connection error.",
       "messageCount": 2,
-      "channels": [
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-06-06T08:38:59+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "Citi) COMPUTEX 2026의 새로운 내용, 2부: CPO 출격 준비 완료\n\n씨티의 견해\nComputex 2026은 CPO에 있어 전환점이었습니다. 논의의 초점은 개별 광학 디바이스에서 완전한 랙 스케일 배포로 분명히 이동했습니다. Wiwynn과 Ayar Labs는 광 I/O가 실제 AI 인프라에 어떻게 통합될 수 있는지를 시연했으며, NVIDIA의 Spectrum-6 SPX 시연은 Hon Hai/Foxconn이 수행한 스케일아웃 CPO 랙을 보여주는 사례였습니다. Marvell은 미래 광학 클러스터의 네트워킹 백본으로 자리",
-          "date": "2026-06-06T08:38"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "Citi) Microsoft BUILD2026후기; 풀 AI 스택의 구성 요소. TP $620\n\n씨티는 Microsoft Build 2026을 통해 마이크로소프트가 단순한 Copilot 중심 전략을 넘어, AI 모델·데이터·거버넌스·에이전트 오케스트레이션·엣지 하드웨어까지 포괄하는 풀스택 AI 플랫폼으로 진화하고 있다고 평가했습니다. 특히 OpenAI 의존도를 점진적으로 낮추려는 독자 AI 로드맵이 더 명확해졌고, 과거 Build 행사보다 발표의 실질성과 엔지니어링 속도가 높았다는 판단입니다.\n\n현장에서는 금융기관, 대형 SI, 공",
-          "date": "2026-06-06T08:33"
-        }
-      ]
-    },
-    "TSM": {
-      "ticker": "TSM",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-06-06T08:38:59+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "Citi) COMPUTEX 2026의 새로운 내용, 2부: CPO 출격 준비 완료\n\n씨티의 견해\nComputex 2026은 CPO에 있어 전환점이었습니다. 논의의 초점은 개별 광학 디바이스에서 완전한 랙 스케일 배포로 분명히 이동했습니다. Wiwynn과 Ayar Labs는 광 I/O가 실제 AI 인프라에 어떻게 통합될 수 있는지를 시연했으며, NVIDIA의 Spectrum-6 SPX 시연은 Hon Hai/Foxconn이 수행한 스케일아웃 CPO 랙을 보여주는 사례였습니다. Marvell은 미래 광학 클러스터의 네트워킹 백본으로 자리",
-          "date": "2026-06-06T08:38"
-        }
-      ]
-    },
-    "NVDA": {
-      "ticker": "NVDA",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
       "channels": [
         "aetherjapanresearch",
         "DOC_POOL"
       ],
-      "latestDate": "2026-06-06T08:38:59+00:00",
+      "latestDate": "2026-06-07T22:23:30+00:00",
       "messages": [
         {
           "channel": "aetherjapanresearch",
-          "text": "Citi) COMPUTEX 2026의 새로운 내용, 2부: CPO 출격 준비 완료\n\n씨티의 견해\nComputex 2026은 CPO에 있어 전환점이었습니다. 논의의 초점은 개별 광학 디바이스에서 완전한 랙 스케일 배포로 분명히 이동했습니다. Wiwynn과 Ayar Labs는 광 I/O가 실제 AI 인프라에 어떻게 통합될 수 있는지를 시연했으며, NVIDIA의 Spectrum-6 SPX 시연은 Hon Hai/Foxconn이 수행한 스케일아웃 CPO 랙을 보여주는 사례였습니다. Marvell은 미래 광학 클러스터의 네트워킹 백본으로 자리",
-          "date": "2026-06-06T08:38"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "Citi) Microsoft BUILD2026후기; 풀 AI 스택의 구성 요소. TP $620\n\n씨티는 Microsoft Build 2026을 통해 마이크로소프트가 단순한 Copilot 중심 전략을 넘어, AI 모델·데이터·거버넌스·에이전트 오케스트레이션·엣지 하드웨어까지 포괄하는 풀스택 AI 플랫폼으로 진화하고 있다고 평가했습니다. 특히 OpenAI 의존도를 점진적으로 낮추려는 독자 AI 로드맵이 더 명확해졌고, 과거 Build 행사보다 발표의 실질성과 엔지니어링 속도가 높았다는 판단입니다.\n\n현장에서는 금융기관, 대형 SI, 공",
-          "date": "2026-06-06T08:33"
+          "text": "**젠슨 황 \"내일 몇 가지 발표\"…삼성 전영현 회동 예정도**\n\n**젠슨 황 엔비디아 최고경영자(CEO)가 내일인 8일 \"몇 가지 발표가 있을 수도 있다\"고 예고했다.**\n\n황 CEO는 7일 오후 서울 강남구 깐부치킨 삼성점에서 최태원 SK그룹 회장 및 SK하이닉스, SK텔레콤 주요 경영진과의 이른바 깐부 회동 중 기자들과 만나 \"우리는 AI 슈퍼컴퓨터부터 CPU, 새로운 PC, 로보틱스에 이르기까지 다양한 산업 분야에서 협력하고 있다\"고 말했다.\n\n**'SK텔레콤 경영진을 함께 만난 이유'를 묻는 말에 황 CEO는 \"통신 네트워",
+          "date": "2026-06-07T12:11"
         },
         {
           "channel": "DOC_POOL",
-          "text": "**[Tech & Stock Weekly]**\n제목: AI 가동의 필수 요건으로서 보안 중요도 급부상\n작성일: 2026.06.05\n작성자: 김재임, 김시현(하나증권)\n\n**[AI 보안 시장의 구조적 성장]**\n· 크라우드스트라이크는 AI 가동을 위한 필수 인프라로서 보안 수요가 급증하는 '미토스 모멘트'를 통해 강력한 실적 가시성을 확보함.\n· 팔로알토 역시 AI 도입 가속화에 따른 보안 수요와 더불어 아이덴티티 및 모니터링 분야의 선제적 인수 합병 효과로 통합 플랫폼으로서의 지배력이 강화됨.\n· 기업들이 AI 투자를 비용이 아닌 ",
-          "date": "2026-06-06T05:56"
+          "text": "**KODEX 현대차 로보틱스 밸류체인 TOP3 플러스 ETF**\n제목: 현대차그룹 로보틱스 비즈니스와 연계된 패시브 ETF 신규 상장\n작성일: 2026.06.09\n작성자: Global Asset Research 박승진, 신민건\n투자의견:\n목표주가:\n\n**[ETF 구성]**\n· 현대차그룹의 로보틱스 비즈니스와 연계된 국내 및 미국 상장 기업들로 구성되는 패시브 ETF입니다.\n· 완성차 기업을 넘어 글로벌 로보틱스 기업으로 진화하는 현대차그룹에 집중하며, 현대차를 핵심 종목으로 로봇 밸류체인 전반의 관련 기업을 편입합니다.\n· 편입 ",
+          "date": "2026-06-07T22:23"
         }
       ]
     },
-    "SOL금융": {
-      "ticker": "SOL금융",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-06-06T08:33:56+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "Citi) Microsoft BUILD2026후기; 풀 AI 스택의 구성 요소. TP $620\n\n씨티는 Microsoft Build 2026을 통해 마이크로소프트가 단순한 Copilot 중심 전략을 넘어, AI 모델·데이터·거버넌스·에이전트 오케스트레이션·엣지 하드웨어까지 포괄하는 풀스택 AI 플랫폼으로 진화하고 있다고 평가했습니다. 특히 OpenAI 의존도를 점진적으로 낮추려는 독자 AI 로드맵이 더 명확해졌고, 과거 Build 행사보다 발표의 실질성과 엔지니어링 속도가 높았다는 판단입니다.\n\n현장에서는 금융기관, 대형 SI, 공",
-          "date": "2026-06-06T08:33"
-        }
-      ]
-    },
-    "META": {
-      "ticker": "META",
+    "KODEX200": {
+      "ticker": "KODEX200",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
         "DOC_POOL"
       ],
-      "latestDate": "2026-06-06T05:56:34+00:00",
+      "latestDate": "2026-06-07T22:23:30+00:00",
       "messages": [
         {
           "channel": "DOC_POOL",
-          "text": "**[Tech & Stock Weekly]**\n제목: AI 가동의 필수 요건으로서 보안 중요도 급부상\n작성일: 2026.06.05\n작성자: 김재임, 김시현(하나증권)\n\n**[AI 보안 시장의 구조적 성장]**\n· 크라우드스트라이크는 AI 가동을 위한 필수 인프라로서 보안 수요가 급증하는 '미토스 모멘트'를 통해 강력한 실적 가시성을 확보함.\n· 팔로알토 역시 AI 도입 가속화에 따른 보안 수요와 더불어 아이덴티티 및 모니터링 분야의 선제적 인수 합병 효과로 통합 플랫폼으로서의 지배력이 강화됨.\n· 기업들이 AI 투자를 비용이 아닌 ",
-          "date": "2026-06-06T05:56"
+          "text": "**KODEX 현대차 로보틱스 밸류체인 TOP3 플러스 ETF**\n제목: 현대차그룹 로보틱스 비즈니스와 연계된 패시브 ETF 신규 상장\n작성일: 2026.06.09\n작성자: Global Asset Research 박승진, 신민건\n투자의견:\n목표주가:\n\n**[ETF 구성]**\n· 현대차그룹의 로보틱스 비즈니스와 연계된 국내 및 미국 상장 기업들로 구성되는 패시브 ETF입니다.\n· 완성차 기업을 넘어 글로벌 로보틱스 기업으로 진화하는 현대차그룹에 집중하며, 현대차를 핵심 종목으로 로봇 밸류체인 전반의 관련 기업을 편입합니다.\n· 편입 ",
+          "date": "2026-06-07T22:23"
         }
       ]
     },
-    "GOOGL": {
-      "ticker": "GOOGL",
+    "LLY": {
+      "ticker": "LLY",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
         "DOC_POOL"
       ],
-      "latestDate": "2026-06-06T05:56:34+00:00",
+      "latestDate": "2026-06-07T22:23:19+00:00",
       "messages": [
         {
           "channel": "DOC_POOL",
-          "text": "**[Tech & Stock Weekly]**\n제목: AI 가동의 필수 요건으로서 보안 중요도 급부상\n작성일: 2026.06.05\n작성자: 김재임, 김시현(하나증권)\n\n**[AI 보안 시장의 구조적 성장]**\n· 크라우드스트라이크는 AI 가동을 위한 필수 인프라로서 보안 수요가 급증하는 '미토스 모멘트'를 통해 강력한 실적 가시성을 확보함.\n· 팔로알토 역시 AI 도입 가속화에 따른 보안 수요와 더불어 아이덴티티 및 모니터링 분야의 선제적 인수 합병 효과로 통합 플랫폼으로서의 지배력이 강화됨.\n· 기업들이 AI 투자를 비용이 아닌 ",
-          "date": "2026-06-06T05:56"
+          "text": "**[한미약품/제약/기업분석]**\n제목: L/O 가이던스 달성, 그러나 아직 몇 발 더 남았다\n작성일: 2026.06.08\n작성자: 김선아 (하나증권)\n투자의견: BUY (유지)\n목표주가: 710,000원 (상향)\n\n**[신규 기술이전]**\n· 미국 일라이 릴리(Lilly)와 소네페글루타이드(HM15912)에 대한 최대 1.26B 달러 규모의 기술이전 계약 체결. 선급금 75M 달러 수령.\n· 소네페글루타이드는 월 1회 투여 가능한 강점을 가진 단장증후군 치료제로, teduglutide 대비 우수한 경쟁력을 가질 것으로 기대.\n· ",
+          "date": "2026-06-07T22:23"
         }
       ]
     },
-    "CRWD": {
-      "ticker": "CRWD",
+    "HD현대중공업": {
+      "ticker": "HD현대중공업",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
         "DOC_POOL"
       ],
-      "latestDate": "2026-06-06T05:56:34+00:00",
+      "latestDate": "2026-06-07T22:22:46+00:00",
       "messages": [
         {
           "channel": "DOC_POOL",
-          "text": "**[Tech & Stock Weekly]**\n제목: AI 가동의 필수 요건으로서 보안 중요도 급부상\n작성일: 2026.06.05\n작성자: 김재임, 김시현(하나증권)\n\n**[AI 보안 시장의 구조적 성장]**\n· 크라우드스트라이크는 AI 가동을 위한 필수 인프라로서 보안 수요가 급증하는 '미토스 모멘트'를 통해 강력한 실적 가시성을 확보함.\n· 팔로알토 역시 AI 도입 가속화에 따른 보안 수요와 더불어 아이덴티티 및 모니터링 분야의 선제적 인수 합병 효과로 통합 플랫폼으로서의 지배력이 강화됨.\n· 기업들이 AI 투자를 비용이 아닌 ",
-          "date": "2026-06-06T05:56"
+          "text": "**조선|기계|방산**\n제목: VLGC, 탱커, FLNG 다 좋은데...\n작성일: 2024.06.13 (보고서 내 명시된 날짜 기준)\n작성자: 최광식, 이준범 (DAOL Investment & Securities)\n\n**[수주 호황]**\n· VLGC, 탱커, LNG선 등 주요 선종에서 견조한 수주가 이어지고 있습니다. 특히 HD현대중공업의 VLGC 8척 수주, 한화오션의 VLCC 수주, HD현대중공업의 MR탱커 3척 수주, 대한조선의 수에즈막스 탱커 수주 등은 높은 신조선가에 단납기로 이루어져 긍정적입니다.\n\n**[FLNG 시장 성",
+          "date": "2026-06-07T22:22"
+        }
+      ]
+    },
+    "삼성중공업": {
+      "ticker": "삼성중공업",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "DOC_POOL"
+      ],
+      "latestDate": "2026-06-07T22:22:46+00:00",
+      "messages": [
+        {
+          "channel": "DOC_POOL",
+          "text": "**조선|기계|방산**\n제목: VLGC, 탱커, FLNG 다 좋은데...\n작성일: 2024.06.13 (보고서 내 명시된 날짜 기준)\n작성자: 최광식, 이준범 (DAOL Investment & Securities)\n\n**[수주 호황]**\n· VLGC, 탱커, LNG선 등 주요 선종에서 견조한 수주가 이어지고 있습니다. 특히 HD현대중공업의 VLGC 8척 수주, 한화오션의 VLCC 수주, HD현대중공업의 MR탱커 3척 수주, 대한조선의 수에즈막스 탱커 수주 등은 높은 신조선가에 단납기로 이루어져 긍정적입니다.\n\n**[FLNG 시장 성",
+          "date": "2026-06-07T22:22"
+        }
+      ]
+    },
+    "HD마린엔진": {
+      "ticker": "HD마린엔진",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "DOC_POOL"
+      ],
+      "latestDate": "2026-06-07T22:22:46+00:00",
+      "messages": [
+        {
+          "channel": "DOC_POOL",
+          "text": "**조선|기계|방산**\n제목: VLGC, 탱커, FLNG 다 좋은데...\n작성일: 2024.06.13 (보고서 내 명시된 날짜 기준)\n작성자: 최광식, 이준범 (DAOL Investment & Securities)\n\n**[수주 호황]**\n· VLGC, 탱커, LNG선 등 주요 선종에서 견조한 수주가 이어지고 있습니다. 특히 HD현대중공업의 VLGC 8척 수주, 한화오션의 VLCC 수주, HD현대중공업의 MR탱커 3척 수주, 대한조선의 수에즈막스 탱커 수주 등은 높은 신조선가에 단납기로 이루어져 긍정적입니다.\n\n**[FLNG 시장 성",
+          "date": "2026-06-07T22:22"
         }
       ]
     }
   },
-  "totalMessages": 18,
+  "totalMessages": 42,
   "channels": [
     "Jstockclass",
     "report_figure_by_offset",
