@@ -1,107 +1,178 @@
 {
-  "fetchedAt": "2026-06-12T23:13:48.757519",
+  "fetchedAt": "2026-06-13T22:57:38.441619",
   "status": "ok",
   "stocks": {
-    "AMZN": {
-      "ticker": "AMZN",
+    "NVDA": {
+      "ticker": "NVDA",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
+      "messageCount": 5,
       "channels": [
         "aetherjapanresearch",
         "DOC_POOL",
-        "easobi"
+        "beluga_investment",
+        "Jstockclass"
       ],
-      "latestDate": "2026-06-12T21:32:44+00:00",
+      "latestDate": "2026-06-13T22:35:47+00:00",
       "messages": [
         {
-          "channel": "easobi",
-          "text": "2026년 6월 12일 글로벌 마감 시황 브리핑 📈📉\n\n오늘 뉴욕 증시는 변동성 있던 한 주를 상승 마감하며 긍정적인 분위기 속에서 거래를 마쳤습니다. 다우존스 산업평균지수는 353.51포인트 (0.70%) 상승한 51202.26을 기록했고, 나스닥 종합지수는 79.18포인트 (0.31%) 오른 25909.83, S&P 500 지수는 37.16포인트 (0.50%) 상승한 7431.46으로 장을 마감했습니다. 이번 주 전반적으로 시장은 유가 하락과 지정학적 긴장 완화에 대한 낙관론에 힘입어 광범위한 상승세를 보였습니다. 특히 스페이스",
-          "date": "2026-06-12T21:32"
+          "channel": "Jstockclass",
+          "text": "**AI 투자 붐이 S&P 500 ROE에 미치는 영향 (GS)\n\n1. S&P 500 밸류에이션과 ROE의 높은 상관관계**\n\n• S&P 500의 최근 4분기 누적 ROE는 역사상 최고 수준인 22%를 기록하며 높은 밸류에이션을 지지\n\n• 모델 분석에 따르면, S&P 500 ROE가 1%포인트 변동할 때마다 S&P 500의 P/E 멀티플은 약 1배씩 변화하는 밀접한 관계\n\n• 향후 S&P 500의 밸류에이션이 장기 평균으로 회귀할지 혹은 구조적으로 높게 유지될지 여부는 기업 수익성의 궤적에 달려 있어\n\n**2. 메가캡 테크 기업 중",
+          "date": "2026-06-13T00:49"
+        },
+        {
+          "channel": "beluga_investment",
+          "text": "**세계 부호 TOP 10\n\nAI·클라우드·우주 산업이 주도한 2026년, 기술 기업 창업자들이 글로벌 부호 순위를 사실상 장악했습니다\n\n1. Elon Musk (Tesla, SpaceX)\n\n2. Larry Page (Google)\n\n3. Sergey Brin (Google)\n\n4. Jeff Bezos (Amazon)\n\n5. Larry Ellison (Oracle)\n\n6. Michael Dell (Dell Technologies)\n\n7. Mark Zuckerberg (Meta)\n\n8. Bernard Arnault (LVMH)\n\n9.",
+          "date": "2026-06-13T08:33"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "BofA) 메타; 피드에서 프런티어 모델로: AI 시대 메타의 구조적 진화. TP $835\n\n1. AI 투자 사이클 확대, 투자자들은 수익을 기대\n메타가 2026년 Opex와 Capex 모두에서 상당한 증가를 가이던스로 제시했던 3Q25 실적 발표 이후, 주가는 주요 지수 대비 부진했습니다(메타 -24% vs. NASDAQ +5%). 투자자들의 우려는 보다 자본집약적인 비즈니스 모델로의 전환, 즉 낮아지는 FCF, AI 관련 지출의 불확실한 ROI, 그리고 향후 D&A가 마진에 미칠 영향에 집중되어 왔습니다. 본 보고서에서는 메타의",
-          "date": "2026-06-11T23:37"
+          "text": "블룸버그) **SpaceX, 자체 팀이 활용에 어려움을 겪자 컴퓨팅 자원을 임대**\n\nSpaceX는 멤피스에 있는 Colossus 1 데이터센터를 활용해 Grok 인공지능 모델을 개발하고 구동하는 과정에서 기술적 문제에 직면한 뒤, 해당 시설의 전체 용량을 Anthropic PBC에 임대하기로 결정했다고 사안에 정통한 관계자들이 밝혔습니다.\n\n일론 머스크의 회사는 3개 데이터센터 캠퍼스로 구성된 클러스터를 활용해 막대한 컴퓨팅 파워로 최첨단 AI 모델을 훈련할 계획이었습니다. 그러나 회사는 **Colossus 1을 10마일 이상 떨",
+          "date": "2026-06-13T12:09"
         },
         {
           "channel": "DOC_POOL",
-          "text": "**[휴메딕스/제약·바이오/미용의료기기]**\n제목: 실적 정체 구간 통과 및 신제품 모멘텀 기대\n작성일: 2026.06.15\n작성자: 하태기 (상상인증권)\n투자의견: Buy\n목표주가: 50,000원\n\n**[실적 정체 해소]**\n· 필러 수출 부진과 경쟁 심화로 2026년 1분기 실적은 다소 둔화되었으나, 2분기부터 엘라비에 리투오 매출 급성장으로 실적 회복세가 전망됨.\n\n**[신제품 모멘텀]**\n· 복합필러 벨피엔의 식약처 허가 신청 완료 및 연내 출시 기대감과 더불어, 스킨부스터 에스테필 등 제품 라인업 확대로 성장 동력을 확보함",
-          "date": "2026-06-12T14:23"
-        }
-      ]
-    },
-    "BE": {
-      "ticker": "BE",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 7,
-      "channels": [
-        "aetherjapanresearch",
-        "d_ticker",
-        "easobi"
-      ],
-      "latestDate": "2026-06-12T21:32:44+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "2026년 6월 12일 글로벌 마감 시황 브리핑 📈📉\n\n오늘 뉴욕 증시는 변동성 있던 한 주를 상승 마감하며 긍정적인 분위기 속에서 거래를 마쳤습니다. 다우존스 산업평균지수는 353.51포인트 (0.70%) 상승한 51202.26을 기록했고, 나스닥 종합지수는 79.18포인트 (0.31%) 오른 25909.83, S&P 500 지수는 37.16포인트 (0.50%) 상승한 7431.46으로 장을 마감했습니다. 이번 주 전반적으로 시장은 유가 하락과 지정학적 긴장 완화에 대한 낙관론에 힘입어 광범위한 상승세를 보였습니다. 특히 스페이스",
-          "date": "2026-06-12T21:32"
+          "text": "**[노타/소프트웨어/AI 경량화·최적화]**\n제목: 빠르게 성장하는 AI 경량화/최적화의 리더\n작성일: 2026.06.12\n작성자: 이종원 (BNK투자증권)\n투자의견: 매수\n목표주가: 38,000원\n\n**[투자 포인트 및 실적 전망]**\n· AI 산업의 중심이 학습에서 추론으로 이동함에 따라 온디바이스 AI 및 엣지 AI의 필요성이 증대되는 가운데, 노타는 AI 모델을 경량화·최적화하는 핵심 기술을 보유하여 시장 성장의 수혜가 기대됨.\n· 2026년 1분기 매출 35.8억 원으로 전년 동기 대비 53.6배 성장했으며, 1분기 말 ",
+          "date": "2026-06-13T22:35"
         },
         {
-          "channel": "easobi",
-          "text": "📅 2026년 6월 11일 / Dong Cheol Shin\n🏢 HD현대중공업 (CLSA)\n📝 Geared up for the next leg\n🎯 투자의견 High-Conviction Outperform 유지 / 목표주가 ₩1,000,000\n───── ✦ ─────\n🎯 투자의견 및 목표주가\n•  투자의견 High-Conviction Outperform, 목표주가 ₩1,000,000 유지\n•  현재가 ₩636,000 대비 상승여력 +57.2%\n•  직전 목표주가도 5/8 제시된 ₩1,000,000으로 동일, 이번 보고서는 변경 없이 재",
-          "date": "2026-06-12T00:03"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "많은 분들이 왜 SpaceX, $SPCX가 아직 거래되지 않는지 묻고 있습니다.\n\nIPO 절차가 정확히 어떻게 진행되는지, 그리고 주식이 언제 거래 가능해지는지 설명드리겠습니다. 저장해 두세요.\n\nIPO는 미 동부시간 오전 9시 50분에 호가가 제시되었고, 오전 10시에 거래가 시작될 것으로 예상되었습니다. 하지만 이것이 반드시 그 시간에 주식이 거래된다는 뜻은 아닙니다.\n\n거래가 시작되기 전에 Nasdaq은 매수·매도 주문을 모아 체결하는 가격 발견 경매를 완료해야 합니다.\n\n오전 9시 50분경 “첫 Indicative Price",
-          "date": "2026-06-12T15:18"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "Bernstein: 휴머노이드 로봇, 진입장벽보다 중요한 것은 차별화의 폭\n\nBernstein은 휴머노이드 로봇 산업에서 투자 가능한 기업을 찾는 일이 쉽지 않다고 평가했습니다. 공급망 전반에 150개가 넘는 플레이어가 몰려 있고, 매달 새로운 기업이 등장하고 있기 때문입니다. 이는 산업의 진입장벽이 낮다는 뜻입니다. 다만 Bernstein은 진짜 핵심 질문은 “진입장벽이 높은가”가 아니라 “차별화할 수 있는 공간이 얼마나 넓은가”라고 봤습니다. 휴머노이드 로봇 시장은 들어가기는 쉽지만, 안으로 들어가면 천장이 매우 높은 방과 같다",
-          "date": "2026-06-12T13:16"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "⚡️⚡️⚡️⚡️⚡️⚡️\nSpaceX IPO Expected To Be Released For Quotation At 9:50 AM ET\n\n미 동부시간(ET) 오전 9시 50분에 나스닥에서 스페이스 X 첫 호가(Quotation)가 공개될 예정\n\n오전 9:50 ET = 한국시간(KST) 오후 10:50",
-          "date": "2026-06-12T11:13"
+          "channel": "DOC_POOL",
+          "text": "**[노타/소프트웨어/AI 경량화·최적화]**\n제목: 빠르게 성장하는 AI 경량화/최적화의 리더\n작성일: 2026.06.12\n작성자: 이종원 (BNK투자증권)\n투자의견: 매수\n목표주가: 38,000원\n\n**[투자 포인트 및 실적 전망]**\n· AI 산업의 중심이 학습에서 추론으로 이동함에 따라 온디바이스 AI 및 엣지 AI의 필요성이 증대되는 가운데, 노타는 AI 모델을 경량화·최적화하는 핵심 기술을 보유하여 시장 성장의 수혜가 기대됨.\n· 2026년 1분기 매출 35.8억 원으로 전년 동기 대비 53.6배 성장했으며, 1분기 말 ",
+          "date": "2026-06-13T22:35"
         }
       ]
     },
     "MSFT": {
       "ticker": "MSFT",
       "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "Jstockclass"
+      ],
+      "latestDate": "2026-06-13T00:49:51+00:00",
+      "messages": [
+        {
+          "channel": "Jstockclass",
+          "text": "**AI 투자 붐이 S&P 500 ROE에 미치는 영향 (GS)\n\n1. S&P 500 밸류에이션과 ROE의 높은 상관관계**\n\n• S&P 500의 최근 4분기 누적 ROE는 역사상 최고 수준인 22%를 기록하며 높은 밸류에이션을 지지\n\n• 모델 분석에 따르면, S&P 500 ROE가 1%포인트 변동할 때마다 S&P 500의 P/E 멀티플은 약 1배씩 변화하는 밀접한 관계\n\n• 향후 S&P 500의 밸류에이션이 장기 평균으로 회귀할지 혹은 구조적으로 높게 유지될지 여부는 기업 수익성의 궤적에 달려 있어\n\n**2. 메가캡 테크 기업 중",
+          "date": "2026-06-13T00:49"
+        }
+      ]
+    },
+    "AAPL": {
+      "ticker": "AAPL",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 3,
+      "channels": [
+        "aetherjapanresearch",
+        "Jstockclass"
+      ],
+      "latestDate": "2026-06-13T09:03:34+00:00",
+      "messages": [
+        {
+          "channel": "Jstockclass",
+          "text": "**AI 투자 붐이 S&P 500 ROE에 미치는 영향 (GS)\n\n1. S&P 500 밸류에이션과 ROE의 높은 상관관계**\n\n• S&P 500의 최근 4분기 누적 ROE는 역사상 최고 수준인 22%를 기록하며 높은 밸류에이션을 지지\n\n• 모델 분석에 따르면, S&P 500 ROE가 1%포인트 변동할 때마다 S&P 500의 P/E 멀티플은 약 1배씩 변화하는 밀접한 관계\n\n• 향후 S&P 500의 밸류에이션이 장기 평균으로 회귀할지 혹은 구조적으로 높게 유지될지 여부는 기업 수익성의 궤적에 달려 있어\n\n**2. 메가캡 테크 기업 중",
+          "date": "2026-06-13T00:49"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) 삼성전기; 가격 상승이라는 본격적 순풍으로 업사이클 활용, 목표주가 240만원으로 상향\n\n당사의 MLCC 산업 수급 모델 도입을 바탕으로 볼 때, 삼성전기는 견조한 사업 실행력을 기반으로 경쟁사보다 더 큰 EPS 성장 기회를 포착할 것으로 판단합니다. 여기에는 AI 서버급 MLCC 설계 채택 성과와 실리콘 커패시터 사업 신규 진입이 포함됩니다. 당사는 업계 수요 전환 과정에서 발생하는 생산능력 페널티와 손실이 투자자 기대치를 상회할 수 있는 핵심 업사이드 리스크라고 판단하며, 이는 2028년 예상 MLCC 마진 구조가 과",
+          "date": "2026-06-13T09:03"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) 무라타; 최고의 AI 수혜주로 부상, 목표주가 상향\n\n당사는 실적 전망을 상향하고, 2026년 12월 말 기준 목표주가를 기존 7,000엔에서 15,200엔으로 상향하며, 투자의견 비중확대를 유지합니다. 당사는 이전에도 MLCC의 수급 제약으로 실적 모멘텀이 개선될 것으로 예상했으나, 이제는 AI 서버용 MLCC 수요가 예상보다 빠르게 증가하고, 첨단 제품 수요 증가에 따른 제품 믹스와 한계이익률이 개선되며, AI 서버 애플리케이션 수요가 예상보다 강해 타이트한 수급이 장기화되는 등의 요인으로 이전보다 훨씬 강한 실적 성",
+          "date": "2026-06-13T09:02"
+        }
+      ]
+    },
+    "BE": {
+      "ticker": "BE",
+      "summary": "분석 실패: Connection error.",
       "messageCount": 5,
       "channels": [
         "aetherjapanresearch",
-        "easobi"
+        "DOC_POOL",
+        "beluga_investment"
       ],
-      "latestDate": "2026-06-12T21:32:44+00:00",
+      "latestDate": "2026-06-13T22:38:21+00:00",
       "messages": [
         {
-          "channel": "easobi",
-          "text": "2026년 6월 12일 글로벌 마감 시황 브리핑 📈📉\n\n오늘 뉴욕 증시는 변동성 있던 한 주를 상승 마감하며 긍정적인 분위기 속에서 거래를 마쳤습니다. 다우존스 산업평균지수는 353.51포인트 (0.70%) 상승한 51202.26을 기록했고, 나스닥 종합지수는 79.18포인트 (0.31%) 오른 25909.83, S&P 500 지수는 37.16포인트 (0.50%) 상승한 7431.46으로 장을 마감했습니다. 이번 주 전반적으로 시장은 유가 하락과 지정학적 긴장 완화에 대한 낙관론에 힘입어 광범위한 상승세를 보였습니다. 특히 스페이스",
-          "date": "2026-06-12T21:32"
+          "channel": "beluga_investment",
+          "text": "**Andrea Bocelli, David Guetta and EJAE perform Official FIFA World Cup 2026 Anthem 'DNA'\n\n****https://youtu.be/_Ujey4s2aOQ?si=THUfYTwDNttCNW7T**",
+          "date": "2026-06-13T13:56"
+        },
+        {
+          "channel": "beluga_investment",
+          "text": "**세계 부호 TOP 10\n\nAI·클라우드·우주 산업이 주도한 2026년, 기술 기업 창업자들이 글로벌 부호 순위를 사실상 장악했습니다\n\n1. Elon Musk (Tesla, SpaceX)\n\n2. Larry Page (Google)\n\n3. Sergey Brin (Google)\n\n4. Jeff Bezos (Amazon)\n\n5. Larry Ellison (Oracle)\n\n6. Michael Dell (Dell Technologies)\n\n7. Mark Zuckerberg (Meta)\n\n8. Bernard Arnault (LVMH)\n\n9.",
+          "date": "2026-06-13T08:33"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "AI 및 클라우드가 상당한 성장을 견인할 전망입니다\n\n1. Network Infrastructure\nNokia는 2026년 1분기에 AI 및 클라우드 주문 10억 유로를 기록했습니다. 회사 측 설명에 따르면, 이 주문은 광학 시장의 강세에 의해 주도됐으며, 데이터센터 스위칭 부문에서 회사가 확보한 신규 디자인 윈 관련 주문은 포함되지 않았습니다. 당사는 Nokia가 이 부문에서 대형 계약을 수주했다고 판단합니다. Nokia가 2025년에 Google의 스위치 공급업체로 인증을 받았다는 점을 감안하면, 해당 계약 중 하나, 아마도 더",
-          "date": "2026-06-12T15:21"
+          "text": "블룸버그) **SpaceX, 자체 팀이 활용에 어려움을 겪자 컴퓨팅 자원을 임대**\n\nSpaceX는 멤피스에 있는 Colossus 1 데이터센터를 활용해 Grok 인공지능 모델을 개발하고 구동하는 과정에서 기술적 문제에 직면한 뒤, 해당 시설의 전체 용량을 Anthropic PBC에 임대하기로 결정했다고 사안에 정통한 관계자들이 밝혔습니다.\n\n일론 머스크의 회사는 3개 데이터센터 캠퍼스로 구성된 클러스터를 활용해 막대한 컴퓨팅 파워로 최첨단 AI 모델을 훈련할 계획이었습니다. 그러나 회사는 **Colossus 1을 10마일 이상 떨",
+          "date": "2026-06-13T12:09"
+        },
+        {
+          "channel": "DOC_POOL",
+          "text": "**[정유/화학/에너지]**\n제목: 호르무즈 개방 이후 유가 정상화 속도에 대한 소고 및 데이터센터 건설 유예의 시사점\n작성일: 2026.06.12\n작성자: 전유진 애널리스트 (iM증권)\n\n**[호르무즈 해협 개방과 유가 전망]**\n· 미국-이란 간 MOU 체결로 호르무즈 해협이 개방될 경우, 그간의 오버슈팅이 해소되며 유가는 70~80달러 수준으로 빠르게 조정될 전망임.\n· 다만, 완전한 통행 재개까지는 세부 논의 과정의 불확실성과 높은 해상 보험료 등으로 인해 원유 및 정제품의 통행 속도가 예상보다 더딜 수 있음.\n· 3월 이후",
+          "date": "2026-06-13T22:38"
+        },
+        {
+          "channel": "DOC_POOL",
+          "text": "**[정유/화학/에너지]**\n제목: 호르무즈 개방 이후 유가 정상화 속도에 대한 소고 및 데이터센터 건설 유예의 시사점\n작성일: 2026.06.12\n작성자: 전유진 애널리스트 (iM증권)\n\n**[호르무즈 해협 개방과 유가 전망]**\n· 미국-이란 간 MOU 체결로 호르무즈 해협이 개방될 경우, 그간의 오버슈팅이 해소되며 유가는 70~80달러 수준으로 빠르게 조정될 전망임.\n· 다만, 완전한 통행 재개까지는 세부 논의 과정의 불확실성과 높은 해상 보험료 등으로 인해 원유 및 정제품의 통행 속도가 예상보다 더딜 수 있음.\n· 3월 이후",
+          "date": "2026-06-13T22:38"
+        }
+      ]
+    },
+    "LLY": {
+      "ticker": "LLY",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "beluga_investment"
+      ],
+      "latestDate": "2026-06-13T12:18:59+00:00",
+      "messages": [
+        {
+          "channel": "beluga_investment",
+          "text": "**Pakistani Prime Minister: Pakistan prepares to sign electronically on the US-Iranian peace agreement within 24 hours\n\n파키스탄 총리:\n파키스탄은 미국-이란 평화 협정에 대해 향후 24시간 이내에 전자 서명(Electronic Signature) 할 준비를 하고 있습니다.\n\n****https://x.com/firstsquawk/status/2065756334558216388?s=46**",
+          "date": "2026-06-13T12:18"
+        }
+      ]
+    },
+    "GOOG": {
+      "ticker": "GOOG",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 2,
+      "channels": [
+        "aetherjapanresearch",
+        "beluga_investment"
+      ],
+      "latestDate": "2026-06-13T12:09:43+00:00",
+      "messages": [
+        {
+          "channel": "beluga_investment",
+          "text": "**세계 부호 TOP 10\n\nAI·클라우드·우주 산업이 주도한 2026년, 기술 기업 창업자들이 글로벌 부호 순위를 사실상 장악했습니다\n\n1. Elon Musk (Tesla, SpaceX)\n\n2. Larry Page (Google)\n\n3. Sergey Brin (Google)\n\n4. Jeff Bezos (Amazon)\n\n5. Larry Ellison (Oracle)\n\n6. Michael Dell (Dell Technologies)\n\n7. Mark Zuckerberg (Meta)\n\n8. Bernard Arnault (LVMH)\n\n9.",
+          "date": "2026-06-13T08:33"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "JP모건) Nokia; AI 매출 모델 구축. 광학 부문의 순풍과 스위칭 수주가 상당한 업사이드 가능성을 보여주고 있습니다. TP $21(ADR 기준)\n\nAI 및 클라우드 주문과 매출에서 광학 시장의 핵심 사업자입니다. 신제품이 지속적인 모멘텀을 이끌 가능성이 높습니다. Nokia는 1분기에 AI 및 클라우드 주문 10억 유로를 기록했습니다. 회사 측의 설명에 따르면, 해당 주문은 대부분 광학 관련 주문이었습니다. 이 주문들은 회사가 차세대 제품군을 대거 공개했던 3월 OFC 2026 컨퍼런스 이전에 확보된 것으로 보입니다. 공개된",
-          "date": "2026-06-12T15:20"
-        },
+          "text": "블룸버그) **SpaceX, 자체 팀이 활용에 어려움을 겪자 컴퓨팅 자원을 임대**\n\nSpaceX는 멤피스에 있는 Colossus 1 데이터센터를 활용해 Grok 인공지능 모델을 개발하고 구동하는 과정에서 기술적 문제에 직면한 뒤, 해당 시설의 전체 용량을 Anthropic PBC에 임대하기로 결정했다고 사안에 정통한 관계자들이 밝혔습니다.\n\n일론 머스크의 회사는 3개 데이터센터 캠퍼스로 구성된 클러스터를 활용해 막대한 컴퓨팅 파워로 최첨단 AI 모델을 훈련할 계획이었습니다. 그러나 회사는 **Colossus 1을 10마일 이상 떨",
+          "date": "2026-06-13T12:09"
+        }
+      ]
+    },
+    "AMZN": {
+      "ticker": "AMZN",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "beluga_investment"
+      ],
+      "latestDate": "2026-06-13T08:33:53+00:00",
+      "messages": [
         {
-          "channel": "aetherjapanresearch",
-          "text": "번스타인) 글로벌 인터넷: AI 모델 상품화와 시장 세분화를 위한 프레임워크\n\n번스타인은 AI 모델의 상품화가 단순히 “모델 지능이 서로 비슷해지는 과정”이라기보다, 각 사용 사례에서 이용자가 “이 정도면 충분하다”고 느끼는 시점에 따라 진행될 가능성이 크다고 봅니다. 최근 Anthropic의 Claude Fable 5 가격 부담으로 개발자들이 사용량을 조절하고, OpenAI가 점유율 확보를 위해 가격 인하를 검토한다는 보도, Tencent와 Microsoft 같은 대형 AI 사용자가 토큰 사용 비용을 재검토하는 흐름은 AI 경쟁과",
-          "date": "2026-06-12T12:48"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건) 한미반도체; 메모리 설비투자 업사이클에도 매수하기에는 아직 이르다. 목표주가를 20만원으로 상향하지만 UW 유지\n\n당사는 길어진 메모리 설비투자 업사이클을 반영해 한미반도체의 목표주가를 20만원으로 상향하지만, 리스크/리워드가 여전히 불리한 구간을 가리킨다고 판단해 UW 의견을 유지합니다. 당사의 기존 다운그레이드 논리였던 차별화된 열압착 본딩(TCB)과 메모리 업황의 경제성 간 괴리는 실제로 나타났지만, 메모리 설비투자 업사이클의 규모와 지속 기간을 과소평가했다는 점은 인정합니다. 이는 전체 반도체 생산장비(SPE) 주",
-          "date": "2026-06-12T06:57"
+          "channel": "beluga_investment",
+          "text": "**세계 부호 TOP 10\n\nAI·클라우드·우주 산업이 주도한 2026년, 기술 기업 창업자들이 글로벌 부호 순위를 사실상 장악했습니다\n\n1. Elon Musk (Tesla, SpaceX)\n\n2. Larry Page (Google)\n\n3. Sergey Brin (Google)\n\n4. Jeff Bezos (Amazon)\n\n5. Larry Ellison (Oracle)\n\n6. Michael Dell (Dell Technologies)\n\n7. Mark Zuckerberg (Meta)\n\n8. Bernard Arnault (LVMH)\n\n9.",
+          "date": "2026-06-13T08:33"
         }
       ]
     },
@@ -110,187 +181,36 @@
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
-        "easobi"
+        "beluga_investment"
       ],
-      "latestDate": "2026-06-12T21:32:44+00:00",
+      "latestDate": "2026-06-13T08:33:53+00:00",
       "messages": [
         {
-          "channel": "easobi",
-          "text": "2026년 6월 12일 글로벌 마감 시황 브리핑 📈📉\n\n오늘 뉴욕 증시는 변동성 있던 한 주를 상승 마감하며 긍정적인 분위기 속에서 거래를 마쳤습니다. 다우존스 산업평균지수는 353.51포인트 (0.70%) 상승한 51202.26을 기록했고, 나스닥 종합지수는 79.18포인트 (0.31%) 오른 25909.83, S&P 500 지수는 37.16포인트 (0.50%) 상승한 7431.46으로 장을 마감했습니다. 이번 주 전반적으로 시장은 유가 하락과 지정학적 긴장 완화에 대한 낙관론에 힘입어 광범위한 상승세를 보였습니다. 특히 스페이스",
-          "date": "2026-06-12T21:32"
-        }
-      ]
-    },
-    "TEM": {
-      "ticker": "TEM",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "easobi"
-      ],
-      "latestDate": "2026-06-12T00:06:32+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "📌 한미반도체(시가총액: 29조 5,944억) #A042700\n📁 타법인주식및출자증권취득결정\n2026.06.12 09:01:25 (현재가 : 310,500원, +6.7%)\n\n취득회사 : 스페이스엑스(Space X)(미국)\n주요사업 : AI,우주로켓 발사, 무선 위성통신 인터넷\n\n취득금액 : 500억\n자본대비 : 7.24%\n시총대비 : 0.2%\n- 취득 후 지분율 : -%\n\n예정일자 : 2026-06-16\n취득목적 : AI, 위성통신, 우주항공, 첨단 반도체 수요 폭발에 따른 일론 머스크의 테라팹, 스페이스 X의 미래 성장성에 대한 ",
-          "date": "2026-06-12T00:06"
-        }
-      ]
-    },
-    "HD현대중공업": {
-      "ticker": "HD현대중공업",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "easobi"
-      ],
-      "latestDate": "2026-06-12T00:03:14+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "📅 2026년 6월 11일 / Dong Cheol Shin\n🏢 HD현대중공업 (CLSA)\n📝 Geared up for the next leg\n🎯 투자의견 High-Conviction Outperform 유지 / 목표주가 ₩1,000,000\n───── ✦ ─────\n🎯 투자의견 및 목표주가\n•  투자의견 High-Conviction Outperform, 목표주가 ₩1,000,000 유지\n•  현재가 ₩636,000 대비 상승여력 +57.2%\n•  직전 목표주가도 5/8 제시된 ₩1,000,000으로 동일, 이번 보고서는 변경 없이 재",
-          "date": "2026-06-12T00:03"
-        }
-      ]
-    },
-    "HD현대일렉": {
-      "ticker": "HD현대일렉",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "easobi"
-      ],
-      "latestDate": "2026-06-12T00:03:14+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "📅 2026년 6월 11일 / Dong Cheol Shin\n🏢 HD현대중공업 (CLSA)\n📝 Geared up for the next leg\n🎯 투자의견 High-Conviction Outperform 유지 / 목표주가 ₩1,000,000\n───── ✦ ─────\n🎯 투자의견 및 목표주가\n•  투자의견 High-Conviction Outperform, 목표주가 ₩1,000,000 유지\n•  현재가 ₩636,000 대비 상승여력 +57.2%\n•  직전 목표주가도 5/8 제시된 ₩1,000,000으로 동일, 이번 보고서는 변경 없이 재",
-          "date": "2026-06-12T00:03"
-        }
-      ]
-    },
-    "HD마린엔진": {
-      "ticker": "HD마린엔진",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "easobi"
-      ],
-      "latestDate": "2026-06-12T00:03:14+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "📅 2026년 6월 11일 / Dong Cheol Shin\n🏢 HD현대중공업 (CLSA)\n📝 Geared up for the next leg\n🎯 투자의견 High-Conviction Outperform 유지 / 목표주가 ₩1,000,000\n───── ✦ ─────\n🎯 투자의견 및 목표주가\n•  투자의견 High-Conviction Outperform, 목표주가 ₩1,000,000 유지\n•  현재가 ₩636,000 대비 상승여력 +57.2%\n•  직전 목표주가도 5/8 제시된 ₩1,000,000으로 동일, 이번 보고서는 변경 없이 재",
-          "date": "2026-06-12T00:03"
-        }
-      ]
-    },
-    "CLS": {
-      "ticker": "CLS",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "easobi"
-      ],
-      "latestDate": "2026-06-12T00:03:14+00:00",
-      "messages": [
-        {
-          "channel": "easobi",
-          "text": "📅 2026년 6월 11일 / Dong Cheol Shin\n🏢 HD현대중공업 (CLSA)\n📝 Geared up for the next leg\n🎯 투자의견 High-Conviction Outperform 유지 / 목표주가 ₩1,000,000\n───── ✦ ─────\n🎯 투자의견 및 목표주가\n•  투자의견 High-Conviction Outperform, 목표주가 ₩1,000,000 유지\n•  현재가 ₩636,000 대비 상승여력 +57.2%\n•  직전 목표주가도 5/8 제시된 ₩1,000,000으로 동일, 이번 보고서는 변경 없이 재",
-          "date": "2026-06-12T00:03"
+          "channel": "beluga_investment",
+          "text": "**세계 부호 TOP 10\n\nAI·클라우드·우주 산업이 주도한 2026년, 기술 기업 창업자들이 글로벌 부호 순위를 사실상 장악했습니다\n\n1. Elon Musk (Tesla, SpaceX)\n\n2. Larry Page (Google)\n\n3. Sergey Brin (Google)\n\n4. Jeff Bezos (Amazon)\n\n5. Larry Ellison (Oracle)\n\n6. Michael Dell (Dell Technologies)\n\n7. Mark Zuckerberg (Meta)\n\n8. Bernard Arnault (LVMH)\n\n9.",
+          "date": "2026-06-13T08:33"
         }
       ]
     },
     "GOOGL": {
       "ticker": "GOOGL",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 6,
-      "channels": [
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-06-12T15:21:23+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "AI 및 클라우드가 상당한 성장을 견인할 전망입니다\n\n1. Network Infrastructure\nNokia는 2026년 1분기에 AI 및 클라우드 주문 10억 유로를 기록했습니다. 회사 측 설명에 따르면, 이 주문은 광학 시장의 강세에 의해 주도됐으며, 데이터센터 스위칭 부문에서 회사가 확보한 신규 디자인 윈 관련 주문은 포함되지 않았습니다. 당사는 Nokia가 이 부문에서 대형 계약을 수주했다고 판단합니다. Nokia가 2025년에 Google의 스위치 공급업체로 인증을 받았다는 점을 감안하면, 해당 계약 중 하나, 아마도 더",
-          "date": "2026-06-12T15:21"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건) Nokia; AI 매출 모델 구축. 광학 부문의 순풍과 스위칭 수주가 상당한 업사이드 가능성을 보여주고 있습니다. TP $21(ADR 기준)\n\nAI 및 클라우드 주문과 매출에서 광학 시장의 핵심 사업자입니다. 신제품이 지속적인 모멘텀을 이끌 가능성이 높습니다. Nokia는 1분기에 AI 및 클라우드 주문 10억 유로를 기록했습니다. 회사 측의 설명에 따르면, 해당 주문은 대부분 광학 관련 주문이었습니다. 이 주문들은 회사가 차세대 제품군을 대거 공개했던 3월 OFC 2026 컨퍼런스 이전에 확보된 것으로 보입니다. 공개된",
-          "date": "2026-06-12T15:20"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "많은 분들이 왜 SpaceX, $SPCX가 아직 거래되지 않는지 묻고 있습니다.\n\nIPO 절차가 정확히 어떻게 진행되는지, 그리고 주식이 언제 거래 가능해지는지 설명드리겠습니다. 저장해 두세요.\n\nIPO는 미 동부시간 오전 9시 50분에 호가가 제시되었고, 오전 10시에 거래가 시작될 것으로 예상되었습니다. 하지만 이것이 반드시 그 시간에 주식이 거래된다는 뜻은 아닙니다.\n\n거래가 시작되기 전에 Nasdaq은 매수·매도 주문을 모아 체결하는 가격 발견 경매를 완료해야 합니다.\n\n오전 9시 50분경 “첫 Indicative Price",
-          "date": "2026-06-12T15:18"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "Bernstein: 휴머노이드 로봇, 진입장벽보다 중요한 것은 차별화의 폭\n\nBernstein은 휴머노이드 로봇 산업에서 투자 가능한 기업을 찾는 일이 쉽지 않다고 평가했습니다. 공급망 전반에 150개가 넘는 플레이어가 몰려 있고, 매달 새로운 기업이 등장하고 있기 때문입니다. 이는 산업의 진입장벽이 낮다는 뜻입니다. 다만 Bernstein은 진짜 핵심 질문은 “진입장벽이 높은가”가 아니라 “차별화할 수 있는 공간이 얼마나 넓은가”라고 봤습니다. 휴머노이드 로봇 시장은 들어가기는 쉽지만, 안으로 들어가면 천장이 매우 높은 방과 같다",
-          "date": "2026-06-12T13:16"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JPM) ASE 테크, CPU수요 급증이 2.5D 패키징 병목을 심화하는 중\n\nASE 보고서의 핵심은 AI 서버 CPU 수요 급증이 2.5D 패키징 병목을 심화시키고 있으며, ASE가 그 최대 수혜주 중 하나로 부각되고 있다는 점입니다. 보고서는 ASE의 LEAP, 즉 선단 패키징·테스트 사업 전망이 기존보다 훨씬 강해졌다고 평가하며, 목표주가를 2027년 6월 기준 NT$650으로 상향했습니다. 이는 12개월 선행 EPS 약 20배를 적용한 것입니다.\n\n가장 큰 변화는 엔비디아 Vera와 AMD Venice 같은 서버 CPU가 C",
-          "date": "2026-06-12T06:52"
-        }
-      ]
-    },
-    "GOOG": {
-      "ticker": "GOOG",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 5,
-      "channels": [
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-06-12T15:21:23+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "AI 및 클라우드가 상당한 성장을 견인할 전망입니다\n\n1. Network Infrastructure\nNokia는 2026년 1분기에 AI 및 클라우드 주문 10억 유로를 기록했습니다. 회사 측 설명에 따르면, 이 주문은 광학 시장의 강세에 의해 주도됐으며, 데이터센터 스위칭 부문에서 회사가 확보한 신규 디자인 윈 관련 주문은 포함되지 않았습니다. 당사는 Nokia가 이 부문에서 대형 계약을 수주했다고 판단합니다. Nokia가 2025년에 Google의 스위치 공급업체로 인증을 받았다는 점을 감안하면, 해당 계약 중 하나, 아마도 더",
-          "date": "2026-06-12T15:21"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건) Nokia; AI 매출 모델 구축. 광학 부문의 순풍과 스위칭 수주가 상당한 업사이드 가능성을 보여주고 있습니다. TP $21(ADR 기준)\n\nAI 및 클라우드 주문과 매출에서 광학 시장의 핵심 사업자입니다. 신제품이 지속적인 모멘텀을 이끌 가능성이 높습니다. Nokia는 1분기에 AI 및 클라우드 주문 10억 유로를 기록했습니다. 회사 측의 설명에 따르면, 해당 주문은 대부분 광학 관련 주문이었습니다. 이 주문들은 회사가 차세대 제품군을 대거 공개했던 3월 OFC 2026 컨퍼런스 이전에 확보된 것으로 보입니다. 공개된",
-          "date": "2026-06-12T15:20"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "많은 분들이 왜 SpaceX, $SPCX가 아직 거래되지 않는지 묻고 있습니다.\n\nIPO 절차가 정확히 어떻게 진행되는지, 그리고 주식이 언제 거래 가능해지는지 설명드리겠습니다. 저장해 두세요.\n\nIPO는 미 동부시간 오전 9시 50분에 호가가 제시되었고, 오전 10시에 거래가 시작될 것으로 예상되었습니다. 하지만 이것이 반드시 그 시간에 주식이 거래된다는 뜻은 아닙니다.\n\n거래가 시작되기 전에 Nasdaq은 매수·매도 주문을 모아 체결하는 가격 발견 경매를 완료해야 합니다.\n\n오전 9시 50분경 “첫 Indicative Price",
-          "date": "2026-06-12T15:18"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "Bernstein: 휴머노이드 로봇, 진입장벽보다 중요한 것은 차별화의 폭\n\nBernstein은 휴머노이드 로봇 산업에서 투자 가능한 기업을 찾는 일이 쉽지 않다고 평가했습니다. 공급망 전반에 150개가 넘는 플레이어가 몰려 있고, 매달 새로운 기업이 등장하고 있기 때문입니다. 이는 산업의 진입장벽이 낮다는 뜻입니다. 다만 Bernstein은 진짜 핵심 질문은 “진입장벽이 높은가”가 아니라 “차별화할 수 있는 공간이 얼마나 넓은가”라고 봤습니다. 휴머노이드 로봇 시장은 들어가기는 쉽지만, 안으로 들어가면 천장이 매우 높은 방과 같다",
-          "date": "2026-06-12T13:16"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JPM) ASE 테크, CPU수요 급증이 2.5D 패키징 병목을 심화하는 중\n\nASE 보고서의 핵심은 AI 서버 CPU 수요 급증이 2.5D 패키징 병목을 심화시키고 있으며, ASE가 그 최대 수혜주 중 하나로 부각되고 있다는 점입니다. 보고서는 ASE의 LEAP, 즉 선단 패키징·테스트 사업 전망이 기존보다 훨씬 강해졌다고 평가하며, 목표주가를 2027년 6월 기준 NT$650으로 상향했습니다. 이는 12개월 선행 EPS 약 20배를 적용한 것입니다.\n\n가장 큰 변화는 엔비디아 Vera와 AMD Venice 같은 서버 CPU가 C",
-          "date": "2026-06-12T06:52"
-        }
-      ]
-    },
-    "AAPL": {
-      "ticker": "AAPL",
-      "summary": "분석 실패: Connection error.",
       "messageCount": 2,
       "channels": [
-        "aetherjapanresearch"
+        "aetherjapanresearch",
+        "beluga_investment"
       ],
-      "latestDate": "2026-06-12T15:20:54+00:00",
+      "latestDate": "2026-06-13T12:09:43+00:00",
       "messages": [
         {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건) Nokia; AI 매출 모델 구축. 광학 부문의 순풍과 스위칭 수주가 상당한 업사이드 가능성을 보여주고 있습니다. TP $21(ADR 기준)\n\nAI 및 클라우드 주문과 매출에서 광학 시장의 핵심 사업자입니다. 신제품이 지속적인 모멘텀을 이끌 가능성이 높습니다. Nokia는 1분기에 AI 및 클라우드 주문 10억 유로를 기록했습니다. 회사 측의 설명에 따르면, 해당 주문은 대부분 광학 관련 주문이었습니다. 이 주문들은 회사가 차세대 제품군을 대거 공개했던 3월 OFC 2026 컨퍼런스 이전에 확보된 것으로 보입니다. 공개된",
-          "date": "2026-06-12T15:20"
+          "channel": "beluga_investment",
+          "text": "**세계 부호 TOP 10\n\nAI·클라우드·우주 산업이 주도한 2026년, 기술 기업 창업자들이 글로벌 부호 순위를 사실상 장악했습니다\n\n1. Elon Musk (Tesla, SpaceX)\n\n2. Larry Page (Google)\n\n3. Sergey Brin (Google)\n\n4. Jeff Bezos (Amazon)\n\n5. Larry Ellison (Oracle)\n\n6. Michael Dell (Dell Technologies)\n\n7. Mark Zuckerberg (Meta)\n\n8. Bernard Arnault (LVMH)\n\n9.",
+          "date": "2026-06-13T08:33"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "JP모건) 한미반도체; 메모리 설비투자 업사이클에도 매수하기에는 아직 이르다. 목표주가를 20만원으로 상향하지만 UW 유지\n\n당사는 길어진 메모리 설비투자 업사이클을 반영해 한미반도체의 목표주가를 20만원으로 상향하지만, 리스크/리워드가 여전히 불리한 구간을 가리킨다고 판단해 UW 의견을 유지합니다. 당사의 기존 다운그레이드 논리였던 차별화된 열압착 본딩(TCB)과 메모리 업황의 경제성 간 괴리는 실제로 나타났지만, 메모리 설비투자 업사이클의 규모와 지속 기간을 과소평가했다는 점은 인정합니다. 이는 전체 반도체 생산장비(SPE) 주",
-          "date": "2026-06-12T06:57"
+          "text": "블룸버그) **SpaceX, 자체 팀이 활용에 어려움을 겪자 컴퓨팅 자원을 임대**\n\nSpaceX는 멤피스에 있는 Colossus 1 데이터센터를 활용해 Grok 인공지능 모델을 개발하고 구동하는 과정에서 기술적 문제에 직면한 뒤, 해당 시설의 전체 용량을 Anthropic PBC에 임대하기로 결정했다고 사안에 정통한 관계자들이 밝혔습니다.\n\n일론 머스크의 회사는 3개 데이터센터 캠퍼스로 구성된 클러스터를 활용해 막대한 컴퓨팅 파워로 최첨단 AI 모델을 훈련할 계획이었습니다. 그러나 회사는 **Colossus 1을 10마일 이상 떨",
+          "date": "2026-06-13T12:09"
         }
       ]
     },
@@ -299,164 +219,74 @@
       "summary": "분석 실패: Connection error.",
       "messageCount": 3,
       "channels": [
-        "aetherjapanresearch"
+        "aetherjapanresearch",
+        "DOC_POOL",
+        "beluga_investment"
       ],
-      "latestDate": "2026-06-12T15:18:34+00:00",
+      "latestDate": "2026-06-13T22:34:30+00:00",
       "messages": [
         {
-          "channel": "aetherjapanresearch",
-          "text": "많은 분들이 왜 SpaceX, $SPCX가 아직 거래되지 않는지 묻고 있습니다.\n\nIPO 절차가 정확히 어떻게 진행되는지, 그리고 주식이 언제 거래 가능해지는지 설명드리겠습니다. 저장해 두세요.\n\nIPO는 미 동부시간 오전 9시 50분에 호가가 제시되었고, 오전 10시에 거래가 시작될 것으로 예상되었습니다. 하지만 이것이 반드시 그 시간에 주식이 거래된다는 뜻은 아닙니다.\n\n거래가 시작되기 전에 Nasdaq은 매수·매도 주문을 모아 체결하는 가격 발견 경매를 완료해야 합니다.\n\n오전 9시 50분경 “첫 Indicative Price",
-          "date": "2026-06-12T15:18"
+          "channel": "beluga_investment",
+          "text": "**세계 부호 TOP 10\n\nAI·클라우드·우주 산업이 주도한 2026년, 기술 기업 창업자들이 글로벌 부호 순위를 사실상 장악했습니다\n\n1. Elon Musk (Tesla, SpaceX)\n\n2. Larry Page (Google)\n\n3. Sergey Brin (Google)\n\n4. Jeff Bezos (Amazon)\n\n5. Larry Ellison (Oracle)\n\n6. Michael Dell (Dell Technologies)\n\n7. Mark Zuckerberg (Meta)\n\n8. Bernard Arnault (LVMH)\n\n9.",
+          "date": "2026-06-13T08:33"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "JPM) ASE 테크, CPU수요 급증이 2.5D 패키징 병목을 심화하는 중\n\nASE 보고서의 핵심은 AI 서버 CPU 수요 급증이 2.5D 패키징 병목을 심화시키고 있으며, ASE가 그 최대 수혜주 중 하나로 부각되고 있다는 점입니다. 보고서는 ASE의 LEAP, 즉 선단 패키징·테스트 사업 전망이 기존보다 훨씬 강해졌다고 평가하며, 목표주가를 2027년 6월 기준 NT$650으로 상향했습니다. 이는 12개월 선행 EPS 약 20배를 적용한 것입니다.\n\n가장 큰 변화는 엔비디아 Vera와 AMD Venice 같은 서버 CPU가 C",
-          "date": "2026-06-12T06:52"
+          "text": "Citi) AMD; GPU 업사이드가 충분히 반영되지 않음, 목표주가 575달러로 매수 상향\n\n씨티 의견\n당사는 에이전틱 AI가 주도하는 CPU 수요 변곡점과 AMD가 그 주요 수혜자가 될 가능성에 대해 긍정적인 시각을 유지해 왔습니다. 이제는 AMD가 GPU 시장에서도 실질적인 제2 공급원으로 부상하고 있으며, Meta에서 대부분의 수요를 확보할 가능성이 있다고 판단합니다. 현재 대부분의 투자자들은 AMD를 CPU 주식으로 보고 있으며, 당사 판단으로는 현재 주가에 AMD가 2028년까지 GPU 매출 500억 달러 이상을 달성할 ",
+          "date": "2026-06-13T09:43"
         },
         {
-          "channel": "aetherjapanresearch",
-          "text": "BofA) 메타; 피드에서 프런티어 모델로: AI 시대 메타의 구조적 진화. TP $835\n\n1. AI 투자 사이클 확대, 투자자들은 수익을 기대\n메타가 2026년 Opex와 Capex 모두에서 상당한 증가를 가이던스로 제시했던 3Q25 실적 발표 이후, 주가는 주요 지수 대비 부진했습니다(메타 -24% vs. NASDAQ +5%). 투자자들의 우려는 보다 자본집약적인 비즈니스 모델로의 전환, 즉 낮아지는 FCF, AI 관련 지출의 불확실한 ROI, 그리고 향후 D&A가 마진에 미칠 영향에 집중되어 왔습니다. 본 보고서에서는 메타의",
-          "date": "2026-06-11T23:37"
+          "channel": "DOC_POOL",
+          "text": "**[매드업/퍼포먼스 마케팅/IPO]**\n제목: AI 기반 퍼포먼스 마케팅 솔루션 기업\n작성일: 2026.06.12\n작성자: 김성환, 다인자산운용\n\n**[기술 기반의 독보적 경쟁력]**\n· 설립 이후 10년간 약 300억 원을 투자하여 광고 운영 자동화 솔루션 'LEVER Xpert'를 개발, 마케터의 반복 업무 80% 이상을 자동화하며 생산성을 극대화함.\n· 누적 1조 원 규모의 독점적 광고 성과 데이터를 확보하고 있으며, 이를 기반으로 한 AI 모델 고도화는 경쟁사가 단기간에 모방하기 어려운 강력한 진입장벽으로 작용함.\n· 카이",
+          "date": "2026-06-13T22:34"
         }
       ]
     },
-    "NVDA": {
-      "ticker": "NVDA",
+    "미래에셋": {
+      "ticker": "미래에셋",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
+      "messageCount": 1,
       "channels": [
-        "aetherjapanresearch"
+        "easobi"
       ],
-      "latestDate": "2026-06-12T13:16:25+00:00",
+      "latestDate": "2026-06-13T07:11:53+00:00",
       "messages": [
         {
-          "channel": "aetherjapanresearch",
-          "text": "Bernstein: 휴머노이드 로봇, 진입장벽보다 중요한 것은 차별화의 폭\n\nBernstein은 휴머노이드 로봇 산업에서 투자 가능한 기업을 찾는 일이 쉽지 않다고 평가했습니다. 공급망 전반에 150개가 넘는 플레이어가 몰려 있고, 매달 새로운 기업이 등장하고 있기 때문입니다. 이는 산업의 진입장벽이 낮다는 뜻입니다. 다만 Bernstein은 진짜 핵심 질문은 “진입장벽이 높은가”가 아니라 “차별화할 수 있는 공간이 얼마나 넓은가”라고 봤습니다. 휴머노이드 로봇 시장은 들어가기는 쉽지만, 안으로 들어가면 천장이 매우 높은 방과 같다",
-          "date": "2026-06-12T13:16"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "SK하이닉스, AI 붐에 올라타기 위해 나스닥 선택\n\n한국의 SK하이닉스는 AI 주도 투자자 수요를 겨냥해 이르면 8월 미국 나스닥에 상장할 계획입니다. 엔비디아의 핵심 공급업체인 이 메모리 반도체 대기업은 올해 주가가 230% 급등하면서 기업가치가 1조 달러를 넘어섰습니다. 이번 상장은 글로벌 투자자 기반을 확대하기 위한 것으로, 애널리스트들은 나스닥의 강한 기술주 중심 성격과 더 높은 성장 밸류에이션에 주목하고 있습니다.",
-          "date": "2026-06-12T11:35"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JPM) ASE 테크, CPU수요 급증이 2.5D 패키징 병목을 심화하는 중\n\nASE 보고서의 핵심은 AI 서버 CPU 수요 급증이 2.5D 패키징 병목을 심화시키고 있으며, ASE가 그 최대 수혜주 중 하나로 부각되고 있다는 점입니다. 보고서는 ASE의 LEAP, 즉 선단 패키징·테스트 사업 전망이 기존보다 훨씬 강해졌다고 평가하며, 목표주가를 2027년 6월 기준 NT$650으로 상향했습니다. 이는 12개월 선행 EPS 약 20배를 적용한 것입니다.\n\n가장 큰 변화는 엔비디아 Vera와 AMD Venice 같은 서버 CPU가 C",
-          "date": "2026-06-12T06:52"
+          "channel": "easobi",
+          "text": "미래에셋 '스페이스X 공모주' 한주도 못받았다…전량 삭감돼\nhttps://n.news.naver.com/mnews/article/001/0016136939?sid=101\n\n얼얼",
+          "date": "2026-06-13T07:11"
         }
       ]
     },
     "SK하이닉스": {
       "ticker": "SK하이닉스",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 6,
+      "messageCount": 1,
       "channels": [
-        "aetherjapanresearch",
-        "DOC_POOL",
-        "d_ticker"
+        "aetherjapanresearch"
       ],
-      "latestDate": "2026-06-12T14:21:07+00:00",
+      "latestDate": "2026-06-13T10:18:46+00:00",
       "messages": [
         {
           "channel": "aetherjapanresearch",
-          "text": "SK하이닉스, AI 붐에 올라타기 위해 나스닥 선택\n\n한국의 SK하이닉스는 AI 주도 투자자 수요를 겨냥해 이르면 8월 미국 나스닥에 상장할 계획입니다. 엔비디아의 핵심 공급업체인 이 메모리 반도체 대기업은 올해 주가가 230% 급등하면서 기업가치가 1조 달러를 넘어섰습니다. 이번 상장은 글로벌 투자자 기반을 확대하기 위한 것으로, 애널리스트들은 나스닥의 강한 기술주 중심 성격과 더 높은 성장 밸류에이션에 주목하고 있습니다.",
-          "date": "2026-06-12T11:35"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JP모건) 한미반도체; 메모리 설비투자 업사이클에도 매수하기에는 아직 이르다. 목표주가를 20만원으로 상향하지만 UW 유지\n\n당사는 길어진 메모리 설비투자 업사이클을 반영해 한미반도체의 목표주가를 20만원으로 상향하지만, 리스크/리워드가 여전히 불리한 구간을 가리킨다고 판단해 UW 의견을 유지합니다. 당사의 기존 다운그레이드 논리였던 차별화된 열압착 본딩(TCB)과 메모리 업황의 경제성 간 괴리는 실제로 나타났지만, 메모리 설비투자 업사이클의 규모와 지속 기간을 과소평가했다는 점은 인정합니다. 이는 전체 반도체 생산장비(SPE) 주",
-          "date": "2026-06-12T06:57"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "**SK하이닉스·삼성전자 향한 레버리지 베팅 제한**\n\n글로벌 은행들이 올해 아시아 최고 칩메이커인 SK하이닉스와 삼성전자의 주가 폭등에 따른 잠재적 폭락을 우려해, 헤지펀드의 레버리지 베팅을 제한하고 나섰다.\n\n사안에 정통한 관계자들에 따르면 씨티그룹, JP모건 체이스, 골드만삭스 그룹 등의 브로커들은 헤지펀드가 스왑을 통해 SK하이닉스와 삼성전자 주식에 상승 베팅을 할 때 적용하는 조달비용(파이낸싱 금리)을 인상했다. TSMC에도 유사한 조치가 취해졌다.\n\n모건스탠리는 두 한국 주식에 대한 신규 스왑 거래를 원하는 고객을 거절하",
-          "date": "2026-06-12T05:56"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**[단독] SK하이닉스, 광주에 반도체 후공정 공장 추진**\n\nSK하이닉스가 광주 인근을 신규 거점으로 낙점한 배경에는 호남의 풍부한 전력 인프라가 있다. 태양광과 해상풍력발전소가 밀집한 호남 지역은 전력 소모가 많은 반도체 공장에 안정적인 전력을 공급할 수 있는 최적의 후보지로 꼽힌다. 정부의 지역 균형 발전 정책에 따른 세제 혜택과 규제 완화도 긍정적으로 작용했다는 분석이 나온다.\n\nhttps://www.hankyung.com/article/2026061237791",
-          "date": "2026-06-12T09:04"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**SK하이닉스·삼성전자 향한 레버리지 베팅 제한**\n\n글로벌 은행들이 올해 아시아 최고 칩메이커인 SK하이닉스와 삼성전자의 주가 폭등에 따른 잠재적 폭락을 우려해, 헤지펀드의 레버리지 베팅을 제한하고 나섰다.\n\n사안에 정통한 관계자들에 따르면 씨티그룹, JP모건 체이스, 골드만삭스 그룹 등의 브로커들은 헤지펀드가 스왑을 통해 SK하이닉스와 삼성전자 주식에 상승 베팅을 할 때 적용하는 조달비용(파이낸싱 금리)을 인상했다. TSMC에도 유사한 조치가 취해졌다.\n\n모건스탠리는 두 한국 주식에 대한 신규 스왑 거래를 원하는 고객을 거절하",
-          "date": "2026-06-12T05:52"
+          "text": "하이닉스 콜-풋 비율 거의 100:1찍는중\n\nhttps://x.com/Alpha_Ex_LLC/status/2065392153786744975?s=20",
+          "date": "2026-06-13T10:18"
         }
       ]
     },
-    "SMH": {
-      "ticker": "SMH",
+    "AVGO": {
+      "ticker": "AVGO",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
         "aetherjapanresearch"
       ],
-      "latestDate": "2026-06-12T06:52:46+00:00",
+      "latestDate": "2026-06-13T10:15:41+00:00",
       "messages": [
         {
           "channel": "aetherjapanresearch",
-          "text": "JPM) ASE 테크, CPU수요 급증이 2.5D 패키징 병목을 심화하는 중\n\nASE 보고서의 핵심은 AI 서버 CPU 수요 급증이 2.5D 패키징 병목을 심화시키고 있으며, ASE가 그 최대 수혜주 중 하나로 부각되고 있다는 점입니다. 보고서는 ASE의 LEAP, 즉 선단 패키징·테스트 사업 전망이 기존보다 훨씬 강해졌다고 평가하며, 목표주가를 2027년 6월 기준 NT$650으로 상향했습니다. 이는 12개월 선행 EPS 약 20배를 적용한 것입니다.\n\n가장 큰 변화는 엔비디아 Vera와 AMD Venice 같은 서버 CPU가 C",
-          "date": "2026-06-12T06:52"
-        }
-      ]
-    },
-    "TSM": {
-      "ticker": "TSM",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
-      "channels": [
-        "aetherjapanresearch",
-        "d_ticker"
-      ],
-      "latestDate": "2026-06-12T06:52:46+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "JPM) ASE 테크, CPU수요 급증이 2.5D 패키징 병목을 심화하는 중\n\nASE 보고서의 핵심은 AI 서버 CPU 수요 급증이 2.5D 패키징 병목을 심화시키고 있으며, ASE가 그 최대 수혜주 중 하나로 부각되고 있다는 점입니다. 보고서는 ASE의 LEAP, 즉 선단 패키징·테스트 사업 전망이 기존보다 훨씬 강해졌다고 평가하며, 목표주가를 2027년 6월 기준 NT$650으로 상향했습니다. 이는 12개월 선행 EPS 약 20배를 적용한 것입니다.\n\n가장 큰 변화는 엔비디아 Vera와 AMD Venice 같은 서버 CPU가 C",
-          "date": "2026-06-12T06:52"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "**SK하이닉스·삼성전자 향한 레버리지 베팅 제한**\n\n글로벌 은행들이 올해 아시아 최고 칩메이커인 SK하이닉스와 삼성전자의 주가 폭등에 따른 잠재적 폭락을 우려해, 헤지펀드의 레버리지 베팅을 제한하고 나섰다.\n\n사안에 정통한 관계자들에 따르면 씨티그룹, JP모건 체이스, 골드만삭스 그룹 등의 브로커들은 헤지펀드가 스왑을 통해 SK하이닉스와 삼성전자 주식에 상승 베팅을 할 때 적용하는 조달비용(파이낸싱 금리)을 인상했다. TSMC에도 유사한 조치가 취해졌다.\n\n모건스탠리는 두 한국 주식에 대한 신규 스왑 거래를 원하는 고객을 거절하",
-          "date": "2026-06-12T05:56"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**SK하이닉스·삼성전자 향한 레버리지 베팅 제한**\n\n글로벌 은행들이 올해 아시아 최고 칩메이커인 SK하이닉스와 삼성전자의 주가 폭등에 따른 잠재적 폭락을 우려해, 헤지펀드의 레버리지 베팅을 제한하고 나섰다.\n\n사안에 정통한 관계자들에 따르면 씨티그룹, JP모건 체이스, 골드만삭스 그룹 등의 브로커들은 헤지펀드가 스왑을 통해 SK하이닉스와 삼성전자 주식에 상승 베팅을 할 때 적용하는 조달비용(파이낸싱 금리)을 인상했다. TSMC에도 유사한 조치가 취해졌다.\n\n모건스탠리는 두 한국 주식에 대한 신규 스왑 거래를 원하는 고객을 거절하",
-          "date": "2026-06-12T05:52"
-        }
-      ]
-    },
-    "삼성전자": {
-      "ticker": "삼성전자",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 4,
-      "channels": [
-        "aetherjapanresearch",
-        "DOC_POOL",
-        "d_ticker"
-      ],
-      "latestDate": "2026-06-12T14:21:07+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "**SK하이닉스·삼성전자 향한 레버리지 베팅 제한**\n\n글로벌 은행들이 올해 아시아 최고 칩메이커인 SK하이닉스와 삼성전자의 주가 폭등에 따른 잠재적 폭락을 우려해, 헤지펀드의 레버리지 베팅을 제한하고 나섰다.\n\n사안에 정통한 관계자들에 따르면 씨티그룹, JP모건 체이스, 골드만삭스 그룹 등의 브로커들은 헤지펀드가 스왑을 통해 SK하이닉스와 삼성전자 주식에 상승 베팅을 할 때 적용하는 조달비용(파이낸싱 금리)을 인상했다. TSMC에도 유사한 조치가 취해졌다.\n\n모건스탠리는 두 한국 주식에 대한 신규 스왑 거래를 원하는 고객을 거절하",
-          "date": "2026-06-12T05:56"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**[단독] 삼성전기, 세종 반도체 기판 생산라인 증설**\n\n산업계에 따르면 삼성전기는 AI 서버용 기판 생산을 늘리기로 했고, 생산 시설 위치는 세종사업장을 우선적으로 검토하고 있다. 이 방안은 이달 말 청와대에서 열리는 이재명 대통령과 국내 주요 그룹 총수 간담회에서 논의될 것으로 관측된다.\n\n베트남에도 부지가 절반 남아 있는데, 국내외 모두 증설을 추진할 가능성도 열어놔야 겠습니다\n\nhttps://www.hankyung.com/article/2026061237801",
-          "date": "2026-06-12T09:06"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**SK하이닉스·삼성전자 향한 레버리지 베팅 제한**\n\n글로벌 은행들이 올해 아시아 최고 칩메이커인 SK하이닉스와 삼성전자의 주가 폭등에 따른 잠재적 폭락을 우려해, 헤지펀드의 레버리지 베팅을 제한하고 나섰다.\n\n사안에 정통한 관계자들에 따르면 씨티그룹, JP모건 체이스, 골드만삭스 그룹 등의 브로커들은 헤지펀드가 스왑을 통해 SK하이닉스와 삼성전자 주식에 상승 베팅을 할 때 적용하는 조달비용(파이낸싱 금리)을 인상했다. TSMC에도 유사한 조치가 취해졌다.\n\n모건스탠리는 두 한국 주식에 대한 신규 스왑 거래를 원하는 고객을 거절하",
-          "date": "2026-06-12T05:52"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "**[국내증시/시황/퀀틴전시 플랜]**\n제목: 38 번째 합의 임박 발언 끝에 살아난 종전 협상 기대감\n작성일: 2026.06.12\n작성자: 이경민 / 대신증권 FICC 리서치부\n\n**[종전 협상 기대]**\n트럼프 대통령의 이란과의 종전 협상 타결 임박 발언으로 지정학적 리스크 완화 기대감이 확산하며 위험자산 선호 심리가 회복됨\n\n**[외국인 수급 개선]**\n외국인 투자자가 25거래일 만에 현·선물 동반 순매수로 전환하며 대형주 중심의 시장 전반적인 매수세 확산과 수급 개선을 견인함\n\n**[반도체 변동성]**\n미국 반도체 업종의 급",
-          "date": "2026-06-12T14:21"
+          "text": "CFRA) 스페이스X, 매도. TP $115\n하이라이트\nSpaceX 매출은 2023년 104억 달러에서 2025년 187억 달러로 증가했으며, 성장의 중심은 발사 중심에서 연결성 주도로 전환되었습니다. Starlink가 견인한 Connectivity 부문은 39억 달러에서 114억 달러로 증가하며 최대 사업 부문이 되었습니다. Space 부문 매출은 41억 달러로 완만하게 증가했지만, Starlink를 위한 내부 발사 역량은 경제적 가치를 과소평가하게 만듭니다. AI 부문은 xAI, Grok, X, COLOSSUS, 궤도 컴퓨팅을 ",
+          "date": "2026-06-13T10:15"
         }
       ]
     },
@@ -465,40 +295,88 @@
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
-        "d_ticker"
+        "aetherjapanresearch"
       ],
-      "latestDate": "2026-06-12T09:06:26+00:00",
+      "latestDate": "2026-06-13T09:03:34+00:00",
       "messages": [
         {
-          "channel": "d_ticker",
-          "text": "**[단독] 삼성전기, 세종 반도체 기판 생산라인 증설**\n\n산업계에 따르면 삼성전기는 AI 서버용 기판 생산을 늘리기로 했고, 생산 시설 위치는 세종사업장을 우선적으로 검토하고 있다. 이 방안은 이달 말 청와대에서 열리는 이재명 대통령과 국내 주요 그룹 총수 간담회에서 논의될 것으로 관측된다.\n\n베트남에도 부지가 절반 남아 있는데, 국내외 모두 증설을 추진할 가능성도 열어놔야 겠습니다\n\nhttps://www.hankyung.com/article/2026061237801",
-          "date": "2026-06-12T09:06"
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) 삼성전기; 가격 상승이라는 본격적 순풍으로 업사이클 활용, 목표주가 240만원으로 상향\n\n당사의 MLCC 산업 수급 모델 도입을 바탕으로 볼 때, 삼성전기는 견조한 사업 실행력을 기반으로 경쟁사보다 더 큰 EPS 성장 기회를 포착할 것으로 판단합니다. 여기에는 AI 서버급 MLCC 설계 채택 성과와 실리콘 커패시터 사업 신규 진입이 포함됩니다. 당사는 업계 수요 전환 과정에서 발생하는 생산능력 페널티와 손실이 투자자 기대치를 상회할 수 있는 핵심 업사이드 리스크라고 판단하며, 이는 2028년 예상 MLCC 마진 구조가 과",
+          "date": "2026-06-13T09:03"
         }
       ]
     },
-    "미래에셋": {
-      "ticker": "미래에셋",
+    "삼성전자": {
+      "ticker": "삼성전자",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 3,
+      "channels": [
+        "aetherjapanresearch",
+        "DOC_POOL"
+      ],
+      "latestDate": "2026-06-13T22:35:47+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) 삼성전기; 가격 상승이라는 본격적 순풍으로 업사이클 활용, 목표주가 240만원으로 상향\n\n당사의 MLCC 산업 수급 모델 도입을 바탕으로 볼 때, 삼성전기는 견조한 사업 실행력을 기반으로 경쟁사보다 더 큰 EPS 성장 기회를 포착할 것으로 판단합니다. 여기에는 AI 서버급 MLCC 설계 채택 성과와 실리콘 커패시터 사업 신규 진입이 포함됩니다. 당사는 업계 수요 전환 과정에서 발생하는 생산능력 페널티와 손실이 투자자 기대치를 상회할 수 있는 핵심 업사이드 리스크라고 판단하며, 이는 2028년 예상 MLCC 마진 구조가 과",
+          "date": "2026-06-13T09:03"
+        },
+        {
+          "channel": "DOC_POOL",
+          "text": "**[노타/소프트웨어/AI 경량화·최적화]**\n제목: 빠르게 성장하는 AI 경량화/최적화의 리더\n작성일: 2026.06.12\n작성자: 이종원 (BNK투자증권)\n투자의견: 매수\n목표주가: 38,000원\n\n**[투자 포인트 및 실적 전망]**\n· AI 산업의 중심이 학습에서 추론으로 이동함에 따라 온디바이스 AI 및 엣지 AI의 필요성이 증대되는 가운데, 노타는 AI 모델을 경량화·최적화하는 핵심 기술을 보유하여 시장 성장의 수혜가 기대됨.\n· 2026년 1분기 매출 35.8억 원으로 전년 동기 대비 53.6배 성장했으며, 1분기 말 ",
+          "date": "2026-06-13T22:35"
+        },
+        {
+          "channel": "DOC_POOL",
+          "text": "**[노타/소프트웨어/AI 경량화·최적화]**\n제목: 빠르게 성장하는 AI 경량화/최적화의 리더\n작성일: 2026.06.12\n작성자: 이종원 (BNK투자증권)\n투자의견: 매수\n목표주가: 38,000원\n\n**[투자 포인트 및 실적 전망]**\n· AI 산업의 중심이 학습에서 추론으로 이동함에 따라 온디바이스 AI 및 엣지 AI의 필요성이 증대되는 가운데, 노타는 AI 모델을 경량화·최적화하는 핵심 기술을 보유하여 시장 성장의 수혜가 기대됨.\n· 2026년 1분기 매출 35.8억 원으로 전년 동기 대비 53.6배 성장했으며, 1분기 말 ",
+          "date": "2026-06-13T22:35"
+        }
+      ]
+    },
+    "SMR": {
+      "ticker": "SMR",
       "summary": "분석 실패: Connection error.",
       "messageCount": 2,
       "channels": [
         "DOC_POOL"
       ],
-      "latestDate": "2026-06-12T14:22:27+00:00",
+      "latestDate": "2026-06-13T22:38:21+00:00",
       "messages": [
         {
           "channel": "DOC_POOL",
-          "text": "**[국내외 증시/시장 동향]**\n제목: 마켓 인사이트: 변동성 장세 속 주요 시장 동향 및 이슈 점검\n작성일: 2026.06.12\n작성자: 김석환, 박수진 (미래에셋)\n\n**[국내 증시 반등]**\n· 외국인 투자자의 25거래일 만의 귀환과 2.6조 원 순매수에 힘입어 코스피 8천 포인트 회복 및 리스크 온 심리 확산\n\n**[반도체 및 우주]**\n· 반도체 섹터의 구조적 호황 지속 전망과 함께 스페이스X 상장 기대감이 시장의 주요 모멘텀으로 작용하며 관련 테마 강세\n\n**[중국 시장 흐름]**\n· 중동 종전 기대감에 따른 상해종합지",
-          "date": "2026-06-12T14:22"
+          "text": "**[정유/화학/에너지]**\n제목: 호르무즈 개방 이후 유가 정상화 속도에 대한 소고 및 데이터센터 건설 유예의 시사점\n작성일: 2026.06.12\n작성자: 전유진 애널리스트 (iM증권)\n\n**[호르무즈 해협 개방과 유가 전망]**\n· 미국-이란 간 MOU 체결로 호르무즈 해협이 개방될 경우, 그간의 오버슈팅이 해소되며 유가는 70~80달러 수준으로 빠르게 조정될 전망임.\n· 다만, 완전한 통행 재개까지는 세부 논의 과정의 불확실성과 높은 해상 보험료 등으로 인해 원유 및 정제품의 통행 속도가 예상보다 더딜 수 있음.\n· 3월 이후",
+          "date": "2026-06-13T22:38"
         },
         {
           "channel": "DOC_POOL",
-          "text": "**[투자전략/주식시장]**\n제목: 환희 속 눈여겨볼 유동성 스톰\n작성일: 2026.06.12\n작성자: 김석환 (미래에셋증권)\n\n**[시장 변동성 확대]**\n**[수급 불균형 심화]**\n**[정책 및 테마 영향]**\n\n**[시장 변동성 확대]**\n· 코스피 사이드카 발동 횟수가 2008년 이후 최다인 25회를 기록하며 초고변동성 장세가 지속됨\n· 한국형 공포지수인 VKOSPI가 역대 최고치인 91.23을 기록하는 등 지정학적 리스크에 대한 민감도가 극대화됨\n· 장기 펀더멘털 접근보다는 지수 급락 시 우량주 저가 매수 등 단기·기술적",
-          "date": "2026-06-12T14:20"
+          "text": "**[정유/화학/에너지]**\n제목: 호르무즈 개방 이후 유가 정상화 속도에 대한 소고 및 데이터센터 건설 유예의 시사점\n작성일: 2026.06.12\n작성자: 전유진 애널리스트 (iM증권)\n\n**[호르무즈 해협 개방과 유가 전망]**\n· 미국-이란 간 MOU 체결로 호르무즈 해협이 개방될 경우, 그간의 오버슈팅이 해소되며 유가는 70~80달러 수준으로 빠르게 조정될 전망임.\n· 다만, 완전한 통행 재개까지는 세부 논의 과정의 불확실성과 높은 해상 보험료 등으로 인해 원유 및 정제품의 통행 속도가 예상보다 더딜 수 있음.\n· 3월 이후",
+          "date": "2026-06-13T22:38"
+        }
+      ]
+    },
+    "SOL금융": {
+      "ticker": "SOL금융",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 2,
+      "channels": [
+        "DOC_POOL"
+      ],
+      "latestDate": "2026-06-13T03:05:44+00:00",
+      "messages": [
+        {
+          "channel": "DOC_POOL",
+          "text": "**[Figure Technology Solutions/핀테크/금융]**\n제목: 피겨 안 사고 배겨?\n작성일: 2026.06.04\n작성자: 김성민, 신우철, 박유진, 이운학 (성균관대학교 금융투자학회 S.T.A.R)\n투자의견: Conviction Buy\n목표주가: 47.12달러\n\n**[투자 포인트: 매크로 환경과 기술적 해자의 결합]**\n· 장기채 금리 고착화와 기준금리 동결이 예상되는 매크로 환경에서, 모기지 대비 HELOC(주택자산담보대출)의 상대적 이자비용 우위가 부각되며 동사의 구조적 수혜가 전망됨.\n· 자체 LOS(대출운영",
+          "date": "2026-06-13T03:05"
+        },
+        {
+          "channel": "DOC_POOL",
+          "text": "**[Figure Technology Solutions/핀테크/금융]**\n제목: 피겨 안 사고 배겨?\n작성일: 2026.06.04\n작성자: 김성민, 신우철, 박유진, 이운학 (성균관대학교 금융투자학회 S.T.A.R)\n투자의견: Conviction Buy\n목표주가: 47.12달러\n\n**[투자 포인트: 매크로 환경과 기술적 해자의 결합]**\n· 장기채 금리 고착화와 기준금리 동결이 예상되는 매크로 환경에서, 모기지 대비 HELOC(주택자산담보대출)의 상대적 이자비용 우위가 부각되며 동사의 구조적 수혜가 전망됨.\n· 자체 LOS(대출운영",
+          "date": "2026-06-13T03:05"
         }
       ]
     }
   },
-  "totalMessages": 47,
+  "totalMessages": 30,
   "channels": [
     "Jstockclass",
     "report_figure_by_offset",
