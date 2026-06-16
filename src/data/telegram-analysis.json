@@ -1,164 +1,58 @@
 {
-  "fetchedAt": "2026-06-15T23:30:35.254251",
+  "fetchedAt": "2026-06-16T23:23:10.030262",
   "status": "ok",
   "stocks": {
-    "삼성전자": {
-      "ticker": "삼성전자",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 6,
-      "channels": [
-        "beluga_investment",
-        "Jstockclass",
-        "DOC_POOL",
-        "d_ticker"
-      ],
-      "latestDate": "2026-06-15T22:58:44+00:00",
-      "messages": [
-        {
-          "channel": "Jstockclass",
-          "text": "P/E 49.2배 vs 29.4배\n\n이걸 밸류 매력으로 따지는게 맞는지도 참.. \n\n삼전닉스가 10배도 안되는데 말이죠?..",
-          "date": "2026-06-15T04:29"
-        },
-        {
-          "channel": "beluga_investment",
-          "text": "**260616_USA - Global technology: Butterfly effects, redux - CLSA\n\n[Implication]\n\n(1) AI 컴퓨팅 부족은 단순한 공급 병목을 넘어, 하이퍼스케일러의 클라우드 마진 압박과 AI 모델 업체들의 가격 전쟁으로 확산될 수 있음\n\n(2) 특히 Oracle/CoreWeave/Nebius의 공격적인 가격 정책, Meta의 잠재적 클라우드 진입, OpenAI의 가격 인하 가능성은 AWS/Azure/GCP의 초과이익을 제한하고 다운스트림 AI 업체들의 수익성 변동성을 키울 수 있음",
-          "date": "2026-06-15T22:58"
-        },
-        {
-          "channel": "beluga_investment",
-          "text": "**삼성전자, 오늘 글로벌전략회의 돌입…HBM·폴더블·AX 총점검\n\n****https://m.etoday.co.kr/news/view/2593832**",
-          "date": "2026-06-15T21:48"
-        },
-        {
-          "channel": "beluga_investment",
-          "text": "**[뉴스] SK하이닉스, HBM4E 샘플 공급 일정 앞당길 전망… 6~7월 주요 고객사에 공급 가능성**\n\n삼성전자가 5월 말 HBM4E 샘플 공급 개시를 발표하고, COMPUTEX 2026에서 처음으로 HBM5 모형(mock-up)을 공개한 가운데, 경쟁사인 SK하이닉스 역시 차세대 HBM 개발에 속도를 내고 있습니다. 한국 언론인 뉴스이스(Newsis)에 따르면 SK하이닉스는 HBM4E 개발에서 긍정적인 성과를 확보했으며, 주요 고객사 대상 샘플 공급을 앞두고 있는 것으로 알려졌습니다.\n\n특히 해당 보도에서 인용된 일부 애널리",
-          "date": "2026-06-15T12:08"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "피어그룹(이비덴·무라타)과 함께 급등 중인 삼성전기",
-          "date": "2026-06-15T01:03"
-        }
-      ]
-    },
-    "TSM": {
-      "ticker": "TSM",
+    "AAPL": {
+      "ticker": "AAPL",
       "summary": "분석 실패: Connection error.",
       "messageCount": 3,
       "channels": [
-        "beluga_investment",
+        "aetherjapanresearch",
         "Jstockclass"
       ],
-      "latestDate": "2026-06-15T22:58:44+00:00",
+      "latestDate": "2026-06-16T22:03:30+00:00",
       "messages": [
         {
           "channel": "Jstockclass",
-          "text": "[한투증권 남채민] 비메모리 OSAT 주가 변동 코멘트\n\n- 금일 오후 12시 기준 두산테스나는 -8.4% 하락하는 반면, 네패스아크는 +10.9% 상승하며 주가 차별화\n\n- 네패스아크는 2030년까지 매출 성장률 CAGR 39%로 가파른 성장 가이던스를 제시\n\n- 핵심 성장동력은 오토모티브 및 AI. 현재 모바일에 편중되어 있는 사업이 2030년까지 모바일, 오토모티브, AI 세 개의 축으로 구분될 것으로 기대\n\n- 네패스아크는 네패스와의 턴키 비즈니스와 더불어 단독 비즈니스로의 확장을 위해서 노력 중임을 언급\n\n- 현재 두산테스",
-          "date": "2026-06-15T04:29"
-        },
-        {
-          "channel": "beluga_investment",
-          "text": "**260616_USA - Global technology: Butterfly effects, redux - CLSA\n\n[Implication]\n\n(1) AI 컴퓨팅 부족은 단순한 공급 병목을 넘어, 하이퍼스케일러의 클라우드 마진 압박과 AI 모델 업체들의 가격 전쟁으로 확산될 수 있음\n\n(2) 특히 Oracle/CoreWeave/Nebius의 공격적인 가격 정책, Meta의 잠재적 클라우드 진입, OpenAI의 가격 인하 가능성은 AWS/Azure/GCP의 초과이익을 제한하고 다운스트림 AI 업체들의 수익성 변동성을 키울 수 있음",
-          "date": "2026-06-15T22:58"
-        },
-        {
-          "channel": "beluga_investment",
-          "text": "**[뉴스] SK하이닉스, HBM4E 샘플 공급 일정 앞당길 전망… 6~7월 주요 고객사에 공급 가능성**\n\n삼성전자가 5월 말 HBM4E 샘플 공급 개시를 발표하고, COMPUTEX 2026에서 처음으로 HBM5 모형(mock-up)을 공개한 가운데, 경쟁사인 SK하이닉스 역시 차세대 HBM 개발에 속도를 내고 있습니다. 한국 언론인 뉴스이스(Newsis)에 따르면 SK하이닉스는 HBM4E 개발에서 긍정적인 성과를 확보했으며, 주요 고객사 대상 샘플 공급을 앞두고 있는 것으로 알려졌습니다.\n\n특히 해당 보도에서 인용된 일부 애널리",
-          "date": "2026-06-15T12:08"
-        }
-      ]
-    },
-    "미래에셋": {
-      "ticker": "미래에셋",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "DOC_POOL",
-        "report_figure_by_offset"
-      ],
-      "latestDate": "2026-06-15T14:18:30+00:00",
-      "messages": [
-        {
-          "channel": "report_figure_by_offset",
-          "text": "[미래에셋증권] **제약/바이오** 분야별 **관심 종목**\n\n • MASH: **디앤디파마텍/올릭스**\n\n • 알츠하이머: **에이비엘바이오**\n\n • 항암: **리가켐바이오/오름테라퓨틱**\n\n • 자가면역: **한올바이오파마**\n\n • 실적: **셀트리온/한미약품**",
-          "date": "2026-06-15T12:19"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "**[국내외 증시/시장 동향]**\n제목: 중동 리스크 완화에 따른 글로벌 증시 반등 및 섹터별 차별화\n작성일: 2026.06.15\n작성자: 김석환, 미래에셋\n\n**[지정학적 리스크 해소]** 미국-이란 종전 합의로 인한 투자 심리 개선 및 글로벌 증시 전반의 리스크 온 확산\n**[섹터별 수혜주 강세]** 유가 하락에 따른 항공주와 전력 수요 증가 기대감에 따른 전선·전력설비주의 동반 급등\n**[코스닥 수급 불균형]** 코스피의 강한 상승세와 달리 외국인의 사상 첫 1조 원대 순매도로 인한 코스닥 시장의 상대적 약세\n\n**[지정학적 ",
-          "date": "2026-06-15T14:18"
-        }
-      ]
-    },
-    "AMZN": {
-      "ticker": "AMZN",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 5,
-      "channels": [
-        "beluga_investment",
-        "easobi",
-        "aetherjapanresearch",
-        "DOC_POOL"
-      ],
-      "latestDate": "2026-06-15T23:06:47+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "***AMAZON TO BUILD NEW DATA CENTER CAMPUS IN MONTGOMERY COUNTY, MARYLAND WITH AT LEAST $20B INVESTMENT**",
-          "date": "2026-06-15T23:06"
-        },
-        {
-          "channel": "beluga_investment",
-          "text": "**260616_USA - Global technology: Butterfly effects, redux - CLSA\n\n[Implication]\n\n(1) AI 컴퓨팅 부족은 단순한 공급 병목을 넘어, 하이퍼스케일러의 클라우드 마진 압박과 AI 모델 업체들의 가격 전쟁으로 확산될 수 있음\n\n(2) 특히 Oracle/CoreWeave/Nebius의 공격적인 가격 정책, Meta의 잠재적 클라우드 진입, OpenAI의 가격 인하 가능성은 AWS/Azure/GCP의 초과이익을 제한하고 다운스트림 AI 업체들의 수익성 변동성을 키울 수 있음",
-          "date": "2026-06-15T22:58"
-        },
-        {
-          "channel": "easobi",
-          "text": "2026년 6월 15일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시는 유가 하락과 대형 기술주 중심의 강세에 힘입어 큰 폭으로 상승하며 한 주를 시작했습니다. 다우존스 산업평균지수는 0.92% 상승한 51671.03을 기록하며 사상 최고치를 경신했고, 나스닥 종합지수는 3.07% 급등한 26704.93으로 마감했습니다. S&P 500 지수 또한 1.65% 상승한 7554.29를 기록하며 전반적인 시장 강세를 나타냈습니다. 이는 지난주 트럼프 대통령의 미국-이란 평화 협정 발표 소식에 국제 유가가 배럴당 80달러 선으로 후퇴한 것이 긍",
-          "date": "2026-06-15T21:34"
+          "text": "**Post Modern 사이클과 Capex 붐을 활용한 투자 전략 (GS)\n\n1. 포스트모던 사이클로의 패러다임적 전환**\n\n• **Modern 사이클 종료** : 지난 수십 년간 지속된 저물가, 저금리, 규제 완화, 세계화(아웃소싱을 통한 비용 절감) 중심의 '모던(Modern) 사이클'이 종식됨\n\n• **새로운 매크로 환경으로의 진입** : 팬데믹 이후 고물가, 고금리, 자본비용 증가, 정부 개입 및 국가 권력 강화, 지역주의 체제로 완전히 전환\n\n• **수익률 결정 요인의 변화** : 주식 시장의 수익률 동인이 밸류에이션의 ",
+          "date": "2026-06-16T22:03"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "1. 최근 미국 시장 급락 원인은 다양한게 있겠지만 유증. CB 등 자금 이슈가 큰 것 같음.\n\n2. 자금 이슈가 발생한 원인은 여러 종류가 있겠지만, 본인은 피지컬AI를 염두한 인프라 확장이 그 목적이라고 보고 있음.\n\n3. 닷컴버블의 붕괴 원인은 지나치게 미래지향적인 BM과 그걸 충족하지 못하는 인프라, 그리고 기업들의 아직 부족한 재무였음\n\n4. 닷컴버블  이후 전 세계적인 인프라 증축이 일어났고 빅테크들은 기업 사무 인프라를 클라우드 망으로 전환함\n\n5. 인터넷의 광범위한 보급은 텍스트, 비디오, 오디오, 이미지 데이터의 생",
-          "date": "2026-06-15T12:48"
+          "text": "JPM) 견조한 MLCC 가격 인상, 다운스트림 원가에 대한 영향은 제한적: 공급망 채널 체크 주요 내용\n\n당사는 중국 시장의 최근 MLCC 가격 및 수급 동향을 파악하기 위해 업계 전문가 콜과 펑화(000636 CH, Not Covered)와의 파이어사이드 챗을 주최하였습니다. MLCC 가격 인상은 특히 현물 시장에서 견조하게 나타나고 있으나, BOM(자재 명세서) 비중이 매우 낮은 수준(2~3%)에 그치는 만큼, 당사 견해로는 다운스트림에 대한 전반적인 MLCC 원가 영향은 제한적입니다. 다만, 당사는 소비자 전자 애플리케이션,",
+          "date": "2026-06-16T15:32"
         },
         {
-          "channel": "DOC_POOL",
-          "text": "**[현대백화점/유통/기업분석]**\n제목: 지누스만 남았다\n작성일: 2026.06.16\n작성자: 박종대 (하나증권)\n\n**[백화점 호실적]**\n백화점 부문은 기존점 매출이 2분기에도 17% 증가하는 등 견조한 성장세를 이어가며 실적 개선을 견인하고 있습니다.\n\n**[면세점 턴어라운드]**\n적자 점포 정리와 인천공항 면세점 신규 운영을 통해 면세점 사업의 불확실성이 해소되며 수익성이 개선되고 있습니다.\n\n**[지누스 리스크]**\n미국 관세 정책의 영향으로 지누스 부문의 영업적자가 지속되고 있어, 향후 아마존 주문 재개에 따른 실적 회",
-          "date": "2026-06-15T14:18"
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) Advantest (6857.T); 실적 추정치 상향: GPU/ASIC에 더해 CPU/CPO 수요 기대\n\n최근 상황을 반영해 실적 추정치를 조정합니다. 투자의견 비중확대를 유지하고, 목표주가는 기존 31,000엔에서 41,000엔으로 상향합니다. 목표주가 기준 시점은 2026년 12월 말입니다. GPU 테스트 시간, 즉 공정 수를 포함한 총 테스트 시간에 대한 가정은 낮추지만, 신규/업그레이드 비율 조정과 보수적인 단가 상승 가정을 반영해 전체 추정치는 상향합니다. 또한 높은 수요에 대응하기 위한 SoC 테스터 생산능력 ",
+          "date": "2026-06-16T11:55"
         }
       ]
     },
     "BE": {
       "ticker": "BE",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 4,
+      "messageCount": 3,
       "channels": [
-        "beluga_investment",
-        "DOC_POOL",
-        "aetherjapanresearch"
+        "aetherjapanresearch",
+        "Jstockclass"
       ],
-      "latestDate": "2026-06-15T22:58:44+00:00",
+      "latestDate": "2026-06-16T22:03:30+00:00",
       "messages": [
         {
-          "channel": "beluga_investment",
-          "text": "**260616_USA - Global technology: Butterfly effects, redux - CLSA\n\n[Implication]\n\n(1) AI 컴퓨팅 부족은 단순한 공급 병목을 넘어, 하이퍼스케일러의 클라우드 마진 압박과 AI 모델 업체들의 가격 전쟁으로 확산될 수 있음\n\n(2) 특히 Oracle/CoreWeave/Nebius의 공격적인 가격 정책, Meta의 잠재적 클라우드 진입, OpenAI의 가격 인하 가능성은 AWS/Azure/GCP의 초과이익을 제한하고 다운스트림 AI 업체들의 수익성 변동성을 키울 수 있음",
-          "date": "2026-06-15T22:58"
+          "channel": "Jstockclass",
+          "text": "**Post Modern 사이클과 Capex 붐을 활용한 투자 전략 (GS)\n\n1. 포스트모던 사이클로의 패러다임적 전환**\n\n• **Modern 사이클 종료** : 지난 수십 년간 지속된 저물가, 저금리, 규제 완화, 세계화(아웃소싱을 통한 비용 절감) 중심의 '모던(Modern) 사이클'이 종식됨\n\n• **새로운 매크로 환경으로의 진입** : 팬데믹 이후 고물가, 고금리, 자본비용 증가, 정부 개입 및 국가 권력 강화, 지역주의 체제로 완전히 전환\n\n• **수익률 결정 요인의 변화** : 주식 시장의 수익률 동인이 밸류에이션의 ",
+          "date": "2026-06-16T22:03"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "밴스 부통령은 미국이 호르무즈 해협이 장기적으로 ‘통행료 없이’ 개방될 것으로 예상한다고 밝혔습니다.\n\nVP Vance says U.S. expects Strait of Hormuz to be open 'toll-free' long term\n\nhttps://www.cnbc.com/2026/06/15/vp-vance-says-us-expects-strait-of-hormuz-to-be-open-toll-free-long-term.html?__source=androidappshare",
-          "date": "2026-06-15T12:27"
+          "text": "미즈호) AI Server 360 종합 공급망 트래커\n\"광(光)은 꺼지지 않는다, 전력은 여전히 상승세\" — CPO/HVDC 침투율 업데이트\n\n요약\n최근 CPO 스케일업과 800VDC 지연에 대한 시장 우려를 반영해, CPO는 광엔진(OE) 생산 대수 기준으로, 800VDC는 전력 랙 출하 대수 기준으로 전망을 업데이트합니다. 당사는 두 일정 모두 계획대로 진행될 것으로 예상하며, 양산은 2028~2029년에 이뤄질 것으로 봅니다. 또한 2027년부터 램프업되는 Nvidia의 CPO 스위치, 즉 3.2T Spectrum-X 수요가 ",
+          "date": "2026-06-16T13:55"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "프랑스 대통령 마크롱: G7은 호르무즈 해협이 재개방되도록 모든 노력을 다할 것입니다.\n\n마크롱: 영국, 프랑스, 이탈리아, 네덜란드는 호르무즈 임무에 병력을 배치할 준비가 된 국가들에 포함됩니다.\n\n마크롱: 호르무즈 임무는 미국과 이란의 합의 이후 2~3일 이내에 배치될 수 있습니다.\n\n마크롱: 호르무즈 재개방은 통행료 없이 이뤄져야 합니다.\n\n(@WalterBloomberg)",
-          "date": "2026-06-15T11:27"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "**[현대백화점/유통/기업분석]**\n제목: 지누스만 남았다\n작성일: 2026.06.16\n작성자: 박종대 (하나증권)\n\n**[백화점 호실적]**\n백화점 부문은 기존점 매출이 2분기에도 17% 증가하는 등 견조한 성장세를 이어가며 실적 개선을 견인하고 있습니다.\n\n**[면세점 턴어라운드]**\n적자 점포 정리와 인천공항 면세점 신규 운영을 통해 면세점 사업의 불확실성이 해소되며 수익성이 개선되고 있습니다.\n\n**[지누스 리스크]**\n미국 관세 정책의 영향으로 지누스 부문의 영업적자가 지속되고 있어, 향후 아마존 주문 재개에 따른 실적 회",
-          "date": "2026-06-15T14:18"
+          "text": "JP모건) AI Capex 2.0; “AI 인프라, 지으면 금융시장은 자금을 댈 것이다”\n\nJP모건의 핵심 메시지는 **AI 인프라 투자가 꺾이기보다, 오히려 금융시장 전반을 동원하는 장기 조달 사이클로 들어갔다는 것**입니다. 올해 들어 AI·데이터센터 관련 발행액은 이미 3,000억 달러를 넘어섰고, JP모건은 현재 발행 속도를 향후 몇 년간 필요한 조달의 ‘기준선’으로 보고 있습니다. 지금까지는 회사채 시장이 중심이었지만, 앞으로는 우량 회사채, 레버리지드 파이낸스, 프로젝트 파이낸스, 구조화상품, 사모·대체자본까지 거의 모든",
+          "date": "2026-06-16T12:02"
         }
       ]
     },
@@ -169,238 +63,233 @@
       "channels": [
         "beluga_investment"
       ],
-      "latestDate": "2026-06-15T22:58:44+00:00",
+      "latestDate": "2026-06-16T23:22:14+00:00",
       "messages": [
         {
           "channel": "beluga_investment",
-          "text": "**260616_USA - Global technology: Butterfly effects, redux - CLSA\n\n[Implication]\n\n(1) AI 컴퓨팅 부족은 단순한 공급 병목을 넘어, 하이퍼스케일러의 클라우드 마진 압박과 AI 모델 업체들의 가격 전쟁으로 확산될 수 있음\n\n(2) 특히 Oracle/CoreWeave/Nebius의 공격적인 가격 정책, Meta의 잠재적 클라우드 진입, OpenAI의 가격 인하 가능성은 AWS/Azure/GCP의 초과이익을 제한하고 다운스트림 AI 업체들의 수익성 변동성을 키울 수 있음",
-          "date": "2026-06-15T22:58"
+          "text": "**260617_AI semiconductors: Cache me if you can AI boom spurs semi capex cycle - CLSA \n\n[Key Takeaways] **\n\n(1) AI는 메모리를 단순 저장 부품이 아닌 AI 성능을 좌우하는 핵심 요소로 재편하고 있음 \n\n(2) 대역폭과 용량이 훈련과 추론의 주요 병목으로 부상했기 때문 \n\n**(3) SPE의 경우 HBM, 고단화, 하이브리드 본딩과 같은 첨단 기술과 CAPEX 중심의 다년 투자사이클을 촉진하고 있으며, 최근 기판이 핵심 병목으로 떠오르고 있음 *",
+          "date": "2026-06-16T23:22"
         }
       ]
     },
-    "NVDA": {
-      "ticker": "NVDA",
+    "TSM": {
+      "ticker": "TSM",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 8,
+      "messageCount": 2,
       "channels": [
-        "beluga_investment",
-        "easobi",
         "aetherjapanresearch",
-        "DOC_POOL",
-        "d_ticker"
+        "beluga_investment"
       ],
-      "latestDate": "2026-06-15T22:58:44+00:00",
+      "latestDate": "2026-06-16T23:22:14+00:00",
       "messages": [
         {
           "channel": "beluga_investment",
-          "text": "**260616_USA - Global technology: Butterfly effects, redux - CLSA\n\n[Implication]\n\n(1) AI 컴퓨팅 부족은 단순한 공급 병목을 넘어, 하이퍼스케일러의 클라우드 마진 압박과 AI 모델 업체들의 가격 전쟁으로 확산될 수 있음\n\n(2) 특히 Oracle/CoreWeave/Nebius의 공격적인 가격 정책, Meta의 잠재적 클라우드 진입, OpenAI의 가격 인하 가능성은 AWS/Azure/GCP의 초과이익을 제한하고 다운스트림 AI 업체들의 수익성 변동성을 키울 수 있음",
-          "date": "2026-06-15T22:58"
-        },
-        {
-          "channel": "beluga_investment",
-          "text": "**[뉴스] SK하이닉스, HBM4E 샘플 공급 일정 앞당길 전망… 6~7월 주요 고객사에 공급 가능성**\n\n삼성전자가 5월 말 HBM4E 샘플 공급 개시를 발표하고, COMPUTEX 2026에서 처음으로 HBM5 모형(mock-up)을 공개한 가운데, 경쟁사인 SK하이닉스 역시 차세대 HBM 개발에 속도를 내고 있습니다. 한국 언론인 뉴스이스(Newsis)에 따르면 SK하이닉스는 HBM4E 개발에서 긍정적인 성과를 확보했으며, 주요 고객사 대상 샘플 공급을 앞두고 있는 것으로 알려졌습니다.\n\n특히 해당 보도에서 인용된 일부 애널리",
-          "date": "2026-06-15T12:08"
-        },
-        {
-          "channel": "easobi",
-          "text": "2026년 6월 15일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시는 유가 하락과 대형 기술주 중심의 강세에 힘입어 큰 폭으로 상승하며 한 주를 시작했습니다. 다우존스 산업평균지수는 0.92% 상승한 51671.03을 기록하며 사상 최고치를 경신했고, 나스닥 종합지수는 3.07% 급등한 26704.93으로 마감했습니다. S&P 500 지수 또한 1.65% 상승한 7554.29를 기록하며 전반적인 시장 강세를 나타냈습니다. 이는 지난주 트럼프 대통령의 미국-이란 평화 협정 발표 소식에 국제 유가가 배럴당 80달러 선으로 후퇴한 것이 긍",
-          "date": "2026-06-15T21:34"
+          "text": "**260617_AI semiconductors: Cache me if you can AI boom spurs semi capex cycle - CLSA \n\n[Key Takeaways] **\n\n(1) AI는 메모리를 단순 저장 부품이 아닌 AI 성능을 좌우하는 핵심 요소로 재편하고 있음 \n\n(2) 대역폭과 용량이 훈련과 추론의 주요 병목으로 부상했기 때문 \n\n**(3) SPE의 경우 HBM, 고단화, 하이브리드 본딩과 같은 첨단 기술과 CAPEX 중심의 다년 투자사이클을 촉진하고 있으며, 최근 기판이 핵심 병목으로 떠오르고 있음 *",
+          "date": "2026-06-16T23:22"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "1. 최근 미국 시장 급락 원인은 다양한게 있겠지만 유증. CB 등 자금 이슈가 큰 것 같음.\n\n2. 자금 이슈가 발생한 원인은 여러 종류가 있겠지만, 본인은 피지컬AI를 염두한 인프라 확장이 그 목적이라고 보고 있음.\n\n3. 닷컴버블의 붕괴 원인은 지나치게 미래지향적인 BM과 그걸 충족하지 못하는 인프라, 그리고 기업들의 아직 부족한 재무였음\n\n4. 닷컴버블  이후 전 세계적인 인프라 증축이 일어났고 빅테크들은 기업 사무 인프라를 클라우드 망으로 전환함\n\n5. 인터넷의 광범위한 보급은 텍스트, 비디오, 오디오, 이미지 데이터의 생",
-          "date": "2026-06-15T12:48"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "**• 엔비디아, 채권 발행 통해 최소 200억달러 조달 계획**\n\n英伟达计划通过发行高等级债券筹资至少200亿美元。",
-          "date": "2026-06-15T12:28"
-        }
-      ]
-    },
-    "MSFT": {
-      "ticker": "MSFT",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
-      "channels": [
-        "beluga_investment",
-        "easobi",
-        "DOC_POOL"
-      ],
-      "latestDate": "2026-06-15T22:58:44+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**260616_USA - Global technology: Butterfly effects, redux - CLSA\n\n[Implication]\n\n(1) AI 컴퓨팅 부족은 단순한 공급 병목을 넘어, 하이퍼스케일러의 클라우드 마진 압박과 AI 모델 업체들의 가격 전쟁으로 확산될 수 있음\n\n(2) 특히 Oracle/CoreWeave/Nebius의 공격적인 가격 정책, Meta의 잠재적 클라우드 진입, OpenAI의 가격 인하 가능성은 AWS/Azure/GCP의 초과이익을 제한하고 다운스트림 AI 업체들의 수익성 변동성을 키울 수 있음",
-          "date": "2026-06-15T22:58"
-        },
-        {
-          "channel": "easobi",
-          "text": "2026년 6월 15일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시는 유가 하락과 대형 기술주 중심의 강세에 힘입어 큰 폭으로 상승하며 한 주를 시작했습니다. 다우존스 산업평균지수는 0.92% 상승한 51671.03을 기록하며 사상 최고치를 경신했고, 나스닥 종합지수는 3.07% 급등한 26704.93으로 마감했습니다. S&P 500 지수 또한 1.65% 상승한 7554.29를 기록하며 전반적인 시장 강세를 나타냈습니다. 이는 지난주 트럼프 대통령의 미국-이란 평화 협정 발표 소식에 국제 유가가 배럴당 80달러 선으로 후퇴한 것이 긍",
-          "date": "2026-06-15T21:34"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "**[심텍/가전 및 전자부품/반도체 PCB]**\n제목: 다시 백조로 전환, 소캠2 매출 증가 및 실적 호조\n작성일: 2026.06.16\n작성자: 박강호 (대신증권)\n투자의견: BUY\n목표주가: 160,000원\n\n**[실적 상향]** 2분기 영업이익 컨센서스 상회 및 2026년 이익 급증 전망\n**[수혜 확대]** 소캠2 양산 본격화에 따른 메모리 3사 점유율 확대 효과\n**[믹스 개선]** 고부가 패키지 매출 비중 증가 및 규모의 경제 진입\n\n**[실적 상향]**\n· 2분기 영업이익은 465억 원으로 컨센서스(426억 원)를 상회할",
-          "date": "2026-06-15T14:16"
-        }
-      ]
-    },
-    "GOOGL": {
-      "ticker": "GOOGL",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 5,
-      "channels": [
-        "beluga_investment",
-        "DOC_POOL",
-        "aetherjapanresearch",
-        "d_ticker"
-      ],
-      "latestDate": "2026-06-15T22:58:44+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**260616_USA - Global technology: Butterfly effects, redux - CLSA\n\n[Implication]\n\n(1) AI 컴퓨팅 부족은 단순한 공급 병목을 넘어, 하이퍼스케일러의 클라우드 마진 압박과 AI 모델 업체들의 가격 전쟁으로 확산될 수 있음\n\n(2) 특히 Oracle/CoreWeave/Nebius의 공격적인 가격 정책, Meta의 잠재적 클라우드 진입, OpenAI의 가격 인하 가능성은 AWS/Azure/GCP의 초과이익을 제한하고 다운스트림 AI 업체들의 수익성 변동성을 키울 수 있음",
-          "date": "2026-06-15T22:58"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "1. 최근 미국 시장 급락 원인은 다양한게 있겠지만 유증. CB 등 자금 이슈가 큰 것 같음.\n\n2. 자금 이슈가 발생한 원인은 여러 종류가 있겠지만, 본인은 피지컬AI를 염두한 인프라 확장이 그 목적이라고 보고 있음.\n\n3. 닷컴버블의 붕괴 원인은 지나치게 미래지향적인 BM과 그걸 충족하지 못하는 인프라, 그리고 기업들의 아직 부족한 재무였음\n\n4. 닷컴버블  이후 전 세계적인 인프라 증축이 일어났고 빅테크들은 기업 사무 인프라를 클라우드 망으로 전환함\n\n5. 인터넷의 광범위한 보급은 텍스트, 비디오, 오디오, 이미지 데이터의 생",
-          "date": "2026-06-15T12:48"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "Citi) 씨티의 Inference Ahead - 격차를 메우다\n\n씨티의 견해\n수직적인 수요 급증, 즉 ‘vertical wall’ 현상은 이전 세대 실리콘으로도 더 확산되고 있으며, A100 임대료는 전주 대비 0.6%, 6주 전 대비 11% 상승했습니다. 단일 릴리스 내부에서도 세분화가 진행되었고, 최상위 리더보드 점수는 61에서 65로 이동했으며, 혼합 가격은 대략 두 배로 상승했습니다. 배급은 제품 기능의 일부가 되었고, 새로운 최상위 모델은 6월 22일 이후 사용 크레딧 뒤로 이동하게 되었습니다. 희소성은 해결되는 속도보다",
-          "date": "2026-06-15T02:24"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**엔비디아, 5년 만에 회사채 발행 준비**\n\n- 투자등급(IG) 채권으로 최소 $20B 조달\n- 2년~30년 만기 등 7개 트랜치 구성\n- 21년 6월 $5.0B 조달한 바 있음\n\n구글은 유상증자, 엔비디아는 회사채 발행. 현금흐름만으로 밸류를 단정하기 어려운 시대가 왔음.",
-          "date": "2026-06-15T12:30"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "**[자동차 산업]**\n제목: Hello, Boston Dynamics! This is Google\n작성일: 2026.06.16\n작성자: 김창호, 전유나 (한국투자증권)\n투자의견: 매수\n목표주가: 현대차 770,000원, 기아 260,000원, 현대모비스 950,000원\n\n**[보스턴다이내믹스(BD) 지분 투자 가능성]**\n· 채널체크 결과, 구글이 2025년 말 현대차에 보스턴다이내믹스 지분 투자를 타진한 것으로 파악됨. 현대차는 일단 제안을 거절했으나, 향후 빅테크 기업들의 지분 투자 참여 가능성을 반영하여 현대차그룹의 BD 가",
-          "date": "2026-06-15T15:44"
-        }
-      ]
-    },
-    "META": {
-      "ticker": "META",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 3,
-      "channels": [
-        "beluga_investment",
-        "easobi"
-      ],
-      "latestDate": "2026-06-15T22:58:44+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**260616_USA - Global technology: Butterfly effects, redux - CLSA\n\n[Implication]\n\n(1) AI 컴퓨팅 부족은 단순한 공급 병목을 넘어, 하이퍼스케일러의 클라우드 마진 압박과 AI 모델 업체들의 가격 전쟁으로 확산될 수 있음\n\n(2) 특히 Oracle/CoreWeave/Nebius의 공격적인 가격 정책, Meta의 잠재적 클라우드 진입, OpenAI의 가격 인하 가능성은 AWS/Azure/GCP의 초과이익을 제한하고 다운스트림 AI 업체들의 수익성 변동성을 키울 수 있음",
-          "date": "2026-06-15T22:58"
-        },
-        {
-          "channel": "beluga_investment",
-          "text": "**#방산**** ****#LIGDNA**** 260616**\n\n[**Rheinmetall and LIG Defense&Aerospace join forces to address European and NATO customers**](https://www.rheinmetall.com/en/media/news-watch/news/2026/06/2026-06-15-rheinmetall-and-lig-defense-aerospace-establish-strategic-partnership)\n\n내용 中\n'라인메탈과 한국의 선도적인 방산 기",
-          "date": "2026-06-15T22:14"
-        },
-        {
-          "channel": "easobi",
-          "text": "2026년 6월 15일 글로벌 마감 시황 브리핑 📈📉\n\n미국 증시는 유가 하락과 대형 기술주 중심의 강세에 힘입어 큰 폭으로 상승하며 한 주를 시작했습니다. 다우존스 산업평균지수는 0.92% 상승한 51671.03을 기록하며 사상 최고치를 경신했고, 나스닥 종합지수는 3.07% 급등한 26704.93으로 마감했습니다. S&P 500 지수 또한 1.65% 상승한 7554.29를 기록하며 전반적인 시장 강세를 나타냈습니다. 이는 지난주 트럼프 대통령의 미국-이란 평화 협정 발표 소식에 국제 유가가 배럴당 80달러 선으로 후퇴한 것이 긍",
-          "date": "2026-06-15T21:34"
+          "text": "미즈호) AI Server 360 종합 공급망 트래커\n\"광(光)은 꺼지지 않는다, 전력은 여전히 상승세\" — CPO/HVDC 침투율 업데이트\n\n요약\n최근 CPO 스케일업과 800VDC 지연에 대한 시장 우려를 반영해, CPO는 광엔진(OE) 생산 대수 기준으로, 800VDC는 전력 랙 출하 대수 기준으로 전망을 업데이트합니다. 당사는 두 일정 모두 계획대로 진행될 것으로 예상하며, 양산은 2028~2029년에 이뤄질 것으로 봅니다. 또한 2027년부터 램프업되는 Nvidia의 CPO 스위치, 즉 3.2T Spectrum-X 수요가 ",
+          "date": "2026-06-16T13:55"
         }
       ]
     },
     "SK하이닉스": {
       "ticker": "SK하이닉스",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 6,
+      "messageCount": 5,
       "channels": [
-        "beluga_investment",
-        "DOC_POOL",
-        "d_ticker"
+        "aetherjapanresearch",
+        "d_ticker",
+        "beluga_investment"
       ],
-      "latestDate": "2026-06-15T22:58:44+00:00",
+      "latestDate": "2026-06-16T09:06:14+00:00",
       "messages": [
         {
           "channel": "beluga_investment",
-          "text": "**260616_USA - Global technology: Butterfly effects, redux - CLSA\n\n[Implication]\n\n(1) AI 컴퓨팅 부족은 단순한 공급 병목을 넘어, 하이퍼스케일러의 클라우드 마진 압박과 AI 모델 업체들의 가격 전쟁으로 확산될 수 있음\n\n(2) 특히 Oracle/CoreWeave/Nebius의 공격적인 가격 정책, Meta의 잠재적 클라우드 진입, OpenAI의 가격 인하 가능성은 AWS/Azure/GCP의 초과이익을 제한하고 다운스트림 AI 업체들의 수익성 변동성을 키울 수 있음",
-          "date": "2026-06-15T22:58"
-        },
-        {
-          "channel": "beluga_investment",
-          "text": "**케이씨텍, SK하이닉스 초임계 세정 장비 뚫었다\n\n****https://www.thelec.kr/news/articleView.html?idxno=58108**",
-          "date": "2026-06-15T21:42"
-        },
-        {
-          "channel": "beluga_investment",
-          "text": "**SK하이닉스, TEL의 세정장비 독점 체제 깨다: 케이씨텍, 용인 팹 공급 자격 획득**\n\n**케이씨텍은 단순히 새로운 장비 카테고리를 추가하는 것이 아니라, SK하이닉스에 핵심 공정인 세정(Cleaning) 장비의 제2 공급원(Second Source)을 제공하게 되었습니다. 이는 향후 대규모 DRAM 생산능력 증설을 앞둔 SK하이닉스의 가격 협상력 강화에 기여할 것으로 예상됩니다.**\n\n• 케이씨텍은 약 5년에 걸친 개발 끝에 SK하이닉스의 품질 인증(Qualification)을 통과했습니다.\n\n**• 이르면 2026년 말부",
-          "date": "2026-06-15T21:41"
-        },
-        {
-          "channel": "beluga_investment",
-          "text": "**[뉴스] SK하이닉스, HBM4E 샘플 공급 일정 앞당길 전망… 6~7월 주요 고객사에 공급 가능성**\n\n삼성전자가 5월 말 HBM4E 샘플 공급 개시를 발표하고, COMPUTEX 2026에서 처음으로 HBM5 모형(mock-up)을 공개한 가운데, 경쟁사인 SK하이닉스 역시 차세대 HBM 개발에 속도를 내고 있습니다. 한국 언론인 뉴스이스(Newsis)에 따르면 SK하이닉스는 HBM4E 개발에서 긍정적인 성과를 확보했으며, 주요 고객사 대상 샘플 공급을 앞두고 있는 것으로 알려졌습니다.\n\n특히 해당 보도에서 인용된 일부 애널리",
-          "date": "2026-06-15T12:08"
-        },
-        {
-          "channel": "d_ticker",
-          "text": "**케이씨텍, SK하이닉스 초임계 세정 장비 뚫었다**\n\n15일 SK하이닉스에 따르면 케이씨텍은 작년 말에서 올해 초 회사의 장비 평가를 성공적으로 통과했다. 이르면 올 하반기 공급을 시작한다. 본격 발주는 내년 2월 장비 반입이 시작되는 용인 1기 팹에 집중될 것으로 알려졌다. SK하이닉스는 초임계 세정 장비를 일본 TEL에서만 조달해왔다. \n\n케이씨텍은 해당 장비를 대당 100억원 수준에 공급하는 것으로 전해졌다. 화학기계연마(CMP), 웻스테이션 등 기존 장비보다 단가가 높다. 고부가 매출원이 새로 추가되는 것이다.\n\nhttp",
-          "date": "2026-06-15T08:43"
-        }
-      ]
-    },
-    "APP": {
-      "ticker": "APP",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "beluga_investment",
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-06-15T21:41:52+00:00",
-      "messages": [
-        {
-          "channel": "beluga_investment",
-          "text": "**SK하이닉스, TEL의 세정장비 독점 체제 깨다: 케이씨텍, 용인 팹 공급 자격 획득**\n\n**케이씨텍은 단순히 새로운 장비 카테고리를 추가하는 것이 아니라, SK하이닉스에 핵심 공정인 세정(Cleaning) 장비의 제2 공급원(Second Source)을 제공하게 되었습니다. 이는 향후 대규모 DRAM 생산능력 증설을 앞둔 SK하이닉스의 가격 협상력 강화에 기여할 것으로 예상됩니다.**\n\n• 케이씨텍은 약 5년에 걸친 개발 끝에 SK하이닉스의 품질 인증(Qualification)을 통과했습니다.\n\n**• 이르면 2026년 말부",
-          "date": "2026-06-15T21:41"
+          "text": "**[단독] SK, 美 AI 데이터센터 구축 검토…하이닉스 앞세워 인프라 확장 추진\n\n****https://zdnet.co.kr/view/?no=20260615155152**",
+          "date": "2026-06-16T01:52"
         },
         {
           "channel": "aetherjapanresearch",
-          "text": "밴스 부통령은 미국이 호르무즈 해협이 장기적으로 ‘통행료 없이’ 개방될 것으로 예상한다고 밝혔습니다.\n\nVP Vance says U.S. expects Strait of Hormuz to be open 'toll-free' long term\n\nhttps://www.cnbc.com/2026/06/15/vp-vance-says-us-expects-strait-of-hormuz-to-be-open-toll-free-long-term.html?__source=androidappshare",
-          "date": "2026-06-15T12:27"
-        }
-      ]
-    },
-    "TEM": {
-      "ticker": "TEM",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "beluga_investment"
-      ],
-      "latestDate": "2026-06-15T12:49:23+00:00",
-      "messages": [
+          "text": "하이닉스가 100조 자사주 매입한다고 합니다.\n\n기사 제목이 처음에는 [단독] SK하이닉스, ADR 상장 후 최대 150조 자사주 매입 → [단독] 최태원의 '승부수'...SK하이닉스, 100조 초대형 주주환원 추진으로 바뀌었는데요\n\n수치가 이렇게 크게 바뀐 거 보니 컨센서스로 대충 때려 계산한 게 아닐까 의심이 됩니다. \n\nSK하이닉스가 지난해 말 3년치(25~28) FCF의 절반을 주주환원 재원으로 활용하겠다고 했는데요. 26년 FCF 컨센이 145조, 27년 222조로 잡혀 있는데 2년치만 해도 100조는 훌쩍 넘습니다.\n\n결",
+          "date": "2026-06-16T09:06"
+        },
         {
-          "channel": "beluga_investment",
-          "text": "***헤즈볼라, 미국-이란 양해각서 환영 - 성명\n\n*HEZBOLLAH WELCOMES U.S.-IRAN MEMORANDUM OF UNDERSTANDING - STATEMENT**",
-          "date": "2026-06-15T12:49"
+          "channel": "aetherjapanresearch",
+          "text": "#하이닉스\n\n100조로 수정\n\nhttps://www.hankyung.com/article/202606169905i",
+          "date": "2026-06-16T08:33"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "SK하이닉스 40조 ADR, 이르면 7월중 상장…실적발표 앞두고 관심 고조\n\nSK하이닉스의 미국 주식예탁증서(ADR)의 나스닥 상장이 예상보다 빨리 진행될 전망이다. 내달 말 예정된 2분기 실적 발표를 전후해 상장이 이뤄질 가능성에 무게가 실린다. \n\n16일 투자업계에 따르면 SK하이닉스의 미국 ADR 상장을 위한 절차가 막바지에 이른 것으로 확인된다. 이달 초 해외 기관투자자를 대상으로 기업설명회(NDR) 일정을 마쳤고, 현재 미국 증권거래위원회(SEC) 최종 승인을 남겨두고 있다. 대부분 절차를 마친 만큼 이르면 7월 중순에서 ",
+          "date": "2026-06-16T07:33"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "하이닉스가 100조 자사주 매입한다고 합니다.\n\n기사 제목이 처음에는 [단독] SK하이닉스, ADR 상장 후 최대 150조 자사주 매입 → [단독] 최태원의 '승부수'...SK하이닉스, 100조 초대형 주주환원 추진으로 바뀌었는데요\n\n수치가 이렇게 크게 바뀐 거 보니 컨센서스로 대충 때려 계산한 게 아닐까 의심이 됩니다. \n\nSK하이닉스가 지난해 말 3년치(25~28) FCF의 절반을 주주환원 재원으로 활용하겠다고 했는데요. 26년 FCF 컨센이 145조, 27년 222조로 잡혀 있는데 2년치만 해도 100조는 훌쩍 넘습니다.\n\n결",
+          "date": "2026-06-16T08:53"
         }
       ]
     },
-    "TIME코스닥": {
-      "ticker": "TIME코스닥",
+    "삼성전자": {
+      "ticker": "삼성전자",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
+      "messageCount": 4,
       "channels": [
+        "d_ticker",
         "easobi"
       ],
-      "latestDate": "2026-06-15T06:09:33+00:00",
+      "latestDate": "2026-06-16T21:58:34+00:00",
       "messages": [
         {
           "channel": "easobi",
-          "text": "마이다스에셋, 바이오 액티브 ETF 내놓는다 KoAct TIME과 경쟁  https://www.smarttoday.co.kr/ko-kr/articles/108370",
-          "date": "2026-06-15T06:09"
+          "text": "현재 우리가 스스로에게 던져야할 질문은\n\n1) 왜 유가가 70불대로 내려와도 미국 10년물 실질금리가 안내려오는지?\n\n2) 삼성전자 기준으로 작년 영업이익 작년 영업이익 44조원, 올해 추정치 350조원인데 PER 밸류에이션은 그대로인지? 왜 시장이 메모리 반도체 멀티플을 더 지불할 용의가 없는지? \n\n한국은 여기서 한 단계 더 레벨업 하려면 멀티플 리레이팅이 필요한 구간\n\n차트: 미국 10년 실질금리 추이",
+          "date": "2026-06-16T21:58"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**삼성전기 피어 AT&S, 기판 증설 발표**\n\n- 장기계약 기반 €1.5B~€2.0B 투자\n- 말레이시아 쿨림 사업장 증설\n- 고객은 AMD 및 테크 기업들\n- 쿨림 제1공장은 램프업 성공\n- 제2공장 증설해 기판 공급 늘릴 계획\n\n금일 본장서 36% 급등",
+          "date": "2026-06-16T06:12"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**[단독] 삼성전자, 보스턴다이내믹스 지분 인수 타진**\n\n16일 업계에 따르면 삼성전자는 사업지원실 산하 인수합병(M&A) 조직을 중심으로 보스턴다이내믹스 지분 투자 타당성을 검토하고 있다. 단순 재무적 투자보다는 미래 로봇 사업 경쟁력 확보를 위한 전략적 투자 성격이 강한 것으로 전해졌다.\n\n특히 현재 일본 투자회사 소프트뱅크가 보유한 약 10%대 지분이 주요 검토 대상으로 거론된다.\n\n??\n\nhttps://n.news.naver.com/mnews/article/009/0005694412?rc=N&ntype=RANKING&si",
+          "date": "2026-06-16T02:30"
+        },
+        {
+          "channel": "d_ticker",
+          "text": "**[단독] 퀄컴, 텐스토렌트 인수 논의 중**\n\n퀄컴은 서버용 AI 칩 경쟁력을 높이기 위해 짐 켈러의 텐스토렌트를 $8B~$10B 사이 인수하기 위해 논의를 진행. 텐스토렌트는 2016년 설립돼 아이폰·아이패드 구동에 쓰이는 프로세서 일부를 개발한 스타트업. 짐 켈러는 AMD의 전설적인 엔지니어로 2016년부터 2018년까지 테슬라 호토파일럿 하드웨어 개발을 총괄한 인물임\n\n현대차그룹, 삼성전자, LG전자 등이 텐스토렌트 지분을 갖고 있습니다\n\nhttps://www.theinformation.com/articles/qualcom",
+          "date": "2026-06-15T23:47"
+        }
+      ]
+    },
+    "NVDA": {
+      "ticker": "NVDA",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 2,
+      "channels": [
+        "aetherjapanresearch",
+        "easobi"
+      ],
+      "latestDate": "2026-06-16T21:32:38+00:00",
+      "messages": [
+        {
+          "channel": "easobi",
+          "text": "2026년 6월 16일 글로벌 마감 시황 브리핑 📈📉\n\n뉴욕 증시는 월요일 랠리 이후 비교적 한산한 거래를 보인 가운데, 다우존스 산업평균지수는 유가 하락에 힘입어 사상 최고치 경신을 이어갔으나, 기술주 조정으로 S&P 500 지수와 나스닥 종합지수는 하락 마감했습니다.\n다우존스 산업평균지수는 0.64% 상승한 51999.67포인트를 기록했습니다. 반면, S&P 500 지수는 0.57% 하락한 7511.35포인트를, 나스닥 종합지수는 1.15% 하락한 26397.33포인트를 기록했습니다.\n기술주는 전일 랠리 이후 숨고르기에 들어가며",
+          "date": "2026-06-16T21:32"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "미즈호) AI Server 360 종합 공급망 트래커\n\"광(光)은 꺼지지 않는다, 전력은 여전히 상승세\" — CPO/HVDC 침투율 업데이트\n\n요약\n최근 CPO 스케일업과 800VDC 지연에 대한 시장 우려를 반영해, CPO는 광엔진(OE) 생산 대수 기준으로, 800VDC는 전력 랙 출하 대수 기준으로 전망을 업데이트합니다. 당사는 두 일정 모두 계획대로 진행될 것으로 예상하며, 양산은 2028~2029년에 이뤄질 것으로 봅니다. 또한 2027년부터 램프업되는 Nvidia의 CPO 스위치, 즉 3.2T Spectrum-X 수요가 ",
+          "date": "2026-06-16T13:55"
+        }
+      ]
+    },
+    "MSFT": {
+      "ticker": "MSFT",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 4,
+      "channels": [
+        "DOC_POOL",
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-06-16T22:10:29+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "마이크로소프트 지난 1년간 매출 $318B\n스페이스X 지난 1년간 매출 $18.7B",
+          "date": "2026-06-16T14:07"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) AI Capex 2.0; “AI 인프라, 지으면 금융시장은 자금을 댈 것이다”\n\nJP모건의 핵심 메시지는 **AI 인프라 투자가 꺾이기보다, 오히려 금융시장 전반을 동원하는 장기 조달 사이클로 들어갔다는 것**입니다. 올해 들어 AI·데이터센터 관련 발행액은 이미 3,000억 달러를 넘어섰고, JP모건은 현재 발행 속도를 향후 몇 년간 필요한 조달의 ‘기준선’으로 보고 있습니다. 지금까지는 회사채 시장이 중심이었지만, 앞으로는 우량 회사채, 레버리지드 파이낸스, 프로젝트 파이낸스, 구조화상품, 사모·대체자본까지 거의 모든",
+          "date": "2026-06-16T12:02"
+        },
+        {
+          "channel": "DOC_POOL",
+          "text": "**[Global Asset Strategy]**\n제목: 6월 글로벌 자산 전략 및 주요 기업·산업 분석\n작성일: 2026.06.17\n작성자: 하나증권 리서치센터\n\n**[인도 증시 전망]**\n· 종전 합의에 따른 유가 하락은 호재이나, 공급망 정상화 시차와 물가 부담으로 인해 추세적 반등보다는 제한적 상승이 예상됨\n\n**[BOJ 정책 방향]**\n· 6월 정책금리 25bp 인상 및 매파적 성명서 발표, 향후 물가 상방 리스크에 초점을 맞춘 통화정책 기조 강화\n\n**[메모리 테마 전략]**\n· 마이크론 실적 발표를 앞두고 LTA(장기공",
+          "date": "2026-06-16T22:10"
+        },
+        {
+          "channel": "DOC_POOL",
+          "text": "**[글로벌 증시/투자 전략]**\n제목: 미-이란 종전 합의에 따른 시장 안도와 기술주 강세\n작성일: 2024.06.12\n\n\n**[시장 안도 랠리]**\n· 미-이란 종전 합의로 에너지 가격 급등 우려가 완화되며 미국 및 중국 증시가 기술주 중심으로 동반 강세 마감\n\n**[반도체 모멘텀]**\n· 마이크론 등 AI 인프라 관련주가 구조적 성장 기대감에 힘입어 급등했으며, HBM 및 일반 DRAM 가격 인상으로 업황 개선 기대 확대\n\n**[크레딧 시장 변화]**\n· 중앙미디어그룹 계열사 법정관리 신청으로 비우량등급 채권 중심의 투자심리 ",
+          "date": "2026-06-16T22:08"
+        }
+      ]
+    },
+    "SOL금융": {
+      "ticker": "SOL금융",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-06-16T13:40:35+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "BofA) 2026년 설비투자 전망 전반적 상향 — 핵심은 반도체와 유틸리티(6월 12일)\n\nBofA는 올해 초 이후 2026년 설비투자, 즉 capex 전망이 전반적으로 상향 조정됐다고 평가했습니다. 가장 강한 상향 조정이 나타난 분야는 반도체, 미드스트림 MLP, 산업재입니다. 반면 화학 업종은 2026년과 2027년 전망이 모두 하향 조정되며 회복 시점이 계속 뒤로 밀리는 모습입니다.\n\n이번 보고서의 핵심 메시지는 2026년 capex 사이클의 주도권이 전통적인 오일·가스에서 반도체와 전력 인프라로 넘어가고 있다는 점입니다. ",
+          "date": "2026-06-16T13:40"
+        }
+      ]
+    },
+    "META": {
+      "ticker": "META",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 2,
+      "channels": [
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-06-16T13:28:01+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "BofA) 금 섹터, 현물가 기준으로 여전히 저평가\n\nBofA는 최근 금 가격이 조정을 받았음에도, 현물 원자재 가격을 기준으로 보면 귀금속 생산업체들이 금속·광산 하위 섹터 중 가장 매력적인 밸류에이션을 보인다고 평가했습니다.\n\n핵심은 금 생산업체들의 2026E FCF yield가 약 6.4%로 주요 광산 섹터 중 가장 높고, 2026E EV/EBITDA도 약 6.1배로 낮다는 점입니다. P/NAV 기준으로도 텅스텐 다음으로 저렴한 구간에 위치해 있어, 금 가격 약세에도 밸류에이션 매력이 부각된다는 판단입니다.\n\nBofA Comm",
+          "date": "2026-06-16T13:28"
+        },
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) AI Capex 2.0; “AI 인프라, 지으면 금융시장은 자금을 댈 것이다”\n\nJP모건의 핵심 메시지는 **AI 인프라 투자가 꺾이기보다, 오히려 금융시장 전반을 동원하는 장기 조달 사이클로 들어갔다는 것**입니다. 올해 들어 AI·데이터센터 관련 발행액은 이미 3,000억 달러를 넘어섰고, JP모건은 현재 발행 속도를 향후 몇 년간 필요한 조달의 ‘기준선’으로 보고 있습니다. 지금까지는 회사채 시장이 중심이었지만, 앞으로는 우량 회사채, 레버리지드 파이낸스, 프로젝트 파이낸스, 구조화상품, 사모·대체자본까지 거의 모든",
+          "date": "2026-06-16T12:02"
+        }
+      ]
+    },
+    "GOOG": {
+      "ticker": "GOOG",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-06-16T12:02:04+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) AI Capex 2.0; “AI 인프라, 지으면 금융시장은 자금을 댈 것이다”\n\nJP모건의 핵심 메시지는 **AI 인프라 투자가 꺾이기보다, 오히려 금융시장 전반을 동원하는 장기 조달 사이클로 들어갔다는 것**입니다. 올해 들어 AI·데이터센터 관련 발행액은 이미 3,000억 달러를 넘어섰고, JP모건은 현재 발행 속도를 향후 몇 년간 필요한 조달의 ‘기준선’으로 보고 있습니다. 지금까지는 회사채 시장이 중심이었지만, 앞으로는 우량 회사채, 레버리지드 파이낸스, 프로젝트 파이낸스, 구조화상품, 사모·대체자본까지 거의 모든",
+          "date": "2026-06-16T12:02"
+        }
+      ]
+    },
+    "GOOGL": {
+      "ticker": "GOOGL",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 2,
+      "channels": [
+        "DOC_POOL",
+        "aetherjapanresearch"
+      ],
+      "latestDate": "2026-06-16T22:08:40+00:00",
+      "messages": [
+        {
+          "channel": "aetherjapanresearch",
+          "text": "JP모건) AI Capex 2.0; “AI 인프라, 지으면 금융시장은 자금을 댈 것이다”\n\nJP모건의 핵심 메시지는 **AI 인프라 투자가 꺾이기보다, 오히려 금융시장 전반을 동원하는 장기 조달 사이클로 들어갔다는 것**입니다. 올해 들어 AI·데이터센터 관련 발행액은 이미 3,000억 달러를 넘어섰고, JP모건은 현재 발행 속도를 향후 몇 년간 필요한 조달의 ‘기준선’으로 보고 있습니다. 지금까지는 회사채 시장이 중심이었지만, 앞으로는 우량 회사채, 레버리지드 파이낸스, 프로젝트 파이낸스, 구조화상품, 사모·대체자본까지 거의 모든",
+          "date": "2026-06-16T12:02"
+        },
+        {
+          "channel": "DOC_POOL",
+          "text": "**[글로벌 증시/투자 전략]**\n제목: 미-이란 종전 합의에 따른 시장 안도와 기술주 강세\n작성일: 2024.06.12\n\n\n**[시장 안도 랠리]**\n· 미-이란 종전 합의로 에너지 가격 급등 우려가 완화되며 미국 및 중국 증시가 기술주 중심으로 동반 강세 마감\n\n**[반도체 모멘텀]**\n· 마이크론 등 AI 인프라 관련주가 구조적 성장 기대감에 힘입어 급등했으며, HBM 및 일반 DRAM 가격 인상으로 업황 개선 기대 확대\n\n**[크레딧 시장 변화]**\n· 중앙미디어그룹 계열사 법정관리 신청으로 비우량등급 채권 중심의 투자심리 ",
+          "date": "2026-06-16T22:08"
         }
       ]
     },
@@ -411,65 +300,28 @@
       "channels": [
         "aetherjapanresearch"
       ],
-      "latestDate": "2026-06-15T12:27:22+00:00",
+      "latestDate": "2026-06-16T11:55:22+00:00",
       "messages": [
         {
           "channel": "aetherjapanresearch",
-          "text": "밴스 부통령은 미국이 호르무즈 해협이 장기적으로 ‘통행료 없이’ 개방될 것으로 예상한다고 밝혔습니다.\n\nVP Vance says U.S. expects Strait of Hormuz to be open 'toll-free' long term\n\nhttps://www.cnbc.com/2026/06/15/vp-vance-says-us-expects-strait-of-hormuz-to-be-open-toll-free-long-term.html?__source=androidappshare",
-          "date": "2026-06-15T12:27"
+          "text": "JP모건) Advantest (6857.T); 실적 추정치 상향: GPU/ASIC에 더해 CPU/CPO 수요 기대\n\n최근 상황을 반영해 실적 추정치를 조정합니다. 투자의견 비중확대를 유지하고, 목표주가는 기존 31,000엔에서 41,000엔으로 상향합니다. 목표주가 기준 시점은 2026년 12월 말입니다. GPU 테스트 시간, 즉 공정 수를 포함한 총 테스트 시간에 대한 가정은 낮추지만, 신규/업그레이드 비율 조정과 보수적인 단가 상승 가정을 반영해 전체 추정치는 상향합니다. 또한 높은 수요에 대응하기 위한 SoC 테스터 생산능력 ",
+          "date": "2026-06-16T11:55"
         }
       ]
     },
-    "AAPL": {
-      "ticker": "AAPL",
+    "AMZN": {
+      "ticker": "AMZN",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
         "aetherjapanresearch"
       ],
-      "latestDate": "2026-06-15T12:11:23+00:00",
+      "latestDate": "2026-06-16T07:07:10+00:00",
       "messages": [
         {
           "channel": "aetherjapanresearch",
-          "text": "Citi) 800V DC 전환이 더 강한 아날로그 회복을 견인. TXN을 최선호주로 재확인. 온세미에 대해 상승 촉매 관찰 대상 신규 지정.\n\nCITI의 견해\n이 보고서에서는 800V DC 전환이 당사 아날로그 및 커넥터 커버리지에 미치는 영향을 정리하고, 현재 아날로그 사이클이 어느 지점에 있는지 평가합니다. 당사는 TXN에 대해 가장 긍정적인 시각을 유지하고 있습니다. 이는 2026년 하반기부터 데이터센터 전력 부문에서 점유율 확대가 예상되기 때문입니다. 또한 엔터프라이즈 데이터 및 통신 시장에서 지속적인 점유율 확대가 이어지고",
-          "date": "2026-06-15T12:11"
-        }
-      ]
-    },
-    "ADI": {
-      "ticker": "ADI",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
-      "channels": [
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-06-15T12:11:23+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "Citi) 800V DC 전환이 더 강한 아날로그 회복을 견인. TXN을 최선호주로 재확인. 온세미에 대해 상승 촉매 관찰 대상 신규 지정.\n\nCITI의 견해\n이 보고서에서는 800V DC 전환이 당사 아날로그 및 커넥터 커버리지에 미치는 영향을 정리하고, 현재 아날로그 사이클이 어느 지점에 있는지 평가합니다. 당사는 TXN에 대해 가장 긍정적인 시각을 유지하고 있습니다. 이는 2026년 하반기부터 데이터센터 전력 부문에서 점유율 확대가 예상되기 때문입니다. 또한 엔터프라이즈 데이터 및 통신 시장에서 지속적인 점유율 확대가 이어지고",
-          "date": "2026-06-15T12:11"
-        },
-        {
-          "channel": "aetherjapanresearch",
-          "text": "[로이터](https://www.reuters.com/world/tesla-presented-misleading-full-self-driving-safety-data-european-regulators-2026-06-15/?taid=6a2fb4d5db29740001ce11e3&utm_campaign=trueAnthem:+Trending+Content&utm_medium=trueAnthem&utm_source=twitter)) 테슬라는 EU 규제당국에 오해의 소지가 있는 FSD 데이터 제출\n\n로이터는 테슬라가 유럽에서 FSD, 즉 “",
-          "date": "2026-06-15T11:37"
-        }
-      ]
-    },
-    "TSLA": {
-      "ticker": "TSLA",
-      "summary": "분석 실패: Connection error.",
-      "messageCount": 1,
-      "channels": [
-        "aetherjapanresearch"
-      ],
-      "latestDate": "2026-06-15T11:37:32+00:00",
-      "messages": [
-        {
-          "channel": "aetherjapanresearch",
-          "text": "[로이터](https://www.reuters.com/world/tesla-presented-misleading-full-self-driving-safety-data-european-regulators-2026-06-15/?taid=6a2fb4d5db29740001ce11e3&utm_campaign=trueAnthem:+Trending+Content&utm_medium=trueAnthem&utm_source=twitter)) 테슬라는 EU 규제당국에 오해의 소지가 있는 FSD 데이터 제출\n\n로이터는 테슬라가 유럽에서 FSD, 즉 “",
-          "date": "2026-06-15T11:37"
+          "text": "[WP](https://www.washingtonpost.com/technology/2026/06/15/how-anthropic-lost-white-houses-trust-then-its-flagship-product/)) 앤트로픽의 수출통제 배경에는 중국 연계 의심 한국 통신사가 포함\n\n트럼프 행정부가 Anthropic의 최신 AI 모델을 오프라인으로 내리도록 압박하기 전부터 이미 수출통제와 제재를 검토하고 있었으며, 그 배경에는 Anthropic이 민감한 AI 기술 접근 권한을 관리하는 방식에 대한 백악관의 신뢰 붕괴가 있었다고",
+          "date": "2026-06-16T07:07"
         }
       ]
     },
@@ -480,54 +332,97 @@
       "channels": [
         "d_ticker"
       ],
-      "latestDate": "2026-06-15T01:03:28+00:00",
+      "latestDate": "2026-06-16T06:12:14+00:00",
       "messages": [
         {
           "channel": "d_ticker",
-          "text": "피어그룹(이비덴·무라타)과 함께 급등 중인 삼성전기",
-          "date": "2026-06-15T01:03"
+          "text": "**삼성전기 피어 AT&S, 기판 증설 발표**\n\n- 장기계약 기반 €1.5B~€2.0B 투자\n- 말레이시아 쿨림 사업장 증설\n- 고객은 AMD 및 테크 기업들\n- 쿨림 제1공장은 램프업 성공\n- 제2공장 증설해 기판 공급 늘릴 계획\n\n금일 본장서 36% 급등",
+          "date": "2026-06-16T06:12"
+        }
+      ]
+    },
+    "TSLA": {
+      "ticker": "TSLA",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "d_ticker"
+      ],
+      "latestDate": "2026-06-15T23:47:30+00:00",
+      "messages": [
+        {
+          "channel": "d_ticker",
+          "text": "**[단독] 퀄컴, 텐스토렌트 인수 논의 중**\n\n퀄컴은 서버용 AI 칩 경쟁력을 높이기 위해 짐 켈러의 텐스토렌트를 $8B~$10B 사이 인수하기 위해 논의를 진행. 텐스토렌트는 2016년 설립돼 아이폰·아이패드 구동에 쓰이는 프로세서 일부를 개발한 스타트업. 짐 켈러는 AMD의 전설적인 엔지니어로 2016년부터 2018년까지 테슬라 호토파일럿 하드웨어 개발을 총괄한 인물임\n\n현대차그룹, 삼성전자, LG전자 등이 텐스토렌트 지분을 갖고 있습니다\n\nhttps://www.theinformation.com/articles/qualcom",
+          "date": "2026-06-15T23:47"
         }
       ]
     },
     "현대차": {
       "ticker": "현대차",
       "summary": "분석 실패: Connection error.",
-      "messageCount": 2,
+      "messageCount": 1,
       "channels": [
-        "DOC_POOL"
+        "d_ticker"
       ],
-      "latestDate": "2026-06-15T15:44:12+00:00",
+      "latestDate": "2026-06-15T23:47:30+00:00",
       "messages": [
         {
-          "channel": "DOC_POOL",
-          "text": "**[자동차 산업]**\n제목: Hello, Boston Dynamics! This is Google\n작성일: 2026.06.16\n작성자: 김창호, 전유나 (한국투자증권)\n투자의견: 매수\n목표주가: 현대차 770,000원, 기아 260,000원, 현대모비스 950,000원\n\n**[보스턴다이내믹스(BD) 지분 투자 가능성]**\n· 채널체크 결과, 구글이 2025년 말 현대차에 보스턴다이내믹스 지분 투자를 타진한 것으로 파악됨. 현대차는 일단 제안을 거절했으나, 향후 빅테크 기업들의 지분 투자 참여 가능성을 반영하여 현대차그룹의 BD 가",
-          "date": "2026-06-15T15:44"
-        },
-        {
-          "channel": "DOC_POOL",
-          "text": "**[삼미금속/금속 단조/기업분석]**\n제목: 조선, 방산, 원전 등 다각화된 포트폴리오와 엔진 사업부의 성장\n작성일: 2026.06.16\n작성자: 유창근 (IBK투자증권)\n\n**[실적 턴어라운드]**\n**[엔진 사업 집중]**\n**[사업 다각화 효과]**\n\n**[실적 턴어라운드]**\n· 2026년 1분기 매출액 183억 원, 영업이익 16억 원을 기록하며 전 분기 대비 각각 14.0%, 9.9% 성장함\n· 자동차 부문은 현대차 전주공장 라인 재배치 영향이 해소됨에 따라 2분기부터 본격적인 실적 회복세가 기대됨\n\n**[엔진 사업 집",
-          "date": "2026-06-15T14:17"
+          "channel": "d_ticker",
+          "text": "**[단독] 퀄컴, 텐스토렌트 인수 논의 중**\n\n퀄컴은 서버용 AI 칩 경쟁력을 높이기 위해 짐 켈러의 텐스토렌트를 $8B~$10B 사이 인수하기 위해 논의를 진행. 텐스토렌트는 2016년 설립돼 아이폰·아이패드 구동에 쓰이는 프로세서 일부를 개발한 스타트업. 짐 켈러는 AMD의 전설적인 엔지니어로 2016년부터 2018년까지 테슬라 호토파일럿 하드웨어 개발을 총괄한 인물임\n\n현대차그룹, 삼성전자, LG전자 등이 텐스토렌트 지분을 갖고 있습니다\n\nhttps://www.theinformation.com/articles/qualcom",
+          "date": "2026-06-15T23:47"
         }
       ]
     },
-    "GOOG": {
-      "ticker": "GOOG",
+    "한국카본": {
+      "ticker": "한국카본",
       "summary": "분석 실패: Connection error.",
       "messageCount": 1,
       "channels": [
         "DOC_POOL"
       ],
-      "latestDate": "2026-06-15T15:44:12+00:00",
+      "latestDate": "2026-06-16T22:10:44+00:00",
       "messages": [
         {
           "channel": "DOC_POOL",
-          "text": "**[자동차 산업]**\n제목: Hello, Boston Dynamics! This is Google\n작성일: 2026.06.16\n작성자: 김창호, 전유나 (한국투자증권)\n투자의견: 매수\n목표주가: 현대차 770,000원, 기아 260,000원, 현대모비스 950,000원\n\n**[보스턴다이내믹스(BD) 지분 투자 가능성]**\n· 채널체크 결과, 구글이 2025년 말 현대차에 보스턴다이내믹스 지분 투자를 타진한 것으로 파악됨. 현대차는 일단 제안을 거절했으나, 향후 빅테크 기업들의 지분 투자 참여 가능성을 반영하여 현대차그룹의 BD 가",
-          "date": "2026-06-15T15:44"
+          "text": "**[한국카본/조선ㆍ기계ㆍ방산/기자재]**\n제목: 아리가또, 탑라인이 뚫린다\n작성일: 2026.06.16\n작성자: 최광식, 이준범 (다올투자증권)\n투자의견: BUY\n목표주가: 61,000원\n\n**[일본 LNG선 재개]** 일본의 LNG선 건조 재개 결정으로 인한 신규 수요 발생이 한국카본의 매출 상단 돌파를 견인할 전망\n**[수익성 개선 기대]** 원재료 MDI 가격의 하향 안정화와 매출 증가에 따른 고정비 효과로 수익성 개선세가 지속될 것으로 예상\n**[성장 모멘텀 확보]** 일본 시장 외에도 중국향 판매 확대, FLNG 건조, ",
+          "date": "2026-06-16T22:10"
+        }
+      ]
+    },
+    "HD한국조선": {
+      "ticker": "HD한국조선",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "DOC_POOL"
+      ],
+      "latestDate": "2026-06-16T22:10:44+00:00",
+      "messages": [
+        {
+          "channel": "DOC_POOL",
+          "text": "**[한국카본/조선ㆍ기계ㆍ방산/기자재]**\n제목: 아리가또, 탑라인이 뚫린다\n작성일: 2026.06.16\n작성자: 최광식, 이준범 (다올투자증권)\n투자의견: BUY\n목표주가: 61,000원\n\n**[일본 LNG선 재개]** 일본의 LNG선 건조 재개 결정으로 인한 신규 수요 발생이 한국카본의 매출 상단 돌파를 견인할 전망\n**[수익성 개선 기대]** 원재료 MDI 가격의 하향 안정화와 매출 증가에 따른 고정비 효과로 수익성 개선세가 지속될 것으로 예상\n**[성장 모멘텀 확보]** 일본 시장 외에도 중국향 판매 확대, FLNG 건조, ",
+          "date": "2026-06-16T22:10"
+        }
+      ]
+    },
+    "삼성중공업": {
+      "ticker": "삼성중공업",
+      "summary": "분석 실패: Connection error.",
+      "messageCount": 1,
+      "channels": [
+        "DOC_POOL"
+      ],
+      "latestDate": "2026-06-16T22:10:44+00:00",
+      "messages": [
+        {
+          "channel": "DOC_POOL",
+          "text": "**[한국카본/조선ㆍ기계ㆍ방산/기자재]**\n제목: 아리가또, 탑라인이 뚫린다\n작성일: 2026.06.16\n작성자: 최광식, 이준범 (다올투자증권)\n투자의견: BUY\n목표주가: 61,000원\n\n**[일본 LNG선 재개]** 일본의 LNG선 건조 재개 결정으로 인한 신규 수요 발생이 한국카본의 매출 상단 돌파를 견인할 전망\n**[수익성 개선 기대]** 원재료 MDI 가격의 하향 안정화와 매출 증가에 따른 고정비 효과로 수익성 개선세가 지속될 것으로 예상\n**[성장 모멘텀 확보]** 일본 시장 외에도 중국향 판매 확대, FLNG 건조, ",
+          "date": "2026-06-16T22:10"
         }
       ]
     }
   },
-  "totalMessages": 62,
+  "totalMessages": 58,
   "channels": [
     "Jstockclass",
     "report_figure_by_offset",
