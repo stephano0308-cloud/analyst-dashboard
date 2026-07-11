@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-07-10T22:47:12.433953",
+  "fetchedAt": "2026-07-11T22:39:55.153641",
   "stockCount": 22,
   "stocks": {
     "SK하이닉스": {
@@ -10,12 +10,12 @@
       "per": 21.06,
       "pbr": 9.17,
       "dividendYield": 0.14,
-      "dailyChangePct": -0.27,
-      "rsi14": 33.2,
-      "macd": 7924.12,
-      "macdSignal": 90143.91,
-      "macdHist": -82219.79,
-      "technicalSignal": "MACD-"
+      "dailyChangePct": null,
+      "rsi14": null,
+      "macd": null,
+      "macdSignal": null,
+      "macdHist": null,
+      "technicalSignal": null
     },
     "삼성전자": {
       "code": "005930",
