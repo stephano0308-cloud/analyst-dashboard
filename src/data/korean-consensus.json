@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-08-29T23:40:46.009596",
+  "fetchedAt": "2026-08-30T23:58:43.995669",
   "stockCount": 22,
   "stocks": {
     "SK하이닉스": {
@@ -262,7 +262,7 @@
       "ticker": "테크윙",
       "currentPrice": 49900.0,
       "targetPrice": null,
-      "per": 405.69,
+      "per": 198.02,
       "pbr": 8.73,
       "dividendYield": 0.26,
       "dailyChangePct": 0.4,
