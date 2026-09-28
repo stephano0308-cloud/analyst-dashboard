@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-09-26T23:58:29.461175",
+  "fetchedAt": "2026-09-28T00:03:42.691521",
   "stockCount": 22,
   "stocks": {
     "SK하이닉스": {
@@ -12,9 +12,9 @@
       "dividendYield": null,
       "dailyChangePct": 1.2,
       "rsi14": 69.5,
-      "macd": 34516.78,
-      "macdSignal": 17506.37,
-      "macdHist": 17010.41,
+      "macd": 34194.63,
+      "macdSignal": 17032.7,
+      "macdHist": 17161.93,
       "technicalSignal": "MACD+"
     },
     "삼성전자": {
@@ -27,9 +27,9 @@
       "dividendYield": null,
       "dailyChangePct": 3.25,
       "rsi14": 72.0,
-      "macd": 3379.93,
-      "macdSignal": 757.0,
-      "macdHist": 2622.94,
+      "macd": 3325.94,
+      "macdSignal": 677.53,
+      "macdHist": 2648.41,
       "technicalSignal": "과매수 / MACD+"
     },
     "삼성전자우": {
@@ -42,9 +42,9 @@
       "dividendYield": null,
       "dailyChangePct": 4.02,
       "rsi14": 71.9,
-      "macd": 5482.36,
-      "macdSignal": 3117.86,
-      "macdHist": 2364.5,
+      "macd": 5444.96,
+      "macdSignal": 3062.88,
+      "macdHist": 2382.08,
       "technicalSignal": "과매수 / MACD+"
     },
     "삼성전기": {
@@ -57,9 +57,9 @@
       "dividendYield": null,
       "dailyChangePct": 1.41,
       "rsi14": 63.2,
-      "macd": 14504.42,
-      "macdSignal": 836.88,
-      "macdHist": 13667.55,
+      "macd": 14058.68,
+      "macdSignal": 185.32,
+      "macdHist": 13873.36,
       "technicalSignal": "MACD+"
     },
     "한화에어로": {
@@ -72,9 +72,9 @@
       "dividendYield": null,
       "dailyChangePct": -3.41,
       "rsi14": 46.2,
-      "macd": -2962.03,
-      "macdSignal": 2659.29,
-      "macdHist": -5621.32,
+      "macd": -2511.39,
+      "macdSignal": 3318.38,
+      "macdHist": -5829.77,
       "technicalSignal": "MACD-"
     },
     "현대차": {
@@ -87,9 +87,9 @@
       "dividendYield": null,
       "dailyChangePct": -1.94,
       "rsi14": 27.3,
-      "macd": -13282.46,
-      "macdSignal": -11521.45,
-      "macdHist": -1761.01,
+      "macd": -13182.22,
+      "macdSignal": -11374.67,
+      "macdHist": -1807.55,
       "technicalSignal": "과매도 / MACD-"
     },
     "현대로템": {
@@ -102,9 +102,9 @@
       "dividendYield": null,
       "dailyChangePct": -1.02,
       "rsi14": 22.5,
-      "macd": -6025.75,
-      "macdSignal": -5981.41,
-      "macdHist": -44.34,
+      "macd": -5968.01,
+      "macdSignal": -5896.81,
+      "macdHist": -71.2,
       "technicalSignal": "과매도 / MACD-"
     },
     "에스티팜": {
@@ -117,9 +117,9 @@
       "dividendYield": null,
       "dailyChangePct": 0.77,
       "rsi14": 33.5,
-      "macd": -3836.44,
-      "macdSignal": -3969.2,
-      "macdHist": 132.76,
+      "macd": -4002.33,
+      "macdSignal": -4211.75,
+      "macdHist": 209.43,
       "technicalSignal": "MACD+"
     },
     "HD현대중공업": {
@@ -132,9 +132,9 @@
       "dividendYield": null,
       "dailyChangePct": -3.18,
       "rsi14": 51.7,
-      "macd": -5844.53,
-      "macdSignal": -6530.46,
-      "macdHist": 685.93,
+      "macd": -5900.7,
+      "macdSignal": -6612.38,
+      "macdHist": 711.68,
       "technicalSignal": "MACD+"
     },
     "HD건설기계": {
@@ -147,9 +147,9 @@
       "dividendYield": null,
       "dailyChangePct": -5.67,
       "rsi14": 43.8,
-      "macd": 853.36,
-      "macdSignal": 1720.28,
-      "macdHist": -866.92,
+      "macd": 864.31,
+      "macdSignal": 1736.39,
+      "macdHist": -872.09,
       "technicalSignal": "MACD-"
     },
     "HD한국조선": {
@@ -162,9 +162,9 @@
       "dividendYield": null,
       "dailyChangePct": -2.06,
       "rsi14": 44.7,
-      "macd": -6003.16,
-      "macdSignal": -4664.58,
-      "macdHist": -1338.59,
+      "macd": -6003.85,
+      "macdSignal": -4665.49,
+      "macdHist": -1338.37,
       "technicalSignal": "MACD-"
     },
     "HD현대일렉": {
@@ -177,9 +177,9 @@
       "dividendYield": null,
       "dailyChangePct": -0.84,
       "rsi14": 50.5,
-      "macd": -13613.79,
-      "macdSignal": -12453.62,
-      "macdHist": -1160.16,
+      "macd": -13555.22,
+      "macdSignal": -12367.57,
+      "macdHist": -1187.66,
       "technicalSignal": "MACD-"
     },
     "HD마린엔진": {
@@ -192,9 +192,9 @@
       "dividendYield": null,
       "dailyChangePct": -2.2,
       "rsi14": 48.7,
-      "macd": -1044.73,
-      "macdSignal": -1098.7,
-      "macdHist": 53.97,
+      "macd": -1038.9,
+      "macdSignal": -1090.15,
+      "macdHist": 51.25,
       "technicalSignal": "MACD+"
     },
     "한국금융우": {
@@ -207,9 +207,9 @@
       "dividendYield": null,
       "dailyChangePct": 0.07,
       "rsi14": 45.5,
-      "macd": -948.45,
-      "macdSignal": -539.68,
-      "macdHist": -408.77,
+      "macd": -964.69,
+      "macdSignal": -563.39,
+      "macdHist": -401.3,
       "technicalSignal": "MACD-"
     },
     "세진중공업": {
@@ -222,9 +222,9 @@
       "dividendYield": null,
       "dailyChangePct": -0.99,
       "rsi14": 43.1,
-      "macd": -202.54,
-      "macdSignal": -211.35,
-      "macdHist": 8.81,
+      "macd": -209.14,
+      "macdSignal": -221.0,
+      "macdHist": 11.86,
       "technicalSignal": "MACD+"
     },
     "삼성중공업": {
@@ -237,9 +237,9 @@
       "dividendYield": null,
       "dailyChangePct": -1.7,
       "rsi14": 38.5,
-      "macd": -211.81,
-      "macdSignal": -147.17,
-      "macdHist": -64.64,
+      "macd": -214.19,
+      "macdSignal": -150.64,
+      "macdHist": -63.55,
       "technicalSignal": "MACD-"
     },
     "미래에셋": {
@@ -252,9 +252,9 @@
       "dividendYield": null,
       "dailyChangePct": -1.83,
       "rsi14": 43.4,
-      "macd": -999.19,
-      "macdSignal": -934.48,
-      "macdHist": -64.71,
+      "macd": -1012.63,
+      "macdSignal": -954.13,
+      "macdHist": -58.5,
       "technicalSignal": "MACD-"
     },
     "테크윙": {
@@ -267,9 +267,9 @@
       "dividendYield": null,
       "dailyChangePct": 3.26,
       "rsi14": 57.3,
-      "macd": -76.82,
-      "macdSignal": -250.67,
-      "macdHist": 173.85,
+      "macd": -70.72,
+      "macdSignal": -241.74,
+      "macdHist": 171.01,
       "technicalSignal": "MACD+"
     },
     "두산에너빌": {
@@ -282,9 +282,9 @@
       "dividendYield": null,
       "dailyChangePct": -5.55,
       "rsi14": 54.1,
-      "macd": 1494.35,
-      "macdSignal": 2169.16,
-      "macdHist": -674.81,
+      "macd": 1499.77,
+      "macdSignal": 2177.14,
+      "macdHist": -677.37,
       "technicalSignal": "MACD-"
     },
     "한국카본": {
@@ -297,9 +297,9 @@
       "dividendYield": null,
       "dailyChangePct": -1.46,
       "rsi14": 23.8,
-      "macd": -766.49,
-      "macdSignal": -593.88,
-      "macdHist": -172.61,
+      "macd": -764.87,
+      "macdSignal": -591.5,
+      "macdHist": -173.37,
       "technicalSignal": "과매도 / MACD-"
     },
     "삼양식품": {
@@ -312,9 +312,9 @@
       "dividendYield": null,
       "dailyChangePct": -2.96,
       "rsi14": 22.4,
-      "macd": -18667.14,
-      "macdSignal": -572.49,
-      "macdHist": -18094.65,
+      "macd": -19367.76,
+      "macdSignal": -1597.45,
+      "macdHist": -17770.31,
       "technicalSignal": "과매도 / MACD-"
     },
     "산일전기": {
