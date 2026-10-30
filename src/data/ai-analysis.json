@@ -1,5 +1,5 @@
 {
-  "fetchedAt": "2026-10-29T01:21:28.711120",
-  "analysis": "Analysis failed: rom None\nanthropic.NotFoundError: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4-20250514'}, 'request_id': 'req_011CgVek7pjCTRrH7V5z59D5'}\n",
+  "fetchedAt": "2026-10-30T01:25:16.751088",
+  "analysis": "Analysis failed: rom None\nanthropic.NotFoundError: Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4-20250514'}, 'request_id': 'req_011CgXYqqfbxUSeaTaNCsJ5s'}\n",
   "status": "error"
 }
